@@ -88,13 +88,25 @@ async function fetchBlogPosts(count: number = 7): Promise<BlogPost[]> {
     const entries: any[] = data?.feed?.entry ?? [];
 
     return entries.map((entry): BlogPost => {
-      const title = entry.title?.$t ?? "Untitled";
+      const title = (entry.title?.$t ?? "Untitled")
+  .replace(/\\\([\s\S]*?\\\)/g, "")
+  .replace(/\\\[[\s\S]*?\\\]/g, "")
+  .trim();
 
       const links: any[] = entry.link ?? [];
       const url = links.find((l) => l.rel === "alternate")?.href ?? "https://eisatopon.blogspot.com";
 
       const rawSummary = entry.summary?.$t ?? entry.content?.$t ?? "";
-      const summary = rawSummary.replace(/<[^>]+>/g, "").slice(0, 160).trim();
+      const summary = rawSummary
+  .replace(/<[^>]+>/g, "")
+  .replace(/&nbsp;/g, " ")
+  .replace(/&amp;/g, "&")
+  .replace(/&lt;/g, "<")
+  .replace(/&gt;/g, ">")
+  .replace(/&quot;/g, '"')
+  .replace(/&#039;/g, "'")
+  .slice(0, 160)
+  .trim();
 
       const published = entry.published?.$t
         ? new Date(entry.published.$t).toLocaleDateString("en-US", { year: "numeric", month: "long" })
