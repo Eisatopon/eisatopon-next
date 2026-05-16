@@ -43,8 +43,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="el" className={`${fontVars} h-full antialiased`}>
-      <body className="min-h-full">
+    <html lang="el" className={`${fontVars} antialiased`}>
+      <body className="">
         {children}
         <ScrollToTop />
       </body>

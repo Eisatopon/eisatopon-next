@@ -8,10 +8,10 @@
   --font-family-serif:    "Source Serif 4", serif;
   --font-family-mono:     "JetBrains Mono", monospace;
 
-  /* Backgrounds */
-  --color-base:    #080a0f;
-  --color-surface: #0d1018;
-  --color-card:    #111420;
+/* Backgrounds — λίγο πιο ανοιχτά */
+--color-base:    #0f1117;   /* από #080a0f */
+--color-surface: #141720;   /* από #0d1018 */
+--color-card:    #181c28;   /* από #111420 */
 
   /* Accent — Scientific Blue */
   --color-accent:        #7fa8d4;
@@ -24,10 +24,10 @@
   --color-gold-border: rgba(196, 169, 106, 0.20);
 
   /* Text */
-  --color-ink-primary:   #f0ede6;
-  --color-ink-secondary: #9a9890;
-  --color-ink-tertiary:  #52525a;
-  --color-ink-muted:     #3a3a42;
+ --color-ink-primary:   #f5f2eb;  /* λίγο πιο φωτεινό */
+--color-ink-secondary: #b8b5ad;  /* από #9a9890 → πιο ανοιχτό */
+--color-ink-tertiary:  #7a7a82;  /* από #52525a → πολύ πιο ανοιχτό */
+--color-ink-muted:     #5a5a64;  /* από #3a3a42 → πολύ πιο ανοιχτό */
 
   /* Borders */
   --color-border-dim:    rgba(255, 255, 255, 0.055);
