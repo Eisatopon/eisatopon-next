@@ -198,7 +198,7 @@ export default function Home() {
               <p style={{ fontSize: "0.8rem", color: "var(--color-ink-tertiary)", lineHeight: 1.6, marginBottom: "14px" }}>
                 Over 40,000 mathematical articles since 2010.
               </p>
-              <a href="https://www.eisatopon.gr" target="_blank" rel="noopener noreferrer" style={{ display: "block", textAlign: "center", padding: "8px", borderRadius: "8px", fontSize: "0.8rem", background: "rgba(255,255,255,0.05)", border: "0.5px solid var(--color-border-soft)", color: "var(--color-ink-secondary)" }}>
+              <a href="https://www.eisatopon.blogspot.com" target="_blank" rel="noopener noreferrer" style={{ display: "block", textAlign: "center", padding: "8px", borderRadius: "8px", fontSize: "0.8rem", background: "rgba(255,255,255,0.05)", border: "0.5px solid var(--color-border-soft)", color: "var(--color-ink-secondary)" }}>
                 Explore eisatopon.gr
               </a>
             </div>
