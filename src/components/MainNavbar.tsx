@@ -10,15 +10,11 @@ export default function MainNavbar() {
       }}
     >
       <div
-        className="mx-auto px-12 flex items-center justify-between"
+        className="mx-auto px-6 sm:px-12 flex items-center justify-between"
         style={{ maxWidth: "1200px", height: "64px" }}
       >
-
-        {/* LOGO — wordmark only */}
-        <Link
-          href="/"
-          style={{ textDecoration: "none" }}
-        >
+        {/* LOGO */}
+        <Link href="/" style={{ textDecoration: "none" }}>
           <div style={{
             fontSize: "1.75rem",
             fontFamily: "var(--font-family-playfair)",
@@ -29,29 +25,6 @@ export default function MainNavbar() {
             Eisatopon<span style={{ color: "var(--color-gold)" }}>AI</span>
           </div>
         </Link>
-
-        {/* CATEGORIES */}
-        <nav aria-label="Article categories" className="hidden md:flex items-center gap-1">
-          {["All", "Number Theory", "Geometry", "Analysis", "Combinatorics", "Algebra"].map((cat, i) => (
-            <Link
-              key={cat}
-              href={i === 0 ? "/" : `/category/${cat.toLowerCase().replace(" ", "-")}`}
-              style={{
-                padding: "8px 14px",
-                fontSize: "0.72rem",
-                letterSpacing: "0.08em",
-                textTransform: "uppercase",
-                color: i === 0 ? "var(--color-accent)" : "var(--color-ink-secondary)",
-                fontWeight: i === 0 ? 600 : 400,
-                borderBottom: i === 0 ? "2px solid var(--color-accent)" : "2px solid transparent",
-                transition: "all 0.2s ease",
-                textDecoration: "none",
-              }}
-            >
-              {cat}
-            </Link>
-          ))}
-        </nav>
 
         {/* SEARCH */}
         <button
@@ -67,7 +40,6 @@ export default function MainNavbar() {
             <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-4.35-4.35m1.85-5.15a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />
           </svg>
         </button>
-
       </div>
     </header>
   );
