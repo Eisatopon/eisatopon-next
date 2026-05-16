@@ -76,7 +76,7 @@ export default function Home() {
               <div className="absolute inset-0" style={{ backgroundImage: "linear-gradient(rgba(127,168,212,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(127,168,212,0.3) 1px, transparent 1px)", backgroundSize: "40px 40px", opacity: 0.08 }} />
               <div className="absolute pointer-events-none" style={{ top: "-40px", left: "33%", width: "400px", height: "300px", borderRadius: "50%", background: "radial-gradient(ellipse, rgba(127,168,212,0.15) 0%, transparent 70%)" }} />
             </div>
-            <div className="absolute inset-0 flex flex-col justify-end" style={{ padding: "56px", background: "linear-gradient(to top, rgba(8,10,15,0.85) 0%, rgba(8,10,15,0.35) 55%, transparent 100%)" }}>
+            <div className="absolute inset-0 flex flex-col justify-end" style={{ padding: "clamp(24px, 5vw, 56px)", background: "linear-gradient(to top, rgba(8,10,15,0.85) 0%, rgba(8,10,15,0.35) 55%, transparent 100%)" }}>
               <div className="flex gap-2 mb-5">
                 <span className="badge badge-gold">Featured</span>
                 <span className="badge badge-accent">Number Theory</span>
@@ -87,7 +87,7 @@ export default function Home() {
               <p style={{ color: "var(--color-ink-tertiary)", fontSize: "1rem", lineHeight: 1.7, maxWidth: "600px", marginBottom: "20px" }}>
                 A journey into transfinite numbers, bijections, and the counterintuitive mathematics of infinite sets.
               </p>
-              <div style={{ display: "flex", alignItems: "center", gap: "12px", fontSize: "0.75rem", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--color-ink-muted)" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "wrap", fontSize: "0.75rem", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--color-ink-muted)" }}>
                 <span>By EisatoponAI Team</span>
                 <span style={{ width: "3px", height: "3px", borderRadius: "50%", background: "var(--color-ink-muted)" }} />
                 <span>May 2026</span>
