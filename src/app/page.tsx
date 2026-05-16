@@ -305,7 +305,7 @@ export default function Home() {
                 Thousands of mathematical articles since 2010 at eisatopon.gr
               </p>
               <a
-                href="https://www.eisatopon.blogspot.com"
+                href="https://eisatopon.blogspot.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ display: "block", textAlign: "center", padding: "8px", borderRadius: "8px", fontSize: "0.8rem", background: "rgba(255,255,255,0.05)", border: "0.5px solid var(--color-border-soft)", color: "var(--color-ink-secondary)" }}
