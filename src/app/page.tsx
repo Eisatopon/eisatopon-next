@@ -2,6 +2,7 @@ import Script from "next/script";
 import Link from "next/link";
 import MainNavbar from "@/components/MainNavbar";
 import type { Metadata } from "next";
+import { getAllArticles, Article } from "@/lib/articles";
 
 export const metadata: Metadata = {
   title: "Mathematical Problem Banks | EisatoponAI",
@@ -49,16 +50,7 @@ const websiteSchema = {
   ],
 };
 
-// ─── Types ────────────────────────────────────────────────────────
-interface BlogPost {
-  title: string;
-  url: string;
-  summary: string;
-  image: string | null;
-  published: string;
-  categories: string[];
-}
-
+// ─── Static Data ─────────────────────────────────────────────────
 interface ProblemBank {
   href: string;
   emoji: string;
@@ -74,64 +66,6 @@ interface Topic {
   bg: string;
 }
 
-// ─── Blogger RSS Fetch ────────────────────────────────────────────
-// FIX 1: Use eisatopon.blogspot.com (eisatopon.gr blocks external fetch)
-// FIX 2: Use media$thumbnail for images instead of parsing HTML content
-async function fetchBlogPosts(count: number = 7): Promise<BlogPost[]> {
-  try {
-    const res = await fetch(
-      `https://eisatopon.blogspot.com/feeds/posts/default?alt=json&max-results=${count}`,
-      { next: { revalidate: 3600 } }
-    );
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
-    const entries: any[] = data?.feed?.entry ?? [];
-
-    return entries.map((entry): BlogPost => {
-      const title = (entry.title?.$t ?? "Untitled")
-  .replace(/\\\([\s\S]*?\\\)/g, "")
-  .replace(/\\\[[\s\S]*?\\\]/g, "")
-  .trim();
-
-      const links: any[] = entry.link ?? [];
-      const url = links.find((l) => l.rel === "alternate")?.href ?? "https://eisatopon.blogspot.com";
-
-      const rawSummary = entry.summary?.$t ?? entry.content?.$t ?? "";
-      const summary = rawSummary
-  .replace(/<[^>]+>/g, "")
-  .replace(/&nbsp;/g, " ")
-  .replace(/&amp;/g, "&")
-  .replace(/&lt;/g, "<")
-  .replace(/&gt;/g, ">")
-  .replace(/&quot;/g, '"')
-  .replace(/&#039;/g, "'")
-  .slice(0, 160)
-  .trim();
-
-      const published = entry.published?.$t
-        ? new Date(entry.published.$t).toLocaleDateString("en-US", { year: "numeric", month: "long" })
-        : "";
-
-      const categories: string[] = (entry.category ?? [])
-        .map((c: any) => c.term)
-        .filter(Boolean)
-        .slice(0, 2);
-
-      // FIX 2: Use media$thumbnail and upgrade to larger size
-      const thumbUrl: string | undefined = entry["media$thumbnail"]?.url;
-      const image = thumbUrl
-        ? thumbUrl.replace(/\/s72-[^/]+\//, "/s640/")
-        : null;
-
-      return { title, url, summary, image, published, categories };
-    });
-  } catch (err) {
-    console.error("Blogger RSS fetch failed:", err);
-    return [];
-  }
-}
-
-// ─── Static Data ─────────────────────────────────────────────────
 const problemBanks: ProblemBank[] = [
   { href: "/banks/panelladikes", emoji: "🎓", label: "Hellenic Exams",                desc: "Mathematics Topics",           color: "text-cat-blue"  },
   { href: "/banks/eme",          emoji: "🏛️", label: "Hellenic Math Society Contests", desc: "Thales · Euclid · Archimedes", color: "text-cat-red"   },
@@ -196,22 +130,25 @@ function ProblemBankItem({ bank }: { bank: ProblemBank }) {
   );
 }
 
-function ArticleCard({ post, index }: { post: BlogPost; index: number }) {
+// Article card — uses local MDX Article, links to /articles/[slug]
+function ArticleCard({ article, index }: { article: Article; index: number }) {
+  const formattedDate = article.date
+    ? new Date(article.date).toLocaleDateString("en-US", { year: "numeric", month: "long" })
+    : "";
+
   return (
     <article>
-      <a
-        href={post.url}
-        target="_blank"
-        rel="noopener noreferrer"
+      <Link
+        href={`/articles/${article.slug}`}
         className="group block rounded-xl overflow-hidden border border-border-dim bg-card hover:border-gold/30 transition-all duration-300 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50"
-        aria-label={`Read: ${post.title}`}
+        aria-label={`Read: ${article.title}`}
       >
-        {post.image ? (
+        {article.image ? (
           <div className="relative h-[180px] bg-black overflow-hidden">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={post.image}
-              alt={post.title}
+              src={article.image}
+              alt={article.title}
               className="w-full h-full object-cover brightness-50 group-hover:brightness-70 transition-all duration-500"
               loading="lazy"
             />
@@ -222,35 +159,41 @@ function ArticleCard({ post, index }: { post: BlogPost; index: number }) {
           </div>
         )}
         <div className="p-5">
-          {post.categories.length > 0 && (
+          {article.category && (
             <div className="text-[0.68rem] tracking-wide uppercase text-gold mb-2 truncate">
-              {post.categories.join(" · ")}
+              {article.category}
+              {article.readTime && ` · ${article.readTime}`}
             </div>
           )}
           <h3 className="font-playfair text-[1.1rem] font-semibold leading-snug mb-2 text-ink-primary group-hover:text-gold transition-colors duration-200 line-clamp-2">
-            {post.title}
+            {article.title}
           </h3>
-          {post.summary && (
+          {article.summary && (
             <p className="text-[0.83rem] leading-relaxed text-ink-secondary line-clamp-2">
-              {post.summary}
+              {article.summary}
             </p>
           )}
-          {post.published && (
+          {formattedDate && (
             <p className="text-[0.72rem] text-ink-muted mt-3 uppercase tracking-wide">
-              {post.published}
+              {formattedDate}
             </p>
           )}
         </div>
-      </a>
+      </Link>
     </article>
   );
 }
 
 // ─── Main Page (Server Component) ────────────────────────────────
-export default async function Home() {
-  const posts = await fetchBlogPosts(7);
-  const heroPost = posts[0] ?? null;
-  const cardPosts = posts.slice(1, 7);
+export default function Home() {
+  // Reads MDX files from content/articles/ — no external fetch needed
+  const articles = getAllArticles();
+  const heroArticle = articles[0] ?? null;
+  const cardArticles = articles.slice(1, 7);
+
+  const heroDate = heroArticle?.date
+    ? new Date(heroArticle.date).toLocaleDateString("en-US", { year: "numeric", month: "long" })
+    : "";
 
   return (
     <>
@@ -265,20 +208,18 @@ export default async function Home() {
         <MainNavbar />
 
         {/* ═══ HERO ═══ */}
-        {heroPost ? (
-          <a
-            href={heroPost.url}
-            target="_blank"
-            rel="noopener noreferrer"
+        {heroArticle ? (
+          <Link
+            href={`/articles/${heroArticle.slug}`}
             className="block relative w-full mb-14 group cursor-pointer"
             style={{ height: "500px" }}
-            aria-label={`Read featured article: ${heroPost.title}`}
+            aria-label={`Read featured article: ${heroArticle.title}`}
           >
-            {heroPost.image ? (
+            {heroArticle.image ? (
               // eslint-disable-next-line @next/next/no-img-element
               <img
-                src={heroPost.image}
-                alt={heroPost.title}
+                src={heroArticle.image}
+                alt={heroArticle.title}
                 className="absolute inset-0 w-full h-full object-cover brightness-50 group-hover:brightness-60 transition-all duration-500"
               />
             ) : (
@@ -286,40 +227,44 @@ export default async function Home() {
             )}
             <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent" />
             <div className="absolute inset-0 flex flex-col justify-end p-6 sm:p-10 lg:p-[clamp(24px,5vw,56px)]">
-              {heroPost.categories.length > 0 && (
+              {heroArticle.category && (
                 <div className="flex gap-2 mb-4 flex-wrap">
                   <span className="bg-gold/90 text-black px-3 py-1 rounded text-[0.65rem] font-semibold tracking-wide uppercase">
                     Featured
                   </span>
-                  {heroPost.categories.map((cat) => (
-                    <span key={cat} className="border border-gold/60 text-gold px-3 py-1 rounded text-[0.65rem] font-semibold tracking-wide uppercase">
-                      {cat}
-                    </span>
-                  ))}
+                  <span className="border border-gold/60 text-gold px-3 py-1 rounded text-[0.65rem] font-semibold tracking-wide uppercase">
+                    {heroArticle.category}
+                  </span>
                 </div>
               )}
               <h1 className="font-playfair font-semibold text-[clamp(1.4rem,5vw,2.6rem)] leading-tight max-w-3xl text-ink-primary drop-shadow-lg mb-3 group-hover:text-gold transition-colors duration-300">
-                {heroPost.title}
+                {heroArticle.title}
               </h1>
-              {heroPost.summary && (
+              {heroArticle.summary && (
                 <p className="text-[clamp(0.9rem,3vw,1rem)] text-ink-secondary max-w-2xl leading-relaxed mb-4 line-clamp-2">
-                  {heroPost.summary}
+                  {heroArticle.summary}
                 </p>
               )}
               <div className="flex flex-wrap items-center gap-2 text-[0.7rem] tracking-widest text-ink-muted">
-                <span>BY EISATOPONAI TEAM</span>
-                {heroPost.published && (
+                <span>BY {heroArticle.author.toUpperCase()}</span>
+                {heroDate && (
                   <>
                     <span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" />
-                    <span>{heroPost.published.toUpperCase()}</span>
+                    <span>{heroDate.toUpperCase()}</span>
+                  </>
+                )}
+                {heroArticle.readTime && (
+                  <>
+                    <span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" />
+                    <span>{heroArticle.readTime.toUpperCase()}</span>
                   </>
                 )}
               </div>
             </div>
-          </a>
+          </Link>
         ) : (
           <div className="relative w-full mb-14 flex items-center justify-center bg-gradient-to-br from-[#0a1a2e] to-[#080a0f]" style={{ height: "500px" }}>
-            <p className="text-ink-muted text-sm">Loading latest article...</p>
+            <p className="text-ink-muted text-sm">No articles yet. Add your first MDX file to content/articles/.</p>
           </div>
         )}
 
@@ -332,24 +277,22 @@ export default async function Home() {
               <h2 id="latest-heading" className="text-[0.68rem] tracking-widest uppercase text-ink-muted font-normal">
                 Latest Articles
               </h2>
-              <a
-                href="https://eisatopon.blogspot.com"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/articles"
                 className="text-[0.75rem] tracking-widest uppercase text-ink-muted hover:text-gold transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50"
               >
                 Browse All
-              </a>
+              </Link>
             </div>
 
-            {cardPosts.length > 0 ? (
+            {cardArticles.length > 0 ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                {cardPosts.map((post, i) => (
-                  <ArticleCard key={post.url} post={post} index={i} />
+                {cardArticles.map((article, i) => (
+                  <ArticleCard key={article.slug} article={article} index={i} />
                 ))}
               </div>
             ) : (
-              <p className="text-ink-muted text-sm py-10 text-center">No articles available.</p>
+              <p className="text-ink-muted text-sm py-10 text-center">No articles yet.</p>
             )}
 
             {/* ── TOPICS GRID ── */}
@@ -359,11 +302,9 @@ export default async function Home() {
               </h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
                 {topics.map((topic) => (
-                  <a
+                  <Link
                     key={topic.label}
-                    href={`https://eisatopon.blogspot.com/search/label/${encodeURIComponent(topic.label)}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href={`/articles?category=${encodeURIComponent(topic.label)}`}
                     className={`group flex flex-col items-center justify-center gap-2 p-4 rounded-xl border ${topic.bg} hover:border-gold/40 hover:bg-gold/5 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50`}
                     aria-label={`Browse ${topic.label} articles`}
                   >
@@ -373,7 +314,7 @@ export default async function Home() {
                     <span className={`text-[0.75rem] font-medium tracking-wide ${topic.color} group-hover:text-gold transition-colors duration-200`}>
                       {topic.label}
                     </span>
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>
