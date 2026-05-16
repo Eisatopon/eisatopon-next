@@ -75,10 +75,12 @@ interface Topic {
 }
 
 // ─── Blogger RSS Fetch ────────────────────────────────────────────
+// FIX 1: Use eisatopon.blogspot.com (eisatopon.gr blocks external fetch)
+// FIX 2: Use media$thumbnail for images instead of parsing HTML content
 async function fetchBlogPosts(count: number = 7): Promise<BlogPost[]> {
   try {
     const res = await fetch(
-      `https://eisatopon.gr/feeds/posts/default?alt=json&max-results=${count}`,
+      `https://eisatopon.blogspot.com/feeds/posts/default?alt=json&max-results=${count}`,
       { next: { revalidate: 3600 } }
     );
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -87,17 +89,28 @@ async function fetchBlogPosts(count: number = 7): Promise<BlogPost[]> {
 
     return entries.map((entry): BlogPost => {
       const title = entry.title?.$t ?? "Untitled";
+
       const links: any[] = entry.link ?? [];
-      const url = links.find((l) => l.rel === "alternate")?.href ?? "https://eisatopon.gr";
+      const url = links.find((l) => l.rel === "alternate")?.href ?? "https://eisatopon.blogspot.com";
+
       const rawSummary = entry.summary?.$t ?? entry.content?.$t ?? "";
       const summary = rawSummary.replace(/<[^>]+>/g, "").slice(0, 160).trim();
+
       const published = entry.published?.$t
         ? new Date(entry.published.$t).toLocaleDateString("en-US", { year: "numeric", month: "long" })
         : "";
-      const categories: string[] = (entry.category ?? []).map((c: any) => c.term).filter(Boolean).slice(0, 2);
-      const content = entry.content?.$t ?? "";
-      const imgMatch = content.match(/<img[^>]+src=["']([^"']+)["']/i);
-      const image = imgMatch?.[1] ?? null;
+
+      const categories: string[] = (entry.category ?? [])
+        .map((c: any) => c.term)
+        .filter(Boolean)
+        .slice(0, 2);
+
+      // FIX 2: Use media$thumbnail and upgrade to larger size
+      const thumbUrl: string | undefined = entry["media$thumbnail"]?.url;
+      const image = thumbUrl
+        ? thumbUrl.replace(/\/s72-[^/]+\//, "/s640/")
+        : null;
+
       return { title, url, summary, image, published, categories };
     });
   } catch (err) {
@@ -108,9 +121,9 @@ async function fetchBlogPosts(count: number = 7): Promise<BlogPost[]> {
 
 // ─── Static Data ─────────────────────────────────────────────────
 const problemBanks: ProblemBank[] = [
-  { href: "/banks/panelladikes", emoji: "🎓", label: "Hellenic Exams",               desc: "Mathematics Topics",           color: "text-cat-blue"  },
+  { href: "/banks/panelladikes", emoji: "🎓", label: "Hellenic Exams",                desc: "Mathematics Topics",           color: "text-cat-blue"  },
   { href: "/banks/eme",          emoji: "🏛️", label: "Hellenic Math Society Contests", desc: "Thales · Euclid · Archimedes", color: "text-cat-red"   },
-  { href: "/banks/imo",          emoji: "🌍", label: "International Math Olympiad",   desc: "1959 – 2025",                  color: "text-cat-green" },
+  { href: "/banks/imo",          emoji: "🌍", label: "International Math Olympiad",    desc: "1959 – 2025",                  color: "text-cat-green" },
 ];
 
 const topics: Topic[] = [
@@ -308,7 +321,7 @@ export default async function Home() {
                 Latest Articles
               </h2>
               <a
-                href="https://eisatopon.gr"
+                href="https://eisatopon.blogspot.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[0.75rem] tracking-widest uppercase text-ink-muted hover:text-gold transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50"
@@ -336,7 +349,7 @@ export default async function Home() {
                 {topics.map((topic) => (
                   <a
                     key={topic.label}
-                    href={`https://eisatopon.gr/search/label/${encodeURIComponent(topic.label)}`}
+                    href={`https://eisatopon.blogspot.com/search/label/${encodeURIComponent(topic.label)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`group flex flex-col items-center justify-center gap-2 p-4 rounded-xl border ${topic.bg} hover:border-gold/40 hover:bg-gold/5 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50`}
@@ -376,7 +389,7 @@ export default async function Home() {
                 Use induction or telescoping summation.
               </p>
               <a
-                href="https://eisatopon.gr"
+                href="https://eisatopon.blogspot.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-center text-[0.8rem] rounded-lg px-3 py-2.5 bg-gold/10 border border-gold/40 text-gold hover:bg-gold/20 hover:border-gold transition-all duration-200"
@@ -405,7 +418,7 @@ export default async function Home() {
                 Over 40,000 mathematical articles since 2010.
               </p>
               <a
-                href="https://eisatopon.gr"
+                href="https://eisatopon.blogspot.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-center text-[0.8rem] px-3 py-2.5 bg-white/5 border border-border-soft rounded-lg text-ink-secondary hover:text-gold hover:border-gold/30 hover:bg-gold/5 transition-all duration-200"
