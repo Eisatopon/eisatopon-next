@@ -110,7 +110,7 @@ export default async function ArticlePage(
       <MainNavbar />
 
       {article.image ? (
-        <div style={{ position: "relative", width: "100%", height: "360px", overflow: "hidden" }}>
+        <div style={{ position: "relative", width: "100%", height: "280px", overflow: "hidden" }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={article.image} alt={article.title} style={{ width: "100%", height: "100%", objectFit: "cover", filter: "brightness(0.35)" }} />
           <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(8,10,15,0.97) 0%, rgba(8,10,15,0.5) 55%, transparent 100%)", display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "48px" }}>

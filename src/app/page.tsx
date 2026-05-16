@@ -1,4 +1,3 @@
-import Script from "next/script";
 import Link from "next/link";
 import MainNavbar from "@/components/MainNavbar";
 import type { Metadata } from "next";
@@ -51,20 +50,8 @@ const websiteSchema = {
 };
 
 // ─── Static Data ─────────────────────────────────────────────────
-interface ProblemBank {
-  href: string;
-  emoji: string;
-  label: string;
-  desc: string;
-  color: string;
-}
-
-interface Topic {
-  label: string;
-  emoji: string;
-  color: string;
-  bg: string;
-}
+interface ProblemBank { href: string; emoji: string; label: string; desc: string; color: string; }
+interface Topic { label: string; emoji: string; color: string; bg: string; }
 
 const problemBanks: ProblemBank[] = [
   { href: "/banks/panelladikes", emoji: "🎓", label: "Hellenic Exams",                desc: "Mathematics Topics",           color: "text-cat-blue"  },
@@ -113,16 +100,10 @@ function SocialIcon({ name }: { name: string }) {
 
 function ProblemBankItem({ bank }: { bank: ProblemBank }) {
   return (
-    <Link
-      href={bank.href}
-      className="flex items-center gap-3 p-3 mb-2 rounded-lg border border-border-dim bg-card hover:border-gold/30 hover:bg-white/[0.04] transition-all duration-200 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50"
-      aria-label={`Explore ${bank.label} — ${bank.desc}`}
-    >
+    <Link href={bank.href} className="flex items-center gap-3 p-3 mb-2 rounded-lg border border-border-dim bg-card hover:border-gold/30 hover:bg-white/[0.04] transition-all duration-200 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50" aria-label={`Explore ${bank.label} — ${bank.desc}`}>
       <span className="text-[1.4rem]" aria-hidden="true">{bank.emoji}</span>
       <div className="flex-1 min-w-0">
-        <div className={`text-[0.875rem] font-medium ${bank.color} group-hover:text-gold transition-colors duration-200 truncate`}>
-          {bank.label}
-        </div>
+        <div className={`text-[0.875rem] font-medium ${bank.color} group-hover:text-gold transition-colors duration-200 truncate`}>{bank.label}</div>
         <div className="text-[0.75rem] text-ink-muted truncate">{bank.desc}</div>
       </div>
       <span className="text-ink-muted text-lg group-hover:text-gold group-hover:translate-x-1 transition-all duration-200 shrink-0" aria-hidden="true">›</span>
@@ -130,28 +111,17 @@ function ProblemBankItem({ bank }: { bank: ProblemBank }) {
   );
 }
 
-// Article card — uses local MDX Article, links to /articles/[slug]
 function ArticleCard({ article, index }: { article: Article; index: number }) {
   const formattedDate = article.date
     ? new Date(article.date).toLocaleDateString("en-US", { year: "numeric", month: "long" })
     : "";
-
   return (
     <article>
-      <Link
-        href={`/articles/${article.slug}`}
-        className="group block rounded-xl overflow-hidden border border-border-dim bg-card hover:border-gold/30 transition-all duration-300 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50"
-        aria-label={`Read: ${article.title}`}
-      >
+      <Link href={`/articles/${article.slug}`} className="group block rounded-xl overflow-hidden border border-border-dim bg-card hover:border-gold/30 transition-all duration-300 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50" aria-label={`Read: ${article.title}`}>
         {article.image ? (
           <div className="relative h-[180px] bg-black overflow-hidden">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={article.image}
-              alt={article.title}
-              className="w-full h-full object-cover brightness-50 group-hover:brightness-70 transition-all duration-500"
-              loading="lazy"
-            />
+            <img src={article.image} alt={article.title} className="w-full h-full object-cover brightness-50 group-hover:brightness-70 transition-all duration-500" loading="lazy" />
           </div>
         ) : (
           <div className={`h-[180px] flex items-center justify-center bg-gradient-to-tr ${CARD_GRADIENTS[index % CARD_GRADIENTS.length]}`}>
@@ -161,23 +131,12 @@ function ArticleCard({ article, index }: { article: Article; index: number }) {
         <div className="p-5">
           {article.category && (
             <div className="text-[0.68rem] tracking-wide uppercase text-gold mb-2 truncate">
-              {article.category}
-              {article.readTime && ` · ${article.readTime}`}
+              {article.category}{article.readTime && ` · ${article.readTime}`}
             </div>
           )}
-          <h3 className="font-playfair text-[1.1rem] font-semibold leading-snug mb-2 text-ink-primary group-hover:text-gold transition-colors duration-200 line-clamp-2">
-            {article.title}
-          </h3>
-          {article.summary && (
-            <p className="text-[0.83rem] leading-relaxed text-ink-secondary line-clamp-2">
-              {article.summary}
-            </p>
-          )}
-          {formattedDate && (
-            <p className="text-[0.72rem] text-ink-muted mt-3 uppercase tracking-wide">
-              {formattedDate}
-            </p>
-          )}
+          <h3 className="font-playfair text-[1.1rem] font-semibold leading-snug mb-2 text-ink-primary group-hover:text-gold transition-colors duration-200 line-clamp-2">{article.title}</h3>
+          {article.summary && <p className="text-[0.83rem] leading-relaxed text-ink-secondary line-clamp-2">{article.summary}</p>}
+          {formattedDate && <p className="text-[0.72rem] text-ink-muted mt-3 uppercase tracking-wide">{formattedDate}</p>}
         </div>
       </Link>
     </article>
@@ -186,7 +145,6 @@ function ArticleCard({ article, index }: { article: Article; index: number }) {
 
 // ─── Main Page (Server Component) ────────────────────────────────
 export default function Home() {
-  // Reads MDX files from content/articles/ — no external fetch needed
   const articles = getAllArticles();
   const heroArticle = articles[0] ?? null;
   const cardArticles = articles.slice(1, 7);
@@ -197,11 +155,10 @@ export default function Home() {
 
   return (
     <>
-      <Script
-        id="website-schema"
+      {/* JSON-LD — native script tag works fine in Server Components */}
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
-        strategy="beforeInteractive"
       />
 
       <main className="min-h-screen bg-base text-ink-primary">
@@ -209,19 +166,10 @@ export default function Home() {
 
         {/* ═══ HERO ═══ */}
         {heroArticle ? (
-          <Link
-            href={`/articles/${heroArticle.slug}`}
-            className="block relative w-full mb-14 group cursor-pointer"
-            style={{ height: "500px" }}
-            aria-label={`Read featured article: ${heroArticle.title}`}
-          >
+          <Link href={`/articles/${heroArticle.slug}`} className="block relative w-full mb-14 group cursor-pointer" style={{ height: "500px" }} aria-label={`Read featured article: ${heroArticle.title}`}>
             {heroArticle.image ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={heroArticle.image}
-                alt={heroArticle.title}
-                className="absolute inset-0 w-full h-full object-cover brightness-50 group-hover:brightness-60 transition-all duration-500"
-              />
+              <img src={heroArticle.image} alt={heroArticle.title} className="absolute inset-0 w-full h-full object-cover brightness-50 group-hover:brightness-60 transition-all duration-500" />
             ) : (
               <div className="absolute inset-0 bg-gradient-to-br from-[#0a1a2e] to-[#080a0f]" />
             )}
@@ -229,36 +177,20 @@ export default function Home() {
             <div className="absolute inset-0 flex flex-col justify-end p-6 sm:p-10 lg:p-[clamp(24px,5vw,56px)]">
               {heroArticle.category && (
                 <div className="flex gap-2 mb-4 flex-wrap">
-                  <span className="bg-gold/90 text-black px-3 py-1 rounded text-[0.65rem] font-semibold tracking-wide uppercase">
-                    Featured
-                  </span>
-                  <span className="border border-gold/60 text-gold px-3 py-1 rounded text-[0.65rem] font-semibold tracking-wide uppercase">
-                    {heroArticle.category}
-                  </span>
+                  <span className="bg-gold/90 text-black px-3 py-1 rounded text-[0.65rem] font-semibold tracking-wide uppercase">Featured</span>
+                  <span className="border border-gold/60 text-gold px-3 py-1 rounded text-[0.65rem] font-semibold tracking-wide uppercase">{heroArticle.category}</span>
                 </div>
               )}
               <h1 className="font-playfair font-semibold text-[clamp(1.4rem,5vw,2.6rem)] leading-tight max-w-3xl text-ink-primary drop-shadow-lg mb-3 group-hover:text-gold transition-colors duration-300">
                 {heroArticle.title}
               </h1>
               {heroArticle.summary && (
-                <p className="text-[clamp(0.9rem,3vw,1rem)] text-ink-secondary max-w-2xl leading-relaxed mb-4 line-clamp-2">
-                  {heroArticle.summary}
-                </p>
+                <p className="text-[clamp(0.9rem,3vw,1rem)] text-ink-secondary max-w-2xl leading-relaxed mb-4 line-clamp-2">{heroArticle.summary}</p>
               )}
               <div className="flex flex-wrap items-center gap-2 text-[0.7rem] tracking-widest text-ink-muted">
                 <span>BY {heroArticle.author.toUpperCase()}</span>
-                {heroDate && (
-                  <>
-                    <span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" />
-                    <span>{heroDate.toUpperCase()}</span>
-                  </>
-                )}
-                {heroArticle.readTime && (
-                  <>
-                    <span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" />
-                    <span>{heroArticle.readTime.toUpperCase()}</span>
-                  </>
-                )}
+                {heroDate && <><span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" /><span>{heroDate.toUpperCase()}</span></>}
+                {heroArticle.readTime && <><span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" /><span>{heroArticle.readTime.toUpperCase()}</span></>}
               </div>
             </div>
           </Link>
@@ -271,136 +203,70 @@ export default function Home() {
         {/* ═══ ARTICLES + SIDEBAR ═══ */}
         <div className="mx-auto px-4 sm:px-6 lg:px-8 py-10 max-w-[1200px] grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-12">
 
-          {/* LEFT: 6 CARDS + TOPICS */}
           <section aria-labelledby="latest-heading">
             <div className="flex justify-between items-center mb-6">
-              <h2 id="latest-heading" className="text-[0.68rem] tracking-widest uppercase text-ink-muted font-normal">
-                Latest Articles
-              </h2>
-              <Link
-                href="/articles"
-                className="text-[0.75rem] tracking-widest uppercase text-ink-muted hover:text-gold transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50"
-              >
-                Browse All
-              </Link>
+              <h2 id="latest-heading" className="text-[0.68rem] tracking-widest uppercase text-ink-muted font-normal">Latest Articles</h2>
+              <Link href="/articles" className="text-[0.75rem] tracking-widest uppercase text-ink-muted hover:text-gold transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50">Browse All</Link>
             </div>
 
             {cardArticles.length > 0 ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                {cardArticles.map((article, i) => (
-                  <ArticleCard key={article.slug} article={article} index={i} />
-                ))}
+                {cardArticles.map((article, i) => <ArticleCard key={article.slug} article={article} index={i} />)}
               </div>
             ) : (
               <p className="text-ink-muted text-sm py-10 text-center">No articles yet.</p>
             )}
 
-            {/* ── TOPICS GRID ── */}
+            {/* TOPICS */}
             <div className="mt-12">
-              <h2 className="text-[0.68rem] tracking-widest uppercase text-ink-muted font-normal mb-5">
-                Browse by Topic
-              </h2>
+              <h2 className="text-[0.68rem] tracking-widest uppercase text-ink-muted font-normal mb-5">Browse by Topic</h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
                 {topics.map((topic) => (
-                  <Link
-                    key={topic.label}
-                    href={`/articles?category=${encodeURIComponent(topic.label)}`}
-                    className={`group flex flex-col items-center justify-center gap-2 p-4 rounded-xl border ${topic.bg} hover:border-gold/40 hover:bg-gold/5 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50`}
-                    aria-label={`Browse ${topic.label} articles`}
-                  >
-                    <span className={`text-2xl font-playfair ${topic.color} group-hover:text-gold transition-colors duration-200`}>
-                      {topic.emoji}
-                    </span>
-                    <span className={`text-[0.75rem] font-medium tracking-wide ${topic.color} group-hover:text-gold transition-colors duration-200`}>
-                      {topic.label}
-                    </span>
+                  <Link key={topic.label} href={`/articles?category=${encodeURIComponent(topic.label)}`} className={`group flex flex-col items-center justify-center gap-2 p-4 rounded-xl border ${topic.bg} hover:border-gold/40 hover:bg-gold/5 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50`} aria-label={`Browse ${topic.label} articles`}>
+                    <span className={`text-2xl font-playfair ${topic.color} group-hover:text-gold transition-colors duration-200`}>{topic.emoji}</span>
+                    <span className={`text-[0.75rem] font-medium tracking-wide ${topic.color} group-hover:text-gold transition-colors duration-200`}>{topic.label}</span>
                   </Link>
                 ))}
               </div>
             </div>
           </section>
 
-          {/* RIGHT: SIDEBAR */}
+          {/* SIDEBAR */}
           <aside className="flex flex-col gap-7">
-
-            {/* Problem of the Day */}
             <div className="rounded-xl border border-gold-border bg-gold-dim p-5">
-              <h2 className="text-[0.68rem] tracking-wide uppercase text-gold mb-3 font-normal">
-                ✦ Problem of the Day
-              </h2>
-              <p className="font-serif text-[0.9rem] leading-relaxed text-[#d4c99a] mb-3">
-                Prove that the sum of the first n odd numbers equals n².
-              </p>
-              <div
-                className="bg-black/35 border border-border-dim rounded-lg px-3 py-3 font-jetbrains text-[0.875rem] text-[#c4b890] text-center mb-3 overflow-x-auto"
-                role="math"
-                aria-label="1 + 3 + 5 + ... + (2n - 1) = n squared"
-              >
+              <h2 className="text-[0.68rem] tracking-wide uppercase text-gold mb-3 font-normal">✦ Problem of the Day</h2>
+              <p className="font-serif text-[0.9rem] leading-relaxed text-[#d4c99a] mb-3">Prove that the sum of the first n odd numbers equals n².</p>
+              <div className="bg-black/35 border border-border-dim rounded-lg px-3 py-3 font-jetbrains text-[0.875rem] text-[#c4b890] text-center mb-3 overflow-x-auto" role="math" aria-label="1 + 3 + 5 + ... + (2n - 1) = n squared">
                 <span className="whitespace-nowrap">1 + 3 + 5 + ... + (2n − 1) = n²</span>
               </div>
-              <p className="text-[0.8rem] text-ink-tertiary mb-3">
-                Use induction or telescoping summation.
-              </p>
-              <a
-                href="https://eisatopon.blogspot.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block text-center text-[0.8rem] rounded-lg px-3 py-2.5 bg-gold/10 border border-gold/40 text-gold hover:bg-gold/20 hover:border-gold transition-all duration-200"
-              >
-                View Solution
-              </a>
+              <p className="text-[0.8rem] text-ink-tertiary mb-3">Use induction or telescoping summation.</p>
+              <a href="https://eisatopon.blogspot.com" target="_blank" rel="noopener noreferrer" className="block text-center text-[0.8rem] rounded-lg px-3 py-2.5 bg-gold/10 border border-gold/40 text-gold hover:bg-gold/20 hover:border-gold transition-all duration-200">View Solution</a>
             </div>
 
-            {/* Problem Banks */}
             <nav aria-labelledby="banks-heading">
-              <h2 id="banks-heading" className="text-[0.68rem] tracking-wide uppercase text-ink-muted pb-2 border-b border-border-dim mb-3 font-normal">
-                Problem Banks
-              </h2>
-              {problemBanks.map((bank) => (
-                <ProblemBankItem key={bank.href} bank={bank} />
-              ))}
+              <h2 id="banks-heading" className="text-[0.68rem] tracking-wide uppercase text-ink-muted pb-2 border-b border-border-dim mb-3 font-normal">Problem Banks</h2>
+              {problemBanks.map((bank) => <ProblemBankItem key={bank.href} bank={bank} />)}
             </nav>
 
-            {/* Archive CTA */}
             <div className="rounded-xl border border-border-dim bg-card p-5 text-center">
               <div className="text-2xl mb-2" aria-hidden="true">📚</div>
-              <h2 className="font-playfair text-[1rem] font-semibold text-ink-primary mb-1">
-                The Original Archive
-              </h2>
-              <p className="text-[0.8rem] text-ink-tertiary leading-relaxed mb-3">
-                Over 40,000 mathematical articles since 2010.
-              </p>
-              <a
-                href="https://eisatopon.blogspot.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block text-center text-[0.8rem] px-3 py-2.5 bg-white/5 border border-border-soft rounded-lg text-ink-secondary hover:text-gold hover:border-gold/30 hover:bg-gold/5 transition-all duration-200"
-              >
-                Explore eisatopon.gr
-              </a>
+              <h2 className="font-playfair text-[1rem] font-semibold text-ink-primary mb-1">The Original Archive</h2>
+              <p className="text-[0.8rem] text-ink-tertiary leading-relaxed mb-3">Over 40,000 mathematical articles since 2010.</p>
+              <a href="https://eisatopon.blogspot.com" target="_blank" rel="noopener noreferrer" className="block text-center text-[0.8rem] px-3 py-2.5 bg-white/5 border border-border-soft rounded-lg text-ink-secondary hover:text-gold hover:border-gold/30 hover:bg-gold/5 transition-all duration-200">Explore eisatopon.gr</a>
             </div>
           </aside>
         </div>
 
-        {/* ═══ FOOTER ═══ */}
+        {/* FOOTER */}
         <footer className="border-t border-border-dim bg-black/50 mt-auto">
           <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-[1200px] flex flex-col items-center gap-6">
             <Link href="/" className="font-playfair text-xl font-bold text-ink-primary hover:text-gold transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50">
               Eisatopon<span className="text-gold">AI</span>
             </Link>
-            <p className="text-[0.85rem] text-ink-tertiary text-center max-w-[400px] leading-relaxed">
-              Interactive mathematical archives, olympiad problems and AI-powered learning.
-            </p>
+            <p className="text-[0.85rem] text-ink-tertiary text-center max-w-[400px] leading-relaxed">Interactive mathematical archives, olympiad problems and AI-powered learning.</p>
             <div className="flex items-center gap-4 flex-wrap justify-center">
               {socialLinks.map((s) => (
-                <a
-                  key={s.name}
-                  href={s.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`Visit EisatoponAI on ${s.name}`}
-                  className="flex items-center justify-center w-10 h-10 rounded-xl border border-border-dim bg-white/5 text-ink-muted hover:text-gold hover:bg-gold/10 hover:border-gold/30 transition-all duration-200"
-                >
+                <a key={s.name} href={s.href} target="_blank" rel="noopener noreferrer" aria-label={`Visit EisatoponAI on ${s.name}`} className="flex items-center justify-center w-10 h-10 rounded-xl border border-border-dim bg-white/5 text-ink-muted hover:text-gold hover:bg-gold/10 hover:border-gold/30 transition-all duration-200">
                   <SocialIcon name={s.name} />
                 </a>
               ))}
