@@ -307,10 +307,7 @@ export default function Home() {
   
     href="https://www.eisatopon.gr"
     target="_blank"
-    rel="noopener noreferrer"
-    style={{ display: "block", textAlign: "center", padding: "8px", borderRadius: "8px", fontSize: "0.8rem", background: "rgba(255,255,255,0.05)", border: "0.5px solid var(--color-border-soft)", color: "var(--color-ink-secondary)" }}
-  >
-    Explore eisatopon.gr →
+    rel="noopener noreferrer" style={{ display: "block", textAlign: "center", padding: "8px", borderRadius: "8px", fontSize: "0.8rem", background: "rgba(255,255,255,0.05)", border: "0.5px solid var(--color-border-soft)", color: "var(--color-ink-secondary)" }}>Explore eisatopon.gr →
   </a>
 </div>
           </aside>
@@ -428,3 +425,4 @@ export default function Home() {
     </main>
   );
 }
+
