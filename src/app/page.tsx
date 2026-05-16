@@ -161,7 +161,7 @@ export default function Home() {
       <MainNavbar />
 
       {/* HERO SECTION */}
-      <section className="relative w-full min-h-[60vh] md:min-h-[500px] mb-14" aria-label="Featured article">
+      <section className="relative w-full h-[400px] md:h-[500px] mb-14" aria-label="Featured article">
         <Image 
           src="/images/infinity-hotel.jpg" 
           alt="Hilbert's Hotel - Artistic representation of infinite rooms" 
