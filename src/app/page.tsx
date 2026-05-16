@@ -295,24 +295,24 @@ export default function Home() {
               ))}
             </div>
 
-            {/* ARCHIVE CTA */}
-            <div style={{ borderRadius: "14px", border: "0.5px solid var(--color-border-dim)", background: "rgba(255,255,255,0.02)", padding: "20px", textAlign: "center" }}>
-              <div style={{ fontSize: "2rem", marginBottom: "10px" }}>📚</div>
-              <h3 className="font-playfair" style={{ fontSize: "1rem", fontWeight: 600, color: "var(--color-ink-primary)", marginBottom: "6px" }}>
-                The Original Archive
-              </h3>
-              <p style={{ fontSize: "0.8rem", color: "var(--color-ink-tertiary)", lineHeight: 1.6, marginBottom: "14px" }}>
-                Thousands of mathematical articles since 2010 at eisatopon.gr
-              </p>
-              <a
-                href="https://eisatopon.blogspot.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ display: "block", textAlign: "center", padding: "8px", borderRadius: "8px", fontSize: "0.8rem", background: "rgba(255,255,255,0.05)", border: "0.5px solid var(--color-border-soft)", color: "var(--color-ink-secondary)" }}
-              >
-                Explore Explore Old Archive →
-              </a>
-            </div>
+           {/* ARCHIVE CTA */}
+<div style={{ borderRadius: "14px", border: "0.5px solid var(--color-border-dim)", background: "rgba(255,255,255,0.02)", padding: "20px", textAlign: "center" }}>
+  <div style={{ fontSize: "2rem", marginBottom: "10px" }}>📚</div>
+  <h3 className="font-playfair" style={{ fontSize: "1rem", fontWeight: 600, color: "var(--color-ink-primary)", marginBottom: "6px" }}>
+    The Original Archive
+  </h3>
+  <p style={{ fontSize: "0.8rem", color: "var(--color-ink-tertiary)", lineHeight: 1.6, marginBottom: "14px" }}>
+    Over 40,000 mathematical articles since 2010.
+  </p>
+  
+    href="https://www.eisatopon.gr"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ display: "block", textAlign: "center", padding: "8px", borderRadius: "8px", fontSize: "0.8rem", background: "rgba(255,255,255,0.05)", border: "0.5px solid var(--color-border-soft)", color: "var(--color-ink-secondary)" }}
+  >
+    Explore eisatopon.gr →
+  </a>
+</div>
 
           </aside>
 
