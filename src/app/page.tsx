@@ -71,7 +71,7 @@ export default function Home() {
                 alt="Hilbert's Hotel"
                 fill priority sizes="1200px"
                 className="object-cover transition duration-700"
-                style={{ filter: "brightness(0.65)" }}
+                style={{ filter: "brightness(0.4)" }}
               />
               <div className="absolute inset-0" style={{ backgroundImage: "linear-gradient(rgba(127,168,212,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(127,168,212,0.3) 1px, transparent 1px)", backgroundSize: "40px 40px", opacity: 0.08 }} />
               <div className="absolute pointer-events-none" style={{ top: "-40px", left: "33%", width: "400px", height: "300px", borderRadius: "50%", background: "radial-gradient(ellipse, rgba(127,168,212,0.15) 0%, transparent 70%)" }} />
@@ -81,7 +81,7 @@ export default function Home() {
                 <span className="badge badge-gold">Featured</span>
                 <span className="badge badge-accent">Number Theory</span>
               </div>
-              <h1 className="font-playfair mb-4" style={{ fontSize: "clamp(2rem, 3.5vw, 3rem)", fontWeight: 600, lineHeight: 1.2, letterSpacing: "-0.01em", color: "var(--color-ink-primary)", maxWidth: "720px", textShadow: "0 2px 12px rgba(0,0,0,0.4)" }}>
+              <h1 className="font-playfair mb-4" style={{ fontSize: "clamp(1.4rem, 5vw, 2.6rem)", fontWeight: 600, lineHeight: 1.2, letterSpacing: "-0.01em", color: "var(--color-ink-primary)", maxWidth: "720px", textShadow: "0 2px 12px rgba(0,0,0,0.4)" }}>
                 Infinity and Hilbert's Hotel: What Cantor Taught Us About the Infinite
               </h1>
               <p style={{ color: "var(--color-ink-tertiary)", fontSize: "1rem", lineHeight: 1.7, maxWidth: "600px", marginBottom: "20px" }}>
@@ -111,7 +111,7 @@ export default function Home() {
 
               <Link href="/articles/mystery-of-pi" className="group" style={{ borderRadius: "14px", overflow: "hidden", border: "0.5px solid var(--color-border-dim)", background: "var(--color-card)", display: "block" }}>
                 <div style={{ position: "relative", height: "180px" }}>
-                  <Image src="/images/pi.jpg" alt="Pi" fill sizes="300px" className="object-cover" style={{ filter: "brightness(0.65)" }} />
+                  <Image src="/images/pi.jpg" alt="Pi" fill sizes="300px" className="object-cover" style={{ filter: "brightness(0.4)" }} />
                 </div>
                 <div style={{ padding: "20px" }}>
                   <div style={{ fontSize: "0.68rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--color-cat-red)", marginBottom: "8px" }}>Mathematical Constants · 4 min read</div>
@@ -122,7 +122,7 @@ export default function Home() {
 
               <Link href="/articles/chess-mathematics" className="group" style={{ borderRadius: "14px", overflow: "hidden", border: "0.5px solid var(--color-border-dim)", background: "var(--color-card)", display: "block" }}>
                 <div style={{ position: "relative", height: "180px" }}>
-                  <Image src="/images/chess.jpg" alt="Chess" fill sizes="300px" className="object-cover" style={{ filter: "brightness(0.65)" }} />
+                  <Image src="/images/chess.jpg" alt="Chess" fill sizes="300px" className="object-cover" style={{ filter: "brightness(0.4)" }} />
                 </div>
                 <div style={{ padding: "20px" }}>
                   <div style={{ fontSize: "0.68rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--color-cat-green)", marginBottom: "8px" }}>Combinatorics · 5 min read</div>
