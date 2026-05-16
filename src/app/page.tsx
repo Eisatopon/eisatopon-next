@@ -313,7 +313,6 @@ export default function Home() {
     Explore eisatopon.gr →
   </a>
 </div>
-
           </aside>
 
         </div>
