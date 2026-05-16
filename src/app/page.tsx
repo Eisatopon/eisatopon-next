@@ -155,7 +155,6 @@ export default function Home() {
 
   return (
     <>
-      {/* JSON-LD — native script tag works fine in Server Components */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
@@ -164,12 +163,21 @@ export default function Home() {
       <main className="min-h-screen bg-base text-ink-primary">
         <MainNavbar />
 
-        {/* ═══ HERO ═══ */}
+        {/* ═══ HERO — 16:9 aspect ratio, max 600px, for Google Discover ═══ */}
         {heroArticle ? (
-          <Link href={`/articles/${heroArticle.slug}`} className="block relative w-full mb-14 group cursor-pointer" style={{ height: "500px" }} aria-label={`Read featured article: ${heroArticle.title}`}>
+          <Link
+            href={`/articles/${heroArticle.slug}`}
+            className="block relative w-full mb-14 group cursor-pointer overflow-hidden"
+            style={{ aspectRatio: "16/9", maxHeight: "600px" }}
+            aria-label={`Read featured article: ${heroArticle.title}`}
+          >
             {heroArticle.image ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img src={heroArticle.image} alt={heroArticle.title} className="absolute inset-0 w-full h-full object-cover brightness-50 group-hover:brightness-60 transition-all duration-500" />
+              <img
+                src={heroArticle.image}
+                alt={heroArticle.title}
+                className="absolute inset-0 w-full h-full object-cover brightness-50 group-hover:brightness-60 transition-all duration-500"
+              />
             ) : (
               <div className="absolute inset-0 bg-gradient-to-br from-[#0a1a2e] to-[#080a0f]" />
             )}
@@ -195,7 +203,7 @@ export default function Home() {
             </div>
           </Link>
         ) : (
-          <div className="relative w-full mb-14 flex items-center justify-center bg-gradient-to-br from-[#0a1a2e] to-[#080a0f]" style={{ height: "500px" }}>
+          <div className="relative w-full mb-14 flex items-center justify-center bg-gradient-to-br from-[#0a1a2e] to-[#080a0f]" style={{ aspectRatio: "16/9", maxHeight: "600px" }}>
             <p className="text-ink-muted text-sm">No articles yet. Add your first MDX file to content/articles/.</p>
           </div>
         )}
