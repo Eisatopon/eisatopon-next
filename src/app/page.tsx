@@ -6,6 +6,25 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Mathematical Problem Banks | EisatoponAI",
   description: "Interactive mathematical archives, olympiad problems and AI-powered learning.",
+  openGraph: {
+    title: "Mathematical Problem Banks | EisatoponAI",
+    description: "Interactive mathematical archives, olympiad problems and AI-powered learning.",
+    type: "website",
+    locale: "en_US",
+    siteName: "EisatoponAI",
+    images: [{
+      url: "/images/og-home.jpg",
+      width: 1200,
+      height: 630,
+      alt: "EisatoponAI - Mathematical Problem Banks"
+    }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mathematical Problem Banks | EisatoponAI",
+    description: "Interactive mathematical archives, olympiad problems and AI-powered learning.",
+    images: ["/images/og-home.jpg"],
+  },
 };
 
 const SocialIcons = {
@@ -42,198 +61,298 @@ const SocialIcons = {
 };
 
 const socialLinks = [
-  { name: "Facebook",  href: "https://facebook.com/eisatopon",         icon: SocialIcons.Facebook },
-  { name: "LinkedIn",  href: "https://linkedin.com/company/eisatopon", icon: SocialIcons.LinkedIn },
-  { name: "X",         href: "https://x.com/eisatopon",                icon: SocialIcons.X },
-  { name: "Instagram", href: "https://instagram.com/eisatopon",        icon: SocialIcons.Instagram },
-  { name: "YouTube",   href: "https://youtube.com/@eisatopon",         icon: SocialIcons.YouTube },
-  { name: "Pinterest", href: "https://pinterest.com/eisatopon",        icon: SocialIcons.Pinterest },
+  { name: "Facebook", href: "https://facebook.com/eisatopon", icon: SocialIcons.Facebook },
+  { name: "LinkedIn", href: "https://linkedin.com/company/eisatopon", icon: SocialIcons.LinkedIn },
+  { name: "X", href: "https://x.com/eisatopon", icon: SocialIcons.X },
+  { name: "Instagram", href: "https://instagram.com/eisatopon", icon: SocialIcons.Instagram },
+  { name: "YouTube", href: "https://youtube.com/@eisatopon", icon: SocialIcons.YouTube },
+  { name: "Pinterest", href: "https://pinterest.com/eisatopon", icon: SocialIcons.Pinterest },
+];
+
+const articles = [
+  {
+    href: "/articles/mystery-of-pi",
+    image: "/images/pi.jpg",
+    alt: "Illustration of the mathematical constant Pi",
+    category: "Mathematical Constants",
+    readTime: "4 min read",
+    color: "text-cat-red",
+    title: "The Mystery of π",
+    description: "From circles to the Gaussian integral, π surfaces where you least expect it.",
+  },
+  {
+    href: "/articles/chess-mathematics",
+    image: "/images/chess.jpg",
+    alt: "Chess board with mathematical graph overlays",
+    category: "Combinatorics",
+    readTime: "5 min read",
+    color: "text-cat-green",
+    title: "Chess and Mathematics",
+    description: "Graph theory and the combinatorial explosion behind 32 pieces on 64 squares.",
+  },
+  {
+    href: "/articles/golden-ratio",
+    image: null,
+    gradient: "from-[#120a00] to-[#1a1000]",
+    symbol: "φ",
+    symbolColor: "text-[rgba(196,169,106,0.3)]",
+    category: "Algebra",
+    readTime: "7 min read",
+    color: "text-cat-amber",
+    title: "The Golden Ratio — Myth and Mathematics",
+    description: "What is φ really, and does it truly appear in art and nature?",
+  },
+  {
+    href: "/articles/euler-identity",
+    image: null,
+    gradient: "from-[#080418] to-[#0d0824]",
+    symbol: "e^{iπ} + 1 = 0",
+    symbolColor: "text-[rgba(138,112,192,0.4)]",
+    isMath: true,
+    category: "Analysis",
+    readTime: "5 min read",
+    color: "text-cat-purple",
+    title: "Euler's Identity — The Most Beautiful Equation",
+    description: "Why e^{iπ} + 1 = 0 is not just elegant, but inevitable.",
+  },
+];
+
+const problemBanks = [
+  { href: "/banks/panelladikes", emoji: "🎓", label: "Hellenic Exams", desc: "Mathematics Topics", color: "text-cat-blue" },
+  { href: "/banks/eme", emoji: "🏛️", label: "HMS Contests", desc: "Thales · Euclid · Archimedes", color: "text-cat-red" },
+  { href: "/banks/imo", emoji: "🌍", label: "IMO", desc: "1959 - 2025", color: "text-cat-green" },
 ];
 
 export default function Home() {
   return (
-    <main className="min-h-screen" style={{ background: "var(--color-base)", color: "var(--color-ink-primary)" }}>
+    <main className="min-h-screen bg-base text-ink-primary">
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "EisatoponAI",
+            url: "https://eisatopon.ai",
+            description: "Interactive mathematical archives, olympiad problems and AI-powered learning.",
+            publisher: {
+              "@type": "Organization",
+              name: "EisatoponAI",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://eisatopon.ai/logo.png"
+              }
+            },
+            mainEntity: {
+              "@type": "ItemList",
+              itemListElement: articles.map((article, index) => ({
+                "@type": "ListItem",
+                position: index + 1,
+                url: `https://eisatopon.ai${article.href}`,
+                name: article.title,
+                description: article.description,
+              }))
+            }
+          })
+        }}
+      />
 
       <MainNavbar />
 
-      <div className="mx-auto px-8 py-10" style={{ maxWidth: "1200px" }}>
+      {/* HERO SECTION */}
+      <section className="relative w-full min-h-[60vh] md:min-h-[500px] mb-14" aria-label="Featured article">
+        <Image 
+          src="/images/infinity-hotel.jpg" 
+          alt="Hilbert's Hotel - Artistic representation of infinite rooms" 
+          fill 
+          className="object-cover brightness-50" 
+          priority 
+          sizes="(max-width: 1200px) 100vw, 1200px"
+        />
+        <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
+          <span className="text-gold text-[5rem] md:text-[7rem] font-bold opacity-10 select-none font-playfair">Rooms 1, 2, 3, ∞</span>
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent" />
+        <div className="absolute inset-0 flex flex-col justify-end p-6 sm:p-10 lg:p-[clamp(24px,5vw,56px)]">
+          <div className="flex gap-2 mb-4 flex-wrap">
+            <span className="bg-gold/90 text-black px-3 py-1 rounded text-[0.65rem] font-semibold tracking-wide uppercase">Featured</span>
+            <span className="border border-gold/60 text-gold px-3 py-1 rounded text-[0.65rem] font-semibold tracking-wide uppercase">Number Theory</span>
+          </div>
+          <h1 className="font-playfair font-semibold text-[clamp(1.4rem,5vw,2.6rem)] leading-tight max-w-3xl text-ink-primary drop-shadow-lg mb-3">
+            Infinity and Hilbert's Hotel: What Cantor Taught Us About the Infinite
+          </h1>
+          <p className="text-[clamp(0.9rem,3vw,1rem)] md:text-[1.1rem] text-ink-tertiary max-w-2xl leading-relaxed mb-4">
+            A journey into transfinite numbers, bijections, and the counterintuitive mathematics of infinite sets.
+          </p>
+          <div className="flex flex-wrap items-center gap-2 text-[0.7rem] tracking-widest text-ink-muted">
+            <span>BY EISATOPONAI TEAM</span>
+            <span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" />
+            <span>MAY 2026</span>
+            <span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" />
+            <span>6 min read</span>
+          </div>
+        </div>
+      </section>
 
-        {/* FEATURED HERO */}
-        <section className="mb-14">
-          <Link
-            href="/articles/infinity-hotel"
-            className="group relative block overflow-hidden"
-            style={{ borderRadius: "16px", border: "0.5px solid var(--color-border-dim)" }}
-          >
-            <div className="relative" style={{ height: "500px" }}>
-              <Image
-                src="/images/infinity-hotel.jpg"
-                alt="Hilbert's Hotel"
-                fill priority sizes="1200px"
-                className="object-cover transition duration-700"
-                style={{ filter: "brightness(0.4)" }}
-              />
-              <div className="absolute inset-0" style={{ backgroundImage: "linear-gradient(rgba(127,168,212,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(127,168,212,0.3) 1px, transparent 1px)", backgroundSize: "40px 40px", opacity: 0.08 }} />
-              <div className="absolute pointer-events-none" style={{ top: "-40px", left: "33%", width: "400px", height: "300px", borderRadius: "50%", background: "radial-gradient(ellipse, rgba(127,168,212,0.15) 0%, transparent 70%)" }} />
-            </div>
-            <div className="absolute inset-0 flex flex-col justify-end" style={{ padding: "clamp(24px, 5vw, 56px)", background: "linear-gradient(to top, rgba(8,10,15,0.85) 0%, rgba(8,10,15,0.35) 55%, transparent 100%)" }}>
-              <div className="flex gap-2 mb-5">
-                <span className="badge badge-gold">Featured</span>
-                <span className="badge badge-accent">Number Theory</span>
-              </div>
-              <h1 className="font-playfair mb-4" style={{ fontSize: "clamp(1.4rem, 5vw, 2.6rem)", fontWeight: 600, lineHeight: 1.2, letterSpacing: "-0.01em", color: "var(--color-ink-primary)", maxWidth: "720px", textShadow: "0 2px 12px rgba(0,0,0,0.4)" }}>
-                Infinity and Hilbert's Hotel: What Cantor Taught Us About the Infinite
-              </h1>
-              <p style={{ color: "var(--color-ink-tertiary)", fontSize: "1rem", lineHeight: 1.7, maxWidth: "600px", marginBottom: "20px" }}>
-                A journey into transfinite numbers, bijections, and the counterintuitive mathematics of infinite sets.
-              </p>
-              <div style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "wrap", fontSize: "0.75rem", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--color-ink-muted)" }}>
-                <span>By EisatoponAI Team</span>
-                <span style={{ width: "3px", height: "3px", borderRadius: "50%", background: "var(--color-ink-muted)" }} />
-                <span>May 2026</span>
-                <span style={{ width: "3px", height: "3px", borderRadius: "50%", background: "var(--color-ink-muted)" }} />
-                <span>6 min read</span>
-              </div>
-            </div>
-          </Link>
+      {/* ARTICLES GRID + SIDEBAR */}
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 py-10 max-w-[1200px] grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-12">
+        
+        {/* LEFT: ARTICLES */}
+        <section aria-labelledby="latest-articles-heading">
+          <div className="flex justify-between items-center mb-6">
+            <h2 id="latest-articles-heading" className="text-[0.68rem] tracking-widest uppercase text-ink-muted font-normal">
+              Latest Articles
+            </h2>
+            <Link 
+              href="/articles" 
+              className="text-[0.75rem] tracking-widest uppercase text-ink-muted hover:text-gold transition-colors duration-200"
+              aria-label="Browse all mathematical articles"
+            >
+              Browse All
+            </Link>
+          </div>
+          
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            {articles.map((article) => (
+              <article key={article.href}>
+                <Link 
+                  href={article.href} 
+                  className="group block rounded-xl overflow-hidden border border-border-dim bg-card hover:border-gold/30 transition-all duration-300 hover:-translate-y-1"
+                  aria-label={`Read article: ${article.title} — ${article.category}, ${article.readTime}`}
+                >
+                  {article.image ? (
+                    <div className="relative h-[180px]">
+                      <Image 
+                        src={article.image} 
+                        alt={article.alt || ""} 
+                        fill 
+                        className="object-cover brightness-50 group-hover:brightness-75 transition-all duration-500" 
+                        sizes="(max-width: 640px) 100vw, 300px"
+                      />
+                    </div>
+                  ) : (
+                    <div className={`h-[180px] flex items-center justify-center bg-gradient-to-tr ${article.gradient}`}>
+                      <span className={`text-[3rem] ${article.symbolColor} font-playfair ${article.isMath ? 'text-[1.4rem] font-jetbrains' : ''}`}>
+                        {article.symbol}
+                      </span>
+                    </div>
+                  )}
+                  <div className="p-5">
+                    <div className={`text-[0.68rem] tracking-wide uppercase ${article.color} mb-2`}>
+                      {article.category} · {article.readTime}
+                    </div>
+                    <h3 className="font-playfair text-[1.15rem] font-semibold leading-snug mb-2 text-ink-primary group-hover:text-gold transition-colors duration-200">
+                      {article.title}
+                    </h3>
+                    <p className="text-[0.85rem] leading-relaxed text-ink-tertiary">
+                      {article.description}
+                    </p>
+                  </div>
+                </Link>
+              </article>
+            ))}
+          </div>
         </section>
 
-        {/* TWO COLUMNS */}
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px]" style={{ gap: "48px" }}>
-
-          {/* LEFT: ARTICLES */}
-          <section>
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "24px" }}>
-              <span style={{ fontSize: "0.68rem", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--color-ink-muted)" }}>Latest Articles</span>
-              <Link href="/articles" style={{ fontSize: "0.75rem", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--color-ink-muted)" }}>Browse All</Link>
+        {/* RIGHT: SIDEBAR */}
+        <aside className="flex flex-col gap-7">
+          
+          {/* PROBLEM OF THE DAY */}
+          <div className="rounded-xl border border-gold-border bg-gold-dim p-5">
+            <h2 className="text-[0.68rem] tracking-wide uppercase text-gold mb-3 font-normal">✦ Problem of the Day</h2>
+            <p className="font-serif text-[0.9rem] leading-relaxed text-[#d4c99a] mb-3">
+              Prove that the sum of the first n odd numbers equals n².
+            </p>
+            <div className="bg-black/35 border border-border-dim rounded-lg px-3 py-3 font-jetbrains text-[0.875rem] text-[#c4b890] text-center mb-3" role="math" aria-label="Mathematical formula: 1 + 3 + 5 + ... + (2n - 1) = n squared">
+              1 + 3 + 5 + ... + (2n - 1) = n²
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2" style={{ gap: "20px" }}>
+            <p className="text-[0.8rem] text-ink-tertiary mb-3">Use induction or telescoping summation.</p>
+            <Link 
+              href="/articles/problem-of-the-day" 
+              className="block text-center text-[0.8rem] rounded-lg px-3 py-2.5 bg-gold/10 border border-gold/40 text-gold hover:bg-gold/20 hover:border-gold transition-all duration-200"
+              aria-label="View solution for today's problem of the day"
+            >
+              View Solution
+            </Link>
+          </div>
 
-              <Link href="/articles/mystery-of-pi" className="group" style={{ borderRadius: "14px", overflow: "hidden", border: "0.5px solid var(--color-border-dim)", background: "var(--color-card)", display: "block" }}>
-                <div style={{ position: "relative", height: "180px" }}>
-                  <Image src="/images/pi.jpg" alt="Pi" fill sizes="300px" className="object-cover" style={{ filter: "brightness(0.4)" }} />
-                </div>
-                <div style={{ padding: "20px" }}>
-                  <div style={{ fontSize: "0.68rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--color-cat-red)", marginBottom: "8px" }}>Mathematical Constants · 4 min read</div>
-                  <h3 className="font-playfair" style={{ fontSize: "1.15rem", fontWeight: 600, lineHeight: 1.3, color: "var(--color-ink-primary)", marginBottom: "8px" }}>The Mystery of π</h3>
-                  <p style={{ fontSize: "0.85rem", color: "var(--color-ink-tertiary)", lineHeight: 1.6 }}>From circles to the Gaussian integral, π surfaces where you least expect it.</p>
-                </div>
-              </Link>
-
-              <Link href="/articles/chess-mathematics" className="group" style={{ borderRadius: "14px", overflow: "hidden", border: "0.5px solid var(--color-border-dim)", background: "var(--color-card)", display: "block" }}>
-                <div style={{ position: "relative", height: "180px" }}>
-                  <Image src="/images/chess.jpg" alt="Chess" fill sizes="300px" className="object-cover" style={{ filter: "brightness(0.4)" }} />
-                </div>
-                <div style={{ padding: "20px" }}>
-                  <div style={{ fontSize: "0.68rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--color-cat-green)", marginBottom: "8px" }}>Combinatorics · 5 min read</div>
-                  <h3 className="font-playfair" style={{ fontSize: "1.15rem", fontWeight: 600, lineHeight: 1.3, color: "var(--color-ink-primary)", marginBottom: "8px" }}>Chess and Mathematics</h3>
-                  <p style={{ fontSize: "0.85rem", color: "var(--color-ink-tertiary)", lineHeight: 1.6 }}>Graph theory and the combinatorial explosion behind 32 pieces on 64 squares.</p>
-                </div>
-              </Link>
-
-              <Link href="/articles/golden-ratio" className="group" style={{ borderRadius: "14px", overflow: "hidden", border: "0.5px solid var(--color-border-dim)", background: "var(--color-card)", display: "block" }}>
-                <div style={{ height: "180px", background: "linear-gradient(135deg, #120a00, #1a1000)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "3rem", color: "rgba(196,169,106,0.3)", fontFamily: "var(--font-playfair)" }}>φ</div>
-                <div style={{ padding: "20px" }}>
-                  <div style={{ fontSize: "0.68rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--color-cat-amber)", marginBottom: "8px" }}>Algebra · 7 min read</div>
-                  <h3 className="font-playfair" style={{ fontSize: "1.15rem", fontWeight: 600, lineHeight: 1.3, color: "var(--color-ink-primary)", marginBottom: "8px" }}>The Golden Ratio — Myth and Mathematics</h3>
-                  <p style={{ fontSize: "0.85rem", color: "var(--color-ink-tertiary)", lineHeight: 1.6 }}>What is φ really, and does it truly appear in art and nature?</p>
-                </div>
-              </Link>
-
-              <Link href="/articles/euler-identity" className="group" style={{ borderRadius: "14px", overflow: "hidden", border: "0.5px solid var(--color-border-dim)", background: "var(--color-card)", display: "block" }}>
-                <div style={{ height: "180px", background: "linear-gradient(135deg, #080418, #0d0824)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.4rem", color: "rgba(138,112,192,0.4)", fontFamily: "var(--font-jetbrains)" }}>
-                  e<sup>i&#960;</sup> + 1 = 0
-                </div>
-                <div style={{ padding: "20px" }}>
-                  <div style={{ fontSize: "0.68rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--color-cat-purple)", marginBottom: "8px" }}>Analysis · 5 min read</div>
-                  <h3 className="font-playfair" style={{ fontSize: "1.15rem", fontWeight: 600, lineHeight: 1.3, color: "var(--color-ink-primary)", marginBottom: "8px" }}>Euler's Identity — The Most Beautiful Equation</h3>
-                  <p style={{ fontSize: "0.85rem", color: "var(--color-ink-tertiary)", lineHeight: 1.6 }}>Why e<sup>i&#960;</sup> + 1 = 0 is not just elegant, but inevitable.</p>
-                </div>
-              </Link>
-
-            </div>
-          </section>
-
-          {/* RIGHT: SIDEBAR */}
-          <aside style={{ display: "flex", flexDirection: "column", gap: "28px" }}>
-
-            {/* PROBLEM OF THE DAY */}
-            <div style={{ borderRadius: "14px", border: "0.5px solid var(--color-gold-border)", background: "var(--color-gold-dim)", padding: "20px" }}>
-              <div style={{ fontSize: "0.68rem", letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--color-gold)", marginBottom: "12px" }}>✦ Problem of the Day</div>
-              <p className="font-serif" style={{ fontSize: "0.9rem", lineHeight: 1.65, color: "#d4c99a", marginBottom: "14px" }}>
-                Prove that the sum of the first n odd numbers equals n².
-              </p>
-              <div style={{ background: "rgba(0,0,0,0.35)", border: "0.5px solid var(--color-border-dim)", borderRadius: "8px", padding: "12px", fontFamily: "var(--font-jetbrains)", fontSize: "0.875rem", color: "#c4b890", textAlign: "center", lineHeight: 1.8, marginBottom: "14px" }}>
-                1 + 3 + 5 + ... + (2n - 1) = n²
-              </div>
-              <p style={{ fontSize: "0.8rem", color: "var(--color-ink-tertiary)", marginBottom: "14px" }}>Use induction or telescoping summation.</p>
-              <Link href="/articles/problem-of-the-day" style={{ display: "block", textAlign: "center", padding: "8px", borderRadius: "8px", fontSize: "0.8rem", background: "rgba(196,169,106,0.08)", border: "0.5px solid var(--color-gold-border)", color: "var(--color-gold)" }}>
-                View Solution
-              </Link>
-            </div>
-
-            {/* PROBLEM BANKS */}
-            <div>
-              <div style={{ fontSize: "0.68rem", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--color-ink-muted)", paddingBottom: "10px", borderBottom: "0.5px solid var(--color-border-dim)", marginBottom: "12px" }}>Problem Banks</div>
-              {[
-                { href: "/banks/panelladikes", emoji: "🎓", label: "Hellenic Exams", desc: "Mathematics Topics",        color: "var(--color-cat-blue)" },
-                { href: "/banks/eme",          emoji: "🏛️", label: "HMS Contests",  desc: "Thales · Euclid · Archimedes", color: "var(--color-cat-red)" },
-                { href: "/banks/imo",          emoji: "🌍", label: "IMO",            desc: "1959 - 2025",               color: "var(--color-cat-green)" },
-              ].map((bank) => (
-                <Link key={bank.href} href={bank.href} className="bank-link" style={{ display: "flex", alignItems: "center", gap: "12px", padding: "12px", borderRadius: "10px", border: "0.5px solid var(--color-border-dim)", background: "rgba(255,255,255,0.02)", marginBottom: "8px", textDecoration: "none" }}>
-                  <span style={{ fontSize: "1.4rem" }}>{bank.emoji}</span>
-                  <div style={{ flex: 1 }}>
-                    <div style={{ fontSize: "0.875rem", fontWeight: 500, color: bank.color }}>{bank.label}</div>
-                    <div style={{ fontSize: "0.75rem", color: "var(--color-ink-muted)" }}>{bank.desc}</div>
+          {/* PROBLEM BANKS */}
+          <nav aria-labelledby="problem-banks-heading">
+            <h2 id="problem-banks-heading" className="text-[0.68rem] tracking-wide uppercase text-ink-muted pb-2 border-b border-border-dim mb-3 font-normal">
+              Problem Banks
+            </h2>
+            {problemBanks.map((bank) => (
+              <Link 
+                key={bank.href} 
+                href={bank.href} 
+                className="flex items-center gap-3 p-3 mb-2 rounded-lg border border-border-dim bg-card hover:border-gold/30 hover:bg-white/[0.04] transition-all duration-200 no-underline group"
+                aria-label={`Explore ${bank.label} — ${bank.desc}`}
+              >
+                <span className="text-[1.4rem]" aria-hidden="true">{bank.emoji}</span>
+                <div className="flex-1">
+                  <div className={`text-[0.875rem] font-medium ${bank.color} group-hover:text-gold transition-colors duration-200`}>
+                    {bank.label}
                   </div>
-                  <span style={{ color: "var(--color-ink-muted)", fontSize: "1rem" }}>›</span>
-                </Link>
-              ))}
-            </div>
+                  <div className="text-[0.75rem] text-ink-muted">{bank.desc}</div>
+                </div>
+                <span className="text-ink-muted text-lg group-hover:text-gold group-hover:translate-x-1 transition-all duration-200" aria-hidden="true">›</span>
+              </Link>
+            ))}
+          </nav>
 
-            {/* ARCHIVE CTA */}
-            <div style={{ borderRadius: "14px", border: "0.5px solid var(--color-border-dim)", background: "rgba(255,255,255,0.02)", padding: "20px", textAlign: "center" }}>
-              <div style={{ fontSize: "2rem", marginBottom: "10px" }}>📚</div>
-              <h3 className="font-playfair" style={{ fontSize: "1rem", fontWeight: 600, color: "var(--color-ink-primary)", marginBottom: "6px" }}>The Original Archive</h3>
-              <p style={{ fontSize: "0.8rem", color: "var(--color-ink-tertiary)", lineHeight: 1.6, marginBottom: "14px" }}>
-                Over 40,000 mathematical articles since 2010.
-              </p>
-              <a href="https://eisatopon.blogspot.com" target="_blank" rel="noopener noreferrer" style={{ display: "block", textAlign: "center", padding: "8px", borderRadius: "8px", fontSize: "0.8rem", background: "rgba(255,255,255,0.05)", border: "0.5px solid var(--color-border-soft)", color: "var(--color-ink-secondary)" }}>
-                Explore eisatopon.gr
-              </a>
-            </div>
+          {/* ARCHIVE CTA */}
+          <div className="rounded-xl border border-border-dim bg-card p-5 text-center">
+            <div className="text-2xl mb-2" aria-hidden="true">📚</div>
+            <h2 className="font-playfair text-[1rem] font-semibold text-ink-primary mb-1">The Original Archive</h2>
+            <p className="text-[0.8rem] text-ink-tertiary leading-relaxed mb-3">
+              Over 40,000 mathematical articles since 2010.
+            </p>
+            <a 
+              href="https://eisatopon.blogspot.com" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="block text-center text-[0.8rem] px-3 py-2.5 bg-white/5 border border-border-soft rounded-lg text-ink-secondary hover:text-gold hover:border-gold/30 hover:bg-gold/5 transition-all duration-200"
+              aria-label="Explore the original Eisatopon archive on Blogspot (opens in new tab)"
+            >
+              Explore eisatopon.gr
+            </a>
+          </div>
 
-          </aside>
-        </div>
+        </aside>
       </div>
 
       {/* FOOTER */}
-      <footer style={{ borderTop: "0.5px solid var(--color-border-dim)", background: "rgba(8,10,15,0.5)" }}>
-        <div className="mx-auto px-8 py-12" style={{ maxWidth: "1200px" }}>
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "24px" }}>
-            <Link href="/" className="font-playfair text-xl font-bold" style={{ color: "var(--color-ink-primary)" }}>
-              Eisatopon<span style={{ color: "var(--color-gold)" }}>AI</span>
-            </Link>
-            <p style={{ fontSize: "0.85rem", color: "var(--color-ink-tertiary)", textAlign: "center", maxWidth: "400px", lineHeight: 1.6 }}>
-              Interactive mathematical archives, olympiad problems and AI-powered learning.
-            </p>
-            <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
-              {socialLinks.map((social) => (
-                <a key={social.name} href={social.href} target="_blank" rel="noopener noreferrer" aria-label={social.name} className="social-icon" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "40px", height: "40px", borderRadius: "10px", color: "var(--color-ink-muted)", background: "rgba(255,255,255,0.03)", border: "0.5px solid var(--color-border-dim)", transition: "color 0.2s ease, background 0.2s ease" }}>
-                  {social.icon}
-                </a>
-              ))}
-            </div>
-            <div style={{ width: "100%", maxWidth: "200px", height: "0.5px", background: "var(--color-border-dim)" }} />
-            <div style={{ display: "flex", alignItems: "center", gap: "16px", fontSize: "0.75rem", color: "var(--color-ink-muted)", letterSpacing: "0.05em" }}>
-              <span>© 2026 EisatoponAI</span>
-              <span style={{ width: "3px", height: "3px", borderRadius: "50%", background: "var(--color-ink-muted)" }} />
-              <span>All rights reserved</span>
-            </div>
+      <footer className="border-t border-border-dim bg-black/50 mt-auto">
+        <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-[1200px] flex flex-col items-center gap-6">
+          <Link href="/" className="font-playfair text-xl font-bold text-ink-primary hover:text-gold transition-colors duration-200">
+            Eisatopon<span className="text-gold">AI</span>
+          </Link>
+          <p className="text-[0.85rem] text-ink-tertiary text-center max-w-[400px] leading-relaxed">
+            Interactive mathematical archives, olympiad problems and AI-powered learning.
+          </p>
+          <div className="flex items-center gap-4">
+            {socialLinks.map((social) => (
+              <a 
+                key={social.name} 
+                href={social.href} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                aria-label={`Visit EisatoponAI on ${social.name} (opens in new tab)`}
+                className="flex items-center justify-center w-10 h-10 rounded-xl border border-border-dim bg-white/5 text-ink-muted hover:text-gold hover:bg-gold/10 hover:border-gold/30 transition-all duration-200"
+              >
+                {social.icon}
+              </a>
+            ))}
+          </div>
+          <div className="w-full max-w-[200px] h-[0.5px] bg-border-dim" aria-hidden="true" />
+          <div className="flex flex-wrap items-center justify-center gap-4 text-[0.75rem] text-ink-muted">
+            <span>© 2026 EisatoponAI</span>
+            <span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" />
+            <span>All rights reserved</span>
           </div>
         </div>
       </footer>
-
     </main>
   );
 }
