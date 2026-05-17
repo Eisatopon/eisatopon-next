@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import MainNavbar from "@/components/MainNavbar";
 import ShareButtons from "@/components/ShareButtons";
 import { getArticleBySlug, getAllArticles } from "@/lib/articles";
@@ -11,19 +12,34 @@ export async function generateStaticParams() {
 
 export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> }
-): Promise<<Metadata> {
+): Promise<Metadata> {
+  
   const { slug } = await params;
   const result = getArticleBySlug(slug);
-  if (!result) return { title: "Not Found" };
+  
+  if (!result) {
+    return { 
+      title: "Not Found | EisatoponAI",
+      description: "The article you requested was not found." 
+    };
+  }
+
   const { article } = result;
+
   return {
     title: `${article.title} | EisatoponAI`,
-    description: article.summary,
+    description: article.summary || "",
     openGraph: {
       title: article.title,
       description: article.summary,
       type: "article",
-      images: article.image ? [{ url: article.image }] : [],
+      images: article.image 
+        ? [{ url: article.image, alt: article.title, width: 1200, height: 630 }] 
+        : [],
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: article.image ? [article.image] : [],
     },
   };
 }
@@ -32,10 +48,10 @@ function renderText(text: string): React.ReactNode[] {
   const parts = text.split(/(\*\*.*?\*\*|\*.*?\*)/g);
   return parts.map((part, i) => {
     if (part.startsWith("**") && part.endsWith("**")) {
-      return <strong key={i} style={{ color: "var(--color-ink-primary)", fontWeight: 600 }}>{part.slice(2, -2)}</strong>;
+      return <strong key={i}>{part.slice(2, -2)}</strong>;
     }
     if (part.startsWith("*") && part.endsWith("*")) {
-      return <em key={i} style={{ fontStyle: "italic", color: "#c8c4bc" }}>{part.slice(1, -1)}</em>;
+      return <em key={i}>{part.slice(1, -1)}</em>;
     }
     return part;
   });
@@ -49,36 +65,25 @@ function renderContent(content: string) {
 
   return paragraphs.map((para, i) => {
     if (para.startsWith("## ")) {
-      return (
-        <h2 key={i} style={{ fontFamily: "var(--font-family-playfair)", fontSize: "1.55rem", fontWeight: 600, color: "var(--color-ink-primary)", marginTop: "2.5em", marginBottom: "0.75em", lineHeight: 1.25 }}>
-          {para.replace("## ", "")}
-        </h2>
-      );
+      return <h2 key={i}>{para.replace("## ", "")}</h2>;
     }
     if (para.startsWith("### ")) {
-      return (
-        <h3 key={i} style={{ fontSize: "1rem", fontWeight: 500, textTransform: "uppercase" as const, letterSpacing: "0.1em", color: "var(--color-ink-secondary)", marginTop: "2em", marginBottom: "0.6em" }}>
-          {para.replace("### ", "")}
-        </h3>
-      );
+      return <h3 key={i}>{para.replace("### ", "")}</h3>;
     }
     if (para.startsWith("---")) {
-      return <hr key={i} style={{ border: "none", borderTop: "0.5px solid var(--color-border-dim)", margin: "2.5em auto", width: "40%" }} />;
+      return <hr key={i} />;
     }
     if (para.startsWith("*") && para.endsWith("*") && !para.startsWith("**")) {
-      return (
-        <blockquote key={i} style={{ margin: "2em 0", padding: "1.25em 1.5em", borderLeft: "3px solid var(--color-accent)", background: "rgba(127,168,212,0.04)", borderRadius: "0 8px 8px 0", fontStyle: "italic", color: "#b8b4ac" }}>
-          {para.slice(1, -1)}
-        </blockquote>
-      );
+      return <blockquote key={i}>{para.slice(1, -1)}</blockquote>;
     }
-    return <p key={i} style={{ marginBottom: "1.6em" }}>{renderText(para)}</p>;
+    return <p key={i}>{renderText(para)}</p>;
   });
 }
 
-export default async function ArticlePage(
+// ==================== MAIN PAGE COMPONENT ====================
+const ArticlePage = async (
   { params }: { params: Promise<{ slug: string }> }
-) {
+) => {
   const { slug } = await params;
   const result = getArticleBySlug(slug);
   if (!result) notFound();
@@ -86,38 +91,44 @@ export default async function ArticlePage(
   const { article, content } = result;
 
   const formattedDate = article.date
-    ? new Date(article.date).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })
+    ? new Date(article.date).toLocaleDateString("en-US", { 
+        month: "long", 
+        day: "numeric", 
+        year: "numeric" 
+      })
     : "";
 
-  const dotSep = <span style={{ width: "3px", height: "3px", borderRadius: "50%", background: "var(--color-ink-muted)", display: "inline-block" }} />;
+  const dotSep = <span className="inline-block w-1 h-1 rounded-full bg-ink-muted" />;
 
   const byline = (
-    <div style={{ display: "flex", alignItems: "center", gap: "10px", flexWrap: "wrap", fontSize: "0.72rem", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--color-ink-muted)" }}>
+    <div className="flex items-center gap-3 flex-wrap text-[0.72rem] tracking-widest uppercase text-ink-muted">
       {article.author && <span>{article.author}</span>}
       {formattedDate && <>{dotSep}<span>{formattedDate}</span></>}
       {article.readTime && <>{dotSep}<span>{article.readTime}</span></>}
     </div>
   );
 
-  const badges = (
-    <div style={{ display: "flex", gap: "8px", marginBottom: "16px", flexWrap: "wrap" }}>
-      {article.featured && <span className="badge badge-gold">Featured</span>}
-      {article.category && <span className="badge badge-accent">{article.category}</span>}
-    </div>
-  );
-
   return (
-    <main style={{ background: "var(--color-base)", minHeight: "100vh", color: "var(--color-ink-primary)" }}>
+    <main className="bg-base text-ink-primary min-h-screen">
       <MainNavbar />
 
+      {/* Hero Image */}
       {article.image ? (
-        <div style={{ position: "relative", width: "100%", height: "280px", overflow: "hidden" }}>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={article.image} alt={article.title} style={{ width: "100%", height: "100%", objectFit: "cover", filter: "brightness(0.35)" }} />
-          <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(8,10,15,0.97) 0%, rgba(8,10,15,0.5) 55%, transparent 100%)", display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "48px" }}>
-            <div style={{ maxWidth: "1200px", margin: "0 auto", width: "100%" }}>
-              {badges}
-              <h1 style={{ fontFamily: "var(--font-family-playfair)", fontSize: "clamp(1.8rem, 3vw, 2.8rem)", fontWeight: 600, lineHeight: 1.2, color: "var(--color-ink-primary)", maxWidth: "740px", marginBottom: "16px", textShadow: "0 2px 12px rgba(0,0,0,0.4)" }}>
+        <div className="relative w-full h-[280px] overflow-hidden">
+          <Image
+            src={article.image}
+            alt={article.title}
+            fill
+            priority
+            className="object-cover brightness-[0.35]"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-transparent flex items-end">
+            <div className="max-w-[1200px] mx-auto w-full px-8 pb-12">
+              <div className="flex gap-2 mb-4">
+                {article.featured && <span className="badge badge-gold">Featured</span>}
+                {article.category && <span className="badge badge-accent">{article.category}</span>}
+              </div>
+              <h1 className="font-playfair text-[clamp(1.8rem,3vw,2.8rem)] font-semibold leading-tight max-w-[740px] text-white drop-shadow-lg">
                 {article.title}
               </h1>
               {byline}
@@ -125,23 +136,28 @@ export default async function ArticlePage(
           </div>
         </div>
       ) : (
-        <div style={{ maxWidth: "740px", margin: "64px auto 0", padding: "0 32px" }}>
-          {badges}
-          <h1 style={{ fontFamily: "var(--font-family-playfair)", fontSize: "clamp(1.8rem, 3vw, 2.8rem)", fontWeight: 600, lineHeight: 1.2, color: "var(--color-ink-primary)", marginBottom: "16px" }}>
+        <div className="max-w-[740px] mx-auto pt-16 px-8">
+          <div className="flex gap-2 mb-6">
+            {article.featured && <span className="badge badge-gold">Featured</span>}
+            {article.category && <span className="badge badge-accent">{article.category}</span>}
+          </div>
+          <h1 className="font-playfair text-[clamp(1.8rem,3vw,2.8rem)] font-semibold leading-tight">
             {article.title}
           </h1>
-          <div style={{ marginBottom: "32px" }}>{byline}</div>
+          <div className="mt-6">{byline}</div>
         </div>
       )}
 
-      <div style={{ maxWidth: "680px", margin: "0 auto", padding: "64px 32px 96px" }}>
-        <article style={{ fontFamily: "var(--font-family-serif)", fontSize: "1.1rem", lineHeight: 1.85, color: "#ccc9c0" }}>
+      {/* Content */}
+      <div className="max-w-[680px] mx-auto px-8 py-16">
+        <article className="prose prose-invert max-w-none font-serif text-[1.1rem] leading-relaxed text-[#ccc9c0]">
           {renderContent(content)}
         </article>
 
-        {/* Share Buttons */}
         <ShareButtons title={article.title} summary={article.summary} />
       </div>
     </main>
   );
-}
+};
+
+export default ArticlePage;
