@@ -36,14 +36,14 @@ export const metadata: Metadata = {
     title:       "EisatoponAI — Mathematical Problem Banks",
     description: "Interactive mathematical archives, olympiad problems and AI-powered learning.",
     siteName:    "EisatoponAI",
-    locale:      "el_GR",
+    locale:      "el_US",
     type:        "website",
   },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="el" className={`${fontVars} antialiased`}>
+    <html lang="en" className={`${fontVars} antialiased`}>
       <body className="">
         {children}
         <ScrollToTop />

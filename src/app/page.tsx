@@ -163,47 +163,47 @@ export default function Home() {
       <main className="min-h-screen bg-base text-ink-primary">
         <MainNavbar />
 
-        {/* ═══ HERO — 16:9 aspect ratio, max 600px, for Google Discover ═══ */}
+{/* ═══ HERO — fixed height, no aspect ratio ═══ */}
         {heroArticle ? (
           <Link
             href={`/articles/${heroArticle.slug}`}
-            className="block relative w-full mb-14 group cursor-pointer overflow-hidden"
-            style={{ aspectRatio: "16/9", maxHeight: "600px" }}
+            className="block relative w-full mb-10 group cursor-pointer"
             aria-label={`Read featured article: ${heroArticle.title}`}
           >
-            {heroArticle.image ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={heroArticle.image}
-                alt={heroArticle.title}
-                className="absolute inset-0 w-full h-full object-cover brightness-50 group-hover:brightness-60 transition-all duration-500"
-              />
-            ) : (
-              <div className="absolute inset-0 bg-gradient-to-br from-[#0a1a2e] to-[#080a0f]" />
-            )}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent" />
-            <div className="absolute inset-0 flex flex-col justify-end p-6 sm:p-10 lg:p-[clamp(24px,5vw,56px)]">
-              {heroArticle.category && (
-                <div className="flex gap-2 mb-4 flex-wrap">
-                  <span className="bg-gold/90 text-black px-3 py-1 rounded text-[0.65rem] font-semibold tracking-wide uppercase">Featured</span>
-                  <span className="border border-gold/60 text-gold px-3 py-1 rounded text-[0.65rem] font-semibold tracking-wide uppercase">{heroArticle.category}</span>
+            <div className="relative w-full h-[260px] sm:h-[300px] md:h-[340px] lg:h-[380px]">
+              {heroArticle.image ? (
+                <img
+                  src={heroArticle.image}
+                  alt={heroArticle.title}
+                  className="absolute inset-0 w-full h-full object-cover brightness-50 group-hover:brightness-60 transition-all duration-500"
+                />
+              ) : (
+                <div className="absolute inset-0 bg-gradient-to-br from-[#0a1a2e] to-[#080a0f]" />
+              )}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent" />
+              <div className="absolute inset-0 flex flex-col justify-end p-5 sm:p-8 lg:p-10">
+                {heroArticle.category && (
+                  <div className="flex gap-2 mb-3 flex-wrap">
+                    <span className="bg-gold/90 text-black px-2.5 py-0.5 rounded text-[0.6rem] font-semibold tracking-wide uppercase">Featured</span>
+                    <span className="border border-gold/60 text-gold px-2.5 py-0.5 rounded text-[0.6rem] font-semibold tracking-wide uppercase">{heroArticle.category}</span>
+                  </div>
+                )}
+                <h1 className="font-playfair font-semibold text-[clamp(1.3rem,4vw,2.2rem)] leading-tight max-w-3xl text-ink-primary drop-shadow-lg mb-2 group-hover:text-gold transition-colors duration-300">
+                  {heroArticle.title}
+                </h1>
+                {heroArticle.summary && (
+                  <p className="text-[clamp(0.85rem,2.5vw,0.95rem)] text-ink-secondary max-w-2xl leading-relaxed mb-3 line-clamp-2">{heroArticle.summary}</p>
+                )}
+                <div className="flex flex-wrap items-center gap-2 text-[0.65rem] tracking-widest text-ink-muted">
+                  <span>BY {heroArticle.author.toUpperCase()}</span>
+                  {heroDate && <><span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" /><span>{heroDate.toUpperCase()}</span></>}
+                  {heroArticle.readTime && <><span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" /><span>{heroArticle.readTime.toUpperCase()}</span></>}
                 </div>
-              )}
-              <h1 className="font-playfair font-semibold text-[clamp(1.4rem,5vw,2.6rem)] leading-tight max-w-3xl text-ink-primary drop-shadow-lg mb-3 group-hover:text-gold transition-colors duration-300">
-                {heroArticle.title}
-              </h1>
-              {heroArticle.summary && (
-                <p className="text-[clamp(0.9rem,3vw,1rem)] text-ink-secondary max-w-2xl leading-relaxed mb-4 line-clamp-2">{heroArticle.summary}</p>
-              )}
-              <div className="flex flex-wrap items-center gap-2 text-[0.7rem] tracking-widest text-ink-muted">
-                <span>BY {heroArticle.author.toUpperCase()}</span>
-                {heroDate && <><span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" /><span>{heroDate.toUpperCase()}</span></>}
-                {heroArticle.readTime && <><span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" /><span>{heroArticle.readTime.toUpperCase()}</span></>}
               </div>
             </div>
           </Link>
         ) : (
-          <div className="relative w-full mb-14 flex items-center justify-center bg-gradient-to-br from-[#0a1a2e] to-[#080a0f]" style={{ aspectRatio: "16/9", maxHeight: "600px" }}>
+          <div className="relative w-full mb-10 flex items-center justify-center bg-gradient-to-br from-[#0a1a2e] to-[#080a0f] h-[260px] sm:h-[300px] md:h-[340px] lg:h-[380px]">
             <p className="text-ink-muted text-sm">No articles yet. Add your first MDX file to content/articles/.</p>
           </div>
         )}
