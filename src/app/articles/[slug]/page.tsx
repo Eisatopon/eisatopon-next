@@ -5,15 +5,16 @@ import ShareButtons from "@/components/ShareButtons";
 import { getArticleBySlug, getAllArticles } from "@/lib/articles";
 import type { Metadata } from "next";
 
+// ─── STATIC PARAMS ───────────────────────────────────────────────
 export async function generateStaticParams() {
   const articles = getAllArticles();
   return articles.map((a) => ({ slug: a.slug }));
 }
 
+// ─── METADATA ────────────────────────────────────────────────────
 export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> }
 ): Promise<Metadata> {
-  
   const { slug } = await params;
   const result = getArticleBySlug(slug);
   
@@ -44,6 +45,7 @@ export async function generateMetadata(
   };
 }
 
+// ─── RENDER FUNCTIONS ──────────────────────────────────────────
 function renderText(text: string): React.ReactNode[] {
   const parts = text.split(/(\*\*.*?\*\*|\*.*?\*)/g);
   return parts.map((part, i) => {
@@ -80,7 +82,7 @@ function renderContent(content: string) {
   });
 }
 
-// ==================== MAIN PAGE COMPONENT ====================
+// ─── MAIN PAGE COMPONENT ───────────────────────────────────────
 const ArticlePage = async (
   { params }: { params: Promise<{ slug: string }> }
 ) => {
