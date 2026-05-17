@@ -5,24 +5,7 @@ import MainNavbar from "@/components/MainNavbar";
 import type { Metadata } from "next";
 import { getAllArticles, Article } from "@/lib/articles";
 
-// ─── MathML TypeScript Support ─────────────────────────────────────
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      math: React.DetailedHTMLProps<React.HTMLAttributes<MathMLElement>, MathMLElement>;
-      mn: React.DetailedHTMLProps<React.HTMLAttributes<MathMLElement>, MathMLElement>;
-      mo: React.DetailedHTMLProps<React.HTMLAttributes<MathMLElement>, MathMLElement>;
-      mi: React.DetailedHTMLProps<React.HTMLAttributes<MathMLElement>, MathMLElement>;
-      mrow: React.DetailedHTMLProps<React.HTMLAttributes<MathMLElement>, MathMLElement>;
-      msup: React.DetailedHTMLProps<React.HTMLAttributes<MathMLElement>, MathMLElement>;
-      msub: React.DetailedHTMLProps<React.HTMLAttributes<MathMLElement>, MathMLElement>;
-      mfrac: React.DetailedHTMLProps<React.HTMLAttributes<MathMLElement>, MathMLElement>;
-      msqrt: React.DetailedHTMLProps<React.HTMLAttributes<MathMLElement>, MathMLElement>;
-    }
-  }
-}
-
-// Static generation
+// ─── Static generation ─────────────────────────────────────
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
@@ -44,14 +27,27 @@ export const metadata: Metadata = {
   },
   alternates: { canonical: "https://eisatopon.gr" },
   robots: {
-    index: true, follow: true,
+    index: true, 
+    follow: true,
     googleBot: { index: true, follow: true, "max-video-preview": -1, "max-image-preview": "large", "max-snippet": -1 },
   },
 };
 
 // ─── Static Data ─────────────────────────────────────────────────
-interface ProblemBank { href: string; emoji: string; label: string; desc: string; color: string; }
-interface Topic { label: string; emoji: string; color: string; bg: string; }
+interface ProblemBank { 
+  href: string; 
+  emoji: string; 
+  label: string; 
+  desc: string; 
+  color: string; 
+}
+
+interface Topic { 
+  label: string; 
+  emoji: string; 
+  color: string; 
+  bg: string; 
+}
 
 const problemBanks: ProblemBank[] = [
   { href: "/banks/panelladikes", emoji: "🎓", label: "Hellenic Exams",                desc: "Mathematics Topics",           color: "text-cat-blue"  },
@@ -60,16 +56,16 @@ const problemBanks: ProblemBank[] = [
 ];
 
 const topics: Topic[] = [
-  { label: "Mathematics",    emoji: "∞",  color: "text-gold",       bg: "bg-gold/5        border-gold/20"        },
-  { label: "Algebra",        emoji: "∑",  color: "text-cat-red",    bg: "bg-cat-red/5     border-cat-red/20"     },
-  { label: "Geometry",       emoji: "△",  color: "text-cat-blue",   bg: "bg-cat-blue/5    border-cat-blue/20"    },
-  { label: "Number Theory",  emoji: "ℕ",  color: "text-cat-amber",  bg: "bg-cat-amber/5   border-cat-amber/20"   },
-  { label: "Combinatorics",  emoji: "⊕",  color: "text-cat-green",  bg: "bg-cat-green/5   border-cat-green/20"   },
-  { label: "Calculus",       emoji: "∫",  color: "text-cat-purple", bg: "bg-cat-purple/5  border-cat-purple/20"  },
-  { label: "Probability",    emoji: "🎲", color: "text-rose-400",   bg: "bg-rose-400/5    border-rose-400/20"    },
-  { label: "Logic",          emoji: "🧩", color: "text-indigo-400", bg: "bg-indigo-400/5  border-indigo-400/20" },
-  { label: "Graph Theory",   emoji: "📈", color: "text-lime-400",   bg: "bg-lime-400/5    border-lime-400/20"    },
-  { label: "Science",        emoji: "🔬", color: "text-cyan-400",   bg: "bg-cyan-400/5    border-cyan-400/20"    },
+  { label: "Mathematics",       emoji: "∞",  color: "text-[#d4af37]", bg: "bg-[#d4af37]/10 border-[#d4af37]/25" },
+  { label: "Science",           emoji: "🔬", color: "text-[#67e8f9]", bg: "bg-[#67e8f9]/10 border-[#67e8f9]/25" },
+  { label: "History",           emoji: "📜", color: "text-[#c6a16e]", bg: "bg-[#c6a16e]/10 border-[#c6a16e]/25" },
+  { label: "Humor",             emoji: "🎭", color: "text-[#86efac]", bg: "bg-[#86efac]/10 border-[#86efac]/25" },
+  { label: "Language",          emoji: "🗣️", color: "text-[#93c5fd]", bg: "bg-[#93c5fd]/10 border-[#93c5fd]/25" },
+  { label: "Puzzles",           emoji: "🧩", color: "text-[#fda4af]", bg: "bg-[#fda4af]/10 border-[#fda4af]/25" },
+  { label: "Quotations",        emoji: "💬", color: "text-[#bef264]", bg: "bg-[#bef264]/10 border-[#bef264]/25" },
+  { label: "Society",           emoji: "🌍", color: "text-[#fb923c]", bg: "bg-[#fb923c]/10 border-[#fb923c]/25" },
+  { label: "Art",               emoji: "🎨", color: "text-[#f9a8d4]", bg: "bg-[#f9a8d4]/10 border-[#f9a8d4]/25" },
+  { label: "Artificial Intelligence", emoji: "🤖", color: "text-[#a5b4fc]", bg: "bg-[#a5b4fc]/10 border-[#a5b4fc]/25" },
 ];
 
 const socialLinks = [
@@ -120,6 +116,7 @@ function ArticleCard({ article, index }: { article: Article; index: number }) {
   const formattedDate = article.date
     ? new Date(article.date).toLocaleDateString("en-US", { year: "numeric", month: "long" })
     : "";
+
   return (
     <article>
       <Link prefetch href={`/articles/${article.slug}`} className="group block rounded-xl overflow-hidden border border-border-dim bg-card hover:border-gold/30 transition-all duration-300 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50" aria-label={`Read: ${article.title}`}>
@@ -267,10 +264,7 @@ export default async function Home() {
                   {potd.problem}
                 </p>
                 {potd.formula && (
-                  <div
-                    className="bg-black/35 border border-border-dim rounded-lg px-3 py-3 font-jetbrains text-[0.875rem] text-[#c4b890] text-center mb-3 overflow-x-auto"
-                    role="math"
-                  >
+                  <div className="bg-black/35 border border-border-dim rounded-lg px-3 py-3 font-jetbrains text-[0.875rem] text-[#c4b890] text-center mb-3 overflow-x-auto" role="math">
                     <span className="whitespace-nowrap">{potd.formula}</span>
                   </div>
                 )}

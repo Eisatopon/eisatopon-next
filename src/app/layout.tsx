@@ -8,10 +8,31 @@ import {
 import "./globals.css";
 import ScrollToTop from "@/components/ScrollToTop";
 
-const playfair    = Playfair_Display({ subsets: ["latin", "latin-ext"], variable: "--font-playfair",    display: "swap" });
-const sourceSerif = Source_Serif_4({  subsets: ["latin", "latin-ext"], variable: "--font-source-serif", display: "swap", weight: ["400", "600"] });
-const jetbrains   = JetBrains_Mono({  subsets: ["latin"],              variable: "--font-jetbrains",    display: "swap" });
-const inter       = Inter({           subsets: ["latin", "latin-ext"], variable: "--font-inter",         display: "swap" });
+const playfair = Playfair_Display({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-playfair",
+  display: "swap",
+  weight: ["400", "500", "600", "700"],
+});
+
+const sourceSerif = Source_Serif_4({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-source-serif",
+  display: "swap",
+  weight: ["400", "500", "600", "700"],
+});
+
+const jetbrains = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrains",
+  display: "swap",
+});
+
+const inter = Inter({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-inter",
+  display: "swap",
+});
 
 const fontVars = [
   playfair.variable,
@@ -22,7 +43,7 @@ const fontVars = [
 
 export const metadata: Metadata = {
   title: {
-    default:  "EisatoponAI — Mathematical Problem Banks",
+    default: "EisatoponAI — Mathematical Problem Banks",
     template: "%s | EisatoponAI",
   },
   description: "Interactive mathematical archives, olympiad problems and AI-powered learning.",
@@ -33,15 +54,23 @@ export const metadata: Metadata = {
     apple: "/favicon.svg",
   },
   openGraph: {
-    title:       "EisatoponAI — Mathematical Problem Banks",
+    title: "EisatoponAI — Mathematical Problem Banks",
     description: "Interactive mathematical archives, olympiad problems and AI-powered learning.",
-    siteName:    "EisatoponAI",
-    locale:      "en_US",
-    type:        "website",
+    siteName: "EisatoponAI",
+    locale: "en_US",
+    type: "website",
+    images: [
+      {
+        url: "/images/og-home.jpg",
+        width: 1200,
+        height: 630,
+        alt: "EisatoponAI",
+      },
+    ],
   },
 };
 
-// ─── JSON-LD — placed in <head> for crawlers ──────────────────────
+// ─── JSON-LD Schema ─────────────────────────────────────
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -70,14 +99,14 @@ const websiteSchema = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${fontVars} antialiased`}>
+    <html lang="el" className={`${fontVars} antialiased`}>
       <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
-      <body className="">
+      <body className="bg-base text-ink-primary">
         {children}
         <ScrollToTop />
       </body>

@@ -32,37 +32,30 @@ export async function generateMetadata(
   const { article } = result;
 
   return {
-  title: `${article.title} | EisatoponAI`,
-  description: article.summary || "",
+    title: `${article.title} | EisatoponAI`,
+    description: article.summary || "",
 
-  openGraph: {
-    title: article.title,
-    description: article.summary,
-    type: "article",
+    openGraph: {
+      title: article.title,
+      description: article.summary,
+      type: "article",
+      images: article.image
+        ? [
+            {
+              url: `https://www.eisatopon.gr${article.image}`,
+              alt: article.title,
+              width: 1200,
+              height: 630,
+            },
+          ]
+        : [],
+    },
 
-    images: article.image
-      ? [
-          {
-            url: `https://www.eisatopon.gr${article.image}`,
-            alt: article.title,
-            width: 1200,
-            height: 630,
-          },
-        ]
-      : [],
-  },
-
-  twitter: {
-    card: "summary_large_image",
-
-    images: article.image
-      ? [`https://www.eisatopon.gr${article.image}`]
-      : [],
-  },
-};
     twitter: {
       card: "summary_large_image",
-      images: article.image ? [article.image] : [],
+      images: article.image
+        ? [`https://www.eisatopon.gr${article.image}`]
+        : [],
     },
   };
 }
