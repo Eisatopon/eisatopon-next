@@ -1,7 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
 import MainNavbar from "@/components/MainNavbar";
 import type { Metadata } from "next";
 import { getAllArticles, Article } from "@/lib/articles";
+
+// Static generation
+export const dynamic = "force-static";
 
 export const metadata: Metadata = {
   title: "Mathematical Problem Banks | EisatoponAI",
@@ -25,28 +29,6 @@ export const metadata: Metadata = {
     index: true, follow: true,
     googleBot: { index: true, follow: true, "max-video-preview": -1, "max-image-preview": "large", "max-snippet": -1 },
   },
-};
-
-// ─── JSON-LD ──────────────────────────────────────────────────────
-const websiteSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: "EisatoponAI",
-  url: "https://eisatopon.gr",
-  description: "Interactive mathematical archives, olympiad problems and AI-powered learning.",
-  publisher: {
-    "@type": "Organization",
-    name: "EisatoponAI",
-    logo: { "@type": "ImageObject", url: "https://eisatopon.gr/logo.png", width: 512, height: 512 },
-  },
-  sameAs: [
-    "https://facebook.com/eisatopon",
-    "https://linkedin.com/company/eisatopon",
-    "https://x.com/eisatopon",
-    "https://instagram.com/eisatopon",
-    "https://youtube.com/@eisatopon",
-    "https://pinterest.com/eisatopon",
-  ],
 };
 
 // ─── Static Data ─────────────────────────────────────────────────
@@ -100,7 +82,7 @@ function SocialIcon({ name }: { name: string }) {
 
 function ProblemBankItem({ bank }: { bank: ProblemBank }) {
   return (
-    <Link href={bank.href} className="flex items-center gap-3 p-3 mb-2 rounded-lg border border-border-dim bg-card hover:border-gold/30 hover:bg-white/[0.04] transition-all duration-200 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50" aria-label={`Explore ${bank.label} — ${bank.desc}`}>
+    <Link prefetch href={bank.href} className="flex items-center gap-3 p-3 mb-2 rounded-lg border border-border-dim bg-card hover:border-gold/30 hover:bg-white/[0.04] transition-all duration-200 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50" aria-label={`Explore ${bank.label} — ${bank.desc}`}>
       <span className="text-[1.4rem]" aria-hidden="true">{bank.emoji}</span>
       <div className="flex-1 min-w-0">
         <div className={`text-[0.875rem] font-medium ${bank.color} group-hover:text-gold transition-colors duration-200 truncate`}>{bank.label}</div>
@@ -117,11 +99,16 @@ function ArticleCard({ article, index }: { article: Article; index: number }) {
     : "";
   return (
     <article>
-      <Link href={`/articles/${article.slug}`} className="group block rounded-xl overflow-hidden border border-border-dim bg-card hover:border-gold/30 transition-all duration-300 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50" aria-label={`Read: ${article.title}`}>
+      <Link prefetch href={`/articles/${article.slug}`} className="group block rounded-xl overflow-hidden border border-border-dim bg-card hover:border-gold/30 transition-all duration-300 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50" aria-label={`Read: ${article.title}`}>
         {article.image ? (
           <div className="relative h-[180px] bg-black overflow-hidden">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={article.image} alt={article.title} className="w-full h-full object-cover brightness-50 group-hover:brightness-70 transition-all duration-500" loading="lazy" />
+            <Image
+              src={article.image}
+              alt={article.title}
+              fill
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              className="object-cover brightness-50 group-hover:brightness-70 transition-all duration-500"
+            />
           </div>
         ) : (
           <div className={`h-[180px] flex items-center justify-center bg-gradient-to-tr ${CARD_GRADIENTS[index % CARD_GRADIENTS.length]}`}>
@@ -154,140 +141,152 @@ export default function Home() {
     : "";
 
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
-      />
+    <main className="min-h-screen bg-base text-ink-primary">
+      <MainNavbar />
 
-      <main className="min-h-screen bg-base text-ink-primary">
-        <MainNavbar />
-
-{/* ═══ HERO — fixed height, no aspect ratio ═══ */}
-        {heroArticle ? (
-          <Link
-            href={`/articles/${heroArticle.slug}`}
-            className="block relative w-full mb-10 group cursor-pointer"
-            aria-label={`Read featured article: ${heroArticle.title}`}
-          >
-            <div className="relative w-full h-[260px] sm:h-[300px] md:h-[340px] lg:h-[380px]">
-              {heroArticle.image ? (
-                <img
-                  src={heroArticle.image}
-                  alt={heroArticle.title}
-                  className="absolute inset-0 w-full h-full object-cover brightness-50 group-hover:brightness-60 transition-all duration-500"
-                />
-              ) : (
-                <div className="absolute inset-0 bg-gradient-to-br from-[#0a1a2e] to-[#080a0f]" />
-              )}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent" />
-              <div className="absolute inset-0 flex flex-col justify-end p-5 sm:p-8 lg:p-10">
-                {heroArticle.category && (
-                  <div className="flex gap-2 mb-3 flex-wrap">
-                    <span className="bg-gold/90 text-black px-2.5 py-0.5 rounded text-[0.6rem] font-semibold tracking-wide uppercase">Featured</span>
-                    <span className="border border-gold/60 text-gold px-2.5 py-0.5 rounded text-[0.6rem] font-semibold tracking-wide uppercase">{heroArticle.category}</span>
-                  </div>
-                )}
-                <h1 className="font-playfair font-semibold text-[clamp(1.3rem,4vw,2.2rem)] leading-tight max-w-3xl text-ink-primary drop-shadow-lg mb-2 group-hover:text-gold transition-colors duration-300">
-                  {heroArticle.title}
-                </h1>
-                {heroArticle.summary && (
-                  <p className="text-[clamp(0.85rem,2.5vw,0.95rem)] text-ink-secondary max-w-2xl leading-relaxed mb-3 line-clamp-2">{heroArticle.summary}</p>
-                )}
-                <div className="flex flex-wrap items-center gap-2 text-[0.65rem] tracking-widest text-ink-muted">
-                  <span>BY {heroArticle.author.toUpperCase()}</span>
-                  {heroDate && <><span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" /><span>{heroDate.toUpperCase()}</span></>}
-                  {heroArticle.readTime && <><span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" /><span>{heroArticle.readTime.toUpperCase()}</span></>}
-                </div>
+      {/* ═══ HERO — 16:9 for Google Discover ═══ */}
+      {heroArticle ? (
+        <Link
+          prefetch
+          href={`/articles/${heroArticle.slug}`}
+          className="block relative w-full mb-10 group cursor-pointer overflow-hidden"
+          style={{ aspectRatio: "16/9", maxHeight: "580px" }}
+          aria-label={`Read featured article: ${heroArticle.title}`}
+        >
+          {heroArticle.image ? (
+            <Image
+              src={heroArticle.image}
+              alt={heroArticle.title}
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover brightness-50 group-hover:brightness-60 transition-all duration-500"
+            />
+          ) : (
+            <div className="absolute inset-0 bg-gradient-to-br from-[#0a1a2e] to-[#080a0f]" />
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent" />
+          <div className="absolute inset-0 flex flex-col justify-end p-5 sm:p-8 lg:p-10">
+            {heroArticle.category && (
+              <div className="flex gap-2 mb-3 flex-wrap">
+                <span className="bg-gold/90 text-black px-2.5 py-0.5 rounded text-[0.6rem] font-semibold tracking-wide uppercase">Featured</span>
+                <span className="border border-gold/60 text-gold px-2.5 py-0.5 rounded text-[0.6rem] font-semibold tracking-wide uppercase">{heroArticle.category}</span>
               </div>
-            </div>
-          </Link>
-        ) : (
-          <div className="relative w-full mb-10 flex items-center justify-center bg-gradient-to-br from-[#0a1a2e] to-[#080a0f] h-[260px] sm:h-[300px] md:h-[340px] lg:h-[380px]">
-            <p className="text-ink-muted text-sm">No articles yet. Add your first MDX file to content/articles/.</p>
-          </div>
-        )}
-
-        {/* ═══ ARTICLES + SIDEBAR ═══ */}
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 py-10 max-w-[1200px] grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-12">
-
-          <section aria-labelledby="latest-heading">
-            <div className="flex justify-between items-center mb-6">
-              <h2 id="latest-heading" className="text-[0.68rem] tracking-widest uppercase text-ink-muted font-normal">Latest Articles</h2>
-              <Link href="/articles" className="text-[0.75rem] tracking-widest uppercase text-ink-muted hover:text-gold transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50">Browse All</Link>
-            </div>
-
-            {cardArticles.length > 0 ? (
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                {cardArticles.map((article, i) => <ArticleCard key={article.slug} article={article} index={i} />)}
-              </div>
-            ) : (
-              <p className="text-ink-muted text-sm py-10 text-center">No articles yet.</p>
             )}
-
-            {/* TOPICS */}
-            <div className="mt-12">
-              <h2 className="text-[0.68rem] tracking-widest uppercase text-ink-muted font-normal mb-5">Browse by Topic</h2>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
-                {topics.map((topic) => (
-                  <Link key={topic.label} href={`/articles?category=${encodeURIComponent(topic.label)}`} className={`group flex flex-col items-center justify-center gap-2 p-4 rounded-xl border ${topic.bg} hover:border-gold/40 hover:bg-gold/5 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50`} aria-label={`Browse ${topic.label} articles`}>
-                    <span className={`text-2xl font-playfair ${topic.color} group-hover:text-gold transition-colors duration-200`}>{topic.emoji}</span>
-                    <span className={`text-[0.75rem] font-medium tracking-wide ${topic.color} group-hover:text-gold transition-colors duration-200`}>{topic.label}</span>
-                  </Link>
-                ))}
-              </div>
+            <h1 className="font-playfair font-semibold text-[clamp(1.3rem,4vw,2.2rem)] leading-tight max-w-3xl text-ink-primary drop-shadow-lg mb-2 group-hover:text-gold transition-colors duration-300">
+              {heroArticle.title}
+            </h1>
+            {heroArticle.summary && (
+              <p className="text-[clamp(0.85rem,2.5vw,0.95rem)] text-ink-secondary max-w-2xl leading-relaxed mb-3 line-clamp-2">{heroArticle.summary}</p>
+            )}
+            <div className="flex flex-wrap items-center gap-2 text-[0.65rem] tracking-widest text-ink-muted">
+              <span>BY {heroArticle.author.toUpperCase()}</span>
+              {heroDate && <><span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" /><span>{heroDate.toUpperCase()}</span></>}
+              {heroArticle.readTime && <><span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" /><span>{heroArticle.readTime.toUpperCase()}</span></>}
             </div>
-          </section>
-
-          {/* SIDEBAR */}
-          <aside className="flex flex-col gap-7">
-            <div className="rounded-xl border border-gold-border bg-gold-dim p-5">
-              <h2 className="text-[0.68rem] tracking-wide uppercase text-gold mb-3 font-normal">✦ Problem of the Day</h2>
-              <p className="font-serif text-[0.9rem] leading-relaxed text-[#d4c99a] mb-3">Prove that the sum of the first n odd numbers equals n².</p>
-              <div className="bg-black/35 border border-border-dim rounded-lg px-3 py-3 font-jetbrains text-[0.875rem] text-[#c4b890] text-center mb-3 overflow-x-auto" role="math" aria-label="1 + 3 + 5 + ... + (2n - 1) = n squared">
-                <span className="whitespace-nowrap">1 + 3 + 5 + ... + (2n − 1) = n²</span>
-              </div>
-              <p className="text-[0.8rem] text-ink-tertiary mb-3">Use induction or telescoping summation.</p>
-              <a href="https://eisatopon.blogspot.com" target="_blank" rel="noopener noreferrer" className="block text-center text-[0.8rem] rounded-lg px-3 py-2.5 bg-gold/10 border border-gold/40 text-gold hover:bg-gold/20 hover:border-gold transition-all duration-200">View Solution</a>
-            </div>
-
-            <nav aria-labelledby="banks-heading">
-              <h2 id="banks-heading" className="text-[0.68rem] tracking-wide uppercase text-ink-muted pb-2 border-b border-border-dim mb-3 font-normal">Problem Banks</h2>
-              {problemBanks.map((bank) => <ProblemBankItem key={bank.href} bank={bank} />)}
-            </nav>
-
-            <div className="rounded-xl border border-border-dim bg-card p-5 text-center">
-              <div className="text-2xl mb-2" aria-hidden="true">📚</div>
-              <h2 className="font-playfair text-[1rem] font-semibold text-ink-primary mb-1">The Original Archive</h2>
-              <p className="text-[0.8rem] text-ink-tertiary leading-relaxed mb-3">Over 40,000 mathematical articles since 2010.</p>
-              <a href="https://eisatopon.blogspot.com" target="_blank" rel="noopener noreferrer" className="block text-center text-[0.8rem] px-3 py-2.5 bg-white/5 border border-border-soft rounded-lg text-ink-secondary hover:text-gold hover:border-gold/30 hover:bg-gold/5 transition-all duration-200">Explore eisatopon.gr</a>
-            </div>
-          </aside>
+          </div>
+        </Link>
+      ) : (
+        <div className="relative w-full mb-10 overflow-hidden" style={{ aspectRatio: "16/9", maxHeight: "580px" }}>
+          <div className="absolute inset-0 bg-gradient-to-br from-[#0a1a2e] via-[#0d1525] to-[#080a0f]" />
+          <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
+            <span className="text-[5rem] text-white/5 font-playfair select-none">∞</span>
+            <p className="text-ink-muted text-sm">No articles yet — add your first MDX file to content/articles/</p>
+          </div>
         </div>
+      )}
 
-        {/* FOOTER */}
-        <footer className="border-t border-border-dim bg-black/50 mt-auto">
-          <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-[1200px] flex flex-col items-center gap-6">
-            <Link href="/" className="font-playfair text-xl font-bold text-ink-primary hover:text-gold transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50">
-              Eisatopon<span className="text-gold">AI</span>
-            </Link>
-            <p className="text-[0.85rem] text-ink-tertiary text-center max-w-[400px] leading-relaxed">Interactive mathematical archives, olympiad problems and AI-powered learning.</p>
-            <div className="flex items-center gap-4 flex-wrap justify-center">
-              {socialLinks.map((s) => (
-                <a key={s.name} href={s.href} target="_blank" rel="noopener noreferrer" aria-label={`Visit EisatoponAI on ${s.name}`} className="flex items-center justify-center w-10 h-10 rounded-xl border border-border-dim bg-white/5 text-ink-muted hover:text-gold hover:bg-gold/10 hover:border-gold/30 transition-all duration-200">
-                  <SocialIcon name={s.name} />
-                </a>
+      {/* ═══ ARTICLES + SIDEBAR ═══ */}
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 py-10 max-w-[1200px] grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-12">
+
+        <section aria-labelledby="latest-heading">
+          <div className="flex justify-between items-center mb-6">
+            <h2 id="latest-heading" className="text-[0.68rem] tracking-widest uppercase text-ink-muted font-normal">Latest Articles</h2>
+            <Link prefetch href="/articles" className="text-[0.75rem] tracking-widest uppercase text-ink-muted hover:text-gold transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50">Browse All</Link>
+          </div>
+
+          {cardArticles.length > 0 ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              {cardArticles.map((article, i) => <ArticleCard key={article.slug} article={article} index={i} />)}
+            </div>
+          ) : (
+            <p className="text-ink-muted text-sm py-10 text-center">No articles yet.</p>
+          )}
+
+          {/* TOPICS */}
+          <div className="mt-12">
+            <h2 className="text-[0.68rem] tracking-widest uppercase text-ink-muted font-normal mb-5">Browse by Topic</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+              {topics.map((topic) => (
+                <Link key={topic.label} href={`/articles?category=${encodeURIComponent(topic.label)}`} className={`group flex flex-col items-center justify-center gap-2 p-4 rounded-xl border ${topic.bg} hover:border-gold/40 hover:bg-gold/5 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50`} aria-label={`Browse ${topic.label} articles`}>
+                  <span className={`text-2xl font-playfair ${topic.color} group-hover:text-gold transition-colors duration-200`} aria-hidden="true">{topic.emoji}</span>
+                  <span className={`text-[0.75rem] font-medium tracking-wide ${topic.color} group-hover:text-gold transition-colors duration-200`}>{topic.label}</span>
+                </Link>
               ))}
             </div>
-            <div className="w-full max-w-[200px] h-[0.5px] bg-border-dim" aria-hidden="true" />
-            <div className="flex flex-wrap items-center justify-center gap-4 text-[0.75rem] text-ink-muted">
-              <span>© 2026 EisatoponAI</span>
-              <span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" />
-              <span>All rights reserved</span>
-            </div>
           </div>
-        </footer>
-      </main>
-    </>
+        </section>
+
+        {/* SIDEBAR */}
+        <aside className="flex flex-col gap-7">
+          {/* Problem of the Day */}
+          <div className="rounded-xl border border-gold-border bg-gold-dim p-5">
+            <h2 className="text-[0.68rem] tracking-wide uppercase text-gold mb-3 font-normal">✦ Problem of the Day</h2>
+            <p className="font-serif text-[0.9rem] leading-relaxed text-[#d4c99a] mb-3">
+              Prove that the sum of the first n odd numbers equals n².
+            </p>
+            {/* MathML for accessibility */}
+            <div className="bg-black/35 border border-border-dim rounded-lg px-3 py-3 text-[#c4b890] text-center mb-3 overflow-x-auto">
+              <math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="1 + 3 + 5 + ... + (2n - 1) = n squared">
+                <mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>5</mn>
+                <mo>+</mo><mo>⋯</mo><mo>+</mo>
+                <mo>(</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo>
+                <mo>=</mo>
+                <msup><mi>n</mi><mn>2</mn></msup>
+              </math>
+            </div>
+            <p className="text-[0.8rem] text-ink-tertiary mb-3">Use induction or telescoping summation.</p>
+            <a href="https://eisatopon.blogspot.com" target="_blank" rel="noopener noreferrer" className="block text-center text-[0.8rem] rounded-lg px-3 py-2.5 bg-gold/10 border border-gold/40 text-gold hover:bg-gold/20 hover:border-gold transition-all duration-200">View Solution</a>
+          </div>
+
+          {/* Problem Banks */}
+          <nav aria-labelledby="banks-heading">
+            <h2 id="banks-heading" className="text-[0.68rem] tracking-wide uppercase text-ink-muted pb-2 border-b border-border-dim mb-3 font-normal">Problem Banks</h2>
+            {problemBanks.map((bank) => <ProblemBankItem key={bank.href} bank={bank} />)}
+          </nav>
+
+          {/* Archive CTA */}
+          <div className="rounded-xl border border-border-dim bg-card p-5 text-center">
+            <div className="text-2xl mb-2" aria-hidden="true">📚</div>
+            <h2 className="font-playfair text-[1rem] font-semibold text-ink-primary mb-1">The Original Archive</h2>
+            <p className="text-[0.8rem] text-ink-tertiary leading-relaxed mb-3">Over 40,000 mathematical articles since 2010.</p>
+            <a href="https://eisatopon.blogspot.com" target="_blank" rel="noopener noreferrer" className="block text-center text-[0.8rem] px-3 py-2.5 bg-white/5 border border-border-soft rounded-lg text-ink-secondary hover:text-gold hover:border-gold/30 hover:bg-gold/5 transition-all duration-200">Explore eisatopon.gr</a>
+          </div>
+        </aside>
+      </div>
+
+      {/* FOOTER */}
+      <footer className="border-t border-border-dim bg-black/50 mt-auto">
+        <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-[1200px] flex flex-col items-center gap-6">
+          <Link href="/" className="font-playfair text-xl font-bold text-ink-primary hover:text-gold transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50">
+            Eisatopon<span className="text-gold">AI</span>
+          </Link>
+          <p className="text-[0.85rem] text-ink-tertiary text-center max-w-[400px] leading-relaxed">Interactive mathematical archives, olympiad problems and AI-powered learning.</p>
+          <div className="flex items-center gap-4 flex-wrap justify-center">
+            {socialLinks.map((s) => (
+              <a key={s.name} href={s.href} target="_blank" rel="noopener noreferrer" aria-label={`Visit EisatoponAI on ${s.name}`} className="flex items-center justify-center w-10 h-10 rounded-xl border border-border-dim bg-white/5 text-ink-muted hover:text-gold hover:bg-gold/10 hover:border-gold/30 transition-all duration-200">
+                <SocialIcon name={s.name} />
+              </a>
+            ))}
+          </div>
+          <div className="w-full max-w-[200px] h-[0.5px] bg-border-dim" aria-hidden="true" />
+          <div className="flex flex-wrap items-center justify-center gap-4 text-[0.75rem] text-ink-muted">
+            <span>© 2026 EisatoponAI</span>
+            <span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" />
+            <span>All rights reserved</span>
+          </div>
+        </div>
+      </footer>
+    </main>
   );
 }

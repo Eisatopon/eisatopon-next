@@ -26,8 +26,8 @@ export const metadata: Metadata = {
     template: "%s | EisatoponAI",
   },
   description: "Interactive mathematical archives, olympiad problems and AI-powered learning.",
-  keywords: ["μαθηματικά", "πανελλαδικές", "ολυμπιάδα", "mathematics", "olympiad", "problem solving"],
-  authors: [{ name: "Σωκράτης Κορομηλάς" }],
+  keywords: ["mathematics", "olympiad", "problem solving", "IMO", "panelladikes", "hellenic exams"],
+  authors: [{ name: "Sokratis Koromilás" }],
   icons: {
     icon: "/favicon.svg",
     apple: "/favicon.svg",
@@ -36,14 +36,47 @@ export const metadata: Metadata = {
     title:       "EisatoponAI — Mathematical Problem Banks",
     description: "Interactive mathematical archives, olympiad problems and AI-powered learning.",
     siteName:    "EisatoponAI",
-    locale:      "el_US",
+    locale:      "en_US",
     type:        "website",
   },
+};
+
+// ─── JSON-LD — placed in <head> for crawlers ──────────────────────
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "EisatoponAI",
+  url: "https://eisatopon.gr",
+  description: "Interactive mathematical archives, olympiad problems and AI-powered learning.",
+  publisher: {
+    "@type": "Organization",
+    name: "EisatoponAI",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://eisatopon.gr/logo.png",
+      width: 512,
+      height: 512,
+    },
+  },
+  sameAs: [
+    "https://facebook.com/eisatopon",
+    "https://linkedin.com/company/eisatopon",
+    "https://x.com/eisatopon",
+    "https://instagram.com/eisatopon",
+    "https://youtube.com/@eisatopon",
+    "https://pinterest.com/eisatopon",
+  ],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${fontVars} antialiased`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+      </head>
       <body className="">
         {children}
         <ScrollToTop />
