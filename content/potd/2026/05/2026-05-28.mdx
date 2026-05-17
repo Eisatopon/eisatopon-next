@@ -1,0 +1,10 @@
+---
+date: "2026-05-28"
+title: "Divisibility by 11"
+difficulty: "Easy"
+topic: "Number Theory"
+hint: "A number is divisible by 11 if the alternating sum of its digits is divisible by 11. For 100...001, the digits are 1, then k zeros, then 1. The alternating sum is 1 - 0 + 0 - ... + 1 = 2 if k is even, or 1 - 0 + ... - 0 + 1 = 2 if k is odd... Wait, let's be more careful. The number is 10^(k+1) + 1. Use the divisibility rule for 11: 10 ≡ -1 (mod 11), so 10^(k+1) + 1 ≡ (-1)^(k+1) + 1 (mod 11). This is 0 when k+1 is odd, i.e., k is even."
+formula: "10^{k+1} + 1 \equiv (-1)^{k+1} + 1 \pmod{11}"
+---
+
+We consider numbers of the form 100...001. For which numbers of zeros is this number divisible by 11?

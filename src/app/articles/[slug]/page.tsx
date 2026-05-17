@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import MainNavbar from "@/components/MainNavbar";
+import ShareButtons from "@/components/ShareButtons";
 import { getArticleBySlug, getAllArticles } from "@/lib/articles";
 import type { Metadata } from "next";
 
@@ -10,7 +11,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> }
-): Promise<Metadata> {
+): Promise<<Metadata> {
   const { slug } = await params;
   const result = getArticleBySlug(slug);
   if (!result) return { title: "Not Found" };
@@ -137,6 +138,9 @@ export default async function ArticlePage(
         <article style={{ fontFamily: "var(--font-family-serif)", fontSize: "1.1rem", lineHeight: 1.85, color: "#ccc9c0" }}>
           {renderContent(content)}
         </article>
+
+        {/* Share Buttons */}
+        <ShareButtons title={article.title} summary={article.summary} />
       </div>
     </main>
   );

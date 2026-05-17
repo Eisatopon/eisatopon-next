@@ -1,3 +1,4 @@
+import { getTodayProblem, PotdProblem } from "@/lib/potd";
 import Link from "next/link";
 import Image from "next/image";
 import MainNavbar from "@/components/MainNavbar";
@@ -42,11 +43,16 @@ const problemBanks: ProblemBank[] = [
 ];
 
 const topics: Topic[] = [
-  { label: "Algebra",       emoji: "∑", color: "text-cat-red",    bg: "bg-cat-red/5    border-cat-red/20"    },
-  { label: "Geometry",      emoji: "△", color: "text-cat-blue",   bg: "bg-cat-blue/5   border-cat-blue/20"   },
-  { label: "Number Theory", emoji: "ℕ", color: "text-cat-amber",  bg: "bg-cat-amber/5  border-cat-amber/20"  },
-  { label: "Combinatorics", emoji: "⊕", color: "text-cat-green",  bg: "bg-cat-green/5  border-cat-green/20"  },
-  { label: "Analysis",      emoji: "∫", color: "text-cat-purple", bg: "bg-cat-purple/5 border-cat-purple/20" },
+  { label: "Mathematics",    emoji: "∞",  color: "text-gold",       bg: "bg-gold/5        border-gold/20"        },
+  { label: "Algebra",        emoji: "∑",  color: "text-cat-red",    bg: "bg-cat-red/5     border-cat-red/20"     },
+  { label: "Geometry",       emoji: "△",  color: "text-cat-blue",   bg: "bg-cat-blue/5    border-cat-blue/20"    },
+  { label: "Number Theory",  emoji: "ℕ",  color: "text-cat-amber",  bg: "bg-cat-amber/5   border-cat-amber/20"   },
+  { label: "Combinatorics",  emoji: "⊕",  color: "text-cat-green",  bg: "bg-cat-green/5   border-cat-green/20"   },
+  { label: "Calculus",       emoji: "∫",  color: "text-cat-purple", bg: "bg-cat-purple/5  border-cat-purple/20"  },
+  { label: "Probability",    emoji: "🎲", color: "text-rose-400",   bg: "bg-rose-400/5    border-rose-400/20"    },
+  { label: "Logic",          emoji: "🧩", color: "text-indigo-400", bg: "bg-indigo-400/5  border-indigo-400/20" },
+  { label: "Graph Theory",   emoji: "📈", color: "text-lime-400",   bg: "bg-lime-400/5    border-lime-400/20"    },
+  { label: "Science",        emoji: "🔬", color: "text-cyan-400",   bg: "bg-cyan-400/5    border-cyan-400/20"    },
 ];
 
 const socialLinks = [
@@ -131,10 +137,11 @@ function ArticleCard({ article, index }: { article: Article; index: number }) {
 }
 
 // ─── Main Page (Server Component) ────────────────────────────────
-export default function Home() {
+export default async function Home() {
   const articles = getAllArticles();
   const heroArticle = articles[0] ?? null;
   const cardArticles = articles.slice(1, 7);
+  const potd = await getTodayProblem(); 
 
   const heroDate = heroArticle?.date
     ? new Date(heroArticle.date).toLocaleDateString("en-US", { year: "numeric", month: "long" })
@@ -230,24 +237,62 @@ export default function Home() {
         {/* SIDEBAR */}
         <aside className="flex flex-col gap-7">
           {/* Problem of the Day */}
-          <div className="rounded-xl border border-gold-border bg-gold-dim p-5">
-            <h2 className="text-[0.68rem] tracking-wide uppercase text-gold mb-3 font-normal">✦ Problem of the Day</h2>
-            <p className="font-serif text-[0.9rem] leading-relaxed text-[#d4c99a] mb-3">
-              Prove that the sum of the first n odd numbers equals n².
-            </p>
-            {/* MathML for accessibility */}
-            <div className="bg-black/35 border border-border-dim rounded-lg px-3 py-3 text-[#c4b890] text-center mb-3 overflow-x-auto">
-              <math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="1 + 3 + 5 + ... + (2n - 1) = n squared">
-                <mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>5</mn>
-                <mo>+</mo><mo>⋯</mo><mo>+</mo>
-                <mo>(</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo>
-                <mo>=</mo>
-                <msup><mi>n</mi><mn>2</mn></msup>
-              </math>
-            </div>
-            <p className="text-[0.8rem] text-ink-tertiary mb-3">Use induction or telescoping summation.</p>
-            <a href="https://eisatopon.blogspot.com" target="_blank" rel="noopener noreferrer" className="block text-center text-[0.8rem] rounded-lg px-3 py-2.5 bg-gold/10 border border-gold/40 text-gold hover:bg-gold/20 hover:border-gold transition-all duration-200">View Solution</a>
-          </div>
+          {/* ── Problem of the Day ── */}
+<div className="rounded-xl border border-gold-border bg-gold-dim p-5">
+  {potd ? (
+    <>
+      <h2 className="text-[0.68rem] tracking-wide uppercase text-gold mb-3 font-normal">
+        ✦ Problem of the Day
+      </h2>
+      <p className="font-serif text-[0.9rem] leading-relaxed text-[#d4c99a] mb-3">
+        {potd.title}
+      </p>
+      <p className="text-[0.85rem] text-ink-secondary mb-3">
+        {potd.problem}
+      </p>
+      {potd.formula && (
+        <div
+          className="bg-black/35 border border-border-dim rounded-lg px-3 py-3 font-jetbrains text-[0.875rem] text-[#c4b890] text-center mb-3 overflow-x-auto"
+          role="math"
+        >
+          <span className="whitespace-nowrap">{potd.formula}</span>
+        </div>
+      )}
+      
+      {/* Hint toggle */}
+      <div className="mb-3">
+        <details className="group">
+          <summary className="list-none cursor-pointer">
+            <span className="block text-center text-[0.8rem] rounded-lg px-3 py-2.5 bg-gold/10 border border-gold/40 text-gold hover:bg-gold/20 hover:border-gold transition-all duration-200 select-none">
+              💡 View Hint
+            </span>
+          </summary>
+          <p className="mt-3 text-[0.8rem] text-ink-tertiary italic p-3 bg-black/20 rounded-lg border border-border-dim">
+            {potd.hint}
+          </p>
+        </details>
+      </div>
+
+      <div className="flex items-center gap-2">
+        <span className={`text-[0.65rem] px-2 py-0.5 rounded ${
+          potd.difficulty === "Easy" ? "bg-green-500/20 text-green-400" :
+          potd.difficulty === "Medium" ? "bg-yellow-500/20 text-yellow-400" :
+          "bg-red-500/20 text-red-400"
+        }`}>
+          {potd.difficulty}
+        </span>
+        <span className="text-[0.65rem] text-ink-muted">{potd.topic}</span>
+      </div>
+    </>
+  ) : (
+    <>
+      <h2 className="text-[0.68rem] tracking-wide uppercase text-gold mb-3 font-normal">
+        ✦ Problem of the Day
+      </h2>
+      <p className="text-[0.85rem] text-ink-secondary">No problem available today.</p>
+    </>
+  )}
+</div>
 
           {/* Problem Banks */}
           <nav aria-labelledby="banks-heading">
@@ -265,24 +310,22 @@ export default function Home() {
         </aside>
       </div>
 
-      {/* FOOTER */}
+            {/* FOOTER */}
 <footer className="border-t border-border-dim bg-black/50 mt-auto">
   <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-[1200px] flex flex-col items-center gap-6">
-    <Link href="/" className="font-playfair text-xl font-bold text-ink-primary hover:text-gold transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50">
-      Eisatopon<span className="text-gold">AI</span>
+    <Link href="/" style={{ fontFamily: "var(--font-family-playfair)", fontSize: "1.75rem", fontWeight: 600, color: "var(--color-ink-primary)", letterSpacing: "-0.01em", textDecoration: "none" }} className="hover:text-gold transition-colors duration-200">
+      Eisatopon<span style={{ color: "var(--color-gold)" }}>AI</span>
     </Link>
     <p className="text-[0.85rem] text-ink-tertiary text-center max-w-[400px] leading-relaxed">Interactive mathematical archives, olympiad problems and AI-powered learning.</p>
     <div className="flex items-center gap-4 flex-wrap justify-center">
       {socialLinks.map((s) => (
-        
+        <a
           key={s.name}
           href={s.href}
           target="_blank"
           rel="noopener noreferrer"
           aria-label={`Visit EisatoponAI on ${s.name}`}
-          className="flex items-center justify-center w-10 h-10 rounded-xl border border-border-dim bg-white/5 text-ink-secondary transition-all duration-200"
-          onMouseEnter={e => (e.currentTarget.style.color = s.hoverColor)}
-          onMouseLeave={e => (e.currentTarget.style.color = "")}
+          className="flex items-center justify-center w-10 h-10 rounded-xl border border-border-dim bg-white/5 text-ink-secondary hover:text-gold hover:bg-gold/10 hover:border-gold/30 transition-all duration-200"
         >
           <SocialIcon name={s.name} />
         </a>
