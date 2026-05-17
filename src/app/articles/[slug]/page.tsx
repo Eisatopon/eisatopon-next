@@ -154,6 +154,7 @@ const ArticlePage = async (
           {renderContent(content)}
         </article>
 
+        {/* Share Buttons */}
         <ShareButtons title={article.title} summary={article.summary} />
       </div>
     </main>
