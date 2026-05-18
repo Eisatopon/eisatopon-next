@@ -1,3 +1,5 @@
+import "katex/dist/katex.min.css";
+import { BlockMath } from "react-katex";
 import { getTodayProblem, PotdProblem } from "@/lib/potd";
 import Link from "next/link";
 import Image from "next/image";
@@ -269,16 +271,23 @@ export default async function Home() {
           {potd.problem}
         </p>
 
-        {potd.formula && (
-          <div
-            className="bg-black/35 border border-border-dim rounded-lg px-3 py-3 font-jetbrains text-[0.875rem] text-[#c4b890] text-center mb-3 overflow-x-auto"
-            role="math"
-          >
-            <span className="whitespace-nowrap">
-              {potd.formula}
-            </span>
-          </div>
-        )}
+       {potd.formula && (
+  <div
+    className="
+      relative z-10
+      bg-black/45
+      border border-border-dim
+      rounded-xl
+      px-5 py-5
+      mb-4
+      overflow-x-auto
+      shadow-[0_0_30px_rgba(0,0,0,0.25)]
+    "
+    role="math"
+  >
+    <BlockMath math={potd.formula} />
+  </div>
+)}
 
         {/* Hint toggle */}
         <div className="mb-3">
