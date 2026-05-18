@@ -13,7 +13,7 @@ export default function MainNavbar() {
         className="mx-auto px-6 sm:px-12 flex items-center justify-between"
         style={{
           maxWidth: "1280px",
-          height: "82px",
+          height: "88px",
         }}
       >
         {/* LOGO */}
@@ -26,7 +26,7 @@ export default function MainNavbar() {
             src="/logo/eisatoponai-logo.svg"
             alt="EisatoponAI"
             className="
-              h-11
+              h-12
               w-auto
               transition-all
               duration-500
@@ -40,7 +40,7 @@ export default function MainNavbar() {
           <span
             style={{
               fontFamily: "var(--font-playfair)",
-              fontSize: "2.15rem",
+              fontSize: "2.35rem",
               fontWeight: 600,
               color: "#f5f1e8",
               letterSpacing: "-0.045em",
