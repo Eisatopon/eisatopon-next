@@ -392,34 +392,90 @@ export default async function Home() {
       </div>
 
       {/* FOOTER */}
-      <footer className="border-t border-border-dim bg-black/50 mt-auto">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-[1200px] flex flex-col items-center gap-6">
-          <Link href="/" style={{ fontFamily: "var(--font-family-playfair)", fontSize: "1.75rem", fontWeight: 600, color: "var(--color-ink-primary)", letterSpacing: "-0.01em", textDecoration: "none" }} className="hover:text-gold transition-colors duration-200">
-            Eisatopon<span style={{ color: "var(--color-gold)" }}>AI</span>
-          </Link>
-          <p className="text-[0.85rem] text-ink-tertiary text-center max-w-[400px] leading-relaxed">Interactive mathematical archives, olympiad problems and AI-powered learning.</p>
-          <div className="flex items-center gap-4 flex-wrap justify-center">
-            {socialLinks.map((s) => (
-              <a
-                key={s.name}
-                href={s.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={`Visit EisatoponAI on ${s.name}`}
-                className="flex items-center justify-center w-10 h-10 rounded-xl border border-border-dim bg-white/5 text-ink-secondary hover:text-gold hover:bg-gold/10 hover:border-gold/30 transition-all duration-200"
-              >
-                <SocialIcon name={s.name} />
-              </a>
-            ))}
-          </div>
-          <div className="w-full max-w-[200px] h-[0.5px] bg-border-dim" aria-hidden="true" />
-          <div className="flex flex-wrap items-center justify-center gap-4 text-[0.75rem] text-ink-muted">
-            <span>© 2026 EisatoponAI</span>
-            <span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" />
-            <span>All rights reserved</span>
-          </div>
-        </div>
-      </footer>
-    </main>
-  );
-}
+<footer className="border-t border-border-dim bg-black/50 mt-auto">
+  <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-[1200px] flex flex-col items-center gap-6">
+
+    <Link
+      href="/"
+      style={{
+        fontFamily: "var(--font-family-playfair)",
+        fontSize: "1.75rem",
+        fontWeight: 600,
+        color: "var(--color-ink-primary)",
+        letterSpacing: "-0.01em",
+        textDecoration: "none",
+      }}
+      className="hover:text-gold transition-colors duration-200"
+    >
+      Eisatopon
+      <span style={{ color: "var(--color-gold)" }}>
+        AI
+      </span>
+    </Link>
+
+    <p className="text-[0.85rem] text-ink-tertiary text-center max-w-[460px] leading-relaxed">
+      Interactive mathematical archives, olympiad problems and AI-powered learning.
+    </p>
+
+    {/* FOOTER NAV */}
+    <div className="flex items-center gap-6 text-[0.82rem] tracking-wide uppercase">
+
+      <Link
+        href="/about"
+        className="text-ink-secondary hover:text-gold transition-colors duration-300"
+      >
+        About
+      </Link>
+
+      <Link
+        href="/problems"
+        className="text-ink-secondary hover:text-gold transition-colors duration-300"
+      >
+        Problem Banks
+      </Link>
+
+      <a
+        href="https://eisatopon.blogspot.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-ink-secondary hover:text-gold transition-colors duration-300"
+      >
+        Archive
+      </a>
+
+    </div>
+
+    {/* SOCIALS */}
+    <div className="flex items-center gap-4 flex-wrap justify-center">
+      {socialLinks.map((s) => (
+        <a
+          key={s.name}
+          href={s.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Visit EisatoponAI on ${s.name}`}
+          className="flex items-center justify-center w-10 h-10 rounded-xl border border-border-dim bg-white/5 text-ink-secondary hover:text-gold hover:bg-gold/10 hover:border-gold/30 transition-all duration-200"
+        >
+          <SocialIcon name={s.name} />
+        </a>
+      ))}
+    </div>
+
+    <div
+      className="w-full max-w-[220px] h-[0.5px] bg-border-dim"
+      aria-hidden="true"
+    />
+
+    <div className="flex flex-wrap items-center justify-center gap-4 text-[0.75rem] text-ink-muted">
+      <span>© 2026 EisatoponAI</span>
+
+      <span
+        className="w-1 h-1 rounded-full bg-ink-muted"
+        aria-hidden="true"
+      />
+
+      <span>Mathematics • Problems • Ideas</span>
+    </div>
+
+  </div>
+</footer>
