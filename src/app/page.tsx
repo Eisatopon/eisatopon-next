@@ -382,17 +382,40 @@ export default async function Home() {
           </nav>
 
           {/* Archive CTA */}
-          <div className="rounded-xl border border-border-dim bg-card p-5 text-center">
-            <div className="text-2xl mb-2" aria-hidden="true">📚</div>
-            <h2 className="font-playfair text-[1rem] font-semibold text-ink-primary mb-1">The Original Archive</h2>
-            <p className="text-[0.8rem] text-ink-tertiary leading-relaxed mb-3">Over 40,000 mathematical articles since 2010.</p>
-            <a href="https://eisatopon.blogspot.com" target="_blank" rel="noopener noreferrer" className="block text-center text-[0.8rem] px-3 py-2.5 bg-white/5 border border-border-soft rounded-lg text-ink-secondary hover:text-gold hover:border-gold/30 hover:bg-gold/5 transition-all duration-200">Explore Old Site</a>
-          </div>
-        </aside>
-      </div>
+<div className="rounded-xl border border-border-dim bg-card p-5 text-center">
 
-      {/* FOOTER */}
+  <div
+    className="text-2xl mb-2"
+    aria-hidden="true"
+  >
+    📚
+  </div>
+
+  <h2 className="font-playfair text-[1rem] font-semibold text-ink-primary mb-1">
+    The Original Archive
+  </h2>
+
+  <p className="text-[0.8rem] text-ink-tertiary leading-relaxed mb-3">
+    Over 40,000 mathematical articles since 2010.
+  </p>
+
+  <a
+    href="https://eisatopon.blogspot.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block text-center text-[0.8rem] px-3 py-2.5 bg-white/5 border border-border-soft rounded-lg text-ink-secondary hover:text-gold hover:border-gold/30 hover:bg-gold/5 transition-all duration-200"
+  >
+    Explore Old Site
+  </a>
+
+</div>
+
+</aside>
+</div>
+
+{/* FOOTER */}
 <footer className="border-t border-border-dim bg-black/50 mt-auto">
+
   <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-[1200px] flex flex-col items-center gap-6">
 
     <Link
@@ -418,7 +441,7 @@ export default async function Home() {
     </p>
 
     {/* FOOTER NAV */}
-    <div className="flex items-center gap-6 text-[0.82rem] tracking-wide uppercase">
+    <div className="flex items-center gap-6 flex-wrap justify-center text-[0.82rem] tracking-wide uppercase">
 
       <Link
         href="/about"
@@ -447,6 +470,7 @@ export default async function Home() {
 
     {/* SOCIALS */}
     <div className="flex items-center gap-4 flex-wrap justify-center">
+
       {socialLinks.map((s) => (
         <a
           key={s.name}
@@ -459,6 +483,7 @@ export default async function Home() {
           <SocialIcon name={s.name} />
         </a>
       ))}
+
     </div>
 
     <div
@@ -467,6 +492,7 @@ export default async function Home() {
     />
 
     <div className="flex flex-wrap items-center justify-center gap-4 text-[0.75rem] text-ink-muted">
+
       <span>© 2026 EisatoponAI</span>
 
       <span
@@ -475,7 +501,13 @@ export default async function Home() {
       />
 
       <span>Mathematics • Problems • Ideas</span>
+
     </div>
 
   </div>
+
 </footer>
+
+</main>
+  );
+}
