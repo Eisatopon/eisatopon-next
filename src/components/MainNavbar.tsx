@@ -16,14 +16,14 @@ export default function MainNavbar() {
         {/* LOGO */}
         <Link
           href="/"
-          className="group flex items-center"
+          className="group flex items-center gap-3"
           style={{ textDecoration: "none" }}
         >
           <img
             src="/logo/eisatoponai-logo.svg"
             alt="EisatoponAI"
             className="
-              h-8
+              h-10
               w-auto
               transition-all
               duration-500
@@ -33,6 +33,22 @@ export default function MainNavbar() {
               display: "block",
             }}
           />
+
+          <span
+            style={{
+              fontFamily: "var(--font-playfair)",
+              fontSize: "2rem",
+              fontWeight: 600,
+              color: "#f5f1e8",
+              letterSpacing: "-0.03em",
+              lineHeight: 1,
+            }}
+          >
+            Eisatopon
+            <span style={{ color: "#c8a96b" }}>
+              AI
+            </span>
+          </span>
         </Link>
 
         {/* SEARCH */}
