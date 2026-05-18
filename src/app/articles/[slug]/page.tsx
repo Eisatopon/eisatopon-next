@@ -31,18 +31,27 @@ export async function generateMetadata(
 
   const { article } = result;
 
+  const imageUrl = article.image
+    ? article.image.startsWith("http")
+      ? article.image
+      : `https://www.eisatopon.gr${article.image}`
+    : null;
+
   return {
     title: `${article.title} | EisatoponAI`,
     description: article.summary || "",
 
     openGraph: {
       title: article.title,
-      description: article.summary,
+      description: article.summary || "",
       type: "article",
-      images: article.image
+      url: `https://www.eisatopon.gr/blog/${slug}`,
+      siteName: "EisatoponAI",
+      locale: "el_GR",
+      images: imageUrl
         ? [
             {
-              url: `https://www.eisatopon.gr${article.image}`,
+              url: imageUrl,
               alt: article.title,
               width: 1200,
               height: 630,
@@ -53,9 +62,9 @@ export async function generateMetadata(
 
     twitter: {
       card: "summary_large_image",
-      images: article.image
-        ? [`https://www.eisatopon.gr${article.image}`]
-        : [],
+      title: article.title,
+      description: article.summary || "",
+      images: imageUrl ? [imageUrl] : [],
     },
   };
 }
@@ -70,6 +79,12 @@ const ArticlePage = async (
   if (!result) notFound();
 
   const { article, content } = result;
+
+  const imageUrl = article.image
+    ? article.image.startsWith("http")
+      ? article.image
+      : `https://www.eisatopon.gr${article.image}`
+    : null;
 
   const formattedDate = article.date
     ? new Date(article.date).toLocaleDateString("en-US", {
@@ -218,6 +233,7 @@ const ArticlePage = async (
         <ShareButtons
           title={article.title}
           summary={article.summary}
+          image={imageUrl}
         />
       </div>
     </main>

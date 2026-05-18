@@ -3,13 +3,15 @@
 interface ShareButtonsProps {
   title: string;
   summary?: string;
+  image?: string | null;
 }
 
-export default function ShareButtons({ title, summary = "" }: ShareButtonsProps) {
+export default function ShareButtons({ title, summary = "", image }: ShareButtonsProps) {
   const currentUrl = typeof window !== "undefined" ? window.location.href : "";
 
   const encodedTitle = encodeURIComponent(title);
   const encodedUrl = encodeURIComponent(currentUrl);
+  const encodedImage = image ? encodeURIComponent(image) : "";
 
   const shareLinks = [
     {
@@ -25,7 +27,7 @@ export default function ShareButtons({ title, summary = "" }: ShareButtonsProps)
     {
       name: "Pinterest",
       icon: "📌",
-      href: `https://www.pinterest.com/pin/create/button/?url=${encodedUrl}&description=${encodedTitle}`,
+      href: `https://www.pinterest.com/pin/create/button/?url=${encodedUrl}&description=${encodedTitle}&media=${encodedImage}`,
     },
     {
       name: "LinkedIn",

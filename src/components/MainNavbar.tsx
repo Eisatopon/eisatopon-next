@@ -14,17 +14,23 @@ export default function MainNavbar() {
         style={{ maxWidth: "1200px", height: "64px" }}
       >
         {/* LOGO */}
-        <Link href="/" style={{ textDecoration: "none" }}>
-          <div style={{
-            fontSize: "1.75rem",
-            fontFamily: "var(--font-family-playfair)",
-            fontWeight: 600,
-            color: "var(--color-ink-primary)",
-            letterSpacing: "-0.01em",
-          }}>
-            Eisatopon<span style={{ color: "var(--color-gold)" }}>AI</span>
-          </div>
-        </Link>
+<Link
+  href="/"
+  className="group flex items-center"
+  style={{ textDecoration: "none" }}
+>
+  <img
+    src="/logo/eisatoponai-logo.svg"
+    alt="EisatoponAI"
+    className="
+      h-12
+      w-auto
+      transition-all
+      duration-500
+      group-hover:opacity-90
+    "
+  />
+</Link>
 
         {/* SEARCH */}
         <button
