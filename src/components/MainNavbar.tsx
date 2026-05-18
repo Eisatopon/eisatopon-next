@@ -11,26 +11,29 @@ export default function MainNavbar() {
     >
       <div
         className="mx-auto px-6 sm:px-12 flex items-center justify-between"
-        style={{ maxWidth: "1200px", height: "64px" }}
+        style={{ maxWidth: "1200px", height: "72px" }}
       >
         {/* LOGO */}
-<Link
-  href="/"
-  className="group flex items-center"
-  style={{ textDecoration: "none" }}
->
-  <img
-    src="/logo/eisatoponai-logo.svg"
-    alt="EisatoponAI"
-    className="
-      h-12
-      w-auto
-      transition-all
-      duration-500
-      group-hover:opacity-90
-    "
-  />
-</Link>
+        <Link
+          href="/"
+          className="group flex items-center"
+          style={{ textDecoration: "none" }}
+        >
+          <img
+            src="/logo/eisatoponai-logo.svg"
+            alt="EisatoponAI"
+            className="
+              h-8
+              w-auto
+              transition-all
+              duration-500
+              group-hover:opacity-90
+            "
+            style={{
+              display: "block",
+            }}
+          />
+        </Link>
 
         {/* SEARCH */}
         <button
@@ -42,8 +45,19 @@ export default function MainNavbar() {
           }}
           aria-label="Search"
         >
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
-            <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-4.35-4.35m1.85-5.15a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={2}
+            stroke="currentColor"
+            className="w-5 h-5"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="m21 21-4.35-4.35m1.85-5.15a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"
+            />
           </svg>
         </button>
       </div>
