@@ -249,60 +249,122 @@ export default async function Home() {
         </section>
 
         {/* SIDEBAR */}
-        <aside className="flex flex-col gap-7">
-          {/* Problem of the Day */}
-          <div className="rounded-xl border border-gold-border bg-gold-dim p-5">
-            {potd ? (
-              <>
-                <h2 className="text-[0.68rem] tracking-wide uppercase text-gold mb-3 font-normal">
-                  ✦ Problem of the Day
-                </h2>
-                <p className="font-serif text-[0.9rem] leading-relaxed text-[#d4c99a] mb-3">
-                  {potd.title}
-                </p>
-                <p className="text-[0.85rem] text-ink-secondary mb-3">
-                  {potd.problem}
-                </p>
-                {potd.formula && (
-                  <div className="bg-black/35 border border-border-dim rounded-lg px-3 py-3 font-jetbrains text-[0.875rem] text-[#c4b890] text-center mb-3 overflow-x-auto" role="math">
-                    <span className="whitespace-nowrap">{potd.formula}</span>
-                  </div>
-                )}
+<aside className="flex flex-col gap-7">
 
-                {/* Hint toggle */}
-                <div className="mb-3">
-                  <details className="group">
-                    <summary className="list-none cursor-pointer">
-                      <span className="block text-center text-[0.8rem] rounded-lg px-3 py-2.5 bg-gold/10 border border-gold/40 text-gold hover:bg-gold/20 hover:border-gold transition-all duration-200 select-none">
-                        💡 View Hint
-                      </span>
-                    </summary>
-                    <p className="mt-3 text-[0.8rem] text-ink-tertiary italic p-3 bg-black/20 rounded-lg border border-border-dim">
-                      {potd.hint}
-                    </p>
-                  </details>
-                </div>
+  {/* Problem of the Day */}
+  <div className="rounded-xl border border-gold-border bg-gold-dim p-5">
 
-                <div className="flex items-center gap-2">
-                  <span className={`text-[0.65rem] px-2 py-0.5 rounded ${
-                    potd.difficulty === "Easy" ? "bg-green-500/20 text-green-400" :
-                    potd.difficulty === "Medium" ? "bg-yellow-500/20 text-yellow-400" :
-                    "bg-red-500/20 text-red-400"
-                  }`}>
-                    {potd.difficulty}
-                  </span>
-                  <span className="text-[0.65rem] text-ink-muted">{potd.topic}</span>
-                </div>
-              </>
-            ) : (
-              <>
-                <h2 className="text-[0.68rem] tracking-wide uppercase text-gold mb-3 font-normal">
-                  ✦ Problem of the Day
-                </h2>
-                <p className="text-[0.85rem] text-ink-secondary">No problem available today.</p>
-              </>
-            )}
+    {potd ? (
+      <>
+
+        <h2 className="text-[0.68rem] tracking-wide uppercase text-gold mb-3 font-normal">
+          ✦ Problem of the Day
+        </h2>
+
+        <p className="font-serif text-[0.9rem] leading-relaxed text-[#d4c99a] mb-3">
+          {potd.title}
+        </p>
+
+        <p className="text-[0.85rem] text-ink-secondary mb-3">
+          {potd.problem}
+        </p>
+
+        {potd.formula && (
+          <div
+            className="bg-black/35 border border-border-dim rounded-lg px-3 py-3 font-jetbrains text-[0.875rem] text-[#c4b890] text-center mb-3 overflow-x-auto"
+            role="math"
+          >
+            <span className="whitespace-nowrap">
+              {potd.formula}
+            </span>
           </div>
+        )}
+
+        {/* Hint toggle */}
+        <div className="mb-3">
+
+          <details className="group">
+
+            <summary className="list-none cursor-pointer">
+              <span className="block text-center text-[0.8rem] rounded-lg px-3 py-2.5 bg-gold/10 border border-gold/40 text-gold hover:bg-gold/20 hover:border-gold transition-all duration-200 select-none">
+                💡 View Hint
+              </span>
+            </summary>
+
+            <p className="mt-3 text-[0.8rem] text-ink-tertiary italic p-3 bg-black/20 rounded-lg border border-border-dim">
+              {potd.hint}
+            </p>
+
+          </details>
+
+        </div>
+
+        {/* Difficulty + topic + date */}
+        <div className="flex items-center justify-between mt-4">
+
+          <div className="flex items-center gap-2">
+
+            <span
+              className={`text-[0.65rem] px-2 py-0.5 rounded ${
+                potd.difficulty === "Easy"
+                  ? "bg-green-500/20 text-green-400"
+                  : potd.difficulty === "Medium"
+                  ? "bg-yellow-500/20 text-yellow-400"
+                  : "bg-red-500/20 text-red-400"
+              }`}
+            >
+              {potd.difficulty}
+            </span>
+
+            <span className="text-[0.65rem] text-ink-muted">
+              {potd.topic}
+            </span>
+
+          </div>
+
+          <span className="text-[0.62rem] text-ink-muted opacity-70">
+            {potd.date}
+          </span>
+
+        </div>
+
+        {/* Previous POTD */}
+        <div className="mt-4 pt-4 border-t border-border-dim">
+
+          <Link
+            href="/problems"
+            className="
+              block
+              text-center
+              text-[0.72rem]
+              tracking-wide
+              text-gold
+              hover:text-white
+              transition-colors
+              duration-300
+            "
+          >
+            Browse Previous POTD →
+          </Link>
+
+        </div>
+
+      </>
+    ) : (
+      <>
+
+        <h2 className="text-[0.68rem] tracking-wide uppercase text-gold mb-3 font-normal">
+          ✦ Problem of the Day
+        </h2>
+
+        <p className="text-[0.85rem] text-ink-secondary">
+          No problem available today.
+        </p>
+
+      </>
+    )}
+
+  </div>
 
           {/* Problem Banks */}
           <nav aria-labelledby="banks-heading">
