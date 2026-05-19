@@ -56,6 +56,9 @@ const fontVars = [
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://eisatopon.gr"),
+   icons: {
+    icon: "/logo/favicon.svg",
+  }, 
 
   title: {
     default: "EisatoponAI — Mathematical Problem Banks",
