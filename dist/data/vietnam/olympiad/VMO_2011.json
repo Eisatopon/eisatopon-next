@@ -1,0 +1,93 @@
+[
+  {
+    "id": "VMO_2011_D1_P1",
+    "year": 2011,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": ["Algebra"],
+    "statement": "Prove that for all \\(x > 0\\) and \\(n \\in \\mathbb{N}\\):\n\\[\\frac{x^n(x^{n+1}+1)}{x^n+1} \\leq \\left(\\frac{x+1}{2}\\right)^{2n+1}.\\]",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2011 Day 1"
+  },
+  {
+    "id": "VMO_2011_D1_P2",
+    "year": 2011,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": ["Algebra"],
+    "statement": "Let \\(\\langle x_n \\rangle\\) be a sequence of real numbers defined by \\(x_1 = 1\\) and \\(x_n = \\dfrac{2n}{(n-1)^2} \\displaystyle\\sum_{i=1}^{n-1} x_i\\). Show that the sequence \\(y_n = x_{n+1} - x_n\\) has a finite limit as \\(n \\to \\infty\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2011 Day 1"
+  },
+  {
+    "id": "VMO_2011_D1_P3",
+    "year": 2011,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": ["Geometry"],
+    "statement": "Let \\(AB\\) be a diameter of circle \\((O)\\) and \\(P\\) any point on the tangent to \\((O)\\) at \\(B\\). Define \\(C = AP \\cap (O)\\) (\\(C \\neq A\\)) and let \\(D\\) be the point diametrically opposite to \\(C\\). If \\(DP\\) meets \\((O)\\) again at \\(E\\):\\\\\ni) Prove that \\(AE, BC, PO\\) are concurrent at a point \\(M\\).\\\\\nii) If \\(R\\) is the radius of \\((O)\\), find \\(P\\) such that the area of \\(\\triangle AMB\\) is maximum, and compute this maximum area in terms of \\(R\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2011 Day 1"
+  },
+  {
+    "id": "VMO_2011_D1_P4",
+    "year": 2011,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P4",
+    "topic": ["Combinatorics"],
+    "statement": "A convex pentagon \\(ABCDE\\) has all side lengths and \\(AC, AD \\leq \\sqrt{3}\\). Choose 2011 distinct points inside the pentagon. Prove that there exists a unit circle with center on one edge of the pentagon that contains at least 403 of the 2011 given points.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2011 Day 1"
+  },
+  {
+    "id": "VMO_2011_D2_P1",
+    "year": 2011,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P1",
+    "topic": ["Number Theory"],
+    "statement": "Define the sequence of integers \\(\\langle a_n \\rangle\\) by \\(a_0 = 1\\), \\(a_1 = -1\\), and \\(a_n = 6a_{n-1} + 5a_{n-2}\\) for all \\(n \\geq 2\\). Prove that \\(a_{2012} - 2010\\) is divisible by \\(2011\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2011 Day 2"
+  },
+  {
+    "id": "VMO_2011_D2_P2",
+    "year": 2011,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P2",
+    "topic": ["Geometry"],
+    "statement": "Let \\(\\triangle ABC\\) have \\(\\angle B\\) and \\(\\angle C\\) acute. Let \\(D\\) be a variable point on \\(BC\\) (\\(D \\neq B, C\\)) such that \\(AD\\) is not perpendicular to \\(BC\\). Let \\(d\\) be the line through \\(D\\) perpendicular to \\(BC\\), with \\(E = d \\cap AB\\) and \\(F = d \\cap AC\\). Let \\(M, N, P\\) be the incenters of \\(\\triangle AEF\\), \\(\\triangle BDE\\), \\(\\triangle CDF\\) respectively. Prove that \\(A, M, N, P\\) are concyclic if and only if \\(d\\) passes through the incenter of \\(\\triangle ABC\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2011 Day 2"
+  },
+  {
+    "id": "VMO_2011_D2_P3",
+    "year": 2011,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P3",
+    "topic": ["Algebra"],
+    "statement": "Let \\(n \\in \\mathbb{N}\\) and define \\(P(x,y) = x^n + xy + y^n\\). Show that \\(P(x,y)\\) cannot be written as a product \\(G(x,y) \\cdot H(x,y)\\) of two non-constant polynomials with real coefficients.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2011 Day 2"
+  }
+]

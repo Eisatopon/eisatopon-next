@@ -1,0 +1,93 @@
+[
+  {
+    "id": "VMO_2026_D1_P1",
+    "year": 2026,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": ["Algebra"],
+    "statement": "For each positive integer \\(n\\), consider the polynomial \\(P_n(x) = x^{3n} - 3 \\cdot 4^{n-1} x^n - 2^{3n-3}\\).\\\\\na) Prove that \\(P_n(x)\\) has exactly one positive real zero, denoted \\(a_n\\).\\\\\nb) Let \\(b_n = \\dfrac{2 - a_n}{n}\\) and \\(c_n = b_1 + b_2 + \\cdots + b_n\\). Prove that the sequence \\((c_n)\\) converges.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2026 Day 1"
+  },
+  {
+    "id": "VMO_2026_D1_P2",
+    "year": 2026,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": ["Geometry"],
+    "statement": "In a coordinate system \\(Oxyz\\) (unit: 6400 km), a satellite moves on the plane \\(Oxy\\) in an elliptical orbit \\(x^2 + 3y^2 = 17\\). An object is at position \\(A\\!\\left(2,\\, \\tfrac{16}{\\sqrt{3}},\\, 8\\right)\\). Determine the coordinates of the point \\(C\\) on the elliptical orbit such that the distance from \\(C\\) to \\(A\\) is minimized.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2026 Day 1"
+  },
+  {
+    "id": "VMO_2026_D1_P3",
+    "year": 2026,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": ["Number Theory"],
+    "statement": "Let \\(n, a, b\\) be positive integers such that \\(1 < n^2 < a < b < n^2 + n + 3\\). Find all possible positive divisors of \\(ab\\) in the range \\((n^2,\\, n^2 + n + 3)\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2026 Day 1"
+  },
+  {
+    "id": "VMO_2026_D1_P4",
+    "year": 2026,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P4",
+    "topic": ["Combinatorics", "Number Theory"],
+    "statement": "An plays a game writing triples on a board. Initially \\((1,1,1)\\) is written. Each turn An applies one of two operations to the current triple \\((x,y,z)\\):\\\\\n(i) Replace with \\((y,\\, z,\\, x+z)\\).\\\\\n(ii) Replace with \\((x+z+1,\\, x+y+z+1,\\, x+y+2z+1)\\).\\\\\na) Prove that An needs exactly 4 turns to write the triple \\((a, b, 6)\\).\\\\\nb) Find the smallest natural number \\(k\\) such that after \\(k\\) turns An can write the triple \\((c, d, 129)\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2026 Day 1"
+  },
+  {
+    "id": "VMO_2026_D2_P5",
+    "year": 2026,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P5",
+    "topic": ["Geometry"],
+    "statement": "Let \\(ABC\\) be an acute triangle (\\(AB < AC\\)) with circumcenter \\(O\\). Let \\(E, F\\) be the reflections of \\(A\\) across \\(B, C\\) respectively. Let \\(M\\) be the midpoint of \\(BC\\). Points \\(I, P\\) on line \\(AM\\) are such that \\(\\triangle AIE\\) and \\(\\triangle APF\\) are isosceles with \\(IA = IE\\) and \\(PA = PF\\). Let \\(T\\) be the intersection of \\(IE\\) and \\(PF\\).\\\\\na) Prove that \\(T\\) lies on the circumcircle of \\(\\triangle ABC\\).\\\\\nb) Let \\(D = BI \\cap CP\\), \\(J = TD \\cap IP\\), \\(X = OT \\cap BC\\). Lines \\(AT, AX\\) intersect \\(EF\\) at \\(L, U\\) respectively. Prove that the circumcircles of \\(\\triangle TAJ\\), \\(\\triangle TIP\\), \\(\\triangle TEF\\), \\(\\triangle TLU\\) all share a common point other than \\(T\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2026 Day 2"
+  },
+  {
+    "id": "VMO_2026_D2_P6",
+    "year": 2026,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P6",
+    "topic": ["Algebra"],
+    "statement": "a) Find the number of distinct positive zeroes of \\(Q(x) = x^3 - 5x^2 + 4x - 1\\).\\\\\nb) Let \\(a, b, c, d\\) be integers such that \\(P(x) = ax^3 + bx^2 + cx + d\\) has three distinct positive zeroes, none rational. Find the minimal value of \\(S = |a| + |b| + |c| + |d|\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2026 Day 2"
+  },
+  {
+    "id": "VMO_2026_D2_P7",
+    "year": 2026,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P7",
+    "topic": ["Combinatorics", "Number Theory"],
+    "statement": "Mario jumps \\(1\\), \\(a\\), or \\(b\\) meters per move (\\(1 < a < b\\), positive integers). For a route of length \\(m\\), his strategy: maximize \\(b\\)-jumps without exceeding the finish, then maximize \\(a\\)-jumps, then use \\(1\\)-jumps. Mario wins if no strategy uses fewer total jumps.\\\\\na) With \\(a=6\\), \\(b=14\\), prove there exists a positive integer \\(m\\) for which Mario loses.\\\\\nb) Find the number of pairs \\((a,b)\\) with \\(1 < a < b \\leq 100\\) such that Mario wins for all positive integers \\(m\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2026 Day 2"
+  }
+]

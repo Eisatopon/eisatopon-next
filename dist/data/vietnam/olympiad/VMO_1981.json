@@ -1,0 +1,80 @@
+[
+  {
+    "id": "VMO_1981_D1_P1",
+    "year": 1981,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": ["Algebra"],
+    "statement": "Prove that triangle \\(ABC\\) is right-angled if and only if\n\\[\\sin A + \\sin B + \\sin C = \\cos A + \\cos B + \\cos C + 1.\\]",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1981 Day 1"
+  },
+  {
+    "id": "VMO_1981_D1_P2",
+    "year": 1981,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": ["Algebra"],
+    "statement": "Consider the polynomials \\(f(p) = p^{12} - p^{11} + 3p^{10} + 11p^3 - p^2 + 23p + 30\\) and \\(g(p) = p^3 + 2p + m\\). Find all integral values of \\(m\\) for which \\(f\\) is divisible by \\(g\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1981 Day 1"
+  },
+  {
+    "id": "VMO_1981_D1_P3",
+    "year": 1981,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": ["Geometry"],
+    "statement": "A plane \\(\\rho\\) and two points \\(M, N\\) outside it are given. Determine the point \\(A\\) on \\(\\rho\\) for which \\(\\dfrac{AM}{AN}\\) is minimal.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1981 Day 1"
+  },
+  {
+    "id": "VMO_1981_D2_P1",
+    "year": 1981,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P1",
+    "topic": ["Algebra"],
+    "statement": "Solve the system of equations:\n\\[\\begin{cases} x^2+y^2+z^2+t^2=50 \\\\ x^2-y^2+z^2-t^2=-24 \\\\ xy=zt \\\\ x-y+z-t=0 \\end{cases}\\]",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1981 Day 2"
+  },
+  {
+    "id": "VMO_1981_D2_P2",
+    "year": 1981,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P2",
+    "topic": ["Algebra"],
+    "statement": "Let \\(0 < p < q\\) and let \\(t_1, t_2, \\ldots, t_n \\in [p,q]\\). Let \\(A\\) and \\(B\\) be the arithmetic means of \\(t_1, \\ldots, t_n\\) and \\(t_1^2, \\ldots, t_n^2\\) respectively. Prove that\n\\[\\frac{A^2}{B} \\geq \\frac{4pq}{(p+q)^2}.\\]",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1981 Day 2"
+  },
+  {
+    "id": "VMO_1981_D2_P3",
+    "year": 1981,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P3",
+    "topic": ["Geometry"],
+    "statement": "Two circles \\(k_1\\) and \\(k_2\\) with centers \\(O_1\\) and \\(O_2\\) touch externally at \\(A\\). Let \\(M\\) be a point inside \\(k_2\\) and outside line \\(O_1O_2\\). Find a line \\(d\\) through \\(M\\) meeting \\(k_1\\) and \\(k_2\\) again at \\(B\\) and \\(C\\) respectively, such that the circumcircle of \\(\\triangle ABC\\) is tangent to \\(O_1O_2\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1981 Day 2"
+  }
+]

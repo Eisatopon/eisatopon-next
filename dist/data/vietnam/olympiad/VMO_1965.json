@@ -1,0 +1,41 @@
+[
+  {
+    "id": "VMO_1965_P1",
+    "year": 1965,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": ["Algebra"],
+    "statement": "At \\(t=0\\), a navy ship is at \\(O\\) and an enemy ship is at \\(A\\) (with \\(OA=a\\)) moving perpendicular to \\(OA\\) at speed \\(v\\). The navy ship travels at constant speed \\(u\\) at angle \\(0 < \\varphi < \\pi/2\\) to line \\(OA\\).\\\\\n1) For a given \\(\\varphi\\), find the minimum distance between the two ships. Under what conditions does it vanish?\\\\\n2) If the distance does not vanish, choose \\(\\varphi\\) to minimize it. What are the directions of the ships at minimum distance?",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1965"
+  },
+  {
+    "id": "VMO_1965_P2",
+    "year": 1965,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": ["Geometry"],
+    "statement": "\\(AB\\) and \\(CD\\) are two fixed parallel chords of circle \\(S\\). \\(M\\) is variable on the circle. \\(Q\\) is the intersection of lines \\(MD\\) and \\(AB\\). \\(X\\) is the circumcenter of \\(\\triangle MCQ\\). Find the locus of \\(X\\). What happens to \\(X\\) as \\(M \\to D\\) or \\(M \\to C\\)? Find a point \\(E\\) outside the plane of \\(S\\) such that the circumcenter of tetrahedron \\(MCQE\\) has the same locus as \\(X\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1965"
+  },
+  {
+    "id": "VMO_1965_P3",
+    "year": 1965,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": ["Algebra"],
+    "statement": "1) Two nonneg reals \\(x, y\\) have constant sum \\(a\\). Find the minimum of \\(x^m + y^m\\) where \\(m\\) is a positive integer.\\\\\n2) Let \\(m, n\\) be positive integers and \\(k > 0\\). For nonneg reals \\(x_1, \\ldots, x_n\\) with constant sum \\(k\\), prove that the minimum of \\(x_1^m + \\cdots + x_n^m\\) occurs when \\(x_1 = \\cdots = x_n\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1965"
+  }
+]

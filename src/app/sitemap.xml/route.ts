@@ -1,14 +1,15 @@
 import { NextResponse } from "next/server";
 import { getAllArticles } from "@/lib/articles";
 
+// ΑΥΤΗ Η ΓΡΑΜΜΗ ΧΡΕΙΑΖΕΤΑΙ ΓΙΑ ΤΟ OUTPUT: EXPORT
+export const dynamic = "force-static";
+
 export async function GET() {
   const baseUrl = "https://www.eisatopon.gr";
 
   try {
-    // Φέρνουμε όλα τα άρθρα (async)
     const allArticles = await getAllArticles();
 
-    // 1. Ξεκινάμε να χτίζουμε το XML string με τις στατικές σελίδες
     let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -42,9 +43,7 @@ export async function GET() {
     <priority>0.9</priority>
   </url>`;
 
-    // 2. Προσθέτουμε δυναμικά όλα τα άρθρα (40.000+) μέσα στο XML
     allArticles.forEach((article) => {
-      // Μετατρέπουμε την ημερομηνία σε ISO string (π.χ. 2026-05-19T...)
       const date = article.date ? new Date(article.date).toISOString() : new Date().toISOString();
       
       xml += `
@@ -56,15 +55,14 @@ export async function GET() {
   </url>`;
     });
 
-    // Κλείνουμε το urlset tag
     xml += `\n</urlset>`;
 
-    // 3. Επιστρέφουμε το XML με το σωστό Content-Type header
+    // Επιστρέφουμε το XML. 
+    // Σημείωση: Στο static export, τα headers Cache-Control αγνοούνται,
+    // αλλά το Content-Type χρειάζεται για να ξέρει ο browser τι διαβάζει.
     return new NextResponse(xml, {
       headers: {
         "Content-Type": "application/xml",
-        // Προαιρετικό caching για να μην ξανατρέχει η getAllArticles σε κάθε refresh
-        "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=43200",
       },
     });
   } catch (error) {
