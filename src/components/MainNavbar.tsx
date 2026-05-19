@@ -59,7 +59,8 @@ export default function MainNavbar() {
         </Link>
 
         {/* SEARCH */}
-        <button
+        <Link
+          href="/search"
           className="flex items-center justify-center w-10 h-10 rounded-full border transition-all duration-300 hover:scale-105"
           style={{
             color: "var(--color-ink-muted)",
@@ -82,7 +83,7 @@ export default function MainNavbar() {
               d="m21 21-4.35-4.35m1.85-5.15a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"
             />
           </svg>
-        </button>
+        </Link>
       </div>
     </header>
   );
