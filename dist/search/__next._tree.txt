@@ -1,0 +1,3 @@
+:HL["/_next/static/css/2f46e0db0d4a3aed.css","style"]
+:HL["/_next/static/css/af1b44e0141b18ae.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"search","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"NeDcsL1rsAE0wA2Bzw7Mm"}
