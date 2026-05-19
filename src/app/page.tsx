@@ -451,7 +451,7 @@ export default async function Home() {
       </Link>
 
       <Link
-        href="/problems"
+        href="/banks"
         className="text-ink-secondary hover:text-gold transition-colors duration-300"
       >
         Problem Banks
@@ -465,6 +465,20 @@ export default async function Home() {
       >
         Archive
       </a>
+
+      <Link
+        href="https://www.eisatopon.gr/banks/imo"
+        className="text-ink-secondary hover:text-gold transition-colors duration-300"
+      >
+        Olympiads
+      </Link>
+
+      <Link
+        href="/articles"
+        className="text-ink-secondary hover:text-gold transition-colors duration-300"
+      >
+        Articles
+      </Link>
 
     </div>
 
