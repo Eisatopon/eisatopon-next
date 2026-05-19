@@ -1,0 +1,93 @@
+[
+  {
+    "id": "VMO_2014_D1_P1",
+    "year": 2014,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": ["Algebra"],
+    "statement": "Let \\((x_n), (y_n)\\) be two positive sequences defined by \\(x_1 = 1\\), \\(y_1 = \\sqrt{3}\\) and\n\\[\\begin{cases} x_{n+1}y_{n+1} - x_n = 0 \\\\ x_{n+1}^2 + y_n = 2 \\end{cases}\\]\nfor all \\(n = 1, 2, 3, \\ldots\\) Prove that both sequences converge and find their limits.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2014 Day 1"
+  },
+  {
+    "id": "VMO_2014_D1_P2",
+    "year": 2014,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": ["Algebra"],
+    "statement": "Given the polynomial \\(P(x) = (x^2 - 7x + 6)^{2n} + 13\\) where \\(n\\) is a positive integer. Prove that \\(P(x)\\) cannot be written as a product of \\(n+1\\) non-constant polynomials with integer coefficients.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2014 Day 1"
+  },
+  {
+    "id": "VMO_2014_D1_P3",
+    "year": 2014,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": ["Combinatorics"],
+    "statement": "Given a regular 103-sided polygon. 79 vertices are colored red and the remaining 24 blue. Let \\(A\\) be the number of pairs of adjacent red vertices and \\(B\\) the number of pairs of adjacent blue vertices.\\\\\na) Find all possible values of the pair \\((A, B)\\).\\\\\nb) Determine the number of pairwise non-similar colorings with \\(B = 14\\). (Two colorings are similar if one can be obtained from the other by rotation.)",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2014 Day 1"
+  },
+  {
+    "id": "VMO_2014_D1_P4",
+    "year": 2014,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P4",
+    "topic": ["Geometry"],
+    "statement": "Let \\(ABC\\) be an acute triangle with circumcircle \\((O)\\) and \\(AB < AC\\). Let \\(I\\) be the midpoint of arc \\(BC\\) not containing \\(A\\). Point \\(K\\) lies on \\(AC\\), \\(K \\neq C\\), such that \\(IK = IC\\). Line \\(BK\\) meets \\((O)\\) again at \\(D\\) and meets \\(AI\\) at \\(E\\). Line \\(DI\\) meets \\(AC\\) at \\(F\\).\\\\\na) Prove that \\(EF = \\dfrac{BC}{2}\\).\\\\\nb) Let \\(M\\) lie on \\(DI\\) such that \\(CM \\parallel AD\\). Line \\(KM\\) meets \\(BC\\) at \\(N\\). The circumcircle of \\(\\triangle BKN\\) meets \\((O)\\) again at \\(P\\). Prove that \\(PK\\) passes through the midpoint of \\(AD\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2014 Day 1"
+  },
+  {
+    "id": "VMO_2014_D2_P1",
+    "year": 2014,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P1",
+    "topic": ["Geometry"],
+    "statement": "Given a circle \\((O)\\) with fixed points \\(B, C\\) and an arbitrary point \\(A\\) on \\((O)\\) such that \\(\\triangle ABC\\) is acute. Point \\(M\\) lies on ray \\(AB\\), \\(N\\) on ray \\(AC\\) such that \\(MA = MC\\) and \\(NA = NB\\). Let \\(P\\) be the second intersection of \\((AMN)\\) and \\((ABC)\\). Line \\(MN\\) meets \\(BC\\) at \\(Q\\).\\\\\na) Prove that \\(A, P, Q\\) are collinear.\\\\\nb) Let \\(D\\) be the midpoint of \\(BC\\) and \\(K\\) the second intersection of circles with centers \\(M, N\\) and radii \\(MA, NA\\). Let \\(d\\) be the line through \\(A\\) perpendicular to \\(AK\\), and \\(E = d \\cap BC\\). The circle \\((ADE)\\) meets \\((O)\\) again at \\(F\\). Prove that \\(AF\\) passes through a fixed point.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2014 Day 2"
+  },
+  {
+    "id": "VMO_2014_D2_P2",
+    "year": 2014,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P2",
+    "topic": ["Algebra"],
+    "statement": "Find the maximum of\n\\[P = \\frac{x^3y^4z^3}{(x^4+y^4)(xy+z^2)^3} + \\frac{y^3z^4x^3}{(y^4+z^4)(yz+x^2)^3} + \\frac{z^3x^4y^3}{(z^4+x^4)(zx+y^2)^3}\\]\nwhere \\(x, y, z\\) are positive real numbers.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2014 Day 2"
+  },
+  {
+    "id": "VMO_2014_D2_P3",
+    "year": 2014,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P3",
+    "topic": ["Number Theory"],
+    "statement": "Find all sets of 2014 rationals (not necessarily distinct) such that if we remove any one number, the remaining 2013 numbers can be divided into three groups of 671 elements each with equal products.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2014 Day 2"
+  }
+]

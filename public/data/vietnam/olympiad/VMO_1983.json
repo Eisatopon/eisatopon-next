@@ -1,0 +1,80 @@
+[
+  {
+    "id": "VMO_1983_D1_P1",
+    "year": 1983,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": ["Number Theory"],
+    "statement": "Are there positive integers \\(a, b\\) with \\(b \\geq 2\\) such that \\(2^a + 1\\) is divisible by \\(2^b - 1\\)?",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1983 Day 1"
+  },
+  {
+    "id": "VMO_1983_D1_P2",
+    "year": 1983,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": ["Algebra"],
+    "statement": "a) Prove that \\(\\sqrt{2}(\\sin t + \\cos t) \\geq 2\\sqrt[4]{\\sin 2t}\\) for \\(0 \\leq t \\leq \\dfrac{\\pi}{2}\\).\\\\\nb) Find all \\(y\\) with \\(0 < y < \\pi\\) such that \\(1 + \\dfrac{2\\cot 2y}{\\cot y} \\geq \\dfrac{\\tan 2y}{\\tan y}\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1983 Day 1"
+  },
+  {
+    "id": "VMO_1983_D1_P3",
+    "year": 1983,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": ["Geometry"],
+    "statement": "Given triangle \\(ABC\\) and a positive number \\(k\\). Find the locus of points \\(M\\) inside the triangle such that the projections of \\(M\\) onto the sides of \\(\\triangle ABC\\) form a triangle of area \\(k\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1983 Day 1"
+  },
+  {
+    "id": "VMO_1983_D2_P1",
+    "year": 1983,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P1",
+    "topic": ["Number Theory"],
+    "statement": "Show that 1 can be expressed as a sum of 6 reciprocals of odd positive integers, and also as a sum of 9 such reciprocals. Generalize the problem.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1983 Day 2"
+  },
+  {
+    "id": "VMO_1983_D2_P2",
+    "year": 1983,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P2",
+    "topic": ["Algebra"],
+    "statement": "Decide whether \\(S_n\\) or \\(T_n\\) is larger, where\n\\[S_n = \\sum_{k=1}^{n} \\frac{k}{(2n-2k+1)(2n-k+1)}, \\quad T_n = \\sum_{k=1}^{n} \\frac{1}{k}.\\]",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1983 Day 2"
+  },
+  {
+    "id": "VMO_1983_D2_P3",
+    "year": 1983,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P3",
+    "topic": ["Geometry"],
+    "statement": "Given a tetrahedron in which any two opposite edges are equal. A variable plane cuts the tetrahedron in a quadrilateral. Find the positions of the plane for which the perimeter of the quadrilateral is minimum, and find the locus of the centroid of those quadrilaterals with minimum perimeter.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1983 Day 2"
+  }
+]

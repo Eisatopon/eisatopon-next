@@ -1,0 +1,80 @@
+[
+  {
+    "id": "VMO_1982_D1_P1",
+    "year": 1982,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": ["Algebra"],
+    "statement": "Determine a quartic polynomial with integer coefficients whose roots are \\(\\cos 72^\\circ\\) and \\(\\cos 144^\\circ\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1982 Day 1"
+  },
+  {
+    "id": "VMO_1982_D1_P2",
+    "year": 1982,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": ["Algebra"],
+    "statement": "For a given parameter \\(m\\), solve the equation \\(x(x+1)(x+2)(x+3)+1-m=0\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1982 Day 1"
+  },
+  {
+    "id": "VMO_1982_D1_P3",
+    "year": 1982,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": ["Geometry"],
+    "statement": "Let \\(\\triangle ABC\\) be given. Equilateral triangles \\(BCA_1\\) and \\(BCA_2\\) are drawn so that \\(A\\) and \\(A_1\\) are on the same side of \\(BC\\), while \\(A_2\\) is on the other side. Points \\(B_1, B_2, C_1, C_2\\) are defined analogously. Prove that \\(S_{ABC} + S_{A_1B_1C_1} = S_{A_2B_2C_2}\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1982 Day 1"
+  },
+  {
+    "id": "VMO_1982_D2_P1",
+    "year": 1982,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P1",
+    "topic": ["Number Theory"],
+    "statement": "Find all positive integers \\(x, y, z\\) such that \\(2^x + 2^y + 2^z = 2336\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1982 Day 2"
+  },
+  {
+    "id": "VMO_1982_D2_P2",
+    "year": 1982,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P2",
+    "topic": ["Algebra"],
+    "statement": "Let \\(p\\) be a positive integer and \\(q, z\\) real numbers with \\(0 \\leq q \\leq 1\\) and \\(q^{p+1} \\leq z \\leq 1\\). Prove that\n\\[\\prod_{k=1}^{p}\\left|\\frac{z-q^k}{z+q^k}\\right| \\leq \\prod_{k=1}^{p}\\left|\\frac{1-q^k}{1+q^k}\\right|.\\]",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1982 Day 2"
+  },
+  {
+    "id": "VMO_1982_D2_P3",
+    "year": 1982,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P3",
+    "topic": ["Geometry"],
+    "statement": "Let \\(ABCDA'B'C'D'\\) be a cube (with faces \\(ABCD\\) and \\(A'B'C'D'\\), and edges \\(AA', BB', CC', DD'\\)). Consider the four lines \\(AA'\\), \\(BC\\), \\(D'C'\\), and the line joining the midpoints of \\(BB'\\) and \\(DD'\\). Show that no line cuts all four of these lines.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1982 Day 2"
+  }
+]

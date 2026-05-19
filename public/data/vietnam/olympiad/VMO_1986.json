@@ -1,0 +1,80 @@
+[
+  {
+    "id": "VMO_1986_D1_P1",
+    "year": 1986,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": ["Algebra"],
+    "statement": "Let \\(\\tfrac{1}{2} \\leq a_1, a_2, \\ldots, a_n \\leq 5\\) and let \\(x_1, x_2, \\ldots, x_n\\) satisfy \\(4x_i^2 - 4a_i x_i + (a_i-1)^2 \\leq 0\\). Prove that\n\\[\\sqrt{\\frac{\\sum_{i=1}^n x_i^2}{n}} \\leq \\frac{\\sum_{i=1}^n x_i}{n} + 1.\\]",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1986 Day 1"
+  },
+  {
+    "id": "VMO_1986_D1_P2",
+    "year": 1986,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": ["Geometry"],
+    "statement": "Let \\(R, r\\) be the circumradius and inradius of a regular 1986-gonal pyramid. Prove that \\(\\dfrac{R}{r} \\geq 1 + \\dfrac{1}{\\cos\\frac{\\pi}{1986}}\\), and find the total surface area of the pyramid when equality holds.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1986 Day 1"
+  },
+  {
+    "id": "VMO_1986_D1_P3",
+    "year": 1986,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": ["Algebra"],
+    "statement": "Suppose \\(M(y)\\) is a polynomial of degree \\(n\\) such that \\(M(y) = 2^y\\) for \\(y = 1, 2, \\ldots, n+1\\). Compute \\(M(n+2)\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1986 Day 1"
+  },
+  {
+    "id": "VMO_1986_D2_P1",
+    "year": 1986,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P1",
+    "topic": ["Geometry"],
+    "statement": "Let \\(ABCD\\) be a square of side \\(2a\\). An equilateral triangle \\(AMB\\) is constructed in the plane through \\(AB\\) perpendicular to the square. Point \\(S\\) moves on \\(AB\\) with \\(SB = x\\). Let \\(P\\) be the projection of \\(M\\) on \\(SC\\), and \\(E, O\\) the midpoints of \\(AB\\) and \\(CM\\).\\\\\na) Find the locus of \\(P\\) as \\(S\\) moves on \\(AB\\).\\\\\nb) Find the maximum and minimum lengths of \\(SO\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1986 Day 2"
+  },
+  {
+    "id": "VMO_1986_D2_P2",
+    "year": 1986,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P2",
+    "topic": ["Algebra"],
+    "statement": "Find all \\(n > 1\\) such that\n\\[\\sum_{i=1}^n x_i^2 \\geq x_n \\sum_{i=1}^{n-1} x_i\\]\nholds for all real numbers \\(x_1, x_2, \\ldots, x_n\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1986 Day 2"
+  },
+  {
+    "id": "VMO_1986_D2_P3",
+    "year": 1986,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P3",
+    "topic": ["Number Theory"],
+    "statement": "A sequence of positive integers is constructed as follows: the first term is 1; the next two terms are 2, 4; the next three terms are 5, 7, 9; the next four terms are 10, 12, 14, 16; and so on. Find the \\(n\\)-th term of the sequence.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1986 Day 2"
+  }
+]
