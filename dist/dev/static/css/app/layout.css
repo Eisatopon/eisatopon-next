@@ -1000,6 +1000,10 @@
   .table-cell {
     display: table-cell;
   }
+  .size-1 {
+    width: calc(var(--spacing) * 1);
+    height: calc(var(--spacing) * 1);
+  }
   .h-1 {
     height: calc(var(--spacing) * 1);
   }
@@ -1102,14 +1106,8 @@
   .max-w-7xl {
     max-width: var(--container-7xl);
   }
-  .max-w-\[200px\] {
-    max-width: 200px;
-  }
   .max-w-\[220px\] {
     max-width: 220px;
-  }
-  .max-w-\[400px\] {
-    max-width: 400px;
   }
   .max-w-\[460px\] {
     max-width: 460px;
