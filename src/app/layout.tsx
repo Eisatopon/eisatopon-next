@@ -56,9 +56,10 @@ const fontVars = [
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://eisatopon.gr"),
-   icons: {
+
+  icons: {
     icon: "/logo/favicon.svg",
-  }, 
+  },
 
   title: {
     default: "EisatoponAI — Mathematical Problem Banks",
@@ -89,12 +90,6 @@ export const metadata: Metadata = {
 
   creator: "EisatoponAI",
 
-  icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
-    apple: "/favicon.svg",
-  },
-
   openGraph: {
     title: "EisatoponAI — Mathematical Problem Banks",
 
@@ -121,6 +116,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
+
     title: "EisatoponAI — Mathematical Problem Banks",
 
     description:
