@@ -1,0 +1,80 @@
+[
+  {
+    "id": "VMO_2003_D1_P1",
+    "year": 2003,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": ["Algebra"],
+    "statement": "Let \\(f : \\mathbb{R} \\to \\mathbb{R}\\) satisfy \\(f(\\cot x) = \\cos 2x + \\sin 2x\\) for all \\(0 < x < \\pi\\). Define \\(g(x) = f(x)f(1-x)\\) for \\(-1 \\leq x \\leq 1\\). Find the maximum and minimum values of \\(g\\) on \\([-1, 1]\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2003 Day 1"
+  },
+  {
+    "id": "VMO_2003_D1_P2",
+    "year": 2003,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": ["Geometry"],
+    "statement": "Circles \\(C_1\\) and \\(C_2\\) touch externally at \\(M\\), with \\(C_2\\) having larger radius. \\(A\\) is any point on \\(C_2\\) not on the line of centers. \\(B\\) and \\(C\\) are points on \\(C_1\\) such that \\(AB\\) and \\(AC\\) are tangent to \\(C_1\\). Lines \\(BM, CM\\) meet \\(C_2\\) again at \\(E, F\\). Let \\(D\\) be the intersection of the tangent to \\(C_2\\) at \\(A\\) with line \\(EF\\). Show that the locus of \\(D\\) as \\(A\\) varies is a straight line.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2003 Day 1"
+  },
+  {
+    "id": "VMO_2003_D1_P3",
+    "year": 2003,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": ["Combinatorics"],
+    "statement": "Let \\(S_n\\) be the number of permutations \\((a_1, a_2, \\ldots, a_n)\\) of \\((1, 2, \\ldots, n)\\) such that \\(1 \\leq |a_k - k| \\leq 2\\) for all \\(k\\). Show that \\(\\dfrac{7}{4}S_{n-1} < S_n < 2S_{n-1}\\) for \\(n > 6\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2003 Day 1"
+  },
+  {
+    "id": "VMO_2003_D2_P1",
+    "year": 2003,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P1",
+    "topic": ["Number Theory"],
+    "statement": "Find the largest positive integer \\(n\\) such that the system \\((x+1)^2 + y_1^2 = (x+2)^2 + y_2^2 = \\cdots = (x+n)^2 + y_n^2\\) has integer solutions in \\(x, y_1, y_2, \\ldots, y_n\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2003 Day 2"
+  },
+  {
+    "id": "VMO_2003_D2_P2",
+    "year": 2003,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P2",
+    "topic": ["Algebra"],
+    "statement": "Define \\(p(x) = 4x^3 - 2x^2 - 15x + 9\\) and \\(q(x) = 12x^3 + 6x^2 - 7x + 1\\). Show that each polynomial has exactly three distinct real roots. Let \\(A\\) be the largest root of \\(p(x)\\) and \\(B\\) the largest root of \\(q(x)\\). Show that \\(A^2 + 3B^2 = 4\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2003 Day 2"
+  },
+  {
+    "id": "VMO_2003_D2_P3",
+    "year": 2003,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P3",
+    "topic": ["Algebra"],
+    "statement": "Let \\(\\mathcal{F}\\) be the set of all functions \\(f : (0,\\infty) \\to (0,\\infty)\\) such that \\(f(3x) \\geq f(f(2x)) + x\\) for all \\(x\\). Find the largest constant \\(A\\) such that \\(f(x) \\geq Ax\\) for all \\(f \\in \\mathcal{F}\\) and all \\(x > 0\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2003 Day 2"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "VMO_1992_D1_P1",
+    "year": 1992,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": ["Geometry"],
+    "statement": "Let \\(ABCD\\) be a tetrahedron satisfying:\\\\\ni) \\(\\widehat{ACD} + \\widehat{BCD} = 180^\\circ\\);\\\\\nii) \\(\\widehat{BAC} + \\widehat{CAD} + \\widehat{DAB} = \\widehat{ABC} + \\widehat{CBD} + \\widehat{DBA} = 180^\\circ\\).\\\\\nFind the total surface area \\([ABC]+[BCD]+[CDA]+[DAB]\\) given that \\(AC + CB = k\\) and \\(\\widehat{ACB} = \\alpha\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1992 Day 1"
+  },
+  {
+    "id": "VMO_1992_D1_P2",
+    "year": 1992,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": ["Number Theory"],
+    "statement": "For any positive integer \\(a\\), let \\(f(a) = |\\{b \\in \\mathbb{N} : b \\mid a \\text{ and } b \\bmod 10 \\in \\{1,9\\}\\}|\\) and \\(g(a) = |\\{b \\in \\mathbb{N} : b \\mid a \\text{ and } b \\bmod 10 \\in \\{3,7\\}\\}|\\). Prove that \\(f(a) \\geq g(a)\\) for all \\(a \\in \\mathbb{N}\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1992 Day 1"
+  },
+  {
+    "id": "VMO_1992_D1_P3",
+    "year": 1992,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": ["Algebra"],
+    "statement": "Let \\(a, b, c\\) be positive reals. Sequences \\(\\{a_n\\}, \\{b_n\\}, \\{c_n\\}\\) are defined by \\(a_0=a, b_0=b, c_0=c\\) and\n\\[a_{k+1} = a_k + \\frac{2}{b_k+c_k},\\quad b_{k+1} = b_k + \\frac{2}{c_k+a_k},\\quad c_{k+1} = c_k + \\frac{2}{a_k+b_k}\\]\nfor \\(k = 0,1,2,\\ldots\\) Prove that \\(\\lim_{k\\to+\\infty} a_k = \\lim_{k\\to+\\infty} b_k = \\lim_{k\\to+\\infty} c_k = +\\infty\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1992 Day 1"
+  },
+  {
+    "id": "VMO_1992_D2_P1",
+    "year": 1992,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P1",
+    "topic": ["Algebra"],
+    "statement": "Let \\(9 < n_1 < n_2 < \\cdots < n_s < 1992\\) be positive integers and \\(P(x) = 1 + x^2 + x^9 + x^{n_1} + \\cdots + x^{n_s} + x^{1992}\\). Prove that if \\(x_0\\) is a real root of \\(P(x)\\) then \\(x_0 \\leq \\dfrac{1-\\sqrt{5}}{2}\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1992 Day 2"
+  },
+  {
+    "id": "VMO_1992_D2_P2",
+    "year": 1992,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P2",
+    "topic": ["Geometry"],
+    "statement": "Let \\(H\\) be a rectangle with the angle between its diagonals at most \\(45^\\circ\\). Rotate \\(H\\) about its center by angle \\(x\\), \\(0^\\circ \\leq x \\leq 360^\\circ\\), to get rectangle \\(H_x\\). Find \\(x\\) that minimizes \\([H \\cap H_x]\\) (the area of intersection).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1992 Day 2"
+  },
+  {
+    "id": "VMO_1992_D2_P3",
+    "year": 1992,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P3",
+    "topic": ["Combinatorics"],
+    "statement": "Label the squares of a \\(1991 \\times 1992\\) grid \\((m,n)\\) with \\(1 \\leq m \\leq 1991\\), \\(1 \\leq n \\leq 1992\\). The first move colors squares \\((m,n),(m+1,n+1),(m+2,n+1)\\) red for some \\(m < 1990\\), \\(n < 1992\\). Subsequent moves color any three uncolored squares in the same row or column. Can all squares be colored?",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1992 Day 2"
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "VMO_2024_D1_P1",
+    "year": 2024,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": ["Algebra"],
+    "statement": "For each real number \\(x\\), let \\(\\lfloor x \\rfloor\\) denote the largest integer not exceeding \\(x\\). A sequence \\(\\{a_n\\}_{n=1}^{\\infty}\\) is defined by \\(a_n = \\left(\\frac{1}{4}\\right)^{\\lfloor -\\log_4 n \\rfloor}\\) for all \\(n \\geq 1\\). Let \\(b_n = \\frac{1}{n^2}\\left(\\sum_{k=1}^{n} a_k - \\frac{1}{a_1+a_2}\\right)\\) for all \\(n \\geq 1\\).\\\\\na) Find a polynomial \\(P(x)\\) with real coefficients such that \\(b_n = P\\!\\left(\\frac{a_n}{n}\\right)\\) for all \\(n \\geq 1\\).\\\\\nb) Prove that there exists a strictly increasing sequence \\(\\{n_k\\}_{k=1}^{\\infty}\\) of positive integers such that \\(\\lim_{k \\to \\infty} b_{n_k} = \\dfrac{2024}{2025}\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2024 Day 1"
+  },
+  {
+    "id": "VMO_2024_D1_P2",
+    "year": 2024,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": ["Algebra"],
+    "statement": "Find all polynomials \\(P(x), Q(x)\\) with real coefficients such that for all real numbers \\(a\\), \\(P(a)\\) is a root of the equation\n\\[x^{2023} + Q(a)x^2 + (a^{2024}+a)x + a^3 + 2025a = 0.\\]",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2024 Day 1"
+  },
+  {
+    "id": "VMO_2024_D1_P3",
+    "year": 2024,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": ["Geometry"],
+    "statement": "Let \\(ABC\\) be an acute triangle with circumcenter \\(O\\). Let \\(A'\\) be the center of the circle through \\(C\\) tangent to \\(AB\\) at \\(A\\), let \\(B'\\) be the center of the circle through \\(A\\) tangent to \\(BC\\) at \\(B\\), let \\(C'\\) be the center of the circle through \\(B\\) tangent to \\(CA\\) at \\(C\\).\\\\\na) Prove that the area of triangle \\(A'B'C'\\) is not less than the area of triangle \\(ABC\\).\\\\\nb) Let \\(X, Y, Z\\) be the projections of \\(O\\) onto lines \\(A'B', B'C', C'A'\\). Given that the circumcircle of \\(\\triangle XYZ\\) intersects lines \\(A'B', B'C', C'A'\\) again at \\(X', Y', Z'\\) (\\(X'\\neq X, Y'\\neq Y, Z'\\neq Z\\)), prove that lines \\(AX', BY', CZ'\\) are concurrent.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2024 Day 1"
+  },
+  {
+    "id": "VMO_2024_D1_P4",
+    "year": 2024,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P4",
+    "topic": ["Combinatorics"],
+    "statement": "\\(k\\) marbles are placed on a \\(2024 \\times 2024\\) grid with at most one per cell and no two on neighboring cells (sharing an edge).\\\\\na) Assume \\(k = 2024\\). Find a placement such that moving any marble to any neighboring cell violates the conditions.\\\\\nb) Determine the largest \\(k\\) such that for every valid placement of \\(k\\) marbles, we can move one marble to a neighboring cell and still satisfy the conditions.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2024 Day 1"
+  },
+  {
+    "id": "VMO_2024_D2_P5",
+    "year": 2024,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P5",
+    "topic": ["Algebra"],
+    "statement": "For each polynomial \\(P(x)\\), define \\(P_1(x) = P(x)\\), \\(P_2(x) = P(P_1(x))\\), \\(\\ldots\\), \\(P_{2024}(x) = P(P_{2023}(x))\\). Let \\(a > 2\\) be a real number. Is there a polynomial \\(P\\) with real coefficients such that for all \\(t \\in (-a, a)\\), the equation \\(P_{2024}(x) = t\\) has \\(2^{2024}\\) distinct real roots?",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2024 Day 2"
+  },
+  {
+    "id": "VMO_2024_D2_P6",
+    "year": 2024,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P6",
+    "topic": ["Number Theory"],
+    "statement": "For each positive integer \\(n\\), let \\(\\tau(n)\\) be the number of positive divisors of \\(n\\).\\\\\na) Find all positive integers \\(n\\) such that \\(\\tau(n) + 2023 = n\\).\\\\\nb) Prove that there exist infinitely many positive integers \\(k\\) such that there are exactly two positive integers \\(n\\) satisfying \\(\\tau(kn) + 2023 = n\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2024 Day 2"
+  },
+  {
+    "id": "VMO_2024_D2_P7",
+    "year": 2024,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P7",
+    "topic": ["Combinatorics"],
+    "statement": "In space, there is a convex polyhedron \\(D\\) such that every vertex has an even number of edges. Choose a face \\(F\\) of \\(D\\). Assign each edge a positive integer such that for every face other than \\(F\\), the sum of the assigned numbers on its edges is divisible by \\(2024\\). Prove that the sum of the assigned numbers on the edges of \\(F\\) is also divisible by \\(2024\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2024 Day 2"
+  }
+]

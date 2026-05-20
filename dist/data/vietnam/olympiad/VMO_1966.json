@@ -1,0 +1,28 @@
+[
+  {
+    "id": "VMO_1966_P1",
+    "year": 1966,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": ["Algebra"],
+    "statement": "Let \\(x, y, z\\) be nonneg reals satisfying \\(x + cy \\leq 36\\) and \\(2x + 3z \\leq 72\\), where \\(c > 0\\) is given. Prove that if \\(c \\geq 3\\) the maximum of \\(x+y+z\\) is 36, and if \\(c < 3\\) the maximum is \\(24 + \\dfrac{36}{c}\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1966"
+  },
+  {
+    "id": "VMO_1966_P2",
+    "year": 1966,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": ["Geometry"],
+    "statement": "Lines \\(a, b\\) are fixed through \\(O\\). Variable parallel lines \\(x, y\\): \\(x\\) meets \\(a\\) at \\(A\\) and \\(b\\) at \\(C\\); \\(y\\) meets \\(a\\) at \\(B\\) and \\(b\\) at \\(D\\). Lines \\(AD\\) and \\(BC\\) meet at \\(M\\). The line through \\(M\\) parallel to \\(x\\) meets \\(a\\) at \\(L\\) and \\(b\\) at \\(N\\). What can you say about \\(L, M, N\\)? Find the locus of \\(M\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1966"
+  }
+]
