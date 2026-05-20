@@ -35,11 +35,14 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { year: string };
+  params: Promise<{ year: string }>;
 }): Promise<Metadata> {
+
+  const { year } = await params;
+
   return {
-    title: `Canada Mathematical Olympiad ${params.year}`,
-    description: `Problems and solutions from the Canada Mathematical Olympiad ${params.year}.`,
+    title: `Canada Mathematical Olympiad ${year}`,
+    description: `Problems and solutions from the Canada Mathematical Olympiad ${year}.`,
   };
 }
 
@@ -55,8 +58,11 @@ async function getProblems(year: string): Promise<Problem[]> {
     );
 
     const file = await fs.readFile(filePath, "utf8");
+
     return JSON.parse(file);
+
   } catch {
+
     return [];
   }
 }
@@ -64,9 +70,10 @@ async function getProblems(year: string): Promise<Problem[]> {
 export default async function CanadaOlympiadYearPage({
   params,
 }: {
-  params: { year: string };
+  params: Promise<{ year: string }>;
 }) {
-  const { year } = params;
+
+  const { year } = await params;
 
   const problems = await getProblems(year);
 
@@ -80,6 +87,7 @@ export default async function CanadaOlympiadYearPage({
       }}
     >
       <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
+
         <div
           style={{
             fontSize: "12px",
@@ -120,7 +128,9 @@ export default async function CanadaOlympiadYearPage({
             gap: "24px",
           }}
         >
+
           {problems.map((problem) => (
+
             <div
               key={problem.problem_id}
               style={{
@@ -131,6 +141,7 @@ export default async function CanadaOlympiadYearPage({
                   "linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015))",
               }}
             >
+
               <div
                 style={{
                   color: "#ef4444",
@@ -163,9 +174,13 @@ export default async function CanadaOlympiadYearPage({
               >
                 {problem.statement}
               </div>
+
             </div>
+
           ))}
+
         </div>
+
       </div>
     </main>
   );
