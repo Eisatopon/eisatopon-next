@@ -14,7 +14,10 @@ export interface Article {
   author: string;
 }
 
-const ARTICLES_DIR = path.join(process.cwd(), "content/articles");
+const ARTICLES_DIR = path.join(
+  process.cwd(),
+  "content/articles"
+);
 
 // Βρίσκει όλα τα .mdx αρχεία αναδρομικά
 function findMdxFiles(dir: string): string[] {
@@ -37,37 +40,57 @@ function findMdxFiles(dir: string): string[] {
   return results;
 }
 
-// Διαβάζει όλα τα άρθρα και τα επιστρέφει ταξινομημένα από νεότερο
+// Διαβάζει όλα τα άρθρα
 export function getAllArticles(): Article[] {
   const files = findMdxFiles(ARTICLES_DIR);
 
-  const articles = files.map((filePath): Article => {
-    const content = fs.readFileSync(filePath, "utf-8");
+  const articles = files.map(
+    (filePath): Article => {
+      const content = fs.readFileSync(
+        filePath,
+        "utf-8"
+      );
 
-    const { data } = matter(content);
+      const { data } = matter(content);
 
-    const slug = path.basename(filePath, ".mdx");
+      const slug = path.basename(
+        filePath,
+        ".mdx"
+      );
 
-    return {
-      slug,
+      return {
+        slug,
 
-      title: data.title ?? "Untitled",
+        title:
+          data.title ?? "Untitled",
 
-      date: data.date ?? "",
+        date:
+          data.date ?? "",
 
-      category: data.category ?? "",
+        category:
+          data.category ?? "",
 
-      summary: data.summary ?? data.excerpt ?? "",
+        summary:
+          data.summary ??
+          data.excerpt ??
+          "",
 
-      image: data.image ?? "/images/default.jpg",
+        image:
+          data.image ??
+          "/images/default.jpg",
 
-      featured: data.featured ?? false,
+        featured:
+          data.featured ?? false,
 
-      readTime: data.readTime ?? "",
+        readTime:
+          data.readTime ?? "",
 
-      author: data.author ?? "EisatoponAI Team",
-    };
-  });
+        author:
+          data.author ??
+          "EisatoponAI Team",
+      };
+    }
+  );
 
   return articles.sort(
     (a, b) =>
@@ -76,42 +99,87 @@ export function getAllArticles(): Article[] {
   );
 }
 
-// Βρίσκει ένα άρθρο με βάση το slug
+// Βρίσκει άρθρα ανά category
+export function getArticlesByCategory(
+  category: string
+): Article[] {
+  return getAllArticles().filter(
+    (article) =>
+      article.category.toLowerCase() ===
+      category.toLowerCase()
+  );
+}
+
+// Βρίσκει featured άρθρα
+export function getFeaturedArticles(): Article[] {
+  return getAllArticles().filter(
+    (article) => article.featured
+  );
+}
+
+// Βρίσκει άρθρο με βάση το slug
 export function getArticleBySlug(
   slug: string
-): { article: Article; content: string } | null {
+):
+  | {
+      article: Article;
+      content: string;
+    }
+  | null {
 
-  const files = findMdxFiles(ARTICLES_DIR);
+  const files = findMdxFiles(
+    ARTICLES_DIR
+  );
 
   const filePath = files.find(
-    (f) => path.basename(f, ".mdx") === slug
+    (f) =>
+      path.basename(
+        f,
+        ".mdx"
+      ) === slug
   );
 
   if (!filePath) return null;
 
-  const raw = fs.readFileSync(filePath, "utf-8");
+  const raw = fs.readFileSync(
+    filePath,
+    "utf-8"
+  );
 
-  const { data, content } = matter(raw);
+  const { data, content } =
+    matter(raw);
 
   return {
     article: {
       slug,
 
-      title: data.title ?? "Untitled",
+      title:
+        data.title ?? "Untitled",
 
-      date: data.date ?? "",
+      date:
+        data.date ?? "",
 
-      category: data.category ?? "",
+      category:
+        data.category ?? "",
 
-      summary: data.summary ?? data.excerpt ?? "",
+      summary:
+        data.summary ??
+        data.excerpt ??
+        "",
 
-      image: data.image ?? "/images/default.jpg",
+      image:
+        data.image ??
+        "/images/default.jpg",
 
-      featured: data.featured ?? false,
+      featured:
+        data.featured ?? false,
 
-      readTime: data.readTime ?? "",
+      readTime:
+        data.readTime ?? "",
 
-      author: data.author ?? "EisatoponAI Team",
+      author:
+        data.author ??
+        "EisatoponAI Team",
     },
 
     content,
