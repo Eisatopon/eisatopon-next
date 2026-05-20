@@ -58,16 +58,77 @@ const problemBanks: ProblemBank[] = [
 ];
 
 const topics: Topic[] = [
-  { label: "Mathematics",       emoji: "∞",  color: "text-[#d4af37]", bg: "bg-[#d4af37]/10 border-[#d4af37]/25" },
-  { label: "Science",           emoji: "🔬", color: "text-[#67e8f9]", bg: "bg-[#67e8f9]/10 border-[#67e8f9]/25" },
-  { label: "History",           emoji: "📜", color: "text-[#c6a16e]", bg: "bg-[#c6a16e]/10 border-[#c6a16e]/25" },
-  { label: "Humor",             emoji: "🎭", color: "text-[#86efac]", bg: "bg-[#86efac]/10 border-[#86efac]/25" },
-  { label: "Language",          emoji: "🗣️", color: "text-[#93c5fd]", bg: "bg-[#93c5fd]/10 border-[#93c5fd]/25" },
-  { label: "Puzzles",           emoji: "🧩", color: "text-[#fda4af]", bg: "bg-[#fda4af]/10 border-[#fda4af]/25" },
-  { label: "Quotations",        emoji: "💬", color: "text-[#bef264]", bg: "bg-[#bef264]/10 border-[#bef264]/25" },
-  { label: "Society",           emoji: "🌍", color: "text-[#fb923c]", bg: "bg-[#fb923c]/10 border-[#fb923c]/25" },
-  { label: "Art",               emoji: "🎨", color: "text-[#f9a8d4]", bg: "bg-[#f9a8d4]/10 border-[#f9a8d4]/25" },
-  { label: "Artificial Intelligence", emoji: "🤖", color: "text-[#a5b4fc]", bg: "bg-[#a5b4fc]/10 border-[#a5b4fc]/25" },
+
+  {
+    label: "Mathematics",
+    emoji: "∞",
+    color: "text-[#d4af37]",
+    bg: "bg-[#d4af37]/10 border-[#d4af37]/20",
+  },
+
+  {
+    label: "Olympiads",
+    emoji: "🏆",
+    color: "text-[#93c5fd]",
+    bg: "bg-[#93c5fd]/10 border-[#93c5fd]/20",
+  },
+
+  {
+    label: "Physics",
+    emoji: "⚛️",
+    color: "text-[#67e8f9]",
+    bg: "bg-[#67e8f9]/10 border-[#67e8f9]/20",
+  },
+
+  {
+    label: "Artificial Intelligence",
+    emoji: "◉",
+    color: "text-[#a5b4fc]",
+    bg: "bg-[#a5b4fc]/10 border-[#a5b4fc]/20",
+  },
+
+  {
+    label: "Number Theory",
+    emoji: "ℤ",
+    color: "text-[#facc15]",
+    bg: "bg-[#facc15]/10 border-[#facc15]/20",
+  },
+
+  {
+    label: "Geometry",
+    emoji: "△",
+    color: "text-[#86efac]",
+    bg: "bg-[#86efac]/10 border-[#86efac]/20",
+  },
+
+  {
+    label: "Puzzles & Paradoxes",
+    emoji: "◈",
+    color: "text-[#f9a8d4]",
+    bg: "bg-[#f9a8d4]/10 border-[#f9a8d4]/20",
+  },
+
+  {
+    label: "History of Science",
+    emoji: "⌛",
+    color: "text-[#c6a16e]",
+    bg: "bg-[#c6a16e]/10 border-[#c6a16e]/20",
+  },
+
+  {
+    label: "Logic & Philosophy",
+    emoji: "◌",
+    color: "text-[#c4b5fd]",
+    bg: "bg-[#c4b5fd]/10 border-[#c4b5fd]/20",
+  },
+
+  {
+    label: "Society & Technology",
+    emoji: "◍",
+    color: "text-[#fb923c]",
+    bg: "bg-[#fb923c]/10 border-[#fb923c]/20",
+  },
+
 ];
 
 const socialLinks = [

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "INMO_2022_P1",
+    "year": 2022,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": ["Geometry"],
+    "statement": "Let $D$ be an interior point on the side $BC$ of an acute-angled triangle $ABC$. Let the circumcircle of triangle $ADB$ intersect $AC$ again at $E\\ (\\neq A)$ and the circumcircle of triangle $ADC$ intersect $AB$ again at $F\\ (\\neq A)$. Let $AD$, $BE$, and $CF$ intersect the circumcircle of triangle $ABC$ again at $D_1\\ (\\neq A)$, $E_1\\ (\\neq B)$, and $F_1\\ (\\neq C)$ respectively. Let $I$ and $I_1$ be the incentres of triangles $DEF$ and $D_1E_1F_1$ respectively. Prove that $E$, $F$, $I$, $I_1$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2022"
+  },
+  {
+    "id": "INMO_2022_P2",
+    "year": 2022,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": ["Combinatorics", "Number Theory"],
+    "statement": "Find all natural numbers $n$ for which there is a permutation $\\sigma$ of $\\{1, 2, \\ldots, n\\}$ that satisfies:\n\\[\n\\sum_{i=1}^{n} \\sigma(i)(-2)^{i-1} = 0.\n\\]",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2022"
+  },
+  {
+    "id": "INMO_2022_P3",
+    "year": 2022,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": ["Combinatorics"],
+    "statement": "For a positive integer $N$, let $T(N)$ denote the number of arrangements of the integers $1, 2, \\ldots, N$ into a sequence $a_1, a_2, \\ldots, a_N$ such that $a_i > a_{2i}$ for all $i$ with $1 \\leq i < 2i \\leq N$, and $a_i > a_{2i+1}$ for all $i$ with $1 \\leq i < 2i+1 \\leq N$. (These are the so-called heap sequences.)\n\\begin{enumerate}\n\\item[(a)] Find $T(7)$.\n\\item[(b)] If $K$ is the largest non-negative integer so that $2^K$ divides $T(2^n - 1)$, show that $K = 2^n - n - 1$.\n\\item[(c)] Find the largest non-negative integer $K$ so that $2^K$ divides $T(2^n + 1)$.\n\\end{enumerate}",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2022"
+  }
+]

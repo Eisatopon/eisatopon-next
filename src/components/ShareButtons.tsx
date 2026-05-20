@@ -1,17 +1,27 @@
 "use client";
 
+import { useState, useEffect } from "react";
+
 interface ShareButtonsProps {
   title: string;
   summary?: string;
   image?: string | null;
+  url?: string; // Προαιρετικό: πέρνα από server
 }
 
-export default function ShareButtons({ title, summary = "", image }: ShareButtonsProps) {
-  const currentUrl = typeof window !== "undefined" ? window.location.href : "";
+export default function ShareButtons({ title, summary = "", image, url }: ShareButtonsProps) {
+  const [currentUrl, setCurrentUrl] = useState(url || "");
+  const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    if (!url && typeof window !== "undefined") {
+      setCurrentUrl(window.location.href);
+    }
+  }, [url]);
 
   const encodedTitle = encodeURIComponent(title);
   const encodedUrl = encodeURIComponent(currentUrl);
-  const encodedImage = image ? encodeURIComponent(image) : "";
+  const encodedSummary = encodeURIComponent(summary);
 
   const shareLinks = [
     {
@@ -27,7 +37,9 @@ export default function ShareButtons({ title, summary = "", image }: ShareButton
     {
       name: "Pinterest",
       icon: "📌",
-      href: `https://www.pinterest.com/pin/create/button/?url=${encodedUrl}&description=${encodedTitle}&media=${encodedImage}`,
+      href: image
+        ? `https://www.pinterest.com/pin/create/button/?url=${encodedUrl}&description=${encodedTitle}&media=${encodeURIComponent(image)}`
+        : `https://www.pinterest.com/pin/create/button/?url=${encodedUrl}&description=${encodedTitle}`,
     },
     {
       name: "LinkedIn",
@@ -37,9 +49,22 @@ export default function ShareButtons({ title, summary = "", image }: ShareButton
     {
       name: "Copy",
       icon: "🔗",
-      onClick: () => {
-        navigator.clipboard.writeText(currentUrl);
-        alert("✅ Το link αντιγράφηκε!");
+      onClick: async () => {
+        try {
+          await navigator.clipboard.writeText(currentUrl);
+          setCopied(true);
+          setTimeout(() => setCopied(false), 2000);
+        } catch {
+          // Fallback για older browsers
+          const input = document.createElement("input");
+          input.value = currentUrl;
+          document.body.appendChild(input);
+          input.select();
+          document.execCommand("copy");
+          document.body.removeChild(input);
+          setCopied(true);
+          setTimeout(() => setCopied(false), 2000);
+        }
       },
     },
   ];
@@ -51,19 +76,19 @@ export default function ShareButtons({ title, summary = "", image }: ShareButton
       </p>
 
       <div className="flex flex-wrap gap-3">
-        {shareLinks.map((item, index) => (
+        {shareLinks.map((item) => (
           item.onClick ? (
             <button
-              key={index}
+              key={item.name}
               onClick={item.onClick}
               className="flex items-center gap-3 px-5 py-3 rounded-xl border border-border-dim bg-card hover:bg-zinc-800 hover:text-white transition-all text-sm"
             >
               <span className="text-xl">{item.icon}</span>
-              <span>{item.name}</span>
+              <span>{copied && item.name === "Copy" ? "✅ Αντιγράφηκε!" : item.name}</span>
             </button>
           ) : (
             <a
-              key={index}
+              key={item.name}
               href={item.href}
               target="_blank"
               rel="noopener noreferrer"
