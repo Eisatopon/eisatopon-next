@@ -16,47 +16,91 @@ export default function MainNavbar() {
           height: "88px",
         }}
       >
-        {/* LOGO */}
-        <Link
-          href="/"
-          className="group flex items-center gap-3"
-          style={{ textDecoration: "none" }}
-        >
-          <img
-            src="/logo/eisatoponai-logo.svg"
-            alt="EisatoponAI"
-            className="
-              h-12
-              w-auto
-              transition-all
-              duration-500
-              group-hover:opacity-90
-            "
-            style={{
-              display: "block",
-            }}
-          />
+        {/* LEFT */}
+        <div className="flex items-center gap-12">
 
-          <span
-            style={{
-              fontFamily: "var(--font-playfair)",
-              fontSize: "2.35rem",
-              fontWeight: 600,
-              color: "#f5f1e8",
-              letterSpacing: "-0.045em",
-              lineHeight: 1,
-            }}
+          {/* LOGO */}
+          <Link
+            href="/"
+            className="group flex items-center gap-3"
+            style={{ textDecoration: "none" }}
           >
-            Eisatopon
+            <img
+              src="/logo/eisatoponai-logo.svg"
+              alt="EisatoponAI"
+              className="
+                h-12
+                w-auto
+                transition-all
+                duration-500
+                group-hover:opacity-90
+              "
+              style={{
+                display: "block",
+              }}
+            />
+
             <span
               style={{
-                color: "#c8a96b",
+                fontFamily: "var(--font-playfair)",
+                fontSize: "2.35rem",
+                fontWeight: 600,
+                color: "#f5f1e8",
+                letterSpacing: "-0.045em",
+                lineHeight: 1,
               }}
             >
-              AI
+              Eisatopon
+              <span
+                style={{
+                  color: "#c8a96b",
+                }}
+              >
+                AI
+              </span>
             </span>
-          </span>
-        </Link>
+          </Link>
+
+          {/* NAV */}
+          <nav
+            className="hidden md:flex items-center gap-8"
+            style={{
+              fontSize: "0.8rem",
+              letterSpacing: "0.28em",
+              textTransform: "uppercase",
+              color: "rgba(245,241,232,0.72)",
+            }}
+          >
+            <Link
+              href="/lab"
+              className="hover:text-[#d4af37] transition-colors duration-300"
+            >
+              Lab
+            </Link>
+
+            <Link
+              href="/lab/rubik-cube"
+              className="hover:text-[#d4af37] transition-colors duration-300"
+            >
+              Rubik
+            </Link>
+
+            <Link
+              href="/lab/math-chaser"
+              className="hover:text-[#d4af37] transition-colors duration-300"
+            >
+              Chaser
+            </Link>
+
+            <Link
+              href="/problems"
+              className="hover:text-[#d4af37] transition-colors duration-300"
+            >
+              Problems
+            </Link>
+          </nav>
+
+        </div>
 
         {/* SEARCH */}
         <Link
