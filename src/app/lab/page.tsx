@@ -140,7 +140,39 @@ export default function LabPage() {
               </div>
             </div>
           </Link>
-
+         {/* DYSCALCULIA TEST — red accent */}
+          <Link
+            href="/dyscalculia-test"
+            className="group relative overflow-hidden rounded-[32px] border border-white/[0.08] bg-white/[0.03] p-10 transition-all duration-500 hover:border-[#ef4444]/30 hover:bg-white/[0.05] block"
+          >
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
+              style={{ background: "radial-gradient(circle at top left, rgba(239,68,68,0.12), transparent 60%)" }}
+            />
+            <div className="relative z-10 flex flex-col h-full">
+              <div className="mb-8 w-14 h-14 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0"
+                style={{ background: "rgba(239,68,68,0.1)", border: "1px solid rgba(239,68,68,0.2)", color: "#ef4444" }}>
+                ⚡
+              </div>
+              <h2 style={{ fontFamily: "var(--font-playfair)", fontSize: "2.6rem", lineHeight: 1.1, color: "#f5f1e8", marginBottom: "12px" }}>
+                Dyscalculia Test
+              </h2>
+              <div className="flex flex-wrap gap-2 mb-5">
+                {["50 Questions","6 Categories","Free Screening"].map(tag => (
+                  <span key={tag} className="text-[0.68rem] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded-full"
+                    style={{ background: "rgba(239,68,68,0.08)", border: "1px solid rgba(239,68,68,0.18)", color: "#ef4444" }}>
+                    {tag}
+                  </span>
+                ))}
+              </div>
+              <p className="flex-1" style={{ color: "rgba(245,241,232,0.55)", fontSize: "1rem", lineHeight: 1.75 }}>
+                A free, research-based screening tool to identify potential signs of dyscalculia across six key areas.
+              </p>
+              <div className="mt-10 flex items-center gap-3 uppercase tracking-[0.3em] text-[0.72rem] font-bold" style={{ color: "#ef4444" }}>
+                Take the Test
+                <span className="transition-transform duration-300 group-hover:translate-x-2 text-base">→</span>
+              </div>
+            </div>
+          </Link>
         </div>
       </section>
     </main>
