@@ -82,14 +82,14 @@ export default function MainNavbar() {
               href="/lab/rubik-cube"
               className="hover:text-[#d4af37] transition-colors duration-300"
             >
-              Rubik
+              Rubik Cube
             </Link>
 
             <Link
               href="/lab/math-chaser"
               className="hover:text-[#d4af37] transition-colors duration-300"
             >
-              Chaser
+              Math Chaser
             </Link>
 
             <Link
