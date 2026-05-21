@@ -296,7 +296,57 @@ export default async function Home() {
           ) : (
             <p className="text-ink-muted text-sm py-10 text-center">No articles yet.</p>
           )}
+          {/* PREMIUM PAGINATION */}
 
+<div className="mt-14 flex flex-col items-center gap-5">
+
+  <div className="w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+
+  <div className="text-[0.7rem] tracking-[0.35em] uppercase text-ink-muted">
+    Explore The Archive
+  </div>
+
+  <div className="flex items-center gap-3 flex-wrap justify-center">
+
+    <button className="text-[0.78rem] tracking-wide uppercase text-ink-muted hover:text-gold transition-colors duration-300">
+      ← Newer
+    </button>
+
+    <div className="flex items-center gap-2">
+
+      <button className="w-9 h-9 rounded-full border border-gold/40 bg-gold/10 text-gold text-[0.82rem] font-medium">
+        01
+      </button>
+
+      <button className="w-9 h-9 rounded-full border border-white/10 text-ink-secondary hover:border-gold/30 hover:text-gold transition-all duration-300 text-[0.82rem]">
+        02
+      </button>
+
+      <button className="w-9 h-9 rounded-full border border-white/10 text-ink-secondary hover:border-gold/30 hover:text-gold transition-all duration-300 text-[0.82rem]">
+        03
+      </button>
+
+      <span className="px-1 text-ink-muted">
+        ···
+      </span>
+
+      <button className="w-9 h-9 rounded-full border border-white/10 text-ink-secondary hover:border-gold/30 hover:text-gold transition-all duration-300 text-[0.82rem]">
+        20
+      </button>
+
+    </div>
+
+    <button className="text-[0.78rem] tracking-wide uppercase text-ink-muted hover:text-gold transition-colors duration-300">
+      Older →
+    </button>
+
+  </div>
+
+  <div className="text-[0.68rem] uppercase tracking-[0.25em] text-ink-muted/70">
+    Page 1 of 1414
+  </div>
+
+</div>
           {/* TOPICS */}
           <div className="mt-12">
             <h2 className="text-[0.68rem] tracking-widest uppercase text-ink-muted font-normal mb-5">Browse by Topic</h2>
