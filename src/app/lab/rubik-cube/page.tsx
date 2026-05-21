@@ -2,14 +2,21 @@
 
 export default function RubikCubePage() {
   return (
-    <iframe
-      src="/rubik-cube.html"
+    <main
+      className="min-h-screen"
       style={{
-        width: "100%",
-        height: "100vh",
-        border: "none",
+        background: "radial-gradient(circle at top, #0b1020 0%, #05070a 60%)",
       }}
-      title="Rubik Cube"
-    />
+    >
+      <iframe
+        src="/rubik-cube.html"
+        style={{
+          width: "100%",
+          height: "100vh",
+          border: "none",
+        }}
+        title="Rubik's Cube Solver"
+      />
+    </main>
   );
 }
