@@ -298,9 +298,11 @@ export default async function Home() {
             <p className="text-ink-muted text-sm py-10 text-center">No articles yet.</p>
           )}
   <Pagination
-  currentPage={1}
-  totalPages={Math.ceil((articles.length - 1) / 6) + 1}
-/>
+            currentPage={1}
+            totalPages={Math.ceil((articles.length - 1) / 6) + 1}
+          />
+
+        </section>
 
         {/* SIDEBAR */}
 <aside className="flex flex-col gap-7">
