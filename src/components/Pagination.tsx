@@ -7,7 +7,7 @@ interface PaginationProps {
 
 export default function Pagination({ currentPage, totalPages }: PaginationProps) {
   function pageHref(page: number) {
-    return page === 1 ? "/" : `/page/${page}`;
+    return page === 1 ? "/" : `/archive/${page}`;
   }
 
   function getPageNumbers(): (number | "...")[] {
