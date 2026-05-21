@@ -1,0 +1,80 @@
+[
+  {
+    "id": "VMO_1995_D1_P1",
+    "year": 1995,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": ["Algebra"],
+    "statement": "Find all real solutions to \\(x^3 - 3x^2 - 8x + 40 - 8\\sqrt[4]{4x+4} = 0\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1995 Day 1"
+  },
+  {
+    "id": "VMO_1995_D1_P2",
+    "year": 1995,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": ["Number Theory", "Algebra"],
+    "statement": "The sequence \\((a_n)\\) is defined by \\(a_0=1\\), \\(a_1=3\\), and for \\(n \\geq 2\\): \\(a_{n+2} = a_{n+1} + 9a_n\\) if \\(n\\) is even, \\(a_{n+2} = 9a_{n+1} + 5a_n\\) if \\(n\\) is odd. Prove that:\\\\\n1) \\((a_{1995})^2 + (a_{1996})^2 + \\cdots + (a_{2000})^2\\) is divisible by 20.\\\\\n2) \\(a_{2n+1}\\) is not a perfect square for any natural number \\(n\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1995 Day 1"
+  },
+  {
+    "id": "VMO_1995_D1_P3",
+    "year": 1995,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": ["Geometry"],
+    "statement": "Let \\(\\triangle ABC\\) be non-equilateral with altitudes \\(AD, BE, CF\\). On rays \\(AD, BE, CF\\) let \\(A', B', C'\\) be such that \\(\\dfrac{AA'}{AD} = \\dfrac{BB'}{BE} = \\dfrac{CC'}{CF} = k\\). Find all values of \\(k\\) such that \\(\\triangle A'B'C' \\sim \\triangle ABC\\) for any non-equilateral \\(\\triangle ABC\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1995 Day 1"
+  },
+  {
+    "id": "VMO_1995_D2_P1",
+    "year": 1995,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P1",
+    "topic": ["Geometry"],
+    "statement": "Let \\(ABCD\\) be a tetrahedron and \\(A', B', C', D'\\) the circumcenters of triangles \\(BCD, CDA, DAB, ABC\\). Let \\((P_A), (P_B), (P_C), (P_D)\\) be planes through \\(A, B, C, D\\) perpendicular to \\(C'D', D'A', A'B', B'C'\\) respectively. Prove these planes have a common point \\(I\\). If \\(P\\) is the circumcenter of the tetrahedron, must the tetrahedron be regular?",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1995 Day 2"
+  },
+  {
+    "id": "VMO_1995_D2_P2",
+    "year": 1995,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P2",
+    "topic": ["Algebra"],
+    "statement": "Find all polynomials \\(P(x)\\) with real coefficients such that for all \\(a > 1995\\), the number of real roots of \\(P(x) = a\\) (counted with multiplicity) is greater than 1995 and every root is greater than 1995.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1995 Day 2"
+  },
+  {
+    "id": "VMO_1995_D2_P3",
+    "year": 1995,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P3",
+    "topic": ["Combinatorics"],
+    "statement": "Given \\(n \\geq 2\\) and a regular \\(2n\\)-gon, color all vertices using \\(n\\) colors such that each vertex gets exactly one color and no two adjacent vertices share a color. Two colorings are equivalent if one can be obtained from the other by rotation. Find the number of mutually non-equivalent colorings.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1995 Day 2"
+  }
+]

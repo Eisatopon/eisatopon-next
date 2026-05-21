@@ -1,0 +1,80 @@
+[
+  {
+    "id": "VMO_2004_D1_P1",
+    "year": 2004,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": ["Algebra"],
+    "statement": "Solve the system of equations:\n\\[\\begin{cases} x^3 + x(y-z)^2 = 2 \\\\ y^3 + y(z-x)^2 = 30 \\\\ z^3 + z(x-y)^2 = 16 \\end{cases}\\]",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2004 Day 1"
+  },
+  {
+    "id": "VMO_2004_D1_P2",
+    "year": 2004,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": ["Geometry"],
+    "statement": "In triangle \\(ABC\\), the bisector of \\(\\angle ACB\\) meets \\(AB\\) at \\(D\\). A circle \\((O)\\) through \\(C\\) and \\(D\\) meets lines \\(BC\\) and \\(AC\\) at \\(M\\) and \\(N\\) (\\(M, N \\neq C\\)).\\\\\na) Prove there exists a circle \\((S)\\) tangent to \\(DM\\) at \\(M\\) and to \\(DN\\) at \\(N\\).\\\\\nb) If \\((S)\\) meets lines \\(BC\\) and \\(CA\\) again at \\(P\\) and \\(Q\\), prove that \\(MP\\) and \\(NQ\\) are constant as \\((O)\\) varies.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2004 Day 1"
+  },
+  {
+    "id": "VMO_2004_D1_P3",
+    "year": 2004,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": ["Combinatorics", "Number Theory"],
+    "statement": "Let \\(A = \\{1, 2, \\ldots, 16\\}\\). Find the least positive integer \\(k\\) such that every \\(k\\)-element subset of \\(A\\) contains two distinct elements \\(a, b\\) with \\(a^2 + b^2\\) prime.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2004 Day 1"
+  },
+  {
+    "id": "VMO_2004_D2_P1",
+    "year": 2004,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P1",
+    "topic": ["Algebra"],
+    "statement": "The sequence \\((x_n)\\) is defined by \\(x_1 = 1\\) and \\(x_{n+1} = \\dfrac{(2+\\cos 2\\alpha)x_n - \\cos^2\\alpha}{(2-2\\cos 2\\alpha)x_n + 2 - \\cos 2\\alpha}\\) for all \\(n \\in \\mathbb{N}\\), where \\(\\alpha\\) is a real parameter. Find all values of \\(\\alpha\\) for which \\(y_n = \\displaystyle\\sum_{k=1}^{n} \\dfrac{1}{2x_k+1}\\) has a finite limit as \\(n \\to +\\infty\\), and find that limit.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2004 Day 2"
+  },
+  {
+    "id": "VMO_2004_D2_P2",
+    "year": 2004,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P2",
+    "topic": ["Algebra"],
+    "statement": "Let \\(x, y, z\\) be positive reals satisfying \\((x+y+z)^3 = 32xyz\\). Find the minimum and maximum of \\(P = \\dfrac{x^4+y^4+z^4}{(x+y+z)^4}\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2004 Day 2"
+  },
+  {
+    "id": "VMO_2004_D2_P3",
+    "year": 2004,
+    "olympiad": "VMO",
+    "country": "Vietnam",
+    "day": 2,
+    "problem_id": "P3",
+    "topic": ["Number Theory"],
+    "statement": "Let \\(S(n)\\) be the sum of the decimal digits of a natural number \\(n\\). Find the least value of \\(S(m)\\) where \\(m\\) is a positive multiple of \\(2003\\).",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2004 Day 2"
+  }
+]
