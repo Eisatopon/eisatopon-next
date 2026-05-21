@@ -1,3 +1,4 @@
+import Pagination from "@/components/Pagination";
 import "katex/dist/katex.min.css";
 import { BlockMath } from "react-katex";
 import { getTodayProblem, PotdProblem } from "@/lib/potd";
@@ -296,70 +297,10 @@ export default async function Home() {
           ) : (
             <p className="text-ink-muted text-sm py-10 text-center">No articles yet.</p>
           )}
-          {/* PREMIUM PAGINATION */}
-
-<div className="mt-14 flex flex-col items-center gap-5">
-
-  <div className="w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
-
-  <div className="text-[0.7rem] tracking-[0.35em] uppercase text-ink-muted">
-    Explore The Archive
-  </div>
-
-  <div className="flex items-center gap-3 flex-wrap justify-center">
-
-    <button className="text-[0.78rem] tracking-wide uppercase text-ink-muted hover:text-gold transition-colors duration-300">
-      ← Newer
-    </button>
-
-    <div className="flex items-center gap-2">
-
-      <button className="w-9 h-9 rounded-full border border-gold/40 bg-gold/10 text-gold text-[0.82rem] font-medium">
-        01
-      </button>
-
-      <button className="w-9 h-9 rounded-full border border-white/10 text-ink-secondary hover:border-gold/30 hover:text-gold transition-all duration-300 text-[0.82rem]">
-        02
-      </button>
-
-      <button className="w-9 h-9 rounded-full border border-white/10 text-ink-secondary hover:border-gold/30 hover:text-gold transition-all duration-300 text-[0.82rem]">
-        03
-      </button>
-
-      <span className="px-1 text-ink-muted">
-        ···
-      </span>
-
-      <button className="w-9 h-9 rounded-full border border-white/10 text-ink-secondary hover:border-gold/30 hover:text-gold transition-all duration-300 text-[0.82rem]">
-        20
-      </button>
-
-    </div>
-
-    <button className="text-[0.78rem] tracking-wide uppercase text-ink-muted hover:text-gold transition-colors duration-300">
-      Older →
-    </button>
-
-  </div>
-
-  <div className="text-[0.68rem] uppercase tracking-[0.25em] text-ink-muted/70">
-    Page 1 of 1414
-  </div>
-
-</div>
-          {/* TOPICS */}
-          <div className="mt-12">
-            <h2 className="text-[0.68rem] tracking-widest uppercase text-ink-muted font-normal mb-5">Browse by Topic</h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
-              {topics.map((topic) => (
-                <Link key={topic.label} href={`/articles?category=${encodeURIComponent(topic.label)}`} className={`group flex flex-col items-center justify-center gap-2 p-4 rounded-xl border ${topic.bg} hover:border-gold/40 hover:bg-gold/5 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50`} aria-label={`Browse ${topic.label} articles`}>
-                  <span className={`text-2xl font-playfair ${topic.color} group-hover:text-gold transition-colors duration-200`} aria-hidden="true">{topic.emoji}</span>
-                  <span className={`text-[0.75rem] font-medium tracking-wide ${topic.color} group-hover:text-gold transition-colors duration-200`}>{topic.label}</span>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
+  <Pagination
+  currentPage={1}
+  totalPages={Math.ceil((articles.length - 1) / 6) + 1}
+/>
 
         {/* SIDEBAR */}
 <aside className="flex flex-col gap-7">
