@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[746],{1029:(e,r,t)=>{Promise.resolve().then(t.bind(t,9990))},9990:(e,r,t)=>{"use strict";t.r(r),t.d(r,{default:()=>u});var s=t(5155);function u(){return(0,s.jsx)("iframe",{src:"/rubik-cube.html",style:{width:"100%",height:"100vh",border:"none"},title:"Rubik Cube"})}}},e=>{e.O(0,[441,794,358],()=>e(e.s=1029)),_N_E=e.O()}]);
