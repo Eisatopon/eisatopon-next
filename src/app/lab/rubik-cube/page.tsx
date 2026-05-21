@@ -64,10 +64,9 @@ export default function RubikCubePage() {
         <div className="grid grid-cols-1 xl:grid-cols-[1.25fr_0.75fr] gap-10">
 
           {/* LEFT PANEL */}
-          <div
-            className="relative overflow-hidden rounded-[32px] border border-white/10 bg-white/[0.035] backdrop-blur-sm p-8"
-          >
+          <div className="relative overflow-hidden rounded-[32px] border border-white/10 bg-white/[0.035] backdrop-blur-sm p-8">
 
+            {/* glow */}
             <div
               className="absolute inset-0 opacity-[0.12]"
               style={{
@@ -87,11 +86,10 @@ export default function RubikCubePage() {
                 Interactive Cube
               </div>
 
-              {/* CUBE */}
-              <div
-                className="relative flex flex-col items-center justify-center rounded-[24px] border border-white/10 bg-black/20 overflow-hidden min-h-[400px] md:min-h-[560px]"
-              >
+              {/* CUBE AREA */}
+              <div className="relative flex flex-col items-center justify-center rounded-[24px] border border-white/10 bg-black/20 overflow-hidden min-h-[400px] md:min-h-[560px]">
 
+                {/* ambient glow */}
                 <div
                   className="absolute w-[420px] h-[420px] rounded-full blur-3xl opacity-[0.14]"
                   style={{
@@ -100,20 +98,105 @@ export default function RubikCubePage() {
                   }}
                 />
 
+                {/* cube wrapper */}
                 <div
-                  className="relative"
+                  className="relative flex items-center justify-center"
                   style={{
-                    transformStyle: "preserve-3d",
-                    animation: "spinCube 16s linear infinite",
+                    width: "260px",
+                    height: "260px",
+                    perspective: "1200px",
                   }}
                 >
 
+                  {/* rotating cube */}
                   <div
-                    className="w-28 h-28 md:w-36 md:h-36 border border-[#d4af37]/30 rounded-[10px] bg-[#d4af37]/[0.03] backdrop-blur-sm shadow-[0_0_40px_rgba(212,175,55,0.08)]"
-                  />
+                    style={{
+                      width: "150px",
+                      height: "150px",
+                      position: "relative",
+                      transformStyle: "preserve-3d",
+                      animation: "spinCube 10s linear infinite",
+                    }}
+                  >
+
+                    {/* FRONT */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        width: "150px",
+                        height: "150px",
+                        background: "#d4af37",
+                        border: "2px solid rgba(255,255,255,0.15)",
+                        transform: "translateZ(75px)",
+                        boxShadow: "0 0 40px rgba(212,175,55,0.35)",
+                      }}
+                    />
+
+                    {/* BACK */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        width: "150px",
+                        height: "150px",
+                        background: "#111827",
+                        border: "2px solid rgba(255,255,255,0.1)",
+                        transform: "rotateY(180deg) translateZ(75px)",
+                      }}
+                    />
+
+                    {/* RIGHT */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        width: "150px",
+                        height: "150px",
+                        background: "#1f2937",
+                        border: "2px solid rgba(255,255,255,0.1)",
+                        transform: "rotateY(90deg) translateZ(75px)",
+                      }}
+                    />
+
+                    {/* LEFT */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        width: "150px",
+                        height: "150px",
+                        background: "#0f172a",
+                        border: "2px solid rgba(255,255,255,0.1)",
+                        transform: "rotateY(-90deg) translateZ(75px)",
+                      }}
+                    />
+
+                    {/* TOP */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        width: "150px",
+                        height: "150px",
+                        background: "#f5e6a8",
+                        border: "2px solid rgba(255,255,255,0.1)",
+                        transform: "rotateX(90deg) translateZ(75px)",
+                      }}
+                    />
+
+                    {/* BOTTOM */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        width: "150px",
+                        height: "150px",
+                        background: "#111111",
+                        border: "2px solid rgba(255,255,255,0.1)",
+                        transform: "rotateX(-90deg) translateZ(75px)",
+                      }}
+                    />
+
+                  </div>
 
                 </div>
 
+                {/* scramble */}
                 <div className="mt-16 text-center">
 
                   <div
@@ -136,6 +219,7 @@ export default function RubikCubePage() {
 
                 </div>
 
+                {/* button */}
                 <button
                   className="mt-8 px-5 py-3 rounded-full border border-[#d4af37]/20 bg-[#d4af37]/[0.04] text-[0.78rem] uppercase tracking-[0.22em] transition-all duration-300 hover:border-[#d4af37]/40 hover:bg-[#d4af37]/[0.08]"
                   style={{
@@ -155,9 +239,7 @@ export default function RubikCubePage() {
           <div className="flex flex-col gap-8">
 
             {/* THEORY */}
-            <div
-              className="relative overflow-hidden rounded-[30px] border border-white/10 bg-white/[0.03] backdrop-blur-sm p-8"
-            >
+            <div className="relative overflow-hidden rounded-[30px] border border-white/10 bg-white/[0.03] backdrop-blur-sm p-8">
 
               <div
                 className="mb-5 uppercase tracking-[0.22em] text-[0.72rem]"
@@ -218,17 +300,18 @@ export default function RubikCubePage() {
 
       </section>
 
-          <style>{`
+      <style>{`
         @keyframes spinCube {
           0% {
-            transform: rotateX(-18deg) rotateY(0deg);
+            transform: rotateX(-25deg) rotateY(0deg);
           }
 
           100% {
-            transform: rotateX(-18deg) rotateY(360deg);
+            transform: rotateX(-25deg) rotateY(360deg);
           }
         }
       `}</style>
+
     </main>
   );
 }
