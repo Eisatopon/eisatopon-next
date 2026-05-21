@@ -86,8 +86,7 @@ export default function RubikCubeSolver() {
     const wrap = document.createElement('div');
     wrap.style.cssText = 'width:100%;height:100%';
     host.appendChild(wrap);
-    const base   = 'edit=1&snap=1&speed=10&bgcolor=0a0f1e&cubecolor=ffffff&buttonbar=0&hint=0&movetext=1&textsize=12&position=lluu';
-    const params = `initmove=${encodeURIComponent(scr)}&move=${encodeURIComponent(sol)}&initrevmove=#`;
+const base = 'edit=1&snap=1&speed=10&bgcolor=ffffff&cubecolor=000000&...
     const sc = document.createElement('script');
     sc.text = `AnimCube3('${(base+'&'+params).replace(/'/g,"\\'")}')`;
     wrap.appendChild(sc);
