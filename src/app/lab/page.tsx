@@ -8,9 +8,7 @@ const EXPERIMENTS = [
     desc: "Scramble, rotate and solve the classic 3×3 cube with an optimal algorithm — all in your browser.",
     tags: ["3D Puzzle", "Combinatorics", "WCA Notation"],
     cta: "Enter Experiment",
-    accent: "#25c491",
-    glow: "rgba(37,196,145,0.12)",
-    border: "rgba(37,196,145,0.25)",
+    accentVar: "teal",
   },
   {
     href: "/lab/math-chaser",
@@ -19,9 +17,7 @@ const EXPERIMENTS = [
     desc: "Race against the clock across four difficulty levels. One wrong answer and the Chaser gets you.",
     tags: ["Speed Quiz", "4 Levels", "Beat Your Best"],
     cta: "Enter Experiment",
-    accent: "#f59e0b",
-    glow: "rgba(245,158,11,0.12)",
-    border: "rgba(245,158,11,0.25)",
+    accentVar: "amber",
   },
 ];
 
@@ -75,107 +71,77 @@ export default function LabPage() {
 
       {/* ── GRID ── */}
       <section className="max-w-[1280px] mx-auto px-6 py-24">
-
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[900px]">
 
-          {EXPERIMENTS.map((exp) => (
-            <Link
-              key={exp.href}
-              href={exp.href}
-              className="group relative overflow-hidden rounded-[32px] border bg-white/[0.03] p-10 transition-all duration-500"
-              style={{
-                borderColor: "rgba(255,255,255,0.08)",
-              }}
-              onMouseEnter={e => {
-                (e.currentTarget as HTMLElement).style.borderColor = exp.border;
-                (e.currentTarget as HTMLElement).style.background = "rgba(255,255,255,0.05)";
-              }}
-              onMouseLeave={e => {
-                (e.currentTarget as HTMLElement).style.borderColor = "rgba(255,255,255,0.08)";
-                (e.currentTarget as HTMLElement).style.background = "rgba(255,255,255,0.03)";
-              }}
-            >
-              {/* glow */}
-              <div
-                className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
-                style={{
-                  background: `radial-gradient(circle at top left, ${exp.glow}, transparent 60%)`,
-                }}
-              />
-
-              <div className="relative z-10 flex flex-col h-full">
-
-                {/* icon */}
-                <div
-                  className="mb-8 w-14 h-14 rounded-2xl flex items-center justify-center text-2xl"
-                  style={{
-                    background: `color-mix(in srgb, ${exp.accent} 12%, transparent)`,
-                    border: `1px solid color-mix(in srgb, ${exp.accent} 25%, transparent)`,
-                    color: exp.accent,
-                  }}
-                >
-                  {exp.icon}
-                </div>
-
-                {/* title */}
-                <h2
-                  style={{
-                    fontFamily: "var(--font-playfair)",
-                    fontSize: "2.6rem",
-                    lineHeight: 1.1,
-                    color: "#f5f1e8",
-                    marginBottom: "12px",
-                  }}
-                >
-                  {exp.title}
-                </h2>
-
-                {/* tags */}
-                <div className="flex flex-wrap gap-2 mb-5">
-                  {exp.tags.map(tag => (
-                    <span
-                      key={tag}
-                      className="text-[0.68rem] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded-full"
-                      style={{
-                        background: `color-mix(in srgb, ${exp.accent} 10%, transparent)`,
-                        border: `1px solid color-mix(in srgb, ${exp.accent} 20%, transparent)`,
-                        color: exp.accent,
-                      }}
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-
-                {/* description */}
-                <p
-                  className="flex-1"
-                  style={{
-                    color: "rgba(245,241,232,0.55)",
-                    fontSize: "1rem",
-                    lineHeight: 1.75,
-                  }}
-                >
-                  {exp.desc}
-                </p>
-
-                {/* cta */}
-                <div
-                  className="mt-10 flex items-center gap-3 uppercase tracking-[0.3em] text-[0.72rem] font-bold transition-colors duration-300"
-                  style={{ color: exp.accent }}
-                >
-                  {exp.cta}
-                  <span className="transition-transform duration-300 group-hover:translate-x-2 text-base">
-                    →
-                  </span>
-                </div>
-
+          {/* RUBIK — teal accent */}
+          <Link
+            href="/lab/rubik-cube"
+            className="lab-card lab-card-teal group relative overflow-hidden rounded-[32px] border border-white/[0.08] bg-white/[0.03] p-10 transition-all duration-500 hover:border-[#25c491]/30 hover:bg-white/[0.05] block"
+          >
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
+              style={{ background: "radial-gradient(circle at top left, rgba(37,196,145,0.12), transparent 60%)" }}
+            />
+            <div className="relative z-10 flex flex-col h-full">
+              <div className="mb-8 w-14 h-14 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0"
+                style={{ background: "rgba(37,196,145,0.1)", border: "1px solid rgba(37,196,145,0.2)", color: "#25c491" }}>
+                ◈
               </div>
-            </Link>
-          ))}
+              <h2 style={{ fontFamily: "var(--font-playfair)", fontSize: "2.6rem", lineHeight: 1.1, color: "#f5f1e8", marginBottom: "12px" }}>
+                Rubik Cube
+              </h2>
+              <div className="flex flex-wrap gap-2 mb-5">
+                {["3D Puzzle","Combinatorics","WCA Notation"].map(tag => (
+                  <span key={tag} className="text-[0.68rem] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded-full"
+                    style={{ background: "rgba(37,196,145,0.08)", border: "1px solid rgba(37,196,145,0.18)", color: "#25c491" }}>
+                    {tag}
+                  </span>
+                ))}
+              </div>
+              <p className="flex-1" style={{ color: "rgba(245,241,232,0.55)", fontSize: "1rem", lineHeight: 1.75 }}>
+                Scramble, rotate and solve the classic 3×3 cube with an optimal algorithm — all in your browser.
+              </p>
+              <div className="mt-10 flex items-center gap-3 uppercase tracking-[0.3em] text-[0.72rem] font-bold" style={{ color: "#25c491" }}>
+                Enter Experiment
+                <span className="transition-transform duration-300 group-hover:translate-x-2 text-base">→</span>
+              </div>
+            </div>
+          </Link>
+
+          {/* MATH CHASER — amber accent */}
+          <Link
+            href="/lab/math-chaser"
+            className="group relative overflow-hidden rounded-[32px] border border-white/[0.08] bg-white/[0.03] p-10 transition-all duration-500 hover:border-[#f59e0b]/30 hover:bg-white/[0.05] block"
+          >
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
+              style={{ background: "radial-gradient(circle at top left, rgba(245,158,11,0.12), transparent 60%)" }}
+            />
+            <div className="relative z-10 flex flex-col h-full">
+              <div className="mb-8 w-14 h-14 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0"
+                style={{ background: "rgba(245,158,11,0.1)", border: "1px solid rgba(245,158,11,0.2)", color: "#f59e0b" }}>
+                ✦
+              </div>
+              <h2 style={{ fontFamily: "var(--font-playfair)", fontSize: "2.6rem", lineHeight: 1.1, color: "#f5f1e8", marginBottom: "12px" }}>
+                Math Chaser
+              </h2>
+              <div className="flex flex-wrap gap-2 mb-5">
+                {["Speed Quiz","4 Levels","Beat Your Best"].map(tag => (
+                  <span key={tag} className="text-[0.68rem] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded-full"
+                    style={{ background: "rgba(245,158,11,0.08)", border: "1px solid rgba(245,158,11,0.18)", color: "#f59e0b" }}>
+                    {tag}
+                  </span>
+                ))}
+              </div>
+              <p className="flex-1" style={{ color: "rgba(245,241,232,0.55)", fontSize: "1rem", lineHeight: 1.75 }}>
+                Race against the clock across four difficulty levels. One wrong answer and the Chaser gets you.
+              </p>
+              <div className="mt-10 flex items-center gap-3 uppercase tracking-[0.3em] text-[0.72rem] font-bold" style={{ color: "#f59e0b" }}>
+                Enter Experiment
+                <span className="transition-transform duration-300 group-hover:translate-x-2 text-base">→</span>
+              </div>
+            </div>
+          </Link>
 
         </div>
-
       </section>
     </main>
   );
