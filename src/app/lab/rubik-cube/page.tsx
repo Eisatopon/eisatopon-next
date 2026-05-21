@@ -65,16 +65,7 @@ export default function RubikCubePage() {
 
           {/* LEFT PANEL */}
           <div
-            className="
-              relative
-              overflow-hidden
-              rounded-[32px]
-              border
-              border-white/10
-              bg-white/[0.035]
-              backdrop-blur-sm
-              p-8
-            "
+            className="relative overflow-hidden rounded-[32px] border border-white/10 bg-white/[0.035] backdrop-blur-sm p-8"
           >
 
             <div
@@ -98,20 +89,7 @@ export default function RubikCubePage() {
 
               {/* CUBE */}
               <div
-                className="
-                  relative
-                  flex
-                  flex-col
-                  items-center
-                  justify-center
-                  rounded-[24px]
-                  border
-                  border-white/10
-                  bg-black/20
-                  overflow-hidden
-                  min-h-[400px]
-                  md:min-h-[560px]
-                "
+                className="relative flex flex-col items-center justify-center rounded-[24px] border border-white/10 bg-black/20 overflow-hidden min-h-[400px] md:min-h-[560px]"
               >
 
                 <div
@@ -131,18 +109,7 @@ export default function RubikCubePage() {
                 >
 
                   <div
-                    className="
-                      w-28
-                      h-28
-                      md:w-36
-                      md:h-36
-                      border
-                      border-[#d4af37]/30
-                      rounded-[10px]
-                      bg-[#d4af37]/[0.03]
-                      backdrop-blur-sm
-                      shadow-[0_0_40px_rgba(212,175,55,0.08)]
-                    "
+                    className="w-28 h-28 md:w-36 md:h-36 border border-[#d4af37]/30 rounded-[10px] bg-[#d4af37]/[0.03] backdrop-blur-sm shadow-[0_0_40px_rgba(212,175,55,0.08)]"
                   />
 
                 </div>
@@ -170,22 +137,7 @@ export default function RubikCubePage() {
                 </div>
 
                 <button
-                  className="
-                    mt-8
-                    px-5
-                    py-3
-                    rounded-full
-                    border
-                    border-[#d4af37]/20
-                    bg-[#d4af37]/[0.04]
-                    text-[0.78rem]
-                    uppercase
-                    tracking-[0.22em]
-                    transition-all
-                    duration-300
-                    hover:border-[#d4af37]/40
-                    hover:bg-[#d4af37]/[0.08]
-                  "
+                  className="mt-8 px-5 py-3 rounded-full border border-[#d4af37]/20 bg-[#d4af37]/[0.04] text-[0.78rem] uppercase tracking-[0.22em] transition-all duration-300 hover:border-[#d4af37]/40 hover:bg-[#d4af37]/[0.08]"
                   style={{
                     color: "#c8a96b",
                   }}
@@ -204,16 +156,7 @@ export default function RubikCubePage() {
 
             {/* THEORY */}
             <div
-              className="
-                relative
-                overflow-hidden
-                rounded-[30px]
-                border
-                border-white/10
-                bg-white/[0.03]
-                backdrop-blur-sm
-                p-8
-              "
+              className="relative overflow-hidden rounded-[30px] border border-white/10 bg-white/[0.03] backdrop-blur-sm p-8"
             >
 
               <div
@@ -238,15 +181,7 @@ export default function RubikCubePage() {
 
                   <div
                     key={symbol}
-                    className="
-                      rounded-[18px]
-                      border
-                      border-white/10
-                      bg-black/20
-                      px-4
-                      py-5
-                      text-center
-                    "
+                    className="rounded-[18px] border border-white/10 bg-black/20 px-4 py-5 text-center"
                   >
 
                     <div
@@ -283,7 +218,7 @@ export default function RubikCubePage() {
 
       </section>
 
-      <style jsx>{`
+          <style>{`
         @keyframes spinCube {
           0% {
             transform: rotateX(-18deg) rotateY(0deg);
@@ -294,7 +229,6 @@ export default function RubikCubePage() {
           }
         }
       `}</style>
-
     </main>
   );
 }
