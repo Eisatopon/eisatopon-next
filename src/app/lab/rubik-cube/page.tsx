@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState, useCallback } from 'react';
 
-/* ── window types ── */
 declare global {
   interface Window {
     AnimCube3: (params: string) => void;
@@ -13,7 +12,6 @@ declare global {
   }
 }
 
-/* ── constants ── */
 const ANIMCUBE_SRC = 'https://animcubejs.cubing.net/AnimCube3.js';
 const CUBE_SRC     = 'https://unpkg.com/cubejs/lib/cube.js';
 const SOLVE_SRC    = 'https://unpkg.com/cubejs/lib/solve.js';
@@ -21,7 +19,6 @@ const FACES        = ['R','L','U','D','F','B'] as const;
 const MODS         = ["","'","2"] as const;
 const AXIS: Record<string,string> = {R:'x',L:'x',U:'y',D:'y',F:'z',B:'z'};
 
-/* ── helpers ── */
 function loadScript(src: string): Promise<void> {
   return new Promise((res, rej) => {
     if (document.querySelector(`script[src="${src}"]`)) { res(); return; }
@@ -47,52 +44,79 @@ function randomScramble(len = 20): string {
   return out.join(' ');
 }
 
-/* ── component ── */
+async function copyToClipboard(text: string): Promise<void> {
+  if (navigator.clipboard?.writeText) { await navigator.clipboard.writeText(text); return; }
+  const el = document.createElement('input');
+  el.style.cssText = 'position:fixed;opacity:0;top:0;left:0';
+  el.value = text;
+  document.body.appendChild(el);
+  el.focus(); el.select(); el.setSelectionRange(0, text.length);
+  const ok = document.execCommand('copy');
+  document.body.removeChild(el);
+  if (!ok) throw new Error('execCommand failed');
+}
+
+const NOTATION = [
+  { key: 'R', label: 'Right',  color: '#ef4444' },
+  { key: 'L', label: 'Left',   color: '#3b82f6' },
+  { key: 'U', label: 'Up',     color: '#fbbf24' },
+  { key: 'D', label: 'Down',   color: '#f97316' },
+  { key: 'F', label: 'Front',  color: '#10b981' },
+  { key: 'B', label: 'Back',   color: '#a78bfa' },
+];
+
 export default function RubikCubeSolver() {
-  const hostRef     = useRef<HTMLDivElement>(null);
-  const solverReady = useRef(false);
+  const hostRef      = useRef<HTMLDivElement>(null);
+  const solverReady  = useRef(false);
 
   const [scramble, setScramble] = useState('');
   const [solution, setSolution] = useState<string | null>(null);
-  const [status,   setStatus]   = useState('Loading 3D engine…');
+  const [status,   setStatus]   = useState('');
   const [busy,     setBusy]     = useState(true);
   const [ready,    setReady]    = useState(false);
   const [copied,   setCopied]   = useState(false);
+  const [loading,  setLoading]  = useState<'engine'|'solver'|null>('engine');
+  const [showHelp, setShowHelp] = useState(false);
 
-  /* render AnimCube3 */
+  /* ── render AnimCube3 — proper cleanup ── */
   const renderCube = useCallback((scr: string, sol = '') => {
     const host = hostRef.current;
     if (!host || typeof window.AnimCube3 !== 'function') return;
-    host.innerHTML = '';
+    while (host.firstChild) host.removeChild(host.firstChild);
     const wrap = document.createElement('div');
     wrap.style.cssText = 'width:100%;height:100%';
     host.appendChild(wrap);
-    const base   = 'edit=1&snap=1&speed=10&bgcolor=ffffff&cubecolor=111111&buttonbar=0&hint=0&movetext=1&textsize=12&position=lluu';
+    const base   = 'edit=1&snap=1&speed=10&bgcolor=0a0f1e&cubecolor=ffffff&buttonbar=0&hint=0&movetext=1&textsize=12&position=lluu';
     const params = `initmove=${encodeURIComponent(scr)}&move=${encodeURIComponent(sol)}&initrevmove=#`;
     const sc = document.createElement('script');
     sc.text = `AnimCube3('${(base+'&'+params).replace(/'/g,"\\'")}')`;
     wrap.appendChild(sc);
   }, []);
 
-  /* boot: load all 3 scripts in sequence */
+  /* ── boot ── */
   useEffect(() => {
+    let cancelled = false;
     (async () => {
       try {
+        setLoading('engine');
         await loadScript(ANIMCUBE_SRC);
-        setStatus('Loading solver…');
+        if (cancelled) return;
+        setLoading('solver');
         await loadScript(CUBE_SRC);
         await loadScript(SOLVE_SRC);
+        if (cancelled) return;
+        solverReady.current = false;
+        setLoading(null);
         setReady(true);
         setBusy(false);
-        setStatus('');
       } catch (e) {
-        setStatus('Load error: ' + (e instanceof Error ? e.message : e));
-        setBusy(false);
+        if (!cancelled) { setStatus('Load error: ' + (e instanceof Error ? e.message : e)); setBusy(false); setLoading(null); }
       }
     })();
+    return () => { cancelled = true; };
   }, []);
 
-  /* first scramble once ready */
+  /* ── first scramble ── */
   useEffect(() => {
     if (!ready) return;
     const scr = randomScramble();
@@ -100,7 +124,14 @@ export default function RubikCubeSolver() {
     renderCube(scr, '');
   }, [ready, renderCube]);
 
-  /* handlers */
+  /* ── unmount cleanup ── */
+  useEffect(() => {
+    return () => {
+      const host = hostRef.current;
+      if (host) while (host.firstChild) host.removeChild(host.firstChild);
+    };
+  }, []);
+
   const handleRandom = () => {
     const scr = randomScramble();
     setScramble(scr); setSolution(null); setStatus('');
@@ -115,7 +146,7 @@ export default function RubikCubeSolver() {
   const handleSolve = () => {
     const scr = clean(scramble);
     if (!scr) return;
-    setBusy(true); setStatus('Solving…');
+    setBusy(true); setStatus('Computing solution…');
     setTimeout(() => {
       try {
         if (!solverReady.current) { window.Cube.initSolver(); solverReady.current = true; }
@@ -124,14 +155,14 @@ export default function RubikCubeSolver() {
         const sol = c.solve();
         setSolution(sol);
         renderCube(scr, sol);
-        setStatus('Solved ✓  Click Copy to copy.');
+        setStatus('');
       } catch (e) {
         setSolution('Invalid scramble – use standard WCA notation.\n\n' + e);
-        setStatus('Error: invalid scramble.');
+        setStatus('Invalid scramble.');
       } finally {
         setBusy(false);
       }
-    }, 30);
+    }, 50);
   };
 
   const handleReset = () => {
@@ -142,177 +173,369 @@ export default function RubikCubeSolver() {
 
   const handleCopy = async () => {
     if (!solution) { setStatus('Press Solve first.'); return; }
-    try { await navigator.clipboard.writeText(solution); }
-    catch {
-      const ta = document.createElement('textarea');
-      ta.value = solution; document.body.appendChild(ta);
-      ta.select(); document.execCommand('copy');
-      document.body.removeChild(ta);
-    }
-    setCopied(true); setStatus('Copied!');
-    setTimeout(() => setCopied(false), 2000);
+    try {
+      await copyToClipboard(solution);
+      setCopied(true); setStatus('');
+      setTimeout(() => setCopied(false), 2000);
+    } catch { setStatus('Copy failed – please select manually.'); }
   };
 
-  /* ── render ── */
   return (
-    <div className="rubik-root">
+    <div className="rk-root">
 
-      {/* header */}
-      <header className="rubik-header">
-        <div className="rubik-brand">
-          <span className="rubik-logo">⬛</span>
+      {/* ── background orbs ── */}
+      <div className="rk-bg">
+        <div className="rk-orb rk-orb1" />
+        <div className="rk-orb rk-orb2" />
+        <div className="rk-orb rk-orb3" />
+      </div>
+
+      {/* ── header ── */}
+      <header className="rk-header">
+        <div className="rk-brand">
+          <div className="rk-cube-icon">
+            <span>⬛</span>
+          </div>
           <div>
-            <h1 className="rubik-title">Rubik&apos;s Cube Solver</h1>
-            <p className="rubik-sub">Interactive 3D · WCA Notation · Instant Solution</p>
+            <h1 className="rk-title">Rubik&apos;s Cube<br/><span className="rk-title-accent">Solver</span></h1>
+            <p className="rk-sub">Interactive 3D · WCA Notation · Optimal Solution</p>
           </div>
         </div>
 
-        <div className="rubik-controls">
-          <input
-            className="rubik-input"
-            value={scramble}
-            onChange={e => setScramble(e.target.value)}
-            onKeyDown={e => e.key === 'Enter' && handleScramble()}
-            placeholder="e.g. R U R' U' F2"
-            spellCheck={false}
-            autoComplete="off"
-            disabled={busy}
-          />
-          <div className="rubik-btns">
-            <button onClick={handleRandom}   disabled={busy} className="btn btn-dark">Random</button>
-            <button onClick={handleScramble} disabled={busy} className="btn btn-blue">Scramble</button>
-            <button onClick={handleSolve}    disabled={busy} className="btn btn-red">Solve</button>
-            <button onClick={handleReset}    disabled={busy} className="btn btn-ghost">Reset</button>
+        {/* loading state */}
+        {loading && (
+          <div className="rk-loading-pill">
+            <div className="rk-spinner" />
+            <span>{loading === 'engine' ? 'Loading 3D engine…' : 'Loading solver…'}</span>
           </div>
-        </div>
+        )}
+
+        {!loading && (
+          <div className="rk-controls">
+            <input
+              className="rk-input"
+              value={scramble}
+              onChange={e => setScramble(e.target.value)}
+              onKeyDown={e => e.key === 'Enter' && handleScramble()}
+              placeholder="R U R' U' F2 …"
+              spellCheck={false}
+              autoComplete="off"
+              disabled={busy}
+            />
+            <div className="rk-btns">
+              <button onClick={handleRandom}   disabled={busy} className="rk-btn rk-btn-ghost">Random</button>
+              <button onClick={handleScramble} disabled={busy} className="rk-btn rk-btn-teal">Scramble</button>
+              <button onClick={handleSolve}    disabled={busy} className="rk-btn rk-btn-primary">Solve →</button>
+              <button onClick={handleReset}    disabled={busy} className="rk-btn rk-btn-ghost">Reset</button>
+            </div>
+          </div>
+        )}
       </header>
 
-      {/* main grid */}
-      <div className="rubik-grid">
+      {/* ── main ── */}
+      <div className="rk-grid">
 
-        {/* cube */}
-        <section className="rubik-panel">
-          <div ref={hostRef} className="rubik-cube" aria-label="Interactive 3D Rubik's Cube" />
-          <p className="rubik-tip">💡 Drag to rotate · Scramble → Solve</p>
+        {/* cube viewer */}
+        <section className="rk-panel rk-cube-panel">
+          <div className="rk-panel-label">3D Viewer</div>
+          <div ref={hostRef} className="rk-cube" aria-label="Interactive 3D Rubik's Cube" />
+          <p className="rk-tip">Drag to rotate · Scroll to zoom</p>
         </section>
 
-        {/* solution */}
-        <section className="rubik-panel rubik-sol">
-          <div className="rubik-sol-header">
-            <h2 className="rubik-sol-title">Solution Algorithm</h2>
-            <button onClick={handleCopy} disabled={!solution || busy} className="btn btn-copy">
-              {copied ? '✓ Copied' : 'Copy'}
-            </button>
-          </div>
+        {/* solution + notation */}
+        <div className="rk-right">
 
-          <pre className="rubik-out">
-            {busy && !solution
-              ? 'Working…'
-              : solution ?? (ready ? 'Press "Solve" to generate an optimal solution.' : 'Loading…')}
-          </pre>
-
-          {status && <p className="rubik-status">{status}</p>}
-
-          {/* notation help */}
-          <details className="rubik-help">
-            <summary>Cube notation / Οδηγός συμβολισμού</summary>
-            <div className="rubik-help-grid">
-              <div className="rubik-help-block">
-                <strong>🇬🇷 Ελληνικά</strong>
-                <p><b>R</b> δεξιά · <b>L</b> αριστερά · <b>U</b> πάνω · <b>D</b> κάτω · <b>F</b> μπροστά · <b>B</b> πίσω.</p>
-                <p>Το <b>&#39;</b> = 90° αριστερόστροφα · το <b>2</b> = 180°.</p>
+          {/* solution */}
+          <section className="rk-panel rk-sol-panel">
+            <div className="rk-sol-header">
+              <div>
+                <div className="rk-panel-label">Solution Algorithm</div>
+                {solution && (
+                  <div className="rk-move-count">
+                    {solution.trim().split(/\s+/).length} moves
+                  </div>
+                )}
               </div>
-              <div className="rubik-help-block">
-                <strong>🇬🇧 English</strong>
-                <p><b>R</b>ight · <b>L</b>eft · <b>U</b>p · <b>D</b>own · <b>F</b>ront · <b>B</b>ack.</p>
-                <p>Prime (<b>&#39;</b>) = 90° counter-clockwise · <b>2</b> = 180° turn.</p>
-              </div>
+              <button onClick={handleCopy} disabled={!solution || busy} className={`rk-copy-btn ${copied ? 'rk-copied' : ''}`}>
+                {copied ? '✓ Copied!' : 'Copy'}
+              </button>
             </div>
-          </details>
-        </section>
+
+            <pre className="rk-out">
+              {busy
+                ? '⏳ Computing…'
+                : solution
+                ? solution
+                : ready
+                ? 'Press "Solve" to generate an optimal solution.'
+                : 'Loading…'}
+            </pre>
+
+            {status && (
+              <div className={`rk-status ${status.includes('error')||status.includes('Invalid')||status.includes('failed') ? 'rk-status-err' : ''}`}>
+                {status}
+              </div>
+            )}
+          </section>
+
+          {/* notation guide */}
+          <section className="rk-panel rk-notation">
+            <button className="rk-notation-toggle" onClick={() => setShowHelp(h => !h)}>
+              <span className="rk-panel-label">Notation Guide</span>
+              <span className="rk-chevron" style={{transform: showHelp ? 'rotate(180deg)' : 'rotate(0deg)'}}>▾</span>
+            </button>
+
+            {showHelp && (
+              <div className="rk-notation-body">
+                <div className="rk-notation-grid">
+                  {NOTATION.map(n => (
+                    <div key={n.key} className="rk-notation-chip" style={{'--nc': n.color} as React.CSSProperties}>
+                      <span className="rk-nk">{n.key}</span>
+                      <span className="rk-nl">{n.label}</span>
+                    </div>
+                  ))}
+                </div>
+                <div className="rk-notation-mods">
+                  <div className="rk-mod-chip"><code>R</code> <span>= 90° clockwise</span></div>
+                  <div className="rk-mod-chip"><code>R&apos;</code> <span>= 90° counter-clockwise</span></div>
+                  <div className="rk-mod-chip"><code>R2</code> <span>= 180° turn</span></div>
+                </div>
+              </div>
+            )}
+          </section>
+
+        </div>
       </div>
 
       {/* footer */}
-      <footer className="rubik-footer">
-        <strong>EisatoponAI</strong> &nbsp;|&nbsp; Your Daily Experience of Math Adventures
+      <footer className="rk-footer">
+        <strong>EisatoponAI</strong> &nbsp;·&nbsp; Your Daily Experience of Math Adventures
       </footer>
 
       <style>{`
-        .rubik-root {
-          --teal2:#25c491; --gold:#c9a227; --red:#DC2626; --blue:#2563EB;
-          --text:#e8edf5; --muted:#8394b0;
-          --border:rgba(255,255,255,.09); --card:rgba(255,255,255,.04);
-          font-family:'Geist','DM Sans',ui-sans-serif,system-ui,sans-serif;
-          color:var(--text); max-width:1100px; margin:0 auto;
+        @import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap');
+
+        .rk-root {
+          min-height:100vh;
+          background:#04080f;
+          color:#e2e8f0;
+          font-family:'DM Sans',system-ui,sans-serif;
+          padding:24px 20px;
+          position:relative;
+          overflow-x:hidden;
         }
-        .rubik-header {
+
+        /* orbs */
+        .rk-bg { position:fixed; inset:0; pointer-events:none; z-index:0; }
+        .rk-orb { position:absolute; border-radius:50%; filter:blur(100px); opacity:.25; }
+        .rk-orb1 { width:500px; height:500px; background:#1D9E75; top:-150px; right:-100px; }
+        .rk-orb2 { width:400px; height:400px; background:#2563eb; bottom:-100px; left:-100px; }
+        .rk-orb3 { width:250px; height:250px; background:#c9a227; top:50%; left:40%; opacity:.15; }
+
+        /* header */
+        .rk-header {
+          position:relative; z-index:1;
+          max-width:1200px; margin:0 auto 20px;
           display:flex; flex-wrap:wrap; gap:16px;
           align-items:center; justify-content:space-between;
-          background:var(--card); border:1px solid var(--border);
-          border-radius:20px; padding:18px 22px; margin-bottom:16px;
-          backdrop-filter:blur(12px);
+          background:rgba(255,255,255,.03);
+          border:1px solid rgba(255,255,255,.07);
+          border-radius:24px; padding:20px 28px;
+          backdrop-filter:blur(20px);
         }
-        .rubik-brand { display:flex; align-items:center; gap:14px; }
-        .rubik-logo  { font-size:32px; }
-        .rubik-title {
-          margin:0; font-size:clamp(16px,2.2vw,22px); font-weight:800; letter-spacing:-.5px;
-          background:linear-gradient(90deg,var(--teal2),var(--gold));
+        .rk-brand { display:flex; align-items:center; gap:16px; }
+        .rk-cube-icon {
+          width:56px; height:56px; border-radius:16px;
+          background:rgba(255,255,255,.06);
+          border:1px solid rgba(255,255,255,.1);
+          display:flex; align-items:center; justify-content:center;
+          font-size:28px;
+        }
+        .rk-title {
+          font-family:'Syne',sans-serif;
+          font-size:clamp(18px,2.5vw,26px);
+          font-weight:800; line-height:1.1;
+          letter-spacing:-.5px; margin:0 0 4px;
+          color:#fff;
+        }
+        .rk-title-accent {
+          background:linear-gradient(90deg,#25c491,#c9a227);
           -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
         }
-        .rubik-sub { margin:3px 0 0; font-size:12px; color:var(--muted); }
-        .rubik-controls { display:flex; flex-wrap:wrap; gap:10px; align-items:center; flex:1; justify-content:flex-end; }
-        .rubik-input {
-          flex:1; min-width:220px; max-width:380px; padding:11px 14px; border-radius:12px;
-          border:1px solid var(--border); background:rgba(255,255,255,.07);
-          color:var(--text); font-size:14px; outline:none; transition:border-color .2s;
-          font-family:'JetBrains Mono','Fira Code',monospace;
+        .rk-sub { margin:0; font-size:12px; color:#475569; }
+
+        /* loading */
+        .rk-loading-pill {
+          display:flex; align-items:center; gap:10px;
+          background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.08);
+          border-radius:999px; padding:10px 20px;
+          font-size:13px; color:#64748b;
         }
-        .rubik-input:focus { border-color:#1D9E75; }
-        .rubik-input::placeholder { color:var(--muted); }
-        .rubik-btns { display:flex; flex-wrap:wrap; gap:8px; }
-        .btn {
-          padding:10px 14px; border-radius:12px; border:1px solid transparent;
+        .rk-spinner {
+          width:16px; height:16px; border-radius:50%;
+          border:2px solid rgba(255,255,255,.1);
+          border-top-color:#25c491;
+          animation:spin .8s linear infinite;
+        }
+        @keyframes spin { to{transform:rotate(360deg)} }
+
+        /* controls */
+        .rk-controls { display:flex; flex-wrap:wrap; gap:10px; align-items:center; flex:1; justify-content:flex-end; }
+        .rk-input {
+          flex:1; min-width:200px; max-width:360px;
+          padding:12px 16px; border-radius:14px;
+          border:1px solid rgba(255,255,255,.08);
+          background:rgba(255,255,255,.06);
+          color:#e2e8f0; font-size:14px; outline:none;
+          transition:border-color .2s;
+          font-family:'JetBrains Mono','Fira Code',monospace;
+          letter-spacing:.5px;
+        }
+        .rk-input:focus { border-color:#25c491; background:rgba(255,255,255,.08); }
+        .rk-input::placeholder { color:#334155; }
+        .rk-btns { display:flex; flex-wrap:wrap; gap:8px; }
+        .rk-btn {
+          padding:11px 18px; border-radius:12px;
           font-weight:700; font-size:13px; cursor:pointer;
-          transition:opacity .2s,transform .1s; white-space:nowrap;
+          transition:all .2s; white-space:nowrap; border:1px solid transparent;
         }
-        .btn:disabled { opacity:.4; cursor:not-allowed; }
-        .btn:not(:disabled):active { transform:scale(.96); }
-        .btn-dark  { background:#1a2540; color:var(--text); border-color:var(--border); }
-        .btn-blue  { background:var(--blue); color:#fff; }
-        .btn-red   { background:var(--red);  color:#fff; }
-        .btn-ghost { background:transparent; color:var(--muted); border-color:var(--border); }
-        .btn-copy  { background:rgba(29,158,117,.15); color:var(--teal2); border-color:rgba(29,158,117,.3); padding:8px 14px; }
-        .btn-copy:disabled { opacity:.3; }
-        .rubik-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
-        @media(max-width:760px){
-          .rubik-grid { grid-template-columns:1fr; }
-          .rubik-controls { justify-content:flex-start; }
-          .rubik-input { max-width:100%; }
+        .rk-btn:disabled { opacity:.35; cursor:not-allowed; }
+        .rk-btn:not(:disabled):active { transform:scale(.96); }
+        .rk-btn-ghost {
+          background:rgba(255,255,255,.05);
+          border-color:rgba(255,255,255,.08);
+          color:#64748b;
         }
-        .rubik-panel { background:var(--card); border:1px solid var(--border); border-radius:20px; padding:16px; }
-        .rubik-sol   { display:flex; flex-direction:column; gap:10px; }
-        .rubik-cube  { width:100%; height:460px; border-radius:14px; overflow:hidden; background:#fff; border:1px solid rgba(255,255,255,.1); cursor:grab; }
-        .rubik-cube:active { cursor:grabbing; }
-        .rubik-tip   { margin-top:10px; font-size:12px; color:var(--muted); text-align:center; }
-        .rubik-sol-header { display:flex; justify-content:space-between; align-items:center; }
-        .rubik-sol-title  { margin:0; font-size:15px; font-weight:800; color:var(--gold); }
-        .rubik-out {
-          flex:1; margin:0; padding:14px; border-radius:14px;
-          background:rgba(255,255,255,.96); color:#0f1a30;
+        .rk-btn-ghost:not(:disabled):hover { background:rgba(255,255,255,.09); color:#94a3b8; }
+        .rk-btn-teal {
+          background:rgba(37,196,145,.15);
+          border-color:rgba(37,196,145,.3);
+          color:#25c491;
+        }
+        .rk-btn-teal:not(:disabled):hover { background:rgba(37,196,145,.25); }
+        .rk-btn-primary {
+          background:linear-gradient(135deg,#25c491,#1D9E75);
+          color:#001a10; font-weight:800;
+          box-shadow:0 4px 16px rgba(37,196,145,.3);
+        }
+        .rk-btn-primary:not(:disabled):hover { box-shadow:0 6px 24px rgba(37,196,145,.45); transform:translateY(-1px); }
+
+        /* grid */
+        .rk-grid {
+          position:relative; z-index:1;
+          max-width:1200px; margin:0 auto;
+          display:grid; grid-template-columns:1fr 420px; gap:16px;
+        }
+        @media(max-width:900px){ .rk-grid { grid-template-columns:1fr; } }
+
+        /* panels */
+        .rk-panel {
+          background:rgba(255,255,255,.03);
+          border:1px solid rgba(255,255,255,.07);
+          border-radius:24px; padding:20px;
+          backdrop-filter:blur(16px);
+        }
+        .rk-panel-label {
+          font-size:10px; font-weight:700; letter-spacing:1.5px;
+          text-transform:uppercase; color:#334155; margin-bottom:12px;
+        }
+
+        /* cube panel */
+        .rk-cube-panel { display:flex; flex-direction:column; }
+        .rk-cube {
+          flex:1; min-height:440px; border-radius:16px;
+          overflow:hidden;
+          border:1px solid rgba(255,255,255,.06);
+          background:#0a0f1e;
+          cursor:grab;
+        }
+        .rk-cube:active { cursor:grabbing; }
+        .rk-tip { margin:10px 0 0; font-size:11px; color:#1e293b; text-align:center; }
+
+        /* right column */
+        .rk-right { display:flex; flex-direction:column; gap:12px; }
+
+        /* solution panel */
+        .rk-sol-panel { display:flex; flex-direction:column; gap:12px; flex:1; }
+        .rk-sol-header { display:flex; justify-content:space-between; align-items:flex-start; }
+        .rk-move-count {
+          font-family:'Syne',sans-serif;
+          font-size:28px; font-weight:800; color:#25c491;
+          line-height:1; margin-top:2px;
+        }
+        .rk-copy-btn {
+          padding:8px 16px; border-radius:10px; cursor:pointer;
+          font-size:12px; font-weight:700; transition:all .2s;
+          background:rgba(37,196,145,.1);
+          border:1px solid rgba(37,196,145,.25);
+          color:#25c491;
+        }
+        .rk-copy-btn:disabled { opacity:.3; cursor:default; }
+        .rk-copy-btn:not(:disabled):hover { background:rgba(37,196,145,.2); }
+        .rk-copied { background:rgba(37,196,145,.25) !important; border-color:#25c491 !important; }
+
+        .rk-out {
+          flex:1; margin:0; padding:16px; border-radius:16px;
+          background:rgba(255,255,255,.96); color:#0a0f1e;
           font-family:'JetBrains Mono','Fira Code',monospace;
-          font-size:13px; line-height:1.6; white-space:pre-wrap;
-          min-height:120px; border:1px solid rgba(0,0,0,.06);
+          font-size:13px; line-height:1.8; white-space:pre-wrap;
+          min-height:100px; border:none;
+          word-break:break-all;
         }
-        .rubik-status { margin:0; font-size:12px; color:var(--teal2); min-height:16px; }
-        .rubik-help   { border:1px solid var(--border); border-radius:14px; background:rgba(255,255,255,.03); padding:10px 14px; }
-        .rubik-help summary { cursor:pointer; font-size:13px; font-weight:700; color:var(--muted); list-style:none; user-select:none; }
-        .rubik-help summary::-webkit-details-marker { display:none; }
-        .rubik-help[open] summary { color:var(--text); }
-        .rubik-help-grid  { margin-top:12px; display:grid; grid-template-columns:1fr 1fr; gap:10px; }
-        .rubik-help-block { background:rgba(255,255,255,.05); border-radius:10px; padding:10px 12px; font-size:12.5px; line-height:1.5; color:var(--text); }
-        .rubik-help-block strong { display:block; margin-bottom:6px; color:var(--gold); }
-        @media(max-width:480px){ .rubik-help-grid { grid-template-columns:1fr; } }
-        .rubik-footer { margin-top:16px; text-align:center; font-size:12px; color:var(--muted); padding:12px; }
+        .rk-status {
+          font-size:12px; color:#25c491; padding:4px 0;
+        }
+        .rk-status-err { color:#ef4444; }
+
+        /* notation */
+        .rk-notation { padding:16px 20px; }
+        .rk-notation-toggle {
+          width:100%; display:flex; justify-content:space-between; align-items:center;
+          background:transparent; border:none; cursor:pointer; padding:0;
+        }
+        .rk-chevron { color:#334155; font-size:16px; transition:transform .2s; }
+        .rk-notation-body { margin-top:14px; }
+        .rk-notation-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-bottom:12px; }
+        .rk-notation-chip {
+          display:flex; align-items:center; gap:8px;
+          background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.07);
+          border-radius:10px; padding:8px 10px;
+        }
+        .rk-nk {
+          width:28px; height:28px; border-radius:8px; flex-shrink:0;
+          display:flex; align-items:center; justify-content:center;
+          font-family:'Syne',sans-serif; font-size:14px; font-weight:800;
+          background:color-mix(in srgb,var(--nc) 20%,transparent);
+          color:var(--nc);
+          border:1px solid color-mix(in srgb,var(--nc) 35%,transparent);
+        }
+        .rk-nl { font-size:11px; color:#475569; }
+
+        .rk-notation-mods { display:flex; flex-direction:column; gap:6px; }
+        .rk-mod-chip {
+          display:flex; align-items:center; gap:10px;
+          font-size:12px; color:#475569;
+        }
+        .rk-mod-chip code {
+          background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.1);
+          border-radius:6px; padding:3px 8px;
+          font-family:'JetBrains Mono',monospace; font-size:12px; color:#94a3b8;
+        }
+
+        /* footer */
+        .rk-footer {
+          position:relative; z-index:1;
+          max-width:1200px; margin:16px auto 0;
+          text-align:center; font-size:12px; color:#1e293b; padding:12px;
+        }
+        .rk-footer strong { color:#334155; }
+
+        @media(max-width:600px){
+          .rk-header { padding:16px; }
+          .rk-controls { justify-content:flex-start; }
+          .rk-input { max-width:100%; }
+          .rk-notation-grid { grid-template-columns:repeat(2,1fr); }
+        }
       `}</style>
     </div>
   );
