@@ -1,6 +1,8 @@
 {
-  "/lab/rubik-cube/page": "app/lab/rubik-cube/page.js",
-  "/articles/[slug]/page": "app/articles/[slug]/page.js",
   "/page": "app/page.js",
-  "/lab/page": "app/lab/page.js"
+  "/archive/[page]/page": "app/archive/[page]/page.js",
+  "/lab/math-chaser/page": "app/lab/math-chaser/page.js",
+  "/lab/rubik-cube/page": "app/lab/rubik-cube/page.js",
+  "/lab/page": "app/lab/page.js",
+  "/about/page": "app/about/page.js"
 }
