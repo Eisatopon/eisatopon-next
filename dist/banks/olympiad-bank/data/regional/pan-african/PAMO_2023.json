@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PAMO_2023_P1",
+    "year": 2023,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In triangle $ABC$ with $AB < AC$, $D$ is on $AC$ with $BD = CD$. A line parallel to $BD$ meets $BC$ at $E$ and line $AB$ at $F$. Let $G = AE \\cap BD$. Show that $\\angle BCG = \\angle BCF$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2023"
+  },
+  {
+    "id": "PAMO_2023_P2",
+    "year": 2023,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $m, n$ with $\\gcd(m,n) = 1$ such that $m^3 + n^3$ divides $m^2 + 20mn + n^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2023"
+  },
+  {
+    "id": "PAMO_2023_P3",
+    "year": 2023,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A sequence is defined by $x_1 = c$ and $x_{n+1} = cx_n + \\sqrt{c^2-1}\\sqrt{x_n^2-1}$ for $n \\geq 1$. Show that if $c$ is a positive integer, then $x_n$ is an integer for all $n \\geq 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2023"
+  },
+  {
+    "id": "PAMO_2023_P4",
+    "year": 2023,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Manzi has $n$ stamps and an album with $10$ pages. He distributes stamps so each page has a distinct number. No matter how he does this, there are always $4$ pages whose total is at least $\\dfrac{n}{2}$. Determine the maximum $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2023"
+  },
+  {
+    "id": "PAMO_2023_P5",
+    "year": 2023,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a \\neq 0$ and $P(x) = ax^4 - 4ax^3 + (5a+b)x^2 - 4bx + b$. Show that all roots of $P$ are real and positive if and only if $a = b$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2023"
+  },
+  {
+    "id": "PAMO_2023_P6",
+    "year": 2023,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute $\\triangle ABC$ with $AB < AC$, let $D, E, F$ be feet of altitudes from $A, B, C$. Let $P$ be the foot of perpendicular from $F$ to line $DE$. Line $FP$ meets the circumcircle of $\\triangle BDF$ again at $Q$. Show that $\\angle PBQ = \\angle PAD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2023"
+  }
+]

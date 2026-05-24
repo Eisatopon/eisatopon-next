@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BENELUX_2016_P1",
+    "year": 2016,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the greatest positive integer $N$ with the following property: there exist integers $x_1, x_2, \\ldots, x_N$ such that $x_i^2 - x_i x_j$ is not divisible by $1111$ for any $i \\neq j$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2016"
+  },
+  {
+    "id": "BENELUX_2016_P2",
+    "year": 2016,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n$ be a positive integer whose positive divisors can be partitioned into pairs such that the sum of each pair is prime. Prove that these primes are distinct and none of them divides $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2016"
+  },
+  {
+    "id": "BENELUX_2016_P3",
+    "year": 2016,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all functions $f : \\mathbb{R} \\to \\mathbb{Z}$ such that $(f(f(y)-x))^2 + f(x)^2 + f(y)^2 = f(y)(1 + 2f(f(y)))$ for all $x, y \\in \\mathbb{R}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2016"
+  },
+  {
+    "id": "BENELUX_2016_P4",
+    "year": 2016,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A circle $\\omega$ passes through $B$ and $C$ of triangle $ABC$, meeting $AC$ at $D \\neq C$ and $AB$ at $E \\neq B$. On the ray from $B$ through $D$ lies $K$ with $|BK| = |AC|$, and on the ray from $C$ through $E$ lies $L$ with $|CL| = |AB|$. Show that the circumcenter $O$ of triangle $AKL$ lies on $\\omega$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2016"
+  }
+]

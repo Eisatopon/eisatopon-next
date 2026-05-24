@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_2014_P1",
+    "year": 2014,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $x, y, z > 0$ with $xy + yz + xz = 3xyz$. Prove $x^2y + y^2z + z^2x \\geq 2(x+y+z) - 3$ and determine when equality holds.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2014"
+  },
+  {
+    "id": "BALKAN_MO_2014_P2",
+    "year": 2014,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A positive integer $n$ is \\textit{special} if $n = \\dfrac{a^3+2b^3}{c^3+2d^3}$ for some positive integers $a,b,c,d$. Prove: (i) there are infinitely many special numbers; (ii) $2014$ is not special.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2014"
+  },
+  {
+    "id": "BALKAN_MO_2014_P3",
+    "year": 2014,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a trapezoid inscribed in circle $\\Gamma$ with diameter $AB$, and $E = AC \\cap BD$. The circle with center $B$ and radius $BE$ meets $\\Gamma$ at $K, L$ ($K$ same side as $C$). The line through $E$ perpendicular to $BD$ meets $CD$ at $M$. Prove $KM \\perp DL$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2014"
+  },
+  {
+    "id": "BALKAN_MO_2014_P4",
+    "year": 2014,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A regular hexagon of side $n$ is divided into unit equilateral triangles. Find the number of regular hexagons all of whose vertices are among the vertices of those triangles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2014"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PAMO_2010_P1",
+    "year": 2010,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "a) Show that $\\{1,2,\\ldots,10\\}$ can be paired into five pairs whose sums are five distinct primes.\\n\\nb) Can $\\{1,2,\\ldots,20\\}$ be paired into ten pairs whose sums are ten distinct primes?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2010"
+  },
+  {
+    "id": "PAMO_2010_P2",
+    "year": 2010,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "How many ways are there to line up $19$ girls (all of different heights) so that no girl has a shorter girl both in front of and behind her?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2010"
+  },
+  {
+    "id": "PAMO_2010_P3",
+    "year": 2010,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute $\\triangle ABC$, $CF$ is the altitude to $AB$ and $BM$ is the median to $CA$. Given $BM = CF$ and $\\angle MBC = \\angle FCA$, prove that $\\triangle ABC$ is equilateral.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2010"
+  },
+  {
+    "id": "PAMO_2010_P4",
+    "year": 2010,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Seven distinct points on a circle of circumference $c$: three form an equilateral triangle, four form a square. Prove that at least one of the seven arcs has length $\\leq \\dfrac{c}{24}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2010"
+  },
+  {
+    "id": "PAMO_2010_P5",
+    "year": 2010,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A sequence $a_0, a_1, \\ldots$ of positive integers: if the last digit of $a_n$ is $\\leq 5$, delete it to get $a_{n+1}$; otherwise $a_{n+1} = 9a_n$. Can one choose $a_0$ to obtain an infinite sequence?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2010"
+  },
+  {
+    "id": "PAMO_2010_P6",
+    "year": 2010,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Does there exist a function $f : \\mathbb{Z} \\to \\mathbb{Z}$ with $f(x + f(y)) = f(x) - y$ for all integers $x, y$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2010"
+  }
+]

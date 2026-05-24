@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BENELUX_2019_P1",
+    "year": 2019,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c, d$ be real numbers with $0 \\leq a, b, c, d \\leq 1$. Prove that $ab(a-b) + bc(b-c) + cd(c-d) + da(d-a) \\leq \\dfrac{8}{27}$, and find all quadruples for which equality holds.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2019"
+  },
+  {
+    "id": "BENELUX_2019_P2",
+    "year": 2019,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Pawns and rooks are placed on a $2019 \\times 2019$ chessboard with at most one piece per square. A rook can \\textit{see} another rook if they share a row or column with no pieces between them. What is the maximum $p$ for which $p$ pawns and $p + 2019$ rooks can be placed so that no two rooks can see each other?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2019"
+  },
+  {
+    "id": "BENELUX_2019_P3",
+    "year": 2019,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two circles $\\Gamma_1$ and $\\Gamma_2$ intersect at $A \\neq Z$, with centers $B$ and $C$ respectively. The exterior angle bisector of $\\angle BAC$ meets $\\Gamma_1$ again at $X$ and $\\Gamma_2$ again at $Y$. Prove that the interior angle bisector of $\\angle BZC$ passes through the circumcenter of $\\triangle XYZ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2019"
+  },
+  {
+    "id": "BENELUX_2019_P4",
+    "year": 2019,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "An integer $m > 1$ is \\textit{rich} if for any positive integer $n$, there exist positive integers $x, y, z$ with $n = mx^2 - y^2 - z^2$; otherwise it is \\textit{poor}. Find a poor integer and a rich integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2019"
+  }
+]

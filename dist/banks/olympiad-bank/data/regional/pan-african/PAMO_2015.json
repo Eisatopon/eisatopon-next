@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PAMO_2015_P1",
+    "year": 2015,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that $\\sqrt{x-1} + \\sqrt{2x+9} + \\sqrt{19-3x} < 9$ for all real $x$ for which the left-hand side is defined.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2015"
+  },
+  {
+    "id": "PAMO_2015_P2",
+    "year": 2015,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A convex hexagon $ABCDEF$ satisfies $AB = BC$, $CD = DE$, $EF = FA$, $\\angle ABC = 2\\angle AEC$, $\\angle CDE = 2\\angle CAE$, $\\angle EFA = 2\\angle ACE$. Show that $AD$, $CF$, $EB$ are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2015"
+  },
+  {
+    "id": "PAMO_2015_P3",
+    "year": 2015,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a_1, a_2, \\ldots, a_{11}$ be integers. Prove there exist $b_1, \\ldots, b_{11}$, each equal to $-1$, $0$, or $1$, not all zero, such that $N = a_1b_1 + a_2b_2 + \\cdots + a_{11}b_{11}$ is divisible by $2015$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2015"
+  },
+  {
+    "id": "PAMO_2015_P4",
+    "year": 2015,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For a positive integer $n$, let $d(n)$ be its greatest odd divisor. Find $d(1008) + d(1009) + \\cdots + d(2015)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2015"
+  },
+  {
+    "id": "PAMO_2015_P5",
+    "year": 2015,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Seven cards are in a hat; card $k$ has number $2^{k-1}$ for $k = 1, \\ldots, 7$. Solarin picks cards one at a time until the sum exceeds $124$. What is the most probable final sum?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2015"
+  },
+  {
+    "id": "PAMO_2015_P6",
+    "year": 2015,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a quadrilateral with non-perpendicular diagonals. The perpendicular from $A$ to $BC$ meets $CD$ at $K$; from $A$ to $CD$ meets $BC$ at $L$; from $C$ to $AB$ meets $AD$ at $M$; from $C$ to $AD$ meets $AB$ at $N$.\\n\\n1. Prove $KL \\parallel MN$.\\n2. Prove $KLMN$ is a parallelogram if $ABCD$ is cyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2015"
+  }
+]

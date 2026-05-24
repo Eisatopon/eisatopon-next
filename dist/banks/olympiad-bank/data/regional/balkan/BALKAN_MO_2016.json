@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_2016_P1",
+    "year": 2016,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all injective $f : \\mathbb{R} \\to \\mathbb{R}$ such that for every $x \\in \\mathbb{R}$ and every positive integer $n$, $\\displaystyle\\sum_{i=1}^n i(f(x+i+1) - f(f(x+i))) < 2016$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2016"
+  },
+  {
+    "id": "BALKAN_MO_2016_P2",
+    "year": 2016,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a cyclic quadrilateral with $AB < CD$, diagonals meeting at $F$, $AD \\cap BC = E$. Let $K, L$ be projections of $F$ onto $AD, BC$, and $M, S, T$ midpoints of $EF, CF, DF$. Prove the second intersection of the circumcircles of $\\triangle MKT$ and $\\triangle MLS$ lies on segment $CD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2016"
+  },
+  {
+    "id": "BALKAN_MO_2016_P3",
+    "year": 2016,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all monic integer polynomials $f$ such that there exists $N > 0$ with $p \\mid 2(f(p)!) + 1$ for every prime $p > N$ with $f(p) > 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2016"
+  },
+  {
+    "id": "BALKAN_MO_2016_P4",
+    "year": 2016,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "The plane is divided into unit squares colored with $1201$ colors so that no rectangle of perimeter $100$ contains two squares of the same color. Show that no $1 \\times 1201$ or $1201 \\times 1$ rectangle contains two squares of the same color.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2016"
+  }
+]

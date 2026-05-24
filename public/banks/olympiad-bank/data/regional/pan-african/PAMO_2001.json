@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PAMO_2001_P1",
+    "year": 2001,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $n$ such that $\\dfrac{n^3+3}{n^2+7}$ is a positive integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2001"
+  },
+  {
+    "id": "PAMO_2001_P2",
+    "year": 2001,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A child builds a wall along a line with $n$ identical cubes. He lays the first cube and at each subsequent step lays the next cube either on the ground or on top of another, sharing a face with the previous one. How many distinct walls exist?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2001"
+  },
+  {
+    "id": "PAMO_2001_P3",
+    "year": 2001,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be equilateral and $P_0$ a point outside with $\\triangle AP_0C$ isosceles and right-angled at $P_0$. A grasshopper starts at $P_0$: from $P_i$ it jumps to $P_{i+1}$, the reflection of $P_i$ across $A$, then $B$, then $C$, cyclically. Compare $P_0P_1$ and $P_0P_n$ for $n \\in \\mathbb{N}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2001"
+  },
+  {
+    "id": "PAMO_2001_P4",
+    "year": 2001,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $n$ be a positive integer and $a > 0$. How many solutions $(x_1, x_2, \\ldots, x_n)$ with $0 \\leq x_i \\leq a$ does the equation $\\sum_{i=1}^n (x_i^2 + (a-x_i)^2) = na^2$ have?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2001"
+  },
+  {
+    "id": "PAMO_2001_P5",
+    "year": 2001,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the value of $\\displaystyle\\sum_{i=1}^{2001} \\lfloor \\sqrt{i} \\rfloor$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2001"
+  },
+  {
+    "id": "PAMO_2001_P6",
+    "year": 2001,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $S_1$ be a semicircle with centre $O$ and diameter $AB$. A circle $C_1$ with centre $P$ is tangent to $S_1$ and to $AB$ at $O$. A semicircle $S_2$ with centre $Q$ on $AB$ is tangent to $S_1$ and $C_1$. A circle $C_2$ with centre $R$ is internally tangent to $S_1$ and externally tangent to $S_2$ and $C_1$. Prove that $OPRQ$ is a rectangle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2001"
+  }
+]

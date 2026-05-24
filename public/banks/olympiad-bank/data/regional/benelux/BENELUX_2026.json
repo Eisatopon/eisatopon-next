@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BENELUX_2026_P1",
+    "year": 2026,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $n$ be a positive integer and $(a_1, \\ldots, a_n)$, $(b_1, \\ldots, b_n)$ strictly positive reals satisfying $a_k(b_1 + \\cdots + b_k) \\leq k$ and $b_k(a_1 + \\cdots + a_k) \\leq k$ for $k = 1, \\ldots, n$. Prove that $(a_1 + \\cdots + a_n)(b_1 + \\cdots + b_n) \\leq n^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2026"
+  },
+  {
+    "id": "BENELUX_2026_P2",
+    "year": 2026,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $a_0$ and $N$ be positive integers. Ben and Lux alternate: at move $i \\geq 1$, the current player chooses $a_i \\leq a_{i-1}$ and replaces $n$ on the board with $n - a_i$; the first to write $n \\leq 0$ loses. Ben goes first. For each $N \\geq 2$, find the smallest $a_0$ for which Ben can guarantee a win regardless of Lux's play.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2026"
+  },
+  {
+    "id": "BENELUX_2026_P3",
+    "year": 2026,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a parallelogram with $|AC| = |BC|$ and $A'$ the reflection of $A$ in $B$. Lines $BD$ and $A'D$ meet the circumcircle of $\\triangle ACD$ again at $E$ and $F$. Lines $AE$ and $A'C$ meet at $G$. Show that lines $AC$, $EF$, $BG$ are concurrent or pairwise parallel.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2026"
+  },
+  {
+    "id": "BENELUX_2026_P4",
+    "year": 2026,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all pairs $(a, b)$ of positive integers for which there exists a positive integer $c$ such that $a^2 + b^2 + c^2 \\mid (a+b+c)^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2026"
+  }
+]

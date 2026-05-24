@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_2008_P1",
+    "year": 2008,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be scalene acute with $AC > BC$, $F$ the foot of the altitude from $C$. Let $P \\in AB$ with $AF = PF$. Let $H, O, M$ be the orthocenter, circumcenter, midpoint of $AC$. Let $X = BC \\cap HP$, $Y = OM \\cap FX$, $Z = OF \\cap AC$. Prove $F, M, Y, Z$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2008"
+  },
+  {
+    "id": "BALKAN_MO_2008_P2",
+    "year": 2008,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Does there exist a sequence $a_1, a_2, \\ldots$ of positive reals satisfying simultaneously: a) $a_1 + \\cdots + a_n \\leq n^2$ for all $n$; b) $\\frac{1}{a_1} + \\cdots + \\frac{1}{a_n} \\leq 2008$ for all $n$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2008"
+  },
+  {
+    "id": "BALKAN_MO_2008_P3",
+    "year": 2008,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Consider a rectangle $(90n+1) \\times (90n+5)$ of unit squares. Let $S$ be the set of vertices. Prove that the number of distinct lines through at least two points of $S$ is divisible by $4$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2008"
+  },
+  {
+    "id": "BALKAN_MO_2008_P4",
+    "year": 2008,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $c$ be a positive integer. Define $a_1 = c$, $a_{n+1} = a_n^2 + a_n + c^3$. Find all $c$ for which there exist $k \\geq 1$ and $m \\geq 2$ such that $a_k^2 + c^3$ is a perfect $m$-th power.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2008"
+  }
+]

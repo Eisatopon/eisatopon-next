@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BENELUX_2013_P1",
+    "year": 2013,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n \\geq 3$ be an integer. A frog starts at $0$ on the real axis and makes $n$ jumps of lengths $1, 2, \\ldots, n$ in some order. If the frog is at $a \\leq 0$ it must jump right; if at $a > 0$ it must jump left. Find the largest positive integer $k$ for which the frog can order its jumps so it never lands on any of $1, 2, \\ldots, k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2013"
+  },
+  {
+    "id": "BENELUX_2013_P2",
+    "year": 2013,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all functions $f : \\mathbb{R} \\to \\mathbb{R}$ such that $f(x+y) + y \\leq f(f(f(x)))$ for all $x, y \\in \\mathbb{R}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2013"
+  },
+  {
+    "id": "BENELUX_2013_P3",
+    "year": 2013,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\triangle ABC$ be a triangle with circumcircle $\\Gamma$ and incenter $I$. Lines $AI$, $BI$, $CI$ meet $\\Gamma$ again at $D \\neq A$, $E \\neq B$, $F \\neq C$. The tangents to $\\Gamma$ at $F$, $D$, $E$ meet lines $AI$, $BI$, $CI$ at $R$, $S$, $T$ respectively. Prove that $|AR| \\cdot |BS| \\cdot |CT| = |ID| \\cdot |IE| \\cdot |IF|$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2013"
+  },
+  {
+    "id": "BENELUX_2013_P4",
+    "year": 2013,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "a) Find all positive integers $g$ such that for each odd prime $p$ there exists $n \\in \\mathbb{Z}^+$ with $p \\mid g^n - n$ and $p \\mid g^{n+1} - (n+1)$.\\n\\nb) Find all positive integers $g$ such that for each odd prime $p$ there exists $n \\in \\mathbb{Z}^+$ with $p \\mid g^n - n^2$ and $p \\mid g^{n+1} - (n+1)^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2013"
+  }
+]

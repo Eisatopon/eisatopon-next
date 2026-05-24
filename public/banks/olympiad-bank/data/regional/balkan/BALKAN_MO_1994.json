@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_1994_P1",
+    "year": 1994,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given an acute angle $\\angle XAY$ and a point $P$ inside it. Construct (with ruler and compass) a line through $P$ meeting rays $AX$ and $AY$ at $B$ and $C$ such that $[ABC] = AP^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1994"
+  },
+  {
+    "id": "BALKAN_MO_1994_P2",
+    "year": 1994,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $n$ be an integer. Prove that $f(x) = x^4 - 1994x^3 + (1993+n)x^2 - 11x + n$ has at most one real zero.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1994"
+  },
+  {
+    "id": "BALKAN_MO_1994_P3",
+    "year": 1994,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $(a_1, \\ldots, a_n)$ be a permutation of $1, 2, \\ldots, n$ with $n \\geq 2$. Find the largest possible value of $S(n) = |a_2 - a_1| + |a_3 - a_2| + \\cdots + |a_n - a_{n-1}|$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1994"
+  },
+  {
+    "id": "BALKAN_MO_1994_P4",
+    "year": 1994,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the smallest $n \\geq 5$ for which there exists a set of $n$ people such that any two acquaintances share no common acquaintances, and any two non-acquaintances share exactly two common acquaintances.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1994"
+  }
+]

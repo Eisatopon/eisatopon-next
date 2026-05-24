@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_1997_P1",
+    "year": 1997,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $O$ be an interior point of convex quadrilateral $ABCD$ with $OA^2 + OB^2 + OC^2 + OD^2 = 2[ABCD]$. Prove that $ABCD$ is a square and $O$ is its center.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1997"
+  },
+  {
+    "id": "BALKAN_MO_1997_P2",
+    "year": 1997,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $S = \\{A_1, \\ldots, A_k\\}$ be subsets of an $n$-element set $A$. If for any $x, y \\in A$ some $A_i$ contains exactly one of $x, y$, prove that $2^k \\geq n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1997"
+  },
+  {
+    "id": "BALKAN_MO_1997_P3",
+    "year": 1997,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Circles $C_1, C_2$ touch externally at $D$ and both touch $\\omega$ internally at $B, C$ respectively. Let $A$ be an intersection of $\\omega$ with the common tangent to $C_1, C_2$ at $D$. Lines $AB$ and $AC$ meet $C_1, C_2$ again at $K, L$; line $BC$ meets $C_1$ again at $M$ and $C_2$ again at $N$. Prove $AD$, $KM$, $LN$ are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1997"
+  },
+  {
+    "id": "BALKAN_MO_1997_P4",
+    "year": 1997,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f : \\mathbb{R} \\to \\mathbb{R}$ such that $f(xf(x) + f(y)) = f(x)^2 + y$ for all $x, y \\in \\mathbb{R}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1997"
+  }
+]

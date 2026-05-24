@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_2005_P1",
+    "year": 2005,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let incircle of $\\triangle ABC$ touch $AB$ at $D$ and $AC$ at $E$. Let $X, Y$ be intersections of the bisectors of $\\angle ACB$ and $\\angle ABC$ with $DE$, and $Z$ the midpoint of $BC$. Prove $\\triangle XYZ$ is equilateral iff $\\angle A = 60^\\circ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2005"
+  },
+  {
+    "id": "BALKAN_MO_2005_P2",
+    "year": 2005,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all primes $p$ such that $p^2 - p + 1$ is a perfect cube.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2005"
+  },
+  {
+    "id": "BALKAN_MO_2005_P3",
+    "year": 2005,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c > 0$. Prove $\\dfrac{a^2}{b} + \\dfrac{b^2}{c} + \\dfrac{c^2}{a} \\geq a + b + c + \\dfrac{4(a-b)^2}{a+b+c}$. When does equality hold?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2005"
+  },
+  {
+    "id": "BALKAN_MO_2005_P4",
+    "year": 2005,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n \\geq 2$ and $S \\subseteq \\{1, \\ldots, n\\}$ such that $S$ contains no two elements one dividing the other, and no two coprime elements. What is the maximum $|S|$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2005"
+  }
+]

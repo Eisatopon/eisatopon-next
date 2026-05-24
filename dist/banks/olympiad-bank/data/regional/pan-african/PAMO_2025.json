@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PAMO_2025_P1",
+    "year": 2025,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\triangle ABC$ have a circle through $B$ and $C$ meeting $AB$ at $D$ and $AC$ at $E$. Let $B'$, $E'$ be projections of $B$, $E$ onto $CD$, and $D'$, $C'$ projections of $D$, $C$ onto $BE$. Show that $B'$, $C'$, $D'$, $E'$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2025"
+  },
+  {
+    "id": "PAMO_2025_P2",
+    "year": 2025,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $x_1,\\ldots,x_{20}$ and $y_1,\\ldots,y_{20}$ be sequences with each term $0$ or $1$. How many pairs $((x_i),(y_i))$ satisfy $x_1y_1 + x_2y_2 + \\cdots + x_{20}y_{20}$ is even?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2025"
+  },
+  {
+    "id": "PAMO_2025_P3",
+    "year": 2025,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A positive integer $N$ with $m$ digits is \\textit{repetitive} if the last $m$ digits of $N^k$ equal $N$ for all positive integers $k$. Find all repetitive numbers with $6$ digits.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2025"
+  },
+  {
+    "id": "PAMO_2025_P4",
+    "year": 2025,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all integers $n$ for which there exists an integer $x$ with $x^5 - nx - (n+1) = 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2025"
+  },
+  {
+    "id": "PAMO_2025_P5",
+    "year": 2025,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all functions $f : \\mathbb{Z} \\to \\mathbb{Z}$ with $f(1) = 1$ and $f(x+y) + f(x-y) = \\max\\{f(2x),\\, 2f(y)\\}$ for all integers $x, y$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2025"
+  },
+  {
+    "id": "PAMO_2025_P6",
+    "year": 2025,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A $2025 \\times 2025$ grid is filled with $1, 2, \\ldots, 2025^2$. Mpho places a token on a square and moves to squares with larger numbers; each move goes to any square in the $7 \\times 7$ subgrid centered at the current square (staying inside the grid). Determine the maximum number of moves Mpho can make regardless of the arrangement.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2025"
+  }
+]

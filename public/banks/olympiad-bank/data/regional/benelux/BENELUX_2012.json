@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BENELUX_2012_P1",
+    "year": 2012,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A sequence $a_1, a_2, \\ldots$ of natural numbers is defined by $a_{n+1} = a_n + b_n$ where $b_n$ is the last digit of $a_n$. Prove that such a sequence contains infinitely many powers of $2$ if and only if $a_1$ is not divisible by $5$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2012"
+  },
+  {
+    "id": "BENELUX_2012_P2",
+    "year": 2012,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all quadruples $(a, b, c, d)$ of positive reals with $abcd = 1$, $a^{2012} + 2012b = 2012c + d^{2012}$, and $2012a + b^{2012} = c^{2012} + 2012d$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2012"
+  },
+  {
+    "id": "BENELUX_2012_P3",
+    "year": 2012,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In triangle $ABC$, $M$ is the midpoint of $BC$. Let $P$ be a variable interior point with $\\angle CPM = \\angle PAB$. Let $\\Gamma$ be the circumcircle of $\\triangle ABP$, and $Q$ the second intersection of line $MP$ with $\\Gamma$. Let $R$ be the reflection of $P$ in the tangent to $\\Gamma$ at $B$. Prove that $|QR|$ is independent of the position of $P$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2012"
+  },
+  {
+    "id": "BENELUX_2012_P4",
+    "year": 2012,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Yesterday $n \\geq 4$ people sat around a round table; each remembers only who his two neighbours were (not which side). Today you want to seat them again so each has the same two neighbours. You may query participants, each of whom answers by pointing at their two yesterday-neighbours.\\n\\na) Find the minimum $f(n)$ queries needed if the list must be decided in advance.\\n\\nb) Find the minimum $g(n)$ queries if each question can depend on previous answers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2012"
+  }
+]

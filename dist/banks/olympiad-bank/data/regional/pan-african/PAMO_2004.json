@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PAMO_2004_P1",
+    "year": 2004,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Do there exist positive integers $m$ and $n$ such that $3n^2 + 3n + 7 = m^3$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2004"
+  },
+  {
+    "id": "PAMO_2004_P2",
+    "year": 2004,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Is $\\sqrt[4]{4 - 2\\sqrt{3}} + \\sqrt{97 - 56\\sqrt{3}}$ an integer?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2004"
+  },
+  {
+    "id": "PAMO_2004_P3",
+    "year": 2004,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "One writes $268$ numbers around a circle such that the sum of any $20$ consecutive numbers is $75$. The numbers $3$, $4$, and $9$ are at positions $17$, $83$, and $144$ respectively. Find the number at position $210$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2004"
+  },
+  {
+    "id": "PAMO_2004_P4",
+    "year": 2004,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Three real numbers satisfy: (1) the square of their sum equals the sum of their squares; (2) the product of the first two equals the square of the third. Find these numbers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2004"
+  },
+  {
+    "id": "PAMO_2004_P5",
+    "year": 2004,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Each of the digits $1, 3, 7, 9$ appears at least once in some positive integer. Prove that one can permute its digits to obtain an integer divisible by $7$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2004"
+  },
+  {
+    "id": "PAMO_2004_P6",
+    "year": 2004,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a cyclic quadrilateral with $AB$ a diameter of the circumcircle. Let $I = AB \\cap CD$, $J = AD \\cap BC$, $K = AC \\cap BD$, and $N$ a point on $AB$. Show that $IK \\perp JN$ if and only if $N$ is the midpoint of $AB$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2004"
+  }
+]

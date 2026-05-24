@@ -1,36 +1,44 @@
 [
   {
-    "id": "vmo-1971-p1",
-    "olympiad": "vmo",
-    "type": "national",
-    "country": "Vietnam",
+    "id": "VMO_1971_D1_P1",
     "year": 1971,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
     "day": 1,
-    "problem_number": 1,
+    "problem_id": "P1",
     "topic": [
       "Number Theory"
     ],
-    "difficulty": null,
-    "statement": "Consider positive integers \\(m < n\\), \\(p < q\\) with \\(\\gcd(m,n)=1\\), \\(\\gcd(p,q)=1\\) such that if \\(\\tan\\alpha = \\frac{m}{n}\\) and \\(\\tan\\beta = \\frac{p}{q}\\), then \\(\\alpha+\\beta = 45^\\circ\\).\ni) Given \\(m, n\\), find \\(p, q\\).\nii) Given \\(n, q\\), find \\(m, p\\).\niii) Given \\(m, q\\), find \\(n, p\\).",
-    "solution": null,
-    "source": "Vietnam National Olympiad 1971",
-    "tags": []
+    "statement": "Consider positive integers $m < n$, $p < q$ with $\\gcd(m,n)=1$, $\\gcd(p,q)=1$ such that if $\\tan\\alpha = \\frac{m}{n}$ and $\\tan\\beta = \\frac{p}{q}$, then $\\alpha+\\beta = 45^\\circ$.\ni) Given $m, n$, find $p, q$.\nii) Given $n, q$, find $m, p$.\niii) Given $m, q$, find $n, p$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1971"
   },
   {
-    "id": "vmo-1971-p2",
-    "olympiad": "vmo",
-    "type": "national",
-    "country": "Vietnam",
+    "id": "VMO_1971_D1_P2",
     "year": 1971,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
     "day": 1,
-    "problem_number": 2,
+    "problem_id": "P2",
     "topic": [
       "Geometry"
     ],
-    "difficulty": null,
-    "statement": "\\(ABCDA'B'C'D'\\) is a cube. \\(L\\) is a line intersecting or parallel to lines \\(AA'\\), \\(BC\\), and \\(DB'\\). \\(L\\) meets \\(BC\\) at \\(M\\) with \\(|BM|=m\\). Show \\(|B'E|=m\\) and \\(|D'F|=m\\) where \\(E,F\\) are defined by certain planes. Construct \\(P = L \\cap A'B'C'D'\\). Find distances from \\(P\\) to lines \\(A'B'\\) and \\(A'D'\\) and a relation independent of \\(m\\). Find the locus of \\(M\\) and the envelope \\(S\\) of \\(L\\).",
-    "solution": null,
-    "source": "Vietnam National Olympiad 1971",
-    "tags": []
+    "statement": "$ABCDA'B'C'D'$ is a cube. $L$ is a line intersecting or parallel to lines $AA'$, $BC$, and $DB'$. $L$ meets $BC$ at $M$ with $|BM|=m$. Show $|B'E|=m$ and $|D'F|=m$ where $E,F$ are defined by certain planes. Construct $P = L \\cap A'B'C'D'$. Find distances from $P$ to lines $A'B'$ and $A'D'$ and a relation independent of $m$. Find the locus of $M$ and the envelope $S$ of $L$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1971"
   }
 ]

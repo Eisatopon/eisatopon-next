@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_2000_P1",
+    "year": 2000,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f : \\mathbb{R} \\to \\mathbb{R}$ such that $f(xf(x) + f(y)) = f(x)^2 + y$ for all $x, y \\in \\mathbb{R}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2000"
+  },
+  {
+    "id": "BALKAN_MO_2000_P2",
+    "year": 2000,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be acute and $D$ the midpoint of $BC$. Let $E \\in AD$ and $M$ its projection onto $BC$. If $N$ and $P$ are projections of $M$ onto $AB$ and $AC$, prove that the angle bisectors of $\\angle NMP$ and $\\angle NEP$ are parallel.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2000"
+  },
+  {
+    "id": "BALKAN_MO_2000_P3",
+    "year": 2000,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "How many $1 \\times 10\\sqrt{2}$ rectangles can be cut from a $50 \\times 90$ rectangle using cuts parallel to its edges?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2000"
+  },
+  {
+    "id": "BALKAN_MO_2000_P4",
+    "year": 2000,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show that for any $n$ one can find $n$ distinct integers $> 1$ such that the average of the elements of any subset is a perfect power (square, cube, or higher).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2000"
+  }
+]

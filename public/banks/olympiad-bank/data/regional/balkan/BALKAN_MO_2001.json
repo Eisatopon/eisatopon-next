@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_2001_P1",
+    "year": 2001,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a, b, n$ be positive integers with $2^n - 1 = ab$. Let $k \\in \\mathbb{N}$ be the largest with $2^k \\mid ab + a - b - 1$. Prove that $k$ is even.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2001"
+  },
+  {
+    "id": "BALKAN_MO_2001_P2",
+    "year": 2001,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A convex pentagon $ABCDE$ has rational side lengths and equal angles. Show it is regular.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2001"
+  },
+  {
+    "id": "BALKAN_MO_2001_P3",
+    "year": 2001,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c > 0$ with $abc \\leq a + b + c$. Show that $a^2 + b^2 + c^2 \\geq \\sqrt{3abc}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2001"
+  },
+  {
+    "id": "BALKAN_MO_2001_P4",
+    "year": 2001,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A $3 \\times 3 \\times 3$ cube is divided into $27$ unit cubes labeled $1$ to $27$. A move swaps cube $27$ with an adjacent cube. Is it possible, after finitely many moves, for cube $27$ to return to its original position while cube $n$ occupies the position originally of cube $27 - n$, for each $n = 1, \\ldots, 26$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2001"
+  }
+]

@@ -1,36 +1,44 @@
 [
   {
-    "id": "vmo-1966-p1",
-    "olympiad": "vmo",
-    "type": "national",
-    "country": "Vietnam",
+    "id": "VMO_1966_D1_P1",
     "year": 1966,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
     "day": 1,
-    "problem_number": 1,
+    "problem_id": "P1",
     "topic": [
       "Algebra"
     ],
-    "difficulty": null,
-    "statement": "Let \\(x, y, z\\) be nonneg reals satisfying \\(x + cy \\leq 36\\) and \\(2x + 3z \\leq 72\\), where \\(c > 0\\) is given. Prove that if \\(c \\geq 3\\) the maximum of \\(x+y+z\\) is 36, and if \\(c < 3\\) the maximum is \\(24 + \\dfrac{36}{c}\\).",
-    "solution": null,
-    "source": "Vietnam National Olympiad 1966",
-    "tags": []
+    "statement": "Let $x, y, z$ be nonneg reals satisfying $x + cy \\leq 36$ and $2x + 3z \\leq 72$, where $c > 0$ is given. Prove that if $c \\geq 3$ the maximum of $x+y+z$ is 36, and if $c < 3$ the maximum is $24 + \\dfrac{36}{c}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1966"
   },
   {
-    "id": "vmo-1966-p2",
-    "olympiad": "vmo",
-    "type": "national",
-    "country": "Vietnam",
+    "id": "VMO_1966_D1_P2",
     "year": 1966,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
     "day": 1,
-    "problem_number": 2,
+    "problem_id": "P2",
     "topic": [
       "Geometry"
     ],
-    "difficulty": null,
-    "statement": "Lines \\(a, b\\) are fixed through \\(O\\). Variable parallel lines \\(x, y\\): \\(x\\) meets \\(a\\) at \\(A\\) and \\(b\\) at \\(C\\); \\(y\\) meets \\(a\\) at \\(B\\) and \\(b\\) at \\(D\\). Lines \\(AD\\) and \\(BC\\) meet at \\(M\\). The line through \\(M\\) parallel to \\(x\\) meets \\(a\\) at \\(L\\) and \\(b\\) at \\(N\\). What can you say about \\(L, M, N\\)? Find the locus of \\(M\\).",
-    "solution": null,
-    "source": "Vietnam National Olympiad 1966",
-    "tags": []
+    "statement": "Lines $a, b$ are fixed through $O$. Variable parallel lines $x, y$: $x$ meets $a$ at $A$ and $b$ at $C$; $y$ meets $a$ at $B$ and $b$ at $D$. Lines $AD$ and $BC$ meet at $M$. The line through $M$ parallel to $x$ meets $a$ at $L$ and $b$ at $N$. What can you say about $L, M, N$? Find the locus of $M$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1966"
   }
 ]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_2020_P1",
+    "year": 2020,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be acute with $AB = AC$ and $D$ the midpoint of $AC$. Let $\\gamma$ be the circumcircle of $\\triangle ABD$. The tangent to $\\gamma$ at $A$ meets $BC$ at $E$. Let $O$ be the circumcenter of $\\triangle ABE$. Prove the midpoint of $AO$ lies on $\\gamma$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2020"
+  },
+  {
+    "id": "BALKAN_MO_2020_P2",
+    "year": 2020,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all $f : \\mathbb{Z}_{>0} \\to \\mathbb{Z}_{>0}$ such that for each positive integer $n$: (i) $\\sum_{k=1}^n f(k)$ is a perfect square; (ii) $f(n) \\mid n^3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2020"
+  },
+  {
+    "id": "BALKAN_MO_2020_P3",
+    "year": 2020,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $k$ be a positive integer. Find the least $n \\geq k+1$ for which the following game can be played indefinitely: $n$ boxes labeled $b_1,\\ldots,b_n$ each containing $i$ coins in box $b_i$. Each step: choose $k+1$ boxes; from $k$ of them remove at least half the coins each; to the remaining box $b_i$ add $i$ coins. The game ends if a box becomes empty.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2020"
+  },
+  {
+    "id": "BALKAN_MO_2020_P4",
+    "year": 2020,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a_1 = 2$ and, for each $n$, let $a_{n+1}$ be the smallest integer $> a_n$ with more positive divisors than $a_n$. Prove that $2a_{n+1} = 3a_n$ holds for only finitely many $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2020"
+  }
+]

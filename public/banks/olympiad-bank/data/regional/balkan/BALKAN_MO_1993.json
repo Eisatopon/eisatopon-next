@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_1993_P1",
+    "year": 1993,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c, d, e, f$ be reals with sum $10$ and $(a-1)^2 + (b-1)^2 + (c-1)^2 + (d-1)^2 + (e-1)^2 + (f-1)^2 = 6$. Find the maximum possible value of $f$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1993"
+  },
+  {
+    "id": "BALKAN_MO_1993_P2",
+    "year": 1993,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A positive integer is \\textit{monotone} if its digits in decimal are nondecreasing. Determine the number of monotone positive integers with at most $1993$ digits.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1993"
+  },
+  {
+    "id": "BALKAN_MO_1993_P3",
+    "year": 1993,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Circles $C_1(O_1)$ and $C_2(O_2)$ are externally tangent at $\\lambda$. Circle $C(O)$ internally tangent to both (with $O_1, O_2$ inside $C$) touches $C_1$ at $A$ and $C_2$ at $B$. The common tangent to $C_1, C_2$ at $\\lambda$ meets $C$ at $K, L$. Let $D$ be the midpoint of $KL$. Show that $\\angle O_1OO_2 = \\angle ADB$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1993"
+  },
+  {
+    "id": "BALKAN_MO_1993_P4",
+    "year": 1993,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p$ be prime and $m \\geq 2$ an integer. Prove that $\\dfrac{x^p + y^p}{2} = \\left(\\dfrac{x+y}{2}\\right)^m$ has a positive integer solution $(x,y) \\neq (1,1)$ if and only if $m = p$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1993"
+  }
+]
