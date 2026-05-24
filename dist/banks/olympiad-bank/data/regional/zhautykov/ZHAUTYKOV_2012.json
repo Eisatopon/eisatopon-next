@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ZHAUTYKOV_2012_P1",
+    "year": 2012,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$; $D$ is an interior point of $AB$; $M, N$ are feet of perpendiculars from $D$ to $BC, AC$; $H_1, H_2$ are orthocenters of $\\triangle MNC$ and $\\triangle MND$. Prove $[AH_1BH_2]$ is independent of the position of $D$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2012"
+  },
+  {
+    "id": "ZHAUTYKOV_2012_P2",
+    "year": 2012,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A set of unit squares of an $n \\times n$ table is \\textit{convenient} if each row and column contains at least 2 squares from the set. For $n \\geq 5$, find the maximum $m$ such that a convenient set of $m$ squares becomes inconvenient when any one square is removed.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2012"
+  },
+  {
+    "id": "ZHAUTYKOV_2012_P3",
+    "year": 2012,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Polynomials $P, Q, R$ with real coefficients satisfy $P(Q(x)) + P(R(x)) = $ constant for all $x$. Prove $P$ is constant or $Q(x) + R(x)$ is constant.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2012"
+  },
+  {
+    "id": "ZHAUTYKOV_2012_P4",
+    "year": 2012,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Do there exist integers $m, n$ and $f : \\mathbb{R} \\to \\mathbb{R}$ satisfying: (i) $f(f(x)) = 2f(x) - x - 2$ for all $x$; (ii) $m \\leq n$ and $f(m) = n$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2012"
+  },
+  {
+    "id": "ZHAUTYKOV_2012_P5",
+    "year": 2012,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Equilateral triangles $ACB'$ and $BDC'$ are drawn on the diagonals of convex quadrilateral $ABCD$ (with $B, B'$ on the same side of $AC$ and $C, C'$ on the same side of $BD$). Find $\\angle BAD + \\angle CDA$ given $B'C' = AB + CD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2012"
+  },
+  {
+    "id": "ZHAUTYKOV_2012_P6",
+    "year": 2012,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integer solutions of $2x^2 - y^{14} = 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2012"
+  }
+]

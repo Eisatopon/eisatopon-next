@@ -1,0 +1,86 @@
+[
+  {
+    "id": "JUNIOR_BALKAN_MO_2013_P1",
+    "year": 2013,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all ordered pairs $(a, b)$ of positive integers for which $\\dfrac{a^3b - 1}{a+1}$ and $\\dfrac{b^3a + 1}{b-1}$ are both positive integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2013"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2013_P2",
+    "year": 2013,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with $AB < AC$, circumcircle $\\omega$, circumcenter $O$. $D \\in BC$ with $\\angle BAD = \\angle CAO$; $E$ is the second intersection of $\\omega$ with line $AD$. $M, N, P$ are midpoints of $BE, OD, AC$. Show $M, N, P$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2013"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2013_P3",
+    "year": 2013,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that $\\left(a + 2b + \\dfrac{2}{a+1}\\right)\\left(b + 2a + \\dfrac{2}{b+1}\\right) \\geq 16$ for all positive reals $a, b$ with $ab \\geq 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2013"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2013_P4",
+    "year": 2013,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Two players play: Alice chooses $n$ real numbers; all $\\binom{n}{2}$ pairwise sums are written down; Bob must recover the $n$ numbers with one guess. Can Bob guarantee a win for: (a) $n=5$? (b) $n=6$? (c) $n=8$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2013"
+  }
+]

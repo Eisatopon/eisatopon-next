@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ZHAUTYKOV_2014_P1",
+    "year": 2014,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$M, N, K$ lie on sides $BC, CA, AB$ of $\\triangle ABC$. Call $\\triangle MNK$ \\textit{beautiful} if $\\angle BAC = \\angle KMN$ and $\\angle ABC = \\angle KNM$. If $\\triangle ABC$ contains two beautiful triangles sharing a vertex, prove $\\triangle ABC$ is right-angled.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2014"
+  },
+  {
+    "id": "ZHAUTYKOV_2014_P2",
+    "year": 2014,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Does there exist $f : \\mathbb{R} \\to \\mathbb{R}$ satisfying: (i) $f$ is surjective; (ii) $f(f(x)) = (x-1)f(x) + 2$ for all $x$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2014"
+  },
+  {
+    "id": "ZHAUTYKOV_2014_P3",
+    "year": 2014,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Among 100 distinct positive integers, a pair is \\textit{good} if one is twice or three times the other. What is the maximum number of good pairs these 100 numbers can form?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2014"
+  },
+  {
+    "id": "ZHAUTYKOV_2014_P4",
+    "year": 2014,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Does there exist a polynomial $P(x)$ with integer coefficients such that $P(1+\\sqrt{3}) = 2+\\sqrt{3}$ and $P(3+\\sqrt{5}) = 3+\\sqrt{5}$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2014"
+  },
+  {
+    "id": "ZHAUTYKOV_2014_P5",
+    "year": 2014,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $U = \\{1,\\ldots,2014\\}$. For positive integers $a,b,c$, let $f(a,b,c)$ count ordered 6-tuples $(X_1,X_2,X_3,Y_1,Y_2,Y_3)$ with $Y_i \\subseteq X_i \\subseteq U$ and given size/disjointness conditions. Prove $f(a,b,c)$ is invariant under permutations of $(a,b,c)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2014"
+  },
+  {
+    "id": "ZHAUTYKOV_2014_P6",
+    "year": 2014,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Four segments divide a convex quadrilateral into nine quadrilaterals; the intersection points of these segments lie on the diagonals. Quadrilaterals 1, 2, 3, 4 each have inscribed circles. Prove quadrilateral 5 also has an inscribed circle.",
+    "has_figure": true,
+    "figure_description": "A convex quadrilateral divided into 9 sub-quadrilaterals by 4 segments, with regions numbered 1–5",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2014"
+  }
+]

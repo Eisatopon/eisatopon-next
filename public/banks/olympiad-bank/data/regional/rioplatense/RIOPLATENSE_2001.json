@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_2001_P1",
+    "year": 2001,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integers $a, b, m, n$ satisfying $a^2 + b^2 = 5mn$ and $m^2 + n^2 = 5ab$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2001"
+  },
+  {
+    "id": "RIOPLATENSE_2001_P2",
+    "year": 2001,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute $\\triangle ABC$, $A_1, B_1, C_1$ are on $BC, CA, AB$ with $CB_1 = A_1B_1$ and $BC_1 = A_1C_1$. $D$ is the reflection of $A_1$ over $B_1C_1$; $O, O_1$ are the circumcenters of $\\triangle ABC$ and $\\triangle A_1B_1C_1$. If $A \\neq D$, $O \\neq O_1$, and $AD \\perp OO_1$, prove $AB = AC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2001"
+  },
+  {
+    "id": "RIOPLATENSE_2001_P3",
+    "year": 2001,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For every integer $n > 1$, define $S_n = \\left\\lfloor 2\\sqrt{2 + \\sqrt{2 + \\cdots + \\sqrt{2}}}\\right\\rfloor$ (with $n$ nested radicals). Prove $S_{2001} = 2S_{2000} + 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2001"
+  },
+  {
+    "id": "RIOPLATENSE_2001_P4",
+    "year": 2001,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f : \\mathbb{R} \\to \\mathbb{R}$ such that $f(f(x) - y) \\cdot f(x + f(y)) = x^2 - y^2$ for all $x, y$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2001"
+  },
+  {
+    "id": "RIOPLATENSE_2001_P5",
+    "year": 2001,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with centroid $G$, the angle bisector of $\\angle ABC$ meets $AC$ at $D$. Points $P, Q$ on line $BD$ satisfy $\\angle PBA = \\angle PAB$ and $\\angle QBC = \\angle QCB$. $M$ is the midpoint of $QP$; $N$ on line $GM$ with $GN = 2GM$. Prove $\\angle ANC + \\angle ABC = 180^\\circ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2001"
+  },
+  {
+    "id": "RIOPLATENSE_2001_P6",
+    "year": 2001,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For $m \\geq 1$, let $S(m)$ be the digit sum of $m$ and $f(m) = m + S(m)$. Show that for each positive integer $n$, some value appears exactly $n$ times in the sequence $f(1), f(2), f(3), \\ldots$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2001"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "APMO_2010_P1",
+    "year": 2010,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\triangle ABC$ have $\\angle BAC \\neq 90^\\circ$, circumcircle $\\Gamma$, circumcenter $O$. Let $\\Gamma'$ be the circumcircle of $\\triangle BOC$. Suppose $\\Gamma'$ meets $AB$ at $P \\neq B$ and $AC$ at $Q \\neq C$, with $ON$ a diameter of $\\Gamma'$. Prove $APNQ$ is a parallelogram.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2010"
+  },
+  {
+    "id": "APMO_2010_P2",
+    "year": 2010,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show that for every positive integer $n$, there exist $n$ distinct positive integers whose sum is a perfect $2009$th power and whose product is a perfect $2010$th power.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2010"
+  },
+  {
+    "id": "APMO_2010_P3",
+    "year": 2010,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n$ people at a party. What is the maximum number of pairs who are not acquainted but have a common acquaintance?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2010"
+  },
+  {
+    "id": "APMO_2010_P4",
+    "year": 2010,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\triangle ABC$ be acute with $AB > BC$ and $AC > BC$. Circumcircle of $\\triangle AHC$ meets $AB$ at $M \\neq A$; circumcircle of $\\triangle AHB$ meets $AC$ at $N \\neq A$. Prove the circumcenter of $\\triangle MNH$ lies on $OH$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2010"
+  },
+  {
+    "id": "APMO_2010_P5",
+    "year": 2010,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f : \\mathbb{R} \\to \\mathbb{R}$ satisfying $f(f(x)+f(y)+f(z)) = f(f(x)-f(y)) + f(2xy+f(z)) + 2f(xz-yz)$ for all $x,y,z$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2010"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "APMO_1997_P1",
+    "year": 1997,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $S = 1 + \\dfrac{1}{1 + \\frac{1}{3}} + \\dfrac{1}{1 + \\frac{1}{3} + \\frac{1}{6}} + \\cdots + \\dfrac{1}{1 + \\frac{1}{3} + \\frac{1}{6} + \\cdots + \\frac{1}{1993006}}$, where denominators are partial sums of reciprocals of triangular numbers. Prove that $S > 1001$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1997"
+  },
+  {
+    "id": "APMO_1997_P2",
+    "year": 1997,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find an integer $n$ with $100 \\leq n \\leq 1997$ such that $\\dfrac{2^n + 2}{n}$ is also an integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1997"
+  },
+  {
+    "id": "APMO_1997_P3",
+    "year": 1997,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be inscribed in a circle. Let $l_a = m_a/M_a$, $l_b = m_b/M_b$, $l_c = m_c/M_c$ where $m_a, m_b, m_c$ are internal angle bisector lengths and $M_a, M_b, M_c$ extend to the circle. Prove $\\dfrac{l_a}{\\sin^2 A} + \\dfrac{l_b}{\\sin^2 B} + \\dfrac{l_c}{\\sin^2 C} \\geq 3$ with equality iff $ABC$ is equilateral.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1997"
+  },
+  {
+    "id": "APMO_1997_P4",
+    "year": 1997,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Triangle $A_1A_2A_3$ has a right angle at $A_3$. For $n \\geq 3$, drop a perpendicular from $A_n$ to $A_{n-2}A_{n-1}$ meeting it at $A_{n+1}$. (a) Prove one unique point $P$ lies in every triangle $A_{n-2}A_{n-1}A_n$ for $n \\geq 3$. (b) With $A_1$, $A_3$ fixed, find the locus of $P$ as $A_2$ varies.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1997"
+  },
+  {
+    "id": "APMO_1997_P5",
+    "year": 1997,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n \\geq 3$ people sit in a circle; person $A_i$ has $a_i$ objects with $\\sum a_i = nN$. Each person gives or receives objects from neighbours to equalize. Find the redistribution minimizing total objects transferred.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1997"
+  }
+]

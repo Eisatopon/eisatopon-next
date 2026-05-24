@@ -1,0 +1,128 @@
+[
+  {
+    "id": "BRAZIL_2015_D1_P1",
+    "year": 2015,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\\\triangle ABC$ be an acute scalene triangle, and let $N$ be the center of the circle passing through the feet of the altitudes (the nine-point center). Let $D$ be the intersection of the tangents to the circumcircle of $\\\\triangle ABC$ at $B$ and $C$. Prove that $A$, $D$, and $N$ are collinear if and only if $\\\\angle BAC = 45^\\\\circ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2015 Day 1"
+  },
+  {
+    "id": "BRAZIL_2015_D1_P2",
+    "year": 2015,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Consider $S = \\\\{1, 2, 3, \\\\ldots, 6n\\\\}$ with $n > 1$. Find the largest $k$ such that the following statement is true: every subset $A$ of $S$ with $4n$ elements has at least $k$ pairs $(a, b)$ with $a < b$ and $b$ divisible by $a$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2015 Day 1"
+  },
+  {
+    "id": "BRAZIL_2015_D1_P3",
+    "year": 2015,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Given a natural number $n > 1$ with prime factorization $n = p_1^{\\\\alpha_1} p_2^{\\\\alpha_2} \\\\cdots p_k^{\\\\alpha_k}$, its \\\\textit{false derivative} is defined by \\$$f(n) = \\\\alpha_1 p_1^{\\\\alpha_1 - 1} \\\\cdot \\\\alpha_2 p_2^{\\\\alpha_2 - 1} \\\\cdots \\\\alpha_k p_k^{\\\\alpha_k - 1}.\\$$ Prove that there exist infinitely many natural numbers $n$ such that $f(n) = f(n-1) + 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2015 Day 1"
+  },
+  {
+    "id": "BRAZIL_2015_D2_P4",
+    "year": 2015,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n$ be a positive integer and let $n = d_1 > d_2 > \\\\cdots > d_k = 1$ be its positive divisors in decreasing order.\n\na) Prove that $d_1 - d_2 + d_3 - \\\\cdots + (-1)^{k-1}d_k = n - 1$ if and only if $n$ is prime or $n = 4$.\n\nb) Determine all positive integers $n$ such that $d_1 - d_2 + d_3 - \\\\cdots + (-1)^{k-1}d_k = n - 4$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2015 Day 2"
+  },
+  {
+    "id": "BRAZIL_2015_D2_P5",
+    "year": 2015,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Is it true that there exists a polynomial $f(x)$ with rational coefficients, not all integers, of degree $n > 0$, a polynomial $g(x)$ with integer coefficients, and a set $S$ of $n+1$ integers such that $f(t) = g(t)$ for all $t \\\\in S$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2015 Day 2"
+  },
+  {
+    "id": "BRAZIL_2015_D2_P6",
+    "year": 2015,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\\\triangle ABC$ be a scalene triangle and let $X$, $Y$, $Z$ be points on lines $BC$, $AC$, $AB$, respectively, such that $\\\\angle AXB = \\\\angle BYC = \\\\angle CZA$. The circumcircles of $BXZ$ and $CXY$ intersect at $P$. Prove that $P$ lies on the circle with diameter $HG$, where $H$ and $G$ are the orthocenter and centroid of $\\\\triangle ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2015 Day 2"
+  }
+]

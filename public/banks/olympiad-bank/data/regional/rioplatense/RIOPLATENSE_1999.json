@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_1999_P1",
+    "year": 1999,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute scalene $\\triangle ABC$ with orthocenter $H$, $M$ is the midpoint of $BC$. $N$ is the second intersection of $AM$ with the circumcircle of $\\triangle BCH$. Show $HN \\perp AM$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 1999"
+  },
+  {
+    "id": "RIOPLATENSE_1999_P2",
+    "year": 1999,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p_1, p_2, \\ldots, p_k$ be $k$ distinct primes. Consider all positive integers using only these primes in their factorization, arranged in increasing order $a_1 < a_2 < \\cdots$. Prove that for every $c$, there exists $n$ with $a_{n+1} - a_n > c$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 1999"
+  },
+  {
+    "id": "RIOPLATENSE_1999_P3",
+    "year": 1999,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Two players $A$ and $B$ alternate coloring points. $A$ colors 1 integer point (green), $B$ colors 10 (yellow), starting from $A$. (a) $A$'s goal: get 1112 green points forming a $111 \\times 111$ grid of lattice points. Who wins? (b) $A$'s goal: get 4 green points forming an axis-aligned square. Who wins?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 1999"
+  },
+  {
+    "id": "RIOPLATENSE_1999_P4",
+    "year": 1999,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that $\\displaystyle\\sum_{j=1}^{500} \\frac{1}{\\sqrt[3]{j^2} + \\sqrt[3]{j(j+1)} + \\sqrt[3]{(j+1)^2}} > \\frac{9}{2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 1999"
+  },
+  {
+    "id": "RIOPLATENSE_1999_P5",
+    "year": 1999,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Quadrilateral $ABCD$ is inscribed in a circle of radius 1 with $AB$ a diameter and $CD = 1$. Variable point $X$ moves along the semicircle not containing $C$ or $D$. Find $X$ maximizing the sum of distances from $X$ to lines $BC$, $CD$, $DA$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 1999"
+  },
+  {
+    "id": "RIOPLATENSE_1999_P6",
+    "year": 1999,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "At a party, each guest receives a red and a blue hat; all start wearing red. The announcer calls a guest's name; that guest and all their friends switch hats. Show the announcer can arrange calls so all guests end up wearing blue hats.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 1999"
+  }
+]

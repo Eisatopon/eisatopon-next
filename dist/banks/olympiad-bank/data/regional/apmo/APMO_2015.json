@@ -1,0 +1,107 @@
+[
+  {
+    "id": "APMO_2015_P1",
+    "year": 2015,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\triangle ABC$ and $D$ on $BC$. Line through $D$ meets $AB$ at $X$ and ray $AC$ at $Y$. Circumcircle of $\\triangle BXD$ meets circumcircle $\\omega$ of $\\triangle ABC$ again at $Z \\neq B$. Lines $ZD$ and $ZY$ meet $\\omega$ at $V$ and $W$. Prove $AB = VW$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2015"
+  },
+  {
+    "id": "APMO_2015_P2",
+    "year": 2015,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Does there exist $f : S \\to S$ (where $S = \\{2,3,4,\\ldots\\}$) such that $f(a)f(b) = f(a^2b^2)$ for all $a \\neq b$ in $S$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2015"
+  },
+  {
+    "id": "APMO_2015_P3",
+    "year": 2015,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A sequence $a_0, a_1, \\ldots$ is \\textit{good} if $a_0$ is a positive integer, each term is $2a_i+1$ or $\\frac{a_i}{a_i+2}$, and some $a_k = 2014$. Find the smallest $n$ with a good sequence having $a_n = 2014$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2015"
+  },
+  {
+    "id": "APMO_2015_P4",
+    "year": 2015,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$2n$ lines in the plane, no two parallel, $n$ blue and $n$ red. Let $B$ and $R$ be the unions of blue and red lines. Prove there exists a circle intersecting $B$ in exactly $2n-1$ points and $R$ in exactly $2n-1$ points.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2015"
+  },
+  {
+    "id": "APMO_2015_P5",
+    "year": 2015,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine all sequences $a_0, a_1, \\ldots$ of positive integers with $a_0 \\geq 2015$ such that: (i) $a_n \\mid a_{n+2}$; (ii) $|s_{n+1} - (n+1)a_n| = 1$ where $s_{n+1} = a_{n+1} - a_n + a_{n-1} - \\cdots + (-1)^{n+1}a_0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2015"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "JUNIOR_BALKAN_MO_2010_P1",
+    "year": 2010,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Real numbers $a, b, c, d$ satisfy $abc - d = 1$, $bcd - a = 2$, $cda - b = 3$, $dab - c = -6$. Prove $a + b + c + d \\neq 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2010"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2010_P2",
+    "year": 2010,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integers $n \\geq 1$ such that $n \\cdot 2^{n+1} + 1$ is a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2010"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2010_P3",
+    "year": 2010,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In non-isosceles $\\triangle ABC$, $AL$ and $BK$ are angle bisectors ($L \\in BC$, $K \\in AC$). The perpendicular bisector of $BK$ meets line $AL$ at $M$. $N$ on line $BK$ with $LN \\parallel MK$. Prove $LN = NA$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2010"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2010_P4",
+    "year": 2010,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A $9 \\times 7$ rectangle is tiled with L-trominoes and $2 \\times 2$ squares. Let $n \\geq 0$ be the number of $2 \\times 2$ tiles. Find all possible values of $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2010"
+  }
+]

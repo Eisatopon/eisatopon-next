@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BRAZIL_1980_D1_P1",
+    "year": 1980,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Box $A$ contains black balls and box $B$ contains white balls. Take a certain number of balls from $A$ and place them in $B$; then take the same number of balls from $B$ and place them in $A$. Is the number of white balls in $A$ then greater than, equal to, or less than the number of black balls in $B$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1980"
+  },
+  {
+    "id": "BRAZIL_1980_D1_P2",
+    "year": 1980,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show that for any positive integer $n > 2$ we can find $n$ distinct positive integers such that the sum of their reciprocals equals $1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1980"
+  },
+  {
+    "id": "BRAZIL_1980_D1_P3",
+    "year": 1980,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given triangle $ABC$ and a point $P_0$ on side $AB$, construct sequences of points $P_i$, $Q_i$, $R_i$ as follows: $Q_i$ is the foot of the perpendicular from $P_i$ to $BC$; $R_i$ is the foot of the perpendicular from $Q_i$ to $AC$; $P_i$ is the foot of the perpendicular from $R_{i-1}$ to $AB$. Show that the points $P_i$ converge to a point $P$ on $AB$, and show how to construct $P$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1980"
+  },
+  {
+    "id": "BRAZIL_1980_D1_P4",
+    "year": 1980,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given $5$ points on a sphere of radius $r$, show that two of the points are at distance $\\leq r\\sqrt{2}$ apart.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1980"
+  }
+]

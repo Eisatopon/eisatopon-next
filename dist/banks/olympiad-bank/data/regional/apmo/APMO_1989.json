@@ -1,0 +1,107 @@
+[
+  {
+    "id": "APMO_1989_P1",
+    "year": 1989,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $x_1, x_2, \\ldots, x_n$ be positive real numbers, and let $S = x_1 + x_2 + \\cdots + x_n$. Prove that $(1+x_1)(1+x_2)\\cdots(1+x_n) \\leq 1 + S + \\dfrac{S^2}{2!} + \\dfrac{S^3}{3!} + \\cdots + \\dfrac{S^n}{n!}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1989"
+  },
+  {
+    "id": "APMO_1989_P2",
+    "year": 1989,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that the equation $6(6a^2 + 3b^2 + c^2) = 5n^2$ has no solutions in integers except $a = b = c = n = 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1989"
+  },
+  {
+    "id": "APMO_1989_P3",
+    "year": 1989,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $A_1, A_2, A_3$ be three points in the plane, and let $A_4 = A_1$, $A_5 = A_2$. For $n = 1, 2, 3$, let $B_n$ be the midpoint of $A_n A_{n+1}$, and $C_n$ the midpoint of $A_n B_n$. Let $D_n = A_n C_{n+1} \\cap B_n A_{n+2}$ and $E_n = A_n B_{n+1} \\cap C_n A_{n+2}$. Calculate the ratio of the area of triangle $D_1 D_2 D_3$ to the area of triangle $E_1 E_2 E_3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1989"
+  },
+  {
+    "id": "APMO_1989_P4",
+    "year": 1989,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $S$ be a set consisting of $m$ pairs $(a,b)$ of positive integers with $1 \\leq a < b \\leq n$. Show that there are at least $4m \\cdot \\dfrac{m - \\frac{n^2}{4}}{3n}$ triples $(a,b,c)$ such that $(a,b)$, $(a,c)$, and $(b,c)$ all belong to $S$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1989"
+  },
+  {
+    "id": "APMO_1989_P5",
+    "year": 1989,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Determine all functions $f$ from the reals to the reals for which $f(x)$ is strictly increasing and $f(x) + g(x) = 2x$ for all real $x$, where $g(x)$ is the composition inverse of $f(x)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1989"
+  }
+]

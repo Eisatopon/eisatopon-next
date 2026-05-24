@@ -1,0 +1,86 @@
+[
+  {
+    "id": "JUNIOR_BALKAN_MO_2002_P1",
+    "year": 2002,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Triangle $ABC$ has $CA = CB$. $P$ is on the circumcircle between $A$ and $B$, on the opposite side from $C$. $D$ is the foot of the perpendicular from $C$ to $PB$. Show $PA + PB = 2PD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2002"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2002_P2",
+    "year": 2002,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two circles with centers $O_1$, $O_2$ meet at $A$ and $B$ (centers on opposite sides of $AB$). Lines $BO_1$ and $BO_2$ meet the respective circles again at $B_1$ and $B_2$; $M$ = midpoint of $B_1B_2$. Points $M_1$, $M_2$ on the circles satisfy $\\angle AO_1M_1 = \\angle AO_2M_2$ (with $B_1$ on minor arc $AM_1$ and $B$ on minor arc $AM_2$). Show $\\angle MM_1B = \\angle MM_2B$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2002"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2002_P3",
+    "year": 2002,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers with exactly 16 divisors $1 = d_1 < d_2 < \\cdots < d_{16} = n$ such that $d_{d_5} = (d_2 + d_4)d_6$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2002"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2002_P4",
+    "year": 2002,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that for all positive reals $a, b, c$: $\\dfrac{1}{b(a+b)} + \\dfrac{1}{c(b+c)} + \\dfrac{1}{a(c+a)} \\geq \\dfrac{27}{2(a+b+c)^2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2002"
+  }
+]

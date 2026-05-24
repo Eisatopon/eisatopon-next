@@ -1,0 +1,86 @@
+[
+  {
+    "id": "JUNIOR_BALKAN_MO_2009_P1",
+    "year": 2009,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Convex pentagon $ABCDE$ with $AB + CD = BC + DE$. A circle with center on $AE$ touches $AB$, $BC$, $CD$, $DE$ at $P$, $Q$, $R$, $S$ respectively. Prove $PS \\parallel AE$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2009"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2009_P2",
+    "year": 2009,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Solve $2^a \\cdot 3^b + 9 = c^2$ in nonneg­ative integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2009"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2009_P3",
+    "year": 2009,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $x, y, z \\in (0,1)$ with $xyz = (1-x)(1-y)(1-z)$. Show at least one of $(1-x)y$, $(1-y)z$, $(1-z)x$ is $\\geq \\dfrac{1}{4}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2009"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2009_P4",
+    "year": 2009,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Among 2009 distinct points, each colored blue or red, every blue-centered unit circle contains exactly 2 red points. Find the maximum number of blue points.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2009"
+  }
+]

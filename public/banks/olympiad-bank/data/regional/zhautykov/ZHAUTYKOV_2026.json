@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ZHAUTYKOV_2026_P1",
+    "year": 2026,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two distinct non-opposite rays $OA$ and $OB$ share origin $O$. Can one choose 20 distinct points — $K_1,\\ldots,K_5, L_1,\\ldots,L_5 \\in OA$ and $M_1,\\ldots,M_5, N_1,\\ldots,N_5 \\in OB$ — such that $K_iM_j = L_iN_j$ for all $1 \\leq i,j \\leq 5$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2026"
+  },
+  {
+    "id": "ZHAUTYKOV_2026_P2",
+    "year": 2026,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n$ be a positive integer with $\\lfloor a\\sqrt{10}\\rfloor = n = \\lfloor b\\sqrt{11}\\rfloor$ for some positive integers $a, b$. Prove there exists a positive integer $c$ with $n = \\lfloor c(11\\sqrt{10} - 10\\sqrt{11})\\rfloor$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2026"
+  },
+  {
+    "id": "ZHAUTYKOV_2026_P3",
+    "year": 2026,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $m > k > 1$ be fixed positive integers. Find the greatest $N$ such that: one can place $N$ tokens in an $N \\times N$ grid (one per row and column) with no horizontal and vertical gridlines splitting the grid into four rectangles where two non-adjacent ones have $\\geq m$ and $\\geq k$ tokens respectively.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2026"
+  },
+  {
+    "id": "ZHAUTYKOV_2026_P4",
+    "year": 2026,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $v \\geq 4$ be a fixed positive integer. Find the smallest $e$ such that every connected graph on $v$ vertices with $e$ edges contains a cycle whose removal leaves the graph connected.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2026"
+  },
+  {
+    "id": "ZHAUTYKOV_2026_P5",
+    "year": 2026,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with circumcenter $O$, orthocenter $H$. Line $OH$ meets $AB, AC$ at $B', C'$. Circles $(AB'C')$ and $(ABC)$ meet again at $S$. $K \\in (ABC)$ with $AK$ tangent to $(AB'C')$. $M$ = second intersection of $AH$ with $(ABC)$. Prove $BC$, $SM$, $KH$ are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2026"
+  },
+  {
+    "id": "ZHAUTYKOV_2026_P6",
+    "year": 2026,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all real polynomials $P$ for which there exist pairwise distinct nonconstant polynomials $f_1, f_2, f_3, f_4$ (positive leading coefficients) with $f_1 f_2 = f_3 f_4$ and $P(f_1)P(f_2) = P(f_3)P(f_4)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2026"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "JUNIOR_BALKAN_MO_2018_P1",
+    "year": 2018,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integers $m, n$ such that $m^5 - n^5 = 16mn$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2018"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2018_P2",
+    "year": 2018,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the maximum number of 3-digit numbers with digit sum 9, no digit 0, and with any two having different units digits, different tens digits, and different hundreds digits.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2018"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2018_P3",
+    "year": 2018,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $k > 1$ be a positive integer and $n > 2018$ odd. Nonzero rationals $x_1, \\ldots, x_n$ (not all equal) satisfy $x_1 + \\frac{k}{x_2} = x_2 + \\frac{k}{x_3} = \\cdots = x_n + \\frac{k}{x_1}$. Find the minimum $k$ for which this can hold.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2018"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2018_P4",
+    "year": 2018,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, let $A', B', C'$ be the reflections of each vertex over the opposite side. Let $A_1$ be the second intersection of the circumcircles of $\\triangle ABB'$ and $\\triangle ACC'$; define $B_1$, $C_1$ similarly. Prove $AA_1$, $BB_1$, $CC_1$ are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2018"
+  }
+]

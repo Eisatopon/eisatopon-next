@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CONO_SUR_1997_P1",
+    "year": 1997,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Arrange cards labeled 1 to 98 in a sequence $(a_1, \\ldots, a_{98})$ such that $|a_i - a_{i+1}| > 48$ for all consecutive pairs. Determine how many such sequences exist.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1997"
+  },
+  {
+    "id": "CONO_SUR_1997_P2",
+    "year": 1997,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\Gamma$ be a circle with center $O$ and diameter $AB$. $R \\in \\Gamma \\setminus \\{A,B\\}$; $P$ is the foot of the perpendicular from $O$ to $AR$. On line $OP$, let $Q$ satisfy $QP = OP/2$ with $Q \\notin OP$. Draw through $Q$ a line parallel to $AB$ meeting $AR$ at $T$. Let $H = AQ \\cap OT$. Prove $H$, $B$, $R$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1997"
+  },
+  {
+    "id": "CONO_SUR_1997_P3",
+    "year": 1997,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove there are infinitely many triples $(a,b,c)$ of natural numbers with $2a^2 + 3b^2 - 5c^2 = 1997$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1997"
+  },
+  {
+    "id": "CONO_SUR_1997_P4",
+    "year": 1997,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Build an $n \\times 4$ board starting with row $(0,0,0,0)$: each row is obtained from the previous by keeping one entry and applying $0\\to1\\to2\\to0$ to the others. Build the largest possible board with all distinct rows and prove no larger board exists.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1997"
+  },
+  {
+    "id": "CONO_SUR_1997_P5",
+    "year": 1997,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n > 3$. Among all multiples of 9 less than $10^n$, prove there are more with digit sum $9(n-2)$ than with digit sum $9(n-1)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1997"
+  },
+  {
+    "id": "CONO_SUR_1997_P6",
+    "year": 1997,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\triangle ABC$ be acute and $X$ a point in the plane. Let $M, N, P$ be feet of perpendiculars from $X$ to the lines containing the altitudes of $\\triangle ABC$. Find all positions of $X$ such that $\\triangle MNP \\cong \\triangle ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1997"
+  }
+]

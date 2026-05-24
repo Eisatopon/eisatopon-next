@@ -1,0 +1,86 @@
+[
+  {
+    "id": "JUNIOR_BALKAN_MO_2005_P1",
+    "year": 2005,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $x, y$ satisfying $9(x^2 + y^2 + 1) + 2(3xy + 2) = 2005$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2005"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2005_P2",
+    "year": 2005,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ inscribed in circle $k$. The tangent from $A$ to $k$ meets $BC$ at $P$. $M$ is the midpoint of $AP$; $R$ is the second intersection of $k$ with line $BM$; $S \\neq R$ is the second intersection of $k$ with line $PR$. Prove $AP \\parallel CS$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2005"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2005_P3",
+    "year": 2005,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Prove there exist: (a) 5 points in the plane with at least 8 right-angled triangles among them; (b) 64 points with at least 2005 right-angled triangles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2005"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2005_P4",
+    "year": 2005,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all 3-digit numbers $\\overline{abc}$ such that $\\overline{abc} = \\overline{abc}(a+b+c)$, where $\\overline{abc}$ denotes the decimal representation.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2005"
+  }
+]

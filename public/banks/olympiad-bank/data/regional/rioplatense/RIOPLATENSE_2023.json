@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_2023_P1",
+    "year": 2023,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all triples $(x, y, p)$ of positive integers with $p$ prime, $p = x^2 + 1$, and $2p^2 = y^2 + 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2023"
+  },
+  {
+    "id": "RIOPLATENSE_2023_P2",
+    "year": 2023,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Convex quadrilateral $ABCD$ with $\\angle B = \\angle D = 90^\\circ$ and $AB > AD$. $P \\in AB$ with $AP = AD$. Lines $PD$ and $BC$ meet at $Q$. Perpendicular from $Q$ to $AC$ meets $AB$ at $R$. $S$ = foot of perpendicular from $D$ to $AC$. Prove $\\angle PSQ = \\angle RCP$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2023"
+  },
+  {
+    "id": "RIOPLATENSE_2023_P3",
+    "year": 2023,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A water city has platforms connected by bridges. A move: if $AB$ and $AC$ exist but $BC$ doesn't, replace $AB$ by $BC$. A configuration is \\textit{good} if the city is connected. Starting from any good configuration, prove any other good configuration with the same number of bridges can be reached using only allowed moves.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2023"
+  },
+  {
+    "id": "RIOPLATENSE_2023_P4",
+    "year": 2023,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Luffy has a box with number $X$ and a machine. Opening a box adds $X$ to score and destroys it. Putting $X$ in the machine gives two boxes: $X+1$ and $X-1$. Start with score 0 and one box containing 0. (a) Prove Luffy can guarantee score $\\geq 1000$. (b) Can Luffy guarantee score $\\geq 10^6$ while never going below $-42$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2023"
+  },
+  {
+    "id": "RIOPLATENSE_2023_P5",
+    "year": 2023,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all nonneg­ative reals $\\alpha$ for which there exists $f : \\mathbb{R}^+ \\to \\mathbb{R}^+$ with $f(x^\\alpha + y) = (f(x+y))^\\alpha + f(y)$ for all $x, y > 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2023"
+  },
+  {
+    "id": "RIOPLATENSE_2023_P6",
+    "year": 2023,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute $\\triangle ABC$ with $AB + BC = 4AC$, $D \\in AC$ is the foot of the bisector from $B$. $P, Q \\in BD$ with $BP = 2DQ$. The perpendicular from $Q$ to $BD$ meets $AB$ and $BC$ at $X, Y$. Line $L$ through $P$ parallel to $AC$; $B$ is on the opposite side of $L$ from $X, Y$. An ant goes $X \\to $ (point on $AC$) $\\to$ (point on $L$) $\\to$ (point on $AC$) $\\to Y$. Prove the minimum path length is $4XY$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2023"
+  }
+]

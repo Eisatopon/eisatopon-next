@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CONO_SUR_2005_P1",
+    "year": 2005,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a_n$ be the last digit of the digit sum of the number obtained by writing the block 2005 exactly $n$ times. Find $a_1 + a_2 + \\cdots + a_{2005}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2005"
+  },
+  {
+    "id": "CONO_SUR_2005_P2",
+    "year": 2005,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute $\\triangle ABC$, let $AN$, $BM$, $CP$ be altitudes. Let $R$, $S$ be projections of $N$ onto $AB$, $CA$; $Q$, $W$ projections of $N$ onto $BM$, $CP$. (a) Prove $R, Q, W, S$ are collinear. (b) Prove $MP = RS - QW$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2005"
+  },
+  {
+    "id": "CONO_SUR_2005_P3",
+    "year": 2005,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Three people each have 60 Reos in coins. Each can pay any integer from 1 to 15 Reos to another (with change). Show the three together can pay exactly any integer from 45 to 135 Reos.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2005"
+  },
+  {
+    "id": "CONO_SUR_2005_P4",
+    "year": 2005,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In isosceles $\\triangle ABC$ with $AB = AC$, a line $r$ through the incenter $I$ meets $AB$ at $D$ and $AC$ at $E$. Points $F, G \\in BC$ with $BF = CE$ and $CG = BD$. Show $\\angle FIG$ is constant as $r$ varies.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2005"
+  },
+  {
+    "id": "CONO_SUR_2005_P5",
+    "year": 2005,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A 20-digit number is \\textit{special} if it cannot be written as a product of a 10-digit number and an 11-digit number. Find the maximum number of consecutive special numbers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2005"
+  },
+  {
+    "id": "CONO_SUR_2005_P6",
+    "year": 2005,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Circles of radius $\\frac{1}{20}$ are drawn centered at every lattice point. Show that any circle of radius 100 intersects at least one of these small circles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2005"
+  }
+]

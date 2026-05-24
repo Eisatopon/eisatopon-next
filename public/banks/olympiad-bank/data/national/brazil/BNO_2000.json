@@ -1,0 +1,128 @@
+[
+  {
+    "id": "BRAZIL_2000_D1_P1",
+    "year": 2000,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A rectangular piece of paper has top edge $AD$. A line $L$ from $A$ to the bottom edge makes an angle $x$ with $AD$. To trisect $x$, take $B$ and $C$ on the vertical edge through $A$ with $AB = BC$, then fold the paper so that $C$ maps to a point $C'$ on $L$ and $A$ maps to a point $A'$ on the horizontal line through $B$; the fold takes $B$ to $B'$. Show that $AA'$ and $AB'$ are the required trisectors.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2000 Day 1"
+  },
+  {
+    "id": "BRAZIL_2000_D1_P2",
+    "year": 2000,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $s(n)$ be the sum of all positive divisors of $n$. We say $n$ is \\textit{almost perfect} if $s(n) = 2n - 1$. Let $t(n) = \\sum_{k=1}^{n} (n \\bmod k)$. Show that $n$ is almost perfect if and only if $t(n) = t(n-1)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2000 Day 1"
+  },
+  {
+    "id": "BRAZIL_2000_D1_P3",
+    "year": 2000,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Define $f$ on the positive integers by $f(n) = k^2 + k + 1$, where $n = 2^k(2l+1)$ for nonneg­ative integers $k$ and $l$. Find the smallest $n$ such that $f(1) + f(2) + \\cdots + f(n) \\geq 123456$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2000 Day 1"
+  },
+  {
+    "id": "BRAZIL_2000_D2_P4",
+    "year": 2000,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "An infinite road has traffic lights at intervals of $1500$ m. The lights are synchronized, alternately green for $\\frac{3}{2}$ minutes and red for $1$ minute. For which values of $v$ can a car travel at constant speed $v$ m/s without ever going through a red light?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2000 Day 2"
+  },
+  {
+    "id": "BRAZIL_2000_D2_P5",
+    "year": 2000,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $X$ be the set of all sequences $\\{a_1, a_2, \\ldots, a_{2000}\\}$ where each of the first $1000$ terms is $0$, $1$, or $2$, and each of the remaining terms is $0$ or $1$. The distance between two members $a$ and $b$ of $X$ is the number of indices $i$ for which $a_i \\neq b_i$. Find the number of functions $f : X \\to X$ that preserve distances.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2000 Day 2"
+  },
+  {
+    "id": "BRAZIL_2000_D2_P6",
+    "year": 2000,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "We have a wooden unit cube. We cut along every plane that is perpendicular to a segment joining two distinct vertices and bisects it. How many pieces do we get?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2000 Day 2"
+  }
+]

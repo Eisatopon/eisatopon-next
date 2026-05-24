@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ZHAUTYKOV_2011_P1",
+    "year": 2011,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Trapezoid $ABCD$ with $M, N$ midpoints of $AD, BC$. (a) Prove the trapezoid is isosceles if the intersection of the perpendicular bisectors of the legs lies on segment $MN$. (b) Is the statement true if it only lies on line $MN$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2011"
+  },
+  {
+    "id": "ZHAUTYKOV_2011_P2",
+    "year": 2011,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f : \\mathbb{R} \\to \\mathbb{R}$ with $f(x + f(y)) = f(x - f(y)) + 4xf(y)$ for all $x, y \\in \\mathbb{R}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2011"
+  },
+  {
+    "id": "ZHAUTYKOV_2011_P3",
+    "year": 2011,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "An ordered pair $(a, b)$ of positive integers is \\textit{interesting} if for any $n \\in \\mathbb{N}$ there exists $k \\in \\mathbb{N}$ with $2^n \\mid a^k + b$. Find all interesting pairs.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2011"
+  },
+  {
+    "id": "ZHAUTYKOV_2011_P4",
+    "year": 2011,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the maximum number of sets satisfying: (i) each set has 4 elements; (ii) any two sets share exactly 2 elements; (iii) no two elements belong to all the sets.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2011"
+  },
+  {
+    "id": "ZHAUTYKOV_2011_P5",
+    "year": 2011,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$M = \\{1,\\ldots,n^2-1\\}$. Call $a \\in M$ \\textit{good} if some $b \\in M$ has $n^2 \\mid ab - b$; call $a$ \\textit{very good} if $n^2 \\mid a^2 - a$. Let $g$ and $v$ count good and very good elements. Prove $v^2 + v \\leq g \\leq n^2 - n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2011"
+  },
+  {
+    "id": "ZHAUTYKOV_2011_P6",
+    "year": 2011,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Cyclic quadrilateral $ABCD$ with diagonals meeting at $K$; midpoints $M, N$ of $AC, BD$. Circumcircles of $\\triangle ADM$ and $\\triangle BCM$ meet at $M$ and $L$. Prove $K, L, M, N$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2011"
+  }
+]

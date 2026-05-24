@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_2022_P1",
+    "year": 2022,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove there exist infinitely many positive integers $n$ for which $x^2 + y^{11} - z^{2022!} = n$ has no integer solution $(x,y,z)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2022"
+  },
+  {
+    "id": "RIOPLATENSE_2022_P2",
+    "year": 2022,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute $\\triangle ABC$ with $AB < AC$, $D, E, F$ are feet of the altitudes from $A, B, C$. Circumcircle $\\Gamma$ of $\\triangle AEF$ meets the circumcircle of $\\triangle ABC$ at $A$ and $M$. Assume $BM$ is tangent to $\\Gamma$. Prove $M$, $F$, $D$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2022"
+  },
+  {
+    "id": "RIOPLATENSE_2022_P3",
+    "year": 2022,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $n$ be a positive integer and $x_1, \\ldots, x_n \\geq 0$. The \\textit{transformed sequence} $y_1, \\ldots, y_n$: $y_i$ is the maximum average of a consecutive sub-sequence containing $x_i$. Prove: (a) For any $t > 0$, $|\\{i : y_i > t\\}| \\leq \\frac{2}{t}(x_1+\\cdots+x_n)$. (b) $\\dfrac{y_1+\\cdots+y_n}{32n} \\leq \\sqrt{\\dfrac{x_1^2+\\cdots+x_n^2}{32n}}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2022"
+  },
+  {
+    "id": "RIOPLATENSE_2022_P4",
+    "year": 2022,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with incenter $I$, the incircle touches $BC$ at $D$. $P$ on ray $IB$ and $Q$ on ray $IC$ satisfy $\\angle IAP = \\angle CAD$ and $\\angle IAQ = \\angle BAD$. Prove $AP = AQ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2022"
+  },
+  {
+    "id": "RIOPLATENSE_2022_P5",
+    "year": 2022,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n \\geq 4$ lines in general position (no two parallel, no three concurrent) have $\\binom{n}{2}$ intersection points each with $k$ coins. Ana and Beto alternately remove a coin from a point not on any common line with the previous point. First unable to move loses; Ana starts. Determine who wins based on $n$ and $k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2022"
+  },
+  {
+    "id": "RIOPLATENSE_2022_P6",
+    "year": 2022,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A positive integer $N$ is on a board. Each round Olive may: (1) replace $N$ by any positive multiple; (2) replace $N$ by any rearrangement of its digits (leading zeros allowed). Find all $N$ for which Olive can reach 1.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2022"
+  }
+]

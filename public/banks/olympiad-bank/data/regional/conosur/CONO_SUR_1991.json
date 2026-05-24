@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CONO_SUR_1991_P1",
+    "year": 1991,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $A$, $B$, $C$ be non-collinear and $E \\neq B$ not on line $AC$. Construct parallelograms $ABCD$ and $AECF$. Prove $BE \\parallel DF$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1991"
+  },
+  {
+    "id": "CONO_SUR_1991_P2",
+    "year": 1991,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Two players alternate: if the last number is odd, add 7; if even, divide by 2. The winner is the player who first repeats the initial number. Find all starting numbers for which the first player wins.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1991"
+  },
+  {
+    "id": "CONO_SUR_1991_P3",
+    "year": 1991,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Assume the system $(y^2+6)(x-1) = y(x^2+1)$, $(x^2+6)(y-1) = x(y^2+1)$ has finitely many real solutions. Prove it has an even number of solutions.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1991"
+  },
+  {
+    "id": "CONO_SUR_1991_P4",
+    "year": 1991,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A $3 \\times 3$ grid of coins (black or white): choosing a border coin flips it and its neighbors; choosing the center flips all 8 surrounding coins but not the center. Starting with 9 white coins, is it possible to obtain 9 black coins?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1991"
+  },
+  {
+    "id": "CONO_SUR_1991_P5",
+    "year": 1991,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In a unit square $ABCD$, a square of side $x$ is placed inside. Find the radius $r$ of the circle tangent to two sides of $ABCD$ and tangent to the inner square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1991"
+  },
+  {
+    "id": "CONO_SUR_1991_P6",
+    "year": 1991,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For a positive integer $n$, let $f(n)$ be the average of all positive divisors of $n$. (a) Prove $\\dfrac{n+1}{2} \\geq f(n) \\geq \\sqrt{n}$. (b) Find all $n$ with $f(n) = \\dfrac{91}{9}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1991"
+  }
+]

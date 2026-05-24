@@ -1,0 +1,86 @@
+[
+  {
+    "id": "JUNIOR_BALKAN_MO_2022_P1",
+    "year": 2022,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all pairs of positive integers $(a,b)$ with $11ab \\leq a^3 - b^3 \\leq 12ab$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2022"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2022_P2",
+    "year": 2022,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with $AH = HD$ (where $H$ = orthocenter, $D$ = foot of altitude from $A$). Let $\\ell$ be the tangent to the circumcircle of $\\triangle BHC$ through $H$; $S, T$ = intersections of $\\ell$ with $AB, AC$; $M, N$ = midpoints of $BH, CH$. Prove $SM \\parallel TN$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2022"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2022_P3",
+    "year": 2022,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all quadruples $(p,q,a,b)$ of positive integers with $p, q$ prime and $a > 1$ such that $p^a = 1 + 5q^b$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2022"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2022_P4",
+    "year": 2022,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Call even positive integer $n$ \\textit{nice} if $\\{1,\\ldots,n\\}$ can be partitioned into $\\frac{n}{2}$ pairs each summing to a power of 3. Find the number of nice positive integers less than $3^{2022}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2022"
+  }
+]

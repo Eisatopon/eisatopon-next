@@ -1,0 +1,107 @@
+[
+  {
+    "id": "APMO_2006_P1",
+    "year": 2006,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $n$ be a positive integer. Find the largest nonneg­ative real $f(n)$ such that: whenever $a_1, \\ldots, a_n$ are reals with integer sum, some $a_i$ satisfies $\\left|a_i - \\dfrac{1}{2}\\right| \\geq f(n)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2006"
+  },
+  {
+    "id": "APMO_2006_P2",
+    "year": 2006,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that every positive integer can be written as a finite sum of distinct integral powers of the golden ratio.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2006"
+  },
+  {
+    "id": "APMO_2006_P3",
+    "year": 2006,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p \\geq 5$ be prime and $r$ the number of ways to place $p$ identical checkers on a $p \\times p$ board so that not all are in the same row. Show $r$ is divisible by $p^5$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2006"
+  },
+  {
+    "id": "APMO_2006_P4",
+    "year": 2006,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $AB$ be a chord of circle $O$, $P$ the midpoint of $AB$. Circle $O_1$ is tangent to $AB$ at $P$ and to $O$ internally. Line $\\ell \\neq AB$ is tangent to $O_1$ through $A$; $C = \\ell \\cap O$ ($C \\neq A$). $Q$ is the midpoint of $BC$; $O_2$ is tangent to $BC$ at $Q$ and to segment $AC$. Prove $O_2$ is tangent to $O$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2006"
+  },
+  {
+    "id": "APMO_2006_P5",
+    "year": 2006,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n$ clowns each use at least 5 of 12 distinct colours, no two with exactly the same set, and no colour used by more than 20 clowns. Find the largest possible $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2006"
+  }
+]

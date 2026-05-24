@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CONO_SUR_2019_P1",
+    "year": 2019,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Martin has 100 red balls (numbered 1–100) and 100 blue balls (numbered 101–200). He draws $a$ red and $b$ blue balls. Find the minimum $a+b$ such that among the drawn balls there are always two red balls and one blue ball with the two red numbers summing to the blue number.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CONO_SUR_2019_P2",
+    "year": 2019,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A $2n$-digit number $M$ is \\textit{hypersquared} if $M$ is a perfect square, its first $n$ digits form a perfect square, and its last $n$ digits form an $n$-digit perfect square. Find a hypersquared number with 2000 digits.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CONO_SUR_2019_P3",
+    "year": 2019,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n \\geq 3$. Do there exist permutations $(a_1,\\ldots,a_n)$ of $(1,\\ldots,n)$ and $(b_1,\\ldots,b_n)$ of $(n+1,\\ldots,2n)$ such that $(a_1b_1, a_2b_2, \\ldots, a_nb_n)$ is a strictly increasing arithmetic progression?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CONO_SUR_2019_P4",
+    "year": 2019,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all prime quadruples $(p, q, r, s)$ with $p^2 + 2019 = 26(q^2 + r^2 + s^2)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CONO_SUR_2019_P5",
+    "year": 2019,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In an $n \\times n$ board, fill each cell with 1 or 2 so that the sum of every $2 \\times 3$ and $3 \\times 2$ sub-board is even. How many ways can this be done?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CONO_SUR_2019_P6",
+    "year": 2019,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute $\\triangle ABC$ with $AB < AC$ and orthocenter $H$, let the circle with diameter $AH$ meet the circumcircle at $P \\neq A$. The tangent to the circumcircle at $P$ meets line $BC$ at $Q$. Show $QP = QH$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2019"
+  }
+]

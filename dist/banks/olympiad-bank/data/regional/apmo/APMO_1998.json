@@ -1,0 +1,107 @@
+[
+  {
+    "id": "APMO_1998_P1",
+    "year": 1998,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $\\mathcal{F}$ be the set of all $n$-tuples $(A_1, \\ldots, A_n)$ with each $A_i \\subseteq \\{1, \\ldots, 1998\\}$. Find $\\displaystyle\\sum_{(A_1,\\ldots,A_n) \\in \\mathcal{F}} |A_1 \\cup \\cdots \\cup A_n|$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1998"
+  },
+  {
+    "id": "APMO_1998_P2",
+    "year": 1998,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show that for any positive integers $a$ and $b$, $(36a + b)(a + 36b)$ cannot be a power of $2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1998"
+  },
+  {
+    "id": "APMO_1998_P3",
+    "year": 1998,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c > 0$. Prove that $\\left(1 + \\dfrac{a}{b}\\right)\\left(1 + \\dfrac{b}{c}\\right)\\left(1 + \\dfrac{c}{a}\\right) \\geq 2\\left(1 + \\dfrac{a+b+c}{\\sqrt[3]{abc}}\\right)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1998"
+  },
+  {
+    "id": "APMO_1998_P4",
+    "year": 1998,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle with altitude foot $D$ from $A$. Let $E$ and $F$ on a line through $D$ with $AE \\perp BE$ and $AF \\perp CF$. Let $M$, $N$ be midpoints of $BC$, $EF$ respectively. Prove $AN \\perp NM$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1998"
+  },
+  {
+    "id": "APMO_1998_P5",
+    "year": 1998,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the largest integer $n$ such that $n$ is divisible by all positive integers less than $\\sqrt[3]{n}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1998"
+  }
+]

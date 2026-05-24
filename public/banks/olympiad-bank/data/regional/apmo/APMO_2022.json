@@ -1,0 +1,107 @@
+[
+  {
+    "id": "APMO_2022_P1",
+    "year": 2022,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all pairs $(a,b)$ of positive integers such that $b^2 \\mid a^3$ and $(a-1) \\mid (b-1)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2022"
+  },
+  {
+    "id": "APMO_2022_P2",
+    "year": 2022,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In right $\\triangle ABC$ with $\\angle B = 90^\\circ$, $D$ is on line $CB$ with $B$ between $D$ and $C$. $E$ is the midpoint of $AD$; $F$ is the second intersection of the circumcircles of $\\triangle ACD$ and $\\triangle BDE$. Prove that as $D$ varies, line $EF$ passes through a fixed point.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2022"
+  },
+  {
+    "id": "APMO_2022_P3",
+    "year": 2022,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all $k$ with $1 \\leq k \\leq 201$ for which there exists a positive integer $n$ with $\\left\\lfloor\\dfrac{n}{202}\\right\\rfloor + \\left\\lfloor\\dfrac{2n}{202}\\right\\rfloor + \\cdots + \\left\\lfloor\\dfrac{kn}{202}\\right\\rfloor = \\dfrac{k}{2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2022"
+  },
+  {
+    "id": "APMO_2022_P4",
+    "year": 2022,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n$ marbles (labeled 1 to $n$) and $k$ boxes; all marbles start in one box. Each turn: choose a box, move the marble with the smallest label $i$ to an empty box or the box containing marble $i+1$. Cathy wins if some box contains only marble $n$. Find all $(n,k)$ for which Cathy can win.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2022"
+  },
+  {
+    "id": "APMO_2022_P5",
+    "year": 2022,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a^2 + b^2 + c^2 + d^2 = 1$. Find the minimum value of $(a-b)(b-c)(c-d)(d-a)$ and determine all $(a,b,c,d)$ achieving it.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2022"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "BRAZIL_2025_D1_P1",
+    "year": 2025,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that there is a positive integer $n$ and $2n$ non-negative real numbers $0 \\leq a_1 \\leq a_2 \\leq \\cdots \\leq a_n$ and $0 \\leq b_1 \\leq b_2 \\leq \\cdots \\leq b_n$ satisfying: (i) $a_1 + a_2 + \\cdots + a_n \\geq 2025^{2025}$; (ii) $b_1 + b_2 + \\cdots + b_n \\geq 2025^{2025}$; (iii) $c_1 + c_2 + \\cdots + c_n \\leq \\dfrac{1}{2025^{2025}}$, with $c_i = \\min(a_i, b_i)$ for $i \\in \\{1, 2, \\ldots, n\\}$. Also, find the minimum $n$ for which such numbers exist.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2025 Day 1"
+  },
+  {
+    "id": "BRAZIL_2025_D1_P2",
+    "year": 2025,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be an acute triangle with $AB < AC$ and let $\\Gamma$ be its circumcircle. Let $M$ be the midpoint of side $BC$ and define $D$, $E$ and $F$ as the feet of the altitudes corresponding to sides $BC$, $AC$ and $AB$, respectively. Let $N$ be the intersection of $AM$ and $EF$. Line $EF$ intersects $\\Gamma$ at $R$ and $S$ such that $R$ lies on the smaller arc $AB$ of $\\Gamma$ and $S$ lies on the smaller arc $AC$ of $\\Gamma$. Define $T$ as the intersection of lines $BS$ and $CR$. Prove that $AD$ is the angle bisector of $\\angle TDN$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2025 Day 1"
+  },
+  {
+    "id": "BRAZIL_2025_D1_P3",
+    "year": 2025,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $(a_n)_{n \\geq 1}$ be an infinite sequence of positive integers such that: (i) $a_1, a_2, \\ldots, a_{10000}$ are pairwise distinct positive integers; (ii) for $n > 10000$, $a_n$ is the least positive integer different from $a_1, a_2, \\ldots, a_{n-1}$ such that $|a_n - a_{n-1}|$ is a power of $2025$ (note that $1$ is a power of $2025$). Prove that every positive integer appears in the sequence.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2025 Day 1"
+  },
+  {
+    "id": "BRAZIL_2025_D2_P4",
+    "year": 2025,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For each positive integer $n$ define the sum $$f(n) = \\lfloor \\sqrt{1} \\rfloor + \\lfloor \\sqrt{2} \\rfloor + \\cdots + \\lfloor \\sqrt{n} \\rfloor.$$ Determine all integers $k$ such that there exists a positive integer $n$ satisfying $f(n) = nk$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2025 Day 2"
+  },
+  {
+    "id": "BRAZIL_2025_D2_P5",
+    "year": 2025,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n \\geq 4$ be a positive integer and let $\\mathcal{P}$ be an $n$-sided convex polygon. A set $\\mathcal{X}$ of the diagonals of $\\mathcal{P}$ is called \\textit{blocking} if any triangulation of $\\mathcal{P}$ has at least one diagonal in $\\mathcal{X}$. Determine, for each $n$, the least possible number of diagonals a blocking set $\\mathcal{X}$ can have.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2025 Day 2"
+  },
+  {
+    "id": "BRAZIL_2025_D2_P6",
+    "year": 2025,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a convex quadrilateral with $90^\\circ > \\angle ABC > \\angle CDA > \\angle DAB$. Let $\\mathcal{R}$ be the set of lines $\\ell$ such that there is a circle tangent to all four reflections of $\\ell$ over the four sides of $ABCD$. Prove that $\\mathcal{R}$ can be partitioned into 8 sets such that all the lines in any one set are either all concurrent or all parallel.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2025 Day 2"
+  }
+]

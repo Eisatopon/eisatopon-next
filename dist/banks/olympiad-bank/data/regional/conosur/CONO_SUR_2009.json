@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CONO_SUR_2009_P1",
+    "year": 2009,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Four circles determine 10 bounded regions. Numbers summing to 100 are placed in the regions (one per region). The sum in each circle equals $S$. Find the greatest and smallest possible values of $S$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2009"
+  },
+  {
+    "id": "CONO_SUR_2009_P2",
+    "year": 2009,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A hook consists of three unit segments forming two right angles. An $n \\times n$ grid is divided into unit squares. Hooks are placed so each segment of a hook covers one side of a small square, with no overlap. Find all $n$ for which this fully covers all sides.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2009"
+  },
+  {
+    "id": "CONO_SUR_2009_P3",
+    "year": 2009,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$A$, $B$, $C$ are collinear with $B$ the midpoint of $AC$; $P$ with $\\angle PBC = 60^\\circ$. Equilateral $\\triangle PCQ$ is on the opposite side of $PC$ from $B$; equilateral $\\triangle APR$ has $B$ and $R$ on the same side of $AP$. Let $X = BQ \\cap PC$ and $Y = BR \\cap AP$. Prove $XY \\parallel AC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2009"
+  },
+  {
+    "id": "CONO_SUR_2009_P4",
+    "year": 2009,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Andrea divides an $11 \\times 9$ table into 33 zones of 3 aligned cells. Bruno writes 0–5 in each cell so each zone sums to 5. Bruno wins if all 9 column sums are prime. Show Bruno always has a winning strategy.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2009"
+  },
+  {
+    "id": "CONO_SUR_2009_P5",
+    "year": 2009,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Given a sequence $C$ of 1001 positive reals and a set $K$ of positive integers, the permitted operation picks $k \\in K$, selects $k$ numbers, and replaces each by their mean. Find the minimum possible maximum element of $K$ that guarantees all numbers can be equalized.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2009"
+  },
+  {
+    "id": "CONO_SUR_2009_P6",
+    "year": 2009,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Sebastian has rectangles with total area 3 and all side lengths $\\leq 1$. Show they can be placed (sides parallel to axes, allowed to overlap or protrude) to cover a $1 \\times 1$ square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2009"
+  }
+]

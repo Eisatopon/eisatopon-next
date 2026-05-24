@@ -1,13 +1,19 @@
 [
   {
-    "id": "EGMO_2020_P1",
+    "id": "EGMO_2020_D1_P1",
     "year": 2020,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 1,
     "problem_id": "P1",
-    "topic": ["Number Theory"],
-    "statement": "The positive integers $a_0, a_1, a_2, \\ldots, a_{3030}$ satisfy\n\\[\n2a_{n+2} = a_{n+1} + 4a_n \\quad \\text{for } n = 0, 1, 2, \\ldots, 3028.\n\\]\nProve that at least one of the numbers $a_0, a_1, a_2, \\ldots, a_{3030}$ is divisible by $2^{2020}$.",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Positive integers $a_0, a_1, \\ldots, a_{3030}$ satisfy $2a_{n+2} = a_{n+1} + 4a_n$ for $n = 0, 1, \\ldots, 3028$. Prove at least one of these numbers is divisible by $2^{2020}$.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -15,14 +21,20 @@
     "source": "European Girls' Mathematical Olympiad 2020"
   },
   {
-    "id": "EGMO_2020_P2",
+    "id": "EGMO_2020_D1_P2",
     "year": 2020,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 1,
     "problem_id": "P2",
-    "topic": ["Algebra"],
-    "statement": "Find all lists $(x_1, x_2, \\ldots, x_{2020})$ of non-negative real numbers such that the following three conditions are all satisfied:\n\\begin{itemize}\n\\item $x_1 \\leq x_2 \\leq \\cdots \\leq x_{2020}$;\n\\item $x_{2020} \\leq x_1 + 1$;\n\\item there is a permutation $(y_1, y_2, \\ldots, y_{2020})$ of $(x_1, x_2, \\ldots, x_{2020})$ such that\n\\[\n\\sum_{i=1}^{2020} \\bigl((x_i + 1)(y_i + 1)\\bigr)^2 = 8\\sum_{i=1}^{2020} x_i^3.\n\\]\n\\end{itemize}",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all lists $(x_1, \\ldots, x_{2020})$ of nonneg­ative reals with $x_1 \\leq \\cdots \\leq x_{2020}$, $x_{2020} \\leq x_1 + 1$, and some permutation $(y_1, \\ldots, y_{2020})$ of $(x_1, \\ldots, x_{2020})$ satisfying $\\displaystyle\\sum_{i=1}^{2020}((x_i+1)(y_i+1))^2 = 8\\sum_{i=1}^{2020} x_i^3$.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -30,14 +42,20 @@
     "source": "European Girls' Mathematical Olympiad 2020"
   },
   {
-    "id": "EGMO_2020_P3",
+    "id": "EGMO_2020_D1_P3",
     "year": 2020,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 1,
     "problem_id": "P3",
-    "topic": ["Geometry"],
-    "statement": "Let $ABCDEF$ be a convex hexagon such that $\\angle A = \\angle C = \\angle E$ and $\\angle B = \\angle D = \\angle F$, and the interior angle bisectors of $\\angle A$, $\\angle C$, and $\\angle E$ are concurrent. Prove that the interior angle bisectors of $\\angle B$, $\\angle D$, and $\\angle F$ must also be concurrent.",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCDEF$ be a convex hexagon with $\\angle A = \\angle C = \\angle E$ and $\\angle B = \\angle D = \\angle F$, and the angle bisectors of $\\angle A, \\angle C, \\angle E$ concurrent. Prove the angle bisectors of $\\angle B, \\angle D, \\angle F$ are also concurrent.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -45,14 +63,20 @@
     "source": "European Girls' Mathematical Olympiad 2020"
   },
   {
-    "id": "EGMO_2020_P4",
+    "id": "EGMO_2020_D2_P4",
     "year": 2020,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 2,
     "problem_id": "P4",
-    "topic": ["Combinatorics"],
-    "statement": "A permutation of the integers $1, 2, \\ldots, m$ is called fresh if there exists no positive integer $k < m$ such that the first $k$ numbers in the permutation are $1, 2, \\ldots, k$ in some order. Let $f_m$ be the number of fresh permutations of the integers $1, 2, \\ldots, m$. Prove that $f_n \\geq n \\cdot f_{n-1}$ for all $n \\geq 3$.",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A permutation of $1, 2, \\ldots, m$ is \\textit{fresh} if no initial segment $\\{1, \\ldots, k\\}$ (for $k < m$) is itself an initial segment. Let $f_m$ count fresh permutations. Prove $f_n \\geq n \\cdot f_{n-1}$ for all $n \\geq 3$.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -60,14 +84,20 @@
     "source": "European Girls' Mathematical Olympiad 2020"
   },
   {
-    "id": "EGMO_2020_P5",
+    "id": "EGMO_2020_D2_P5",
     "year": 2020,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 2,
     "problem_id": "P5",
-    "topic": ["Geometry"],
-    "statement": "Consider triangle $ABC$ with $\\angle BCA > 90^\\circ$. The circumcircle $\\Gamma$ of $ABC$ has radius $R$. There is a point $P$ in the interior of line segment $AB$ such that $PB = PC$ and the length of $PA$ is $R$. The perpendicular bisector of $PB$ intersects $\\Gamma$ at the points $D$ and $E$. Prove that $P$ is the incentre of triangle $CDE$.",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with $\\angle BCA > 90^\\circ$ and circumradius $R$, let $P \\in AB$ with $PB = PC$ and $PA = R$. The perpendicular bisector of $PB$ meets the circumcircle at $D$ and $E$. Prove $P$ is the incenter of $\\triangle CDE$.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -75,14 +105,20 @@
     "source": "European Girls' Mathematical Olympiad 2020"
   },
   {
-    "id": "EGMO_2020_P6",
+    "id": "EGMO_2020_D2_P6",
     "year": 2020,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 2,
     "problem_id": "P6",
-    "topic": ["Number Theory"],
-    "statement": "Let $m > 1$ be an integer. A sequence $a_1, a_2, a_3, \\ldots$ is defined by $a_1 = a_2 = 1$, $a_3 = 4$, and for all $n \\geq 4$,\n\\[\na_n = m(a_{n-1} + a_{n-2}) - a_{n-3}.\n\\]\nDetermine all integers $m$ such that every term of the sequence is a perfect square.",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $m > 1$ be an integer. Define $a_1 = a_2 = 1$, $a_3 = 4$, and $a_n = m(a_{n-1}+a_{n-2}) - a_{n-3}$ for $n \\geq 4$. Find all $m$ such that every term of the sequence is a perfect square.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

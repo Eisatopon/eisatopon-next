@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_2019_P1",
+    "year": 2019,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In regular hexagon $ABCDEF$, choose $P \\in AB$, $Q \\in CD$, $R \\in DE$, $S \\in FA$ such that $PQRS$ is a square. Prove $PQ \\parallel BC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2019"
+  },
+  {
+    "id": "RIOPLATENSE_2019_P2",
+    "year": 2019,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f : \\mathbb{R} \\to \\mathbb{R}$ satisfying $f(f(x)^2 + f(y^2)) = (x-y)f(x-f(y))$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2019"
+  },
+  {
+    "id": "RIOPLATENSE_2019_P3",
+    "year": 2019,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In the dog dictionary, words use letters $A$ and $U$. The \\textit{profundity} of a word is the number of distinct subwords obtainable by deleting letters. For each positive integer $n$, find the maximum profundity of a word of length $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2019"
+  },
+  {
+    "id": "RIOPLATENSE_2019_P4",
+    "year": 2019,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove there are infinitely many triples $(a,b,c)$ of positive integers with $a,b,c > 1$, pairwise coprime, and $a + b + c \\mid ab + bc + ca$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2019"
+  },
+  {
+    "id": "RIOPLATENSE_2019_P5",
+    "year": 2019,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with $AB < AC$ and circumcircle $\\omega$, $M$, $N$ are midpoints of $AC$, $AB$, $G$ is the centroid, $P$ is the foot from $A$ to $BC$, $Q = GP \\cap \\omega$ (with $Q, P, G$ collinear in that order). Line $QM$ meets $\\omega$ at $M_1$; line $QN$ meets $\\omega$ at $N_1$; $K = BM_1 \\cap CN_1$. Prove $P$, $G$, $K$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2019"
+  },
+  {
+    "id": "RIOPLATENSE_2019_P6",
+    "year": 2019,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $\\alpha > 1$ be real and $a_n = \\alpha\\lfloor\\alpha^n\\rfloor - \\lfloor\\alpha^{n+1}\\rfloor$ for $n \\geq 1$. If $(a_n)$ is periodic, prove $\\alpha$ is an integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2019"
+  }
+]

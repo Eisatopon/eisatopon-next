@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CONO_SUR_1994_P1",
+    "year": 1994,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A positive integer $n$ has 1994 digits, 14 of which are 0, and the remaining digits 1–9 appear in proportion $1:2:3:4:5:6:7:8:9$. Prove $n$ is not a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1994"
+  },
+  {
+    "id": "CONO_SUR_1994_P2",
+    "year": 1994,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Consider a circle with diameter $AB = 1$. A sequence $P_0, P_1, P_2, \\ldots$ on the circle: $Q_n$ is the symmetric of $A$ with respect to $P_n$, and the line $BQ_n$ meets the circle at $P_{n+1}$. Prove one can choose $P_0$ with $\\angle P_0 AB < 1°$ and such that the sequence contains an equilateral triangle $\\triangle AP_k P_j$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1994"
+  },
+  {
+    "id": "CONO_SUR_1994_P3",
+    "year": 1994,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Given $p > 0$, find the minimum of $x^3 + y^3$ for positive reals $x, y$ with $xy(x+y) = p$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1994"
+  },
+  {
+    "id": "CONO_SUR_1994_P4",
+    "year": 1994,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Pedro chooses a positive integer $a$. Prove that Cecilia can always find a positive integer $b$ coprime to $a$ such that $a^3 + b^3$ has three distinct prime factors.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1994"
+  },
+  {
+    "id": "CONO_SUR_1994_P5",
+    "year": 1994,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Solve $x^2 + y^2 = 2z^2$ in integers with $\\gcd(x,y) = 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1994"
+  },
+  {
+    "id": "CONO_SUR_1994_P6",
+    "year": 1994,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In right $\\triangle ABC$ with $AC \\perp BC$, let $D \\in AB$ with $CD = k$ and equal inradii of $\\triangle ADC$ and $\\triangle CDB$. Prove the area of $\\triangle ABC$ equals $k^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1994"
+  }
+]

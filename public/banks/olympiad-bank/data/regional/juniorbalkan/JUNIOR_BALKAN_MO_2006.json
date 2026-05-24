@@ -1,0 +1,86 @@
+[
+  {
+    "id": "JUNIOR_BALKAN_MO_2006_P1",
+    "year": 2006,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "If $n > 4$ is composite, prove $2n \\mid (n-1)!$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2006"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2006_P2",
+    "year": 2006,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Isosceles $\\triangle ABC$ with $AB = AC$ and $\\angle BAC < 60^\\circ$. Points $D, E$ on $AC$ with $EB = ED$ and $\\angle ABD = \\angle CBE$. $O$ is the intersection of the internal bisectors of $\\angle BDC$ and $\\angle ACB$. Compute $\\angle COD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2006"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2006_P3",
+    "year": 2006,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A positive integer $n$ is \\textit{perfect} if the sum of its divisors equals $2n$. Find all perfect numbers $n$ for which $n-1$ and $n+1$ are both prime.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2006"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2006_P4",
+    "year": 2006,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Consider a $2n \\times 2n$ board. From row $i$, remove the central $2(i-1)$ unit squares. Find the maximum number of $1 \\times 2$ dominoes (horizontal or vertical) that can be placed on the resulting figure without overlap.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2006"
+  }
+]

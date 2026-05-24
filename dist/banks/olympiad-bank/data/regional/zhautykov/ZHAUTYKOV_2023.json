@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ZHAUTYKOV_2023_P1",
+    "year": 2023,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Peter writes $1, 2, \\ldots, 1001$ on 1001 cards arranged in a circle (face down). For each card $C$, $f(C)$ = number of the next 500 cards (clockwise) with a larger number. Prove Basil, seeing all $f(C)$ values, can determine the number on each card.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2023"
+  },
+  {
+    "id": "ZHAUTYKOV_2023_P2",
+    "year": 2023,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "The tangent to circumcircle $\\Omega$ of scalene $\\triangle ABC$ at $C$ meets $AB$ at $D$. A line through $D$ meets $AC, BC$ at $K, L$. On $AB$: $M$ with $AC \\parallel NL$ and $N$ with $BC \\parallel KM$. $P = NL \\cap KM$ (inside $\\triangle ABC$); $\\omega$ = circumcircle of $\\triangle MNP$; $Q$ = second intersection of $CP$ with $\\omega$. Show $DQ$ is tangent to $\\omega$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2023"
+  },
+  {
+    "id": "ZHAUTYKOV_2023_P3",
+    "year": 2023,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Natural numbers $a_1,\\ldots,a_k$ are given; $S(n)$ = number of solutions to $a_1x_1+\\cdots+a_kx_k = n$ in nonneg­ative integers; $S(n) > 0$ for all large $n$. Show $S(n+1) < 2S(n)$ for all sufficiently large $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2023"
+  },
+  {
+    "id": "ZHAUTYKOV_2023_P4",
+    "year": 2023,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "$n > 2$ nonzero reals sum to zero. Write all $2^n - 1$ nonempty subset sums in non-increasing order; the first is $S$. Find the smallest possible value of the second number.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2023"
+  },
+  {
+    "id": "ZHAUTYKOV_2023_P5",
+    "year": 2023,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Call $n$ \\textit{good} if $n = ax^2 + bxy + cy^2$ for integers $a,b,c,x,y$ with $b^2 - 4ac = -20$. Prove the product of any two good numbers is also good.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2023"
+  },
+  {
+    "id": "ZHAUTYKOV_2023_P6",
+    "year": 2023,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Blue and green rectangles (horizontal/vertical sides) are placed on the plane. Any blue rectangle and any green rectangle can be separated by a vertical or horizontal line. Prove one can choose a color and three lines (two horizontal, one vertical) such that every rectangle of the chosen color is intersected by at least one of the lines.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2023"
+  }
+]

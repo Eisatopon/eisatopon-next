@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_2013_P1",
+    "year": 2013,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c, d > 0$ with $a^2 + b^2 + c^2 + d^2 = 1$. Prove $(1-a)(1-b)(1-c)(1-d) \\geq abcd$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2013"
+  },
+  {
+    "id": "RIOPLATENSE_2013_P2",
+    "year": 2013,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In square $ABCD$, $E \\in AB$ and $F \\in BC$ with $BE = BF$. In $\\triangle EBC$, $N$ is the foot of the altitude to $EC$. $G = AD \\cap$ (line through $N$ parallel to the altitude). $P = FG \\cap EC$ and $T = NF \\cap DC$. Prove $DP \\perp BT$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2013"
+  },
+  {
+    "id": "RIOPLATENSE_2013_P3",
+    "year": 2013,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A group is \\textit{$k$-regular} if it is partitioned into $\\leq k$ groups with no two mutually acquainted in the same group. Groups $A$, $B$, $C$ of people: no person in $A$ knows any in $B$; $A \\cup C$ is $a$-regular and $B \\cup C$ is $b$-regular. Find the minimum $k$ guaranteeing $A \\cup B \\cup C$ is $k$-regular.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2013"
+  },
+  {
+    "id": "RIOPLATENSE_2013_P4",
+    "year": 2013,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Two players alternate drawing diagonals in a convex $n$-gon ($n \\geq 5$) without crossing previous ones. A player loses if after their turn a quadrilateral is formed whose two diagonals are not both drawn. Player $A$ starts. For each $n$, find a winning strategy.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2013"
+  },
+  {
+    "id": "RIOPLATENSE_2013_P5",
+    "year": 2013,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $n$ for which there exist two distinct $n$-digit numbers $\\overline{a_1\\cdots a_n}$ and $\\overline{b_1\\cdots b_n}$ such that the $2n$-digit number $\\overline{a_1\\cdots a_n b_1\\cdots b_n}$ is divisible by $\\overline{b_1\\cdots b_n a_1\\cdots a_n}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2013"
+  },
+  {
+    "id": "RIOPLATENSE_2013_P6",
+    "year": 2013,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute scalene $\\triangle ABC$ with orthocenter $G$ (centroid) and $H$ (orthocenter), the circle with diameter $AH$ meets the circumcircle of $\\triangle BHC$ at $A'$ ($\\neq H$). Define $B'$, $C'$ similarly. Show $A'$, $B'$, $C'$, $G$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2013"
+  }
+]

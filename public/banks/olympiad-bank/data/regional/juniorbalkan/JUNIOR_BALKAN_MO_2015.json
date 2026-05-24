@@ -1,0 +1,86 @@
+[
+  {
+    "id": "JUNIOR_BALKAN_MO_2015_P1",
+    "year": 2015,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all primes $a, b, c$ and positive integers $k$ satisfying $a^2 + b^2 + 16c^2 = 9k^2 + 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2015"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2015_P2",
+    "year": 2015,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c > 0$ with $a + b + c = 3$. Find the minimum of $A = \\dfrac{2-a^3}{a} + \\dfrac{2-b^3}{b} + \\dfrac{2-c^3}{c}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2015"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2015_P3",
+    "year": 2015,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute $\\triangle ABC$, lines $\\ell_1 \\perp AB$ at $A$ and $\\ell_2 \\perp AB$ at $B$. Perpendiculars from the midpoint $M$ of $AB$ to $AC$ and $BC$ meet $\\ell_1$ and $\\ell_2$ at $E$ and $F$. $D = EF \\cap MC$. Prove $\\angle ADB = \\angle EMF$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2015"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2015_P4",
+    "year": 2015,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "On a $5 \\times 5$ board, players $A$ and $B$ alternately mark cells ($A$ first) until $k$ cells are marked. A \\textit{good} placement of L-trominoes covers only unmarked cells without overlap. $B$ wins if every good placement leaves at least 3 unmarked cells uncovered. Find the minimum $k$ for which $B$ has a winning strategy.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2015"
+  }
+]

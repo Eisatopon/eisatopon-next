@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_2007_P1",
+    "year": 2007,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all $n \\in \\mathbb{N}$ such that an $n \\times n$ square can be divided into a $1 \\times 1$ square and five rectangles whose side lengths are 10 distinct natural numbers, all greater than 1.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2007"
+  },
+  {
+    "id": "RIOPLATENSE_2007_P2",
+    "year": 2007,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Triangle $ABC$ with incenter $I$. The circle centered at $I$ through $B$ meets $AC$ at $E$ and $F$ (distinct, between $A$ and $C$). The circumcircle of $\\triangle IEF$ meets $EB$ and $FB$ at $Q$ and $R$; line $QR$ meets $AB$ and $BC$ at $P$ and $S$. If $a, b, c$ are the lengths of $BC, CA, AB$, find $BP$ and $BS$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2007"
+  },
+  {
+    "id": "RIOPLATENSE_2007_P3",
+    "year": 2007,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p > 3$ be prime and $x_1, \\ldots, x_k$ ($2 < k < p$) distinct integers mod $p$, none divisible by $p$. Say $a \\in \\{1, \\ldots, p-1\\}$ is \\textit{good} if $r(ax_1) < r(ax_2) < \\cdots < r(ax_k)$. Show there are at most $\\left\\lfloor\\dfrac{2p}{k+1}\\right\\rfloor - 1$ good numbers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2007"
+  },
+  {
+    "id": "RIOPLATENSE_2007_P4",
+    "year": 2007,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f : \\mathbb{Z} \\to \\mathbb{Z}$ such that $f(x) + f(y) + f(z) = xyz$ whenever $x + y + z = 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2007"
+  },
+  {
+    "id": "RIOPLATENSE_2007_P5",
+    "year": 2007,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Divide each side of a triangle into 50 equal parts; join each division point to the opposite vertex. Find the number of intersection points (not counting the original vertices or division points).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2007"
+  },
+  {
+    "id": "RIOPLATENSE_2007_P6",
+    "year": 2007,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n > 2$. A set $A \\subseteq \\mathbb{R}$ is \\textit{$n$-small} if there exist $n$ reals $t_1, \\ldots, t_n$ with $t_1 + A, \\ldots, t_n + A$ all distinct. Show $\\mathbb{R}$ cannot be written as a union of $n - 1$ $n$-small sets.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2007"
+  }
+]

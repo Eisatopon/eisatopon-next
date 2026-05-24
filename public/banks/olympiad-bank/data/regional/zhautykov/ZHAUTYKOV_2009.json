@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ZHAUTYKOV_2009_P1",
+    "year": 2009,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all pairs of integers $(x,y)$ with $x^2 - 2009y + 2y^2 = 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2009"
+  },
+  {
+    "id": "ZHAUTYKOV_2009_P2",
+    "year": 2009,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all real $a$ for which there exists $f : \\mathbb{R} \\to \\mathbb{R}$ satisfying $x + af(y) \\leq y + f(f(x))$ for all $x, y \\in \\mathbb{R}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2009"
+  },
+  {
+    "id": "ZHAUTYKOV_2009_P3",
+    "year": 2009,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "For a convex hexagon $ABCDEF$ with area $S$, prove: $AC(BD+BF-DF) + CE(BD+DF-BF) + AE(BF+DF-BD) \\geq 2\\sqrt{3}\\,S$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2009"
+  },
+  {
+    "id": "ZHAUTYKOV_2009_P4",
+    "year": 2009,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Points $A_1, A_2, A_3, A_4$ on $y = x^2$ and $B_1, B_2, B_3, B_4$ on $y = 2009x^2$ have the same abscissas pairwise. If $A_1, A_2, A_3, A_4$ are concyclic, prove $B_1, B_2, B_3, B_4$ are also concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2009"
+  },
+  {
+    "id": "ZHAUTYKOV_2009_P5",
+    "year": 2009,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Quadrilateral $ABCD$ with $\\angle B = \\angle D = 90^\\circ$. $M \\in AB$ with $AD = AM$; rays $DM$ and $CB$ meet at $N$. $H$ and $K$ are feet of perpendiculars from $D$ and $C$ to lines $AC$ and $AN$. Prove $\\angle MHN = \\angle MCK$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2009"
+  },
+  {
+    "id": "ZHAUTYKOV_2009_P6",
+    "year": 2009,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In a $17 \\times 17$ table, $n$ squares are black. A line is any row, column, or main diagonal. In one step, if at least 6 squares of some line are black, all squares of that line become black. Find the minimum $n$ such that some initial arrangement leads to the entire table becoming black.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2009"
+  }
+]

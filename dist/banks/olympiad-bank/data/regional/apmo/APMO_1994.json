@@ -1,0 +1,107 @@
+[
+  {
+    "id": "APMO_1994_P1",
+    "year": 1994,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ satisfy: (i) $f(x) + f(y) + 1 \\geq f(x+y) \\geq f(x) + f(y)$; (ii) $f(0) \\geq f(x)$ for $x \\in [0,1)$; (iii) $-f(-1) = f(1) = 1$. Find all such $f$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1994"
+  },
+  {
+    "id": "APMO_1994_P2",
+    "year": 1994,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given a nondegenerate triangle $ABC$ with circumcentre $O$, orthocentre $H$, and circumradius $R$, prove that $|OH| < 3R$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1994"
+  },
+  {
+    "id": "APMO_1994_P3",
+    "year": 1994,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n = a^2 + b^2$ where $\\gcd(a,b) = 1$ and every prime $p \\leq \\sqrt{n}$ divides $ab$. Determine all such $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1994"
+  },
+  {
+    "id": "APMO_1994_P4",
+    "year": 1994,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Is there an infinite set of points in the plane such that no three are collinear and the distance between any two is rational?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1994"
+  },
+  {
+    "id": "APMO_1994_P5",
+    "year": 1994,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Given lists $A$ (powers of 10 in base 10), $B$ (same in base 2), $C$ (same in base 5). Prove that for every integer $n > 1$, exactly one number in exactly one of $B$ or $C$ has exactly $n$ digits.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 1994"
+  }
+]

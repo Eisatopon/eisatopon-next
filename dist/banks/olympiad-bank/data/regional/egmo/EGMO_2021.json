@@ -1,13 +1,19 @@
 [
   {
-    "id": "EGMO_2021_P1",
+    "id": "EGMO_2021_D1_P1",
     "year": 2021,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 1,
     "problem_id": "P1",
-    "topic": ["Number Theory"],
-    "statement": "The number $2021$ is fantabulous. For any positive integer $m$, if any element of the set $\\{m, 2m+1, 3m\\}$ is fantabulous, then all the elements are fantabulous. Does it follow that the number $2021^{2021}$ is fantabulous?",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "The number 2021 is \\textit{fantabulous}. For any positive integer $m$, if any element of $\\{m, 2m+1, 3m\\}$ is fantabulous, then all three are. Is $2021^{2021}$ fantabulous?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -15,14 +21,20 @@
     "source": "European Girls' Mathematical Olympiad 2021"
   },
   {
-    "id": "EGMO_2021_P2",
+    "id": "EGMO_2021_D1_P2",
     "year": 2021,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 1,
     "problem_id": "P2",
-    "topic": ["Algebra"],
-    "statement": "Find all functions $f : \\mathbb{Q} \\to \\mathbb{Q}$ such that the equation\n\\[\nf(xf(x) + y) = f(y) + x^2\n\\]\nholds for all rational numbers $x$ and $y$.",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f : \\mathbb{Q} \\to \\mathbb{Q}$ such that $f(xf(x) + y) = f(y) + x^2$ for all $x, y \\in \\mathbb{Q}$.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -30,14 +42,20 @@
     "source": "European Girls' Mathematical Olympiad 2021"
   },
   {
-    "id": "EGMO_2021_P3",
+    "id": "EGMO_2021_D1_P3",
     "year": 2021,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 1,
     "problem_id": "P3",
-    "topic": ["Geometry"],
-    "statement": "Let $ABC$ be a triangle with an obtuse angle at $A$. Let $E$ and $F$ be the intersections of the external bisector of angle $A$ with the altitudes of $ABC$ through $B$ and $C$ respectively. Let $M$ and $N$ be the points on the segments $EC$ and $FB$ respectively such that $\\angle EMA = \\angle BCA$ and $\\angle ANF = \\angle ABC$. Prove that the points $E$, $F$, $N$, $M$ lie on a circle.",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\triangle ABC$ have an obtuse angle at $A$. Let $E$ and $F$ be the intersections of the external bisector of $\\angle A$ with the altitudes through $B$ and $C$. Let $M \\in EC$ and $N \\in FB$ with $\\angle EMA = \\angle BCA$ and $\\angle ANF = \\angle ABC$. Prove $E, F, N, M$ lie on a circle.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -45,14 +63,20 @@
     "source": "European Girls' Mathematical Olympiad 2021"
   },
   {
-    "id": "EGMO_2021_P4",
+    "id": "EGMO_2021_D2_P4",
     "year": 2021,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 2,
     "problem_id": "P4",
-    "topic": ["Geometry"],
-    "statement": "Let $ABC$ be a triangle with incenter $I$ and let $D$ be an arbitrary point on side $BC$. Let the line through $D$ perpendicular to $BI$ intersect $CI$ at $E$. Let the line through $D$ perpendicular to $CI$ intersect $BI$ at $F$. Prove that the reflection of $A$ across the line $EF$ lies on the line $BC$.",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\triangle ABC$ have incenter $I$ and $D \\in BC$. Let the line through $D$ perpendicular to $BI$ meet $CI$ at $E$; let the line through $D$ perpendicular to $CI$ meet $BI$ at $F$. Prove the reflection of $A$ over line $EF$ lies on line $BC$.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -60,14 +84,20 @@
     "source": "European Girls' Mathematical Olympiad 2021"
   },
   {
-    "id": "EGMO_2021_P5",
+    "id": "EGMO_2021_D2_P5",
     "year": 2021,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 2,
     "problem_id": "P5",
-    "topic": ["Combinatorics"],
-    "statement": "A plane has a special point $O$ called the origin. Let $P$ be a set of $2021$ points in the plane such that no three points in $P$ lie on a line and no two points in $P$ lie on a line through the origin. A triangle with vertices in $P$ is fat if $O$ is strictly inside the triangle. Find the maximum number of fat triangles.",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A plane has a special origin $O$. Let $P$ be a set of 2021 points with no three collinear and no two on a line through $O$. A triangle with vertices in $P$ is \\textit{fat} if $O$ is strictly inside it. Find the maximum number of fat triangles.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -75,14 +105,20 @@
     "source": "European Girls' Mathematical Olympiad 2021"
   },
   {
-    "id": "EGMO_2021_P6",
+    "id": "EGMO_2021_D2_P6",
     "year": 2021,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 2,
     "problem_id": "P6",
-    "topic": ["Number Theory"],
-    "statement": "Does there exist a nonnegative integer $a$ for which the equation\n\\[\n\\left\\lfloor \\frac{m}{1} \\right\\rfloor + \\left\\lfloor \\frac{m}{2} \\right\\rfloor + \\left\\lfloor \\frac{m}{3} \\right\\rfloor + \\cdots + \\left\\lfloor \\frac{m}{m} \\right\\rfloor = n^2 + a\n\\]\nhas more than one million different solutions $(m, n)$ where $m$ and $n$ are positive integers?",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Does there exist a nonneg­ative integer $a$ for which $\\left\\lfloor\\dfrac{m}{1}\\right\\rfloor + \\left\\lfloor\\dfrac{m}{2}\\right\\rfloor + \\cdots + \\left\\lfloor\\dfrac{m}{m}\\right\\rfloor = n^2 + a$ has more than one million solutions $(m, n)$ in positive integers?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_2005_P1",
+    "year": 2005,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all $n$ expressible as $n = k + 2\\lfloor\\sqrt{k}\\rfloor + 2$ for some nonneg­ative integer $k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2005"
+  },
+  {
+    "id": "RIOPLATENSE_2005_P2",
+    "year": 2005,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In trapezoid $ABCD$, $AB + CD = BD$. Let $M$ be the midpoint of $BC$ and $E$ the reflection of $C$ over line $DM$. Prove $\\angle AEB = \\angle ACD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2005"
+  },
+  {
+    "id": "RIOPLATENSE_2005_P3",
+    "year": 2005,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the largest positive integer $n$ not divisible by 10 which is a multiple of each number obtained by deleting two consecutive digits from $n$ (neither the first nor last digit).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2005"
+  },
+  {
+    "id": "RIOPLATENSE_2005_P4",
+    "year": 2005,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $P$ be inside triangle $ABC$ with circumradius $R$. Prove $\\dfrac{PA}{AB \\cdot AC} + \\dfrac{PB}{BC \\cdot BA} + \\dfrac{PC}{CA \\cdot CB} \\geq \\dfrac{1}{R}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2005"
+  },
+  {
+    "id": "RIOPLATENSE_2005_P5",
+    "year": 2005,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Consider all finite sequences of positive reals, each term $\\leq 3$, with sum $> 100$. For each, let $S$ be the sum of the subsequence closest to 100, and the defect is $|S - 100|$. Find the maximum possible defect.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2005"
+  },
+  {
+    "id": "RIOPLATENSE_2005_P6",
+    "year": 2005,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $k \\geq 1$. Show that for all $n > k$ there exist convex figures $F_1, \\ldots, F_n$ and $F$ such that no $k$-element subset of $\\{F_1, \\ldots, F_n\\}$ covers $F$, but every $(k+1)$-element subset does.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2005"
+  }
+]

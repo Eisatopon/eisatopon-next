@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CONO_SUR_1996_P1",
+    "year": 1996,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A large square is divided into two smaller squares and three rectangles. Each small square has area $a$, each rectangle has area $b$. If $a + b = 24$ and $\\sqrt{a}$ is a natural number, find all possible areas of the large square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1996"
+  },
+  {
+    "id": "CONO_SUR_1996_P2",
+    "year": 1996,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A sequence satisfies $a_{n+1} = a_n + \\frac{1}{a_n}$. Prove that for any positive real $a_0$, we have $a_{1996} > 63$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1996"
+  },
+  {
+    "id": "CONO_SUR_1996_P3",
+    "year": 1996,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A store sells bottles of 1 to 1996 liters. Two bottles have the same price iff their capacities $m, n$ (with $m > n$) satisfy $m - n = 1000$; a bottle of $m$ liters ($1 \\leq m \\leq 1000$) costs $1996 - m$ dollars. Find all pairs with $m + n = 1996$ of minimal total cost from which any integer $k \\in [1, 1996]$ liters can be measured.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1996"
+  },
+  {
+    "id": "CONO_SUR_1996_P4",
+    "year": 1996,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Start with the sequence $0, \\underbrace{1, 1, \\ldots, 1}_{1995}$. Repeatedly select some numbers (not all) and replace one of them by the arithmetic mean of the chosen ones. Prove all 1996 numbers can be made equal.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1996"
+  },
+  {
+    "id": "CONO_SUR_1996_P5",
+    "year": 1996,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Completely cover a $k \\times k$ square ($k > 1$ integer) using $1$ rectangle of size $1\\times1$, $2$ of size $2\\times1$, $4$ of size $3\\times1$, $\\ldots$, $2^n$ of size $(n+1)\\times1$, without overlapping or extending beyond. Find all valid $k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1996"
+  },
+  {
+    "id": "CONO_SUR_1996_P6",
+    "year": 1996,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Find all integers $n \\geq 3$ for which there exists a set $S_n$ of $n$ points in the plane such that: no three are collinear, and no point lies inside the circle with diameter determined by any two points of $S_n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1996"
+  }
+]

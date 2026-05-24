@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_2003_P1",
+    "year": 2003,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $x, y, z > 0$ with $x^2 + y^2 + z^2 = 1$. Prove $x^2yz + xy^2z + xyz^2 \\leq \\dfrac{1}{3}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2003"
+  },
+  {
+    "id": "RIOPLATENSE_2003_P2",
+    "year": 2003,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Triangle $ABC$ inscribed in circle $\\Gamma$. Circle $\\Gamma_a$ is internally tangent to $\\Gamma$ and tangent to sides $AB$ and $AC$; let $A'$ be its tangency point with $\\Gamma$. Define $B'$, $C'$ similarly. Prove $AA'$, $BB'$, $CC'$ are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2003"
+  },
+  {
+    "id": "RIOPLATENSE_2003_P3",
+    "year": 2003,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "An $8 \\times 8$ chessboard is tiled with $1\\times3$ rectangles and T-shaped tetrominoes. (a) What is the maximum number of pieces? (b) How many tilings achieve this maximum?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2003"
+  },
+  {
+    "id": "RIOPLATENSE_2003_P4",
+    "year": 2003,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Inside right angle $\\angle XAY$ (with $A$ the vertex) is a semicircle $\\Gamma$ with center on $AX$ and tangent to $AY$ at $A$. Construct (with ruler and compass) the tangent to $\\Gamma$ such that the triangle enclosed by the tangent and the angle has minimum area.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2003"
+  },
+  {
+    "id": "RIOPLATENSE_2003_P5",
+    "year": 2003,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n$ infinite arithmetic progressions of nonneg­ative integers cover: among any $k$ consecutive nonneg­ative integers, at least one belongs to some progression. Let $d = \\min\\{d_1, \\ldots, d_n\\}$ (the common differences). Find the maximum possible value of $d$ in terms of $n$ and $k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2003"
+  },
+  {
+    "id": "RIOPLATENSE_2003_P6",
+    "year": 2003,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Hexagonal tiles (without overlap) are placed inside an isosceles right triangle of area 1 (hypotenuse horizontal), with the longest side of each tile parallel to the hypotenuse and ordered by decreasing distance. Find the smallest $\\lambda$ such that any such configuration has total area less than $\\lambda$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2003"
+  }
+]

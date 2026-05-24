@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ZHAUTYKOV_2019_P1",
+    "year": 2019,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove there are at least $100!$ ways to write $100!$ as a sum of elements of $\\{1!, 2!, \\ldots, 99!\\}$ (repetition allowed).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2019"
+  },
+  {
+    "id": "ZHAUTYKOV_2019_P2",
+    "year": 2019,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find the largest real $C$ such that for every collection of distinct positive reals $a_1,\\ldots,a_{2019}$, $\\dfrac{|a_2-a_3|}{a_1} + \\dfrac{|a_3-a_4|}{a_2} + \\cdots + \\dfrac{|a_1-a_2|}{a_{2019}} > C$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2019"
+  },
+  {
+    "id": "ZHAUTYKOV_2019_P3",
+    "year": 2019,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Median $CM$ of $\\triangle ABC$ meets the circumcircle at $N$. $P, Q$ on rays $CA, CB$ with $PM \\parallel BN$ and $QM \\parallel AN$. $X \\in PM$ and $Y \\in QM$ with $PY$ and $QX$ tangent to the circumcircle. $Z = PY \\cap QX$. Prove $MXZY$ is cyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2019"
+  },
+  {
+    "id": "ZHAUTYKOV_2019_P4",
+    "year": 2019,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Isosceles $\\triangle ABC$ with $AC = BC$; $D \\in AC$. Circle $S_1$ (radius $R$, center $O_1$) is tangent to $AD$ and extensions of $AB$ and $BD$. Circle $S_2$ (radius $2R$, center $O_2$) is tangent to $CD$ and extensions of $BC$ and $BD$. $F$ is the intersection of the extension of $AB$ and the tangent at $O_2$ to the circumcircle of $\\triangle BO_1O_2$. Prove $FO_1 = O_1O_2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2019"
+  },
+  {
+    "id": "ZHAUTYKOV_2019_P5",
+    "year": 2019,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For $n > 1$, let $I$ be the set of integers coprime to $n$. Define $f : I \\to \\mathbb{N}$; call $f$ \\textit{$k$-periodic} if $f(a) = f(b)$ whenever $k \\mid a - b$. $f$ is known to be $n$-periodic. Prove the minimal period of $f$ divides all other periods.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2019"
+  },
+  {
+    "id": "ZHAUTYKOV_2019_P6",
+    "year": 2019,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Two operations on degree-3 polynomials: (a) permute coefficients (including zero coefficients); (b) replace $P(x)$ by $P(x+1)$. Starting from $x^3 - 2$, can one obtain $x^3 - 3x^2 + 3x - 3$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2019"
+  }
+]

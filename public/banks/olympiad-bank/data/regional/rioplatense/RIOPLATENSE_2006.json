@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_2006_P1",
+    "year": 2006,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "(a) For each $k \\geq 3$, find a positive integer $n$ equal to the sum of exactly $k$ distinct positive divisors of $n$. (b) If $n$ is such a sum for some $k \\geq 3$ with smallest prime divisor $p$, show $\\dfrac{1}{p} + \\dfrac{1}{p+1} + \\cdots + \\dfrac{1}{p+k-1} \\geq 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2006"
+  },
+  {
+    "id": "RIOPLATENSE_2006_P2",
+    "year": 2006,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Convex quadrilateral $ABCD$ with $AB = AD$ and $CB = CD$. The bisector of $\\angle BDC$ meets $BC$ at $L$; $AL$ meets $BD$ at $M$; $BL = BM$. Find $2\\angle BAD + 3\\angle BCD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2006"
+  },
+  {
+    "id": "RIOPLATENSE_2006_P3",
+    "year": 2006,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Numbers $1, 2, \\ldots, 2006$ are written around a circle. A move exchanges two adjacent numbers. After moves, each number is 13 positions to the right of its start. If $\\{1,\\ldots,2006\\}$ is partitioned into 1003 pairs, show at least one move exchanges the two numbers of some pair.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2006"
+  },
+  {
+    "id": "RIOPLATENSE_2006_P4",
+    "year": 2006,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with $AB \\neq AC$, circumcircle $\\Gamma$, circumcenter $O$, orthocenter $H$. Midpoint of $BC$ is $M$; median $AM$ extended meets $\\Gamma$ at $N$. Circle with diameter $AM$ meets $\\Gamma$ again at $P$ (besides $A$). Show $AP$, $BC$, $OH$ are concurrent iff $AH = HN$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2006"
+  },
+  {
+    "id": "RIOPLATENSE_2006_P5",
+    "year": 2006,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Finitely many lines in the plane (no two parallel, no three concurrent) divide the plane into regions; write $1$ or $-1$ in each finite region. An operation multiplies all entries in a triangle formed by three of the lines by $-1$. Can one always reach all $1$s regardless of the initial assignment?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2006"
+  },
+  {
+    "id": "RIOPLATENSE_2006_P6",
+    "year": 2006,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "An infinite sequence $x_1, x_2, \\ldots$ of positive integers satisfies $x_{n+2} = \\gcd(x_{n+1}, x_n) + 2006$ for all $n$. Does there exist such a sequence containing exactly $10^{2006}$ distinct values?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2006"
+  }
+]

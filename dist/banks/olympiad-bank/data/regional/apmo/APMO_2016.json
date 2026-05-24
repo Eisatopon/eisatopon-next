@@ -1,0 +1,107 @@
+[
+  {
+    "id": "APMO_2016_P1",
+    "year": 2016,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Call $\\triangle ABC$ \\textit{great} if for any $D$ on $BC$, the reflection of $D$ over the line through the feet of perpendiculars from $D$ to $AB$ and $AC$ lies on the circumcircle. Prove $\\triangle ABC$ is great iff $\\angle A = 90^\\circ$ and $AB = AC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2016"
+  },
+  {
+    "id": "APMO_2016_P2",
+    "year": 2016,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A positive integer is \\textit{fancy} if it equals $2^{a_1} + 2^{a_2} + \\cdots + 2^{a_{100}}$ for nonneg­ative integers $a_i$. Find the smallest $n$ such that no multiple of $n$ is fancy.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2016"
+  },
+  {
+    "id": "APMO_2016_P3",
+    "year": 2016,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Rays $AB$ and $AC$ are distinct, $\\omega$ has center $O$ tangent to $AC$ at $E$ and $AB$ at $F$. $R \\in EF$. Line through $O$ parallel to $EF$ meets $AB$ at $P$. $N = PR \\cap AC$; $M$ is the intersection of $AB$ with the line through $R$ parallel to $AC$. Prove $MN$ is tangent to $\\omega$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2016"
+  },
+  {
+    "id": "APMO_2016_P4",
+    "year": 2016,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Dreamland has 2016 cities; Starways assigns exactly one outgoing flight per city. Find the smallest $k$ such that the cities can always be partitioned into $k$ groups with no city reaching another in the same group by at most 28 flights.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2016"
+  },
+  {
+    "id": "APMO_2016_P5",
+    "year": 2016,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f : \\mathbb{R}^+ \\to \\mathbb{R}^+$ such that $(z+1)f(x+y) = f(xf(z)+y) + f(yf(z)+x)$ for all $x,y,z > 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2016"
+  }
+]

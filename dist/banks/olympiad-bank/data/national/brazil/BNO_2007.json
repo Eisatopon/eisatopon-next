@@ -1,0 +1,128 @@
+[
+  {
+    "id": "BRAZIL_2007_D1_P1",
+    "year": 2007,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $f(x) = x^2 + 2007x + 1$. Prove that for every positive integer $n$, the equation $\\underbrace{f(f(\\cdots(f}_{n\\text{ times}}(x))\\cdots)) = 0$ has at least one real solution.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2007 Day 1"
+  },
+  {
+    "id": "BRAZIL_2007_D1_P2",
+    "year": 2007,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the number of integers $c$ with $-2007 \\leq c \\leq 2007$ such that there exists an integer $x$ for which $x^2 + c$ is a multiple of $2^{2007}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2007 Day 1"
+  },
+  {
+    "id": "BRAZIL_2007_D1_P3",
+    "year": 2007,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Consider $n$ points in the plane that are the vertices of a convex polygon. Prove that the set of lengths of the sides and diagonals of the polygon has at least $\\lfloor n/2 \\rfloor$ elements.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2007 Day 1"
+  },
+  {
+    "id": "BRAZIL_2007_D2_P4",
+    "year": 2007,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$2007^2$ unit squares are arranged forming a $2007 \\times 2007$ table. Arnold and Bernold play the following game: each move by Arnold consists of taking four unit squares forming a $2 \\times 2$ square; each move by Bernold consists of taking a single unit square. They alternate, with Arnold going first. When Arnold cannot make a move, Bernold takes all remaining unit squares. The player with more unit squares wins. Is it possible for Bernold to win regardless of how Arnold plays?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2007 Day 2"
+  },
+  {
+    "id": "BRAZIL_2007_D2_P5",
+    "year": 2007,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a convex quadrilateral, $P$ the intersection of lines $AB$ and $CD$, $Q$ the intersection of lines $AD$ and $BC$, and $O$ the intersection of diagonals $AC$ and $BD$. Show that if $\\angle POQ = 90^\\circ$, then $PO$ is the bisector of $\\angle AOD$ and $OQ$ is the bisector of $\\angle AOB$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2007 Day 2"
+  },
+  {
+    "id": "BRAZIL_2007_D2_P6",
+    "year": 2007,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Given real numbers $x_1 < x_2 < \\cdots < x_n$ such that every real number occurs at most twice among the differences $x_j - x_i$ for $1 \\leq i < j \\leq n$, prove that there are at least $\\lfloor n/2 \\rfloor$ real numbers that occur exactly once among such differences.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2007 Day 2"
+  }
+]

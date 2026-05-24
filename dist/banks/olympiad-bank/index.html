@@ -3,17 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Math Olympiad Bank</title>
+<title>Math Olympiad Bank · EisatoponAI</title>
 
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>">
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <script>
 window.MathJax = {
-  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] }
+  tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']] }
 };
 </script>
 <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -22,27 +21,30 @@ window.MathJax = {
 
 <style>
 :root {
-  --primary: #1a2744;
-  --primary-light: #2d3f6b;
-  --gold: #c9a227;
-  --teal: #0f6e56;
-  --purple: #534ab7;
-  --bg: #f0f4f8;
-  --panel: #ffffff;
-  --text: #1a2744;
-  --shadow-sm: 0 2px 8px rgba(0,0,0,.08);
-  --shadow-md: 0 4px 16px rgba(0,0,0,.12);
-  --shadow-lg: 0 8px 24px rgba(0,0,0,.15);
-  --color-national: #1a2744;
-  --color-tst: #534ab7;
+  --navy:        #0b1628;
+  --navy-mid:    #111f3a;
+  --navy-light:  #1a2f52;
+  --gold:        #c9a227;
+  --gold-dim:    rgba(201,162,39,.18);
+  --teal:        #1D9E75;
+  --purple:      #534ab7;
+  --text:        #e8eef6;
+  --text-muted:  rgba(232,238,246,.55);
+  --text-dim:    rgba(232,238,246,.35);
+  --panel:       rgba(255,255,255,.04);
+  --panel-hover: rgba(255,255,255,.07);
+  --border:      rgba(255,255,255,.09);
+  --glow:        0 0 40px rgba(201,162,39,.12);
+  --color-national: #2563eb;
+  --color-tst:      #7c3aed;
   --color-regional: #0f6e56;
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  font-family: 'STIX Two Text', Georgia, serif;
-  background: var(--bg);
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--navy);
   color: var(--text);
   line-height: 1.7;
   min-height: 100vh;
@@ -50,131 +52,207 @@ body {
   flex-direction: column;
 }
 
+/* subtle noise texture overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+}
+
 main {
   flex: 1;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0 24px 60px;
+  position: relative;
+  z-index: 1;
 }
 
-/* ===== HEADER ===== */
-.header {
-  background: var(--primary);
-  color: #fff;
-  padding: clamp(20px,4vw,35px) 20px;
+/* ===== HERO ===== */
+.hero {
   text-align: center;
-  margin: -20px -20px 20px;
-  border-radius: 0 0 12px 12px;
+  padding: clamp(48px,8vw,80px) 20px clamp(36px,6vw,56px);
+  position: relative;
 }
 
-.header h1 {
-  font-size: clamp(1.5rem,4vw,2.2rem);
-  font-weight: 700;
-  letter-spacing: .4px;
-  margin-bottom: 5px;
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 50%;
+  transform: translateX(-50%);
+  width: 280px; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  opacity: .4;
 }
 
-.header p {
-  font-size: clamp(.9rem,2.5vw,1rem);
+.hero-eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--gold);
   opacity: .85;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-family: 'STIX Two Text', Georgia, serif;
+  font-size: clamp(2.4rem, 6vw, 3.8rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -.5px;
+  color: var(--text);
   margin-bottom: 16px;
 }
 
-.stats-row {
-  display: flex;
-  justify-content: center;
-  gap: clamp(16px,4vw,36px);
-  flex-wrap: wrap;
-  margin-top: 12px;
+.hero h1 span {
+  background: linear-gradient(135deg, var(--gold) 0%, #e8c84a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-.stat { text-align: center; }
-.stat-num { font-size: clamp(1.1rem,3vw,1.5rem); font-weight: 700; color: var(--gold); }
-.stat-label { font-size: 11px; opacity: .7; letter-spacing: .3px; }
+.hero-sub {
+  font-family: 'STIX Two Text', Georgia, serif;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: var(--text-muted);
+  max-width: 560px;
+  margin: 0 auto 32px;
+  line-height: 1.6;
+}
 
-/* ===== TYPE LEGEND ===== */
+/* living archive tagline */
+.archive-tagline {
+  font-family: 'STIX Two Text', Georgia, serif;
+  font-style: italic;
+  font-size: clamp(.9rem,2vw,1rem);
+  color: var(--gold);
+  opacity: .72;
+  text-align: center;
+  margin: 28px 0 36px;
+  letter-spacing: .2px;
+}
+
+/* ===== LEGEND ===== */
 .legend {
   display: flex;
-  gap: 12px;
+  gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 16px;
+  margin-bottom: 28px;
 }
 
 .legend-item {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   font-size: 13px;
-  color: var(--text);
+  color: var(--text-muted);
+  font-weight: 500;
 }
 
 .legend-dot {
-  width: 14px;
-  height: 14px;
-  border-radius: 3px;
+  width: 10px; height: 10px;
+  border-radius: 50%;
   flex-shrink: 0;
 }
 
 /* ===== CONTROLS ===== */
 .controls {
   background: var(--panel);
-  border-radius: 12px;
-  padding: clamp(14px,3vw,20px);
-  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: clamp(20px,3vw,28px);
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 16px;
   align-items: flex-end;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
+  backdrop-filter: blur(12px);
 }
 
 .controls label {
   font-weight: 600;
-  font-size: clamp(.82rem,2vw,.92rem);
+  font-size: 15px;
+  color: var(--text-muted);
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  flex: 1 1 130px;
+  gap: 8px;
+  flex: 1 1 150px;
+  letter-spacing: .2px;
 }
 
 .controls select {
-  padding: 9px 11px;
-  border: 2px solid #e0e0e0;
-  border-radius: 8px;
-  font-size: clamp(13px,2.5vw,14px);
-  background: #fff;
-  transition: border-color .2s;
+  padding: 11px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 16px;
+  background: rgba(255,255,255,.06);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  transition: border-color .2s, box-shadow .2s, background .2s;
   width: 100%;
-  font-family: inherit;
-}
-
-.controls select:focus { outline: none; border-color: var(--primary); }
-
-.controls button {
-  padding: 10px 22px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 700;
-  font-size: 14px;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23c9a227' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 36px;
   cursor: pointer;
-  background: var(--primary);
-  color: #fff;
-  transition: all .2s;
-  min-height: 44px;
-  align-self: flex-end;
 }
 
-.controls button:hover { background: var(--primary-light); transform: translateY(-1px); }
+.controls select:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px var(--gold-dim);
+  background-color: rgba(255,255,255,.09);
+}
+
+.controls select option {
+  background: #1a2f52;
+  color: var(--text);
+}
+
+.controls select:hover {
+  border-color: rgba(201,162,39,.4);
+}
+
+.search-btn {
+  padding: 13px 32px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  background: linear-gradient(135deg, var(--gold) 0%, #b8911f 100%);
+  color: #0b1628;
+  transition: all .2s;
+  min-height: 48px;
+  align-self: flex-end;
+  letter-spacing: .3px;
+  white-space: nowrap;
+  box-shadow: 0 4px 16px rgba(201,162,39,.25);
+}
+
+.search-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(201,162,39,.4);
+}
+
+.search-btn:active { transform: translateY(0); }
 
 /* ===== INFO ===== */
 .info {
   text-align: center;
-  color: var(--primary);
-  font-weight: 600;
-  font-size: clamp(.88rem,2vw,.98rem);
-  margin: 8px 0 16px;
+  color: var(--text-muted);
+  font-size: 14px;
+  margin: 10px 0 20px;
+  min-height: 20px;
 }
 
 /* ===== PROBLEM CARDS ===== */
@@ -182,90 +260,112 @@ main {
 
 .problem-card {
   background: var(--panel);
-  border-radius: 10px;
-  padding: clamp(15px,3.5vw,22px);
-  box-shadow: var(--shadow-sm);
-  border-left: 6px solid var(--primary);
-  transition: box-shadow .2s;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: clamp(18px,3.5vw,26px);
+  border-left: 4px solid var(--navy-light);
+  transition: box-shadow .2s, background .2s, border-color .2s;
+  backdrop-filter: blur(8px);
 }
 
-.problem-card:hover { box-shadow: var(--shadow-md); }
-.problem-card.type-national { border-left-color: var(--color-national); }
-.problem-card.type-tst { border-left-color: var(--color-tst); }
-.problem-card.type-regional { border-left-color: var(--color-regional); }
+.problem-card:hover {
+  background: var(--panel-hover);
+  box-shadow: var(--glow);
+}
+
+.problem-card.scope-national  { border-left-color: var(--color-national); }
+.problem-card.scope-tst       { border-left-color: var(--color-tst); }
+.problem-card.scope-regional  { border-left-color: var(--color-regional); }
 
 /* ===== BADGES ===== */
 .badge-row {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
   align-items: center;
 }
 
 .badge {
-  padding: 3px 11px;
+  padding: 4px 12px;
   border-radius: 999px;
-  font-size: clamp(11px,2vw,12.5px);
+  font-size: 12px;
   font-weight: 700;
-  color: #fff;
-  letter-spacing: .2px;
+  letter-spacing: .3px;
   white-space: nowrap;
+  font-family: 'Inter', sans-serif;
 }
 
-.badge.type-national { background: var(--color-national); }
-.badge.type-tst { background: var(--color-tst); }
-.badge.type-regional { background: var(--color-regional); }
-.badge.topic-algebra { background: #6a1b9a; }
-.badge.topic-geometry { background: #1565c0; }
-.badge.topic-nt { background: #2e7d32; }
-.badge.topic-combo { background: #e65100; }
-.badge.topic-other { background: #546e7a; }
-.badge.olympiad-name { background: #37474f; }
-.badge.diff { background: #795548; }
+.badge.scope-national  { background: rgba(37,99,235,.25); color: #93b4f8; border: 1px solid rgba(37,99,235,.3); }
+.badge.scope-tst       { background: rgba(124,58,237,.25); color: #c4b5fd; border: 1px solid rgba(124,58,237,.3); }
+.badge.scope-regional  { background: rgba(15,110,86,.3); color: #6ee7b7; border: 1px solid rgba(15,110,86,.4); }
+.badge.topic-algebra   { background: rgba(126,34,206,.2); color: #d8b4fe; border: 1px solid rgba(126,34,206,.3); }
+.badge.topic-geometry  { background: rgba(29,78,216,.2); color: #93c5fd; border: 1px solid rgba(29,78,216,.3); }
+.badge.topic-nt        { background: rgba(4,120,87,.2); color: #6ee7b7; border: 1px solid rgba(4,120,87,.3); }
+.badge.topic-combo     { background: rgba(180,83,9,.2); color: #fcd34d; border: 1px solid rgba(180,83,9,.3); }
+.badge.topic-other     { background: rgba(100,116,139,.2); color: #94a3b8; border: 1px solid rgba(100,116,139,.3); }
+.badge.olympiad-name   { background: rgba(255,255,255,.07); color: var(--text-muted); border: 1px solid var(--border); }
 
 .problem-checkbox {
-  width: 20px; height: 20px;
+  width: 18px; height: 18px;
   cursor: pointer;
-  accent-color: var(--primary);
+  accent-color: var(--gold);
   flex-shrink: 0;
-  margin-right: 4px;
+  margin-right: 2px;
 }
 
 /* ===== PROBLEM TEXT ===== */
 .problem-text {
-  font-size: clamp(14.5px,2.8vw,17px);
-  line-height: 1.85;
+  font-family: 'STIX Two Text', Georgia, serif;
+  font-size: clamp(15px, 2.8vw, 17.5px);
+  line-height: 1.9;
+  color: rgba(232,238,246,.88);
   text-align: justify;
   hyphens: auto;
   overflow-wrap: break-word;
 }
 
-/* ===== FLOATING MENU ===== */
+/* ===== LOAD MORE ===== */
+.load-more-btn {
+  display: block;
+  margin: 24px auto 0;
+  padding: 12px 36px;
+  background: var(--panel);
+  color: var(--gold);
+  border: 1px solid rgba(201,162,39,.3);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .2s;
+  font-family: 'Inter', sans-serif;
+}
+.load-more-btn:hover { background: var(--gold-dim); border-color: var(--gold); }
+
+/* ===== FLOATING ===== */
 .floating-menu {
   position: fixed;
   bottom: clamp(20px,4vw,28px);
   right: clamp(20px,4vw,28px);
-  background: var(--gold);
-  color: var(--primary);
-  padding: 13px 22px;
+  background: linear-gradient(135deg, var(--gold) 0%, #b8911f 100%);
+  color: #0b1628;
+  padding: 14px 24px;
   border-radius: 50px;
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 8px 32px rgba(201,162,39,.35);
   font-weight: 700;
-  font-size: clamp(13px,2.5vw,15px);
+  font-size: 14px;
   cursor: pointer;
   transition: transform .2s;
   z-index: 1000;
   display: none;
   align-items: center;
-  gap: 8px;
-  min-height: 50px;
+  gap: 10px;
+  font-family: 'Inter', sans-serif;
 }
-
-.floating-menu:hover { transform: scale(1.05); }
+.floating-menu:hover { transform: scale(1.04); }
 .floating-menu .count {
-  background: var(--primary);
-  color: #fff;
+  background: #0b1628;
+  color: var(--gold);
   padding: 3px 10px;
   border-radius: 20px;
   font-size: 13px;
@@ -276,104 +376,85 @@ main {
   display: none;
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,.85);
+  background: rgba(0,0,0,.88);
   z-index: 2000;
   overflow-y: auto;
   padding: clamp(15px,3vw,30px);
+  backdrop-filter: blur(4px);
 }
-
 .modal-content {
   max-width: 900px;
   margin: clamp(20px,5vw,50px) auto;
-  background: white;
-  padding: clamp(20px,5vw,40px);
-  border-radius: 15px;
+  background: var(--navy-mid);
+  border: 1px solid var(--border);
+  padding: clamp(24px,5vw,44px);
+  border-radius: 18px;
   position: relative;
 }
-
 .modal-close {
-  position: absolute;
-  top: 12px; right: 12px;
+  position: absolute; top: 14px; right: 14px;
   border: none; background: none;
-  font-size: 28px; cursor: pointer;
-  color: #666; width: 44px; height: 44px;
-  display: flex; align-items: center; justify-content: center;
-  border-radius: 50%;
-  transition: background .2s;
+  font-size: 26px; cursor: pointer; color: var(--text-muted);
+  width: 44px; height: 44px; display: flex;
+  align-items: center; justify-content: center;
+  border-radius: 50%; transition: background .2s;
 }
-
-.modal-close:hover { background: #f5f5f5; }
-
+.modal-close:hover { background: var(--panel-hover); }
 .modal h2 {
   text-align: center;
-  color: var(--primary);
+  color: var(--text);
   margin-bottom: 28px;
   font-size: clamp(1.4rem,4vw,1.9rem);
+  font-family: 'STIX Two Text', serif;
 }
-
 .modal-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  justify-content: center;
-  margin-top: 28px;
+  display: flex; flex-wrap: wrap; gap: 12px;
+  justify-content: center; margin-top: 28px;
 }
-
 .modal-buttons button {
-  padding: 11px 28px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 700;
-  font-size: 15px;
-  cursor: pointer;
-  transition: all .2s;
-  min-height: 44px;
-  flex: 1 1 auto;
-  min-width: 140px;
-  color: white;
+  padding: 12px 28px; border: none; border-radius: 10px;
+  font-weight: 700; font-size: 15px; cursor: pointer;
+  transition: all .2s; min-height: 46px; flex: 1 1 auto;
+  min-width: 140px; font-family: 'Inter', sans-serif;
 }
-
-.btn-download { background: var(--primary); }
-.btn-download:hover { background: var(--primary-light); }
-.btn-qr { background: var(--gold); color: var(--primary); }
-.btn-clear { background: #e53935; }
-.btn-clear:hover { background: #c62828; }
+.btn-download { background: linear-gradient(135deg,var(--gold),#b8911f); color: #0b1628; }
+.btn-qr { background: var(--teal); color: #fff; }
+.btn-clear { background: #c62828; color: #fff; }
 
 /* ===== EMPTY STATE ===== */
-.empty-state {
-  text-align: center;
-  padding: 60px 20px;
-  color: #90a4ae;
-}
-
-.empty-state .icon { font-size: 48px; margin-bottom: 12px; }
-.empty-state p { font-size: 16px; }
+.empty-state { text-align: center; padding: 60px 20px; color: var(--text-dim); }
+.empty-state .icon { font-size: 48px; margin-bottom: 14px; }
+.empty-state p { font-size: 17px; }
 
 /* ===== FOOTER ===== */
 footer {
-  background: var(--primary);
-  color: #fff;
+  background: var(--navy-mid);
+  border-top: 1px solid var(--border);
+  color: var(--text-dim);
   text-align: center;
-  padding: 16px;
-  font-size: .88rem;
+  padding: 20px;
+  font-size: .85rem;
   margin-top: auto;
-  opacity: .95;
+  position: relative;
+  z-index: 1;
 }
+
+footer a { color: var(--gold); text-decoration: none; opacity: .8; }
+footer a:hover { opacity: 1; }
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 640px) {
   .controls { flex-direction: column; }
   .controls label { flex: 1 1 100%; }
+  .search-btn { width: 100%; justify-content: center; }
 }
 
 @media print {
-  header, .controls, .legend, .floating-menu, footer { display: none !important; }
-  .problem-card { page-break-inside: avoid; box-shadow: none; border: 1px solid #ddd; }
+  .hero, .controls, .legend, .floating-menu, footer, .archive-tagline { display: none !important; }
+  body { background: #fff; color: #000; }
+  .problem-card { page-break-inside: avoid; box-shadow: none; border: 1px solid #ddd; background: #fff; }
   .problem-checkbox { display: none; }
-}
-
-@supports (-webkit-touch-callout: none) {
-  .floating-menu { bottom: calc(env(safe-area-inset-bottom) + 20px); }
+  .problem-text { color: #000; }
 }
 </style>
 </head>
@@ -381,24 +462,20 @@ footer {
 <body>
 <main>
 
-  <!-- HEADER -->
-  <div class="header">
-    <div style="display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;margin-bottom:8px;">
-      <div style="font-size:36px;">🏆</div>
-      <div>
-        <h1>Math Olympiad Bank</h1>
-        <p>National Olympiads · Team Selection Tests · Regional Competitions</p>
-      </div>
-    </div>
-    <div class="stats-row">
-      <div class="stat"><div class="stat-num" id="statProblems">—</div><div class="stat-label">problems</div></div>
-      <div class="stat"><div class="stat-num">19</div><div class="stat-label">countries</div></div>
-      <div class="stat"><div class="stat-num">9</div><div class="stat-label">regional olympiads</div></div>
-      <div class="stat"><div class="stat-num" id="statYears">—</div><div class="stat-label">years of archive</div></div>
-    </div>
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-eyebrow">EisatoponAI · Mathematical Archive</div>
+    <h1>Math Olympiad <span>Bank</span></h1>
+    <p class="hero-sub">National Olympiads · Team Selection Tests · Regional Competitions</p>
   </div>
 
-  <!-- TYPE LEGEND -->
+  <!-- LIVING ARCHIVE TAGLINE -->
+  <p class="archive-tagline">
+    An evolving archive of mathematical challenges from around the world —<br>
+    new problems and competitions added continuously.
+  </p>
+
+  <!-- LEGEND -->
   <div class="legend">
     <div class="legend-item">
       <div class="legend-dot" style="background:var(--color-national)"></div>
@@ -416,33 +493,33 @@ footer {
 
   <!-- CONTROLS -->
   <section class="controls">
-    <label>Type:
-      <select id="fType">
+    <label>Scope:
+      <select id="fScope">
         <option value="all">All types</option>
         <option value="national">National</option>
         <option value="tst">TST</option>
         <option value="regional">Regional</option>
       </select>
     </label>
-    <label>Olympiad / Country:
-      <select id="fOlympiad">
-        <option value="all">All</option>
-      </select>
+    <label>Olympiad:
+      <select id="fOlympiad"><option value="all">All</option></select>
     </label>
     <label>Year:
-      <select id="fYear">
-        <option value="all">All years</option>
-      </select>
+      <select id="fYear"><option value="all">All years</option></select>
     </label>
     <label>Topic:
       <select id="fTopic">
         <option value="all">All topics</option>
+        <option value="Algebra">Algebra</option>
+        <option value="Geometry">Geometry</option>
+        <option value="Number Theory">Number Theory</option>
+        <option value="Combinatorics">Combinatorics</option>
       </select>
     </label>
-    <button id="searchBtn">🔍 Search</button>
+    <button class="search-btn" id="searchBtn">Explore Problems →</button>
   </section>
 
-  <div class="info" id="resultsInfo">Select filters and press Search.</div>
+  <div class="info" id="resultsInfo">Select filters and press Explore.</div>
   <div class="problems" id="results"></div>
 
 </main>
@@ -468,114 +545,70 @@ footer {
 </div>
 
 <footer>
-  eisatoponAI — Math Olympiad Bank &nbsp;·&nbsp; National · TST · Regional
+  <a href="https://eisatopon.gr" target="_blank">EisatoponAI</a> &nbsp;·&nbsp;
+  Math Olympiad Bank &nbsp;·&nbsp;
+  National · TST · Regional
 </footer>
 
 <script>
 (function() {
 
-  // ===== CONFIG =====
   const DATA_BASE = './data';
 
-  // All olympiads config (mirrors olympiads.json)
   const OLYMPIADS = {
-    // NATIONAL
-    vmo:         { name:'Vietnam MO',        shortName:'VMO',       flag:'🇻🇳', type:'national', country:'Vietnam',     color:'#c62828', startYear:1962 },
-    'cmo-canada':{ name:'Canadian MO',       shortName:'CMO',       flag:'🇨🇦', type:'national', country:'Canada',      color:'#c62828', startYear:1969 },
-    usamo:       { name:'USA MO',            shortName:'USAMO',     flag:'🇺🇸', type:'national', country:'USA',         color:'#1a237e', startYear:1972 },
-    obmu:        { name:'Brazilian MO',      shortName:'OBMU',      flag:'🇧🇷', type:'national', country:'Brazil',      color:'#1b5e20', startYear:1979 },
-    itamo:       { name:'Italian MO',        shortName:'ITAMO',     flag:'🇮🇹', type:'national', country:'Italy',       color:'#1b5e20', startYear:1985 },
-    'german-mo': { name:'German MO',         shortName:'MO-DE',     flag:'🇩🇪', type:'national', country:'Germany',     color:'#212121', startYear:1961 },
-    kmo:         { name:'Korean MO',         shortName:'KMO',       flag:'🇰🇷', type:'national', country:'South Korea', color:'#c62828', startYear:1988 },
-    'cmo-china': { name:'Chinese MO',        shortName:'CMO',       flag:'🇨🇳', type:'national', country:'China',       color:'#c62828', startYear:1985 },
-    tmo:         { name:'Turkish MO',        shortName:'TMO',       flag:'🇹🇷', type:'national', country:'Turkey',      color:'#c62828', startYear:1993 },
-    ome:         { name:'Spanish MO',        shortName:'OME',       flag:'🇪🇸', type:'national', country:'Spain',       color:'#c62828', startYear:1963 },
-    jmo:         { name:'Japan MO',          shortName:'JMO',       flag:'🇯🇵', type:'national', country:'Japan',       color:'#c62828', startYear:1991 },
-    rmo:         { name:'Romanian MO',       shortName:'RMO',       flag:'🇷🇴', type:'national', country:'Romania',     color:'#c62828', startYear:1995 },
-    'emo-greece':{ name:'Greek MO',          shortName:'EMO',       flag:'🇬🇷', type:'national', country:'Greece',      color:'#1565c0', startYear:1987 },
-    'pmo-poland':{ name:'Polish MO',         shortName:'PMO',       flag:'🇵🇱', type:'national', country:'Poland',      color:'#c62828', startYear:1949 },
-    hkmo:        { name:'Hong Kong MO',      shortName:'HKMO',      flag:'🇭🇰', type:'national', country:'Hong Kong',   color:'#c62828', startYear:1986 },
-    inmo:        { name:'Indian MO',         shortName:'INMO',      flag:'🇮🇳', type:'national', country:'India',       color:'#e65100', startYear:1989 },
-    'imo-iran':  { name:'Iranian MO',        shortName:'Iran MO',   flag:'🇮🇷', type:'national', country:'Iran',        color:'#1b5e20', startYear:1990 },
-    samo:        { name:'Saudi Arabian MO',  shortName:'SAMO',      flag:'🇸🇦', type:'national', country:'Saudi Arabia',color:'#1b5e20', startYear:2004 },
-    'tmo-thai':  { name:'Thailand MO',       shortName:'ThMO',      flag:'🇹🇭', type:'national', country:'Thailand',    color:'#1a237e', startYear:1998 },
-    // TST (same countries, different id pattern)
-    'vmo-tst':       { name:'Vietnam TST',      shortName:'VMO-TST',   flag:'🇻🇳', type:'tst', country:'Vietnam',     color:'#534ab7', startYear:1990 },
-    'canada-tst':    { name:'Canada TST',        shortName:'CAN-TST',   flag:'🇨🇦', type:'tst', country:'Canada',      color:'#534ab7', startYear:1995 },
-    'usa-tst':       { name:'USA TST',           shortName:'USA-TST',   flag:'🇺🇸', type:'tst', country:'USA',         color:'#534ab7', startYear:2000 },
-    'brazil-tst':    { name:'Brazil TST',        shortName:'BRA-TST',   flag:'🇧🇷', type:'tst', country:'Brazil',      color:'#534ab7', startYear:2000 },
-    'italy-tst':     { name:'Italy TST',         shortName:'ITA-TST',   flag:'🇮🇹', type:'tst', country:'Italy',       color:'#534ab7', startYear:2000 },
-    'germany-tst':   { name:'Germany TST',       shortName:'GER-TST',   flag:'🇩🇪', type:'tst', country:'Germany',     color:'#534ab7', startYear:2000 },
-    'korea-tst':     { name:'Korea TST',         shortName:'KOR-TST',   flag:'🇰🇷', type:'tst', country:'South Korea', color:'#534ab7', startYear:2000 },
-    'china-tst':     { name:'China TST',         shortName:'CHN-TST',   flag:'🇨🇳', type:'tst', country:'China',       color:'#534ab7', startYear:1985 },
-    'turkey-tst':    { name:'Turkey TST',        shortName:'TUR-TST',   flag:'🇹🇷', type:'tst', country:'Turkey',      color:'#534ab7', startYear:2000 },
-    'japan-tst':     { name:'Japan TST',         shortName:'JPN-TST',   flag:'🇯🇵', type:'tst', country:'Japan',       color:'#534ab7', startYear:2000 },
-    'romania-tst':   { name:'Romania TST',       shortName:'ROM-TST',   flag:'🇷🇴', type:'tst', country:'Romania',     color:'#534ab7', startYear:1995 },
-    'greece-tst':    { name:'Greece TST',        shortName:'GRE-TST',   flag:'🇬🇷', type:'tst', country:'Greece',      color:'#534ab7', startYear:2000 },
-    'poland-tst':    { name:'Poland TST',        shortName:'POL-TST',   flag:'🇵🇱', type:'tst', country:'Poland',      color:'#534ab7', startYear:2000 },
-    'hk-tst':        { name:'Hong Kong TST',     shortName:'HK-TST',    flag:'🇭🇰', type:'tst', country:'Hong Kong',   color:'#534ab7', startYear:2000 },
-    'india-tst':     { name:'India TST',         shortName:'IND-TST',   flag:'🇮🇳', type:'tst', country:'India',       color:'#534ab7', startYear:2000 },
-    'iran-tst':      { name:'Iran TST',          shortName:'IRN-TST',   flag:'🇮🇷', type:'tst', country:'Iran',        color:'#534ab7', startYear:2000 },
-    'saudi-tst':     { name:'Saudi Arabia TST',  shortName:'SAU-TST',   flag:'🇸🇦', type:'tst', country:'Saudi Arabia',color:'#534ab7', startYear:2004 },
-    'thailand-tst':  { name:'Thailand TST',      shortName:'THA-TST',   flag:'🇹🇭', type:'tst', country:'Thailand',    color:'#534ab7', startYear:2000 },
-    // REGIONAL
-    mediterranean: { name:'Mediterranean MO',     shortName:'MMO',      flag:'🌊', type:'regional', color:'#1565c0', startYear:1969 },
-    'pan-african': { name:'Pan African MO',        shortName:'PAMO',     flag:'🌍', type:'regional', color:'#e65100', startYear:1987 },
-    francophone:   { name:'Francophone MO',        shortName:'OIF',      flag:'🌐', type:'regional', color:'#283593', startYear:1991 },
-    balkan:        { name:'Balkan MO',             shortName:'BMO',      flag:'🌐', type:'regional', color:'#0f6e56', startYear:1984 },
-    baltic:        { name:'Baltic Way',            shortName:'Baltic',   flag:'🌐', type:'regional', color:'#00838f', startYear:1990 },
-    egmo:          { name:'EGMO',                  shortName:'EGMO',     flag:'🌐', type:'regional', color:'#880e4f', startYear:2012 },
-    centroamerican:{ name:'CentroAmerican MO',     shortName:'OMCC',     flag:'🌎', type:'regional', color:'#2e7d32', startYear:1999 },
-    apmo:          { name:'Asia Pacific MO',       shortName:'APMO',     flag:'🌏', type:'regional', color:'#e65100', startYear:1989 },
-    'austrian-polish':{ name:'Austrian-Polish MO', shortName:'APMO-AT',  flag:'🌐', type:'regional', color:'#b71c1c', startYear:1978 },
+    BNO:        { name:'Brazil National MO',    shortName:'BNO',       flag:'🇧🇷', scope:'national', country:'Brazil',      startYear:1979 },
+    VMO:        { name:'Vietnam MO',            shortName:'VMO',       flag:'🇻🇳', scope:'national', country:'Vietnam',     startYear:1962 },
+    BNO_TST:    { name:'Brazil TST',            shortName:'BNO-TST',   flag:'🇧🇷', scope:'tst',      country:'Brazil',      startYear:1997 },
+    CHINA_TST:  { name:'China TST',             shortName:'CHN-TST',   flag:'🇨🇳', scope:'tst',      country:'China',       startYear:1986 },
+    BALKAN_MO:  { name:'Balkan MO',             shortName:'BMO',       flag:'🌐',  scope:'regional', region:'balkan',       startYear:1984 },
+    BENELUX:    { name:'Benelux MO',            shortName:'BENELUX',   flag:'🌐',  scope:'regional', region:'benelux',      startYear:2009 },
+    PAMO:       { name:'Pan-African MO',        shortName:'PAMO',      flag:'🌍',  scope:'regional', region:'pan_african',  startYear:2000 },
+    APMO:       { name:'Asia Pacific MO',       shortName:'APMO',      flag:'🌏',  scope:'regional', region:'asia_pacific', startYear:1989 },
+    EGMO:       { name:"European Girls' MO",    shortName:'EGMO',      flag:'🌐',  scope:'regional', region:'european_girls',startYear:2012 },
+    CONO_SUR:   { name:'Cono Sur MO',           shortName:'Cono Sur',  flag:'🌎',  scope:'regional', region:'cono_sur',     startYear:1989 },
   };
 
-  // Build URL for a given olympiad+year
   function buildURL(olympiadId, year) {
     const o = OLYMPIADS[olympiadId];
     if (!o) return null;
-    const country = o.country ? o.country.toLowerCase().replace(/\s+/g,'-') : '';
     const filename = `${olympiadId}_${year}.json`;
-    if (o.type === 'national') {
-      return `${DATA_BASE}/national/${country}/${filename}`;
-    } else if (o.type === 'tst') {
-      return `${DATA_BASE}/tst/${country}/${filename}`;
+    if (o.scope === 'national' || o.scope === 'tst') {
+      return `${DATA_BASE}/national/${olympiadId}/${filename}`;
     } else {
       return `${DATA_BASE}/regional/${olympiadId}/${filename}`;
     }
   }
 
-  // ===== STATE =====
+  // STATE
   let loadedProblems = [];
   let selectedProblems = new Set();
-  let showCapNotice = false;
+  let currentList = [];
+  let currentPage = 1;
+  const PAGE_SIZE = 20;
 
-  // ===== DOM =====
-  const fType     = document.getElementById('fType');
+  // DOM
+  const fScope    = document.getElementById('fScope');
   const fOlympiad = document.getElementById('fOlympiad');
   const fYear     = document.getElementById('fYear');
   const fTopic    = document.getElementById('fTopic');
   const results   = document.getElementById('results');
   const infoEl    = document.getElementById('resultsInfo');
 
-  // ===== BUILD DROPDOWNS =====
-  function buildOlympiadDropdown(typeFilter) {
+  // DROPDOWNS
+  function buildOlympiadDropdown(scopeFilter) {
     fOlympiad.innerHTML = '<option value="all">All</option>';
     const entries = Object.entries(OLYMPIADS);
-    const filtered = typeFilter === 'all' ? entries : entries.filter(([,o]) => o.type === typeFilter);
-
-    // Group
-    const groups = { national: [], tst: [], regional: [] };
-    filtered.forEach(([id, o]) => groups[o.type].push([id, o]));
-
-    const labels = { national: 'National', tst: 'TST', regional: 'Regional' };
-    for (const [gType, items] of Object.entries(groups)) {
+    const filtered = scopeFilter === 'all' ? entries : entries.filter(([,o]) => o.scope === scopeFilter);
+    const groups = { national:[], tst:[], regional:[] };
+    filtered.forEach(([id,o]) => groups[o.scope].push([id,o]));
+    const labels = { national:'National', tst:'TST', regional:'Regional' };
+    for (const [gScope, items] of Object.entries(groups)) {
       if (!items.length) continue;
-      if (typeFilter === 'all') {
+      if (scopeFilter === 'all') {
         const grp = document.createElement('optgroup');
-        grp.label = labels[gType];
-        items.sort((a,b) => a[1].country?.localeCompare(b[1].country||'') || 0);
-        items.forEach(([id, o]) => {
+        grp.label = labels[gScope];
+        items.sort((a,b) => a[1].name.localeCompare(b[1].name));
+        items.forEach(([id,o]) => {
           const opt = document.createElement('option');
           opt.value = id;
           opt.textContent = `${o.flag} ${o.name}`;
@@ -583,8 +616,8 @@ footer {
         });
         fOlympiad.appendChild(grp);
       } else {
-        items.sort((a,b) => (a[1].country||a[1].name).localeCompare(b[1].country||b[1].name));
-        items.forEach(([id, o]) => {
+        items.sort((a,b) => a[1].name.localeCompare(b[1].name));
+        items.forEach(([id,o]) => {
           const opt = document.createElement('option');
           opt.value = id;
           opt.textContent = `${o.flag} ${o.name}`;
@@ -597,81 +630,64 @@ footer {
   function buildYearDropdown(olympiadId) {
     fYear.innerHTML = '<option value="all">All years</option>';
     const o = olympiadId !== 'all' ? OLYMPIADS[olympiadId] : null;
-    const start = o ? o.startYear : 1949;
-    const end = 2025;
-    for (let y = end; y >= start; y--) {
+    const start = o ? o.startYear : 1960;
+    for (let y = 2026; y >= start; y--) {
       const opt = document.createElement('option');
-      opt.value = y;
-      opt.textContent = y;
+      opt.value = y; opt.textContent = y;
       fYear.appendChild(opt);
     }
   }
 
-  // ===== SEARCH =====
+  // SEARCH
   async function doSearch() {
-    const typeVal     = fType.value;
+    const scopeVal    = fScope.value;
     const olympiadVal = fOlympiad.value;
     const yearVal     = fYear.value;
     const topicVal    = fTopic.value;
-
-    showCapNotice = false;
-    // Update page title dynamically (SEO)
-    const olympiadLabel = fOlympiad.value !== 'all' ? (OLYMPIADS[fOlympiad.value]?.shortName || fOlympiad.value) : 'All Olympiads';
-    const yearLabel = fYear.value !== 'all' ? fYear.value : '';
-    const typeLabel2 = fType.value !== 'all' ? ` · ${fType.value.toUpperCase()}` : '';
-    document.title = `${olympiadLabel}${yearLabel ? ' ' + yearLabel : ''}${typeLabel2} · Math Olympiad Bank`;
 
     setInfo('Searching…');
     results.innerHTML = '';
     loadedProblems = [];
 
-    // Determine which olympiads to fetch
-    let toFetch = []; // [{id, year}]
-
+    let toFetch = [];
     if (olympiadVal !== 'all') {
-      // Specific olympiad
+      const o = OLYMPIADS[olympiadVal];
       if (yearVal !== 'all') {
         toFetch.push({ id: olympiadVal, year: parseInt(yearVal) });
       } else {
-        const o = OLYMPIADS[olympiadVal];
-        for (let y = 2025; y >= o.startYear; y--) {
+        for (let y = 2026; y >= o.startYear; y--) {
           toFetch.push({ id: olympiadVal, year: y });
         }
       }
     } else {
-      // All olympiads matching type
       const entries = Object.entries(OLYMPIADS);
-      const filtered = typeVal === 'all' ? entries : entries.filter(([,o]) => o.type === typeVal);
+      const filtered = scopeVal === 'all' ? entries : entries.filter(([,o]) => o.scope === scopeVal);
       if (yearVal !== 'all') {
         filtered.forEach(([id]) => toFetch.push({ id, year: parseInt(yearVal) }));
       } else {
-        // Cap: latest 3 years per olympiad when "All" is selected
-        filtered.forEach(([id, o]) => {
-          for (let y = 2025; y >= Math.max(o.startYear, 2023); y--) {
+        filtered.forEach(([id,o]) => {
+          for (let y = 2026; y >= Math.max(o.startYear, 2024); y--) {
             toFetch.push({ id, year: y });
           }
         });
-        showCapNotice = true;
       }
     }
 
-    // Cap requests
-    if (toFetch.length > 80) {
-      setInfo(`Too many results to load at once. Please select a specific olympiad or year.`);
+    if (toFetch.length > 100) {
+      setInfo('Too many results. Please select a specific olympiad or year.');
       return;
     }
 
-    setInfo(`Loading ${toFetch.length} file(s)…`);
+    setInfo(`Loading…`);
 
-    // Fetch all
-    const failedFiles = [];
     const fetched = await Promise.allSettled(
       toFetch.map(({ id, year }) => {
         const url = buildURL(id, year);
+        if (!url) return Promise.resolve(null);
         return fetch(url)
           .then(r => { if (!r.ok) throw new Error('404'); return r.json(); })
           .then(data => ({ id, year, data }))
-          .catch(() => { failedFiles.push(`${id} ${year}`); return null; });
+          .catch(() => null);
       })
     );
 
@@ -683,13 +699,16 @@ footer {
       }
     });
 
-    if (failedFiles.length && all.length === 0) {
-      setInfo(`⚠️ No data found. Files not yet in folder: ${failedFiles.slice(0,5).join(', ')}${failedFiles.length > 5 ? '…' : ''}`);
-      results.innerHTML = `<div class="empty-state"><div class="icon">📂</div><p>No data files found.<br>Add JSON files to <strong>data\\national\\</strong>, <strong>data\\tst\\</strong> or <strong>data\\regional\\</strong> and open the app via a local server.</p></div>`;
-      return;
+    // Scope filter
+    if (scopeVal === 'tst') {
+      all = all.filter(p => ['BNO_TST','CHINA_TST'].includes(p.olympiad));
+    } else if (scopeVal === 'national') {
+      all = all.filter(p => p.scope === 'national' && !['BNO_TST','CHINA_TST'].includes(p.olympiad));
+    } else if (scopeVal === 'regional') {
+      all = all.filter(p => p.scope === 'regional');
     }
 
-    // Apply topic filter
+    // Topic filter
     if (topicVal !== 'all') {
       all = all.filter(p => Array.isArray(p.topic) ? p.topic.includes(topicVal) : p.topic === topicVal);
     }
@@ -698,161 +717,114 @@ footer {
     render(all);
   }
 
-  // ===== BUILD CARD =====
+  // CARD
+  function getScopeClass(p) {
+    if (['BNO_TST','CHINA_TST'].includes(p.olympiad)) return 'tst';
+    return p.scope || 'national';
+  }
+
   function buildCard(p) {
     const o = OLYMPIADS[p.olympiad] || {};
-    const typeClass = `type-${p.type || 'national'}`;
-    const typeLabel = (p.type || 'national').toUpperCase();
+    const scopeClass = getScopeClass(p);
+    const scopeLabel = scopeClass.toUpperCase();
     const flag = o.flag || '';
     const oName = o.shortName || p.olympiad || '';
     const topicArr = Array.isArray(p.topic) ? p.topic : [p.topic];
     const topicBadge = topicArr.map(t => {
-      const cls = t === 'Algebra' ? 'topic-algebra'
-                : t === 'Geometry' ? 'topic-geometry'
+      const cls = t === 'Algebra'       ? 'topic-algebra'
+                : t === 'Geometry'      ? 'topic-geometry'
                 : t === 'Number Theory' ? 'topic-nt'
                 : t === 'Combinatorics' ? 'topic-combo'
                 : 'topic-other';
       return `<span class="badge ${cls}">${t}</span>`;
     }).join('');
-    const checked = selectedProblems.has(p.id) ? 'checked' : '';
+    const probLabel = p.problem_id || '';
+    const dayLabel  = p.day ? ` · D${p.day}` : '';
+    const checked   = selectedProblems.has(p.id) ? 'checked' : '';
     const stmt = String(p.statement || '')
       .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
       .replace(/"/g,'&quot;').replace(/'/g,'&#039;')
       .replace(/\n/g,'<br>');
     return `
-      <div class="problem-card ${typeClass}">
+      <div class="problem-card scope-${scopeClass}">
         <div class="badge-row">
-          <input type="checkbox" class="problem-checkbox"
-            data-id="${p.id}"
-            ${checked}
-            onchange="window.toggleProblem(this)">
-          <span class="badge ${typeClass}">${typeLabel}</span>
-          <span class="badge olympiad-name">${flag} ${oName} ${p.year}</span>
-          <span class="badge olympiad-name">P${p.problem_number}</span>
+          <input type="checkbox" class="problem-checkbox" data-id="${p.id}" ${checked} onchange="window.toggleProblem(this)">
+          <span class="badge scope-${scopeClass}">${scopeLabel}</span>
+          <span class="badge olympiad-name">${flag} ${oName} ${p.year}${dayLabel}</span>
+          <span class="badge olympiad-name">${probLabel}</span>
           ${topicBadge}
-          ${p.difficulty ? `<span class="badge diff">⭐ ${p.difficulty}/10</span>` : ''}
         </div>
         <div class="problem-text">${stmt}</div>
       </div>`;
   }
 
-  // ===== DYNAMIC TOPIC DROPDOWN =====
-  function rebuildTopicDropdown(list) {
-    const topics = new Set();
-    list.forEach(p => {
-      const arr = Array.isArray(p.topic) ? p.topic : [p.topic];
-      arr.forEach(t => { if (t) topics.add(t); });
-    });
-    const current = fTopic.value;
-    fTopic.innerHTML = '<option value="all">All topics</option>';
-    const order = ['Algebra','Geometry','Number Theory','Combinatorics'];
-    const sorted = [...order.filter(t => topics.has(t)), ...[...topics].filter(t => !order.includes(t)).sort()];
-    sorted.forEach(t => {
-      const opt = document.createElement('option');
-      opt.value = t; opt.textContent = t;
-      if (t === current) opt.selected = true;
-      fTopic.appendChild(opt);
-    });
-  }
-
-  // ===== RENDER =====
+  // RENDER
   function render(list) {
     if (!list.length) {
-      results.innerHTML = `
-        <div class="empty-state">
-          <div class="icon">🔍</div>
-          <p>No problems found. Try different filters or check that the data files exist in the repo.</p>
-        </div>`;
+      results.innerHTML = `<div class="empty-state"><div class="icon">🔍</div><p>No problems found for these filters.</p></div>`;
       setInfo('No problems found.');
       return;
     }
 
-    list.sort((a, b) => {
+    list.sort((a,b) => {
       if (b.year !== a.year) return b.year - a.year;
-      return (a.problem_number || 0) - (b.problem_number || 0);
+      const da = a.day||0, db = b.day||0;
+      if (da !== db) return da - db;
+      const pa = parseInt((a.problem_id||'').replace('P',''))||0;
+      const pb = parseInt((b.problem_id||'').replace('P',''))||0;
+      return pa - pb;
     });
 
     currentList = list;
     currentPage = 1;
-    const capMsg = showCapNotice ? ' (showing latest 3 years — select a year for full archive)' : '';
-    setInfo(`Found ${list.length} problem${list.length !== 1 ? 's' : ''}${capMsg}.`);
+    setInfo(`Found ${list.length} problem${list.length !== 1 ? 's' : ''}.`);
 
-    // Dynamic topic dropdown from actual data
-    rebuildTopicDropdown(list);
-
-    const displayList = list.slice(0, PAGE_SIZE);
     let html = '';
-    for (const p of displayList) {
-      html += buildCard(p);
-    }
-
+    for (const p of list.slice(0, PAGE_SIZE)) html += buildCard(p);
     results.innerHTML = html;
 
-    // Load More button
     if (list.length > PAGE_SIZE) {
       const btn = document.createElement('button');
+      btn.className = 'load-more-btn';
       btn.id = 'loadMoreBtn';
-      btn.textContent = `Load more (${list.length - PAGE_SIZE} remaining)`;
-      btn.style.cssText = 'display:block;margin:20px auto;padding:10px 28px;background:var(--primary);color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:700;cursor:pointer;';
-      btn.onclick = () => loadMore(list);
+      btn.textContent = `Load more · ${list.length - PAGE_SIZE} remaining`;
+      btn.onclick = loadMore;
       results.appendChild(btn);
     }
 
-    if (window.MathJax && MathJax.typesetPromise) {
-      if (MathJax.typesetClear) MathJax.typesetClear([results]);
-      MathJax.typesetPromise([results]).catch(() => {});
-    }
-
-    // Update stats
-    const years = [...new Set(list.map(p => p.year))];
-    document.getElementById('statProblems').textContent = list.length;
-    document.getElementById('statYears').textContent =
-      years.length > 1 ? `${Math.min(...years)}–${Math.max(...years)}` : (years[0] || '—');
+    typesetMath();
   }
 
-  // Load more (pagination)
-  const PAGE_SIZE = 20;
-  let currentPage = 1;
-  let currentList = [];
-
-  function renderPage(list, page) {
-    currentList = list;
-    currentPage = page;
-    const slice = list.slice(0, page * PAGE_SIZE);
-    // Re-render only the cards (not the full render flow)
-    const btn = document.getElementById('loadMoreBtn');
-    if (btn) btn.remove();
-    // append new cards
-    const start = (page - 1) * PAGE_SIZE;
-    const end = page * PAGE_SIZE;
-    const newItems = list.slice(start, end);
+  function loadMore() {
+    currentPage++;
+    const start = (currentPage-1)*PAGE_SIZE;
+    const end   = currentPage*PAGE_SIZE;
+    document.getElementById('loadMoreBtn')?.remove();
     let html = '';
-    for (const p of newItems) {
-      html += buildCard(p);
-    }
+    for (const p of currentList.slice(start, end)) html += buildCard(p);
     const temp = document.createElement('div');
     temp.innerHTML = html;
-    while (temp.firstChild) results.insertBefore(temp.firstChild, results.querySelector('#loadMoreBtn') || null);
-    if (list.length > end) {
-      const btn2 = document.createElement('button');
-      btn2.id = 'loadMoreBtn';
-      btn2.textContent = `Load more (${list.length - end} remaining)`;
-      btn2.style.cssText = 'display:block;margin:20px auto;padding:10px 28px;background:var(--primary);color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:700;cursor:pointer;';
-      btn2.onclick = () => renderPage(list, page + 1);
-      results.appendChild(btn2);
+    while (temp.firstChild) results.appendChild(temp.firstChild);
+    if (currentList.length > end) {
+      const btn = document.createElement('button');
+      btn.className = 'load-more-btn';
+      btn.id = 'loadMoreBtn';
+      btn.textContent = `Load more · ${currentList.length - end} remaining`;
+      btn.onclick = loadMore;
+      results.appendChild(btn);
     }
-    if (window.MathJax && MathJax.typesetPromise) {
-      MathJax.typesetPromise([results]).catch(() => {});
-    }
+    typesetMath();
   }
 
-  function loadMore(list) {
-    renderPage(list, currentPage + 1);
+  function typesetMath() {
+    if (window.MathJax && MathJax.typesetPromise) {
+      MathJax.typesetPromise([results]).catch(()=>{});
+    }
   }
 
   function setInfo(msg) { infoEl.textContent = msg; }
 
-  // ===== SELECTION =====
+  // SELECTION
   window.toggleProblem = function(cb) {
     const id = cb.dataset.id;
     if (cb.checked) selectedProblems.add(id);
@@ -866,66 +838,52 @@ footer {
     menu.style.display = selectedProblems.size > 0 ? 'flex' : 'none';
   }
 
-  // ===== EXAM BUILDER =====
+  // EXAM BUILDER
   window.openExamBuilder = function() {
     if (!selectedProblems.size) return;
-    const problems = [...selectedProblems].map(id =>
-      loadedProblems.find(p => p.id === id)
-    ).filter(Boolean);
-
-    let html = `<div style="font-family:'STIX Two Text',Georgia,serif;">
+    const problems = [...selectedProblems].map(id => loadedProblems.find(p => p.id === id)).filter(Boolean);
+    let html = `<div style="font-family:'STIX Two Text',Georgia,serif;color:#111;">
       <div style="text-align:center;border-bottom:3px solid #1a2744;padding-bottom:18px;margin-bottom:28px;">
         <h1 style="color:#1a2744;font-size:1.8rem;">Mathematics Olympiad Exam</h1>
-        <p style="font-size:16px;color:#666;">Selected Problems — EisatoponAI</p>
-        <p style="font-size:13px;color:#999;">${new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'})}</p>
+        <p style="font-size:15px;color:#555;">Selected Problems · EisatoponAI</p>
+        <p style="font-size:13px;color:#888;">${new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'})}</p>
       </div>`;
-
-    problems.forEach((p, i) => {
+    problems.forEach((p,i) => {
       const o = OLYMPIADS[p.olympiad] || {};
-      html += `
-        <div style="margin-bottom:32px;page-break-inside:avoid;">
-          <div style="background:#e8edf7;padding:9px 14px;border-radius:8px;margin-bottom:10px;font-size:14px;">
-            <strong>Problem ${i+1}:</strong>
-            ${o.flag || ''} ${o.name || p.olympiad} ${p.year} · P${p.problem_number}
-            ${p.topic ? `· ${Array.isArray(p.topic) ? p.topic.join(', ') : p.topic}` : ''}
-          </div>
-          <div style="padding:12px 16px;line-height:1.85;text-align:justify;">
-            ${p.statement.replace(/\n/g,'<br>')}
-          </div>
-        </div>`;
+      const dayLabel = p.day ? ` · Day ${p.day}` : '';
+      html += `<div style="margin-bottom:32px;page-break-inside:avoid;">
+        <div style="background:#e8edf7;padding:9px 14px;border-radius:8px;margin-bottom:10px;font-size:14px;">
+          <strong>Problem ${i+1}:</strong> ${o.flag||''} ${p.olympiad_full_name||p.olympiad} ${p.year}${dayLabel} · ${p.problem_id}
+          ${p.topic ? '· ' + (Array.isArray(p.topic)?p.topic.join(', '):p.topic) : ''}
+        </div>
+        <div style="padding:12px 16px;line-height:1.9;text-align:justify;">${p.statement.replace(/\n/g,'<br>')}</div>
+      </div>`;
     });
-
     html += `<div id="qrContainer" style="text-align:center;margin-top:40px;"></div></div>`;
     document.getElementById('examPreview').innerHTML = html;
     document.getElementById('examModal').style.display = 'block';
-
     if (window.MathJax && MathJax.typesetPromise) {
       MathJax.typesetPromise([document.getElementById('examPreview')]).catch(()=>{});
     }
   };
 
-  window.closeExamBuilder = function() {
-    document.getElementById('examModal').style.display = 'none';
-  };
+  window.closeExamBuilder = function() { document.getElementById('examModal').style.display = 'none'; };
 
   window.downloadPDF = function() {
-    const el = document.getElementById('examPreview');
     html2pdf().set({
-      margin: 15,
-      filename: `OlympiadExam_${Date.now()}.pdf`,
+      margin: 15, filename: `OlympiadExam_${Date.now()}.pdf`,
       image: { type:'jpeg', quality:.98 },
       html2canvas: { scale:2, useCORS:true },
       jsPDF: { unit:'mm', format:'a4', orientation:'portrait' }
-    }).from(el).save();
+    }).from(document.getElementById('examPreview')).save();
   };
 
   window.addQRCode = function() {
     const qr = document.getElementById('qrContainer');
     qr.innerHTML = '<div id="qrcode" style="display:inline-block;"></div>';
     new QRCode(document.getElementById('qrcode'), {
-      text: window.location.href,
-      width: 140, height: 140,
-      colorDark: '#1a2744', colorLight: '#ffffff'
+      text: window.location.href, width:140, height:140,
+      colorDark:'#1a2744', colorLight:'#ffffff'
     });
     qr.insertAdjacentHTML('beforeend','<p style="margin-top:8px;font-size:13px;color:#666;">Scan for more problems</p>');
   };
@@ -939,24 +897,19 @@ footer {
     }
   };
 
-  // ===== EVENTS =====
-  fType.addEventListener('change', () => {
-    buildOlympiadDropdown(fType.value);
+  // EVENTS
+  fScope.addEventListener('change', () => {
+    buildOlympiadDropdown(fScope.value);
     buildYearDropdown('all');
   });
-
-  fOlympiad.addEventListener('change', () => {
-    buildYearDropdown(fOlympiad.value);
-  });
-
+  fOlympiad.addEventListener('change', () => buildYearDropdown(fOlympiad.value));
   document.getElementById('searchBtn').addEventListener('click', doSearch);
 
-  // ===== INIT =====
+  // INIT
   buildOlympiadDropdown('all');
   buildYearDropdown('all');
 
 })();
 </script>
-
 </body>
 </html>

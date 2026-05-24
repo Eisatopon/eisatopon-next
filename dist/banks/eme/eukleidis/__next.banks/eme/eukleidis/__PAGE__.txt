@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
 2:I[484,[],"OutletBoundary"]
 3:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen bg-black text-white flex items-center justify-center","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-8xl mb-8","children":"🎓"}],["$","h1",null,{"className":"text-6xl font-bold mb-6","children":"ΕΥΚΛΕΙΔΗΣ"}],["$","p",null,{"className":"text-2xl text-zinc-400","children":"Προχωρημένα Θέματα ΕΜΕ"}]]}]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"SwO52oUkpdXFedDD6J2bN"}
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen bg-black text-white flex items-center justify-center","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-8xl mb-8","children":"🎓"}],["$","h1",null,{"className":"text-6xl font-bold mb-6","children":"ΕΥΚΛΕΙΔΗΣ"}],["$","p",null,{"className":"text-2xl text-zinc-400","children":"Προχωρημένα Θέματα ΕΜΕ"}]]}]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"fdddFbgwnly14LiVzS-tg"}
 4:null

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "JUNIOR_BALKAN_MO_1999_P1",
+    "year": 1999,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c, x, y$ be real numbers with $a^3 + ax + y = 0$, $b^3 + bx + y = 0$, $c^3 + cx + y = 0$. If $a, b, c$ are all distinct, prove their sum is zero.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 1999"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_1999_P2",
+    "year": 1999,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For each nonneg­ative integer $n$, define $A_n = 2^{3n} + 3^{6n+2} + 5^{6n+2}$. Find $\\gcd(A_0, A_1, \\ldots, A_{1999})$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 1999"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_1999_P3",
+    "year": 1999,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $S$ be a set of 2003 points: the 4 vertices of a unit square and 1999 interior points. Prove there exists a triangle with vertices in $S$ and area at most $\\dfrac{1}{10}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 1999"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_1999_P4",
+    "year": 1999,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\triangle ABC$ be isosceles with $AB = AC$. $D \\in BC$ with $BC > BD > DC > 0$. $C_1, C_2$ are the circumcircles of $\\triangle ABD$ and $\\triangle ADC$; $BB'$ and $CC'$ are diameters of $C_1$ and $C_2$; $M$ is the midpoint of $B'C'$. Prove the area of $\\triangle MBC$ is constant (independent of $D$).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 1999"
+  }
+]

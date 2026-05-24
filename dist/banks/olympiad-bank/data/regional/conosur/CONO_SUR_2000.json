@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CONO_SUR_2000_P1",
+    "year": 2000,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Call a positive integer \\textit{descending} if each digit (after the first) is $\\leq$ the previous. Does there exist $n$ such that $16n$ is descending?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2000"
+  },
+  {
+    "id": "CONO_SUR_2000_P2",
+    "year": 2000,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "The numbers 1 to 64 fill an $8 \\times 8$ chessboard. $2 \\times 2$ tiles are placed so each covers four squares summing to less than 100. Find the maximum number of tiles, with proof, and give an optimal arrangement.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2000"
+  },
+  {
+    "id": "CONO_SUR_2000_P3",
+    "year": 2000,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A $2 \\times 2$ square is divided into rectangles by lines parallel to its sides. Rectangles are alternately colored black and white. Prove: if total white area equals total black area, then the black rectangles can be reassembled into a $1 \\times 2$ rectangle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2000"
+  },
+  {
+    "id": "CONO_SUR_2000_P4",
+    "year": 2000,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In clockwise square $ABCD$, let $P \\in BC$ and construct clockwise square $APRS$. Prove line $CR$ is tangent to the circumcircle of $\\triangle ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2000"
+  },
+  {
+    "id": "CONO_SUR_2000_P5",
+    "year": 2000,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Is it possible to take the triangle with vertices $(0,0)$, $(1,0)$, $(0,1)$ to the triangle with vertices $(0,0)$, $(1,0)$, $(1,1)$ through a sequence of $90^\\circ$ counterclockwise rotations about lattice points?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2000"
+  },
+  {
+    "id": "CONO_SUR_2000_P6",
+    "year": 2000,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Does there exist a positive integer divisible by the product of its digits, where that product exceeds $10^{2000}$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2000"
+  }
+]

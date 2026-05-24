@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CONO_SUR_2018_P1",
+    "year": 2018,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Convex quadrilateral $ABCD$; $R \\in DC$ with $AD = RC$; $S \\in AB$ with $BC = SA$. Let $P$, $Q$, $M$ be midpoints of $RD$, $BS$, $CA$. If $\\angle MPC + \\angle MQA = 90^\\circ$, prove $ABCD$ is cyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2018"
+  },
+  {
+    "id": "CONO_SUR_2018_P2",
+    "year": 2018,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove every positive integer can be expressed as a sum of distinct powers from $\\{3^k, 4^k, 7^k : k \\geq 0\\}$, using each power at most once.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2018"
+  },
+  {
+    "id": "CONO_SUR_2018_P3",
+    "year": 2018,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $P_n = 1! \\cdot 2! \\cdots n!$. (a) Find all positive integers $m$ with $P_{2020}/m!$ a perfect square. (b) Prove infinitely many $n$ exist for which $P_n/m!$ is a perfect square for at least two distinct $m$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2018"
+  },
+  {
+    "id": "CONO_SUR_2018_P4",
+    "year": 2018,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n \\geq 4$. Consider subsets $A_1, \\ldots, A_m$ of $\\{1,\\ldots,n\\}$ with $|A_i|=i$ and no set contained in another. Find the maximum $m$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2018"
+  },
+  {
+    "id": "CONO_SUR_2018_P5",
+    "year": 2018,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute $\\triangle ABC$ with $\\angle BAC = 60^\\circ$, incenter $I$, circumcenter $O$: let $H$ be diametrically opposite to $O$ on the circumcircle of $\\triangle BOC$. Prove $IH = BI + IC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2018"
+  },
+  {
+    "id": "CONO_SUR_2018_P6",
+    "year": 2018,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A sequence $(a_n)_{n \\geq 1}$ of positive integers is \\textit{alagoana} if $a_{n!} = a_1 a_2 \\cdots a_n$ and $a_n$ is a perfect $n$th power for all $n$. Find all alagoana sequences.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2018"
+  }
+]

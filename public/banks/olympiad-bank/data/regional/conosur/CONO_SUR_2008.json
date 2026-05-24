@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CONO_SUR_2008_P1",
+    "year": 2008,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integers $n$ with $1 \\leq n \\leq 10000$ for which reversing the digits of $n$ gives $\\lceil n/2 \\rceil$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2008"
+  },
+  {
+    "id": "CONO_SUR_2008_P2",
+    "year": 2008,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $P$ be inside $\\triangle ABC$. Points $X, Y, Z$ on $BC, AC, AB$ with $\\angle PXC = \\angle PYA = \\angle PZB$. Points $U, V, W$ on $BC, AC, AB$ (or extensions) with $PU = 2PX$, $PV = 2PY$, $PW = 2PZ$. If $[XYZ] = 1$, find $[UVW]$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2008"
+  },
+  {
+    "id": "CONO_SUR_2008_P3",
+    "year": 2008,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Each of $A$ and $B$ receives a number from $\\{1, 2, \\ldots, 250\\}$. They alternately say positive integers (not necessarily distinct) summing to 20. Show there exists a strategy allowing each to deduce the other's number.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2008"
+  },
+  {
+    "id": "CONO_SUR_2008_P4",
+    "year": 2008,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the largest number of cells that can be colored in a $7 \\times 7$ table such that no $2 \\times 2$ subtable has more than 2 colored cells.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2008"
+  },
+  {
+    "id": "CONO_SUR_2008_P5",
+    "year": 2008,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Isosceles $\\triangle ABC$ with base $AB$: a semicircle $\\Gamma$ centered on $AB$ is tangent to $AC$ and $BC$. A tangent line to $\\Gamma$ meets $AC$ at $D$ and $BC$ at $E$. The perpendiculars to $AC$ at $D$ and to $BC$ at $E$ meet at $P$; $Q$ is the foot of the perpendicular from $P$ to $AB$. Show $\\dfrac{PQ}{CP} = \\dfrac{AB}{2AC}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2008"
+  },
+  {
+    "id": "CONO_SUR_2008_P6",
+    "year": 2008,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers that have at least one palindrome multiple.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2008"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "APMO_2014_P1",
+    "year": 2014,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For positive integer $m$, let $S(m)$ and $P(m)$ be its digit sum and digit product. Show that for each $n$, there exist positive integers $a_1, \\ldots, a_n$ with $S(a_1) < \\cdots < S(a_n)$ and $S(a_i) = P(a_{i+1})$ (with $a_{n+1} = a_1$).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2014"
+  },
+  {
+    "id": "APMO_2014_P2",
+    "year": 2014,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $S = \\{1, \\ldots, 2014\\}$. Each nonempty $T \\subseteq S$ has a chosen representative. Find the number of ways so that if $D = A \\cup B \\cup C$ (disjoint), the representative of $D$ is also the representative of one of $A$, $B$, $C$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2014"
+  },
+  {
+    "id": "APMO_2014_P3",
+    "year": 2014,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $n$ such that for any integer $k$, there exists an integer $a$ with $n \\mid a^3 + a - k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2014"
+  },
+  {
+    "id": "APMO_2014_P4",
+    "year": 2014,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n$ is $b$-discerning if there exists a set of $n$ distinct positive integers $< b$ with no two subsets having equal sum. (a) Prove 8 is 100-discerning. (b) Prove 9 is not 100-discerning.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2014"
+  },
+  {
+    "id": "APMO_2014_P5",
+    "year": 2014,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Circles $\\omega$ and $\\Omega$ meet at $A$ and $B$. $M$ is the midpoint of arc $AB$ on $\\omega$ (inside $\\Omega$). Chord $MP$ of $\\omega$ meets $\\Omega$ at $Q$ (inside $\\omega$). Let $\\ell_P$, $\\ell_Q$ be tangents to $\\omega$ at $P$ and $\\Omega$ at $Q$. Prove the circumcircle of the triangle formed by $\\ell_P$, $\\ell_Q$, and $AB$ is tangent to $\\Omega$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2014"
+  }
+]

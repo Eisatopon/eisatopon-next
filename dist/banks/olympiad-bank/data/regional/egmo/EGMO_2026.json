@@ -1,13 +1,19 @@
 [
   {
-    "id": "EGMO_2026_P1",
+    "id": "EGMO_2026_D1_P1",
     "year": 2026,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 1,
     "problem_id": "P1",
-    "topic": ["Combinatorics"],
-    "statement": "A $2026 \\times 2026$ board is said to be bordeaux if at least one of its $2026^2$ unit cells is coloured red. A rectangular region made of cells is oddly-rectangular if it contains an odd number of red cells. Determine the largest positive integer $M$ such that, in every possible $2026 \\times 2026$ bordeaux board, there exists an oddly-rectangular region of at least $M$ cells.\n\n\\textit{Note}: A rectangular region has sides that are parallel to the sides of the board and contains all of its interior.",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A $2026 \\times 2026$ board is \\textit{bordeaux} if at least one cell is red. A rectangular region is \\textit{oddly-rectangular} if it contains an odd number of red cells. Find the largest $M$ such that every bordeaux board contains an oddly-rectangular region of at least $M$ cells.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -15,14 +21,20 @@
     "source": "European Girls' Mathematical Olympiad 2026"
   },
   {
-    "id": "EGMO_2026_P2",
+    "id": "EGMO_2026_D1_P2",
     "year": 2026,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 1,
     "problem_id": "P2",
-    "topic": ["Number Theory"],
-    "statement": "Given a positive integer $n$, Marie plays a game where she starts with the number $1$ on a blackboard. As many times as she wants, she can choose an integer $j$ such that $1 \\leq j \\leq n$ and replace the number $V$ on the blackboard with the number $j \\cdot R\\!\\left(\\dfrac{V}{j}\\right)$, where $R(x)$ denotes the nearest integer to $x$ (rounded up if $x$ is exactly halfway between two consecutive integers).\n\\begin{enumerate}\n\\item[(a)] Prove that for each given $n$, there is a positive integer $B$ such that Marie can never end up with a number larger than $B$ on the blackboard.\n\\item[(b)] For any given $n$, let $f(n)$ be the maximum number obtainable on the blackboard after finitely many replacements. Show that there exists a positive integer $N$ such that for all $n \\geq N$, $2026$ divides $f(n)$.\n\\end{enumerate}",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Marie starts with 1. She may replace $V$ with $j \\cdot R(V/j)$ for $1 \\leq j \\leq n$, where $R(x)$ rounds to nearest integer (half-integers up). (a) Prove there exists $B$ such that Marie can never exceed $B$. (b) Show there exists $N$ such that $2026 \\mid f(n)$ for all $n \\geq N$, where $f(n)$ is the maximum achievable.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -30,14 +42,20 @@
     "source": "European Girls' Mathematical Olympiad 2026"
   },
   {
-    "id": "EGMO_2026_P3",
+    "id": "EGMO_2026_D1_P3",
     "year": 2026,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 1,
     "problem_id": "P3",
-    "topic": ["Algebra"],
-    "statement": "Let $\\mathbb{R}$ be the set of real numbers. Determine all functions $f : \\mathbb{R} \\to \\mathbb{R}$ such that for all real numbers $x$, $y$:\n\\[\nf\\!\\bigl((f(x) + f(y))^2\\bigr) = (x + y)f(x + y).\n\\]",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f : \\mathbb{R} \\to \\mathbb{R}$ such that $f\\!\\left((f(x)+f(y))^2\\right) = (x+y)f(x+y)$ for all $x, y \\in \\mathbb{R}$.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -45,14 +63,20 @@
     "source": "European Girls' Mathematical Olympiad 2026"
   },
   {
-    "id": "EGMO_2026_P4",
+    "id": "EGMO_2026_D2_P4",
     "year": 2026,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 2,
     "problem_id": "P4",
-    "topic": ["Algebra"],
-    "statement": "Let $1 = a_1 \\geq a_2 \\geq a_3 \\geq \\cdots$ be an infinite sequence of real numbers such that $a_n = a_{2n} + a_{2n+1}$ for all positive integers $n$. For $r = 2026^{2026}$, prove that\n\\[\n\\frac{1}{r} \\leq a_r \\leq \\frac{2}{r+1}.\n\\]",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $1 = a_1 \\geq a_2 \\geq \\cdots$ be reals with $a_n = a_{2n} + a_{2n+1}$ for all $n \\geq 1$. For $r = 2026^{2026}$, prove $\\dfrac{1}{r} \\leq a_r \\leq \\dfrac{2}{r+1}$.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -60,14 +84,20 @@
     "source": "European Girls' Mathematical Olympiad 2026"
   },
   {
-    "id": "EGMO_2026_P5",
+    "id": "EGMO_2026_D2_P5",
     "year": 2026,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 2,
     "problem_id": "P5",
-    "topic": ["Geometry"],
-    "statement": "Let $ABC$ be an acute triangle with $AC > AB$. Denote by $\\omega$ its circumcircle and by $O$ its circumcenter. Let $K$ be the intersection of the tangents to $\\omega$ at $B$ and $C$. Circle $ABK$ intersects line $BC$ again at $Z \\neq B$. Let $L$ be the midpoint of $KZ$. Let $X$ be the intersection of lines $KZ$ and $AB$. Let $V$ be the point on circle $ABL$ on the same side of $BC$ as $A$ such that $OV$ is perpendicular to $KZ$. Prove that $LV$ is perpendicular to $CX$.",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with $AC > AB$, circumcircle $\\omega$, circumcenter $O$. $K$ = intersection of tangents at $B$, $C$. Circle $ABK$ meets $BC$ again at $Z \\neq B$. $L$ = midpoint of $KZ$, $X = KZ \\cap AB$. $V$ on circle $ABL$ on same side of $BC$ as $A$ with $OV \\perp KZ$. Prove $LV \\perp CX$.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -75,14 +105,20 @@
     "source": "European Girls' Mathematical Olympiad 2026"
   },
   {
-    "id": "EGMO_2026_P6",
+    "id": "EGMO_2026_D2_P6",
     "year": 2026,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 2,
     "problem_id": "P6",
-    "topic": ["Number Theory"],
-    "statement": "Let $p$ be a prime number and let $n$ be a positive integer such that $p$ does not divide $n$. Denote by $k$ the number of positive divisors of $n$, and by $1 = d_1 < d_2 < \\cdots < d_k = n$ the positive divisors of $n$. For $i = 1, 2, \\ldots, k$, let $c_i$ be the number of positive divisors $\\ell$ of $d_i^2$ such that $d_i - \\ell$ is divisible by $p$. Prove that\n\\[\n(p-1)(c_1 + c_2 + \\cdots + c_k) \\geq k^2.\n\\]",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p$ be prime and $p \\nmid n$. Let $k = \\tau(n)$ and $1 = d_1 < \\cdots < d_k = n$ the divisors of $n$. For each $i$, let $c_i$ count divisors $\\ell$ of $d_i^2$ with $p \\mid d_i - \\ell$. Prove $(p-1)(c_1 + \\cdots + c_k) \\geq k^2$.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CONO_SUR_2022_P1",
+    "year": 2022,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A positive integer is \\textit{happy} if all its digits are distinct and nonzero, and one digit equals the sum of the others. How many happy numbers are there?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2022"
+  },
+  {
+    "id": "CONO_SUR_2022_P2",
+    "year": 2022,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with incircle $\\omega$ touching $BC, CA, AB$ at $D, E, F$: the perpendicular from $B$ to $BC$ meets $EF$ at $M$; the perpendicular from $C$ to $BC$ meets $EF$ at $N$. Lines $DM$ and $DN$ meet $\\omega$ at $P$ and $Q$. Prove $DP = DQ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2022"
+  },
+  {
+    "id": "CONO_SUR_2022_P3",
+    "year": 2022,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that for every positive integer $n$, there exists a positive integer $k$ such that each of $k, k^2, \\ldots, k^n$ contains the block ``2022'' in its decimal representation.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2022"
+  },
+  {
+    "id": "CONO_SUR_2022_P4",
+    "year": 2022,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Ana and Beto play on a $2022 \\times 2022$ grid. Ana colors some sides red so no square has two red sides sharing a vertex. Beto must draw a blue path connecting two of the four corners without using red segments. Who has a winning strategy?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2022"
+  },
+  {
+    "id": "CONO_SUR_2022_P5",
+    "year": 2022,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "An integer $n > 1$ with divisors $1 = d_1 < d_2 < \\cdots < d_k = n$ is \\textit{southern} if all differences $d_{i+1} - d_i$ divide $n$. (a) Find a non-southern $n$ with exactly 2022 southern divisors. (b) Prove infinitely many such $n$ exist.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2022"
+  },
+  {
+    "id": "CONO_SUR_2022_P6",
+    "year": 2022,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Numbers 1 to 170 are colored with $k$ colors $C_1, \\ldots, C_k$ so that for each $1 \\leq i < k$, the sum of numbers with color $C_i$ divides the sum with color $C_{i+1}$. Find the largest possible $k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2022"
+  }
+]

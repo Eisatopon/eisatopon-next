@@ -1,0 +1,107 @@
+[
+  {
+    "id": "APMO_2011_P1",
+    "year": 2011,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a, b, c$ be positive integers. Prove it is impossible for all three of $a^2+b+c$, $b^2+c+a$, $c^2+a+b$ to be perfect squares.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2011"
+  },
+  {
+    "id": "APMO_2011_P2",
+    "year": 2011,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Five points $A_1, \\ldots, A_5$ in the plane, no three collinear. Determine the maximum possible value of the minimum angle $\\angle A_i A_j A_k$ over all distinct $i, j, k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2011"
+  },
+  {
+    "id": "APMO_2011_P3",
+    "year": 2011,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with $\\angle BAC = 30^\\circ$, the internal and external bisectors of $\\angle ABC$ meet $AC$ at $B_1, B_2$; internal and external bisectors of $\\angle ACB$ meet $AB$ at $C_1, C_2$. The circles with diameters $B_1B_2$ and $C_1C_2$ meet inside the triangle at $P$. Prove $\\angle BPC = 90^\\circ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2011"
+  },
+  {
+    "id": "APMO_2011_P4",
+    "year": 2011,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n$ be a fixed positive odd integer. Take $m+2$ distinct points $P_0, P_1, \\ldots, P_{m+1}$ with $P_0 = (0,1)$, $P_{m+1} = (n+1, n)$, integer coordinates in $[1,n]$ for $1 \\leq i \\leq m$, consecutive segments alternately horizontal/vertical, pairwise sharing at most 1 point. Find the maximum $m$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2011"
+  },
+  {
+    "id": "APMO_2011_P5",
+    "year": 2011,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f : \\mathbb{R} \\to \\mathbb{R}$ such that: (1) $f(x) < M$ for some $M$ and all $x$; (2) $f(xf(y)) + yf(x) = xf(y) + f(xy)$ for all $x, y$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2011"
+  }
+]

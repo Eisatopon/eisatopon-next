@@ -1,0 +1,86 @@
+[
+  {
+    "id": "JUNIOR_BALKAN_MO_2004_P1",
+    "year": 2004,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that $\\dfrac{x+y}{\\sqrt{x^2-xy+y^2}} \\leq \\dfrac{2\\sqrt{2}}{\\sqrt{x^2+y^2}}$ for all reals $x, y$ not both zero.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2004"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2004_P2",
+    "year": 2004,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In isosceles $\\triangle ABC$ with $AC = BC$, $M$ is the midpoint of $AC$. The circumcircle of $\\triangle BCM$ meets the line through $C$ perpendicular to $AB$ at $C$ and $Q$. Find the circumradius of $\\triangle ABC$ in terms of $m = CQ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2004"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2004_P3",
+    "year": 2004,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "If positive integers $x$ and $y$ satisfy: both $3x + 4y$ and $4x + 3y$ are perfect squares, prove $7 \\mid x$ and $7 \\mid y$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2004"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2004_P4",
+    "year": 2004,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A convex $n$-gon ($n \\geq 4$) is triangulated by non-overlapping triangles with vertices at the polygon's vertices. Triangles are colored black (two sides on the polygon), red (one side), or white (no side). Prove there are exactly two more black than white triangles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2004"
+  }
+]

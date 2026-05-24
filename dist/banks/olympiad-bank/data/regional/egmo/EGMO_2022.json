@@ -1,13 +1,19 @@
 [
   {
-    "id": "EGMO_2022_P1",
+    "id": "EGMO_2022_D1_P1",
     "year": 2022,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 1,
     "problem_id": "P1",
-    "topic": ["Geometry"],
-    "statement": "Let $ABC$ be an acute-angled triangle in which $BC < AB$ and $BC < CA$. Let point $P$ lie on segment $AB$ and point $Q$ lie on segment $AC$ such that $P \\neq B$, $Q \\neq C$, and $BQ = BC = CP$. Let $T$ be the circumcenter of triangle $APQ$, $H$ the orthocenter of triangle $ABC$, and $S$ the point of intersection of lines $BQ$ and $CP$. Prove that $T$, $H$, and $S$ are collinear.",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be acute-angled with $BC < AB$ and $BC < CA$. Let $P \\in AB$ and $Q \\in AC$ with $P \\neq B$, $Q \\neq C$ and $BQ = BC = CP$. Let $T$ be the circumcenter of $\\triangle APQ$, $H$ the orthocenter of $\\triangle ABC$, $S = BQ \\cap CP$. Prove $T, H, S$ are collinear.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -15,14 +21,20 @@
     "source": "European Girls' Mathematical Olympiad 2022"
   },
   {
-    "id": "EGMO_2022_P2",
+    "id": "EGMO_2022_D1_P2",
     "year": 2022,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 1,
     "problem_id": "P2",
-    "topic": ["Number Theory"],
-    "statement": "Let $\\mathbb{N} = \\{1, 2, 3, \\ldots\\}$ be the set of all positive integers. Find all functions $f : \\mathbb{N} \\to \\mathbb{N}$ such that for any positive integers $a$ and $b$, the following two conditions hold:\n\\begin{enumerate}\n\\item[(1)] $f(ab) = f(a)f(b)$, and\n\\item[(2)] at least two of the numbers $f(a)$, $f(b)$, and $f(a+b)$ are equal.\n\\end{enumerate}",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all $f : \\mathbb{N} \\to \\mathbb{N}$ such that for all positive integers $a, b$: (1) $f(ab) = f(a)f(b)$; (2) at least two of $f(a), f(b), f(a+b)$ are equal.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -30,14 +42,20 @@
     "source": "European Girls' Mathematical Olympiad 2022"
   },
   {
-    "id": "EGMO_2022_P3",
+    "id": "EGMO_2022_D1_P3",
     "year": 2022,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 1,
     "problem_id": "P3",
-    "topic": ["Number Theory"],
-    "statement": "An infinite sequence of positive integers $a_1, a_2, \\ldots$ is called good if\n\\begin{enumerate}\n\\item[(1)] $a_1$ is a perfect square, and\n\\item[(2)] for any integer $n \\geq 2$, $a_n$ is the smallest positive integer such that\n\\[\nn\\,a_1 + (n-1)\\,a_2 + \\cdots + 2\\,a_{n-1} + a_n\n\\]\nis a perfect square.\n\\end{enumerate}\nProve that for any good sequence $a_1, a_2, \\ldots$, there exists a positive integer $k$ such that $a_n = a_k$ for all integers $n \\geq k$.",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "An infinite sequence $a_1, a_2, \\ldots$ of positive integers is \\textit{good} if: (1) $a_1$ is a perfect square; (2) for $n \\geq 2$, $a_n$ is the smallest positive integer making $na_1 + (n-1)a_2 + \\cdots + 2a_{n-1} + a_n$ a perfect square. Prove that for any good sequence, some $a_k$ equals all subsequent terms.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -45,14 +63,20 @@
     "source": "European Girls' Mathematical Olympiad 2022"
   },
   {
-    "id": "EGMO_2022_P4",
+    "id": "EGMO_2022_D2_P4",
     "year": 2022,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 2,
     "problem_id": "P4",
-    "topic": ["Algebra"],
-    "statement": "Given a positive integer $n \\geq 2$, determine the largest positive integer $N$ for which there exist $N+1$ real numbers $a_0, a_1, \\ldots, a_N$ such that\n\\begin{enumerate}\n\\item[(1)] $a_0 + a_1 = -\\dfrac{1}{n}$, and\n\\item[(2)] $(a_k + a_{k-1})(a_k + a_{k+1}) = a_{k-1} - a_{k+1}$ for $1 \\leq k \\leq N-1$.\n\\end{enumerate}",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For $n \\geq 2$, find the largest $N$ such that there exist $a_0, \\ldots, a_N$ with $a_0 + a_1 = -\\frac{1}{n}$ and $(a_k+a_{k-1})(a_k+a_{k+1}) = a_{k-1} - a_{k+1}$ for $1 \\leq k \\leq N-1$.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -60,14 +84,20 @@
     "source": "European Girls' Mathematical Olympiad 2022"
   },
   {
-    "id": "EGMO_2022_P5",
+    "id": "EGMO_2022_D2_P5",
     "year": 2022,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 2,
     "problem_id": "P5",
-    "topic": ["Combinatorics", "Number Theory"],
-    "statement": "For all positive integers $n$, $k$, let $f(n, 2k)$ be the number of ways an $n \\times 2k$ board can be fully covered by $nk$ dominoes of size $2 \\times 1$. (For example, $f(2,2) = 2$ and $f(3,2) = 3$.) Find all positive integers $n$ such that for every positive integer $k$, the number $f(n, 2k)$ is odd.",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For positive integers $n, k$, let $f(n,2k)$ be the number of tilings of an $n \\times 2k$ board with $2 \\times 1$ dominoes. Find all $n$ such that $f(n,2k)$ is odd for every positive integer $k$.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -75,14 +105,20 @@
     "source": "European Girls' Mathematical Olympiad 2022"
   },
   {
-    "id": "EGMO_2022_P6",
+    "id": "EGMO_2022_D2_P6",
     "year": 2022,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 2,
     "problem_id": "P6",
-    "topic": ["Geometry"],
-    "statement": "Let $ABCD$ be a cyclic quadrilateral with circumcenter $O$. Let the internal angle bisectors at $A$ and $B$ meet at $X$, the internal angle bisectors at $B$ and $C$ meet at $Y$, the internal angle bisectors at $C$ and $D$ meet at $Z$, and the internal angle bisectors at $D$ and $A$ meet at $W$. Further, let $AC$ and $BD$ meet at $P$. Suppose that the points $X$, $Y$, $Z$, $W$, $O$, and $P$ are distinct. Prove that $O$, $X$, $Y$, $Z$, $W$ lie on the same circle if and only if $P$, $X$, $Y$, $Z$, and $W$ lie on the same circle.",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a cyclic quadrilateral with circumcenter $O$; let $X = $ bisectors of $\\angle A, \\angle B$; $Y = $ bisectors of $\\angle B, \\angle C$; $Z = $ bisectors of $\\angle C, \\angle D$; $W = $ bisectors of $\\angle D, \\angle A$; $P = AC \\cap BD$. With $X,Y,Z,W,O,P$ distinct, prove $O,X,Y,Z,W$ concyclic $\\Leftrightarrow$ $P,X,Y,Z,W$ concyclic.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

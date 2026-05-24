@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CONO_SUR_2010_P1",
+    "year": 2010,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Pedro must choose two irreducible fractions with positive numerator and denominator summing to 2, with numerator sum equal to 1000. How many ways can he do this?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2010"
+  },
+  {
+    "id": "CONO_SUR_2010_P2",
+    "year": 2010,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "44 points on a line numbered 1–44 left-to-right. Crickets start at 1 and jump to 44; each jump goes from a smaller to a larger numbered point. For every pair $i < j$, some cricket jumps directly from $i$ to $j$. Find the minimum number of crickets needed.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2010"
+  },
+  {
+    "id": "CONO_SUR_2010_P3",
+    "year": 2010,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Cutting a convex $n$-gon: choose two consecutive sides $AB$, $BC$; replace them by $AM$, $MN$, $NC$ (midpoints). Start with regular hexagon $P_6$ of area 1 and cut repeatedly. Prove the area of $P_n$ is always $> 2/3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2010"
+  },
+  {
+    "id": "CONO_SUR_2010_P4",
+    "year": 2010,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Pablo writes integers on a $2010 \\times 2010$ board. Silvia can add 1 to each of the three cells of any L-tromino. Prove Silvia can always make all entries divisible by 10.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2010"
+  },
+  {
+    "id": "CONO_SUR_2010_P5",
+    "year": 2010,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "The incircle of $\\triangle ABC$ touches $BC$, $CA$, $AB$ at $D$, $E$, $F$. Let $\\omega_a$, $\\omega_b$, $\\omega_c$ be the circumcircles of $\\triangle EAF$, $\\triangle DBF$, $\\triangle DCE$. Lines $DE$ and $DF$ meet $\\omega_a$ again at $E_a$, $F_a$; define $r_A = E_a F_a$, $r_B$, $r_C$ analogously. Show $r_A$, $r_B$, $r_C$ form a triangle with vertices on the sides of $\\triangle ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2010"
+  },
+  {
+    "id": "CONO_SUR_2010_P6",
+    "year": 2010,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Does there exist an infinite sequence $a_0, a_1, a_2, \\ldots$ of nonneg­ative integers in which every nonneg­ative integer appears exactly once and $b_n = a_n + n$ gives all primes each exactly once?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2010"
+  }
+]

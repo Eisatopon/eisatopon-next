@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_2004_P1",
+    "year": 2004,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all polynomials $P(x)$ with real coefficients such that $xP\\!\\left(\\dfrac{y}{x}\\right) + yP\\!\\left(\\dfrac{x}{y}\\right) = x + y$ for all nonzero $x, y$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2004"
+  },
+  {
+    "id": "RIOPLATENSE_2004_P2",
+    "year": 2004,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the smallest integer $n$ such that every $n$-element subset of $\\{1, 2, \\ldots, 2004\\}$ contains two distinct elements $a, b$ for which $2004 \\mid a^2 - b^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2004"
+  },
+  {
+    "id": "RIOPLATENSE_2004_P3",
+    "year": 2004,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In convex hexagon $ABCDEF$, triangles $ACE$ and $BDF$ have the same circumradius $R$. If triangle $ACE$ has inradius $r$, prove $[ABCDEF] \\leq \\dfrac{R}{r} \\cdot [ACE]$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2004"
+  },
+  {
+    "id": "RIOPLATENSE_2004_P4",
+    "year": 2004,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "How many integers $n > 1$ divide $x^{13} - x$ for every positive integer $x$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2004"
+  },
+  {
+    "id": "RIOPLATENSE_2004_P5",
+    "year": 2004,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Cardboard circles, each of diameter $\\leq 1$, lie on a $5 \\times 8$ table without overlapping or overhanging. A new cardboard circle of diameter 2 is added. Prove all these circles can be rearranged on a $7 \\times 7$ table.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2004"
+  },
+  {
+    "id": "RIOPLATENSE_2004_P6",
+    "year": 2004,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Partition $\\{1, 2, \\ldots, 900\\}$ into 30 subsets $S_1, \\ldots, S_{30}$ of 30 elements each. In each $S_k$, paint the 5th largest number blue. Is it possible that for every $k$, the sum of $S_k$ exceeds the sum of the blue numbers?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2004"
+  }
+]

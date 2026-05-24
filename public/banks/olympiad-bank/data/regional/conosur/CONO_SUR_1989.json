@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CONO_SUR_1989_P1",
+    "year": 1989,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Two isosceles triangles have side lengths $x, x, a$ and $x, x, b$ with $a \\neq b$ and equal areas. Find $x$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1989"
+  },
+  {
+    "id": "CONO_SUR_1989_P2",
+    "year": 1989,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the sum $1 + 11 + 111 + \\cdots + \\underbrace{111\\cdots1}_{n \\text{ digits}}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1989"
+  },
+  {
+    "id": "CONO_SUR_1989_P3",
+    "year": 1989,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A number $p$ is \\textit{perfect} if the sum of its divisors (excluding $p$) equals $p$. Let $f$ satisfy: $f(n)=0$ if $n$ is perfect; $f(n)=0$ if the last digit of $n$ is 4; $f(ab)=f(a)+f(b)$. Find $f(1998)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1989"
+  },
+  {
+    "id": "CONO_SUR_1989_P4",
+    "year": 1989,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find a 4-digit perfect square in which all digits are less than 6, such that adding 1 to each digit yields another perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1989"
+  },
+  {
+    "id": "CONO_SUR_1989_P5",
+    "year": 1989,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a square with diagonals $AC$ and $BD$, and $P$ a point on one of its sides. Show that the sum of the distances from $P$ to the diagonals is constant.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1989"
+  },
+  {
+    "id": "CONO_SUR_1989_P6",
+    "year": 1989,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Show that by reducing the dimensions of a rectangular box, one cannot obtain another box with half the volume and half the surface area.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1989"
+  }
+]

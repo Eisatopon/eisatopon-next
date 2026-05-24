@@ -1,13 +1,19 @@
 [
   {
-    "id": "EGMO_2013_P1",
+    "id": "EGMO_2013_D1_P1",
     "year": 2013,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 1,
     "problem_id": "P1",
-    "topic": ["Geometry"],
-    "statement": "The side $BC$ of triangle $ABC$ is extended beyond $C$ to $D$ so that $CD = BC$. The side $CA$ is extended beyond $A$ to $E$ so that $AE = 2CA$. Prove that, if $AD = BE$, then triangle $ABC$ is right-angled.",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Side $BC$ of $\\triangle ABC$ is extended to $D$ with $CD = BC$; side $CA$ is extended to $E$ with $AE = 2CA$. Prove that if $AD = BE$, then $\\triangle ABC$ is right-angled.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -15,14 +21,20 @@
     "source": "European Girls' Mathematical Olympiad 2013"
   },
   {
-    "id": "EGMO_2013_P2",
+    "id": "EGMO_2013_D1_P2",
     "year": 2013,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 1,
     "problem_id": "P2",
-    "topic": ["Combinatorics", "Number Theory"],
-    "statement": "Determine all integers $m$ for which the $m \\times m$ square can be dissected into five rectangles, the side lengths of which are the integers $1, 2, 3, \\ldots, 10$ in some order.",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Determine all integers $m$ for which an $m \\times m$ square can be dissected into five rectangles with side lengths $1, 2, 3, \\ldots, 10$ in some order.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -30,14 +42,20 @@
     "source": "European Girls' Mathematical Olympiad 2013"
   },
   {
-    "id": "EGMO_2013_P3",
+    "id": "EGMO_2013_D1_P3",
     "year": 2013,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 1,
     "problem_id": "P3",
-    "topic": ["Combinatorics", "Number Theory"],
-    "statement": "Let $n$ be a positive integer.\n\\begin{enumerate}\n\\item[(a)] Prove that there exists a set $S$ of $6n$ pairwise different positive integers such that the least common multiple of any two elements of $S$ is no larger than $32n^2$.\n\\item[(b)] Prove that every set $T$ of $6n$ pairwise different positive integers contains two elements whose least common multiple is larger than $9n^2$.\n\\end{enumerate}",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n$ be a positive integer. (a) Prove there exists a set $S$ of $6n$ pairwise different positive integers such that $\\text{lcm}(a,b) \\leq 32n^2$ for any two elements. (b) Prove every set $T$ of $6n$ pairwise different positive integers contains two elements with $\\text{lcm} > 9n^2$.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -45,14 +63,20 @@
     "source": "European Girls' Mathematical Olympiad 2013"
   },
   {
-    "id": "EGMO_2013_P4",
+    "id": "EGMO_2013_D2_P4",
     "year": 2013,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 2,
     "problem_id": "P4",
-    "topic": ["Number Theory", "Algebra"],
-    "statement": "Find all positive integers $a$ and $b$ for which there are three consecutive integers at which the polynomial\n\\[\nP(n) = \\frac{n^5 + a}{b}\n\\]\ntakes integer values.",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $a$ and $b$ for which $P(n) = \\dfrac{n^5 + a}{b}$ takes integer values at three consecutive integers.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -60,14 +84,20 @@
     "source": "European Girls' Mathematical Olympiad 2013"
   },
   {
-    "id": "EGMO_2013_P5",
+    "id": "EGMO_2013_D2_P5",
     "year": 2013,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 2,
     "problem_id": "P5",
-    "topic": ["Geometry"],
-    "statement": "Let $\\Omega$ be the circumcircle of triangle $ABC$. The circle $\\omega$ is tangent to the sides $AC$ and $BC$, and it is internally tangent to the circle $\\Omega$ at the point $P$. A line parallel to $AB$ intersecting the interior of triangle $ABC$ is tangent to $\\omega$ at $Q$. Prove that $\\angle ACP = \\angle QCB$.",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\Omega$ be the circumcircle of $\\triangle ABC$. Circle $\\omega$ is tangent to $AC$ and $BC$, and internally tangent to $\\Omega$ at $P$. A line parallel to $AB$ through the interior of $\\triangle ABC$ is tangent to $\\omega$ at $Q$. Prove $\\angle ACP = \\angle QCB$.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -75,14 +105,20 @@
     "source": "European Girls' Mathematical Olympiad 2013"
   },
   {
-    "id": "EGMO_2013_P6",
+    "id": "EGMO_2013_D2_P6",
     "year": 2013,
     "olympiad": "EGMO",
-    "country": "Europe",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
     "day": 2,
     "problem_id": "P6",
-    "topic": ["Combinatorics"],
-    "statement": "Snow White and the Seven Dwarves are living in their house in the forest. On each of $16$ consecutive days, some of the dwarves worked in the diamond mine while the remaining dwarves collected berries in the forest. No dwarf performed both types of work on the same day. On any two different (not necessarily consecutive) days, at least three dwarves each performed both types of work. Further, on the first day, all seven dwarves worked in the diamond mine. Prove that, on one of these $16$ days, all seven dwarves were collecting berries.",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Snow White and seven dwarves work on 16 consecutive days: each day each dwarf either mines or collects berries (not both). On any two different days, at least three dwarves performed both types of work. On day 1, all dwarves mined. Prove that on some day all dwarves collected berries.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
