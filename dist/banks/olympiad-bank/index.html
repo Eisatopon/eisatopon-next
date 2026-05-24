@@ -556,26 +556,34 @@ footer a:hover { opacity: 1; }
   const DATA_BASE = './data';
 
   const OLYMPIADS = {
-    BNO:        { name:'Brazil National MO',    shortName:'BNO',       flag:'🇧🇷', scope:'national', country:'Brazil',      startYear:1979 },
-    VMO:        { name:'Vietnam MO',            shortName:'VMO',       flag:'🇻🇳', scope:'national', country:'Vietnam',     startYear:1962 },
-    BNO_TST:    { name:'Brazil TST',            shortName:'BNO-TST',   flag:'🇧🇷', scope:'tst',      country:'Brazil',      startYear:1997 },
-    CHINA_TST:  { name:'China TST',             shortName:'CHN-TST',   flag:'🇨🇳', scope:'tst',      country:'China',       startYear:1986 },
-    BALKAN_MO:  { name:'Balkan MO',             shortName:'BMO',       flag:'🌐',  scope:'regional', region:'balkan',       startYear:1984 },
-    BENELUX:    { name:'Benelux MO',            shortName:'BENELUX',   flag:'🌐',  scope:'regional', region:'benelux',      startYear:2009 },
-    PAMO:       { name:'Pan-African MO',        shortName:'PAMO',      flag:'🌍',  scope:'regional', region:'pan_african',  startYear:2000 },
-    APMO:       { name:'Asia Pacific MO',       shortName:'APMO',      flag:'🌏',  scope:'regional', region:'asia_pacific', startYear:1989 },
-    EGMO:       { name:"European Girls' MO",    shortName:'EGMO',      flag:'🌐',  scope:'regional', region:'european_girls',startYear:2012 },
-    CONO_SUR:   { name:'Cono Sur MO',           shortName:'Cono Sur',  flag:'🌎',  scope:'regional', region:'cono_sur',     startYear:1989 },
-  };
+    // NATIONAL
+    BNO:              { name:'Brazil National MO',            shortName:'BNO',          flag:'🇧🇷', scope:'national', country:'Brazil',      startYear:1979 },
+    VMO:              { name:'Vietnam MO',                    shortName:'VMO',           flag:'🇻🇳', scope:'national', country:'Vietnam',     startYear:1962 },
+    // TST
+    BNO_TST:          { name:'Brazil TST',                   shortName:'BNO-TST',       flag:'🇧🇷', scope:'tst',      country:'Brazil',      startYear:1997 },
+    CHINA_TST:        { name:'China TST',                    shortName:'CHN-TST',       flag:'🇨🇳', scope:'tst',      country:'China',       startYear:1986 },
+    // REGIONAL
+    APMO:             { name:'Asian Pacific MO',             shortName:'APMO',          flag:'🌏', scope:'regional', region:'asia_pacific', startYear:1989 },
+    BALKAN_MO:        { name:'Balkan MO',                    shortName:'BMO',           flag:'🌐', scope:'regional', region:'balkan',       startYear:1984 },
+    BENELUX:          { name:'Benelux MO',                   shortName:'BENELUX',       flag:'🌐', scope:'regional', region:'benelux',      startYear:2009 },
+    CONO_SUR:         { name:'Cono Sur MO',                  shortName:'Cono Sur',      flag:'🌎', scope:'regional', region:'cono_sur',     startYear:1989 },
+    EGMO:             { name:"European Girls' MO",           shortName:'EGMO',          flag:'🌐', scope:'regional', region:'european_girls',startYear:2012 },
+    JUNIOR_BALKAN_MO: { name:'Junior Balkan MO',             shortName:'JBMO',          flag:'🌐', scope:'regional', region:'balkan',       startYear:1997 },
+    LUSOPHONE:        { name:'Lusophone MO',                 shortName:'LUSOPHONE',     flag:'🌐', scope:'regional', region:'lusophone',    startYear:2021 },
+    PAMO:             { name:'Pan-African MO',               shortName:'PAMO',          flag:'🌍', scope:'regional', region:'pan_african',  startYear:2000 },
+    RIOPLATENSE:      { name:'Rioplatense MO',               shortName:'RIOPLATENSE',   flag:'🌎', scope:'regional', region:'rioplatense',  startYear:1990 },
+    ZHAUTYKOV:        { name:'International Zhautykov MO',   shortName:'IZhO',          flag:'🌐', scope:'regional', region:'central_asian',startYear:2005 },
+  }
 
   function buildURL(olympiadId, year) {
     const o = OLYMPIADS[olympiadId];
     if (!o) return null;
     const filename = `${olympiadId}_${year}.json`;
-    if (o.scope === 'national' || o.scope === 'tst') {
-      return `${DATA_BASE}/national/${olympiadId}/${filename}`;
-    } else {
+    if (o.scope === 'regional') {
       return `${DATA_BASE}/regional/${olympiadId}/${filename}`;
+    } else {
+      // national + tst both go under national/
+      return `${DATA_BASE}/national/${olympiadId}/${filename}`;
     }
   }
 
@@ -679,6 +687,8 @@ footer a:hover { opacity: 1; }
     }
 
     setInfo(`Loading…`);
+    console.log('[DEBUG] Filters:', { scopeVal, olympiadVal, yearVal, topicVal });
+    console.log('[DEBUG] toFetch:', toFetch.slice(0,5), '...');
 
     const fetched = await Promise.allSettled(
       toFetch.map(({ id, year }) => {
@@ -699,13 +709,12 @@ footer a:hover { opacity: 1; }
       }
     });
 
-    // Scope filter
-    if (scopeVal === 'tst') {
-      all = all.filter(p => ['BNO_TST','CHINA_TST'].includes(p.olympiad));
-    } else if (scopeVal === 'national') {
-      all = all.filter(p => p.scope === 'national' && !['BNO_TST','CHINA_TST'].includes(p.olympiad));
-    } else if (scopeVal === 'regional') {
-      all = all.filter(p => p.scope === 'regional');
+    // Scope filter — use OLYMPIADS config scope, not JSON p.scope
+    if (scopeVal !== 'all') {
+      all = all.filter(p => {
+        const cfg = OLYMPIADS[p.olympiad];
+        return cfg ? cfg.scope === scopeVal : false;
+      });
     }
 
     // Topic filter
@@ -713,14 +722,21 @@ footer a:hover { opacity: 1; }
       all = all.filter(p => Array.isArray(p.topic) ? p.topic.includes(topicVal) : p.topic === topicVal);
     }
 
+    console.log('[DEBUG] Fetched total problems:', all.length);
+    if (all.length > 0) {
+      const s = all[0];
+      console.log('[DEBUG] Sample problem:', { id: s.id, olympiad: s.olympiad, year: s.year, scope: s.scope, topic: s.topic });
+    } else {
+      console.warn('[DEBUG] No problems loaded! Check file paths and server.');
+    }
     loadedProblems = all;
     render(all);
   }
 
   // CARD
   function getScopeClass(p) {
-    if (['BNO_TST','CHINA_TST'].includes(p.olympiad)) return 'tst';
-    return p.scope || 'national';
+    const cfg = OLYMPIADS[p.olympiad];
+    return cfg ? cfg.scope : (p.scope || 'national');
   }
 
   function buildCard(p) {
