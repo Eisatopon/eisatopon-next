@@ -1,0 +1,104 @@
+[
+  {
+    "id": "vmo-1991-d1-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1991,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Find all functions \\(f : \\mathbb{R} \\to \\mathbb{R}\\) satisfying\n\\[\\frac{f(xy)+f(xz)}{2} - f(x)f(yz) \\geq \\frac{1}{4}\\]\nfor all \\(x, y, z \\in \\mathbb{R}\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1991 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1991-d1-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1991,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(k > 1\\) be an odd integer. For every positive integer \\(n\\), let \\(f(n)\\) be the greatest positive integer for which \\(2^{f(n)}\\) divides \\(k^n - 1\\). Find \\(f(n)\\) in terms of \\(k\\) and \\(n\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1991 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1991-d1-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1991,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Three mutually perpendicular rays \\(O_x, O_y, O_z\\) and three points \\(A, B, C\\) on \\(O_x, O_y, O_z\\) respectively. A variable sphere through \\(A, B, C\\) meets \\(O_x, O_y, O_z\\) again at \\(A', B', C'\\). Let \\(M\\) and \\(M'\\) be the centroids of triangles \\(ABC\\) and \\(A'B'C'\\). Find the locus of the midpoint of \\(MM'\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1991 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1991-d2-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1991,
+    "day": 2,
+    "problem_number": 1,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "1991 students sit around a circle. Starting from student \\(A\\) and counting clockwise, each student says a number in sequence \\(1, 2, 3, 1, 2, 3, \\ldots\\) A student who says 2 or 3 must leave. The game ends when one student remains. What position was that student at the beginning?",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1991 Day 2",
+    "tags": []
+  },
+  {
+    "id": "vmo-1991-d2-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1991,
+    "day": 2,
+    "problem_number": 2,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(G\\) be the centroid and \\(R\\) the circumradius of triangle \\(ABC\\). The extensions of \\(GA, GB, GC\\) meet the circumcircle again at \\(D, E, F\\). Prove that\n\\[\\frac{3}{R} \\leq \\frac{1}{GD}+\\frac{1}{GE}+\\frac{1}{GF} \\leq \\sqrt{3} \\leq \\frac{1}{AB}+\\frac{1}{BC}+\\frac{1}{CA}.\\]",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1991 Day 2",
+    "tags": []
+  },
+  {
+    "id": "vmo-1991-d2-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1991,
+    "day": 2,
+    "problem_number": 3,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Prove that\n\\[\\frac{x^2y}{z} + \\frac{y^2z}{x} + \\frac{z^2x}{y} \\geq x^2 + y^2 + z^2\\]\nwhere \\(x, y, z\\) are real numbers satisfying \\(x \\geq y \\geq z \\geq 0\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1991 Day 2",
+    "tags": []
+  }
+]

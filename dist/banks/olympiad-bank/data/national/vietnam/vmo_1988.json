@@ -1,0 +1,106 @@
+[
+  {
+    "id": "vmo-1988-d1-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1988,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "There are 1988 birds in 994 cages, two in each cage. Every day we rearrange the birds so that no cage contains the same pair as on any previous day. What is the greatest possible number of days we can keep doing this?",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1988 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1988-d1-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1988,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(P(x) = a_n x^n + \\cdots + a_1 x + a_0\\) be a real polynomial of degree \\(n > 2\\) with \\(a_n = 1\\), \\(a_{n-1} = -n\\), \\(a_{n-2} = \\dfrac{n^2-n}{2}\\), such that all roots of \\(P\\) are real. Determine all the coefficients \\(a_i\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1988 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1988-d1-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1988,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Combinatorics",
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "The plane is partitioned into congruent equilateral triangles such that any two non-disjoint triangles share either a vertex or a side. Is there a circle containing exactly 1988 lattice points (triangle vertices) in its interior?",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1988 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1988-d2-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1988,
+    "day": 2,
+    "problem_number": 1,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "A bounded sequence \\((x_n)_{n \\geq 1}\\) of real numbers satisfies \\(x_n + x_{n+1} \\geq 2x_{n+2}\\) for all \\(n \\geq 1\\). Prove that this sequence has a finite limit.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1988 Day 2",
+    "tags": []
+  },
+  {
+    "id": "vmo-1988-d2-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1988,
+    "day": 2,
+    "problem_number": 2,
+    "topic": [
+      "Algebra",
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Suppose \\(ABC\\) is an acute triangle such that \\(\\tan A, \\tan B, \\tan C\\) are the three roots of \\(x^3 + px^2 + qx + p = 0\\) where \\(q \\neq 1\\). Show that \\(p \\leq -3\\sqrt{3}\\) and \\(q > 1\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1988 Day 2",
+    "tags": []
+  },
+  {
+    "id": "vmo-1988-d2-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1988,
+    "day": 2,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(a, b, c\\) be three pairwise skew lines in space. Prove that they have a common perpendicular if and only if \\(S_a \\circ S_b \\circ S_c\\) is a reflection in a line, where \\(S_x\\) denotes the reflection in line \\(x\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1988 Day 2",
+    "tags": []
+  }
+]

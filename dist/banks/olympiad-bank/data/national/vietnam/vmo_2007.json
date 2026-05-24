@@ -1,0 +1,104 @@
+[
+  {
+    "id": "vmo-2007-d1-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 2007,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Solve the system of equations:\n\\[\\begin{cases} \\left(1 + \\dfrac{12}{3x+y}\\right)\\sqrt{x} = 2 \\\\[6pt] \\left(1 - \\dfrac{12}{3x+y}\\right)\\sqrt{y} = 6 \\end{cases}\\]",
+    "solution": null,
+    "source": "Vietnam National Olympiad 2007 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-2007-d1-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 2007,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(x, y\\) be integers with \\(x, y \\neq -1\\) such that \\(\\dfrac{x^4-1}{y+1} + \\dfrac{y^4-1}{x+1} \\in \\mathbb{Z}\\). Prove that \\(x^4 y^{44} - 1\\) is divisible by \\(x+1\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 2007 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-2007-d1-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 2007,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(B, C\\) be fixed points and \\(A\\) a variable point. Let \\(H\\) and \\(G\\) be the orthocenter and centroid of triangle \\(ABC\\). Given that the midpoint of \\(HG\\) lies on \\(BC\\), find the locus of \\(A\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 2007 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-2007-d2-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 2007,
+    "day": 2,
+    "problem_number": 1,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Given a regular 2007-gon. Find the minimal number \\(k\\) such that among every \\(k\\) vertices of the polygon, there always exist 4 vertices forming a convex quadrilateral with at least 3 sides also being sides of the polygon.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 2007 Day 2",
+    "tags": []
+  },
+  {
+    "id": "vmo-2007-d2-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 2007,
+    "day": 2,
+    "problem_number": 2,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Given \\(b > 0\\), find all functions \\(f : \\mathbb{R} \\to \\mathbb{R}\\) such that\n\\[f(x+y) = f(x) \\cdot 3^{b^y + f(y) - 1} + b^x \\cdot \\left(3^{b^y + f(y) - 1} - b^y\\right)\\]\nfor all \\(x, y \\in \\mathbb{R}\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 2007 Day 2",
+    "tags": []
+  },
+  {
+    "id": "vmo-2007-d2-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 2007,
+    "day": 2,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(ABCD\\) be a trapezoid inscribed in circle \\((O)\\) with larger base \\(BC\\). Let \\(P\\) be a point outside segment \\(BC\\). Line \\(PA\\) meets \\((O)\\) at \\(M\\) (\\(PA\\) not tangent to \\((O)\\)). The circle with diameter \\(PD\\) meets \\((O)\\) at \\(E\\); line \\(DE\\) meets \\(BC\\) at \\(N\\). Prove that \\(MN\\) always passes through a fixed point.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 2007 Day 2",
+    "tags": []
+  }
+]

@@ -4,7 +4,7 @@ title: "Compositions of 10"
 difficulty: "Easy"
 topic: "Combinatorics"
 hint: "The number of compositions of n into k parts is C(n-1, k-1). Sum over k from 2 to n, or use the recurrence: each composition of n can be formed by adding 1 to the first part of a composition of n-1, or by prepending 1 to a composition of n-1."
-formula: "\sum_{k=2}^{n} inom{n-1}{k-1} = 2^{n-1} - 1"
+formula: "\\sum_{k=2}^{n} \\binom{n-1}{k-1} = 2^{n-1} - 1"
 ---
 
 We can write the number 3 in exactly three ways as a sum of (at least two) positive integers, where the order matters: 3 = 1+2 = 2+1 = 1+1+1. In how many ways can we do this for the number 10?

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "vmo-1976-d1-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1976,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Find all integer solutions to \\(m^{m+n} = n^{12}\\) and \\(n^{m+n} = m^3\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1976 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1976-d1-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1976,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Find all triangles \\(ABC\\) such that \\(\\dfrac{a\\cos A + b\\cos B + c\\cos C}{a\\sin A + b\\sin B + c\\sin C} = \\dfrac{a+b+c}{9R}\\), where \\(a, b, c\\) are the side lengths and \\(R\\) is the circumradius.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1976 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1976-d1-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1976,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(P\\) be a point inside triangle \\(ABC\\). The perpendicular distances from \\(P\\) to the three sides have product \\(p\\). Show that \\(p \\leq \\dfrac{8S^3}{27abc}\\), where \\(S\\) is the area of \\(ABC\\) and \\(a, b, c\\) are the sides. Prove a similar result for a tetrahedron.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1976 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1976-d2-p4",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1976,
+    "day": 2,
+    "problem_number": 4,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Find all three-digit integers \\(\\overline{abc} = n\\) such that \\(\\dfrac{2n}{3} = a!b!c!\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1976 Day 2",
+    "tags": []
+  },
+  {
+    "id": "vmo-1976-d2-p5",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1976,
+    "day": 2,
+    "problem_number": 5,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(L, L'\\) be two skew lines and \\(p\\) a plane not containing either. A variable line \\(M\\) parallel to \\(p\\) meets \\(L\\) at \\(X\\) and \\(L'\\) at \\(Y\\). Find the position of \\(M\\) that minimizes \\(XY\\). Also, given another fixed line \\(L''\\), find the line \\(M\\) that is also perpendicular to \\(L''\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1976 Day 2",
+    "tags": []
+  },
+  {
+    "id": "vmo-1976-d2-p6",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1976,
+    "day": 2,
+    "problem_number": 6,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Show that \\(\\dfrac{1}{x_1^n} + \\dfrac{1}{x_2^n} + \\cdots + \\dfrac{1}{x_k^n} \\geq k^{n+1}\\) for positive reals \\(x_i\\) with sum 1.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1976 Day 2",
+    "tags": []
+  }
+]

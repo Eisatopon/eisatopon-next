@@ -1,0 +1,87 @@
+[
+  {
+    "id": "cmo-1992-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1992,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Prove that the product of the first \\(n\\) natural numbers is divisible by the sum of the first \\(n\\) natural numbers if and only if \\(n + 1\\) is not an odd prime.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1992",
+    "tags": []
+  },
+  {
+    "id": "cmo-1992-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1992,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "For \\(x, y, z \\geq 0\\), establish the inequality\n\\[x(x-z)^2 + y(y-z)^2 \\geq (x-z)(y-z)(x+y-z)\\]\nand determine when equality holds.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1992",
+    "tags": []
+  },
+  {
+    "id": "cmo-1992-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1992,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "\\(ABCD\\) is a square with \\(U\\) and \\(V\\) interior points of sides \\(AB\\) and \\(CD\\) respectively. \\(P\\) and \\(Q\\) are the intersections of \\(UV\\) with the diagonals of the square. Determine all ways of selecting \\(U\\) and \\(V\\) so as to maximize the area of quadrilateral \\(PUQV\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1992",
+    "tags": []
+  },
+  {
+    "id": "cmo-1992-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1992,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Solve the equation\n\\[x^2 + \\frac{x^2}{(x+1)^2} = 3.\\]",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1992",
+    "tags": []
+  },
+  {
+    "id": "cmo-1992-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1992,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "A deck of \\(2n+1\\) cards consists of a joker and, for each number between \\(1\\) and \\(n\\) inclusive, two cards marked with that number. The \\(2n+1\\) cards are placed in a row with the joker in the middle. For each \\(k\\) with \\(1 \\leq k \\leq n\\), the two cards numbered \\(k\\) have exactly \\(k-1\\) cards between them. Determine all values of \\(n\\) not exceeding \\(10\\) for which this arrangement is possible. For which values of \\(n\\) is it impossible?",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1992",
+    "tags": []
+  }
+]

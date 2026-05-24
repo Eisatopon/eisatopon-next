@@ -1,0 +1,105 @@
+[
+  {
+    "id": "INMO_2006_P1",
+    "year": 2006,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In a non-equilateral triangle $ABC$ the sides $a, b, c$ form an arithmetic progression. Let $I$ be the incentre and $O$ the circumcentre of triangle $ABC$. Prove that\n\\begin{enumerate}\n\\item[(1)] $IO$ is perpendicular to $BI$;\n\\item[(2)] If $BI$ meets $AC$ in $K$, and $D$, $E$ are the midpoints of $BC$, $BA$ respectively, then $I$ is the circumcentre of triangle $DKE$.\n\\end{enumerate}",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2006"
+  },
+  {
+    "id": "INMO_2006_P2",
+    "year": 2006,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "Prove that for every positive integer $n$ there exists a unique ordered pair $(a, b)$ of positive integers such that\n\\[\nn = \\frac{1}{2}(a + b - 1)(a + b - 2) + a.\n\\]",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2006"
+  },
+  {
+    "id": "INMO_2006_P3",
+    "year": 2006,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $X = \\mathbb{Z}^3$ denote the set of all triples $(a, b, c)$ of integers. Define $f : X \\to X$ by\n\\[\nf(a, b, c) = (a + b + c,\\; ab + bc + ca,\\; abc).\n\\]\nFind all triples $(a, b, c)$ such that $f(f(a, b, c)) = (a, b, c)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2006"
+  },
+  {
+    "id": "INMO_2006_P4",
+    "year": 2006,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Some $46$ squares are randomly chosen from a $9 \\times 9$ chessboard and colored red. Show that there exists a $2 \\times 2$ block of $4$ squares of which at least three are colored red.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2006"
+  },
+  {
+    "id": "INMO_2006_P5",
+    "year": 2006,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In a cyclic quadrilateral $ABCD$, $AB = a$, $BC = b$, $CD = c$, $\\angle ABC = 120^\\circ$ and $\\angle ABD = 30^\\circ$. Prove that\n\\begin{enumerate}\n\\item[(1)] $c \\geq a + b$;\n\\item[(2)] $\\left|\\sqrt{c + a} - \\sqrt{c + b}\\right| = \\sqrt{c - a - b}$.\n\\end{enumerate}",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2006"
+  },
+  {
+    "id": "INMO_2006_P6",
+    "year": 2006,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "\\begin{enumerate}\n\\item[(a)] Prove that if $n$ is an integer such that $n \\geq 4011^2$, then there exists an integer $l$ such that $n < l^2 < \\left(1 + \\d\\frac{1}{2005}\\right)n$.\n\\item[(b)] Find the smallest positive integer $M$ for which whenever an integer $n$ satisfies $n \\geq M$, there exists an integer $l$ such that $n < l^2 < \\left(1 + \\d\\frac{1}{2005}\\right)n$.\n\\end{enumerate}",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2006"
+  }
+]

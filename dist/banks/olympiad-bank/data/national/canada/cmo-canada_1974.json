@@ -1,0 +1,122 @@
+[
+  {
+    "id": "cmo-1974-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1974,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "(i) If \\(x = \\left(1 + \\dfrac{1}{n}\\right)^n\\) and \\(y = \\left(1 + \\dfrac{1}{n}\\right)^{n+1}\\), show that \\(y^x = x^y\\).\n\n(ii) Show that, for all positive integers \\(n\\),\n\\[1^2 - 2^2 + 3^2 - 4^2 + \\cdots + (-1)^n(n-1)^2 + (-1)^{n+1}n^2 = (-1)^{n+1}(1 + 2 + \\cdots + n).\\]",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1974",
+    "tags": []
+  },
+  {
+    "id": "cmo-1974-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1974,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(ABCD\\) be a rectangle with \\(BC = 3AB\\). Show that if \\(P\\) and \\(Q\\) are the points on side \\(BC\\) with \\(BP = PQ = QC\\), then\n\\[\\angle DBC + \\angle DPC = \\angle DQC.\\]",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1974",
+    "tags": []
+  },
+  {
+    "id": "cmo-1974-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1974,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let\n\\[f(x) = a_0 + a_1 x + a_2 x^2 + \\cdots + a_n x^n\\]\nbe a polynomial with coefficients satisfying \\(0 \\leq a_i \\leq a_0\\) for \\(i = 1, 2, \\ldots, n\\). Let \\(b_0, b_1, \\ldots, b_{2n}\\) be the coefficients of \\((f(x))^2\\). Prove that\n\\[b_{n+1} \\leq \\frac{1}{2}\\left(f(1)\\right)^2.\\]",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1974",
+    "tags": []
+  },
+  {
+    "id": "cmo-1974-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1974,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(n\\) be a fixed positive integer. For any real numbers \\(x_1, x_2, \\ldots, x_n\\) with \\(0 \\leq x_i \\leq 1\\), define the sum\n\\[\\sum_{1 \\leq i < j \\leq n} |x_i - x_j|.\\]\nLet \\(S(n)\\) denote the largest possible value of this sum. Find \\(S(n)\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1974",
+    "tags": []
+  },
+  {
+    "id": "cmo-1974-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1974,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Given a circle with diameter \\(AB\\) and a point \\(X\\) on the circle different from \\(A\\) and \\(B\\), let \\(t_a\\), \\(t_b\\), and \\(t_x\\) be the tangents to the circle at \\(A\\), \\(B\\), and \\(X\\) respectively. Let \\(Z\\) be the point where line \\(AX\\) meets \\(t_b\\), and let \\(Y\\) be the point where line \\(BX\\) meets \\(t_a\\). Show that the three lines \\(YZ\\), \\(t_x\\), and \\(AB\\) are either concurrent or parallel.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1974",
+    "tags": []
+  },
+  {
+    "id": "cmo-1974-p6",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1974,
+    "day": 1,
+    "problem_number": 6,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "An unlimited supply of \\(8\\)-cent and \\(15\\)-cent stamps is available. Some amounts of postage cannot be made up exactly. What is the largest unattainable amount — that is, the largest \\(n\\) such that \\(n\\) cents is unattainable while all amounts greater than \\(n\\) are attainable? Justify your answer.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1974",
+    "tags": []
+  },
+  {
+    "id": "cmo-1974-p7",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1974,
+    "day": 1,
+    "problem_number": 7,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "A bus route consists of a circular road of circumference \\(10\\) miles and a straight road of length \\(1\\) mile running from a terminus to a point \\(Q\\) on the circle. Two buses each complete the round trip in \\(20\\) minutes. Bus No. 1 leaves the terminus, travels the straight road, goes once around the circle clockwise, and returns. Bus No. 2 follows the same route but counterclockwise, departing the terminus \\(10\\) minutes after Bus No. 1. A man waits at point \\(P\\) which is \\(x\\) miles (\\(0 \\leq x < 12\\)) from the terminus along Bus No. 1's route, and boards whichever bus arrives first. Let \\(w(x)\\) be the maximum possible journey time (waiting plus travel). Find \\(w(2)\\) and \\(w(4)\\). For what value of \\(x\\) is \\(w(x)\\) longest? Sketch the graph of \\(y = w(x)\\) for \\(0 \\leq x < 12\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1974",
+    "tags": []
+  }
+]

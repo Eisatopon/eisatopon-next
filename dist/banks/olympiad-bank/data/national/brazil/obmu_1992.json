@@ -1,0 +1,138 @@
+[
+  {
+    "id": "brazil-1992-d1-p1",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1992,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "The equation \\(x^3 + px + q = 0\\) has three distinct real roots. Show that \\(p < 0\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1992 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-1992-d1-p2",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1992,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Show that there is a positive integer \\(n\\) such that the first \\(1992\\) digits of \\(n^{1992}\\) are all \\(1\\)'s.",
+    "solution": null,
+    "source": "Brazil National Olympiad 1992 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-1992-d1-p3",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1992,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Given positive real numbers \\(x_1, x_2, \\ldots, x_n\\), find the polygon \\(A_0A_1\\cdots A_n\\) with \\(A_iA_{i+1} = x_{i+1}\\) (indices mod \\(n\\)) that has the greatest area.",
+    "solution": null,
+    "source": "Brazil National Olympiad 1992 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-1992-d1-p4",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1992,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(ABC\\) be a triangle. Find the point \\(D\\) on side \\(AC\\) and the point \\(E\\) on side \\(AB\\) such that the area of triangle \\(ADE\\) equals the area of quadrilateral \\(DEBC\\), and the segment \\(DE\\) has the minimum possible length.",
+    "solution": null,
+    "source": "Brazil National Olympiad 1992 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-1992-d2-p5",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1992,
+    "day": 2,
+    "problem_number": 5,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(d(n) = \\sum_{0 < d \\mid n} 1\\) be the number of positive divisors of \\(n\\). Show that for any natural number \\(n > 1\\), \\[\\sum_{2 \\leq i \\leq n} \\frac{1}{i} \\leq \\sum_{1 \\leq i \\leq n} \\frac{d(i)}{n} \\leq \\sum_{1 \\leq i \\leq n} \\frac{1}{i}.\\]",
+    "solution": null,
+    "source": "Brazil National Olympiad 1992 Day 2",
+    "tags": []
+  },
+  {
+    "id": "brazil-1992-d2-p6",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1992,
+    "day": 2,
+    "problem_number": 6,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Given a set of \\(n\\) elements, find the largest number of subsets such that no subset is contained in any other (i.e., the size of the largest antichain in the power set).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1992 Day 2",
+    "tags": []
+  },
+  {
+    "id": "brazil-1992-d2-p7",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1992,
+    "day": 2,
+    "problem_number": 7,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Find all \\(4\\)-tuples \\((a, b, c, n)\\) of natural numbers such that \\(n^a + n^b = n^c\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1992 Day 2",
+    "tags": []
+  },
+  {
+    "id": "brazil-1992-d2-p8",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1992,
+    "day": 2,
+    "problem_number": 8,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "In a chess tournament each player plays every other player once. A player gets \\(1\\) point for a win, \\(\\frac{1}{2}\\) point for a draw, and \\(0\\) for a loss. Both men and women participated, and each player scored the same total of points against women as against men. Show that the total number of players must be a perfect square.",
+    "solution": null,
+    "source": "Brazil National Olympiad 1992 Day 2",
+    "tags": []
+  }
+]

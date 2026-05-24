@@ -1,0 +1,104 @@
+[
+  {
+    "id": "brazil-2005-d1-p1",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2005,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "A natural number is a \\textit{palindrome} when one obtains the same number upon reversing its digits. Determine all pairs \\((m, n)\\) of positive integers such that \\(\\underbrace{111\\cdots1}_{m} \\times \\underbrace{111\\cdots1}_{n}\\) is a palindrome.",
+    "solution": null,
+    "source": "Brazil National Olympiad 2005 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-2005-d1-p2",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2005,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Determine the smallest real number \\(C\\) such that the inequality \\[C(x_1^{2005} + x_2^{2005} + \\cdots + x_5^{2005}) \\geq x_1x_2x_3x_4x_5(x_1^{125} + x_2^{125} + \\cdots + x_5^{125})^{16}\\] holds for all positive real numbers \\(x_1, x_2, x_3, x_4, x_5\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 2005 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-2005-d1-p3",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2005,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "A square is contained in a cube when all of its points lie on the faces or in the interior of the cube. Determine the largest \\(\\ell > 0\\) such that there exists a square of side \\(\\ell\\) contained in a cube with edge length \\(1\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 2005 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-2005-d2-p4",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2005,
+    "day": 2,
+    "problem_number": 4,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "We have four charged batteries, four uncharged batteries, and a radio that needs two charged batteries to work. Suppose we do not know which batteries are charged. Find the least number of attempts sufficient to guarantee that the radio will work. An attempt consists of inserting two batteries into the radio and checking whether it works.",
+    "solution": null,
+    "source": "Brazil National Olympiad 2005 Day 2",
+    "tags": []
+  },
+  {
+    "id": "brazil-2005-d2-p5",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2005,
+    "day": 2,
+    "problem_number": 5,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(ABC\\) be a triangle with all angles \\(\\leq 120^\\circ\\). Let \\(F\\) be the Fermat point of triangle \\(ABC\\), that is, the interior point such that \\(\\angle AFB = \\angle BFC = \\angle CFA = 120^\\circ\\). For each of the three triangles \\(BFC\\), \\(CFA\\), and \\(AFB\\), draw its Euler line (the line connecting its circumcenter and its centroid). Prove that these three Euler lines pass through a common point.",
+    "solution": null,
+    "source": "Brazil National Olympiad 2005 Day 2",
+    "tags": []
+  },
+  {
+    "id": "brazil-2005-d2-p6",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2005,
+    "day": 2,
+    "problem_number": 6,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Given positive integers \\(a\\), \\(c\\) and an integer \\(b\\), prove that there exists a positive integer \\(x\\) such that \\(a^x + x \\equiv b \\pmod{c}\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 2005 Day 2",
+    "tags": []
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "vmo-1977-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1977,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Find all real \\(x\\) such that \\(\\sqrt{x - \\dfrac{1}{x}} + \\sqrt{1 - \\dfrac{1}{x}} > \\dfrac{x-1}{x}\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1977",
+    "tags": []
+  },
+  {
+    "id": "vmo-1977-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1977,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Show that there are 1977 non-similar triangles with angles \\(A, B, C\\) satisfying \\(\\dfrac{\\sin A + \\sin B + \\sin C}{\\cos A + \\cos B + \\cos C} = \\dfrac{12}{7}\\) and \\(\\sin A \\sin B \\sin C = \\dfrac{12}{25}\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1977",
+    "tags": []
+  },
+  {
+    "id": "vmo-1977-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1977,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Into how many regions do \\(n\\) circles divide the plane, if each pair of circles intersects in two points and no point lies on three circles?",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1977",
+    "tags": []
+  },
+  {
+    "id": "vmo-1977-p4",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1977,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(p(x)\\) be a real polynomial of degree 3. Find necessary and sufficient conditions on its coefficients for \\(p(n)\\) to be an integer for every integer \\(n\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1977",
+    "tags": []
+  },
+  {
+    "id": "vmo-1977-p5",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1977,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Real numbers \\(a_0, a_1, \\ldots, a_{n+1}\\) satisfy \\(a_0 = a_{n+1} = 0\\) and \\(|a_{k-1} - 2a_k + a_{k+1}| \\leq 1\\) for \\(k = 1, 2, \\ldots, n\\). Show that \\(|a_k| \\leq \\dfrac{k(n+1-k)}{2}\\) for all \\(k\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1977",
+    "tags": []
+  },
+  {
+    "id": "vmo-1977-p6",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1977,
+    "day": 1,
+    "problem_number": 6,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "The planes \\(p\\) and \\(p'\\) are parallel. A polygon \\(P\\) on \\(p\\) has \\(m\\) sides and a polygon \\(P'\\) on \\(p'\\) has \\(n\\) sides. Find the largest and smallest distances between a vertex of \\(P\\) and a vertex of \\(P'\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1977",
+    "tags": []
+  }
+]

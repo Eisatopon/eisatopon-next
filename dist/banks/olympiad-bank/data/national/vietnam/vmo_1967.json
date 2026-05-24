@@ -1,0 +1,53 @@
+[
+  {
+    "id": "vmo-1967-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1967,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Draw the graph of the function \\(y = \\dfrac{|x^3-x^2-2x|}{3} - |x+1|\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1967",
+    "tags": []
+  },
+  {
+    "id": "vmo-1967-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1967,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "A river flows at speed \\(u\\). A boat moves at speed \\(v\\) relative to the water, at angle \\(\\alpha\\) to the river's direction. What is the boat's speed relative to the bank? What \\(\\alpha\\) minimizes the time to cross the river?",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1967",
+    "tags": []
+  },
+  {
+    "id": "vmo-1967-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1967,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "i) \\(ABCD\\) is a rhombus. A tangent to the inscribed circle meets \\(AB, DA, BC, CD\\) at \\(M, N, P, Q\\). Find a relation between \\(BM\\) and \\(DN\\).\nii) \\(ABCD\\) is a rhombus and \\(P\\) a point inside. The circles through \\(P\\) centered at \\(A, B, C, D\\) meet the four sides in eight points. Find a property of the resulting octagon and use it to construct a regular octagon.\niii) Rotate the figure about \\(AC\\) to form a solid. State an analogous result.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1967",
+    "tags": []
+  }
+]

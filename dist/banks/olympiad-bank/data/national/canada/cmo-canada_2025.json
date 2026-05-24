@@ -1,0 +1,87 @@
+[
+  {
+    "id": "cmo-2025-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2025,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "The \\(n\\) players of a hockey team stand in a circle, each initially voting for the person on their left. In each round, every player \\(a\\) (in some order) updates their vote: if \\(a\\) votes for \\(b\\) and \\(b\\) votes for \\(c\\), then \\(a\\) updates to vote for \\(c\\). After \\(n\\) rounds (each player updating exactly once per round), prove that all \\(n\\) players unanimously vote for the same person.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2025",
+    "tags": []
+  },
+  {
+    "id": "cmo-2025-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2025,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Determine all positive integers \\(a, b, c, p\\) where \\(p\\) and \\(p+2\\) are odd primes and\n\\[2^a p^b = (p+2)^c - 1.\\]",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2025",
+    "tags": []
+  },
+  {
+    "id": "cmo-2025-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2025,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "A polynomial \\(c_d x^d + c_{d-1}x^{d-1} + \\cdots + c_0\\) of degree \\(d\\) is reflexive if there exists an integer \\(n \\geq d\\) such that \\(c_i = c_{n-i}\\) for every \\(0 \\leq i \\leq n\\) (where \\(c_i = 0\\) for \\(i > d\\)). Let \\(\\ell \\geq 2\\) be an integer and \\(p(x)\\) a polynomial with integer coefficients. Prove that there exist reflexive polynomials \\(q(x)\\) and \\(r(x)\\) with integer coefficients such that\n\\[(1 + x + x^2 + \\cdots + x^{\\ell-1})p(x) = q(x) + x^\\ell r(x).\\]",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2025",
+    "tags": []
+  },
+  {
+    "id": "cmo-2025-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2025,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(ABC\\) be a triangle with circumcircle \\(\\Gamma\\) and \\(AB \\neq AC\\). Let \\(D\\) and \\(E\\) lie on arc \\(BC\\) of \\(\\Gamma\\) not containing \\(A\\) such that \\(\\angle BAE = \\angle DAC\\). Let \\(X\\) and \\(Y\\) be the incenters of \\(\\triangle BAE\\) and \\(\\triangle CAD\\) respectively, and let \\(Z\\) be the intersection of the external tangents of the incircles of \\(\\triangle BAE\\) and \\(\\triangle CAD\\). Prove that \\(Z\\) lies on the common chord of \\(\\Gamma\\) and the circumcircle of \\(\\triangle AXY\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2025",
+    "tags": []
+  },
+  {
+    "id": "cmo-2025-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2025,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "A rectangle \\(\\mathcal{R}\\) is divided into finitely many smaller rectangles \\(\\mathcal{S}\\) with sides parallel to those of \\(\\mathcal{R}\\), with no three rectangles sharing a common corner. An ant starts at the bottom-left corner of \\(\\mathcal{R}\\). In one operation, choose a rectangle \\(r \\in \\mathcal{S}\\) such that the ant is at a corner \\(c\\) of \\(r\\), then move the ant to one of the two corners of \\(r\\) adjacent to \\(c\\). If after finitely many operations the ant reaches the top-right corner of \\(\\mathcal{R}\\), prove that some rectangle in \\(\\mathcal{S}\\) was chosen in at least two operations.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2025",
+    "tags": []
+  }
+]

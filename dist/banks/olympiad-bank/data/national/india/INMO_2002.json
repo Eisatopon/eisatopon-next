@@ -1,0 +1,107 @@
+[
+  {
+    "id": "INMO_2002_P1",
+    "year": 2002,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "For a convex hexagon $ABCDEF$ in which each pair of opposite sides is unequal, consider the following statements:\n\\begin{itemize}\n\\item $(a_1)$ $AB \\parallel DE$. \\quad $(a_2)$ $AE = BD$.\n\\item $(b_1)$ $BC \\parallel EF$. \\quad $(b_2)$ $BF = CE$.\n\\item $(c_1)$ $CD \\parallel FA$. \\quad $(c_2)$ $CA = DF$.\n\\end{itemize}\n\\begin{enumerate}\n\\item[(a)] Show that if all six of these statements are true then the hexagon is cyclic.\n\\item[(b)] Prove that, in fact, any five of the six statements suffice.\n\\end{enumerate}",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2002"
+  },
+  {
+    "id": "INMO_2002_P2",
+    "year": 2002,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "statement": "Find the smallest positive value taken by $a^3 + b^3 + c^3 - 3abc$ for positive integers $a, b, c$. Find all $a, b, c$ which give the smallest value.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2002"
+  },
+  {
+    "id": "INMO_2002_P3",
+    "year": 2002,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "If $x, y$ are positive reals such that $x + y = 2$, show that $x^3 y^3(x^3 + y^3) \\leq 2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2002"
+  },
+  {
+    "id": "INMO_2002_P4",
+    "year": 2002,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics",
+      "Geometry"
+    ],
+    "statement": "Is it true that there exist $100$ lines in the plane, no three concurrent, such that they intersect in exactly $2002$ points?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2002"
+  },
+  {
+    "id": "INMO_2002_P5",
+    "year": 2002,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Do there exist distinct positive integers $a, b, c$ such that $a, b, c, -a+b+c, a-b+c, a+b-c, a+b+c$ form an arithmetic progression (in some order)?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2002"
+  },
+  {
+    "id": "INMO_2002_P6",
+    "year": 2002,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "The numbers $1, 2, 3, \\ldots, n^2$ are arranged in an $n \\times n$ array so that the numbers in each row increase from left to right, and the numbers in each column increase from top to bottom. Let $a_{ij}$ be the number in position $(i, j)$. Let $b_j$ be the number of possible values for $a_{jj}$. Show that\n\\[\nb_1 + b_2 + \\cdots + b_n = \\frac{n(n^2 - 3n + 5)}{3}.\n\\]",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2002"
+  }
+]

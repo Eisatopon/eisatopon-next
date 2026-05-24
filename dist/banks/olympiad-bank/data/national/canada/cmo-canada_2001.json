@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cmo-2001-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2001,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Rachel has written a quadratic equation with integer coefficients whose two roots are positive integers: one root is her age and the other is the age of her younger brother Jimmy. The sum of the three coefficients is a prime number. When Randy substitutes his guess for Rachel's age into the quadratic, he obtains \\(-55\\).\n\n(1) Prove that Jimmy is two years old.\n\n(2) Determine Rachel's age.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2001",
+    "tags": []
+  },
+  {
+    "id": "cmo-2001-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2001,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Combinatorics",
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "There is a board numbered \\(-10\\) to \\(10\\). Each square is coloured red or white, and the sum of the numbers on the red squares is \\(n\\). Maureen starts with a token on square \\(0\\) and tosses a fair coin ten times, moving right on heads and left on tails. The probability that the token finishes on a red square is \\(\\tfrac{a}{b}\\) in lowest terms. Given that \\(a + b = 2001\\), determine the largest possible value of \\(n\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2001",
+    "tags": []
+  },
+  {
+    "id": "cmo-2001-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2001,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(ABC\\) be a triangle with \\(AC > AB\\). Let \\(P\\) be the intersection of the perpendicular bisector of \\(BC\\) and the internal angle bisector of \\(\\angle A\\). Construct points \\(X\\) on \\(AB\\) (extended) and \\(Y\\) on \\(AC\\) such that \\(PX \\perp AB\\) and \\(PY \\perp AC\\). Let \\(Z\\) be the intersection of \\(XY\\) and \\(BC\\). Determine the value of \\(\\dfrac{BZ}{ZC}\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2001",
+    "tags": []
+  },
+  {
+    "id": "cmo-2001-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2001,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(n\\) be a positive integer. Nancy is given a rectangular table in which each entry is a positive integer. She may: (1) select a row and multiply each entry in that row by \\(n\\); or (2) select a column and subtract \\(n\\) from each entry in that column. Find all values of \\(n\\) for which, given any rectangular table, Nancy can perform a finite sequence of moves to make every entry equal to \\(0\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2001",
+    "tags": []
+  },
+  {
+    "id": "cmo-2001-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2001,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(P_0, P_1, P_2\\) be three points on the circumference of a circle with radius \\(1\\), where \\(P_1P_2 = t < 2\\). For each \\(i \\geq 3\\), define \\(P_i\\) to be the centre of the circumcircle of \\(\\triangle P_{i-1}P_{i-2}P_{i-3}\\).\n\n(1) Prove that the points \\(P_1, P_5, P_9, P_{13}, \\ldots\\) are collinear.\n\n(2) Let \\(x\\) be the distance from \\(P_1\\) to \\(P_{1001}\\), and let \\(y\\) be the distance from \\(P_{1001}\\) to \\(P_{2001}\\). Determine all values of \\(t\\) for which \\(\\sqrt[500]{\\dfrac{x}{y}}\\) is an integer.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2001",
+    "tags": []
+  }
+]

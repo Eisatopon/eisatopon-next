@@ -1,0 +1,70 @@
+[
+  {
+    "id": "vmo-1964-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1964,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Given an arbitrary angle \\(\\alpha\\), compute \\(\\cos\\alpha + \\cos\\!\\left(\\alpha+\\tfrac{2\\pi}{3}\\right) + \\cos\\!\\left(\\alpha+\\tfrac{4\\pi}{3}\\right)\\) and \\(\\sin\\alpha + \\sin\\!\\left(\\alpha+\\tfrac{2\\pi}{3}\\right) + \\sin\\!\\left(\\alpha+\\tfrac{4\\pi}{3}\\right)\\). Generalize this result and justify your answer.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1964",
+    "tags": []
+  },
+  {
+    "id": "vmo-1964-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1964,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Draw the graphs of \\(y = |x^2-1|\\) and \\(y = x + |x^2-1|\\). Find the number of roots of \\(x + |x^2-1| = k\\) where \\(k\\) is a real constant.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1964",
+    "tags": []
+  },
+  {
+    "id": "vmo-1964-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1964,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(P\\) be a plane, \\(A \\in P\\), \\(O \\notin P\\). For each line in \\(P\\) through \\(A\\), let \\(H\\) be the foot of the perpendicular from \\(O\\). Find the locus \\((c)\\) of \\(H\\). Let \\((C)\\) be the oblique cone with apex \\(O\\) and base \\((c)\\). Prove that planes parallel to \\(P\\) or perpendicular to \\(OA\\) intersect \\((C)\\) in circles. Find a relation between angles \\(\\alpha\\) and \\(\\beta\\) made by two symmetric planes with \\((C)\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1964",
+    "tags": []
+  },
+  {
+    "id": "vmo-1964-p4",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1964,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Define the Fibonacci sequence by \\(f_0=1\\), \\(f_1=1\\), \\(f_{n+2}=f_{n+1}+f_n\\). Show that \\(f_n = \\dfrac{a^{n+1}-b^{n+1}}{\\sqrt{5}}\\), where \\(a, b\\) are real numbers with \\(a+b=1\\), \\(ab=-1\\), and \\(a > b\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1964",
+    "tags": []
+  }
+]

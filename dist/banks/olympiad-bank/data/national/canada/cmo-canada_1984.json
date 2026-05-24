@@ -1,0 +1,88 @@
+[
+  {
+    "id": "cmo-1984-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1984,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Prove that the sum of the squares of \\(1984\\) consecutive positive integers cannot be the square of an integer.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1984",
+    "tags": []
+  },
+  {
+    "id": "cmo-1984-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1984,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "What is the smallest number of colours needed to distinguish \\(n\\) keys arranged in a circle on a key ring, if all keys must be covered by a coloured sleeve and two arrangements are considered the same when one can be obtained from the other by rotation or reflection of the ring?",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1984",
+    "tags": []
+  },
+  {
+    "id": "cmo-1984-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1984,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "An integer is called digitally divisible if (a) none of its digits is zero, and (b) it is divisible by the sum of its digits (e.g.\\ \\(322\\) is digitally divisible). Show that there are infinitely many digitally divisible integers.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1984",
+    "tags": []
+  },
+  {
+    "id": "cmo-1984-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1984,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "An acute triangle has unit area. Show that there is a point inside the triangle whose distance from each of the three vertices is at least \\(\\dfrac{2}{\\sqrt[4]{27}}\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1984",
+    "tags": []
+  },
+  {
+    "id": "cmo-1984-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1984,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Algebra",
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Given any \\(7\\) real numbers, prove that there are two of them \\(x\\) and \\(y\\) such that\n\\[0 \\leq \\frac{x - y}{1 + xy} \\leq \\frac{1}{\\sqrt{3}}.\\]",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1984",
+    "tags": []
+  }
+]

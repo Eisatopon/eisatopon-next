@@ -1,0 +1,104 @@
+[
+  {
+    "id": "brazil-2008-d1-p1",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2008,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "A positive integer is \\textit{dapper} if at least one of its multiples begins with \\(2008\\). For example, \\(7\\) is dapper because \\(200858 = 28694 \\times 7\\) begins with \\(2008\\). Prove that every positive integer is dapper.",
+    "solution": null,
+    "source": "Brazil National Olympiad 2008 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-2008-d1-p2",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2008,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(S\\) be a set of \\(6n\\) points on a line. Choose \\(4n\\) of these points and color them blue; the remaining \\(2n\\) points are colored green. Prove that there exists a line segment that contains exactly \\(3n\\) points of \\(S\\), of which \\(2n\\) are blue and \\(n\\) are green.",
+    "solution": null,
+    "source": "Brazil National Olympiad 2008 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-2008-d1-p3",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2008,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(x, y, z\\) be real numbers such that \\(x + y + z = xy + yz + zx\\). Find the minimum value of \\[\\frac{x}{x^2+1} + \\frac{y}{y^2+1} + \\frac{z}{z^2+1}.\\]",
+    "solution": null,
+    "source": "Brazil National Olympiad 2008 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-2008-d2-p4",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2008,
+    "day": 2,
+    "problem_number": 4,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(ABCD\\) be a cyclic quadrilateral. Let \\(r\\) and \\(s\\) be the lines obtained by reflecting line \\(AB\\) over the internal bisectors of \\(\\angle CAD\\) and \\(\\angle CBD\\), respectively. If \\(P\\) is the intersection of \\(r\\) and \\(s\\), and \\(O\\) is the circumcenter of \\(ABCD\\), prove that \\(OP \\perp CD\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 2008 Day 2",
+    "tags": []
+  },
+  {
+    "id": "brazil-2008-d2-p5",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2008,
+    "day": 2,
+    "problem_number": 5,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Prove that for all integers \\(a > 1\\) and \\(b > 1\\) there exists a function \\(f\\) from the positive integers to the positive integers such that \\(f(a \\cdot f(n)) = b \\cdot n\\) for all positive integers \\(n\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 2008 Day 2",
+    "tags": []
+  },
+  {
+    "id": "brazil-2008-d2-p6",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2008,
+    "day": 2,
+    "problem_number": 6,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "A \\(10000\\)-letter word is formed using only the letters \\(A\\) and \\(E\\). For \\(1 \\leq k \\leq 10000\\), a \\textit{prophetic word} of length \\(k\\) is any word formed by \\(k\\) consecutive letters of the original word. It is known that there are at most \\(7\\) prophetic words of length \\(3\\). Find the maximum number of prophetic words of length \\(10\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 2008 Day 2",
+    "tags": []
+  }
+]

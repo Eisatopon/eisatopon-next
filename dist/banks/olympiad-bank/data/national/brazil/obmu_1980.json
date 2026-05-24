@@ -1,0 +1,70 @@
+[
+  {
+    "id": "brazil-1980-d1-p1",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1980,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Box \\(A\\) contains black balls and box \\(B\\) contains white balls. Take a certain number of balls from \\(A\\) and place them in \\(B\\); then take the same number of balls from \\(B\\) and place them in \\(A\\). Is the number of white balls in \\(A\\) then greater than, equal to, or less than the number of black balls in \\(B\\)?",
+    "solution": null,
+    "source": "Brazil National Olympiad 1980",
+    "tags": []
+  },
+  {
+    "id": "brazil-1980-d1-p2",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1980,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Show that for any positive integer \\(n > 2\\) we can find \\(n\\) distinct positive integers such that the sum of their reciprocals equals \\(1\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1980",
+    "tags": []
+  },
+  {
+    "id": "brazil-1980-d1-p3",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1980,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Given triangle \\(ABC\\) and a point \\(P_0\\) on side \\(AB\\), construct sequences of points \\(P_i\\), \\(Q_i\\), \\(R_i\\) as follows: \\(Q_i\\) is the foot of the perpendicular from \\(P_i\\) to \\(BC\\); \\(R_i\\) is the foot of the perpendicular from \\(Q_i\\) to \\(AC\\); \\(P_i\\) is the foot of the perpendicular from \\(R_{i-1}\\) to \\(AB\\). Show that the points \\(P_i\\) converge to a point \\(P\\) on \\(AB\\), and show how to construct \\(P\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1980",
+    "tags": []
+  },
+  {
+    "id": "brazil-1980-d1-p4",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1980,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Given \\(5\\) points on a sphere of radius \\(r\\), show that two of the points are at distance \\(\\leq r\\sqrt{2}\\) apart.",
+    "solution": null,
+    "source": "Brazil National Olympiad 1980",
+    "tags": []
+  }
+]

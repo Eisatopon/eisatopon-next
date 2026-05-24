@@ -1,0 +1,203 @@
+<!DOCTYPE html><html lang="el" class="__variable_55b51c __variable_f9b7d3 __variable_3c557b __variable_1b85de antialiased"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/2f46e0db0d4a3aed.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/29818d2f7eaa7fb8.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-6f4334acbf6736e7.js"/><script src="/_next/static/chunks/4bd1b696-215e5051988c3dde.js" async=""></script><script src="/_next/static/chunks/794-2a8bd403d68bff19.js" async=""></script><script src="/_next/static/chunks/main-app-89ab692ca1a7fe5e.js" async=""></script><script src="/_next/static/chunks/app/layout-449806930582b545.js" async=""></script><script src="/_next/static/chunks/app/lab/rubik-cube/page-438c2b6e40070437.js" async=""></script><title>EisatoponAI — Mathematical Problem Banks</title><meta name="description" content="Interactive mathematical archives, olympiad problems and AI-powered learning."/><meta name="author" content="Sokratis Koromilás"/><meta name="keywords" content="mathematics,olympiad,problem solving,IMO,panelladikes,hellenic exams,number theory,geometry,combinatorics,algebra"/><meta name="creator" content="EisatoponAI"/><meta property="og:title" content="EisatoponAI — Mathematical Problem Banks"/><meta property="og:description" content="Interactive mathematical archives, olympiad problems and AI-powered learning."/><meta property="og:url" content="https://eisatopon.gr/"/><meta property="og:site_name" content="EisatoponAI"/><meta property="og:locale" content="en_US"/><meta property="og:image" content="https://eisatopon.gr/images/og-home.jpg"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="EisatoponAI"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="EisatoponAI — Mathematical Problem Banks"/><meta name="twitter:description" content="Interactive mathematical archives, olympiad problems and AI-powered learning."/><meta name="twitter:image" content="https://eisatopon.gr/images/og-home.jpg"/><link rel="icon" href="/logo/favicon.svg"/><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"EisatoponAI","url":"https://eisatopon.gr","description":"Interactive mathematical archives, olympiad problems and AI-powered learning.","publisher":{"@type":"Organization","name":"EisatoponAI","logo":{"@type":"ImageObject","url":"https://eisatopon.gr/logo.png","width":512,"height":512}},"sameAs":["https://facebook.com/eisatopon","https://linkedin.com/company/eisatopon","https://x.com/eisatopon","https://instagram.com/eisatopon","https://youtube.com/@eisatopon","https://pinterest.com/eisatopon"]}</script><script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body class="bg-base text-ink-primary min-h-screen"><div hidden=""><!--$--><!--/$--></div><div class="rk-root"><a href="/" class="rk-back">← EisatoponAI</a><div class="rk-bg"><div class="rk-orb rk-orb1"></div><div class="rk-orb rk-orb2"></div><div class="rk-orb rk-orb3"></div></div><header class="rk-header"><div class="rk-brand"><div class="rk-cube-icon"><span>⬛</span></div><div><h1 class="rk-title">Rubik&#x27;s Cube<br/><span class="rk-title-accent">Solver</span></h1><p class="rk-sub">Interactive 3D · WCA Notation · Optimal Solution</p></div></div><div class="rk-loading-pill"><div class="rk-spinner"></div><span>Loading 3D engine…</span></div></header><div class="rk-grid"><section class="rk-panel rk-cube-panel"><div class="rk-panel-label">3D Viewer</div><div class="rk-cube" aria-label="Interactive 3D Rubik&#x27;s Cube"></div><p class="rk-tip">Drag to rotate · Scroll to zoom</p></section><div class="rk-right"><section class="rk-panel rk-sol-panel"><div class="rk-sol-header"><div><div class="rk-panel-label">Solution Algorithm</div></div><button disabled="" class="rk-copy-btn ">Copy</button></div><pre class="rk-out">⏳ Computing…</pre></section><section class="rk-panel rk-notation"><button class="rk-notation-toggle"><span class="rk-panel-label">Notation Guide</span><span class="rk-chevron" style="transform:rotate(0deg)">▾</span></button></section></div></div><footer class="rk-footer"><strong>EisatoponAI</strong> ·  Your Daily Experience of Math Adventures</footer><style>
+        @import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap');
+        .rk-root {
+          min-height:100vh; background:#04080f; color:#e2e8f0;
+          font-family:'DM Sans',system-ui,sans-serif;
+          padding:24px 20px; position:relative; overflow-x:hidden;
+        }
+        .rk-bg { position:fixed; inset:0; pointer-events:none; z-index:0; }
+        .rk-orb { position:absolute; border-radius:50%; filter:blur(100px); opacity:.25; }
+        .rk-orb1 { width:500px; height:500px; background:#1D9E75; top:-150px; right:-100px; }
+        .rk-orb2 { width:400px; height:400px; background:#2563eb; bottom:-100px; left:-100px; }
+        .rk-orb3 { width:250px; height:250px; background:#c9a227; top:50%; left:40%; opacity:.15; }
+        .rk-header {
+          position:relative; z-index:1;
+          max-width:1200px; margin:0 auto 20px;
+          display:flex; flex-wrap:wrap; gap:16px;
+          align-items:center; justify-content:space-between;
+          background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.07);
+          border-radius:24px; padding:20px 28px; backdrop-filter:blur(20px);
+        }
+        .rk-brand { display:flex; align-items:center; gap:16px; }
+        .rk-cube-icon {
+          width:56px; height:56px; border-radius:16px;
+          background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.1);
+          display:flex; align-items:center; justify-content:center; font-size:28px;
+        }
+        .rk-title {
+          font-family:'Syne',sans-serif; font-size:clamp(18px,2.5vw,26px);
+          font-weight:800; line-height:1.1; letter-spacing:-.5px; margin:0 0 4px; color:#fff;
+        }
+        .rk-title-accent {
+          background:linear-gradient(90deg,#25c491,#c9a227);
+          -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
+        }
+        .rk-sub { margin:0; font-size:12px; color:#475569; }
+        .rk-loading-pill {
+          display:flex; align-items:center; gap:10px;
+          background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.08);
+          border-radius:999px; padding:10px 20px; font-size:13px; color:#64748b;
+        }
+        .rk-spinner {
+          width:16px; height:16px; border-radius:50%;
+          border:2px solid rgba(255,255,255,.1); border-top-color:#25c491;
+          animation:spin .8s linear infinite;
+        }
+        @keyframes spin { to{transform:rotate(360deg)} }
+        .rk-controls { display:flex; flex-wrap:wrap; gap:10px; align-items:center; flex:1; justify-content:flex-end; }
+        .rk-input {
+          flex:1; min-width:200px; max-width:360px; padding:12px 16px; border-radius:14px;
+          border:1px solid rgba(255,255,255,.08); background:rgba(255,255,255,.06);
+          color:#e2e8f0; font-size:14px; outline:none; transition:border-color .2s;
+          font-family:'JetBrains Mono','Fira Code',monospace; letter-spacing:.5px;
+        }
+        .rk-input:focus { border-color:#25c491; background:rgba(255,255,255,.08); }
+        .rk-input::placeholder { color:#334155; }
+        .rk-btns { display:flex; flex-wrap:wrap; gap:8px; }
+        .rk-btn {
+          padding:11px 18px; border-radius:12px; font-weight:700; font-size:13px;
+          cursor:pointer; transition:all .2s; white-space:nowrap; border:1px solid transparent;
+        }
+        .rk-btn:disabled { opacity:.35; cursor:not-allowed; }
+        .rk-btn:not(:disabled):active { transform:scale(.96); }
+        .rk-btn-ghost { background:rgba(255,255,255,.05); border-color:rgba(255,255,255,.08); color:#64748b; }
+        .rk-btn-ghost:not(:disabled):hover { background:rgba(255,255,255,.09); color:#94a3b8; }
+        .rk-btn-teal { background:rgba(37,196,145,.15); border-color:rgba(37,196,145,.3); color:#25c491; }
+        .rk-btn-teal:not(:disabled):hover { background:rgba(37,196,145,.25); }
+        .rk-btn-primary {
+          background:linear-gradient(135deg,#25c491,#1D9E75); color:#001a10; font-weight:800;
+          box-shadow:0 4px 16px rgba(37,196,145,.3);
+        }
+        .rk-btn-primary:not(:disabled):hover { box-shadow:0 6px 24px rgba(37,196,145,.45); transform:translateY(-1px); }
+        .rk-grid {
+          position:relative; z-index:1; max-width:1200px; margin:0 auto;
+          display:grid; grid-template-columns:1fr 420px; gap:16px;
+        }
+        @media(max-width:900px){ .rk-grid { grid-template-columns:1fr; } }
+        .rk-panel {
+          background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.07);
+          border-radius:24px; padding:20px; backdrop-filter:blur(16px);
+        }
+        .rk-panel-label {
+          font-size:10px; font-weight:700; letter-spacing:1.5px;
+          text-transform:uppercase; color:#334155; margin-bottom:12px;
+        }
+        .rk-cube-panel { display:flex; flex-direction:column; }
+        .rk-cube {
+          flex:1; min-height:440px; border-radius:16px; overflow:hidden;
+          border:1px solid rgba(0,0,0,.1);
+          background:#ffffff; /* ✅ white to match AnimCube3 bgcolor */
+          cursor:grab;
+        }
+        .rk-cube:active { cursor:grabbing; }
+        .rk-tip { margin:10px 0 0; font-size:11px; color:#1e293b; text-align:center; }
+        .rk-right { display:flex; flex-direction:column; gap:12px; }
+        .rk-sol-panel { display:flex; flex-direction:column; gap:12px; flex:1; }
+        .rk-sol-header { display:flex; justify-content:space-between; align-items:flex-start; }
+        .rk-move-count {
+          font-family:'Syne',sans-serif; font-size:28px; font-weight:800;
+          color:#25c491; line-height:1; margin-top:2px;
+        }
+        .rk-copy-btn {
+          padding:8px 16px; border-radius:10px; cursor:pointer;
+          font-size:12px; font-weight:700; transition:all .2s;
+          background:rgba(37,196,145,.1); border:1px solid rgba(37,196,145,.25); color:#25c491;
+        }
+        .rk-copy-btn:disabled { opacity:.3; cursor:default; }
+        .rk-copy-btn:not(:disabled):hover { background:rgba(37,196,145,.2); }
+        .rk-copied { background:rgba(37,196,145,.25) !important; border-color:#25c491 !important; }
+        .rk-out {
+          flex:1; margin:0; padding:16px; border-radius:16px;
+          background:rgba(255,255,255,.96); color:#0a0f1e;
+          font-family:'JetBrains Mono','Fira Code',monospace;
+          font-size:13px; line-height:1.8; white-space:pre-wrap;
+          min-height:100px; border:none; word-break:break-all;
+        }
+        .rk-status { font-size:12px; color:#25c491; padding:4px 0; }
+        .rk-status-err { color:#ef4444; }
+        .rk-notation { padding:16px 20px; }
+        .rk-notation-toggle {
+          width:100%; display:flex; justify-content:space-between; align-items:center;
+          background:transparent; border:none; cursor:pointer; padding:0;
+        }
+        .rk-chevron { color:#334155; font-size:16px; transition:transform .2s; }
+        .rk-notation-body { margin-top:14px; }
+        .rk-notation-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-bottom:12px; }
+        .rk-notation-chip {
+          display:flex; align-items:center; gap:8px;
+          background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.07);
+          border-radius:10px; padding:8px 10px;
+        }
+        .rk-nk {
+          width:28px; height:28px; border-radius:8px; flex-shrink:0;
+          display:flex; align-items:center; justify-content:center;
+          font-family:'Syne',sans-serif; font-size:14px; font-weight:800;
+          background:color-mix(in srgb,var(--nc) 20%,transparent);
+          color:var(--nc); border:1px solid color-mix(in srgb,var(--nc) 35%,transparent);
+        }
+        .rk-nl { font-size:11px; color:#475569; }
+        .rk-notation-mods { display:flex; flex-direction:column; gap:6px; }
+        .rk-mod-chip { display:flex; align-items:center; gap:10px; font-size:12px; color:#475569; }
+        .rk-mod-chip code {
+          background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.1);
+          border-radius:6px; padding:3px 8px;
+          font-family:'JetBrains Mono',monospace; font-size:12px; color:#94a3b8;
+        }
+        .rk-footer {
+          position:relative; z-index:1; max-width:1200px; margin:16px auto 0;
+          text-align:center; font-size:12px; color:#1e293b; padding:12px;
+        }
+        .rk-footer strong { color:#334155; }
+        .rk-back{
+  position:fixed;
+  top:20px;
+  left:20px;
+  z-index:9999;
+
+  display:flex;
+  align-items:center;
+  gap:8px;
+
+  padding:10px 16px;
+
+  border-radius:999px;
+
+  background:rgba(255,255,255,.05);
+  border:1px solid rgba(255,255,255,.08);
+
+  backdrop-filter:blur(14px);
+
+  color:#cbd5e1;
+  text-decoration:none;
+
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+
+  transition:all .25s ease;
+}
+
+.rk-back:hover{
+  border-color:rgba(37,196,145,.35);
+  color:#25c491;
+  background:rgba(37,196,145,.08);
+
+  transform:translateY(-1px);
+}
+        @media(max-width:600px){
+          .rk-header { padding:16px; }
+          .rk-controls { justify-content:flex-start; }
+          .rk-input { max-width:100%; }
+          .rk-notation-grid { grid-template-columns:repeat(2,1fr); }
+        }
+      </style></div><!--$--><!--/$--><button class="
+        fixed bottom-6 right-6 z-50
+        w-12 h-12 rounded-full
+        bg-white/10 backdrop-blur-md
+        border border-white/10
+        text-white text-xl
+        transition-all duration-300
+        hover:bg-white/20 hover:scale-110
+        opacity-0 pointer-events-none
+      ">^</button><script src="/_next/static/chunks/webpack-6f4334acbf6736e7.js" id="_R_" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[7121,[],\"\"]\n3:I[4581,[],\"\"]\n4:I[4963,[\"177\",\"static/chunks/app/layout-449806930582b545.js\"],\"default\"]\n5:I[1304,[],\"ClientPageRoot\"]\n6:I[9990,[\"746\",\"static/chunks/app/lab/rubik-cube/page-438c2b6e40070437.js\"],\"default\"]\n9:I[484,[],\"OutletBoundary\"]\na:\"$Sreact.suspense\"\nd:I[484,[],\"ViewportBoundary\"]\nf:I[484,[],\"MetadataBoundary\"]\n11:I[7123,[],\"default\",1]\n:HL[\"/_next/static/css/2f46e0db0d4a3aed.css\",\"style\"]\n:HL[\"/_next/static/css/29818d2f7eaa7fb8.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"c\":[\"\",\"lab\",\"rubik-cube\",\"\"],\"q\":\"\",\"i\":false,\"f\":[[[\"\",{\"children\":[\"lab\",{\"children\":[\"rubik-cube\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",16],[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/2f46e0db0d4a3aed.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/29818d2f7eaa7fb8.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"el\",\"className\":\"__variable_55b51c __variable_f9b7d3 __variable_3c557b __variable_1b85de antialiased\",\"suppressHydrationWarning\":true,\"children\":[[\"$\",\"head\",null,{\"children\":[\"$\",\"script\",null,{\"type\":\"application/ld+json\",\"dangerouslySetInnerHTML\":{\"__html\":\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"WebSite\\\",\\\"name\\\":\\\"EisatoponAI\\\",\\\"url\\\":\\\"https://eisatopon.gr\\\",\\\"description\\\":\\\"Interactive mathematical archives, olympiad problems and AI-powered learning.\\\",\\\"publisher\\\":{\\\"@type\\\":\\\"Organization\\\",\\\"name\\\":\\\"EisatoponAI\\\",\\\"logo\\\":{\\\"@type\\\":\\\"ImageObject\\\",\\\"url\\\":\\\"https://eisatopon.gr/logo.png\\\",\\\"width\\\":512,\\\"height\\\":512}},\\\"sameAs\\\":[\\\"https://facebook.com/eisatopon\\\",\\\"https://linkedin.com/company/eisatopon\\\",\\\"https://x.com/eisatopon\\\",\\\"https://instagram.com/eisatopon\\\",\\\"https://youtube.com/@eisatopon\\\",\\\"https://pinterest.com/eisatopon\\\"]}\"}}]}],[\"$\",\"body\",null,{\"className\":\"bg-base text-ink-primary min-h-screen\",\"children\":[[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}],[\"$\",\"$L4\",null,{}]]}]]}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L5\",null,{\"Component\":\"$6\",\"serverProvidedParams\":{\"searchParams\":{},\"params\":{},\"promises\":[\"$@7\",\"$@8\"]}}],null,[\"$\",\"$L9\",null,{\"children\":[\"$\",\"$a\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@b\"}]}]]}],{},null,false,null]},null,false,\"$@c\"]},null,false,\"$@c\"]},null,false,null],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$Ld\",null,{\"children\":\"$Le\"}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$Lf\",null,{\"children\":[\"$\",\"$a\",null,{\"name\":\"Next.Metadata\",\"children\":\"$L10\"}]}]}],null]}],false]],\"m\":\"$undefined\",\"G\":[\"$11\",[]],\"S\":true,\"h\":null,\"s\":\"$undefined\",\"l\":\"$undefined\",\"p\":\"$undefined\",\"d\":\"$undefined\",\"b\":\"-vr7A1oVtel-t8v9v6Q2L\"}\n"])</script><script>self.__next_f.push([1,"12:[]\nc:\"$W12\"\n7:{}\n8:\"$0:f:0:1:1:children:1:children:1:children:0:props:children:0:props:serverProvidedParams:params\"\n"])</script><script>self.__next_f.push([1,"e:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n"])</script><script>self.__next_f.push([1,"13:I[6869,[],\"IconMark\"]\nb:null\n"])</script><script>self.__next_f.push([1,"10:[[\"$\",\"title\",\"0\",{\"children\":\"EisatoponAI — Mathematical Problem Banks\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Interactive mathematical archives, olympiad problems and AI-powered learning.\"}],[\"$\",\"meta\",\"2\",{\"name\":\"author\",\"content\":\"Sokratis Koromilás\"}],[\"$\",\"meta\",\"3\",{\"name\":\"keywords\",\"content\":\"mathematics,olympiad,problem solving,IMO,panelladikes,hellenic exams,number theory,geometry,combinatorics,algebra\"}],[\"$\",\"meta\",\"4\",{\"name\":\"creator\",\"content\":\"EisatoponAI\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:title\",\"content\":\"EisatoponAI — Mathematical Problem Banks\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:description\",\"content\":\"Interactive mathematical archives, olympiad problems and AI-powered learning.\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:url\",\"content\":\"https://eisatopon.gr/\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:site_name\",\"content\":\"EisatoponAI\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:locale\",\"content\":\"en_US\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:image\",\"content\":\"https://eisatopon.gr/images/og-home.jpg\"}],[\"$\",\"meta\",\"11\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"12\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"13\",{\"property\":\"og:image:alt\",\"content\":\"EisatoponAI\"}],[\"$\",\"meta\",\"14\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"15\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"16\",{\"name\":\"twitter:title\",\"content\":\"EisatoponAI — Mathematical Problem Banks\"}],[\"$\",\"meta\",\"17\",{\"name\":\"twitter:description\",\"content\":\"Interactive mathematical archives, olympiad problems and AI-powered learning.\"}],[\"$\",\"meta\",\"18\",{\"name\":\"twitter:image\",\"content\":\"https://eisatopon.gr/images/og-home.jpg\"}],[\"$\",\"link\",\"19\",{\"rel\":\"icon\",\"href\":\"/logo/favicon.svg\"}],[\"$\",\"$L13\",\"20\",{}]]\n"])</script></body></html>

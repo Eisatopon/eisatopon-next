@@ -1,0 +1,87 @@
+[
+  {
+    "id": "brazil-1991-d1-p1",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1991,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "At a party every woman dances with at least one man, and no man dances with every woman. Show that there exist men \\(M\\), \\(M'\\) and women \\(W\\), \\(W'\\) such that \\(M\\) dances with \\(W\\) and \\(M'\\) dances with \\(W'\\), but \\(M\\) does not dance with \\(W'\\) and \\(M'\\) does not dance with \\(W\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1991",
+    "tags": []
+  },
+  {
+    "id": "brazil-1991-d1-p2",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1991,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "\\(P\\) is a point inside triangle \\(ABC\\). The line through \\(P\\) parallel to \\(AB\\) meets \\(AC\\) at \\(A_0\\) and \\(BC\\) at \\(B_0\\); the line through \\(P\\) parallel to \\(CA\\) meets \\(AB\\) at \\(A_1\\) and \\(BC\\) at \\(C_1\\); the line through \\(P\\) parallel to \\(BC\\) meets \\(AB\\) at \\(B_2\\) and \\(AC\\) at \\(C_2\\). Find the point \\(P\\) such that \\(A_0B_0 = A_1C_1 = B_2C_2\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1991",
+    "tags": []
+  },
+  {
+    "id": "brazil-1991-d1-p3",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1991,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Given \\(k > 0\\), the sequence \\((a_n)\\) is defined by its first two terms and \\(a_{n+2} = a_{n+1} + \\dfrac{k}{n}a_n\\).\n\na) For which \\(k\\) can \\(a_n\\) be written as a polynomial in \\(n\\)?\n\nb) For which \\(k\\) can \\(\\dfrac{a_{n+1}}{a_n}\\) be written as \\(\\dfrac{p(n)}{q(n)}\\) for polynomials \\(p, q \\in \\mathbb{R}[X]\\)?",
+    "solution": null,
+    "source": "Brazil National Olympiad 1991",
+    "tags": []
+  },
+  {
+    "id": "brazil-1991-d1-p4",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1991,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Show that there exists \\(n > 2\\) such that \\(1991 \\mid \\underbrace{19\\!\\underbrace{99\\cdots9}_{n}1}_{\\text{(with } n \\text{ nines)}}\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1991",
+    "tags": []
+  },
+  {
+    "id": "brazil-1991-d1-p5",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1991,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(P_0 = (1,0)\\), \\(P_1 = (1,1)\\), \\(P_2 = (0,1)\\), \\(P_3 = (0,0)\\), and for \\(n \\geq 0\\) let \\(P_{n+4}\\) be the midpoint of \\(P_n P_{n+1}\\). Let \\(Q_n\\) be the quadrilateral \\(P_n P_{n+1} P_{n+2} P_{n+3}\\) and \\(A_n\\) its interior. Find \\(\\bigcap_{n \\geq 0} A_n\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1991",
+    "tags": []
+  }
+]

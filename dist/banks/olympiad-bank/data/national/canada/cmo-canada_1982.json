@@ -1,0 +1,89 @@
+[
+  {
+    "id": "cmo-1982-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1982,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "In the diagram, \\(OB_i\\) is parallel and equal in length to \\(A_iA_{i+1}\\) for \\(i = 1, 2, 3, 4\\) (where \\(A_5 = A_1\\)). Show that the area of \\(B_1B_2B_3B_4\\) is twice that of \\(A_1A_2A_3A_4\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1982",
+    "tags": []
+  },
+  {
+    "id": "cmo-1982-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1982,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "If \\(a\\), \\(b\\), and \\(c\\) are the roots of the equation \\(x^3 - x^2 - x - 1 = 0\\),\n\n(i) show that \\(a\\), \\(b\\), and \\(c\\) are distinct;\n\n(ii) show that\n\\[\\frac{a^{1982} - b^{1982}}{a - b} + \\frac{b^{1982} - c^{1982}}{b - c} + \\frac{c^{1982} - a^{1982}}{c - a}\\]\nis an integer.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1982",
+    "tags": []
+  },
+  {
+    "id": "cmo-1982-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1982,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry",
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(\\mathbb{R}^n\\) be the \\(n\\)-dimensional Euclidean space. Determine the smallest number \\(g(n)\\) of points of a set in \\(\\mathbb{R}^n\\) such that every point in \\(\\mathbb{R}^n\\) is an irrational distance from at least one point in that set.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1982",
+    "tags": []
+  },
+  {
+    "id": "cmo-1982-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1982,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(p\\) be a permutation of the set \\(S_n = \\{1, 2, \\ldots, n\\}\\). An element \\(j \\in S_n\\) is called a fixed point of \\(p\\) if \\(p(j) = j\\). Let \\(f_n\\) be the number of permutations having no fixed points, and \\(g_n\\) be the number with exactly one fixed point. Show that \\(|f_n - g_n| = 1\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1982",
+    "tags": []
+  },
+  {
+    "id": "cmo-1982-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1982,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "The altitudes of a tetrahedron \\(ABCD\\) are extended externally to points \\(A'\\), \\(B'\\), \\(C'\\), and \\(D'\\), where\n\\[AA' = \\frac{k}{h_a}, \\quad BB' = \\frac{k}{h_b}, \\quad CC' = \\frac{k}{h_c}, \\quad DD' = \\frac{k}{h_d}.\\]\nHere \\(k\\) is a constant and \\(h_a\\) denotes the length of the altitude of \\(ABCD\\) from vertex \\(A\\), etc. Prove that the centroid of tetrahedron \\(A'B'C'D'\\) coincides with the centroid of \\(ABCD\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1982",
+    "tags": []
+  }
+]

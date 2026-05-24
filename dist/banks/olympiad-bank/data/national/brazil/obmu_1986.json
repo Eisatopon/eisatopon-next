@@ -1,0 +1,87 @@
+[
+  {
+    "id": "brazil-1986-d1-p1",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1986,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "A ball moves endlessly on a circular billiard table; when it hits the edge it is reflected. Show that if it passes through a point on the table three times, then it passes through it infinitely many times.",
+    "solution": null,
+    "source": "Brazil National Olympiad 1986",
+    "tags": []
+  },
+  {
+    "id": "brazil-1986-d1-p2",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1986,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Find the number of ways that a positive integer \\(n\\) can be represented as a sum of one or more consecutive positive integers.",
+    "solution": null,
+    "source": "Brazil National Olympiad 1986",
+    "tags": []
+  },
+  {
+    "id": "brazil-1986-d1-p3",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1986,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "The Poincaré plane is a half-plane bounded by a line \\(R\\). Lines are either (1) half-lines perpendicular to \\(R\\), or (2) semicircles with center on \\(R\\). Show that given any line \\(L\\) and any point \\(P\\) not on \\(L\\), there are infinitely many lines through \\(P\\) not intersecting \\(L\\). Show also that for any triangle \\(ABC\\) in this geometry, the sum of its angles lies in \\((0, \\pi)\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1986",
+    "tags": []
+  },
+  {
+    "id": "brazil-1986-d1-p4",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1986,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Find all \\(10\\)-digit numbers \\(a_0a_1\\cdots a_9\\) such that for each \\(k\\), \\(a_k\\) equals the number of times the digit \\(k\\) appears in the number.",
+    "solution": null,
+    "source": "Brazil National Olympiad 1986",
+    "tags": []
+  },
+  {
+    "id": "brazil-1986-d1-p5",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1986,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "A number is written in each square of a chessboard so that each interior number is the mean of its four neighbors. Show that if the largest number on the board is \\(N\\), then \\(N\\) also appears on the border.",
+    "solution": null,
+    "source": "Brazil National Olympiad 1986",
+    "tags": []
+  }
+]

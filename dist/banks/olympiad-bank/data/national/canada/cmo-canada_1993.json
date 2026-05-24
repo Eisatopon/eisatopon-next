@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cmo-1993-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1993,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Number Theory",
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Determine a triangle for which the three sides and an altitude are four consecutive integers and for which this altitude partitions the triangle into two right triangles with integer sides. Show that there is only one such triangle.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1993",
+    "tags": []
+  },
+  {
+    "id": "cmo-1993-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1993,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Show that the number \\(x\\) is rational if and only if three distinct terms forming a geometric progression can be chosen from the sequence\n\\[x,\\ x+1,\\ x+2,\\ x+3,\\ \\ldots\\]",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1993",
+    "tags": []
+  },
+  {
+    "id": "cmo-1993-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1993,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "In triangle \\(ABC\\), the medians to sides \\(\\overline{AB}\\) and \\(\\overline{AC}\\) are perpendicular. Prove that \\(\\cot B + \\cot C \\geq \\dfrac{2}{3}\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1993",
+    "tags": []
+  },
+  {
+    "id": "cmo-1993-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1993,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "A number of schools took part in a tennis tournament. No two players from the same school played each other. Every two players from different schools played exactly one match. A match between two boys or two girls was called a single; a match between a boy and a girl was called a mixed single. The total number of boys differed from the total number of girls by at most \\(1\\). The total number of singles differed from the total number of mixed singles by at most \\(1\\). At most how many schools were represented by an odd number of players?",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1993",
+    "tags": []
+  },
+  {
+    "id": "cmo-1993-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1993,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(y_1, y_2, y_3, \\ldots\\) be a sequence such that \\(y_1 = 1\\) and, for \\(k > 0\\),\n\\[y_{2k} = \\begin{cases} 2y_k & \\text{if } k \\text{ is even} \\\\ 2y_k + 1 & \\text{if } k \\text{ is odd} \\end{cases} \\qquad y_{2k+1} = \\begin{cases} 2y_k & \\text{if } k \\text{ is odd} \\\\ 2y_k + 1 & \\text{if } k \\text{ is even.} \\end{cases}\\]\nShow that the sequence takes on every positive integer value exactly once.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1993",
+    "tags": []
+  }
+]
