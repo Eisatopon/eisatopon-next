@@ -1,0 +1,104 @@
+[
+  {
+    "id": "brazil-2011-d1-p1",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2011,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "We call a number \\textit{pal} if it has no zero digit and the sum of the squares of its digits is a perfect square. For example, \\(122\\) and \\(34\\) are pal but \\(304\\) and \\(12\\) are not. Prove that there exists a pal number with \\(n\\) digits for every \\(n > 1\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 2011 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-2011-d1-p2",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2011,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "\\(33\\) friends are collecting stickers for an album of \\(2011\\) stickers. A distribution of stickers among the \\(33\\) friends is \\textit{incomplete} when there is a sticker that no friend has. Determine the least \\(m\\) with the following property: every distribution such that any two friends together lack at least \\(m\\) stickers is incomplete.",
+    "solution": null,
+    "source": "Brazil National Olympiad 2011 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-2011-d1-p3",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2011,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Prove that for every convex pentagon \\(P_1P_2P_3P_4P_5\\) with area \\(1\\), there exist indices \\(i\\) and \\(j\\) (with \\(P_6 = P_1\\) and \\(P_7 = P_2\\)) such that \\[\\text{Area of } \\triangle P_iP_{i+1}P_{i+2} \\leq \\frac{5-\\sqrt{5}}{10} \\leq \\text{Area of } \\triangle P_jP_{j+1}P_{j+2}.\\]",
+    "solution": null,
+    "source": "Brazil National Olympiad 2011 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-2011-d2-p4",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2011,
+    "day": 2,
+    "problem_number": 4,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Do there exist \\(2011\\) positive integers \\(a_1 < a_2 < \\cdots < a_{2011}\\) such that \\(\\gcd(a_i, a_j) = a_j - a_i\\) for all \\(i, j\\) with \\(1 \\leq i < j \\leq 2011\\)?",
+    "solution": null,
+    "source": "Brazil National Olympiad 2011 Day 2",
+    "tags": []
+  },
+  {
+    "id": "brazil-2011-d2-p5",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2011,
+    "day": 2,
+    "problem_number": 5,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(ABC\\) be an acute triangle with orthocenter \\(H\\). Let \\(D\\) be the intersection of \\(BH\\) with \\(AC\\) and \\(E\\) be the intersection of \\(CH\\) with \\(AB\\). The circumcircle of \\(ADE\\) meets the circumcircle of \\(ABC\\) at \\(F \\neq A\\). Prove that the angle bisectors of \\(\\angle BFC\\) and \\(\\angle BHC\\) concur at a point on \\(BC\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 2011 Day 2",
+    "tags": []
+  },
+  {
+    "id": "brazil-2011-d2-p6",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2011,
+    "day": 2,
+    "problem_number": 6,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(a_1, a_2, \\ldots, a_{2011}\\) be nonneg­ative real numbers with sum \\(\\dfrac{2011}{2}\\). Prove that \\[|(a_1-a_2)(a_2-a_3)\\cdots(a_{2011}-a_1)| \\leq \\frac{3\\sqrt{3}}{16}.\\]",
+    "solution": null,
+    "source": "Brazil National Olympiad 2011 Day 2",
+    "tags": []
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "brazil-2016-d1-p1",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2016,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(ABC\\) be a triangle. Let \\(r\\) and \\(s\\) be the angle bisectors of \\(\\angle ABC\\) and \\(\\angle BCA\\), respectively. The points \\(E\\) on \\(r\\) and \\(D\\) on \\(s\\) are such that \\(AD \\parallel BE\\) and \\(AE \\parallel CD\\). The lines \\(BD\\) and \\(CE\\) meet at \\(F\\). Let \\(I\\) be the incenter of \\(ABC\\). Show that if \\(A\\), \\(F\\), \\(I\\) are collinear, then \\(AB = AC\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 2016 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-2016-d1-p2",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2016,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Find the smallest number \\(n\\) such that any set of \\(n\\) points in the Cartesian plane, all of them with integer coordinates, contains two points such that the square of their mutual distance is a multiple of \\(2016\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 2016 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-2016-d1-p3",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2016,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(k\\) be a fixed positive integer. Alberto and Beralto play the following game: given an initial number \\(N_0\\) and starting with Alberto, they alternately perform the following operation: change the number \\(n\\) for a number \\(m\\) such that \\(m < n\\) and \\(m\\) and \\(n\\) differ, in their base-\\(2\\) representation, in exactly \\(l\\) consecutive digits for some \\(l\\) with \\(1 \\leq l \\leq k\\). If someone cannot play, he loses.\n\nWe say a non-negative integer \\(t\\) is a \\textit{winner} number when the player who receives the number \\(t\\) has a winning strategy. Otherwise, we call it a \\textit{loser} number.\n\nProve that, for every positive integer \\(N\\), the total number of non-negative loser integers less than \\(2^N\\) is \\(2^{N - \\lfloor \\frac{\\log(\\min\\{N,k\\})}{\\log 2} \\rfloor}\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 2016 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-2016-d2-p4",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2016,
+    "day": 2,
+    "problem_number": 4,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "What is the greatest number of positive integers less than or equal to \\(2016\\) one can choose such that no two of them differ by \\(1\\), \\(2\\), or \\(6\\)?",
+    "solution": null,
+    "source": "Brazil National Olympiad 2016 Day 2",
+    "tags": []
+  },
+  {
+    "id": "brazil-2016-d2-p5",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2016,
+    "day": 2,
+    "problem_number": 5,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Consider the second-degree polynomial \\(P(x) = 4x^2 + 12x - 3015\\). Define the sequence of polynomials \\(P_1(x) = \\frac{P(x)}{2016}\\) and \\(P_{n+1}(x) = \\frac{P(P_n(x))}{2016}\\) for every integer \\(n \\geq 1\\).\n\n- Show that there exists a real number \\(r\\) such that \\(P_n(r) < 0\\) for every positive integer \\(n\\).\n- Find how many integers \\(m\\) are such that \\(P_n(m) < 0\\) for infinitely many positive integers \\(n\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 2016 Day 2",
+    "tags": []
+  },
+  {
+    "id": "brazil-2016-d2-p6",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2016,
+    "day": 2,
+    "problem_number": 6,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(ABCD\\) be a non-cyclic convex quadrilateral with no parallel sides. The lines \\(AB\\) and \\(CD\\) meet at \\(E\\). Let \\(M \\neq E\\) be the intersection of the circumcircles of triangles \\(ADE\\) and \\(BCE\\). The internal angle bisectors of \\(ABCD\\) form a convex cyclic quadrilateral with circumcenter \\(I\\). The external angle bisectors of \\(ABCD\\) form a convex cyclic quadrilateral with circumcenter \\(J\\). Show that \\(I\\), \\(J\\), \\(M\\) are collinear.",
+    "solution": null,
+    "source": "Brazil National Olympiad 2016 Day 2",
+    "tags": []
+  }
+]

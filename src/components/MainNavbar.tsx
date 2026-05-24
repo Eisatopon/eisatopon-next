@@ -96,7 +96,7 @@ export default function MainNavbar() {
               href="/problems"
               className="hover:text-[#d4af37] transition-colors duration-300"
             >
-              Problems
+              Problem Banks
             </Link>
           </nav>
 

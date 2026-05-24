@@ -1,0 +1,104 @@
+[
+  {
+    "id": "vmo-1980-d1-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1980,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(\\alpha_1, \\alpha_2, \\ldots, \\alpha_n\\) be numbers in \\([0, 2\\pi]\\) such that \\(\\displaystyle\\sum_{i=1}^{n}(1+\\cos\\alpha_i)\\) is an odd integer. Prove that \\(\\displaystyle\\sum_{i=1}^{n}\\sin\\alpha_i \\geq 1\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1980 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1980-d1-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1980,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(m_1, m_2, \\ldots, m_k\\) be positive numbers with sum \\(S\\). Prove that\n\\[\\sum_{i=1}^{k}\\left(m_i + \\frac{1}{m_i}\\right)^2 \\geq k\\left(\\frac{k}{S}+\\frac{S}{k}\\right)^2.\\]",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1980 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1980-d1-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1980,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(P\\) be a point inside triangle \\(A_1A_2A_3\\). For \\(i=1,2,3\\), line \\(PA_i\\) meets the opposite side at \\(B_i\\). Let \\(C_i\\) and \\(D_i\\) be the midpoints of \\(A_iB_i\\) and \\(PB_i\\) respectively. Prove that the areas of triangles \\(C_1C_2C_3\\) and \\(D_1D_2D_3\\) are equal.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1980 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1980-d2-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1980,
+    "day": 2,
+    "problem_number": 1,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Prove that for any tetrahedron in space, one can find two perpendicular planes such that the ratio of the projections of the tetrahedron onto these two planes lies in the interval \\(\\left[\\dfrac{1}{\\sqrt{2}}, \\sqrt{2}\\right]\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1980 Day 2",
+    "tags": []
+  },
+  {
+    "id": "vmo-1980-d2-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1980,
+    "day": 2,
+    "problem_number": 2,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Can the equation \\(x^3 - 2x^2 - 2x + m = 0\\) have three different rational roots?",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1980 Day 2",
+    "tags": []
+  },
+  {
+    "id": "vmo-1980-d2-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1980,
+    "day": 2,
+    "problem_number": 3,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Given an integer \\(n \\geq 2\\) and a positive real \\(p\\). Find the maximum of \\(\\displaystyle\\sum_{i=1}^{n-1} x_i x_{i+1}\\), where \\(x_i\\) are non-negative reals with sum \\(p\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1980 Day 2",
+    "tags": []
+  }
+]

@@ -28,6 +28,8 @@ const nextConfig: NextConfig = {
     "ts",
     "tsx",
   ],
+
+  trailingSlash: true,
 };
 
 /* ─────────────────────────────────────────────

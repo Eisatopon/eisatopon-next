@@ -1,0 +1,105 @@
+[
+  {
+    "id": "INMO_2003_P1",
+    "year": 2003,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $P$ be an interior point of an acute-angled triangle $ABC$. The line $BP$ meets the line $AC$ at $E$, and the line $CP$ meets the line $AB$ at $F$. The lines $AP$ and $EF$ intersect each other at $D$. Let $K$ be the foot of the perpendicular from $D$ to the line $BC$. Show that the line $KD$ bisects the angle $\\angle EKF$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2003"
+  },
+  {
+    "id": "INMO_2003_P2",
+    "year": 2003,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all primes $p$, $q$ and even $n > 2$ such that $p^n + p^{n-1} + \\cdots + 1 = q^2 + q + 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2003"
+  },
+  {
+    "id": "INMO_2003_P3",
+    "year": 2003,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Show that $8x^4 - 16x^3 + 16x^2 - 8x + k = 0$ has at least one real root for all real $k$. Find the sum of the non-real roots.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2003"
+  },
+  {
+    "id": "INMO_2003_P4",
+    "year": 2003,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all $7$-digit numbers which use only the digits $5$ and $7$ and are divisible by $35$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2003"
+  },
+  {
+    "id": "INMO_2003_P5",
+    "year": 2003,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c$ be the side lengths and $S$ the area of a triangle $ABC$. Denote $x = a + \\d\\frac{b}{2}$, $y = b + \\d\\frac{c}{2}$, and $z = c + \\d\\frac{a}{2}$. Prove that there exists a triangle with side lengths $x, y, z$, and that the area of this triangle is $\\geq \\d\\frac{9}{4}S$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2003"
+  },
+  {
+    "id": "INMO_2003_P6",
+    "year": 2003,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Each lottery ticket has a $9$-digit number which uses only the digits $1, 2, 3$. Each ticket is colored red, blue, or green. If two tickets have numbers which differ in all nine places, then the tickets have different colors. Ticket $122222222$ is red, and ticket $222222222$ is green. What color is ticket $123123123$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2003"
+  }
+]

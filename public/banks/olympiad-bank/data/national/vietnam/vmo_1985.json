@@ -1,0 +1,104 @@
+[
+  {
+    "id": "vmo-1985-d1-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1985,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Find all pairs \\((x,y)\\) of integers such that \\(x^3 - y^3 = 2xy + 8\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1985 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1985-d1-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1985,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Find all functions \\(f : \\mathbb{Z} \\to \\mathbb{R}\\) satisfying:\ni) \\(f(x)f(y) = f(x+y) + f(x-y)\\) for all integers \\(x, y\\);\nii) \\(f(0) \\neq 0\\);\niii) \\(f(1) = \\dfrac{5}{2}\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1985 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1985-d1-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1985,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "A parallelepiped with side lengths \\(a, b, c\\) is cut by a plane through the intersection of its diagonals, perpendicular to one of those diagonals. Calculate the area of the cross-section.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1985 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1985-d2-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1985,
+    "day": 2,
+    "problem_number": 1,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(a, b, m\\) be positive integers. Prove that there exists a positive integer \\(n\\) such that \\((a^n-1)b\\) is divisible by \\(m\\) if and only if \\(\\gcd(ab, m) = \\gcd(b, m)\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1985 Day 2",
+    "tags": []
+  },
+  {
+    "id": "vmo-1985-d2-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1985,
+    "day": 2,
+    "problem_number": 2,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Find all real values of \\(a\\) for which the equation \\(16x^4 - ax^3 + (2a+17)x^2 - ax + 16 = 0\\) has four solutions forming an arithmetic progression.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1985 Day 2",
+    "tags": []
+  },
+  {
+    "id": "vmo-1985-d2-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1985,
+    "day": 2,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "A pyramid \\(O.ABC\\) has the property that the altitudes from \\(A, B, C\\) in the base are not less than \\(\\dfrac{OB+OC}{2}\\), \\(\\dfrac{OC+OA}{2}\\), \\(\\dfrac{OA+OB}{2}\\) respectively. Given that the area of \\(ABC\\) is \\(S\\), calculate the volume of the pyramid.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1985 Day 2",
+    "tags": []
+  }
+]

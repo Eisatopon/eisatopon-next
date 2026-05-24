@@ -1,0 +1,105 @@
+[
+  {
+    "id": "INMO_1995_P1",
+    "year": 1995,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In an acute-angled triangle $ABC$, $\\angle A = 30^\\circ$, $H$ is the orthocenter, and $M$ is the midpoint of $BC$. On the line $HM$, take a point $T$ such that $HM = MT$. Show that $AT = 2BC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1995"
+  },
+  {
+    "id": "INMO_1995_P2",
+    "year": 1995,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Show that there are infinitely many pairs $(a, b)$ of relatively prime integers (not necessarily positive) such that both equations\n\\[\nx^2 + ax + b = 0 \\qquad \\text{and} \\qquad x^2 + 2ax + b = 0\n\\]\nhave integer roots.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1995"
+  },
+  {
+    "id": "INMO_1995_P3",
+    "year": 1995,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Show that the number of $3$-element subsets $\\{a, b, c\\}$ of $\\{1, 2, 3, \\ldots, 63\\}$ with $a + b + c < 95$ is less than the number of those with $a + b + c \\geq 95$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1995"
+  },
+  {
+    "id": "INMO_1995_P4",
+    "year": 1995,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle and a circle $\\Gamma'$ be drawn lying outside the triangle, touching its incircle $\\Gamma$ externally, and also touching the two sides $AB$ and $AC$. Show that the ratio of the radii of the circles $\\Gamma'$ and $\\Gamma$ is equal to $\\tan^2\\!\\left(\\d\\frac{\\pi - A}{4}\\right)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1995"
+  },
+  {
+    "id": "INMO_1995_P5",
+    "year": 1995,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $n \\geq 2$. Let $a_1, a_2, a_3, \\ldots, a_n$ be $n$ real numbers all less than $1$ and such that $|a_k - a_{k+1}| < 1$ for $1 \\leq k \\leq n - 1$. Show that\n\\[\n\\frac{a_1}{a_2} + \\frac{a_2}{a_3} + \\frac{a_3}{a_4} + \\cdots + \\frac{a_{n-1}}{a_n} + \\frac{a_n}{a_1} < 2n - 1.\n\\]",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1995"
+  },
+  {
+    "id": "INMO_1995_P6",
+    "year": 1995,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all primes $p$ for which the quotient\n\\[\n\\frac{2^{p-1} - 1}{p}\n\\]\nis a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1995"
+  }
+]

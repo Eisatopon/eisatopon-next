@@ -1,0 +1,520 @@
+{
+  "regional": [
+    {
+      "id": "mediterranean",
+      "name": "Mediterranean Mathematics Olympiad",
+      "shortName": "MMO",
+      "type": "regional",
+      "color": "#1565c0",
+      "flag": "🌊",
+      "startYear": 1969,
+      "problemsPerYear": 6,
+      "days": 2,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "pan-african",
+      "name": "Pan African Mathematics Olympiad",
+      "shortName": "PAMO",
+      "type": "regional",
+      "color": "#e65100",
+      "flag": "🌍",
+      "startYear": 1987,
+      "problemsPerYear": 6,
+      "days": 2,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "francophone",
+      "name": "Francophone Mathematical Olympiad",
+      "shortName": "OIF",
+      "type": "regional",
+      "color": "#283593",
+      "flag": "🇫🇷",
+      "startYear": 1991,
+      "problemsPerYear": 4,
+      "days": 1,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "balkan",
+      "name": "Balkan Mathematics Olympiad",
+      "shortName": "Balkan MO",
+      "type": "regional",
+      "color": "#0f6e56",
+      "flag": "🌐",
+      "startYear": 1984,
+      "problemsPerYear": 4,
+      "days": 1,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "baltic",
+      "name": "Baltic Way",
+      "shortName": "Baltic Way",
+      "type": "regional",
+      "color": "#00838f",
+      "flag": "🌐",
+      "startYear": 1990,
+      "problemsPerYear": 20,
+      "days": 1,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "egmo",
+      "name": "European Girls' Mathematical Olympiad",
+      "shortName": "EGMO",
+      "type": "regional",
+      "color": "#880e4f",
+      "flag": "🌐",
+      "startYear": 2012,
+      "problemsPerYear": 6,
+      "days": 2,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "centroamerican",
+      "name": "CentroAmerican & Caribbean MO",
+      "shortName": "OMCC",
+      "type": "regional",
+      "color": "#2e7d32",
+      "flag": "🌎",
+      "startYear": 1999,
+      "problemsPerYear": 6,
+      "days": 2,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "apmo",
+      "name": "Asia Pacific Mathematics Olympiad",
+      "shortName": "APMO",
+      "type": "regional",
+      "color": "#e65100",
+      "flag": "🌏",
+      "startYear": 1989,
+      "problemsPerYear": 5,
+      "days": 1,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "austrian-polish",
+      "name": "Austrian-Polish Mathematics Olympiad",
+      "shortName": "APMO-AT",
+      "type": "regional",
+      "color": "#b71c1c",
+      "flag": "🌐",
+      "startYear": 1978,
+      "problemsPerYear": 9,
+      "days": 2,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    }
+  ],
+  "national": [
+    {
+      "id": "vmo",
+      "name": "Vietnam Mathematical Olympiad",
+      "shortName": "VMO",
+      "country": "Vietnam",
+      "flag": "🇻🇳",
+      "type": "national",
+      "color": "#c62828",
+      "startYear": 1962,
+      "problemsPerYear": 6,
+      "days": 2,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "cmo-canada",
+      "name": "Canadian Mathematical Olympiad",
+      "shortName": "CMO",
+      "country": "Canada",
+      "flag": "🇨🇦",
+      "type": "national",
+      "color": "#c62828",
+      "startYear": 1969,
+      "problemsPerYear": 5,
+      "days": 1,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "usamo",
+      "name": "USA Mathematical Olympiad",
+      "shortName": "USAMO",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "type": "national",
+      "color": "#1a237e",
+      "startYear": 1972,
+      "problemsPerYear": 6,
+      "days": 2,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "obmu",
+      "name": "Brazilian Mathematical Olympiad",
+      "shortName": "OBMU",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "type": "national",
+      "color": "#1b5e20",
+      "startYear": 1979,
+      "problemsPerYear": 6,
+      "days": 2,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "itamo",
+      "name": "Italian Mathematical Olympiad",
+      "shortName": "ITAMO",
+      "country": "Italy",
+      "flag": "🇮🇹",
+      "type": "national",
+      "color": "#1b5e20",
+      "startYear": 1985,
+      "problemsPerYear": 6,
+      "days": 1,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "german-mo",
+      "name": "German Mathematical Olympiad",
+      "shortName": "MO-DE",
+      "country": "Germany",
+      "flag": "🇩🇪",
+      "type": "national",
+      "color": "#212121",
+      "startYear": 1961,
+      "problemsPerYear": 6,
+      "days": 2,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "kmo",
+      "name": "Korean Mathematical Olympiad",
+      "shortName": "KMO",
+      "country": "South Korea",
+      "flag": "🇰🇷",
+      "type": "national",
+      "color": "#c62828",
+      "startYear": 1988,
+      "problemsPerYear": 6,
+      "days": 2,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "cmo-china",
+      "name": "Chinese Mathematical Olympiad",
+      "shortName": "CMO",
+      "country": "China",
+      "flag": "🇨🇳",
+      "type": "national",
+      "color": "#c62828",
+      "startYear": 1985,
+      "problemsPerYear": 6,
+      "days": 2,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "tmo",
+      "name": "Turkish Mathematical Olympiad",
+      "shortName": "TMO",
+      "country": "Turkey",
+      "flag": "🇹🇷",
+      "type": "national",
+      "color": "#c62828",
+      "startYear": 1993,
+      "problemsPerYear": 6,
+      "days": 2,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "ome",
+      "name": "Spanish Mathematical Olympiad",
+      "shortName": "OME",
+      "country": "Spain",
+      "flag": "🇪🇸",
+      "type": "national",
+      "color": "#c62828",
+      "startYear": 1963,
+      "problemsPerYear": 6,
+      "days": 2,
+      "hasTST": false,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "jmo",
+      "name": "Japan Mathematical Olympiad",
+      "shortName": "JMO",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "type": "national",
+      "color": "#c62828",
+      "startYear": 1991,
+      "problemsPerYear": 5,
+      "days": 1,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "rmo",
+      "name": "Romanian Mathematical Olympiad",
+      "shortName": "RMO",
+      "country": "Romania",
+      "flag": "🇷🇴",
+      "type": "national",
+      "color": "#c62828",
+      "startYear": 1995,
+      "problemsPerYear": 6,
+      "days": 2,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "emo-greece",
+      "name": "Greek Mathematical Olympiad",
+      "shortName": "ΕΜΟ",
+      "country": "Greece",
+      "flag": "🇬🇷",
+      "type": "national",
+      "color": "#1565c0",
+      "startYear": 1987,
+      "problemsPerYear": 4,
+      "days": 1,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "pmo-poland",
+      "name": "Polish Mathematical Olympiad",
+      "shortName": "PMO",
+      "country": "Poland",
+      "flag": "🇵🇱",
+      "type": "national",
+      "color": "#c62828",
+      "startYear": 1949,
+      "problemsPerYear": 6,
+      "days": 2,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "hkmo",
+      "name": "Hong Kong Mathematics Olympiad",
+      "shortName": "HKMO",
+      "country": "Hong Kong",
+      "flag": "🇭🇰",
+      "type": "national",
+      "color": "#c62828",
+      "startYear": 1986,
+      "problemsPerYear": 5,
+      "days": 1,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "inmo",
+      "name": "Indian National Mathematical Olympiad",
+      "shortName": "INMO",
+      "country": "India",
+      "flag": "🇮🇳",
+      "type": "national",
+      "color": "#e65100",
+      "startYear": 1989,
+      "problemsPerYear": 6,
+      "days": 1,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "imo-iran",
+      "name": "Iranian Mathematical Olympiad",
+      "shortName": "Iran MO",
+      "country": "Iran",
+      "flag": "🇮🇷",
+      "type": "national",
+      "color": "#1b5e20",
+      "startYear": 1990,
+      "problemsPerYear": 6,
+      "days": 2,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "samo",
+      "name": "Saudi Arabian Mathematical Olympiad",
+      "shortName": "SAMO",
+      "country": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "type": "national",
+      "color": "#1b5e20",
+      "startYear": 2004,
+      "problemsPerYear": 6,
+      "days": 2,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "id": "tmo-thai",
+      "name": "Thailand Mathematical Olympiad",
+      "shortName": "ThMO",
+      "country": "Thailand",
+      "flag": "🇹🇭",
+      "type": "national",
+      "color": "#1a237e",
+      "startYear": 1998,
+      "problemsPerYear": 6,
+      "days": 2,
+      "hasTST": true,
+      "topics": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Combinatorics"
+      ]
+    }
+  ]
+}

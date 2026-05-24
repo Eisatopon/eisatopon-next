@@ -179,6 +179,10 @@ export default function RubikCubeSolver() {
 
   return (
     <div className="rk-root">
+
+  <a href="/" className="rk-back">
+    ← EisatoponAI
+  </a>
       <div className="rk-bg">
         <div className="rk-orb rk-orb1" />
         <div className="rk-orb rk-orb2" />
@@ -435,6 +439,43 @@ export default function RubikCubeSolver() {
           text-align:center; font-size:12px; color:#1e293b; padding:12px;
         }
         .rk-footer strong { color:#334155; }
+        .rk-back{
+  position:fixed;
+  top:20px;
+  left:20px;
+  z-index:9999;
+
+  display:flex;
+  align-items:center;
+  gap:8px;
+
+  padding:10px 16px;
+
+  border-radius:999px;
+
+  background:rgba(255,255,255,.05);
+  border:1px solid rgba(255,255,255,.08);
+
+  backdrop-filter:blur(14px);
+
+  color:#cbd5e1;
+  text-decoration:none;
+
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+
+  transition:all .25s ease;
+}
+
+.rk-back:hover{
+  border-color:rgba(37,196,145,.35);
+  color:#25c491;
+  background:rgba(37,196,145,.08);
+
+  transform:translateY(-1px);
+}
         @media(max-width:600px){
           .rk-header { padding:16px; }
           .rk-controls { justify-content:flex-start; }

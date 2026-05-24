@@ -1019,11 +1019,20 @@
   .inline-flex {
     display: inline-flex;
   }
+  .list-item {
+    display: list-item;
+  }
   .table {
     display: table;
   }
+  .table-caption {
+    display: table-caption;
+  }
   .table-cell {
     display: table-cell;
+  }
+  .table-row {
+    display: table-row;
   }
   .size-1 {
     width: calc(var(--spacing) * 1);

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "cmo-2012-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2012,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(x\\), \\(y\\), and \\(z\\) be positive real numbers. Show that \\(x^2 + xy^2 + xyz^2 \\geq 4xyz - 4\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2012",
+    "tags": []
+  },
+  {
+    "id": "cmo-2012-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2012,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "For any positive integers \\(n\\) and \\(k\\), let \\(L(n, k)\\) be the least common multiple of the \\(k\\) consecutive integers \\(n, n+1, \\ldots, n+k-1\\). Show that for any integer \\(b\\), there exist integers \\(n\\) and \\(k\\) such that \\(L(n, k) > b \\cdot L(n+1, k)\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2012",
+    "tags": []
+  },
+  {
+    "id": "cmo-2012-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2012,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(ABCD\\) be a convex quadrilateral and let \\(P\\) be the intersection of \\(AC\\) and \\(BD\\). Suppose that \\(AC + AD = BC + BD\\). Prove that the internal angle bisectors of \\(\\angle ACB\\), \\(\\angle ADB\\), and \\(\\angle APB\\) meet at a common point.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2012",
+    "tags": []
+  },
+  {
+    "id": "cmo-2012-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2012,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Robots are placed on a finite rectangular grid. Every edge of each square is classified as passable or impassable (all boundary edges are impassable). A command (up, down, left, right) causes every robot to simultaneously attempt to move in that direction; a robot moves if the relevant edge is passable, otherwise it stays. Suppose that for any single robot and any target square, some sequence of commands moves that robot to the target. Prove that some finite sequence of commands moves all robots to the same square simultaneously.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2012",
+    "tags": []
+  },
+  {
+    "id": "cmo-2012-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2012,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "A bookshelf contains \\(n\\) volumes labelled \\(1\\) to \\(n\\) in some order. The librarian repeatedly selects a volume \\(k\\) that is too far to the right, removes it, and inserts it in position \\(k\\).\n\n(a) Show that however the librarian makes selections, all volumes will eventually be in the correct order.\n\n(b) What is the largest number of steps this process can take?",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2012",
+    "tags": []
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "id": "cmo-1989-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1989,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "The integers \\(1, 2, \\ldots, n\\) are placed in order so that each value is either strictly greater than all the preceding values or strictly less than all preceding values. In how many ways can this be done?",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1989",
+    "tags": []
+  },
+  {
+    "id": "cmo-1989-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1989,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(ABC\\) be a right-angled triangle of area \\(1\\). Let \\(A'B'C'\\) be the points obtained by reflecting \\(A\\), \\(B\\), \\(C\\) respectively in their opposite sides. Find the area of \\(\\triangle A'B'C'\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1989",
+    "tags": []
+  },
+  {
+    "id": "cmo-1989-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1989,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Define \\(\\{a_n\\}_{n=1}^{\\infty}\\) as follows: \\(a_1 = 1989^{1989}\\); for \\(n > 1\\), \\(a_n\\) is the sum of the digits of \\(a_{n-1}\\). What is the value of \\(a_5\\)?",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1989",
+    "tags": []
+  },
+  {
+    "id": "cmo-1989-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1989,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "There are \\(5\\) monkeys and \\(5\\) ladders, and at the top of each ladder there is a banana. A number of ropes connect pairs of ladders; no two ropes are attached to the same rung of the same ladder. Each monkey starts at the bottom of a different ladder. The monkeys climb upward, but each time they encounter a rope they cross along it to the other ladder and then continue climbing upward. Show that, no matter how many ropes there are, each monkey gets a banana.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1989",
+    "tags": []
+  },
+  {
+    "id": "cmo-1989-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1989,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Combinatorics",
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Given the numbers \\(1, 2, 2^2, \\ldots, 2^{n-1}\\), for a specific permutation \\(\\sigma = x_1, x_2, \\ldots, x_n\\) of these numbers define\n\\[S_1(\\sigma) = x_1, \\quad S_2(\\sigma) = x_1 + x_2, \\quad \\ldots, \\quad S_n(\\sigma) = x_1 + x_2 + \\cdots + x_n,\\]\nand \\(Q(\\sigma) = S_1(\\sigma)\\, S_2(\\sigma) \\cdots S_n(\\sigma)\\). Evaluate \\(\\displaystyle\\sum_{\\sigma} \\frac{1}{Q(\\sigma)}\\), where the sum is taken over all permutations \\(\\sigma\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1989",
+    "tags": []
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "cmo-2002-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2002,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(S\\) be a subset of \\(\\{1, 2, \\ldots, 9\\}\\) such that the sums formed by adding each unordered pair of distinct numbers from \\(S\\) are all different. What is the maximum number of elements that \\(S\\) can contain?",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2002",
+    "tags": []
+  },
+  {
+    "id": "cmo-2002-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2002,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Call a positive integer \\(n\\) practical if every positive integer less than or equal to \\(n\\) can be written as the sum of distinct divisors of \\(n\\). Prove that the product of two practical numbers is also practical.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2002",
+    "tags": []
+  },
+  {
+    "id": "cmo-2002-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2002,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Prove that for all positive real numbers \\(a\\), \\(b\\), and \\(c\\),\n\\[\\frac{a^3}{bc} + \\frac{b^3}{ca} + \\frac{c^3}{ab} \\geq a + b + c,\\]\nand determine when equality occurs.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2002",
+    "tags": []
+  },
+  {
+    "id": "cmo-2002-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2002,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(\\Gamma\\) be a circle with radius \\(r\\). Let \\(A\\) and \\(B\\) be distinct points on \\(\\Gamma\\) such that \\(AB < \\sqrt{3}\\,r\\). Let the circle with centre \\(B\\) and radius \\(AB\\) meet \\(\\Gamma\\) again at \\(C\\). Let \\(P\\) be the point inside \\(\\Gamma\\) such that triangle \\(ABP\\) is equilateral. Let the line \\(CP\\) meet \\(\\Gamma\\) again at \\(Q\\). Prove that \\(PQ = r\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2002",
+    "tags": []
+  },
+  {
+    "id": "cmo-2002-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2002,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(\\mathbb{N} = \\{0, 1, 2, \\ldots\\}\\). Determine all functions \\(f : \\mathbb{N} \\to \\mathbb{N}\\) such that\n\\[xf(y) + yf(x) = (x + y)f(x^2 + y^2)\\]\nfor all \\(x, y \\in \\mathbb{N}\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2002",
+    "tags": []
+  }
+]

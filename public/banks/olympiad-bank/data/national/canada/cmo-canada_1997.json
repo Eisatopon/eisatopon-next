@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cmo-1997-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1997,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Determine the number of pairs of positive integers \\((x, y)\\) such that \\(x \\leq y\\), \\(\\gcd(x, y) = 5!\\), and \\(\\text{lcm}(x, y) = 50!\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1997",
+    "tags": []
+  },
+  {
+    "id": "cmo-1997-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1997,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "The closed interval \\(A = [0, 50]\\) is the union of a finite number of closed intervals, each of length \\(1\\). Prove that some of the intervals can be removed so that those remaining are mutually disjoint and have total length greater than \\(25\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1997",
+    "tags": []
+  },
+  {
+    "id": "cmo-1997-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1997,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Prove that\n\\[\\frac{1}{1999} < \\prod_{i=1}^{999} \\frac{2i-1}{2i} < \\frac{1}{44}.\\]",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1997",
+    "tags": []
+  },
+  {
+    "id": "cmo-1997-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1997,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "The point \\(O\\) is situated inside the parallelogram \\(ABCD\\) such that \\(\\angle AOB + \\angle COD = 180^\\circ\\). Prove that \\(\\angle OBC = \\angle ODC\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1997",
+    "tags": []
+  },
+  {
+    "id": "cmo-1997-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1997,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Algebra",
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Write the sum\n\\[\\sum_{i=0}^{n} \\frac{(-1)^i \\dbinom{n}{i}}{i^3 + 9i^2 + 26i + 24}\\]\nas the ratio of two explicitly defined polynomials in \\(n\\) with integer coefficients.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1997",
+    "tags": []
+  }
+]

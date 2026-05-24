@@ -1,0 +1,104 @@
+[
+  {
+    "id": "INMO_2005_P1",
+    "year": 2005,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $M$ be the midpoint of side $BC$ of a triangle $ABC$. Let the median $AM$ intersect the incircle of $ABC$ at $K$ and $L$, with $K$ being nearer to $A$ than $L$. If $AK = KL = LM$, prove that the sides of triangle $ABC$ are in the ratio $5 : 10 : 13$ in some order.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2005"
+  },
+  {
+    "id": "INMO_2005_P2",
+    "year": 2005,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $\\alpha$ and $\\beta$ be positive integers such that $\\d\\frac{43}{197} < \\d\\frac{\\alpha}{\\beta} < \\d\\frac{17}{77}$. Find the minimum possible value of $\\beta$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2005"
+  },
+  {
+    "id": "INMO_2005_P3",
+    "year": 2005,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $p, q, r$ be positive real numbers, not all equal, such that some two of the equations\n\\[\npx^2 + 2qx + r = 0, \\qquad qx^2 + 2rx + p = 0, \\qquad rx^2 + 2px + q = 0\n\\]\nhave a common root, say $\\alpha$. Prove that\n\\begin{enumerate}\n\\item[(a)] $\\alpha$ is real and negative;\n\\item[(b)] the remaining third quadratic equation has non-real roots.\n\\end{enumerate}",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2005"
+  },
+  {
+    "id": "INMO_2005_P4",
+    "year": 2005,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "All possible $6$-digit numbers, in each of which the digits occur in nonincreasing order (from left to right, e.g.\\ $877550$), are written as a sequence in increasing order. Find the $2005$-th number in this sequence.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2005"
+  },
+  {
+    "id": "INMO_2005_P5",
+    "year": 2005,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $x_1$ be a given positive integer. A sequence $\\{x_n\\}_{n \\geq 1}$ of positive integers is such that $x_n$, for $n \\geq 2$, is obtained from $x_{n-1}$ by adding some nonzero digit of $x_{n-1}$. Prove that\n\\begin{enumerate}\n\\item[(a)] the sequence contains an even term;\n\\item[(b)] the sequence contains infinitely many even terms.\n\\end{enumerate}",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2005"
+  },
+  {
+    "id": "INMO_2005_P6",
+    "year": 2005,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all functions $f : \\mathbb{R} \\to \\mathbb{R}$ such that\n\\[\nf(x^2 + yf(z)) = xf(x) + zf(y)\n\\]\nfor all $x, y, z \\in \\mathbb{R}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2005"
+  }
+]

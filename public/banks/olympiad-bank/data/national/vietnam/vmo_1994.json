@@ -1,0 +1,104 @@
+[
+  {
+    "id": "vmo-1994-d1-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1994,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Find all real solutions to the system:\n\\[\\begin{cases} x^3 + 3x - 3 + \\ln(x^2-x+1) = y \\\\ y^3 + 3y - 3 + \\ln(y^2-y+1) = z \\\\ z^3 + 3z - 3 + \\ln(z^2-z+1) = x \\end{cases}\\]",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1994 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1994-d1-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1994,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Triangle \\(ABC\\) is given. Reflect each vertex in the opposite side to obtain triangle \\(A'B'C'\\). Find a necessary and sufficient condition on \\(\\triangle ABC\\) for \\(\\triangle A'B'C'\\) to be equilateral.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1994 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1994-d1-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1994,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Define the sequence \\(\\{x_n\\}\\) by \\(x_0 = a \\in (0,1)\\) and \\(x_{n+1} = \\dfrac{4}{\\pi^2}\\left(\\cos^{-1} x_n + \\dfrac{\\pi}{2}\\right)\\sin^{-1} x_n\\) for \\(n = 0,1,2,\\ldots\\) Show that the sequence converges and find its limit.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1994 Day 1",
+    "tags": []
+  },
+  {
+    "id": "vmo-1994-d2-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1994,
+    "day": 2,
+    "problem_number": 1,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "There are \\(n+1\\) containers arranged in a circle. One container has \\(n\\) stones, the others are empty. A move consists of choosing two containers \\(A\\) and \\(B\\): take a stone from \\(A\\) and put it adjacent to \\(B\\), and take a stone from \\(B\\) and put it adjacent to \\(A\\) (we may take \\(A = B\\)). For which \\(n\\) is it possible to end up with exactly one stone in each container except the one that originally held \\(n\\) stones?",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1994 Day 2",
+    "tags": []
+  },
+  {
+    "id": "vmo-1994-d2-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1994,
+    "day": 2,
+    "problem_number": 2,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "\\(S\\) is a sphere with center \\(O\\). \\(G\\) and \\(G'\\) are two perpendicular great circles on \\(S\\). Take \\(A, B, C\\) on \\(G\\) and \\(D\\) on \\(G'\\) such that the altitudes of tetrahedron \\(ABCD\\) are concurrent. Find the locus of the point of concurrency.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1994 Day 2",
+    "tags": []
+  },
+  {
+    "id": "vmo-1994-d2-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1994,
+    "day": 2,
+    "problem_number": 3,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Do there exist polynomials \\(p(x), q(x), r(x)\\) with positive integer coefficients such that \\(p(x) = (x^2-3x+3)q(x)\\) and \\(q(x) = \\left(\\dfrac{x^2}{20}-\\dfrac{x}{15}+\\dfrac{1}{12}\\right)r(x)\\)?",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1994 Day 2",
+    "tags": []
+  }
+]

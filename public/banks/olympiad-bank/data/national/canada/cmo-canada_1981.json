@@ -1,0 +1,89 @@
+[
+  {
+    "id": "cmo-1981-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1981,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "For any real number \\(t\\), denote by \\([t]\\) the greatest integer less than or equal to \\(t\\). Show that the equation\n\\[[x] + [2x] + [4x] + [8x] + [16x] + [32x] = 12345\\]\nhas no real solution.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1981",
+    "tags": []
+  },
+  {
+    "id": "cmo-1981-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1981,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Given a circle of radius \\(r\\) and a tangent line \\(\\ell\\) to the circle through a given point \\(P\\) on the circle. From a variable point \\(R\\) on the circle, a perpendicular \\(RQ\\) is drawn to \\(\\ell\\) with \\(Q\\) on \\(\\ell\\). Determine the maximum area of triangle \\(PQR\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1981",
+    "tags": []
+  },
+  {
+    "id": "cmo-1981-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1981,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Combinatorics",
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Given a finite collection of lines in a plane \\(P\\), show that it is possible to draw an arbitrarily large circle in \\(P\\) which does not meet any of them. On the other hand, show that it is possible to arrange a countably infinite sequence of lines in \\(P\\) so that every circle in \\(P\\) meets at least one of the lines.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1981",
+    "tags": []
+  },
+  {
+    "id": "cmo-1981-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1981,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "\\(P(x)\\) and \\(Q(x)\\) are two polynomials such that \\(P(x) = Q(x)\\) has no real solution, and \\(P(Q(x)) \\equiv Q(P(x))\\) for all \\(x \\in \\mathbb{R}\\). Prove that \\(P(P(x)) = Q(Q(x))\\) has no real solution.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1981",
+    "tags": []
+  },
+  {
+    "id": "cmo-1981-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1981,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Eleven theatrical groups participated in a festival. Each day, some of the groups were scheduled to perform while the remaining groups joined the general audience. At the conclusion of the festival, each group had seen, during its days off, at least one performance of every other group. What is the minimum number of days the festival could have lasted?",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1981",
+    "tags": []
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "vmo-2010-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 2010,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Solve the system of equations:\n\\[\\begin{cases} x^4 - y^4 = 240 \\\\ x^3 - 2y^3 = 3(x^2 - 4y^2) - 4(x - 8y) \\end{cases}\\]",
+    "solution": null,
+    "source": "Vietnam National Olympiad 2010",
+    "tags": []
+  },
+  {
+    "id": "vmo-2010-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 2010,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(\\{a_n\\}\\) be a sequence defined by \\(a_1 = 5\\) and \\(a_n = \\sqrt[n]{a_{n-1}^{n-1} + 2^{n-1} + 2 \\cdot 3^{n-1}}\\) for all \\(n \\geq 2\\).\na) Find the general formula for \\(a_n\\).\nb) Prove that \\(\\{a_n\\}\\) is decreasing.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 2010",
+    "tags": []
+  },
+  {
+    "id": "vmo-2010-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 2010,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "In the plane, let circle \\((O)\\) have two fixed points \\(B, C\\) on it with \\(BC\\) not a diameter. A point \\(A\\) varies on \\((O)\\) with \\(A \\neq B, C\\) and \\(AB \\neq AC\\). Let \\(D, E\\) be the intersections of \\(BC\\) with the internal and external bisectors of \\(\\angle BAC\\) respectively. Let \\(I\\) be the midpoint of \\(DE\\). The line through the orthocenter of \\(\\triangle ABC\\) perpendicular to \\(AI\\) intersects \\(AD, AE\\) at \\(M, N\\) respectively.\na) Prove that \\(MN\\) passes through a fixed point.\nb) Determine the position of \\(A\\) such that the area \\(S_{AMN}\\) is maximum.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 2010",
+    "tags": []
+  },
+  {
+    "id": "vmo-2010-p4",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 2010,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Prove that for each positive integer \\(n\\), the equation \\(x^2 + 15y^2 = 4^n\\) has at least \\(n\\) integer solutions \\((x, y)\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 2010",
+    "tags": []
+  },
+  {
+    "id": "vmo-2010-p5",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 2010,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(n\\) be a positive integer. Consider a \\(3 \\times 3\\) grid colored with \\(n\\) colors (each cell gets exactly one color). Two colorings are the same if one can be obtained from the other by a rotation about the center of the grid. How many distinct colorings are there?",
+    "solution": null,
+    "source": "Vietnam National Olympiad 2010",
+    "tags": []
+  }
+]

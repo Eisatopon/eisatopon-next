@@ -1,0 +1,89 @@
+[
+  {
+    "id": "cmo-2011-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2011,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Consider \\(70\\)-digit positive integers with the property that each of the digits \\(1, 2, 3, \\ldots, 7\\) appears exactly \\(10\\) times (and \\(0, 8, 9\\) do not appear). Show that no number of this form can divide another number of this form.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2011",
+    "tags": []
+  },
+  {
+    "id": "cmo-2011-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2011,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(ABCD\\) be a cyclic quadrilateral with opposite sides not parallel. Let \\(X\\) and \\(Y\\) be the intersections of lines \\(AB\\), \\(CD\\) and lines \\(AD\\), \\(BC\\) respectively. Let the angle bisector of \\(\\angle AXD\\) intersect \\(AD\\) and \\(BC\\) at \\(E\\) and \\(F\\) respectively, and let the angle bisector of \\(\\angle AYB\\) intersect \\(AB\\) and \\(CD\\) at \\(G\\) and \\(H\\) respectively. Prove that \\(EFGH\\) is a parallelogram.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2011",
+    "tags": []
+  },
+  {
+    "id": "cmo-2011-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2011,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Amy has divided a square into finitely many white and red rectangles, each with sides parallel to the sides of the square. In each white rectangle she writes its width divided by its height, and in each red rectangle she writes its height divided by its width. She then computes \\(x\\), the sum of all these numbers. If the total area of white equals the total area of red, determine the minimum possible value of \\(x\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2011",
+    "tags": []
+  },
+  {
+    "id": "cmo-2011-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2011,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Show that there exists a positive integer \\(N\\) such that for all integers \\(a > N\\), there exists a contiguous substring of the decimal expansion of \\(a\\) that is divisible by \\(2011\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2011",
+    "tags": []
+  },
+  {
+    "id": "cmo-2011-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2011,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(d\\) be a positive integer. Show that for every integer \\(S\\), there exists an integer \\(n > 0\\) and a sequence \\(\\epsilon_1, \\epsilon_2, \\ldots, \\epsilon_n\\) with each \\(\\epsilon_i = \\pm 1\\), such that\n\\[S = \\sum_{i=1}^{n} \\epsilon_i (1 + id)^2.\\]",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2011",
+    "tags": []
+  }
+]

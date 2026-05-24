@@ -1,0 +1,87 @@
+[
+  {
+    "id": "vmo-1963-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1963,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "A conference has 47 people attending. One woman knows 16 of the men attending, another knows 17, and so on up to the \\(m\\)-th woman who knows all \\(n\\) of the men. Find \\(m\\) and \\(n\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1963",
+    "tags": []
+  },
+  {
+    "id": "vmo-1963-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1963,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "For what values of \\(m\\) does the equation \\(x^2 + (2m+6)x + 4m+12 = 0\\) have two real roots, both greater than \\(-1\\)?",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1963",
+    "tags": []
+  },
+  {
+    "id": "vmo-1963-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1963,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Solve the equation \\(\\sin^3 x \\cos 3x + \\cos^3 x \\sin 3x = \\dfrac{3}{8}\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1963",
+    "tags": []
+  },
+  {
+    "id": "vmo-1963-p4",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1963,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Tetrahedron \\(S.ABC\\) has faces \\(SBC\\) and \\(ABC\\) perpendicular. The three angles at \\(S\\) are all \\(60^\\circ\\) and \\(SB = SC = 1\\). Find the volume of the tetrahedron.",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1963",
+    "tags": []
+  },
+  {
+    "id": "vmo-1963-p5",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1963,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Triangle \\(ABC\\) has semiperimeter \\(p\\). Find \\(BC\\) and area \\(S\\) in terms of \\(\\angle A\\), \\(\\angle B\\), and \\(p\\). In particular, compute \\(S\\) when \\(p \\approx 23.6\\), \\(\\angle A \\approx 52^\\circ 42'\\), \\(\\angle B \\approx 46^\\circ 16'\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1963",
+    "tags": []
+  }
+]

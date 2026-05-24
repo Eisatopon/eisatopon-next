@@ -1,0 +1,104 @@
+[
+  {
+    "id": "brazil-2004-d1-p1",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2004,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(ABCD\\) be a convex quadrilateral. Prove that the incircles of triangles \\(ABC\\), \\(BCD\\), \\(CDA\\), and \\(DAB\\) have a common point if and only if \\(ABCD\\) is a rhombus.",
+    "solution": null,
+    "source": "Brazil National Olympiad 2004 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-2004-d1-p2",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2004,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Determine all values of \\(n\\) such that it is possible to divide a triangle into \\(n\\) smaller triangles with no three collinear vertices and such that each vertex belongs to the same number of segments.",
+    "solution": null,
+    "source": "Brazil National Olympiad 2004 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-2004-d1-p3",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2004,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(x_1, x_2, \\ldots, x_{2004}\\) be a sequence of integers such that \\(x_{k+3} = x_{k+2} + x_k x_{k+1}\\) for all \\(1 \\leq k \\leq 2001\\). Is it possible that more than half of the elements are negative?",
+    "solution": null,
+    "source": "Brazil National Olympiad 2004 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-2004-d2-p4",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2004,
+    "day": 2,
+    "problem_number": 4,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Consider all ways of writing each of the numbers \\(0, 1, 2, \\ldots, 9\\) exactly ten times in the squares of a \\(10 \\times 10\\) board. Find the greatest integer \\(n\\) with the property that there is always a row or a column containing at least \\(n\\) different numbers.",
+    "solution": null,
+    "source": "Brazil National Olympiad 2004 Day 2",
+    "tags": []
+  },
+  {
+    "id": "brazil-2004-d2-p5",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2004,
+    "day": 2,
+    "problem_number": 5,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Consider the sequence \\((a_n)_{n \\in \\mathbb{N}}\\) with \\(a_0 = a_1 = a_2 = a_3 = 1\\) and \\(a_n a_{n-4} = a_{n-1}a_{n-3} + a_{n-2}^2\\). Prove that all terms of the sequence are integers.",
+    "solution": null,
+    "source": "Brazil National Olympiad 2004 Day 2",
+    "tags": []
+  },
+  {
+    "id": "brazil-2004-d2-p6",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 2004,
+    "day": 2,
+    "problem_number": 6,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(a\\) and \\(b\\) be real numbers. Define \\(f_{a,b} : \\mathbb{R}^2 \\to \\mathbb{R}^2\\) by \\(f_{a,b}(x,y) = (a - by - x^2,\\, x)\\). The set \\(\\mathrm{per}(a,b)\\) of periodic points of \\(f_{a,b}\\) consists of all \\(P \\in \\mathbb{R}^2\\) such that \\(f_{a,b}^n(P) = P\\) for some positive integer \\(n\\). Fix \\(b\\). Prove that the set \\(A_b = \\{a \\in \\mathbb{R} \\mid \\mathrm{per}(a,b) \\neq \\emptyset\\}\\) has a minimum, and find this minimum.",
+    "solution": null,
+    "source": "Brazil National Olympiad 2004 Day 2",
+    "tags": []
+  }
+]

@@ -8,7 +8,6 @@ import MainNavbar from "@/components/MainNavbar";
 import type { Metadata } from "next";
 import { getAllArticles, Article } from "@/lib/articles";
 
-// ─── Static generation ─────────────────────────────────────
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
@@ -30,26 +29,25 @@ export const metadata: Metadata = {
   },
   alternates: { canonical: "https://eisatopon.gr" },
   robots: {
-    index: true, 
+    index: true,
     follow: true,
     googleBot: { index: true, follow: true, "max-video-preview": -1, "max-image-preview": "large", "max-snippet": -1 },
   },
 };
 
-// ─── Static Data ─────────────────────────────────────────────────
-interface ProblemBank { 
-  href: string; 
-  emoji: string; 
-  label: string; 
-  desc: string; 
-  color: string; 
+interface ProblemBank {
+  href: string;
+  emoji: string;
+  label: string;
+  desc: string;
+  color: string;
 }
 
-interface Topic { 
-  label: string; 
-  emoji: string; 
-  color: string; 
-  bg: string; 
+interface Topic {
+  label: string;
+  emoji: string;
+  color: string;
+  bg: string;
 }
 
 const problemBanks: ProblemBank[] = [
@@ -59,77 +57,16 @@ const problemBanks: ProblemBank[] = [
 ];
 
 const topics: Topic[] = [
-
-  {
-    label: "Mathematics",
-    emoji: "∞",
-    color: "text-[#d4af37]",
-    bg: "bg-[#d4af37]/10 border-[#d4af37]/20",
-  },
-
-  {
-    label: "Olympiads",
-    emoji: "🏆",
-    color: "text-[#93c5fd]",
-    bg: "bg-[#93c5fd]/10 border-[#93c5fd]/20",
-  },
-
-  {
-    label: "Physics",
-    emoji: "⚛️",
-    color: "text-[#67e8f9]",
-    bg: "bg-[#67e8f9]/10 border-[#67e8f9]/20",
-  },
-
-  {
-    label: "Artificial Intelligence",
-    emoji: "◉",
-    color: "text-[#a5b4fc]",
-    bg: "bg-[#a5b4fc]/10 border-[#a5b4fc]/20",
-  },
-
-  {
-    label: "Number Theory",
-    emoji: "ℤ",
-    color: "text-[#facc15]",
-    bg: "bg-[#facc15]/10 border-[#facc15]/20",
-  },
-
-  {
-    label: "Geometry",
-    emoji: "△",
-    color: "text-[#86efac]",
-    bg: "bg-[#86efac]/10 border-[#86efac]/20",
-  },
-
-  {
-    label: "Puzzles & Paradoxes",
-    emoji: "◈",
-    color: "text-[#f9a8d4]",
-    bg: "bg-[#f9a8d4]/10 border-[#f9a8d4]/20",
-  },
-
-  {
-    label: "History of Science",
-    emoji: "⌛",
-    color: "text-[#c6a16e]",
-    bg: "bg-[#c6a16e]/10 border-[#c6a16e]/20",
-  },
-
-  {
-    label: "Logic & Philosophy",
-    emoji: "◌",
-    color: "text-[#c4b5fd]",
-    bg: "bg-[#c4b5fd]/10 border-[#c4b5fd]/20",
-  },
-
-  {
-    label: "Society & Technology",
-    emoji: "◍",
-    color: "text-[#fb923c]",
-    bg: "bg-[#fb923c]/10 border-[#fb923c]/20",
-  },
-
+  { label: "Mathematics",        emoji: "∞",  color: "text-[#d4af37]",  bg: "bg-[#d4af37]/10 border-[#d4af37]/20"  },
+  { label: "Olympiads",          emoji: "🏆", color: "text-[#93c5fd]",  bg: "bg-[#93c5fd]/10 border-[#93c5fd]/20"  },
+  { label: "Physics",            emoji: "⚛️", color: "text-[#67e8f9]",  bg: "bg-[#67e8f9]/10 border-[#67e8f9]/20"  },
+  { label: "Artificial Intelligence", emoji: "◉", color: "text-[#a5b4fc]", bg: "bg-[#a5b4fc]/10 border-[#a5b4fc]/20" },
+  { label: "Number Theory",      emoji: "ℤ",  color: "text-[#facc15]",  bg: "bg-[#facc15]/10 border-[#facc15]/20"  },
+  { label: "Geometry",           emoji: "△",  color: "text-[#86efac]",  bg: "bg-[#86efac]/10 border-[#86efac]/20"  },
+  { label: "Puzzles & Paradoxes",emoji: "◈",  color: "text-[#f9a8d4]",  bg: "bg-[#f9a8d4]/10 border-[#f9a8d4]/20"  },
+  { label: "History of Science", emoji: "⌛", color: "text-[#c6a16e]",  bg: "bg-[#c6a16e]/10 border-[#c6a16e]/20"  },
+  { label: "Logic & Philosophy", emoji: "◌",  color: "text-[#c4b5fd]",  bg: "bg-[#c4b5fd]/10 border-[#c4b5fd]/20"  },
+  { label: "Society & Technology",emoji: "◍", color: "text-[#fb923c]",  bg: "bg-[#fb923c]/10 border-[#fb923c]/20"  },
 ];
 
 const socialLinks = [
@@ -151,6 +88,7 @@ const CARD_GRADIENTS = [
 ];
 
 // ─── Components ───────────────────────────────────────────────────
+
 function SocialIcon({ name }: { name: string }) {
   const icons: Record<string, React.ReactNode> = {
     Facebook:  <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>,
@@ -186,13 +124,7 @@ function ArticleCard({ article, index }: { article: Article; index: number }) {
       <Link prefetch href={`/articles/${article.slug}`} className="group block rounded-xl overflow-hidden border border-border-dim bg-card hover:border-gold/30 transition-all duration-300 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50" aria-label={`Read: ${article.title}`}>
         {article.image ? (
           <div className="relative h-[180px] bg-black overflow-hidden">
-            <Image
-              src={article.image}
-              alt={article.title}
-              fill
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              className="object-cover brightness-50 group-hover:brightness-70 transition-all duration-500"
-            />
+            <Image src={article.image} alt={article.title} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover brightness-50 group-hover:brightness-70 transition-all duration-500" />
           </div>
         ) : (
           <div className={`h-[180px] flex items-center justify-center bg-gradient-to-tr ${CARD_GRADIENTS[index % CARD_GRADIENTS.length]}`}>
@@ -214,11 +146,67 @@ function ArticleCard({ article, index }: { article: Article; index: number }) {
   );
 }
 
-// ─── Main Page (Server Component) ────────────────────────────────
+// ─── Olympiad Bank Banner ─────────────────────────────────────────
+
+function OlympiadBanner() {
+  return (
+    <a
+      href="/banks/olympiad-bank/olympiad_bank.html"
+      className="block rounded-xl overflow-hidden border border-[#2d3f6b] bg-[#1a2744] hover:border-[#c9a227]/50 transition-all duration-300 hover:-translate-y-0.5 group my-5"
+      aria-label="Open Math Olympiad Bank — National, Regional and TST problems"
+    >
+      <div className="p-5 sm:p-6 flex items-center justify-between gap-4 flex-wrap">
+        <div className="flex items-center gap-4">
+          <div className="bg-[#c9a227]/15 rounded-xl p-3 flex-shrink-0">
+            <span className="text-[1.8rem]" aria-hidden="true">🏆</span>
+          </div>
+          <div>
+            <div className="text-[0.62rem] tracking-widest uppercase text-[#8fa3c8] mb-1">
+              EisatoponAI · New
+            </div>
+            <div className="font-playfair text-[1.1rem] font-semibold text-white mb-1 group-hover:text-[#c9a227] transition-colors duration-200">
+              Math Olympiad Bank
+            </div>
+            <div className="text-[0.78rem] text-[#8fa3c8] leading-relaxed">
+              2,400+ problems · USAMO · Balkan MO · CMO · TST and more
+            </div>
+            <div className="flex gap-2 mt-2 flex-wrap">
+              <span className="text-[0.65rem] px-2.5 py-0.5 rounded-full border border-[#4fc3a1]/30 text-[#4fc3a1]">National</span>
+              <span className="text-[0.65rem] px-2.5 py-0.5 rounded-full border border-[#7b8cde]/30 text-[#7b8cde]">Regional</span>
+              <span className="text-[0.65rem] px-2.5 py-0.5 rounded-full border border-[#c9a227]/30 text-[#c9a227]">TST</span>
+              <span className="text-[0.65rem] px-2.5 py-0.5 rounded-full border border-[#e07b7b]/30 text-[#e07b7b]">Exam Builder</span>
+            </div>
+          </div>
+        </div>
+        <span className="inline-flex items-center gap-2 bg-[#c9a227] text-[#1a2744] text-[0.8rem] font-bold px-4 py-2.5 rounded-lg group-hover:bg-[#e0b830] transition-colors duration-200 flex-shrink-0">
+          Open Bank →
+        </span>
+      </div>
+    </a>
+  );
+}
+
+function OlympiadReminder() {
+  return (
+    <div className="flex items-center justify-center gap-2 py-4 border-t border-border-dim mt-2 mb-2">
+      <span className="text-[0.78rem] text-ink-muted">Looking for olympiad problems?</span>
+      <a
+        href="/banks/olympiad-bank/olympiad_bank.html"
+        className="text-[0.78rem] text-[#c9a227] hover:text-white transition-colors duration-200 underline underline-offset-2 decoration-[#c9a227]/40"
+      >
+        Math Olympiad Bank →
+      </a>
+    </div>
+  );
+}
+
+// ─── Main Page ────────────────────────────────────────────────────
+
 export default async function Home() {
   const articles = getAllArticles();
   const heroArticle = articles[0] ?? null;
-  const cardArticles = articles.slice(1, 7);
+  const cardArticles  = articles.slice(1, 5);
+  const cardArticles2 = articles.slice(5, 9);
   const potd = await getTodayProblem();
 
   const heroDate = heroArticle?.date
@@ -229,7 +217,7 @@ export default async function Home() {
     <main className="min-h-screen bg-base text-ink-primary">
       <MainNavbar />
 
-      {/* ═══ HERO — 16:9 for Google Discover ═══ */}
+      {/* ═══ HERO ═══ */}
       {heroArticle ? (
         <Link
           prefetch
@@ -239,14 +227,7 @@ export default async function Home() {
           aria-label={`Read featured article: ${heroArticle.title}`}
         >
           {heroArticle.image ? (
-            <Image
-              src={heroArticle.image}
-              alt={heroArticle.title}
-              fill
-              priority
-              sizes="100vw"
-              className="object-cover brightness-50 group-hover:brightness-60 transition-all duration-500"
-            />
+            <Image src={heroArticle.image} alt={heroArticle.title} fill priority sizes="100vw" className="object-cover brightness-50 group-hover:brightness-60 transition-all duration-500" />
           ) : (
             <div className="absolute inset-0 bg-gradient-to-br from-[#0a1a2e] to-[#080a0f]" />
           )}
@@ -290,144 +271,83 @@ export default async function Home() {
             <Link prefetch href="/articles" className="text-[0.75rem] tracking-widest uppercase text-ink-muted hover:text-gold transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50">Browse All</Link>
           </div>
 
+          {/* ── First 4 articles ── */}
           {cardArticles.length > 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-              {cardArticles.map((article, i) => <ArticleCard key={article.slug} article={article} index={i} />)}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
+              {cardArticles.map((article, i) => (
+                <ArticleCard key={article.slug} article={article} index={i} />
+              ))}
             </div>
-          ) : (
-            <p className="text-ink-muted text-sm py-10 text-center">No articles yet.</p>
-          )}
-  <Pagination
-            currentPage={1}
-            totalPages={Math.ceil((articles.length - 1) / 6) + 1}
-          />
+          ) : null}
 
+          {/* ── Olympiad Bank Banner ── */}
+          <OlympiadBanner />
+
+          {/* ── Next 4 articles ── */}
+          {cardArticles2.length > 0 && (
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              {cardArticles2.map((article, i) => (
+                <ArticleCard key={article.slug} article={article} index={i + 4} />
+              ))}
+            </div>
+          )}
+
+          {/* ── Reminder link ── */}
+          <OlympiadReminder />
+
+          <Pagination
+            currentPage={1}
+            totalPages={Math.ceil((articles.length - 1) / 8) + 1}
+          />
         </section>
 
         {/* SIDEBAR */}
-<aside className="flex flex-col gap-7">
+        <aside className="flex flex-col gap-7">
 
-  {/* Problem of the Day */}
-  <div className="rounded-xl border border-gold-border bg-gold-dim p-5">
-
-    {potd ? (
-      <>
-
-        <h2 className="text-[0.68rem] tracking-wide uppercase text-gold mb-3 font-normal">
-          ✦ Problem of the Day
-        </h2>
-
-        <p className="font-serif text-[0.9rem] leading-relaxed text-[#d4c99a] mb-3">
-          {potd.title}
-        </p>
-
-        <p className="text-[0.85rem] text-ink-secondary mb-3">
-          {potd.problem}
-        </p>
-
-       {potd.formula && (
-  <div
-    className="
-      relative z-10
-      bg-black/45
-      border border-border-dim
-      rounded-xl
-      px-5 py-5
-      mb-4
-      overflow-x-auto
-      shadow-[0_0_30px_rgba(0,0,0,0.25)]
-    "
-    role="math"
-  >
-    <BlockMath math={potd.formula} />
-  </div>
-)}
-
-        {/* Hint toggle */}
-        <div className="mb-3">
-
-          <details className="group">
-
-            <summary className="list-none cursor-pointer">
-              <span className="block text-center text-[0.8rem] rounded-lg px-3 py-2.5 bg-gold/10 border border-gold/40 text-gold hover:bg-gold/20 hover:border-gold transition-all duration-200 select-none">
-                💡 View Hint
-              </span>
-            </summary>
-
-            <p className="mt-3 text-[0.8rem] text-ink-tertiary italic p-3 bg-black/20 rounded-lg border border-border-dim">
-              {potd.hint}
-            </p>
-
-          </details>
-
-        </div>
-
-        {/* Difficulty + topic + date */}
-        <div className="flex items-center justify-between mt-4">
-
-          <div className="flex items-center gap-2">
-
-            <span
-              className={`text-[0.65rem] px-2 py-0.5 rounded ${
-                potd.difficulty === "Easy"
-                  ? "bg-green-500/20 text-green-400"
-                  : potd.difficulty === "Medium"
-                  ? "bg-yellow-500/20 text-yellow-400"
-                  : "bg-red-500/20 text-red-400"
-              }`}
-            >
-              {potd.difficulty}
-            </span>
-
-            <span className="text-[0.65rem] text-ink-muted">
-              {potd.topic}
-            </span>
-
+          {/* Problem of the Day */}
+          <div className="rounded-xl border border-gold-border bg-gold-dim p-5">
+            {potd ? (
+              <>
+                <h2 className="text-[0.68rem] tracking-wide uppercase text-gold mb-3 font-normal">✦ Problem of the Day</h2>
+                <p className="font-serif text-[0.9rem] leading-relaxed text-[#d4c99a] mb-3">{potd.title}</p>
+                <p className="text-[0.85rem] text-ink-secondary mb-3">{potd.problem}</p>
+                {potd.formula && (
+                  <div className="relative z-10 bg-black/45 border border-border-dim rounded-xl px-5 py-5 mb-4 overflow-x-auto shadow-[0_0_30px_rgba(0,0,0,0.25)]" role="math">
+                    <BlockMath math={potd.formula} />
+                  </div>
+                )}
+                <div className="mb-3">
+                  <details className="group">
+                    <summary className="list-none cursor-pointer">
+                      <span className="block text-center text-[0.8rem] rounded-lg px-3 py-2.5 bg-gold/10 border border-gold/40 text-gold hover:bg-gold/20 hover:border-gold transition-all duration-200 select-none">
+                        💡 View Hint
+                      </span>
+                    </summary>
+                    <p className="mt-3 text-[0.8rem] text-ink-tertiary italic p-3 bg-black/20 rounded-lg border border-border-dim">{potd.hint}</p>
+                  </details>
+                </div>
+                <div className="flex items-center justify-between mt-4">
+                  <div className="flex items-center gap-2">
+                    <span className={`text-[0.65rem] px-2 py-0.5 rounded ${potd.difficulty === "Easy" ? "bg-green-500/20 text-green-400" : potd.difficulty === "Medium" ? "bg-yellow-500/20 text-yellow-400" : "bg-red-500/20 text-red-400"}`}>
+                      {potd.difficulty}
+                    </span>
+                    <span className="text-[0.65rem] text-ink-muted">{potd.topic}</span>
+                  </div>
+                  <span className="text-[0.62rem] text-ink-muted opacity-70">{potd.date}</span>
+                </div>
+                <div className="mt-4 pt-4 border-t border-border-dim">
+                  <Link href="/problems" className="block text-center text-[0.72rem] tracking-wide text-gold hover:text-white transition-colors duration-300">
+                    Browse Previous POTD →
+                  </Link>
+                </div>
+              </>
+            ) : (
+              <>
+                <h2 className="text-[0.68rem] tracking-wide uppercase text-gold mb-3 font-normal">✦ Problem of the Day</h2>
+                <p className="text-[0.85rem] text-ink-secondary">No problem available today.</p>
+              </>
+            )}
           </div>
-
-          <span className="text-[0.62rem] text-ink-muted opacity-70">
-            {potd.date}
-          </span>
-
-        </div>
-
-        {/* Previous POTD */}
-        <div className="mt-4 pt-4 border-t border-border-dim">
-
-          <Link
-            href="/problems"
-            className="
-              block
-              text-center
-              text-[0.72rem]
-              tracking-wide
-              text-gold
-              hover:text-white
-              transition-colors
-              duration-300
-            "
-          >
-            Browse Previous POTD →
-          </Link>
-
-        </div>
-
-      </>
-    ) : (
-      <>
-
-        <h2 className="text-[0.68rem] tracking-wide uppercase text-gold mb-3 font-normal">
-          ✦ Problem of the Day
-        </h2>
-
-        <p className="text-[0.85rem] text-ink-secondary">
-          No problem available today.
-        </p>
-
-      </>
-    )}
-
-  </div>
 
           {/* Problem Banks */}
           <nav aria-labelledby="banks-heading">
@@ -436,146 +356,50 @@ export default async function Home() {
           </nav>
 
           {/* Archive CTA */}
-<div className="rounded-xl border border-border-dim bg-card p-5 text-center">
+          <div className="rounded-xl border border-border-dim bg-card p-5 text-center">
+            <div className="text-2xl mb-2" aria-hidden="true">📚</div>
+            <h2 className="font-playfair text-[1rem] font-semibold text-ink-primary mb-1">The Original Archive</h2>
+            <p className="text-[0.8rem] text-ink-tertiary leading-relaxed mb-3">Over 40,000 mathematical articles since 2010.</p>
+            <a href="https://eisatopon.blogspot.com" target="_blank" rel="noopener noreferrer" className="block text-center text-[0.8rem] px-3 py-2.5 bg-white/5 border border-border-soft rounded-lg text-ink-secondary hover:text-gold hover:border-gold/30 hover:bg-gold/5 transition-all duration-200">
+              Explore Old Site
+            </a>
+          </div>
 
-  <div
-    className="text-2xl mb-2"
-    aria-hidden="true"
-  >
-    📚
-  </div>
+        </aside>
+      </div>
 
-  <h2 className="font-playfair text-[1rem] font-semibold text-ink-primary mb-1">
-    The Original Archive
-  </h2>
+      {/* FOOTER */}
+      <footer className="border-t border-border-dim bg-black/50 mt-auto">
+        <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-[1200px] flex flex-col items-center gap-6">
+          <Link href="/" style={{ fontFamily: "var(--font-family-playfair)", fontSize: "1.75rem", fontWeight: 600, color: "var(--color-ink-primary)", letterSpacing: "-0.01em", textDecoration: "none" }} className="hover:text-gold transition-colors duration-200">
+            Eisatopon<span style={{ color: "var(--color-gold)" }}>AI</span>
+          </Link>
+          <p className="text-[0.85rem] text-ink-tertiary text-center max-w-[460px] leading-relaxed">
+            Interactive mathematical archives, olympiad problems and AI-powered learning.
+          </p>
+          <div className="flex items-center gap-6 flex-wrap justify-center text-[0.82rem] tracking-wide uppercase">
+            <Link href="/about" className="text-ink-secondary hover:text-gold transition-colors duration-300">About</Link>
+            <Link href="/banks" className="text-ink-secondary hover:text-gold transition-colors duration-300">Problem Banks</Link>
+            <a href="https://eisatopon.blogspot.com" target="_blank" rel="noopener noreferrer" className="text-ink-secondary hover:text-gold transition-colors duration-300">Archive</a>
+            <Link href="https://www.eisatopon.gr/banks/imo" className="text-ink-secondary hover:text-gold transition-colors duration-300">Olympiads</Link>
+            <Link href="/articles" className="text-ink-secondary hover:text-gold transition-colors duration-300">Articles</Link>
+          </div>
+          <div className="flex items-center gap-4 flex-wrap justify-center">
+            {socialLinks.map((s) => (
+              <a key={s.name} href={s.href} target="_blank" rel="noopener noreferrer" aria-label={`Visit EisatoponAI on ${s.name}`} className="flex items-center justify-center w-10 h-10 rounded-xl border border-border-dim bg-white/5 text-ink-secondary hover:text-gold hover:bg-gold/10 hover:border-gold/30 transition-all duration-200">
+                <SocialIcon name={s.name} />
+              </a>
+            ))}
+          </div>
+          <div className="w-full max-w-[220px] h-[0.5px] bg-border-dim" aria-hidden="true" />
+          <div className="flex flex-wrap items-center justify-center gap-4 text-[0.75rem] text-ink-muted">
+            <span>© 2026 EisatoponAI</span>
+            <span className="w-1 h-1 rounded-full bg-ink-muted" aria-hidden="true" />
+            <span>Mathematics • Problems • Ideas</span>
+          </div>
+        </div>
+      </footer>
 
-  <p className="text-[0.8rem] text-ink-tertiary leading-relaxed mb-3">
-    Over 40,000 mathematical articles since 2010.
-  </p>
-
-  <a
-    href="https://eisatopon.blogspot.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="block text-center text-[0.8rem] px-3 py-2.5 bg-white/5 border border-border-soft rounded-lg text-ink-secondary hover:text-gold hover:border-gold/30 hover:bg-gold/5 transition-all duration-200"
-  >
-    Explore Old Site
-  </a>
-
-</div>
-
-</aside>
-</div>
-
-{/* FOOTER */}
-<footer className="border-t border-border-dim bg-black/50 mt-auto">
-
-  <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-[1200px] flex flex-col items-center gap-6">
-
-    <Link
-      href="/"
-      style={{
-        fontFamily: "var(--font-family-playfair)",
-        fontSize: "1.75rem",
-        fontWeight: 600,
-        color: "var(--color-ink-primary)",
-        letterSpacing: "-0.01em",
-        textDecoration: "none",
-      }}
-      className="hover:text-gold transition-colors duration-200"
-    >
-      Eisatopon
-      <span style={{ color: "var(--color-gold)" }}>
-        AI
-      </span>
-    </Link>
-
-    <p className="text-[0.85rem] text-ink-tertiary text-center max-w-[460px] leading-relaxed">
-      Interactive mathematical archives, olympiad problems and AI-powered learning.
-    </p>
-
-    {/* FOOTER NAV */}
-    <div className="flex items-center gap-6 flex-wrap justify-center text-[0.82rem] tracking-wide uppercase">
-
-      <Link
-        href="/about"
-        className="text-ink-secondary hover:text-gold transition-colors duration-300"
-      >
-        About
-      </Link>
-
-      <Link
-        href="/banks"
-        className="text-ink-secondary hover:text-gold transition-colors duration-300"
-      >
-        Problem Banks
-      </Link>
-
-      <a
-        href="https://eisatopon.blogspot.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-ink-secondary hover:text-gold transition-colors duration-300"
-      >
-        Archive
-      </a>
-
-      <Link
-        href="https://www.eisatopon.gr/banks/imo"
-        className="text-ink-secondary hover:text-gold transition-colors duration-300"
-      >
-        Olympiads
-      </Link>
-
-      <Link
-        href="/articles"
-        className="text-ink-secondary hover:text-gold transition-colors duration-300"
-      >
-        Articles
-      </Link>
-
-    </div>
-
-    {/* SOCIALS */}
-    <div className="flex items-center gap-4 flex-wrap justify-center">
-
-      {socialLinks.map((s) => (
-        <a
-          key={s.name}
-          href={s.href}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label={`Visit EisatoponAI on ${s.name}`}
-          className="flex items-center justify-center w-10 h-10 rounded-xl border border-border-dim bg-white/5 text-ink-secondary hover:text-gold hover:bg-gold/10 hover:border-gold/30 transition-all duration-200"
-        >
-          <SocialIcon name={s.name} />
-        </a>
-      ))}
-
-    </div>
-
-    <div
-      className="w-full max-w-[220px] h-[0.5px] bg-border-dim"
-      aria-hidden="true"
-    />
-
-    <div className="flex flex-wrap items-center justify-center gap-4 text-[0.75rem] text-ink-muted">
-
-      <span>© 2026 EisatoponAI</span>
-
-      <span
-        className="w-1 h-1 rounded-full bg-ink-muted"
-        aria-hidden="true"
-      />
-
-      <span>Mathematics • Problems • Ideas</span>
-
-    </div>
-
-  </div>
-
-</footer>
-
-</main>
+    </main>
   );
 }

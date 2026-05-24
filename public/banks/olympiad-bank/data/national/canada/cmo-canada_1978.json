@@ -1,0 +1,105 @@
+[
+  {
+    "id": "cmo-1978-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1978,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(n\\) be an integer. If the tens digit of \\(n^2\\) is \\(7\\), what is the units digit of \\(n^2\\)?",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1978",
+    "tags": []
+  },
+  {
+    "id": "cmo-1978-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1978,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Find all pairs \\((a, b)\\) of positive integers satisfying the equation \\(2a^2 = 3b^3\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1978",
+    "tags": []
+  },
+  {
+    "id": "cmo-1978-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1978,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Determine the largest real number \\(z\\) such that\n\\[x + y + z = 5, \\qquad xy + yz + xz = 3\\]\nand \\(x, y\\) are also real.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1978",
+    "tags": []
+  },
+  {
+    "id": "cmo-1978-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1978,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "The sides \\(AD\\) and \\(BC\\) of a convex quadrilateral \\(ABCD\\) are extended to meet at \\(E\\). Let \\(H\\) and \\(G\\) be the midpoints of \\(BD\\) and \\(AC\\), respectively. Find the ratio of the area of triangle \\(EHG\\) to that of quadrilateral \\(ABCD\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1978",
+    "tags": []
+  },
+  {
+    "id": "cmo-1978-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1978,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Eve and Odette play a game on a \\(3 \\times 3\\) checkerboard with black and white checkers. The rules are:\n\\begin{enumerate}\n\\item[I.] They play alternately.\n\\item[II.] A turn consists of placing one checker on an unoccupied square.\n\\item[III.] A player may choose either colour on each turn.\n\\item[IV.] When the board is full, Eve scores one point for every row, column, or diagonal with an even number of black checkers; Odette scores one point for every row, column, or diagonal with an odd number of black checkers.\n\\item[V.] The player obtaining at least five of the eight points wins.\n\\end{enumerate}\n(a) Is a \\(4\\)--\\(4\\) tie possible? Explain.\n\n(b) Describe a winning strategy for the player who moves first.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1978",
+    "tags": []
+  },
+  {
+    "id": "cmo-1978-p6",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1978,
+    "day": 1,
+    "problem_number": 6,
+    "topic": [
+      "Algebra",
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Sketch the graph of \\(x^3 + xy + y^3 = 3\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1978",
+    "tags": []
+  }
+]

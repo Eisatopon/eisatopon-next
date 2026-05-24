@@ -1,0 +1,104 @@
+[
+  {
+    "id": "brazil-1998-d1-p1",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1998,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "\\(15\\) positive integers, all less than \\(1998\\) and none equal to \\(1\\), are pairwise coprime (no two share a common factor greater than \\(1\\)). Show that at least one of them must be prime.",
+    "solution": null,
+    "source": "Brazil National Olympiad 1998 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-1998-d1-p2",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1998,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(ABC\\) be a triangle. \\(D\\) is the midpoint of \\(AB\\), and \\(E\\) is a point on side \\(BC\\) such that \\(BE = 2EC\\) and \\(\\angle ADC = \\angle BAE\\). Find \\(\\angle BAC\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1998 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-1998-d1-p3",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1998,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Two players play a game with \\(n > 1\\) rounds and a fixed integer \\(d \\geq 1\\). In round \\(1\\), player A picks a positive integer \\(m_1\\) and player B picks \\(n_1 \\neq m_1\\). In round \\(k\\) (\\(k \\geq 2\\)), A picks \\(m_k\\) with \\(m_{k-1} < m_k \\leq m_{k-1} + d\\), then B picks \\(n_k\\) with \\(n_{k-1} < n_k \\leq n_{k-1} + d\\). A earns \\(\\gcd(m_k, n_{k-1})\\) points and B earns \\(\\gcd(m_k, n_k)\\) points. A wins if his total is at least B's total. For each \\((n, d)\\), which player has a winning strategy?",
+    "solution": null,
+    "source": "Brazil National Olympiad 1998 Day 1",
+    "tags": []
+  },
+  {
+    "id": "brazil-1998-d2-p4",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1998,
+    "day": 2,
+    "problem_number": 4,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Two players play a game. The first player chooses two nonzero integers \\(A\\) and \\(B\\). The second player forms a quadratic equation using \\(A\\), \\(B\\), and \\(1998\\) as coefficients (in any order). The first player wins if and only if the equation has two distinct rational roots. Show that the first player can always win.",
+    "solution": null,
+    "source": "Brazil National Olympiad 1998 Day 2",
+    "tags": []
+  },
+  {
+    "id": "brazil-1998-d2-p5",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1998,
+    "day": 2,
+    "problem_number": 5,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Find all functions \\(f : \\mathbb{N} \\to \\mathbb{N}\\) satisfying \\(f(2f(x)) = x + 1998\\) for all \\(x \\in \\mathbb{N}\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1998 Day 2",
+    "tags": []
+  },
+  {
+    "id": "brazil-1998-d2-p6",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1998,
+    "day": 2,
+    "problem_number": 6,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Two mathematicians are lost in Berlin and need to walk from the corner of Barbarossa Street and Martin Luther Street to the corner of Meininger Street and Martin Luther Street. They do not know the direction or distance to Meininger Street and must search by walking back and forth along Martin Luther Street. Find the smallest positive integer \\(k\\) such that, no matter how large \\(N\\) is (the number of blocks between the two cross-streets), they can guarantee reaching their destination by walking at most \\(kN\\) blocks.",
+    "solution": null,
+    "source": "Brazil National Olympiad 1998 Day 2",
+    "tags": []
+  }
+]

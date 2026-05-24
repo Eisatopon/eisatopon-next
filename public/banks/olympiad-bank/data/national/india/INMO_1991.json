@@ -1,0 +1,174 @@
+[
+  {
+    "id": "INMO_1991_P1",
+    "year": 1991,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Find the number of positive integers $n$ for which\n\\begin{enumerate}\n\\item[(i)] $n \\leq 1991$;\n\\item[(ii)] $6$ is a factor of $n^2 + 3n + 2$.\n\\end{enumerate}",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1991"
+  },
+  {
+    "id": "INMO_1991_P2",
+    "year": 1991,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given an acute-angled triangle $ABC$, let points $A'$, $B'$, $C'$ be located as follows: $A'$ is the point where the altitude from $A$ on $BC$ meets the outward-facing semicircle on $BC$ as diameter. Points $B'$, $C'$ are located similarly.\n\nProve that $A[BCA']^2 + A[CAB']^2 + A[ABC']^2 = A[ABC]^2$, where $A[ABC]$ denotes the area of triangle $ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1991"
+  },
+  {
+    "id": "INMO_1991_P3",
+    "year": 1991,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Given a triangle $ABC$, let\n\\[\nx = \\tan\\!\\left(\\frac{B-C}{2}\\right)\\tan\\!\\left(\\frac{A}{2}\\right), \\quad\ny = \\tan\\!\\left(\\frac{C-A}{2}\\right)\\tan\\!\\left(\\frac{B}{2}\\right), \\quad\nz = \\tan\\!\\left(\\frac{A-B}{2}\\right)\\tan\\!\\left(\\frac{C}{2}\\right).\n\\]\nProve that $x + y + z + xyz = 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1991"
+  },
+  {
+    "id": "INMO_1991_P4",
+    "year": 1991,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c$ be real numbers with $0 < a < 1$, $0 < b < 1$, $0 < c < 1$, and $a + b + c = 2$. Prove that\n\\[\n\\frac{a}{1-a} \\cdot \\frac{b}{1-b} \\cdot \\frac{c}{1-c} \\geq 8.\n\\]",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1991"
+  },
+  {
+    "id": "INMO_1991_P5",
+    "year": 1991,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Triangle $ABC$ has an incenter $I$. Let points $X$, $Y$ be located on the line segments $AB$, $AC$ respectively, so that $BX \\cdot AB = IB^2$ and $CY \\cdot AC = IC^2$. Given that the points $X$, $I$, $Y$ lie on a straight line, find the possible values of the measure of angle $A$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1991"
+  },
+  {
+    "id": "INMO_1991_P6",
+    "year": 1991,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "\\begin{enumerate}\n\\item[(i)] Determine the set of all positive integers $n$ for which $3^{n+1}$ divides $2^{3^n} + 1$;\n\\item[(ii)] Prove that $3^{n+2}$ does not divide $2^{3^n} + 1$ for any positive integer $n$.\n\\end{enumerate}",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1991"
+  },
+  {
+    "id": "INMO_1991_P7",
+    "year": 1991,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P7",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Solve the following system for real $x, y, z$:\n\\[\n\\begin{cases}\nx + y - z = 4 \\\\\nx^2 - y^2 + z^2 = -4 \\\\\nxyz = 6.\n\\end{cases}\n\\]",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1991"
+  },
+  {
+    "id": "INMO_1991_P8",
+    "year": 1991,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P8",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "There are $10$ objects of total weight $20$, each of the weights being a positive integer. Given that none of the weights exceeds $10$, prove that the ten objects can be divided into two groups that balance each other when placed on the two pans of a balance.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1991"
+  },
+  {
+    "id": "INMO_1991_P9",
+    "year": 1991,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P9",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Triangle $ABC$ has incenter $I$; its incircle touches the side $BC$ at $T$. The line through $T$ parallel to $IA$ meets the incircle again at $S$, and the tangent to the incircle at $S$ meets $AB$, $AC$ at points $C'$, $B'$ respectively. Prove that triangle $AB'C'$ is similar to triangle $ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1991"
+  },
+  {
+    "id": "INMO_1991_P10",
+    "year": 1991,
+    "olympiad": "INMO",
+    "country": "India",
+    "day": 1,
+    "problem_id": "P10",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For any positive integer $n$, let $s(n)$ denote the number of ordered pairs $(x, y)$ of positive integers for which $\\d\\frac{1}{x} + \\d\\frac{1}{y} = \\d\\frac{1}{n}$. Determine the set of positive integers $n$ for which $s(n) = 5$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1991"
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "brazil-1981-d1-p1",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1981,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "For which values of \\(k\\) does the system \\(x^2 - y^2 = 0\\), \\((x-k)^2 + y^2 = 1\\) have exactly (i) two real solutions, (ii) three real solutions?",
+    "solution": null,
+    "source": "Brazil National Olympiad 1981",
+    "tags": []
+  },
+  {
+    "id": "brazil-1981-d1-p2",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1981,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Show that there are at least \\(3\\) and at most \\(4\\) powers of \\(2\\) with \\(m\\) digits. For which \\(m\\) are there exactly \\(4\\)?",
+    "solution": null,
+    "source": "Brazil National Olympiad 1981",
+    "tags": []
+  },
+  {
+    "id": "brazil-1981-d1-p3",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1981,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Given a sheet of paper, a ruler, a compass, and a pencil, show how to draw a straight line through two given points if the length of the ruler and the maximum opening of the compass are both less than half the distance between the two points. (You may not fold the paper.)",
+    "solution": null,
+    "source": "Brazil National Olympiad 1981",
+    "tags": []
+  },
+  {
+    "id": "brazil-1981-d1-p4",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1981,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "A graph has \\(100\\) vertices. Given any \\(4\\) vertices, at least one is joined to the other three. Show that some vertex must be joined to all \\(99\\) others. What is the smallest number of vertices that must be joined to all others?",
+    "solution": null,
+    "source": "Brazil National Olympiad 1981",
+    "tags": []
+  },
+  {
+    "id": "brazil-1981-d1-p5",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1981,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Two thieves stole \\(8\\) liters of wine. How can they divide it into two equal parts using only a \\(3\\)-liter and a \\(5\\)-liter container? In general, show that \\(m+n\\) liters can be divided into two equal parts using containers of sizes \\(m\\) and \\(n\\) (positive integers) if and only if \\(m+n\\) is even and \\((m+n)/2\\) is divisible by \\(\\gcd(m,n)\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1981",
+    "tags": []
+  },
+  {
+    "id": "brazil-1981-d1-p6",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1981,
+    "day": 1,
+    "problem_number": 6,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "The centers of the faces of a cube form a regular octahedron of volume \\(V\\). Through each vertex of the cube take the plane perpendicular to the long diagonal from that vertex. These planes also form a regular octahedron. Show that its volume is \\(27V\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1981",
+    "tags": []
+  }
+]

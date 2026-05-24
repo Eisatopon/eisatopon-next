@@ -1,0 +1,87 @@
+[
+  {
+    "id": "brazil-1990-d1-p1",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1990,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Show that a convex polyhedron with an odd number of faces has at least one face with an even number of edges.",
+    "solution": null,
+    "source": "Brazil National Olympiad 1990",
+    "tags": []
+  },
+  {
+    "id": "brazil-1990-d1-p2",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1990,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Show that there exist infinitely many positive integers \\(a\\), \\(b\\), \\(c\\) such that \\(a^3 + 1990b^3 = c^4\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1990",
+    "tags": []
+  },
+  {
+    "id": "brazil-1990-d1-p3",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1990,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Each face of a tetrahedron is a triangle with sides \\(a\\), \\(b\\), \\(c\\), and the tetrahedron has circumradius \\(1\\). Find \\(a^2 + b^2 + c^2\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1990",
+    "tags": []
+  },
+  {
+    "id": "brazil-1990-d1-p4",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1990,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "\\(ABCD\\) is a quadrilateral with \\(E\\), \\(F\\), \\(G\\), \\(H\\) the midpoints of \\(AB\\), \\(BC\\), \\(CD\\), \\(DA\\) respectively. Find the point \\(P\\) such that \\(\\text{area}(PHAE) = \\text{area}(PEBF) = \\text{area}(PFCG) = \\text{area}(PGDH)\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1990",
+    "tags": []
+  },
+  {
+    "id": "brazil-1990-d1-p5",
+    "olympiad": "obmu",
+    "type": "national",
+    "country": "Brazil",
+    "year": 1990,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(f(x) = \\dfrac{ax+b}{cx+d}\\) and let \\(F_n(x)\\) denote the \\(n\\)-fold composition of \\(f\\). Suppose that \\(f(0) \\neq 0\\), \\(f(f(0)) \\neq 0\\), and \\(F_n(0) = 0\\) for some positive integer \\(n\\). Show that \\(F_n(x) = x\\) for all valid \\(x\\).",
+    "solution": null,
+    "source": "Brazil National Olympiad 1990",
+    "tags": []
+  }
+]

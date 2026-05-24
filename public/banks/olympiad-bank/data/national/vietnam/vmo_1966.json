@@ -1,0 +1,36 @@
+[
+  {
+    "id": "vmo-1966-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1966,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(x, y, z\\) be nonneg reals satisfying \\(x + cy \\leq 36\\) and \\(2x + 3z \\leq 72\\), where \\(c > 0\\) is given. Prove that if \\(c \\geq 3\\) the maximum of \\(x+y+z\\) is 36, and if \\(c < 3\\) the maximum is \\(24 + \\dfrac{36}{c}\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1966",
+    "tags": []
+  },
+  {
+    "id": "vmo-1966-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1966,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Lines \\(a, b\\) are fixed through \\(O\\). Variable parallel lines \\(x, y\\): \\(x\\) meets \\(a\\) at \\(A\\) and \\(b\\) at \\(C\\); \\(y\\) meets \\(a\\) at \\(B\\) and \\(b\\) at \\(D\\). Lines \\(AD\\) and \\(BC\\) meet at \\(M\\). The line through \\(M\\) parallel to \\(x\\) meets \\(a\\) at \\(L\\) and \\(b\\) at \\(N\\). What can you say about \\(L, M, N\\)? Find the locus of \\(M\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1966",
+    "tags": []
+  }
+]

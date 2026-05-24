@@ -1,0 +1,88 @@
+[
+  {
+    "id": "cmo-2003-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2003,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Consider a standard twelve-hour clock whose hour and minute hands move continuously. Let \\(m\\) be an integer with \\(1 \\leq m \\leq 720\\). At precisely \\(m\\) minutes after 12:00, the angle made by the hour hand and the minute hand is exactly \\(1^\\circ\\). Determine all possible values of \\(m\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2003",
+    "tags": []
+  },
+  {
+    "id": "cmo-2003-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2003,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Find the last three digits of the number \\(2003^{2002^{2001}}\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2003",
+    "tags": []
+  },
+  {
+    "id": "cmo-2003-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2003,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Find all real positive solutions (if any) to the system\n\\[x^3 + y^3 + z^3 = x + y + z \\quad \\text{and} \\quad x^2 + y^2 + z^2 = xyz.\\]",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2003",
+    "tags": []
+  },
+  {
+    "id": "cmo-2003-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2003,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Prove that when three circles share the same chord \\(AB\\), every line through \\(A\\) different from \\(AB\\) determines the same ratio \\(XY : YZ\\), where \\(X\\) is an arbitrary point different from \\(B\\) on the first circle, and \\(Y\\) and \\(Z\\) are the points where line \\(AX\\) intersects the other two circles (labeled so that \\(Y\\) is between \\(X\\) and \\(Z\\)).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2003",
+    "tags": []
+  },
+  {
+    "id": "cmo-2003-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2003,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Combinatorics",
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(S\\) be a set of \\(n\\) points in the plane such that any two points of \\(S\\) are at least \\(1\\) unit apart. Prove that there is a subset \\(T\\) of \\(S\\) with at least \\(\\dfrac{n}{7}\\) points such that any two points of \\(T\\) are at least \\(\\sqrt{3}\\) units apart.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2003",
+    "tags": []
+  }
+]

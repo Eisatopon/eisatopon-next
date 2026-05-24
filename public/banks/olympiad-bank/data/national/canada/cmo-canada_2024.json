@@ -1,0 +1,89 @@
+[
+  {
+    "id": "cmo-2024-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2024,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(ABC\\) be a triangle with incenter \\(I\\). Suppose the reflection of \\(AB\\) across \\(CI\\) and the reflection of \\(AC\\) across \\(BI\\) intersect at a point \\(X\\). Prove that \\(XI \\perp BC\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2024",
+    "tags": []
+  },
+  {
+    "id": "cmo-2024-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2024,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Jane writes \\(2024\\) natural numbers around the perimeter of a circle. She wants the \\(2024\\) products of adjacent pairs to be exactly the set \\(\\{1!, 2!, \\ldots, 2024!\\}\\). Can she accomplish this?",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2024",
+    "tags": []
+  },
+  {
+    "id": "cmo-2024-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2024,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(N\\) be the number of \\(10\\)-digit positive integers \\(\\overline{d_9 d_8 \\cdots d_0}\\) in base \\(10\\) (with \\(d_9 > 0\\)) such that the polynomial \\(d_9 x^9 + d_8 x^8 + \\cdots + d_1 x + d_0\\) is irreducible over \\(\\mathbb{Q}\\). Prove that \\(N\\) is even.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2024",
+    "tags": []
+  },
+  {
+    "id": "cmo-2024-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2024,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Treasure is buried in one cell of an \\(M \\times N\\) grid (\\(2 \\leq M, N\\)). Each detector scans a subgrid \\([a,b] \\times [c,d]\\) and reports only whether the treasure is in that region. All \\(Q\\) detectors must be set up before any are run simultaneously. In terms of \\(M\\) and \\(N\\), what is the minimum \\(Q\\) needed to guarantee locating the treasure?",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2024",
+    "tags": []
+  },
+  {
+    "id": "cmo-2024-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2024,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Three non-collinear points \\(A\\), \\(B\\), \\(C\\) are marked on the plane. You have a pencil and a double-edged ruler of width \\(1\\). Permitted operations: mark any point; draw the line through two marked points; mark the intersection of two non-parallel lines; draw either line parallel to a given line at distance \\(1\\). Prove that it is possible to mark the orthocentre of \\(\\triangle ABC\\) using these operations.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2024",
+    "tags": []
+  }
+]

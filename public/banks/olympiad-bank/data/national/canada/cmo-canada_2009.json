@@ -1,0 +1,88 @@
+[
+  {
+    "id": "cmo-2009-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2009,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Given a \\(2 \\times n\\) grid with unit squares coloured either black or white, a black square is called stranded if there is some square to its left in the same row that is white and some square above it in the same column that is white. Find a closed formula (in terms of \\(n\\)) for the number of \\(2 \\times n\\) grids with no stranded black square.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2009",
+    "tags": []
+  },
+  {
+    "id": "cmo-2009-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2009,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Two circles of different radii are each subdivided into \\(200\\) equal sectors, with \\(100\\) sectors painted white and \\(100\\) painted black. The smaller circle is placed on top of the larger circle with centres coinciding. Show that one can rotate the small circle so that the sectors of the two circles align and at least \\(100\\) sectors of the small circle lie over sectors of the same colour on the large circle.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2009",
+    "tags": []
+  },
+  {
+    "id": "cmo-2009-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2009,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Define\n\\[f(x, y, z) = \\frac{(xy + yz + zx)(x + y + z)}{(x+y)(y+z)(z+x)}.\\]\nDetermine the set of real numbers \\(r\\) for which there exists a triplet of positive real numbers \\((x, y, z)\\) satisfying \\(f(x, y, z) = r\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2009",
+    "tags": []
+  },
+  {
+    "id": "cmo-2009-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2009,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Find all ordered pairs of integers \\((a, b)\\) such that \\(3^a + 7^b\\) is a perfect square.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2009",
+    "tags": []
+  },
+  {
+    "id": "cmo-2009-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2009,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Geometry",
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "A set of points is marked on the plane with the property that any three marked points can be covered by a disk of radius \\(1\\). Prove that the entire set of marked points can be covered by a disk of radius \\(1\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2009",
+    "tags": []
+  }
+]

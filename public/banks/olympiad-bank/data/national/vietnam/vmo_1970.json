@@ -1,0 +1,87 @@
+[
+  {
+    "id": "vmo-1970-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1970,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Prove that for any triangle \\(ABC\\): \\(\\sin\\dfrac{A}{2}\\sin\\dfrac{B}{2}\\sin\\dfrac{C}{2} < \\dfrac{1}{4}\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1970",
+    "tags": []
+  },
+  {
+    "id": "vmo-1970-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1970,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(N = 1890 \\times 1930 \\times 1970\\). Find the number of divisors of \\(N\\) which are not divisors of \\(45\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1970",
+    "tags": []
+  },
+  {
+    "id": "vmo-1970-p3",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1970,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "The function \\(f(x,y)\\) is defined for all reals \\(x, y\\), satisfies \\(f(x,0) = ax\\) (\\(a \\neq 0\\)), and if \\((c,d) \\neq (h,k)\\) with \\(f(c,d) = f(h,k)\\), then \\(f\\) is constant on the line through \\((c,d)\\) and \\((h,k)\\). Show that for any real \\(b\\), the set \\(\\{f(x,y)=b\\}\\) is a straight line and all such lines are parallel. Show that \\(f(x,y) = ax + by\\) for some constant \\(b\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1970",
+    "tags": []
+  },
+  {
+    "id": "vmo-1970-p4",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1970,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "\\(AB\\) and \\(CD\\) are perpendicular diameters of a circle. \\(L\\) is the tangent at \\(A\\). \\(M\\) is a variable point on minor arc \\(AC\\). Rays \\(BM, DM\\) meet \\(L\\) at \\(P, Q\\). Show \\(AP \\cdot AQ = AB \\cdot PQ\\). Construct \\(M\\) so that \\(BQ \\parallel DP\\). If \\(OP\\) and \\(BQ\\) meet at \\(N\\), find the locus of \\(N\\). Lines \\(BP, BQ\\) meet the tangent at \\(D\\) at \\(P', Q'\\) — find the relation between \\(P'\\) and \\(Q'\\). Lines \\(DP, DQ\\) meet \\(BC\\) at \\(P'', Q''\\) — find the relation between \\(P''\\) and \\(Q''\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1970",
+    "tags": []
+  },
+  {
+    "id": "vmo-1970-p5",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1970,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "A plane \\(p\\) passes through a vertex of a cube so that the three edges at that vertex make equal angles with \\(p\\). Find the cosine of this angle. Find the positions of the feet of perpendiculars from the vertices onto \\(p\\). Among the 28 lines through two vertices and the 20 planes through three vertices of the cube, find some relationship with \\(p\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1970",
+    "tags": []
+  }
+]

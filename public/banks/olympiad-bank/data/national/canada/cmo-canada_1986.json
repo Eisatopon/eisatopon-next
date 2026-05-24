@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cmo-1986-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1986,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "In the diagram, line segments \\(AB\\) and \\(CD\\) are of length \\(1\\), while angles \\(\\angle ABC = 90^\\circ\\) and \\(\\angle CBD = 30^\\circ\\). Find \\(AC\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1986",
+    "tags": []
+  },
+  {
+    "id": "cmo-1986-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1986,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Algebra",
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "A Mathlon is a competition with \\(M\\) athletic events. Only \\(A\\), \\(B\\), and \\(C\\) participated. In each event \\(p_1\\) points were awarded for first place, \\(p_2\\) for second, and \\(p_3\\) for third, where \\(p_1 > p_2 > p_3 > 0\\) and \\(p_1, p_2, p_3\\) are integers. The final scores were: \\(A = 22\\), \\(B = 9\\), \\(C = 9\\). \\(B\\) won the \\(100\\) metres. What is the value of \\(M\\) and who finished second in the high jump?",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1986",
+    "tags": []
+  },
+  {
+    "id": "cmo-1986-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1986,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "A chord \\(ST\\) of constant length slides around a semicircle with diameter \\(AB\\). \\(M\\) is the midpoint of \\(ST\\) and \\(P\\) is the foot of the perpendicular from \\(S\\) to \\(AB\\). Prove that \\(\\angle SPM\\) is constant for all positions of \\(ST\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1986",
+    "tags": []
+  },
+  {
+    "id": "cmo-1986-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1986,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "For all positive integers \\(n\\) and \\(k\\), define\n\\[F(n, k) = \\sum_{r=1}^{n} r^{2k-1}.\\]\nProve that \\(F(n, 1)\\) divides \\(F(n, k)\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1986",
+    "tags": []
+  },
+  {
+    "id": "cmo-1986-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 1986,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(u_1, u_2, u_3, \\ldots\\) be a sequence of integers satisfying the recurrence relation \\(u_{n+2} = u_{n+1}^2 - u_n\\). Suppose \\(u_1 = 39\\) and \\(u_2 = 45\\). Prove that \\(1986\\) divides infinitely many terms of the sequence.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 1986",
+    "tags": []
+  }
+]

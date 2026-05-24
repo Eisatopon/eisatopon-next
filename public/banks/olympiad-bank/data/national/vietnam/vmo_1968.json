@@ -1,0 +1,36 @@
+[
+  {
+    "id": "vmo-1968-p1",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1968,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(a, b\\) satisfy \\(a \\geq b > 0\\) and \\(a+b=1\\).\ni) Prove that if \\(m < n\\) are positive integers then \\(a^m - a^n \\geq b^m - b^n > 0\\).\nii) For each positive integer \\(n\\), consider \\(f_n(x) = x^2 - b^n x - a^n\\). Show that \\(f_n\\) has two roots both in \\((-1, 1)\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1968",
+    "tags": []
+  },
+  {
+    "id": "vmo-1968-p2",
+    "olympiad": "vmo",
+    "type": "national",
+    "country": "Vietnam",
+    "year": 1968,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "\\(L\\) and \\(M\\) are parallel lines distance \\(d\\) apart. Construct triangle \\(ABC\\) with \\(A\\) on \\(L\\) and \\(B, C\\) on \\(M\\), with inradius \\(r\\) and \\(\\angle A = x\\). Express angles \\(B\\) and \\(C\\) in terms of \\(d, r, x\\). If the incircle touches \\(BC\\) at \\(D\\), find the relation between \\(BD\\) and \\(DC\\).",
+    "solution": null,
+    "source": "Vietnam National Olympiad 1968",
+    "tags": []
+  }
+]

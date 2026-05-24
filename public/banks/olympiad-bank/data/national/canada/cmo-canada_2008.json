@@ -1,0 +1,87 @@
+[
+  {
+    "id": "cmo-2008-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2008,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "\\(ABCD\\) is a convex quadrilateral for which \\(AB\\) is the longest side. Points \\(M\\) and \\(N\\) are located on sides \\(AB\\) and \\(BC\\) respectively, so that each of the segments \\(AN\\) and \\(CM\\) divides the quadrilateral into two parts of equal area. Prove that the segment \\(MN\\) bisects the diagonal \\(BD\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2008",
+    "tags": []
+  },
+  {
+    "id": "cmo-2008-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2008,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Determine all functions \\(f\\) defined on the set of rational numbers that take rational values for which\n\\[f(2f(x) + f(y)) = 2x + y\\]\nfor all rational \\(x\\) and \\(y\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2008",
+    "tags": []
+  },
+  {
+    "id": "cmo-2008-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2008,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(a, b, c\\) be positive real numbers with \\(a + b + c = 1\\). Prove that\n\\[\\frac{a - bc}{a + bc} + \\frac{b - ca}{b + ca} + \\frac{c - ab}{c + ab} \\leq \\frac{3}{2}.\\]",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2008",
+    "tags": []
+  },
+  {
+    "id": "cmo-2008-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2008,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Determine all functions \\(f\\) defined on the natural numbers taking values among the natural numbers for which\n\\[(f(n))^p \\equiv n \\pmod{f(p)}\\]\nfor all \\(n \\in \\mathbb{N}\\) and all prime numbers \\(p\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2008",
+    "tags": []
+  },
+  {
+    "id": "cmo-2008-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2008,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "A self-avoiding rook walk on a chessboard is a path traced by a sequence of moves parallel to an edge of the board, such that each move begins where the previous ended and no square is crossed more than once. Let \\(R(m, n)\\) be the number of self-avoiding rook walks on an \\(m \\times n\\) board beginning at the lower-left corner and ending at the upper-left corner. Find a formula for \\(R(3, n)\\) for each natural number \\(n\\).",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2008",
+    "tags": []
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "id": "cmo-2004-p1",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2004,
+    "day": 1,
+    "problem_number": 1,
+    "topic": [
+      "Algebra"
+    ],
+    "difficulty": null,
+    "statement": "Find all ordered triples \\((x, y, z)\\) of real numbers satisfying\n\\[\\begin{cases} xy = z - x - y \\\\ xz = y - x - z \\\\ yz = x - y - z. \\end{cases}\\]",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2004",
+    "tags": []
+  },
+  {
+    "id": "cmo-2004-p2",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2004,
+    "day": 1,
+    "problem_number": 2,
+    "topic": [
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "How many ways can \\(8\\) mutually non-attacking rooks be placed on a \\(9 \\times 9\\) chessboard so that all \\(8\\) rooks are on squares of the same colour? (Two rooks attack each other if they are in the same row or column.)",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2004",
+    "tags": []
+  },
+  {
+    "id": "cmo-2004-p3",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2004,
+    "day": 1,
+    "problem_number": 3,
+    "topic": [
+      "Geometry"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(A, B, C, D\\) be four points on a circle (in clockwise order) with \\(AB < AD\\) and \\(BC > CD\\). The bisectors of angles \\(\\angle BAD\\) and \\(\\angle BCD\\) meet the circle at \\(X\\) and \\(Y\\), respectively. Consider the hexagon formed by these six points on the circle. If four of the six sides of the hexagon have equal length, prove that \\(BD\\) must be a diameter of the circle.",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2004",
+    "tags": []
+  },
+  {
+    "id": "cmo-2004-p4",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2004,
+    "day": 1,
+    "problem_number": 4,
+    "topic": [
+      "Number Theory"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(p\\) be an odd prime. Prove that\n\\[\\sum_{k=1}^{p-1} k^{2p-1} \\equiv \\frac{p(p+1)}{2} \\pmod{p^2}.\\]",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2004",
+    "tags": []
+  },
+  {
+    "id": "cmo-2004-p5",
+    "olympiad": "cmo-canada",
+    "type": "national",
+    "country": "Canada",
+    "year": 2004,
+    "day": 1,
+    "problem_number": 5,
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "difficulty": null,
+    "statement": "Let \\(T\\) be the set of all positive integer divisors of \\(2004^{100}\\). What is the largest possible number of elements of a subset \\(S\\) of \\(T\\) such that no element of \\(S\\) divides any other element of \\(S\\)?",
+    "solution": null,
+    "source": "Canadian Mathematical Olympiad 2004",
+    "tags": []
+  }
+]
