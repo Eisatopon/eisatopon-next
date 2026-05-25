@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CENTROAMERICAN_2004_P1",
+    "year": 2004,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Numbers $1,\\ldots,9$ on a board. Players $A,B$ alternate ($A$ first): choose a number, remove it and all its multiples. The player removing the last number loses. Who has a winning strategy?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2004"
+  },
+  {
+    "id": "CENTROAMERICAN_2004_P2",
+    "year": 2004,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Define $a_0=a_1=1$ and $a_k=a_{k-1}+a_{k-2}+1$ for $k\\geq 2$. How many integers in $[1,2004]$ can be expressed as $a_m+a_n$ with $m\\neq n$ positive integers?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2004"
+  },
+  {
+    "id": "CENTROAMERICAN_2004_P3",
+    "year": 2004,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, $E\\in BC$ and $F\\in CA$ with $\\frac{CE}{CB}+\\frac{CF}{CA}=1$ and $\\angle CEF=\\angle CAB$. $M$ = midpoint of $EF$; $G = CM\\cap AB$. Prove $\\triangle FEG\\sim\\triangle ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2004"
+  },
+  {
+    "id": "CENTROAMERICAN_2004_P4",
+    "year": 2004,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In a $10\\times 10$ board, 50 squares are white and 50 black. A border is a shared side between squares of different colors. Find the minimum and maximum number of borders.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2004"
+  },
+  {
+    "id": "CENTROAMERICAN_2004_P5",
+    "year": 2004,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Trapezoid $ABCD$ with $AB\\parallel CD$ and $AB+CD=AD$. $P\\in AD$ with $AP=AB$ and $PD=CD$. (a) Prove $\\angle BPC=90^\\circ$. (b) $Q$ = midpoint of $BC$; $R$ = intersection of line $AD$ with circumcircle of $\\triangle BAQ$. Show $B,P,R,C$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2004"
+  },
+  {
+    "id": "CENTROAMERICAN_2004_P6",
+    "year": 2004,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Necklaces with $q$ colors per bead: a necklace is \\textit{prime} if it cannot be decomposed into equal sub-necklaces. Prove the number of prime necklaces with $n$ beads and $q^n$ colors per bead equals $n$ times the number of prime necklaces with $n^2$ beads and $q$ colors per bead.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2004"
+  }
+]

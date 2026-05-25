@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CAPS_2023_P1",
+    "year": 2023,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Given $n\\geq 3$, find the smallest $k$ such that any two points in any $n$-gon can be connected by a polygonal path of $k$ segments contained in the $n$-gon.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2023"
+  },
+  {
+    "id": "CAPS_2023_P2",
+    "year": 2023,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Reals $a_1,\\ldots,a_n$ satisfy $na_k\\geq a_1^2+\\cdots+a_k^2$ for all $k$. Prove at least $\\frac{n}{10}$ indices $k$ satisfy $a_k\\leq 1000$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2023"
+  },
+  {
+    "id": "CAPS_2023_P3",
+    "year": 2023,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Convex quadrilateral $ABCD$ with $\\angle BAD=\\angle BCD$ and $\\angle ABC<\\angle ADC$. $M$ = midpoint of $AC$. Prove there exist $X\\in AB$, $Y\\in BC$ with $XY\\perp BD$, $MX=MY$, $\\angle XMY=\\angle ADC-\\angle ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2023"
+  },
+  {
+    "id": "CAPS_2023_P4",
+    "year": 2023,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p,q,r>0$ with $\\lfloor pn\\rfloor+\\lfloor qn\\rfloor+\\lfloor rn\\rfloor=n$ for infinitely many $n$. (a) Prove $p,q,r$ are rational. (b) Find the number of positive integers $c$ with $\\lfloor n/a\\rfloor+\\lfloor n/b\\rfloor+\\lfloor cn/202\\rfloor=n$ for infinitely many $n$ and some positive integers $a,b$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2023"
+  },
+  {
+    "id": "CAPS_2023_P5",
+    "year": 2023,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with orthocenter $H$; $D$ = foot from $A$ to $BC$; $T$ on the circle with diameter $AH$ such that this circle is internally tangent to the circumcircle of $\\triangle BDT$; $N$ = midpoint of $AH$. Prove $BT\\perp CN$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2023"
+  },
+  {
+    "id": "CAPS_2023_P6",
+    "year": 2023,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "An $n\\times n$ board (initially white). Peter walks starting from the bottom-left: on a white cell, paint it black and move up; on a black cell, paint it white and move right. Find the minimum $s$ such that after exactly $s$ walks all cells are white again.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2023"
+  }
+]

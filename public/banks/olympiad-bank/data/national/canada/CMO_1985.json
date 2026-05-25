@@ -1,0 +1,107 @@
+[
+  {
+    "id": "CMO_1985_P1",
+    "year": 1985,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "The lengths of the sides of a triangle are $6$, $8$, and $10$ units. Prove that there is exactly one straight line which simultaneously bisects the area and perimeter of the triangle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1985"
+  },
+  {
+    "id": "CMO_1985_P2",
+    "year": 1985,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove or disprove that there exists an integer which is doubled when its initial (leading) digit is transferred to the end.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1985"
+  },
+  {
+    "id": "CMO_1985_P3",
+    "year": 1985,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $P_1$ and $P_2$ be regular polygons of $1985$ sides and perimeters $x$ and $y$ respectively. Each side of $P_1$ is tangent to a given circle of circumference $c$, and this circle passes through each vertex of $P_2$. Prove that $x + y \\geq 2c$. (You may assume that $\\tan\\theta \\geq \\theta$ for $0 \\leq \\theta < \\dfrac{\\pi}{2}$.)",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1985"
+  },
+  {
+    "id": "CMO_1985_P4",
+    "year": 1985,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that $2^{n-1}$ divides $n!$ if and only if $n = 2^{k-1}$ for some positive integer $k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1985"
+  },
+  {
+    "id": "CMO_1985_P5",
+    "year": 1985,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $1 < x_1 < 2$ and, for $n = 1, 2, \\ldots$, define $x_{n+1} = 1 + x_n - \\tfrac{1}{2}x_n^2$. Prove that for $n \\geq 3$,\n$$|x_n - \\sqrt{2}| < 2^{-n}.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1985"
+  }
+]

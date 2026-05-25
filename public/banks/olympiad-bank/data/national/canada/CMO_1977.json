@@ -1,0 +1,151 @@
+[
+  {
+    "id": "CMO_1977_P1",
+    "year": 1977,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "If $f(x) = x^2 + x$, prove that the equation $4f(a) = f(b)$ has no solutions in positive integers $a$ and $b$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1977"
+  },
+  {
+    "id": "CMO_1977_P2",
+    "year": 1977,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $O$ be the centre of a circle and $A$ a fixed interior point of the circle different from $O$. Determine all points $P$ on the circumference of the circle such that the angle $\\angle OPA$ is a maximum.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1977"
+  },
+  {
+    "id": "CMO_1977_P3",
+    "year": 1977,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$N$ is an integer whose representation in base $b$ is $777$. Find the smallest integer $b$ for which $N$ is the fourth power of an integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1977"
+  },
+  {
+    "id": "CMO_1977_P4",
+    "year": 1977,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "statement": "Let\n$$p(x) = a_n x^n + a_{n-1}x^{n-1} + \\cdots + a_1 x + a_0$$\nand\n$$q(x) = b_m x^m + b_{m-1}x^{m-1} + \\cdots + b_1 x + b_0$$\nbe two polynomials with integer coefficients. Suppose that all the coefficients of the product $p(x)\\cdot q(x)$ are even but not all of them are divisible by $4$. Show that one of $p(x)$ and $q(x)$ has all even coefficients and the other has at least one odd coefficient.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1977"
+  },
+  {
+    "id": "CMO_1977_P5",
+    "year": 1977,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A right circular cone has base radius $1\\,\\text{cm}$ and slant height $3\\,\\text{cm}$. $P$ is a point on the circumference of the base and the shortest path from $P$ around the cone and back to $P$ is drawn. What is the minimum distance from the vertex $V$ to this path?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1977"
+  },
+  {
+    "id": "CMO_1977_P6",
+    "year": 1977,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $0 < u < 1$ and define\n$$u_1 = 1 + u,  u_2 = \\frac{1}{u_1} + u,  \\ldots,  u_{n+1} = \\frac{1}{u_n} + u,  n \\geq 1.$$\nShow that $u_n > 1$ for all values of $n = 1, 2, 3, \\ldots$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1977"
+  },
+  {
+    "id": "CMO_1977_P7",
+    "year": 1977,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P7",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A rectangular city is exactly $m$ blocks long and $n$ blocks wide. A woman lives in the southwest corner of the city and works in the northeast corner. She walks to work each day but, on any given trip, she makes sure that her path does not include any intersection twice. Show that the number $f(m, n)$ of different paths she can take to work satisfies $f(m, n) \\leq 2^{mn}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1977"
+  }
+]

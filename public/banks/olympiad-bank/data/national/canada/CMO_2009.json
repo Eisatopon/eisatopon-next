@@ -1,0 +1,108 @@
+[
+  {
+    "id": "CMO_2009_P1",
+    "year": 2009,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Given a $2 \\times n$ grid with unit squares coloured either black or white, a black square is called stranded if there is some square to its left in the same row that is white and some square above it in the same column that is white. Find a closed formula (in terms of $n$) for the number of $2 \\times n$ grids with no stranded black square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2009"
+  },
+  {
+    "id": "CMO_2009_P2",
+    "year": 2009,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Two circles of different radii are each subdivided into $200$ equal sectors, with $100$ sectors painted white and $100$ painted black. The smaller circle is placed on top of the larger circle with centres coinciding. Show that one can rotate the small circle so that the sectors of the two circles align and at least $100$ sectors of the small circle lie over sectors of the same colour on the large circle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2009"
+  },
+  {
+    "id": "CMO_2009_P3",
+    "year": 2009,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Define\n$$f(x, y, z) = \\frac{(xy + yz + zx)(x + y + z)}{(x+y)(y+z)(z+x)}.$$\nDetermine the set of real numbers $r$ for which there exists a triplet of positive real numbers $(x, y, z)$ satisfying $f(x, y, z) = r$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2009"
+  },
+  {
+    "id": "CMO_2009_P4",
+    "year": 2009,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all ordered pairs of integers $(a, b)$ such that $3^a + 7^b$ is a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2009"
+  },
+  {
+    "id": "CMO_2009_P5",
+    "year": 2009,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry",
+      "Combinatorics"
+    ],
+    "statement": "A set of points is marked on the plane with the property that any three marked points can be covered by a disk of radius $1$. Prove that the entire set of marked points can be covered by a disk of radius $1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2009"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CENTROAMERICAN_2023_P1",
+    "year": 2023,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Color positive integers blue or red so that the sum of any two same-colored numbers is blue. Find all valid colorings.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2023"
+  },
+  {
+    "id": "CENTROAMERICAN_2023_P2",
+    "year": 2023,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "From $k$ on the board, replace by $3k-1$, $2k+1$, or $k/2$ (if integer). Show any $n\\geq 1$ can reach $3^{2023}$ in finitely many steps.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2023"
+  },
+  {
+    "id": "CENTROAMERICAN_2023_P3",
+    "year": 2023,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Positive reals $a,b,c$ with $ab+bc+ca=1$. Show $\\sum\\dfrac{a^3}{a^2+3b^2+3ab+2bc}>\\dfrac{1}{6(a^2+b^2+c^2)^2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2023"
+  },
+  {
+    "id": "CENTROAMERICAN_2023_P4",
+    "year": 2023,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$n=\\overline{abcd}$ with $a\\neq 0$ is \\textit{guanaco} if $\\overline{ab}\\times\\overline{cd}$ is a positive divisor of $n$. Find all guanaco numbers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2023"
+  },
+  {
+    "id": "CENTROAMERICAN_2023_P5",
+    "year": 2023,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with $AB<AC$, circumcircle $\\Gamma$. $D$ = antipode of $A$ on $\\Gamma$; $\\ell$ = tangent at $D$. $P=BC\\cap\\ell$; $Q$ = second intersection of $AP$ with $\\Gamma$; $R=QD\\cap$ altitude from $A$. $S=AB\\cap\\ell$, $T=AC\\cap\\ell$. Show $S,T$ lie on the circumcircle of $\\triangle AQR$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2023"
+  },
+  {
+    "id": "CENTROAMERICAN_2023_P6",
+    "year": 2023,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n\\geq 3$ stones in a circle, labeled $1,\\ldots,n$. Toads placed on stones; a toad on stone $k$ waits $k$ minutes then jumps clockwise. Find the maximum number of toads such that no two ever occupy the same stone simultaneously.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2023"
+  }
+]

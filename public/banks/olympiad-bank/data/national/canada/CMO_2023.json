@@ -1,0 +1,109 @@
+[
+  {
+    "id": "CMO_2023_P1",
+    "year": 2023,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "William is thinking of an integer between $1$ and $50$ inclusive. Victor can choose a positive integer $m$ and ask William whether $m$ divides William's number; William answers truthfully. Victor repeats until he determines the number. What is the minimum number of questions Victor needs to guarantee this?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2023"
+  },
+  {
+    "id": "CMO_2023_P2",
+    "year": 2023,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "There are $20$ students in a class, each with exactly $3$ close friends in the class. Five students initially buy concert tickets. If any student sees that at least $2$ of their close friends have bought tickets, they also buy a ticket. Is it possible that eventually the entire class buys tickets? (Friendship is mutual.)",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2023"
+  },
+  {
+    "id": "CMO_2023_P3",
+    "year": 2023,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be an acute triangle with altitudes $AD$, $BE$, $CF$ meeting at $H$. The circle through $D$, $E$, $F$ meets $AD$, $BE$, $CF$ again at $X$, $Y$, $Z$ respectively. Prove that\n$$\\frac{AH}{DX} + \\frac{BH}{EY} + \\frac{CH}{FZ} \\geq 3.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2023"
+  },
+  {
+    "id": "CMO_2023_P4",
+    "year": 2023,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Let $f(x)$ be a non-constant polynomial with integer coefficients with $f(1) \\neq 1$. For a positive integer $n$, let $\\mathrm{divs}(n)$ be the set of positive divisors of $n$. Call a positive integer $m$ $f$-cool if there exists a positive integer $n$ with $f[\\mathrm{divs}(m)] = \\mathrm{divs}(n)$. Prove that for any such $f$, there are finitely many $f$-cool integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2023"
+  },
+  {
+    "id": "CMO_2023_P5",
+    "year": 2023,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A country with $n$ cities has two-way roads between some pairs of cities. If the country is split into two parts in any way, at most $kn$ roads go between the parts (where $k$ is a fixed positive integer). What is the largest integer $m$, in terms of $n$ and $k$, such that there is guaranteed to be a set of $m$ cities with no two directly connected by a road?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2023"
+  }
+]

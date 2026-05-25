@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CAPS_1999_P1",
+    "year": 1999,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a,b,c>0$. Prove that $\\dfrac{a}{b+2c}+\\dfrac{b}{c+2a}+\\dfrac{c}{a+2b}\\geq 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1999"
+  },
+  {
+    "id": "CAPS_1999_P2",
+    "year": 1999,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Altitudes of acute $\\triangle ABC$ through $A,B,C$ meet the opposite sides at $D,E,F$. The line through $D$ parallel to $EF$ meets $AC,AB$ at $Q,R$; line $EF$ meets $BC$ at $P$. Prove the circumcircle of $\\triangle PQR$ passes through the midpoint of $BC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1999"
+  },
+  {
+    "id": "CAPS_1999_P3",
+    "year": 1999,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find all $k$ for which there exists a set $M$ of ten real numbers with exactly $k$ pairwise non-congruent triangles whose side lengths are three (not necessarily distinct) elements of $M$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1999"
+  },
+  {
+    "id": "CAPS_1999_P4",
+    "year": 1999,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find all positive integers $k$ such that: if $F(x)$ is a polynomial with integer coefficients satisfying $0\\leq F(c)\\leq k$ for all $c\\in\\{0,1,\\ldots,k+1\\}$, then $F(0)=F(1)=\\cdots=F(k+1)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1999"
+  },
+  {
+    "id": "CAPS_1999_P5",
+    "year": 1999,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f:(1,\\infty)\\to\\mathbb{R}$ with $f(x)-f(y)=(y-x)f(xy)$ for all $x,y>1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1999"
+  },
+  {
+    "id": "CAPS_1999_P6",
+    "year": 1999,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that for any integer $n\\geq 3$, the least common multiple of $1,2,\\ldots,n$ is greater than $2^{n-1}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1999"
+  }
+]

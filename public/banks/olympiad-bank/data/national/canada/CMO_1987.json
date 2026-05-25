@@ -1,0 +1,108 @@
+[
+  {
+    "id": "CMO_1987_P1",
+    "year": 1987,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all solutions of $a^2 + b^2 = n!$ for positive integers $a, b, n$ with $a \\leq b$ and $n < 14$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1987"
+  },
+  {
+    "id": "CMO_1987_P2",
+    "year": 1987,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "The number $1987$ can be written as a three-digit number $\\overline{xyz}$ in some base $b$. If $x + y + z = 1 + 9 + 8 + 7$, determine all possible values of $x$, $y$, $z$, and $b$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1987"
+  },
+  {
+    "id": "CMO_1987_P3",
+    "year": 1987,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Suppose $ABCD$ is a parallelogram and $E$ is a point between $B$ and $C$ on segment $BC$. If the triangles $DEC$, $BED$, and $BAD$ are all isosceles, what are the possible values for angle $\\angle DAB$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1987"
+  },
+  {
+    "id": "CMO_1987_P4",
+    "year": 1987,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "On a large flat field, $n$ people are positioned so that for each person the distances to all the other people are different. Each person holds a water pistol and at a given signal fires at the person who is closest to them. When $n$ is odd, show that there is at least one person left dry. Is this always true when $n$ is even?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1987"
+  },
+  {
+    "id": "CMO_1987_P5",
+    "year": 1987,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "For every positive integer $n$, show that\n$$[\\sqrt{4n+1}] = [\\sqrt{4n+2}] = [\\sqrt{4n+3}] = [\\sqrt{n} + \\sqrt{n+1}],$$\nwhere $[x]$ denotes the greatest integer less than or equal to $x$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1987"
+  }
+]

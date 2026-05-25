@@ -1,0 +1,338 @@
+[
+  {
+    "id": "CAUCASUS_2024_P1",
+    "year": 2024,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Balls of 3 colors in two boxes. Taking 3 from box 1 guarantees a blue; taking 4 from box 2 guarantees a red; taking any 5 (from either or both) guarantees a white. Find the greatest total number of balls.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAUCASUS_2024_P2",
+    "year": 2024,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Rhombuses $ABDK$ and $CBEL$ are arranged with $B$ on segment $AC$ and $E$ on segment $BD$. $M$ = midpoint of $KL$. Prove $\\angle DME=90^\\circ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAUCASUS_2024_P3",
+    "year": 2024,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Given 10 positive integers summing to 1000, whose factorials' product is a perfect 10th power. Prove all ten numbers are equal.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAUCASUS_2024_P4",
+    "year": 2024,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Given a set $P$ of $n>100$ points (no three collinear) and $20n$ distinct segments joining pairs from $P$. Prove there is a line (not through any point in $P$) intersecting at least 200 of these segments.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAUCASUS_2024_P5",
+    "year": 2024,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Alex computes $f(n)=n^2+n+1$ for $n=1,\\ldots,100$; Marina computes $g(n)=n^2-n+1$ for the same. Who has the greater product of values, and what is the ratio?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAUCASUS_2024_P6",
+    "year": 2024,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Integers $1$ to $320000$ fill an $8\\times 40000$ board. Prove the rows can be permuted so that no column is sorted in increasing order.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAUCASUS_2024_P7",
+    "year": 2024,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P7",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Positive numbers $a_1,\\ldots,a_{2024}$ are placed on a circle clockwise. Let $A_i$ be the arithmetic mean of $a_i$ and one or more following numbers clockwise. Prove $\\max\\{A_1,\\ldots,A_{2024}\\}\\geq$ the arithmetic mean of all $a_i$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAUCASUS_2024_P8",
+    "year": 2024,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P8",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two equal circles of radius 1 inside $\\triangle ABC$ ($BC=6$) are tangent to each other, one inscribed in angle $B$, the other in angle $C$. (a) Prove the centroid $M$ is not inside either circle. (b) Prove if $M$ is on one circle, then $\\triangle ABC$ is isosceles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAUCASUS_2024_P9",
+    "year": 2024,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P9",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a,b,c,d>0$. At least one of: $ab>\\min(c/d,d/c)$ and $cd>\\min(a/b,b/a)$ holds. Show at least one of: $bd>\\min(c/a,a/c)$ and $ca>\\min(d/b,b/d)$ holds.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAUCASUS_2024_P10",
+    "year": 2024,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P10",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with angle bisector $BL$ and altitude $BK$. $BL$ meets circumcircle at $W$; $BK$ meets it at $T$. Given $BC=BW$, prove $TL\\perp BC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAUCASUS_2024_P11",
+    "year": 2024,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P11",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$n$ is a $d$-digit positive integer not divisible by 10; $n'$ is $n$ reversed. Can $n\\cdot n'$ consist of only 8s? (a) $d=9998$? (b) $d=9999$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAUCASUS_2024_P12",
+    "year": 2024,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P12",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Yasha writes $1$ to $99^2$ in a $99\\times99$ table. Grisha selects non-adjacent cells and sums them. Find the largest sum Grisha can guarantee.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAUCASUS_2024_P13",
+    "year": 2024,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P13",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Three lines $y=ax+b$, $y=bx+c$, $y=cx+a$. Two meet at a point with $x$-coordinate 1. Show the third passes through a lattice point.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAUCASUS_2024_P14",
+    "year": 2024,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P14",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A permutation of $1,\\ldots,2024$ and positive integers $a,b$: for any two adjacent numbers, their sum is $a$ or their absolute difference is $b$. Find all possible values of $b$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAUCASUS_2024_P15",
+    "year": 2024,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P15",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the largest $n$ such that there exists a finite set $A$ of $n$ reals where any two distinct elements have a third such that the mean of two equals the third.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAUCASUS_2024_P16",
+    "year": 2024,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P16",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with variable $X\\in AC$. Incircle of $\\triangle ABX$ touches $AX,BX$ at $K,P$; incircle of $\\triangle BCX$ touches $CX,BX$ at $L,Q$. Find the locus of $KP\\cap LQ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2024"
+  }
+]

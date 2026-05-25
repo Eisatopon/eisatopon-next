@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CENTROAMERICAN_2001_P1",
+    "year": 2001,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Two players $A$, $B$ and 2001 others sit in a circle ($A,B$ not adjacent). They alternate (starting with $A$): touch a neighbor, who leaves the circle. The last person standing wins. Show one player has a winning strategy and find it.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2001"
+  },
+  {
+    "id": "CENTROAMERICAN_2001_P2",
+    "year": 2001,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $AB$ be a diameter of a circle with center $O$ and radius 1. $C,D$ on the circle with $AC\\cap BD=Q$ inside, $\\angle AQB=2\\angle COD$. Tangents at $C,D$ meet at $P$. Find the length of $OP$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2001"
+  },
+  {
+    "id": "CENTROAMERICAN_2001_P3",
+    "year": 2001,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all real numbers $N$ satisfying: (1) exactly two distinct digits of $N$ are nonzero, one of which is 3; (2) $N$ is a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2001"
+  },
+  {
+    "id": "CENTROAMERICAN_2001_P4",
+    "year": 2001,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the smallest positive integer $n$ such that there exist positive integers $a_1,\\ldots,a_n\\leq 15$ (not necessarily distinct) with last four digits of $a_1!+\\cdots+a_n!$ equal to 2001.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2001"
+  },
+  {
+    "id": "CENTROAMERICAN_2001_P5",
+    "year": 2001,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a,b,c$ be reals with $ax^2+bx+c=0$ having roots $p_1,p_2$ and $cx^2+bx+a=0$ having roots $q_1,q_2$. If $p_1,q_1,p_2,q_2$ form an arithmetic progression, show $a+c=0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2001"
+  },
+  {
+    "id": "CENTROAMERICAN_2001_P6",
+    "year": 2001,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "10000 points are numbered $1$ to $10000$ on a circle. 5000 segments are drawn so each point is in exactly one segment and each segment crosses exactly one other. Assign each segment the product of its endpoints. Show the sum of all 5000 products is divisible by 4.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2001"
+  }
+]

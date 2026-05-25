@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CENTROAMERICAN_2012_P1",
+    "year": 2012,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers equal to 700 times the sum of their digits.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2012"
+  },
+  {
+    "id": "CENTROAMERICAN_2012_P2",
+    "year": 2012,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\gamma$ = circumcircle of acute $\\triangle ABC$; $P$ = midpoint of minor arc $BC$. Line through $P$ parallel to $AB$ meets $BC,AC,\\gamma$ at $R,S,T$. $K=AP\\cap BT$, $L=BS\\cap AR$. Show $KL$ passes through the midpoint of $AB$ iff $CS=PR$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2012"
+  },
+  {
+    "id": "CENTROAMERICAN_2012_P3",
+    "year": 2012,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Reals $a,b,c$ with $\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{a+c}=1$ and $ab+bc+ca>0$. Show $a+b+c-\\dfrac{abc}{ab+bc+ca}\\geq 4$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2012"
+  },
+  {
+    "id": "CENTROAMERICAN_2012_P4",
+    "year": 2012,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Equilateral triangle city of side 2012, divided into 1-cm equilateral triangles. 6036 streets total. Find the minimum number of sentinel sites (placed at intersections) to monitor every street.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2012"
+  },
+  {
+    "id": "CENTROAMERICAN_2012_P5",
+    "year": 2012,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Alexander and Louise: Louise steals $\\frac{1}{3}$ of Alexander's money each morning, then gives him $\\frac{1}{2}$ of all her money in the afternoon. Louise starts with no money. What is the minimum initial integer amount Alexander must have so both have integers after day 2012?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2012"
+  },
+  {
+    "id": "CENTROAMERICAN_2012_P6",
+    "year": 2012,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with $AB<BC$; $E\\in AC$, $F\\in AB$ with $BF=BC=CE$. $G=BE\\cap CF$. $H$ on the line through $G$ parallel to $AC$ with $HG=AF$ ($H,C$ on opposite sides of $BG$). Show $\\angle EHG=\\dfrac{\\angle BAC}{2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2012"
+  }
+]

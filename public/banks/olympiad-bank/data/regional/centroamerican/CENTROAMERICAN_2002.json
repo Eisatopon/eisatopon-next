@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CENTROAMERICAN_2002_P1",
+    "year": 2002,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For which integers $n\\geq 3$ can $1,2,\\ldots,n$ be arranged in a circle so that every number divides the sum of the next two (clockwise)?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2002"
+  },
+  {
+    "id": "CENTROAMERICAN_2002_P2",
+    "year": 2002,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with $D,E$ feet of altitudes from $A,B$. If $[BDE]\\leq[DEA]\\leq[EAB]\\leq[ABD]$, prove the triangle is isosceles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2002"
+  },
+  {
+    "id": "CENTROAMERICAN_2002_P3",
+    "year": 2002,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For every $a>1$, construct $L(a)$: $a$ is first, and each next term is $b+c$ where $c$ is the largest proper divisor of $b$. Find all $a>1$ for which 2002 appears in $L(a)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2002"
+  },
+  {
+    "id": "CENTROAMERICAN_2002_P4",
+    "year": 2002,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, $D$ = midpoint of $BC$, $E\\in AC$ with $BE=2AD$, $F=AD\\cap BE$. If $\\angle DAC=60^\\circ$, find $\\angle FEA$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2002"
+  },
+  {
+    "id": "CENTROAMERICAN_2002_P5",
+    "year": 2002,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find an infinite set $S$ of positive integers such that for every $n\\geq 1$ and any $n$ distinct elements $x_1,\\ldots,x_n$ of $S$, the sum $x_1+\\cdots+x_n$ is not a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2002"
+  },
+  {
+    "id": "CENTROAMERICAN_2002_P6",
+    "year": 2002,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A lattice path from $(0,0)$ to $(n,n)$ using unit moves up or right is \\textit{balanced} if the sum of $x$-coordinates of its vertices equals the sum of $y$-coordinates. Show a balanced path divides the $n\\times n$ square into two equal-area parts.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2002"
+  }
+]

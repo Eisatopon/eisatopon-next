@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CAPS_1996_P1",
+    "year": 1996,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show that an integer $p>3$ is prime if and only if for every two nonzero integers $a,b$, exactly one of $N_1=a+b-6ab+\\frac{p-1}{6}$ and $N_2=a+b+6ab+\\frac{p-1}{6}$ is a nonzero integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1996"
+  },
+  {
+    "id": "CAPS_1996_P2",
+    "year": 1996,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $\\ast$ be a binary operation on a nonempty set $M$ such that $(a\\ast b)\\ast b=a$ and $a\\ast(a\\ast b)=b$ for all $a,b\\in M$. (a) Show $a\\ast b=b\\ast a$. (b) On which finite sets $M$ does such a binary operation exist?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1996"
+  },
+  {
+    "id": "CAPS_1996_P3",
+    "year": 1996,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A regular quadrilateral pyramid $\\pi$ has square base side $2a$ and lateral edge $a\\sqrt{17}$. For each interior point $M$, consider the five pyramids similar to $\\pi$ with apex $M$ and bases in the planes of $\\pi$'s faces. Show their total surface area is $\\geq$ one-fifth the surface of $\\pi$, with equality iff $M$ is the center.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1996"
+  },
+  {
+    "id": "CAPS_1996_P4",
+    "year": 1996,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Does there exist $f:\\mathbb{Z}\\to\\mathbb{Z}$ such that for each $k=0,1,\\ldots,1996$ and any integer $m$, the equation $f(x)+kx=m$ has at least one integer solution $x$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1996"
+  },
+  {
+    "id": "CAPS_1996_P5",
+    "year": 1996,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Two sets of intervals $A,B$ on a line: $A$ has $2m-1$ intervals, any two sharing an interior point, and each contains $\\geq 2$ disjoint intervals from $B$. Show some interval in $B$ is contained in $\\geq m$ intervals from $A$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1996"
+  },
+  {
+    "id": "CAPS_1996_P6",
+    "year": 1996,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Points $E,D$ lie in the interior of sides $AC,BC$ of $\\triangle ABC$. Let $F=AD\\cap BE$. Show $\\dfrac{S_{ABC}}{S_{ABF}}=\\dfrac{|AC|}{|AE|}+\\dfrac{|BC|}{|BD|}-1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1996"
+  }
+]

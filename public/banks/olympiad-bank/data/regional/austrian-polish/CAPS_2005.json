@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CAPS_2005_P1",
+    "year": 2005,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Given $n\\in\\mathbb{N}$, solve in nonneg­ative reals the system $x_1+x_2^2+x_3^3+\\cdots+x_n^n=n$ and $x_1+2x_2+3x_3+\\cdots+nx_n=\\frac{n(n+1)}{2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2005"
+  },
+  {
+    "id": "CAPS_2005_P2",
+    "year": 2005,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Convex quadrilateral $ABCD$ is inscribed in a circle with center $O$ and circumscribed about a circle with center $I$. Its diagonals meet at $P$. Prove $O$, $I$, $P$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2005"
+  },
+  {
+    "id": "CAPS_2005_P3",
+    "year": 2005,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $n\\geq 3$ for which $W(x)=x^n-3x^{n-1}+2x^{n-2}+6$ factors as a product of two nonconstant polynomials with integer coefficients.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2005"
+  },
+  {
+    "id": "CAPS_2005_P4",
+    "year": 2005,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Distribute $n\\geq 1$ labeled balls among nine persons $A,\\ldots,I$. How many ways give $A$ the same number of balls as $B,C,D,E$ together?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2005"
+  },
+  {
+    "id": "CAPS_2005_P5",
+    "year": 2005,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Find the locus of interior points $P$ of convex quadrilateral $ABCD$ satisfying $[PAB]\\cdot[PCD]=[PBC]\\cdot[PDA]$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2005"
+  },
+  {
+    "id": "CAPS_2005_P6",
+    "year": 2005,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integer pairs $(x,y)$ with $y(x+y)=x^3-7x^2+11x-3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2005"
+  }
+]

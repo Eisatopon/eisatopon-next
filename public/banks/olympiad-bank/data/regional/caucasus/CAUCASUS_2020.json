@@ -1,0 +1,338 @@
+[
+  {
+    "id": "CAUCASUS_2020_P1",
+    "year": 2020,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A witch uses magic nuts (flea$\\to$beetle or spider$\\to$bug) and acorns (flea$\\to$spider or beetle$\\to$bug). She spent 20 nuts and 23 acorns; the beetle count increased by 5. Find all possible changes in the spider count.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2020"
+  },
+  {
+    "id": "CAUCASUS_2020_P2",
+    "year": 2020,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two non-intersecting circles $\\omega_1,\\omega_2$: an internal tangent touches them at $A_1,A_2$; an external tangent touches them at $B_1,B_2$. If $A_1B_2=A_2B_1$, prove $A_1B_2\\perp A_2B_1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2020"
+  },
+  {
+    "id": "CAUCASUS_2020_P3",
+    "year": 2020,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a_1=18$ and $a_n=a_{n-1}^2+6a_{n-1}$ for $n>1$. Prove the sequence contains no perfect powers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2020"
+  },
+  {
+    "id": "CAUCASUS_2020_P4",
+    "year": 2020,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Pasha and Vova play on an $n\\times k$ board ($n,k>1$). They alternate placing length-1 borders between adjacent cells. The loser is the first to disconnect the bottom-left cell from the top-right. Who wins?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2020"
+  },
+  {
+    "id": "CAUCASUS_2020_P5",
+    "year": 2020,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the number of pairs of positive integers $(a,b)$ with $a\\leq 100000$, $b\\leq 100000$, and $\\dfrac{a^3-b}{a^3+b}=\\dfrac{b^2-a^2}{b^2+a^2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2020"
+  },
+  {
+    "id": "CAUCASUS_2020_P6",
+    "year": 2020,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "All vertices of a regular 100-gon are colored with 10 colors. Prove there exist 4 vertices forming a rectangle colored with at most 2 colors.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2020"
+  },
+  {
+    "id": "CAUCASUS_2020_P7",
+    "year": 2020,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In equilateral $\\triangle ABC$, points $K,N\\in AB$, $L\\in AC$, $M\\in BC$ satisfy $CL=AK$, $CM=BN$, $ML=KN$. Prove $KL\\parallel MN$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2020"
+  },
+  {
+    "id": "CAUCASUS_2020_P8",
+    "year": 2020,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P8",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Real $a,b,c$ satisfy $abc+a+b+c=ab+bc+ca+5$. Find the minimum of $a^2+b^2+c^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2020"
+  },
+  {
+    "id": "CAUCASUS_2020_P9",
+    "year": 2020,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P9",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Does there exist a finite set $A$ of positive integers such that for each $a\\in A$, at least one of $2a$ and $a^3$ is also in $A$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2020"
+  },
+  {
+    "id": "CAUCASUS_2020_P10",
+    "year": 2020,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P10",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two non-intersecting circles: internal tangent touches at $A_1,A_2$; external tangent touches at $B_1,B_2$. If $A_1B_2\\perp A_2B_1$, prove $A_1B_2=A_2B_1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2020"
+  },
+  {
+    "id": "CAUCASUS_2020_P11",
+    "year": 2020,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P11",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Peter and Basil play on a $1\\times 2019$ board. Peter writes $n$ positive integers. Basil places a coin; at each step Peter announces a number $s$ and Basil shifts the coin left or right by $s$ (if possible). Find the minimum $n$ for Peter to guarantee visiting all cells.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2020"
+  },
+  {
+    "id": "CAUCASUS_2020_P12",
+    "year": 2020,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P12",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f:\\mathbb{N}\\to\\mathbb{N}$ such that $f(n)\\mid f(m)+n-m$ for all positive integers $m,n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2020"
+  },
+  {
+    "id": "CAUCASUS_2020_P13",
+    "year": 2020,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P13",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "(Same as Juniors P5.)",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2020"
+  },
+  {
+    "id": "CAUCASUS_2020_P14",
+    "year": 2020,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P14",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Morteza arranges 6 pairwise distinct reals on a circle so that for each 3 consecutive numbers, either their sum equals $S$ or their product equals $P$. Can he do this?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2020"
+  },
+  {
+    "id": "CAUCASUS_2020_P15",
+    "year": 2020,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P15",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with $AB\\neq AC$, $M$ = midpoint of $AB$, $K$ = midpoint of arc $BAC$ on circumcircle, $P$ = intersection of the perpendicular bisector of $AC$ with the angle bisector of $\\angle BAC$. Prove $A,M,K,P$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2020"
+  },
+  {
+    "id": "CAUCASUS_2020_P16",
+    "year": 2020,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P16",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Peter writes 100 distinct integers. Basil fills a $100\\times 100$ table so that every $1\\times 3$ or $3\\times 1$ rectangle's sum is one of Peter's numbers. Find the greatest $n$ such that Basil can always include each of $1,\\ldots,n$ at least once.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2020"
+  }
+]

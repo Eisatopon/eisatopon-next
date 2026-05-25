@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CENTROAMERICAN_2014_P1",
+    "year": 2014,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A positive integer is \\textit{tico} if it is the product of three distinct primes summing to 74. Verify 2014 is tico. Find the next tico year and the last tico year ever.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2014"
+  },
+  {
+    "id": "CENTROAMERICAN_2014_P2",
+    "year": 2014,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Cyclic trapezoid $ABCD$ with $AB\\parallel CD$, center $O$; $P=BC\\cap AD$. Circle through $O,P$ meets $BC,AD$ at interior points $F,G$. Show $BF=DG$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2014"
+  },
+  {
+    "id": "CENTROAMERICAN_2014_P3",
+    "year": 2014,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Real $a,b,c,d$ with no two equal, $\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{d}+\\frac{d}{a}=4$, and $ac=bd$. Find the maximum of $\\frac{a}{c}+\\frac{b}{d}+\\frac{c}{a}+\\frac{d}{b}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2014"
+  },
+  {
+    "id": "CENTROAMERICAN_2014_P4",
+    "year": 2014,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A stair figure is built in stages: stage 1 has 1 square, stage 2 has 5, etc. (each stage $k$ has $\\frac{k^2+k}{2}\\cdot 2-1$ or similar). Find the last stage with fewer than 2014 squares.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2014"
+  },
+  {
+    "id": "CENTROAMERICAN_2014_P5",
+    "year": 2014,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Points $A,B,C,D$ on a line in order with $AB,CD>BC$. Equilateral triangles $APB$, $BCQ$, $CDR$ on the same side of $AD$ with $\\angle PQR=120^\\circ$. Show $\\dfrac{1}{AB}+\\dfrac{1}{CD}=\\dfrac{1}{BC}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2014"
+  },
+  {
+    "id": "CENTROAMERICAN_2014_P6",
+    "year": 2014,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$n$ is \\textit{funny} if for every positive divisor $d$ of $n$, $d+2$ is prime. Find all funny numbers with the largest possible number of divisors.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2014"
+  }
+]
