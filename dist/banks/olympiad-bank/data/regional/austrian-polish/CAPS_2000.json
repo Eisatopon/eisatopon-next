@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CAPS_2000_P1",
+    "year": 2000,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Positive reals $a,b,c$ satisfy $5abc>a^3+b^3+c^3$. Prove $a,b,c$ can form a triangle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2000"
+  },
+  {
+    "id": "CAPS_2000_P2",
+    "year": 2000,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\triangle ABC$ have incircle $k$ and excircles $k_a,k_b,k_c$ opposite $A,B,C$. Circles $k_a,k_b$ orthogonal to $k$ passing through $B,C$ and $A,C$ meet again at $C'$; define $B',A'$ similarly. Prove the circumradius of $\\triangle A'B'C'$ equals half the inradius of $\\triangle ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2000"
+  },
+  {
+    "id": "CAPS_2000_P3",
+    "year": 2000,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n$ be a positive integer. Prove $n$ is a power of two iff there exists $m$ with $2n-1\\mid m^2+9$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2000"
+  },
+  {
+    "id": "CAPS_2000_P4",
+    "year": 2000,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $P(x)$ be a polynomial with integer coefficients. Prove $Q(x)=P(x^4)P(x^3)P(x^2)P(x)+1$ has no integer roots.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2000"
+  },
+  {
+    "id": "CAPS_2000_P5",
+    "year": 2000,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Isosceles trapezoid $ABCD$ with bases $AB,CD$. The incircle of $\\triangle BCD$ touches $CD$ at $E$. Point $F$ on the angle bisector of $\\angle DAC$ with $EF\\perp CD$. The circumcircle of $\\triangle ACF$ meets $CD$ again at $G$. Prove $\\triangle AFG$ is isosceles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2000"
+  },
+  {
+    "id": "CAPS_2000_P6",
+    "year": 2000,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Every integer is colored with one of four colors: red, blue, green, yellow. Let $x,y$ be odd integers with $|x|\\neq|y|$. Show there are two integers of the same color whose difference is one of $x,y,x+y,x-y$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2000"
+  }
+]

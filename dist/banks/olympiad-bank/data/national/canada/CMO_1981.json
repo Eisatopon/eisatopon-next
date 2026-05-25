@@ -1,0 +1,109 @@
+[
+  {
+    "id": "CMO_1981_P1",
+    "year": 1981,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "For any real number $t$, denote by $[t]$ the greatest integer less than or equal to $t$. Show that the equation\n$$[x] + [2x] + [4x] + [8x] + [16x] + [32x] = 12345$$\nhas no real solution.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1981"
+  },
+  {
+    "id": "CMO_1981_P2",
+    "year": 1981,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given a circle of radius $r$ and a tangent line $\\ell$ to the circle through a given point $P$ on the circle. From a variable point $R$ on the circle, a perpendicular $RQ$ is drawn to $\\ell$ with $Q$ on $\\ell$. Determine the maximum area of triangle $PQR$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1981"
+  },
+  {
+    "id": "CMO_1981_P3",
+    "year": 1981,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics",
+      "Geometry"
+    ],
+    "statement": "Given a finite collection of lines in a plane $P$, show that it is possible to draw an arbitrarily large circle in $P$ which does not meet any of them. On the other hand, show that it is possible to arrange a countably infinite sequence of lines in $P$ so that every circle in $P$ meets at least one of the lines.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1981"
+  },
+  {
+    "id": "CMO_1981_P4",
+    "year": 1981,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "$P(x)$ and $Q(x)$ are two polynomials such that $P(x) = Q(x)$ has no real solution, and $P(Q(x)) \\equiv Q(P(x))$ for all $x \\in \\mathbb{R}$. Prove that $P(P(x)) = Q(Q(x))$ has no real solution.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1981"
+  },
+  {
+    "id": "CMO_1981_P5",
+    "year": 1981,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Eleven theatrical groups participated in a festival. Each day, some of the groups were scheduled to perform while the remaining groups joined the general audience. At the conclusion of the festival, each group had seen, during its days off, at least one performance of every other group. What is the minimum number of days the festival could have lasted?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1981"
+  }
+]

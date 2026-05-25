@@ -1,0 +1,109 @@
+[
+  {
+    "id": "CMO_2002_P1",
+    "year": 2002,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "Let $S$ be a subset of $\\{1, 2, \\ldots, 9\\}$ such that the sums formed by adding each unordered pair of distinct numbers from $S$ are all different. What is the maximum number of elements that $S$ can contain?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2002"
+  },
+  {
+    "id": "CMO_2002_P2",
+    "year": 2002,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Call a positive integer $n$ practical if every positive integer less than or equal to $n$ can be written as the sum of distinct divisors of $n$. Prove that the product of two practical numbers is also practical.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2002"
+  },
+  {
+    "id": "CMO_2002_P3",
+    "year": 2002,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that for all positive real numbers $a$, $b$, and $c$,\n$$\\frac{a^3}{bc} + \\frac{b^3}{ca} + \\frac{c^3}{ab} \\geq a + b + c,$$\nand determine when equality occurs.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2002"
+  },
+  {
+    "id": "CMO_2002_P4",
+    "year": 2002,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\Gamma$ be a circle with radius $r$. Let $A$ and $B$ be distinct points on $\\Gamma$ such that $AB < \\sqrt{3}\\,r$. Let the circle with centre $B$ and radius $AB$ meet $\\Gamma$ again at $C$. Let $P$ be the point inside $\\Gamma$ such that triangle $ABP$ is equilateral. Let the line $CP$ meet $\\Gamma$ again at $Q$. Prove that $PQ = r$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2002"
+  },
+  {
+    "id": "CMO_2002_P5",
+    "year": 2002,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "statement": "Let $\\mathbb{N} = \\{0, 1, 2, \\ldots\\}$. Determine all functions $f : \\mathbb{N} \\to \\mathbb{N}$ such that\n$$xf(y) + yf(x) = (x + y)f(x^2 + y^2)$$\nfor all $x, y \\in \\mathbb{N}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2002"
+  }
+]

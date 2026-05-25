@@ -234,10 +234,17 @@ export default async function Home() {
           <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent" />
           <div className="absolute inset-0 flex flex-col justify-end p-5 sm:p-8 lg:p-10">
             {heroArticle.category && (
-              <div className="flex gap-2 mb-3 flex-wrap">
-                <span className="bg-gold/90 text-black px-2.5 py-0.5 rounded text-[0.6rem] font-semibold tracking-wide uppercase">Featured</span>
-                <span className="border border-gold/60 text-gold px-2.5 py-0.5 rounded text-[0.6rem] font-semibold tracking-wide uppercase">{heroArticle.category}</span>
-              </div>
+              <div className="flex gap-2 mb-4 flex-wrap">
+
+  <span className="inline-flex items-center px-3 py-1 rounded-full border border-[#d4af37]/30 bg-[#d4af37]/12 backdrop-blur-sm text-[#f4d46b] text-[0.72rem] font-semibold tracking-[0.18em] uppercase shadow-[0_0_18px_rgba(212,175,55,0.12)]">
+    Featured
+  </span>
+
+  <span className="inline-flex items-center px-3 py-1 rounded-full border border-white/10 bg-black/25 backdrop-blur-sm text-[#d8c27a] text-[0.72rem] font-semibold tracking-[0.18em] uppercase">
+    {heroArticle.category}
+  </span>
+
+</div>
             )}
             <h1 className="font-playfair font-semibold text-[clamp(1.3rem,4vw,2.2rem)] leading-tight max-w-3xl text-ink-primary drop-shadow-lg mb-2 group-hover:text-gold transition-colors duration-300">
               {heroArticle.title}
@@ -292,14 +299,17 @@ export default async function Home() {
             </div>
           )}
 
-          {/* ── Reminder link ── */}
-          <OlympiadReminder />
+         {/* ── Reminder link ── */} 
+<OlympiadReminder />
 
-          <Pagination
-            currentPage={1}
-            totalPages={Math.ceil((articles.length - 1) / 8) + 1}
-          />
-        </section>
+</section>
+
+<div className="lg:col-span-2 flex justify-center pt-16">
+  <Pagination
+    currentPage={1}
+    totalPages={Math.ceil((articles.length - 1) / 8) + 1}
+  />
+</div>
 
         {/* SIDEBAR */}
         <aside className="flex flex-col gap-7">

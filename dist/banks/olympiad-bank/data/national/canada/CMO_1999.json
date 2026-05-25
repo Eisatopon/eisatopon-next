@@ -1,0 +1,109 @@
+[
+  {
+    "id": "CMO_1999_P1",
+    "year": 1999,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Find all real solutions to the equation $4x^2 - 40\\lfloor x \\rfloor + 51 = 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1999"
+  },
+  {
+    "id": "CMO_1999_P2",
+    "year": 1999,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be an equilateral triangle of altitude $1$. A circle with radius $1$ and center on the same side of $AB$ as $C$ rolls along the segment $AB$. Prove that the arc of the circle that lies inside the triangle always has the same length.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1999"
+  },
+  {
+    "id": "CMO_1999_P3",
+    "year": 1999,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine all positive integers $n$ with the property that $n = (d(n))^2$, where $d(n)$ denotes the number of positive divisors of $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1999"
+  },
+  {
+    "id": "CMO_1999_P4",
+    "year": 1999,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "Suppose $a_1, a_2, \\ldots, a_8$ are eight distinct integers from $\\{1, 2, \\ldots, 16, 17\\}$. Show that there is an integer $k > 0$ such that the equation $a_i - a_j = k$ has at least three different solutions.\n\nAlso, find a specific set of $7$ distinct integers from $\\{1, 2, \\ldots, 16, 17\\}$ such that the equation $a_i - a_j = k$ does not have three distinct solutions for any $k > 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1999"
+  },
+  {
+    "id": "CMO_1999_P5",
+    "year": 1999,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $x$, $y$, and $z$ be non-negative real numbers satisfying $x + y + z = 1$. Show that\n$$x^2 y + y^2 z + z^2 x \\leq \\frac{4}{27}$$\nand find when equality occurs.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1999"
+  }
+]

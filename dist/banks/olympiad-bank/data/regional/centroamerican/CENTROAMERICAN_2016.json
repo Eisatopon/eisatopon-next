@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CENTROAMERICAN_2016_P1",
+    "year": 2016,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all 4-digit positive integers with all digits perfect squares, divisible by $2,3,5,7$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2016"
+  },
+  {
+    "id": "CENTROAMERICAN_2016_P2",
+    "year": 2016,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with circumcircle $\\Gamma$, $M$ = midpoint of $BC$. $N$ on arc $BC$ (not containing $A$) with $\\angle NAC=\\angle BAM$. $R,S$ = midpoints of $AM,AN$; $T$ = foot of altitude from $A$. Prove $R,S,T$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2016"
+  },
+  {
+    "id": "CENTROAMERICAN_2016_P3",
+    "year": 2016,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "$Q(x)=x^3-21x+35$ has three real roots. Find $a,b$ such that $P(x)=x^2+ax+b$ cyclically permutes the roots: if $r,s,t$ are roots of $Q$ then $P(r)=s,P(s)=t,P(t)=r$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2016"
+  },
+  {
+    "id": "CENTROAMERICAN_2016_P4",
+    "year": 2016,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Board starts with 3. Players alternate (Ana first): replace $n$ with an integer $m$ coprime to $n$ with $n<m<n^2$. First to reach $\\geq 2016$ loses. Who wins?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2016"
+  },
+  {
+    "id": "CENTROAMERICAN_2016_P5",
+    "year": 2016,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Call $\\frac{1}{1+\\frac{1}{k}}$ \\textit{irie} for positive integer $k$. Prove every $n\\geq 2$ can be written as a product of $r$ distinct irie numbers for every integer $r\\geq n-1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2016"
+  },
+  {
+    "id": "CENTROAMERICAN_2016_P6",
+    "year": 2016,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with incenter $I$, circumcircle $\\Gamma$; $M=BI\\cap\\Gamma$, $N=CI\\cap\\Gamma$. Line through $I$ parallel to $MN$ meets $AB,AC$ at $P,Q$. Prove the circumradii of $\\triangle BNP$ and $\\triangle CMQ$ are equal.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2016"
+  }
+]

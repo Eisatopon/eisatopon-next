@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CAPS_2011_P1",
+    "year": 2011,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a,b,c>0$ with $a^2<bc$. Prove $b^3+ac^2>ab(a+c)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2011"
+  },
+  {
+    "id": "CAPS_2011_P2",
+    "year": 2011,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n$ nonneg­ative integers with gcd 1 on a board. A move: erase $x\\geq y$, replace with $x-y$ and $2y$. Determine for which initial tuples it is possible to reach a state where $n-1$ of the numbers are zero.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2011"
+  },
+  {
+    "id": "CAPS_2011_P3",
+    "year": 2011,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Points $A,B,C,D$ on a circle with arc $AB$ (containing $D,C$) twice the arc $CD$ (not containing $A,B$). $E$ with $AC=AE$ and $BD=BE$. If the perpendicular from $E$ to $AB$ passes through the center of arc $CD$ (not containing $A,B$), prove $\\angle ACB=108^\\circ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2011"
+  },
+  {
+    "id": "CAPS_2011_P4",
+    "year": 2011,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A polynomial $P(x)$ with integer coefficients: if $P(Q(x))=F(x)\\cdot G(x)$ for integer-coefficient polynomials, then $F$ or $G$ is constant. Prove $P$ is constant.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2011"
+  },
+  {
+    "id": "CAPS_2011_P5",
+    "year": 2011,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Convex quadrilateral $ABCD$ with $M,N$ midpoints of $AD,BC$. Points $K\\in AB$, $L\\in CD$ with $\\angle MKA=\\angle NLC$. Prove: if $BD$, $KM$, $LN$ are concurrent, then $\\angle KMN=\\angle BDC$ and $\\angle LNM=\\angle ABD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2011"
+  },
+  {
+    "id": "CAPS_2011_P6",
+    "year": 2011,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a$ be any integer. Prove there are infinitely many primes $p$ with $p\\mid n^2+3$ and $p\\mid m^3-a$ for some integers $n,m$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2011"
+  }
+]

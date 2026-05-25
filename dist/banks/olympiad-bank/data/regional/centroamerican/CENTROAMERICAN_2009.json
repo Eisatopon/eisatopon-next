@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CENTROAMERICAN_2009_P1",
+    "year": 2009,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $P(n)$ be the product of all nonzero digits of positive integer $n$. Compute $P(1)+P(2)+\\cdots+P(2009)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2009"
+  },
+  {
+    "id": "CENTROAMERICAN_2009_P2",
+    "year": 2009,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Circles $\\Gamma_1,\\Gamma_2$ intersect at $A,B$. Circle $\\Gamma$ inside both, tangent to $\\Gamma_1$ at $D$ and $\\Gamma_2$ at $E$. $C$ = intersection of line $AB$ with $\\Gamma$; $F=EC\\cap\\Gamma_2$; $G=DC\\cap\\Gamma_1$; $H,I$ = intersections of $DE$ with $\\Gamma_1,\\Gamma_2$. Prove $F,G,H,I$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2009"
+  },
+  {
+    "id": "CENTROAMERICAN_2009_P3",
+    "year": 2009,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "2009 boxes numbered $1,\\ldots,2009$; some have stones. Players alternate (A first): choose nonempty box $i$, take $\\geq 1$ stones and put them in box $i+1$ (if $i=2009$, stones are eliminated). Last to remove wins. (a) Start: 2009 stones in box 2. (b) Start: 1 stone in each box. Find winning strategies.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2009"
+  },
+  {
+    "id": "CENTROAMERICAN_2009_P4",
+    "year": 2009,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Place $1,\\ldots,2009$ around a circle so absolute differences of neighbors are all distinct. (a) Is this possible with $1,\\ldots,2009$? (b) Is it possible if one number is removed?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2009"
+  },
+  {
+    "id": "CENTROAMERICAN_2009_P5",
+    "year": 2009,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute scalene $\\triangle ABC$ with orthocenter $H$, circumcenter $O$; $E,F$ = feet of altitudes from $B,C$. $AO$ meets circumcircle at $G$; meets $FE,BC$ at $X,Y$. $Z$ = intersection of $AH$ with tangent to circumcircle at $G$. Prove $HX\\parallel YZ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2009"
+  },
+  {
+    "id": "CENTROAMERICAN_2009_P6",
+    "year": 2009,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all primes $p,q$ with $p^3-q^5=(p+q)^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2009"
+  }
+]

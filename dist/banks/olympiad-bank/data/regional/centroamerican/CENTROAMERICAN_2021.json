@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CENTROAMERICAN_2021_P1",
+    "year": 2021,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "An ordered triple $(p,q,r)$ of primes is \\textit{parcera} if $p\\mid q^2-4$, $q\\mid r^2-4$, $r\\mid p^2-4$. Find all parcera triples.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2021"
+  },
+  {
+    "id": "CENTROAMERICAN_2021_P2",
+    "year": 2021,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with circumcircle $\\Gamma$; $D\\in AB$ with $CD\\parallel$ tangent to $\\Gamma$ at $A$. $E=CD\\cap\\Gamma$, $F=BC\\cap\\odot(ADC)$ ($F\\neq C$). $G$ = intersection of $AB$ with internal bisector of $\\angle DCF$. Show $E,G,F,C$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2021"
+  },
+  {
+    "id": "CENTROAMERICAN_2021_P3",
+    "year": 2021,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A $2021\\times 2021$ board has some black cells. A mouse at any cell can walk in a straight line (up/down/left/right) and exit the board without walking on any black cell (except possibly its start). Find the maximum number of black cells.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2021"
+  },
+  {
+    "id": "CENTROAMERICAN_2021_P4",
+    "year": 2021,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "2021 people at a meeting: one has no friends, another has exactly one friend. For any 4 people, at least 2 are friends. Show 2018 people are all mutual friends.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2021"
+  },
+  {
+    "id": "CENTROAMERICAN_2021_P5",
+    "year": 2021,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "$n\\geq 3$; positive reals $a_1,\\ldots,a_n$ with smallest $m$ and largest $M$. For any distinct $i,j,k$ with $a_i\\leq a_j\\leq a_k$: $a_ia_k\\leq a_j^2$. Show $a_1a_2\\cdots a_n\\geq m^2M^{n-2}$ and find equality conditions.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2021"
+  },
+  {
+    "id": "CENTROAMERICAN_2021_P6",
+    "year": 2021,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with $AB<AC$, $M$ = midpoint of $AC$. $P\\in BC$ ($P\\neq B$) with $AB=AP$. $D$ = second intersection of circumcircle of $\\triangle ABP$ with $AC$; $E$ = second intersection with $PM$. $K=AP\\cap DE$. $F\\in BC$ ($F\\neq P$) with $KP=KF$. Show $C,D,E,F$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2021"
+  }
+]

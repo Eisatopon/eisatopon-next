@@ -1,0 +1,170 @@
+[
+  {
+    "id": "CMO_1975_P1",
+    "year": 1975,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Simplify\n$$\\left(\\frac{1\\cdot2\\cdot4 + 2\\cdot4\\cdot8 + \\cdots + n\\cdot2n\\cdot4n}{1\\cdot3\\cdot9 + 2\\cdot6\\cdot18 + \\cdots + n\\cdot3n\\cdot9n}\\right)^{\\!1/3}.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1975"
+  },
+  {
+    "id": "CMO_1975_P2",
+    "year": 1975,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A sequence of numbers $a_1, a_2, a_3, \\ldots$ satisfies\n\n\\item[(i)] $a_1 = \\dfrac{1}{2}$\n\\item[(ii)] $a_1 + a_2 + \\cdots + a_n = n^2 a_n  (n \\geq 1)$\n\nDetermine the value of $a_n$ for $n \\geq 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1975"
+  },
+  {
+    "id": "CMO_1975_P3",
+    "year": 1975,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For each real number $r$, $[r]$ denotes the largest integer less than or equal to $r$, e.g.\\ $[6]=6$, $[\\pi]=3$, $[-1.5]=-2$. Indicate on the $(x,y)$-plane the set of all points $(x,y)$ for which $[x]^2 + [y]^2 = 4$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1975"
+  },
+  {
+    "id": "CMO_1975_P4",
+    "year": 1975,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For a positive number such as $3.27$, $3$ is referred to as the integral part of the number and $.27$ as the decimal part. Find a positive number such that its decimal part, its integral part, and the number itself form a geometric progression.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1975"
+  },
+  {
+    "id": "CMO_1975_P5",
+    "year": 1975,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$A, B, C, D$ are four consecutive points on the circumference of a circle and $P, Q, R, S$ are points on the circumference which are respectively the midpoints of the arcs $AB$, $BC$, $CD$, $DA$. Prove that $PR$ is perpendicular to $QS$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1975"
+  },
+  {
+    "id": "CMO_1975_P6",
+    "year": 1975,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "(i) Fifteen chairs are equally placed around a circular table on which are name cards for 15 guests. The guests fail to notice these cards until after they have sat down, and it turns out that no one is sitting in the correct seat. Prove that the table can be rotated so that at least two of the guests are simultaneously correctly seated.\n\n(ii) Give an example of an arrangement in which just one of the 15 guests is correctly seated and for which no rotation correctly places more than one person.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1975"
+  },
+  {
+    "id": "CMO_1975_P7",
+    "year": 1975,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P7",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A function $f(x)$ is periodic if there is a positive number $p$ such that $f(x+p) = f(x)$ for all $x$. For example, $\\sin x$ is periodic with period $2\\pi$. Is the function $\\sin(x^2)$ periodic? Prove your assertion.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1975"
+  },
+  {
+    "id": "CMO_1975_P8",
+    "year": 1975,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P8",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $k$ be a positive integer. Find all polynomials\n$$P(x) = a_0 + a_1 x + \\cdots + a_n x^n,$$\nwhere the $a_i$ are real, which satisfy the equation\n$$P(P(x)) = \\{P(x)\\}^k.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1975"
+  }
+]

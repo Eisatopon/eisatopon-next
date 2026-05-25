@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CAPS_2017_P1",
+    "year": 2017,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all positive reals $c$ such that there are infinitely many pairs $(n,m)$ of positive integers with $n\\geq m+c\\sqrt{m-1}+1$ and no perfect square among $n,n+1,\\ldots,2n-m$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2017"
+  },
+  {
+    "id": "CAPS_2017_P2",
+    "year": 2017,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\omega$ be the circumcircle of acute $\\triangle ABC$. Point $D$ on arc $BC$ (not containing $A$). Interior point $E$ with $\\angle DBE=\\angle ACB$ and $\\angle DCE=\\angle ABC$ ($E$ not on $AD$). $F$ on line $AD$ with $EF\\parallel BC$; $G\\neq A$ on $\\omega$ with $AF=FG$. Prove $D,E,F,G$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2017"
+  },
+  {
+    "id": "CAPS_2017_P3",
+    "year": 2017,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Fixed positive integer $k$. Sequence $x_1,\\ldots,x_n$ on a board. Pepa partitions it into $\\geq 2$ contiguous subsequences (if $>2$, each sum divisible by $k$); Geoff picks one, Pepa erases the rest. Game ends when one number remains. Prove Pepa can guarantee the game ends in $\\leq 3k$ rounds regardless of Geoff.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2017"
+  },
+  {
+    "id": "CAPS_2017_P4",
+    "year": 2017,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Line $\\ell\\parallel BC$ meets $AB$ at $D$, $AC$ at $E$, and circumcircle of $\\triangle ABC$ at $F,G$ (order $F,D,E,G$). Circumcircles of $\\triangle FEB$ and $\\triangle DGC$ meet at $P,Q$. Prove $A,P,Q$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2017"
+  },
+  {
+    "id": "CAPS_2017_P5",
+    "year": 2017,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Each of the $4n^2$ unit squares of a $2n\\times 2n$ board is blue or red. A \\textit{pretty set} is four squares $A,B,C,D$ with $A,B$ in the same row, $C,D$ in the same row, $A,C$ in the same column, $B,D$ in the same column, $A,D$ blue, $B,C$ red. Find the largest possible number of pretty sets.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2017"
+  },
+  {
+    "id": "CAPS_2017_P6",
+    "year": 2017,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f:(0,+\\infty)\\to\\mathbb{R}$ satisfying $f(x)-f(x+y)=f\\!\\left(\\frac{x}{y}\\right)f(x+y)$ for all $x,y>0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2017"
+  }
+]

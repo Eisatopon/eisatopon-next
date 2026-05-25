@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CENTROAMERICAN_2024_P1",
+    "year": 2024,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$n$ with $k$ digits is an \\textit{alero} of $m$ if distinct nonzero digits $a_1,\\ldots,a_k$ exist (all different from each other and zero) such that adding $a_i$ to the $i$th digit of $m$ gives $n$ (no sum exceeds 9). Find the smallest multiple of 2024 that has an alero also divisible by 2024.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CENTROAMERICAN_2024_P2",
+    "year": 2024,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A row of 2024 cells. Ana and Beto alternate (Ana first) placing a digit in an empty cell. The resulting number (ignoring leading zeros) is considered. Beto wins if divisible by 99, else Ana wins. Who wins?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CENTROAMERICAN_2024_P3",
+    "year": 2024,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with orthocenter $H$, circumcircle $\\Gamma$; $J$ = antipode of $A$. $D,E,F$ = altitude feet. $AP$ meets $\\Gamma$ at $P$; circumcircle of $\\triangle EFP$ meets $\\Gamma$ at $Q$; $K$ = second intersection of $JH$ with $\\Gamma$. Prove $K,D,Q$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CENTROAMERICAN_2024_P4",
+    "year": 2024,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with incenter $I$, circumcircle $\\Gamma$. $D$ = second intersection of $AI$ with $\\Gamma$. Line through $I$ parallel to $BC$ meets $AB,AC$ at $P,Q$. $E=PD\\cap BC$, $F=QD\\cap BC$. Prove $\\triangle IEF\\sim\\triangle ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CENTROAMERICAN_2024_P5",
+    "year": 2024,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Positive reals $x,y$ satisfy $\\sqrt{x}\\left(2+\\frac{5}{x+y}\\right)=3$ and $\\sqrt{y}\\left(2-\\frac{5}{x+y}\\right)=2$. Find the maximum of $x+y$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CENTROAMERICAN_2024_P6",
+    "year": 2024,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Cat and mouse play Wim 2 ($n$ stones, remove $1,\\ldots,k$ per turn, but not the same number as opponent's last move; player unable to move loses). Find all $k$ such that for every $n$, the cat wins in Wim iff it wins in Wim 2.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2024"
+  }
+]

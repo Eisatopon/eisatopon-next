@@ -1,0 +1,107 @@
+[
+  {
+    "id": "CMO_2012_P1",
+    "year": 2012,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $x$, $y$, and $z$ be positive real numbers. Show that $x^2 + xy^2 + xyz^2 \\geq 4xyz - 4$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2012"
+  },
+  {
+    "id": "CMO_2012_P2",
+    "year": 2012,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For any positive integers $n$ and $k$, let $L(n, k)$ be the least common multiple of the $k$ consecutive integers $n, n+1, \\ldots, n+k-1$. Show that for any integer $b$, there exist integers $n$ and $k$ such that $L(n, k) > b \\cdot L(n+1, k)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2012"
+  },
+  {
+    "id": "CMO_2012_P3",
+    "year": 2012,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a convex quadrilateral and let $P$ be the intersection of $AC$ and $BD$. Suppose that $AC + AD = BC + BD$. Prove that the internal angle bisectors of $\\angle ACB$, $\\angle ADB$, and $\\angle APB$ meet at a common point.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2012"
+  },
+  {
+    "id": "CMO_2012_P4",
+    "year": 2012,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Robots are placed on a finite rectangular grid. Every edge of each square is classified as passable or impassable (all boundary edges are impassable). A command (up, down, left, right) causes every robot to simultaneously attempt to move in that direction; a robot moves if the relevant edge is passable, otherwise it stays. Suppose that for any single robot and any target square, some sequence of commands moves that robot to the target. Prove that some finite sequence of commands moves all robots to the same square simultaneously.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2012"
+  },
+  {
+    "id": "CMO_2012_P5",
+    "year": 2012,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A bookshelf contains $n$ volumes labelled $1$ to $n$ in some order. The librarian repeatedly selects a volume $k$ that is too far to the right, removes it, and inserts it in position $k$.\n\n(a) Show that however the librarian makes selections, all volumes will eventually be in the correct order.\n\n(b) What is the largest number of steps this process can take?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2012"
+  }
+]
