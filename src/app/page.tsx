@@ -299,17 +299,15 @@ export default async function Home() {
             </div>
           )}
 
-         {/* ── Reminder link ── */} 
-<OlympiadReminder />
+        {/* ── Reminder link ── */}
+        <OlympiadReminder />
+
+        <Pagination
+        currentPage={1}
+        totalPages={Math.ceil((articles.length - 1) / 8) + 1}
+        />
 
 </section>
-
-<<div className="flex justify-center pt-16">
-  <Pagination
-    currentPage={1}
-    totalPages={Math.ceil((articles.length - 1) / 8) + 1}
-  />
-</div>
 
         {/* SIDEBAR */}
         <aside className="flex flex-col gap-7">
