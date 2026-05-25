@@ -304,7 +304,7 @@ export default async function Home() {
 
 </section>
 
-<div className="lg:col-span-2 flex justify-center pt-16">
+<<div className="flex justify-center pt-16">
   <Pagination
     currentPage={1}
     totalPages={Math.ceil((articles.length - 1) / 8) + 1}
