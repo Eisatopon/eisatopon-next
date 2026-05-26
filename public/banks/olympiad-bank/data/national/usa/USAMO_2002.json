@@ -1,0 +1,134 @@
+[
+  {
+    "id": "USAMO_2002_P1",
+    "year": 2002,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics",
+      "Set Theory"
+    ],
+    "statement": "Let $S$ be a set with $2002$ elements, and let $N$ be an integer with\n$$0\\le N\\le2^{2002}.$$\nProve that it is possible to color every subset of $S$ either black or white so that the following conditions hold:\n\n(a) the union of any two white subsets is white;\n\n(b) the union of any two black subsets is black;\n\n(c) there are exactly $N$ white subsets.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2002"
+  },
+  {
+    "id": "USAMO_2002_P2",
+    "year": 2002,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry",
+      "Trigonometry"
+    ],
+    "statement": "Let $ABC$ be a triangle such that\n$$\n\\left(\\cot\\frac A2\\right)^2\n+\n\\left(2\\cot\\frac B2\\right)^2\n+\n\\left(3\\cot\\frac C2\\right)^2\n=\n\\left(\\frac{6s}{7r}\\right)^2,\n$$\nwhere $s$ and $r$ denote its semiperimeter and its inradius, respectively. Prove that triangle $ABC$ is similar to a triangle $T$ whose side lengths are all positive integers with no common divisors and determine these integers.",
+    "has_figure": false,
+    "figure_description": "Triangle involving inradius and semiperimeter with half-angle cotangent identity.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2002",
+    "statement_note": "Half-angle cotangent expression visually verified from uploaded PDF because OCR partially corrupted exponent formatting. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2002_P3",
+    "year": 2002,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra",
+      "Polynomials"
+    ],
+    "statement": "Prove that any monic polynomial (a polynomial with leading coefficient $1$) of degree $n$ with real coefficients is the average of two monic polynomials of degree $n$ with $n$ real roots.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2002"
+  },
+  {
+    "id": "USAMO_2002_P4",
+    "year": 2002,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Functional Equations",
+      "Algebra"
+    ],
+    "statement": "Let $R$ be the set of real numbers. Determine all functions\n$$f:R\\to R$$\nsuch that\n$$f(x^2-y^2)=xf(x)-yf(y)$$\nfor all pairs of real numbers $x$ and $y$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2002"
+  },
+  {
+    "id": "USAMO_2002_P5",
+    "year": 2002,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a,b$ be integers greater than $2$. Prove that there exists a positive integer $k$ and a finite sequence\n$$n_1,n_2,\\ldots,n_k$$\nof positive integers such that\n$$n_1=a,\\qquad n_k=b,$$\nand\n$$n_in_{i+1}$$\nis divisible by\n$$n_i+n_{i+1}$$\nfor each $i$ ($1\\le i<k$).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2002"
+  },
+  {
+    "id": "USAMO_2002_P6",
+    "year": 2002,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "I have an $n\\times n$ sheet of stamps, from which I’ve been asked to tear out blocks of three adjacent stamps in a single row or column. (I can only tear along the perforations separating adjacent stamps, and each block must come out of the sheet in one piece.) Let $b(n)$ be the smallest number of blocks I can tear out and make it impossible to tear out any more blocks. Prove that there are real constants $c$ and $d$ such that\n$$\n\\frac17n^2-cn\n\\le\nb(n)\n\\le\n\\frac15n^2+dn\n$$\nfor all $n>0$.",
+    "has_figure": false,
+    "figure_description": "Removing adjacent stamp triplets from a square grid.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2002",
+    "statement_note": "Final asymptotic inequality visually verified from uploaded PDF because OCR partially corrupted the fractions."
+  }
+]

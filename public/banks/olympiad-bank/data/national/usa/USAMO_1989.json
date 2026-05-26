@@ -1,0 +1,110 @@
+[
+  {
+    "id": "USAMO_1989_P1",
+    "year": 1989,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "statement": "For each positive integer $n$, let\n$$S_n=1+\\frac12+\\frac13+\\cdots+\\frac1n,$$\n$$T_n=S_1+S_2+S_3+\\cdots+S_n,$$\nand\n$$U_n=\\frac{T_1}{2}+\\frac{T_2}{3}+\\frac{T_3}{4}+\\cdots+\\frac{T_n}{n+1}.$$\nFind, with proof, integers\n$$0<a,b,c,d<1000000$$\nsuch that\n$$T_{1988}=aS_{1989}-b$$\nand\n$$U_{1988}=cS_{1989}-d.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1989"
+  },
+  {
+    "id": "USAMO_1989_P2",
+    "year": 1989,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "The $20$ members of a local tennis club have scheduled exactly $14$ two-person games among themselves, with each member playing in at least one game. Prove that within this schedule there must be a set of $6$ games with $12$ distinct players.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1989"
+  },
+  {
+    "id": "USAMO_1989_P3",
+    "year": 1989,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra",
+      "Complex Numbers"
+    ],
+    "statement": "Let\n$$P(z)=z^n+c_1z^{n-1}+c_2z^{n-2}+\\cdots+c_n$$\nbe a polynomial in the complex variable $z$, with real coefficients $c_k$. Suppose that\n$$|P(i)|<1.$$\nProve that there exist real numbers $a$ and $b$ such that\n$$P(a+bi)=0$$\nand\n$$(a^2+b^2+1)^2<4b^2+1.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1989"
+  },
+  {
+    "id": "USAMO_1989_P4",
+    "year": 1989,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be an acute-angled triangle whose side lengths satisfy the inequalities\n$$AB<AC<BC.$$\nIf point $I$ is the center of the inscribed circle of triangle $ABC$ and point $O$ is the center of the circumscribed circle, prove that line $IO$ intersects segments $AB$ and $BC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1989"
+  },
+  {
+    "id": "USAMO_1989_P5",
+    "year": 1989,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra",
+      "Inequalities"
+    ],
+    "statement": "Let $u$ and $v$ be real numbers such that\n$$(u+u^2+u^3+\\cdots+u^8)+10u^9=8,$$\n$$(v+v^2+v^3+\\cdots+v^{10})+10v^{11}=8.$$\nDetermine, with proof, which of the two numbers, $u$ or $v$, is larger.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1989"
+  }
+]

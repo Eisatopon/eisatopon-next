@@ -1,0 +1,136 @@
+[
+  {
+    "id": "USAMO_2022_P1",
+    "year": 2022,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics",
+      "Matching Theory"
+    ],
+    "statement": "Let $a$ and $b$ be positive integers. The cells of an\n$$(a+b+1)\\times(a+b+1)$$\ngrid are colored amber and bronze such that there are at least\n$$a^2+ab-b$$\namber cells and at least\n$$b^2+ab-a$$\nbronze cells. Prove that it is possible to choose $a$ amber cells and $b$ bronze cells such that no two of the $a+b$ chosen cells lie in the same row or column.",
+    "has_figure": false,
+    "figure_description": "Colored grid selection problem with row/column restrictions.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2022",
+    "statement_note": "Grid-size and counting expressions visually verified from official PDF because OCR partially corrupted exponents and subtraction signs. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2022_P2",
+    "year": 2022,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry",
+      "Polygons"
+    ],
+    "statement": "Let $b\\ge2$ and $w\\ge2$ be fixed integers, and let\n$$n=b+w.$$\nGiven are $2b$ identical black rods and $2w$ identical white rods, each of side length $1$.\n\nWe assemble a regular $2n$-gon using these rods so that parallel sides are the same color. Then, a convex $2b$-gon $B$ is formed by translating the black rods, and a convex $2w$-gon $W$ is formed by translating the white rods.\n\nProve that the difference of the areas of $B$ and $W$ depends only on the numbers $b$ and $w$, and not on how the $2n$-gon was assembled.",
+    "has_figure": true,
+    "figure_description": "Assembly of a regular polygon from colored rods producing two convex polygons.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2022",
+    "statement_note": "Polygon notation and construction visually verified from official PDF including embedded diagram. :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "id": "USAMO_2022_P3",
+    "year": 2022,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Functional Equations"
+    ],
+    "statement": "Let\n$$\\mathbb{R}_{>0}$$\nbe the set of all positive real numbers. Find all functions\n$$f:\\mathbb{R}_{>0}\\to\\mathbb{R}_{>0}$$\nsuch that for all\n$$x,y\\in\\mathbb{R}_{>0}$$\nwe have\n$$\nf(x)=f(f(f(x))+y)+f(xf(y))f(x+y).\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2022",
+    "statement_note": "Nested functional-equation expression visually verified from official PDF because OCR partially corrupted parentheses. :contentReference[oaicite:2]{index=2}"
+  },
+  {
+    "id": "USAMO_2022_P4",
+    "year": 2022,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all pairs of primes $(p,q)$ for which\n$$p-q$$\nand\n$$pq-q$$\nare both perfect squares.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2022"
+  },
+  {
+    "id": "USAMO_2022_P5",
+    "year": 2022,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Functional Equations",
+      "Combinatorics"
+    ],
+    "statement": "A function\n$$f:\\mathbb{R}\\to\\mathbb{R}$$\nis essentially increasing if\n$$f(s)\\le f(t)$$\nholds whenever\n$$s\\le t$$\nare real numbers such that\n$$f(s)\\ne0$$\nand\n$$f(t)\\ne0.$$\n\nFind the smallest integer $k$ such that for any $2022$ real numbers\n$$x_1,x_2,\\ldots,x_{2022},$$\nthere exist $k$ essentially increasing functions\n$$f_1,\\ldots,f_k$$\nsuch that\n$$\nf_1(n)+f_2(n)+\\cdots+f_k(n)=x_n\n$$\nfor every\n$$n=1,2,\\ldots,2022.$$\n",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2022",
+    "statement_note": "Definition and summation notation visually verified from official PDF because OCR partially corrupted inequalities and subscripts. :contentReference[oaicite:3]{index=3}"
+  },
+  {
+    "id": "USAMO_2022_P6",
+    "year": 2022,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics",
+      "Graph Theory"
+    ],
+    "statement": "There are $2022$ users on a social network called Mathbook, and some of them are Mathbook-friends. (On Mathbook, friendship is always mutual and permanent.)\n\nStarting now, Mathbook will only allow a new friendship to be formed between two users if they have at least two friends in common. What is the minimum number of friendships that must already exist so that every user could eventually become friends with every other user?",
+    "has_figure": false,
+    "figure_description": "Friendship-expansion process on a social network graph.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2022"
+  }
+]

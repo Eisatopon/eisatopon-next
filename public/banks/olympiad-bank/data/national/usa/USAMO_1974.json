@@ -1,0 +1,107 @@
+[
+  {
+    "id": "USAMO_1974_P1",
+    "year": 1974,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a$, $b$, and $c$ denote three distinct integers, and let $P$ denote a polynomial having integer coefficients. Show that it is impossible that $P(a)=b$, $P(b)=c$, and $P(c)=a$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1974"
+  },
+  {
+    "id": "USAMO_1974_P2",
+    "year": 1974,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that if $a$, $b$, and $c$ are positive real numbers, then\n$${a}^{a}{b}^{b}{c}^{c} \\geq (abc)^{(a+b+c)/3}.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1974"
+  },
+  {
+    "id": "USAMO_1974_P3",
+    "year": 1974,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two boundary points of a ball of radius $1$ are joined by a curve contained in the ball and having length less than $2$. Prove that the curve is contained entirely within some hemisphere of the given ball.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1974"
+  },
+  {
+    "id": "USAMO_1974_P4",
+    "year": 1974,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Probability"
+    ],
+    "statement": "A father, a mother and son hold a family tournament, playing a two-person board game with no ties. The tournament rules are:\n(i) The weakest player chooses the first two contestants.\n(ii) The winner of any game plays the next game against the person left out.\n(iii) The first person to win two games wins the tournament.\nThe father is the weakest player, the son the strongest, and it is assumed that any player’s probability of winning an individual game from another player does not change during the tournament. Prove that the father’s optimal strategy for winning the tournament is to play the first game with his wife.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1974"
+  },
+  {
+    "id": "USAMO_1974_P5",
+    "year": 1974,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Consider the two triangles $ABC$ and $PQR$ shown below. In triangle $ABC$, $\\angle ADB = \\angle BDC = \\angle CDA = 120^\\circ$. Prove that $x = u + v + w$.",
+    "has_figure": true,
+    "figure_description": "Two geometric configurations involving triangles ABC and PQR with labeled sides and interior point constructions.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1974"
+  }
+]

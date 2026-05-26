@@ -1,0 +1,108 @@
+[
+  {
+    "id": "USAMO_1978_P1",
+    "year": 1978,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra",
+      "Inequalities"
+    ],
+    "statement": "Given that $a,b,c,d,e$ are real numbers such that\n$$a+b+c+d+e=8,$$\n$$a^2+b^2+c^2+d^2+e^2=16,$$\ndetermine the maximum value of $e$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1978"
+  },
+  {
+    "id": "USAMO_1978_P2",
+    "year": 1978,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Squares $ABCD$ and $A'B'C'D'$ are maps of the same region drawn to different scales and superimposed as shown in the figure. Prove that there is only one point $O$ on the small map that lies directly over a point $O'$ of the large map such that $O$ and $O'$ each represent the same place of the country. Also give a Euclidean construction (straightedge and compass) for $O$.",
+    "has_figure": true,
+    "figure_description": "Two superimposed square maps ABCD and A'B'C'D' of the same region drawn at different scales.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1978"
+  },
+  {
+    "id": "USAMO_1978_P3",
+    "year": 1978,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "An integer $n$ is called good if it can be written in the form\n$$n=a_1+a_2+\\cdots+a_k,$$\nwhere $a_1,a_2,\\ldots,a_k$ are positive integers satisfying\n$$\\frac1{a_1}+\\frac1{a_2}+\\cdots+\\frac1{a_k}=1.$$\nGiven that the integers $33$ through $73$ are good, prove that every integer greater than or equal to $33$ is good.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1978"
+  },
+  {
+    "id": "USAMO_1978_P4",
+    "year": 1978,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "(a) Prove that if the six dihedral angles of a tetrahedron are congruent, then the tetrahedron is regular.\n\n(b) Is a tetrahedron necessarily regular if five dihedral angles are congruent?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1978"
+  },
+  {
+    "id": "USAMO_1978_P5",
+    "year": 1978,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Nine mathematicians meet at an international conference and discover that among any three of them, at least two speak a common language. If each mathematician speaks at most three languages, prove that at least three of the mathematicians speak the same language.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1978"
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "id": "USAMO_2017_P1",
+    "year": 2017,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that there are infinitely many distinct pairs $(a,b)$ of relatively prime integers\n$$a>1$$\nand\n$$b>1$$\nsuch that\n$$a^b+b^a$$\nis divisible by\n$$a+b.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2017"
+  },
+  {
+    "id": "USAMO_2017_P2",
+    "year": 2017,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $m_1,m_2,\\ldots,m_n$ be a collection of $n$ positive integers, not necessarily distinct. For any sequence of integers\n$$A=(a_1,\\ldots,a_n)$$\nand any permutation\n$$w=(w_1,\\ldots,w_n)$$\nof\n$$m_1,m_2,\\ldots,m_n,$$\ndefine an $A$-inversion of $w$ to be a pair of entries $w_i,w_j$ with $i<j$ for which one of the following conditions holds:\n$$-a_i\\ge w_i>w_j,$$\n$$-w_j>a_i\\ge w_i,$$\nor\n$$-w_i>w_j>a_i.$$\nShow that, for any two sequences of integers\n$$A=(a_1,\\ldots,a_n)$$\nand\n$$B=(b_1,\\ldots,b_n),$$\nand for any positive integer $k$, the number of permutations of\n$$m_1,m_2,\\ldots,m_n$$\nhaving exactly $k$ $A$-inversions is equal to the number of permutations having exactly $k$ $B$-inversions.",
+    "has_figure": false,
+    "figure_description": "Generalized inversion statistics on permutations.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2017",
+    "statement_note": "Inversion conditions carefully reconstructed from uploaded PDF because OCR corrupted inequalities and minus signs. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2017_P3",
+    "year": 2017,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a scalene triangle with circumcircle $\\Omega$ and incenter $I$. Ray $AI$ meets $BC$ at $D$ and meets $\\Omega$ again at $M$; the circle with diameter $DM$ cuts $\\Omega$ again at $K$. Lines $MK$ and $BC$ meet at $S$, and $N$ is the midpoint of $IS$. The circumcircles of triangles $KID$ and $MAN$ intersect at points $L_1$ and $L_2$. Prove that $\\Omega$ passes through the midpoint of either $IL_1$ or $IL_2$.",
+    "has_figure": false,
+    "figure_description": "Triangle with incenter, auxiliary circles, and midpoint condition on circle intersections.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2017"
+  },
+  {
+    "id": "USAMO_2017_P4",
+    "year": 2017,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics",
+      "Geometry"
+    ],
+    "statement": "Let\n$$P_1,P_2,\\ldots,P_{2n}$$\nbe $2n$ distinct points on the unit circle\n$$x^2+y^2=1,$$\nother than $(1,0)$. Each point is colored either red or blue, with exactly $n$ red points and $n$ blue points. Let\n$$R_1,R_2,\\ldots,R_n$$\nbe any ordering of the red points. Let $B_1$ be the nearest blue point to $R_1$ traveling counterclockwise around the circle starting from $R_1$. Then let $B_2$ be the nearest of the remaining blue points to $R_2$ traveling counterclockwise around the circle from $R_2$, and so on, until we have labeled all of the blue points\n$$B_1,\\ldots,B_n.$$\nShow that the number of counterclockwise arcs of the form\n$$R_i\\to B_i$$\nthat contain the point $(1,0)$ is independent of the way we chose the ordering\n$$R_1,\\ldots,R_n$$\nof the red points.",
+    "has_figure": false,
+    "figure_description": "Matching red and blue points on the unit circle via counterclockwise nearest-neighbor arcs.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2017"
+  },
+  {
+    "id": "USAMO_2017_P5",
+    "year": 2017,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics",
+      "Geometry"
+    ],
+    "statement": "Let $\\mathbb{Z}$ denote the set of all integers. Find all real numbers\n$$c>0$$\nsuch that there exists a labeling of the lattice points\n$$(x,y)\\in\\mathbb{Z}^2$$\nwith positive integers for which:\n\n- only finitely many distinct labels occur, and\n\n- for each label $i$, the distance between any two points labeled $i$ is at least\n$$c^i.$$\n",
+    "has_figure": false,
+    "figure_description": "Lattice-point labeling problem with exponential distance constraints.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2017"
+  },
+  {
+    "id": "USAMO_2017_P6",
+    "year": 2017,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Inequalities"
+    ],
+    "statement": "Find the minimum possible value of\n$$\n\\frac{a}{b^3+4}\n+\n\\frac{b}{c^3+4}\n+\n\\frac{c}{d^3+4}\n+\n\\frac{d}{a^3+4}\n$$\ngiven that $a,b,c,d$ are nonnegative real numbers such that\n$$a+b+c+d=4.$$\n",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2017",
+    "statement_note": "Cyclic rational expression visually verified from uploaded PDF because OCR corrupted denominator formatting. :contentReference[oaicite:1]{index=1}"
+  }
+]

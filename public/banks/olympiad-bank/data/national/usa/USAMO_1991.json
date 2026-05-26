@@ -1,0 +1,112 @@
+[
+  {
+    "id": "USAMO_1991_P1",
+    "year": 1991,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry",
+      "Number Theory"
+    ],
+    "statement": "In triangle $ABC$, angle $A$ is twice angle $B$, angle $C$ is obtuse, and the three side lengths $a,b,c$ are integers. Determine, with proof, the minimum possible perimeter.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1991"
+  },
+  {
+    "id": "USAMO_1991_P2",
+    "year": 1991,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics",
+      "Algebra"
+    ],
+    "statement": "For any nonempty set $S$ of numbers, let $\\sigma(S)$ and $\\pi(S)$ denote the sum and product, respectively, of the elements of $S$. Prove that\n$$\n\\sum \\frac{\\sigma(S)}{\\pi(S)}\n=(n^2+2n)-\\left(1+\\frac12+\\frac13+\\cdots+\\frac1n\\right)(n+1),\n$$\nwhere “$\\sum$” denotes a sum involving all nonempty subsets $S$ of\n$$\\{1,2,3,\\ldots,n\\}.$$\n",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1991",
+    "statement_note": "Sigma notation and harmonic-sum expression visually verified from PDF because OCR formatting was partially corrupted."
+  },
+  {
+    "id": "USAMO_1991_P3",
+    "year": 1991,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show that, for any fixed integer $n\\ge1$, the sequence\n$$2,\\;2^2,\\;2^{2^2},\\;2^{2^{2^2}},\\ldots \\pmod n$$\nis eventually constant.\n\n[The tower of exponents is defined by\n$$a_1=2,\\qquad a_{i+1}=2^{a_i}.$$\nAlso $a_i\\pmod n$ means the remainder which results from dividing $a_i$ by $n$.]",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1991"
+  },
+  {
+    "id": "USAMO_1991_P4",
+    "year": 1991,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Inequalities",
+      "Algebra"
+    ],
+    "statement": "Let\n$$a=\\frac{m^{m+1}+n^{n+1}}{m^m+n^n},$$\nwhere $m$ and $n$ are positive integers. Prove that\n$$a^m+a^n\\ge m^m+n^n.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1991",
+    "statement_note": "Fraction expression visually verified from PDF image because OCR heavily corrupted superscripts and exponents."
+  },
+  {
+    "id": "USAMO_1991_P5",
+    "year": 1991,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $D$ be an arbitrary point on side $AB$ of a given triangle $ABC$, and let $E$ be the interior point where $CD$ intersects the external common tangent to the incircles of triangles $ACD$ and $BCD$. As $D$ assumes all positions between $A$ and $B$, prove that the point $E$ traces the arc of a circle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1991"
+  }
+]

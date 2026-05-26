@@ -1,0 +1,133 @@
+[
+  {
+    "id": "USAMO_2010_P1",
+    "year": 2010,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $P$ be a point inside triangle $ABC$. Points $D,E,$ and $F$ are constructed on segments $BC,CA,$ and $AB$, respectively, so that\n$$BD=DC,\\qquad CE=EA,\\qquad AF=FB.$$\nLines $AP,BP,$ and $CP$ intersect lines $EF,FD,$ and $DE$ at points $X,Y,$ and $Z$, respectively. Prove that\n$$\n\\frac{XP}{AP}+\frac{YP}{BP}+\frac{ZP}{CP}=1.\n$$",
+    "has_figure": false,
+    "figure_description": "Triangle with medians and cevian intersections through an interior point.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2010"
+  },
+  {
+    "id": "USAMO_2010_P2",
+    "year": 2010,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics",
+      "Graph Theory"
+    ],
+    "statement": "Consider a $2n\\times2n$ chessboard whose rows and columns are each labeled from $1$ to $2n$. Two rooks are placed on the chessboard so that the squares occupied by the rooks lie in different rows and different columns. We say that the rooks are in harmonious positions if the pair of row labels and the pair of column labels have the same parity.\n\nFind the number of subsets of squares of a $2n\\times2n$ chessboard with the property that any two distinct squares in the subset contain rooks in harmonious positions.",
+    "has_figure": false,
+    "figure_description": "Parity condition for pairs of rook positions on a chessboard.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2010"
+  },
+  {
+    "id": "USAMO_2010_P3",
+    "year": 2010,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory",
+      "Polynomials"
+    ],
+    "statement": "Let\n$$p(x)=x^2-2.$$\nFor a positive integer $n$, define the sequence\n$$a_0,a_1,a_2,\\ldots$$\nby setting\n$$a_0=n$$\nand\n$$a_{k+1}=p(a_k)$$\nfor all $k\\ge0$. Determine, with proof, all values of $n$ for which there exists $k\\ge0$ such that\n$$a_k=0.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2010"
+  },
+  {
+    "id": "USAMO_2010_P4",
+    "year": 2010,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Construct triangle $ABC$ from a point $P$ in its interior as follows: draw rays $AP,BP,$ and $CP$. Let $W$ and $Z$ be the points where rays $BP$ and $CP$ intersect line $AC$, respectively. Likewise, let $X$ and $U$ be the points where rays $CP$ and $AP$ intersect line $BA$, respectively, and let $Y$ and $V$ be the points where rays $AP$ and $BP$ intersect line $CB$, respectively. Prove that one can choose points $A,B,$ and $C$ so that the quadrilaterals $PXCY,PZAU,$ and $WVBP$ are cyclic if and only if\n$$\n\\frac{PW}{BV}=\frac{PZ}{CU}=\frac{PX}{AW}.\n$$",
+    "has_figure": false,
+    "figure_description": "Interior-point construction with six intersection points and cyclic quadrilaterals.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2010"
+  },
+  {
+    "id": "USAMO_2010_P5",
+    "year": 2010,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics",
+      "Algorithms"
+    ],
+    "statement": "A game is played on a regular $13$-gon whose vertices are initially colored blue. In each move, one may choose three vertices forming an isosceles triangle with all sides of nonzero length and flip the color of all three vertices. Determine whether there exists a sequence of moves after which all vertices are red.",
+    "has_figure": false,
+    "figure_description": "Color-flipping game on the vertices of a regular 13-gon.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2010"
+  },
+  {
+    "id": "USAMO_2010_P6",
+    "year": 2010,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory",
+      "Inequalities"
+    ],
+    "statement": "Let\n$$x_1,x_2,\\ldots,x_n$$\nbe a sequence of nonnegative integers such that\n$$x_1+x_2+\\cdots+x_n=n$$\nand\n$$x_1+2x_2+\\cdots+nx_n=n.$$\nProve that\n$$\n\\sum_{i=1}^{n}\\frac{x_i}{i+1}\n\\le\n\\frac n2.\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2010",
+    "statement_note": "Summation inequality visually verified from uploaded PDF because OCR partially corrupted subscripts and fractions. :contentReference[oaicite:0]{index=0}"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "USAMO_2013_P1",
+    "year": 2013,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In triangle $ABC$, points $P,Q,R$ lie on sides $BC,CA,AB$ respectively. Let $\\omega_A,\\omega_B,\\omega_C$ denote the circumcircles of triangles $AQR,BRP,CPQ$, respectively. Given the fact that segment $AP$ intersects $\\omega_A,\\omega_B,\\omega_C$ again at $X,Y,Z$, respectively, prove that\n$$\n\\frac{YX}{XZ}=\frac{BP}{PC}.\n$$",
+    "has_figure": false,
+    "figure_description": "Triangle with three associated circumcircles intersected by a cevian.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2013"
+  },
+  {
+    "id": "USAMO_2013_P2",
+    "year": 2013,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics",
+      "Recurrence Relations"
+    ],
+    "statement": "For a positive integer $n\\ge3$, plot $n$ equally spaced points around a circle. Label one of them $A$, and place a marker at $A$. One may move the marker forward in a clockwise direction to either the next point or the point after that. Hence there are a total of $2n$ distinct moves available; two from each point. Let $a_n$ count the number of ways to advance around the circle exactly twice, beginning and ending at $A$, without repeating a move. Prove that\n$$a_{n-1}+a_n=2^n$$\nfor all $n\\ge4$.",
+    "has_figure": false,
+    "figure_description": "Clockwise move system on equally spaced points of a circle.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2013"
+  },
+  {
+    "id": "USAMO_2013_P3",
+    "year": 2013,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics",
+      "Game Theory"
+    ],
+    "statement": "Let $n$ be a positive integer. There are\n$$\\frac{n(n+1)}2$$\nmarks, each with a black side and a white side, arranged into an equilateral triangle, with the biggest row containing $n$ marks. Initially, each mark has the black side up. An operation is to choose a line parallel to the sides of the triangle, and flip all the marks on that line. A configuration is called admissible if it can be obtained from the initial configuration by performing a finite number of operations. For each admissible configuration $C$, let $f(C)$ denote the smallest number of operations required to obtain $C$ from the initial configuration. Find the maximum value of $f(C)$, where $C$ varies over all admissible configurations.",
+    "has_figure": false,
+    "figure_description": "Triangular arrangement of two-sided marks with line-flipping operations.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2013",
+    "statement_note": "Triangular-count fraction visually verified from uploaded PDF because OCR partially corrupted the formula. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2013_P4",
+    "year": 2013,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Inequalities",
+      "Algebra"
+    ],
+    "statement": "Find all real numbers $x,y,z\\ge1$ satisfying\n$$\n\\min\\left(\\sqrt{x+xyz},\\sqrt{y+xyz},\\sqrt{z+xyz}\\right)\n=\n\\sqrt{x-1}+\\sqrt{y-1}+\\sqrt{z-1}.\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2013",
+    "statement_note": "Radical expressions visually verified from uploaded PDF because OCR corrupted square-root formatting. :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "id": "USAMO_2013_P5",
+    "year": 2013,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Given positive integers $m$ and $n$, prove that there is a positive integer $c$ such that the numbers $cm$ and $cn$ have the same number of occurrences of each non-zero digit when written in base ten.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2013"
+  },
+  {
+    "id": "USAMO_2013_P6",
+    "year": 2013,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle. Find all points $P$ on segment $BC$ satisfying the following property: If $X$ and $Y$ are the intersections of line $PA$ with the common external tangent lines of the circumcircles of triangles $PAB$ and $PAC$, then\n$$\n\\left(\\frac{PA}{XY}\\right)^2+\frac{PB\\cdot PC}{AB\\cdot AC}=1.\n$$",
+    "has_figure": false,
+    "figure_description": "Triangle with tangent lines to two circumcircles intersecting a cevian.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2013"
+  }
+]

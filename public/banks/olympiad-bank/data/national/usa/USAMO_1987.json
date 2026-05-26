@@ -1,0 +1,110 @@
+[
+  {
+    "id": "USAMO_1987_P1",
+    "year": 1987,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Determine all solutions in nonzero integers $a$ and $b$ of the equation\n$$(a^2+b)(a+b^2)=(a-b)^3.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1987"
+  },
+  {
+    "id": "USAMO_1987_P2",
+    "year": 1987,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $AD$, $BE$, and $CF$ be the bisectors of the interior angles of triangle $ABC$, with $D$, $E$, and $F$ lying on the perimeter. If $\\angle EDF=90^\\circ$, determine all possible values of $\\angle BAC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1987"
+  },
+  {
+    "id": "USAMO_1987_P3",
+    "year": 1987,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "Construct a set $S$ of polynomials inductively by the rules:\n\n(i) $x\\in S$;\n\n(ii) if $f(x)\\in S$, then $xf(x)\\in S$ and\n$$x+(1-x)f(x)\\in S.$$\n\nProve that there are no two distinct polynomials in $S$ whose graphs intersect within the region\n$$0<x<1.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1987"
+  },
+  {
+    "id": "USAMO_1987_P4",
+    "year": 1987,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Three circles $C_i$ are given in the plane: $C_1$ has diameter $AB$ of length $1$; $C_2$ is concentric with $C_1$ and has diameter $k$, where $1<k<3$; and $C_3$ has center $A$ and diameter $2k$. We regard $k$ as fixed.\n\nConsider all straight line segments $XY$ which have one endpoint $X$ on $C_2$, one endpoint $Y$ on $C_3$, and contain the point $B$. For what ratio $XB/BY$ will the segment $XY$ have minimal length?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1987"
+  },
+  {
+    "id": "USAMO_1987_P5",
+    "year": 1987,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Given a sequence $(x_1,x_2,\\ldots,x_n)$ of $0$'s and $1$'s, let $A$ be the number of triples $(x_i,x_j,x_k)$ with $i<j<k$ such that $(x_i,x_j,x_k)$ equals $(0,1,0)$ or $(1,0,1)$. For $1\\le i\\le n$, let $d_i$ denote the number of $j$ for which either $j<i$ and $x_j=x_i$, or else $j>i$ and $x_j\\ne x_i$.\n\n(a) Prove that\n$$A=\\binom{n}{3}-\\sum_{i=1}^{n}\\binom{d_i}{2}.$$\n\n(Of course,\n$$\\binom{a}{b}=\\frac{a!}{b!(a-b)!}.$$)\n\n(b) Given an odd number $n$, what is the maximum possible value of $A$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1987",
+    "statement_note": "Binomial coefficient notation visually verified from screenshot because OCR corrupted the combinatorial symbols."
+  }
+]

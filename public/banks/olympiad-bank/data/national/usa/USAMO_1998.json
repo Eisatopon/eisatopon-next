@@ -1,0 +1,132 @@
+[
+  {
+    "id": "USAMO_1998_P1",
+    "year": 1998,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "Suppose that the set\n$$\\{1,2,\\ldots,1998\\}$$\nhas been partitioned into disjoint pairs\n$$\\{a_i,b_i\\}\\qquad (1\\le i\\le999)$$\nso that for all $i$,\n$$|a_i-b_i|$$\nequals $1$ or $6$. Prove that the sum\n$$|a_1-b_1|+|a_2-b_2|+\\cdots+|a_{999}-b_{999}|$$\nends in the digit $9$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1998"
+  },
+  {
+    "id": "USAMO_1998_P2",
+    "year": 1998,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $C_1$ and $C_2$ be concentric circles, with $C_2$ in the interior of $C_1$. From a point $A$ on $C_1$ one draws the tangent $AB$ to $C_2$ ($B\\in C_2$). Let $C$ be the second point of intersection of $AB$ and $C_1$, and let $D$ be the midpoint of $AB$. A line passing through $A$ intersects $C_2$ at $E$ and $F$ in such a way that the perpendicular bisectors of $DE$ and $CF$ intersect at a point $M$ on $AB$. Find, with proof, the ratio\n$$\\frac{AM}{MC}.$$",
+    "has_figure": false,
+    "figure_description": "Two concentric circles with tangent construction and perpendicular bisectors intersecting on a secant.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1998"
+  },
+  {
+    "id": "USAMO_1998_P3",
+    "year": 1998,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Inequalities",
+      "Trigonometry"
+    ],
+    "statement": "Let $a_0,a_1,\\ldots,a_n$ be numbers from the interval\n$$\\left(0,\\frac\\pi2\\right)$$\nsuch that\n$$\n\\tan\\left(a_0-\\frac\\pi4\\right)\n+\n\\tan\\left(a_1-\\frac\\pi4\\right)\n+\n\\cdots\n+\n\\tan\\left(a_n-\\frac\\pi4\\right)\n\\ge n-1.\n$$\nProve that\n$$\n\\tan a_0\\tan a_1\\cdots\\tan a_n\n\\ge\nn^{n+1}.\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1998",
+    "statement_note": "Trigonometric expressions and exponent formatting visually verified from uploaded PDF. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_1998_P4",
+    "year": 1998,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A computer screen shows a $98\\times98$ chessboard, colored in the usual way. One can select with a mouse any rectangle with sides on the lines of the chessboard and click the mouse button: as a result, the colors in the selected rectangle switch (black becomes white, white becomes black). Find, with proof, the minimum number of mouse clicks needed to make the chessboard all one color.",
+    "has_figure": false,
+    "figure_description": "Rectangle-flipping operation on a checkerboard.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1998"
+  },
+  {
+    "id": "USAMO_1998_P5",
+    "year": 1998,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that for each\n$$n\\ge2,$$\nthere is a set $S$ of $n$ integers such that\n$$(a-b)^2$$\ndivides $ab$ for every distinct\n$$a,b\\in S.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1998"
+  },
+  {
+    "id": "USAMO_1998_P6",
+    "year": 1998,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry",
+      "Combinatorics"
+    ],
+    "statement": "Let\n$$n\\ge5$$\nbe an integer. Find the largest integer $k$ (as a function of $n$) such that there exists a convex $n$-gon\n$$A_1A_2\\cdots A_n$$\nfor which exactly $k$ of the quadrilaterals\n$$A_iA_{i+1}A_{i+2}A_{i+3}$$\nhave an inscribed circle. (Here\n$$A_{n+j}=A_j.$$)",
+    "has_figure": false,
+    "figure_description": "Cyclic indexing of quadrilaterals formed from consecutive vertices of a convex polygon.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1998"
+  }
+]

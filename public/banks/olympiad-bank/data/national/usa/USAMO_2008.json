@@ -1,0 +1,133 @@
+[
+  {
+    "id": "USAMO_2008_P1",
+    "year": 2008,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that for each positive integer $n$, there are pairwise relatively prime integers\n$$k_0,k_1,\\ldots,k_n,$$\nall strictly greater than $1$, such that\n$$k_0k_1\\cdots k_n-1$$\nis the product of two consecutive integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2008"
+  },
+  {
+    "id": "USAMO_2008_P2",
+    "year": 2008,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be an acute, scalene triangle, and let $M,N,$ and $P$ be the midpoints of $BC,CA,$ and $AB$, respectively. Let the perpendicular bisectors of $AB$ and $AC$ intersect ray $AM$ in points $D$ and $E$ respectively, and let lines $BD$ and $CE$ intersect in point $F$, inside triangle $ABC$. Prove that points $A,N,F,$ and $P$ all lie on one circle.",
+    "has_figure": false,
+    "figure_description": "Acute scalene triangle with midpoint and perpendicular-bisector construction.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2008"
+  },
+  {
+    "id": "USAMO_2008_P3",
+    "year": 2008,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics",
+      "Lattice Geometry"
+    ],
+    "statement": "Let $n$ be a positive integer. Denote by $S_n$ the set of points $(x,y)$ with integer coordinates such that\n$$\n|x|+\\left|y+\\frac12\\right|<n.\n$$\nA path is a sequence of distinct points\n$$\n(x_1,y_1),(x_2,y_2),\\ldots,(x_\\ell,y_\\ell)\n$$\nin $S_n$ such that, for\n$$i=2,\\ldots,\\ell,$$\nthe distance between $(x_i,y_i)$ and $(x_{i-1},y_{i-1})$ is $1$. In other words, the points are neighbors in the integer lattice.\n\nProve that the points in $S_n$ cannot be partitioned into fewer than $n$ paths.",
+    "has_figure": false,
+    "figure_description": "Diamond-shaped lattice region partitioned into nearest-neighbor paths.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2008",
+    "statement_note": "Absolute-value expression and lattice-path notation visually verified from uploaded PDF because OCR partially corrupted delimiters. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2008_P4",
+    "year": 2008,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry",
+      "Combinatorics"
+    ],
+    "statement": "Let $P$ be a convex polygon with $n$ sides, where\n$$n\\ge3.$$\nAny set of $n-3$ diagonals of $P$ that do not intersect in the interior of the polygon determines a triangulation of $P$ into $n-2$ triangles. If $P$ is regular and there is a triangulation of $P$ consisting only of isosceles triangles, find all possible values of $n$.",
+    "has_figure": false,
+    "figure_description": "Triangulations of a regular polygon using only isosceles triangles.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2008"
+  },
+  {
+    "id": "USAMO_2008_P5",
+    "year": 2008,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Algorithms"
+    ],
+    "statement": "Three nonnegative real numbers $r_1,r_2,r_3$ are written on a blackboard. These numbers have the property that there exist integers $a_1,a_2,a_3$, not all zero, satisfying\n$$a_1r_1+a_2r_2+a_3r_3=0.$$\nWe are permitted to perform the following operation: find two numbers $x,y$ on the blackboard with\n$$x\\le y,$$\nthen erase $y$ and write $y-x$ in its place. Prove that after a finite number of such operations, we can end up with at least one $0$ on the blackboard.",
+    "has_figure": false,
+    "figure_description": "Blackboard reduction process using pairwise subtraction.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2008"
+  },
+  {
+    "id": "USAMO_2008_P6",
+    "year": 2008,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics",
+      "Graph Theory"
+    ],
+    "statement": "At a certain mathematical conference, every pair of mathematicians are either friends or strangers. At mealtime, every participant eats in one of two large dining rooms. Each mathematician insists upon eating in a room which contains an even number of his or her friends. Prove that the number of ways that the mathematicians may be split between the two rooms is a power of two; that is, it is of the form\n$$2^k$$\nfor some positive integer $k$.",
+    "has_figure": false,
+    "figure_description": "Parity condition on friendship graph partitions into two dining rooms.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2008"
+  }
+]

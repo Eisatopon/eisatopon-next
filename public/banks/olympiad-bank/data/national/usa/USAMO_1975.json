@@ -1,0 +1,109 @@
+[
+  {
+    "id": "USAMO_1975_P1",
+    "year": 1975,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "(a) Prove that\n$$[5x]+[5y] \\geq [3x+y]+[3y+x],$$\nwhere $x,y\\geq0$ and $[u]$ denotes the greatest integer less than or equal to $u$.\n\n(b) Using (a) or otherwise, prove that\n$$\\frac{(5m)!(5n)!}{m!n!(3m+n)!(3n+m)!}$$\nis integral for all positive integers $m$ and $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1975"
+  },
+  {
+    "id": "USAMO_1975_P2",
+    "year": 1975,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $A$, $B$, $C$, and $D$ denote four points in space and $AB$ the distance between $A$ and $B$, and so on. Show that\n$$AC^2 + BD^2 + AD^2 + BC^2 \\geq AB^2 + CD^2.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1975"
+  },
+  {
+    "id": "USAMO_1975_P3",
+    "year": 1975,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "If $P(x)$ denotes a polynomial of degree $n$ such that\n$$P(k)=\\frac{k}{k+1}$$\nfor $k=0,1,2,\\ldots,n$, determine $P(n+1)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1975"
+  },
+  {
+    "id": "USAMO_1975_P4",
+    "year": 1975,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two given circles intersect in two points $P$ and $Q$. Show how to construct a segment $AB$ passing through $P$ and terminating on the circles such that $AP\\cdot PB$ is a maximum.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1975"
+  },
+  {
+    "id": "USAMO_1975_P5",
+    "year": 1975,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Probability",
+      "Combinatorics"
+    ],
+    "statement": "A deck of $n$ playing cards, which contains three aces, is shuffled at random. The cards are then turned up one by one from the top until the second ace appears. Prove that the expected number of cards turned up is\n$$\\frac{n+1}{2}.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1975"
+  }
+]

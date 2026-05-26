@@ -1,0 +1,108 @@
+[
+  {
+    "id": "USAMO_1984_P1",
+    "year": 1984,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "The product of two of the four roots of the quartic equation\n$$x^4-18x^3+kx^2+200x-1984=0$$\nis $-32$. Determine the value of $k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1984"
+  },
+  {
+    "id": "USAMO_1984_P2",
+    "year": 1984,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "The geometric mean of any set of $m$ non-negative numbers is the $m$-th root of their product.\n\n(i) For which positive integers $n$ is there a finite set $S_n$ of $n$ distinct positive integers such that the geometric mean of any subset of $S_n$ is an integer?\n\n(ii) Is there an infinite set $S$ of distinct positive integers such that the geometric mean of any finite subset of $S$ is an integer?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1984"
+  },
+  {
+    "id": "USAMO_1984_P3",
+    "year": 1984,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Points $P,A,B,C,$ and $D$ are five distinct points in space such that\n$$\\angle APB=\\angle BPC=\\angle CPD=\\angle DPA=\\theta,$$\nwhere $\\theta$ is a given acute angle. Determine the greatest and least possible values of\n$$\\angle APC+\\angle BPD.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1984"
+  },
+  {
+    "id": "USAMO_1984_P4",
+    "year": 1984,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A difficult mathematical competition consisted of a Part I and a Part II with a combined total of $28$ problems. Each contestant solved $7$ problems altogether. For each pair of problems, there were exactly two contestants who solved both of them. Prove that there was a contestant who, in Part I, solved either no problems or at least four problems.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1984"
+  },
+  {
+    "id": "USAMO_1984_P5",
+    "year": 1984,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $P(x)$ be a polynomial of degree $3n$ such that\n$$P(0)=P(3)=\\cdots=P(3n)=2,$$\n$$P(1)=P(4)=\\cdots=P(3n-2)=1,$$\n$$P(2)=P(5)=\\cdots=P(3n-1)=0,$$\nand\n$$P(3n+1)=730.$$\nDetermine $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1984"
+  }
+]

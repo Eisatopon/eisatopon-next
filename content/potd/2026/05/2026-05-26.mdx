@@ -1,10 +1,9 @@
 ---
-date: "2026-05-26"
-title: "Ordered Quadruples with Sum 20"
-difficulty: "Medium"
+date: "2026-06-01"
+title: "Letter Dice Puzzle"
+difficulty: "Hard"
 topic: "Combinatorics"
-hint: "Use the substitution a = w, b = w+x, c = w+x+y, d = w+x+y+z where w,x,y,z ≥ 0. Then 4w + 3x + 2y + z = 20. Count non-negative integer solutions, or use generating functions."
-formula: "4w + 3x + 2y + z = 20,\ w,x,y,z \geq 0"
+hint: "Each word uses exactly one letter from each die. Analyze letter co-occurrences: D appears with A, O, G, I, R, E, V. A appears with D, L, T, R, E, N. Find letters that never appear together (must be on different dice). Build the dice by finding a 3-coloring of the letter graph."
 ---
 
-Determine the number of quadruples of positive integers (a, b, c, d) with a ≤ b ≤ c ≤ d such that a + b + c + d = 20.
+Jorge has three four-sided dice with a letter on each side. He rolls all three dice 8 times and tries to write a word using the letters he has rolled. On his sheet are now: DAL, DOR, GAT, IER, ONS, RIT, RED, VEN. Which four letters were on each of the three dice?

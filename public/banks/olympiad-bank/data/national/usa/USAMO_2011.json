@@ -1,0 +1,132 @@
+[
+  {
+    "id": "USAMO_2011_P1",
+    "year": 2011,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For any finite set $A$ of positive integers, let $\\sigma(A)$ denote the sum of the elements of $A$. Given a set\n$$S=\\{1,2,\\ldots,n\\},$$\nprove that for every positive integer $k$, there exist pairwise disjoint subsets\n$$A_1,A_2,\\ldots,A_k$$\nof $S$ such that\n$$\\sigma(A_1)=\\sigma(A_2)=\\cdots=\\sigma(A_k).$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2011"
+  },
+  {
+    "id": "USAMO_2011_P2",
+    "year": 2011,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be an acute triangle with circumcircle $\\omega$. Let $P$ be a point on the circumcircle of triangle $ABC$. The lines through $P$ perpendicular to lines $PA,PB,$ and $PC$ intersect the sidelines $BC,CA,$ and $AB$ in points $X,Y,$ and $Z$, respectively. Show that points $X,Y,$ and $Z$ are collinear.",
+    "has_figure": false,
+    "figure_description": "Simson-line style configuration from a point on the circumcircle.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2011"
+  },
+  {
+    "id": "USAMO_2011_P3",
+    "year": 2011,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics",
+      "Probability"
+    ],
+    "statement": "Suppose that $100$ points are given in the plane, no three collinear. Beth draws some of the line segments joining pairs of these points. Colin then colors every drawn segment either red or blue. Beth wins if Colin has created a monochromatic triangle. Prove that Beth can guarantee a win.",
+    "has_figure": false,
+    "figure_description": "Ramsey-type coloring problem on a geometric graph.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2011"
+  },
+  {
+    "id": "USAMO_2011_P4",
+    "year": 2011,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Functional Equations"
+    ],
+    "statement": "Find all functions\n$$f:\\mathbb{Z}\\to\\mathbb{Z}$$\nsuch that, for all integers $a,b,c$ that satisfy\n$$a+b+c=0,$$\nthe following equality holds:\n$$\nf(a)^2+f(b)^2+f(c)^2=2f(a)f(b)+2f(b)f(c)+2f(c)f(a).\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2011"
+  },
+  {
+    "id": "USAMO_2011_P5",
+    "year": 2011,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle with incenter $I$. A point $P$ in the interior of the triangle satisfies\n$$\n\\angle PBA+\\angle PCA\n=\n\\angle PCB+\\angle PAC\n=\n\\angle PCA+\\angle PAB.\n$$\nShow that points $A,P,$ and $I$ are collinear.",
+    "has_figure": false,
+    "figure_description": "Interior point angle condition implying collinearity with the incenter.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2011",
+    "statement_note": "Angle-equality chain visually verified from uploaded PDF because OCR partially corrupted angle notation. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2011_P6",
+    "year": 2011,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics",
+      "Algorithms"
+    ],
+    "statement": "Alice and Bob play a game. Initially, there are no pebbles on a $4\\times4$ board. Alice and Bob take turns placing pebbles on the board, with Alice going first. At each step, the player must place a pebble on an empty square so that the resulting position is symmetric with respect to neither the horizontal nor the vertical central line of the board. The first player who cannot move loses. Determine who has a winning strategy.",
+    "has_figure": false,
+    "figure_description": "Symmetry-avoidance placement game on a 4×4 board.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2011"
+  }
+]

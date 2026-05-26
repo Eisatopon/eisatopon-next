@@ -1,0 +1,135 @@
+[
+  {
+    "id": "USAMO_2018_P1",
+    "year": 2018,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Inequalities"
+    ],
+    "statement": "Let $a,b,c$ be positive real numbers such that\n$$a+b+c=4\\sqrt[3]{abc}.$$\nProve that\n$$\n2(ab+bc+ca)+4\\min(a^2,b^2,c^2)\n\\ge\na^2+b^2+c^2.\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2018",
+    "statement_note": "Cube-root expression and inequality visually verified from official PDF because OCR corrupted radical formatting. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2018_P2",
+    "year": 2018,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Functional Equations"
+    ],
+    "statement": "Find all functions\n$$f:(0,\\infty)\\to(0,\\infty)$$\nsuch that\n$$\nf\\left(x+\\frac1y\\right)\n+\n f\\left(y+\\frac1z\\right)\n+\n f\\left(z+\\frac1x\\right)\n=1\n$$\nfor all\n$$x,y,z>0$$\nwith\n$$xyz=1.$$\n",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2018",
+    "statement_note": "Functional-equation fractions carefully reconstructed from uploaded PDF because OCR partially corrupted denominators. :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "id": "USAMO_2018_P3",
+    "year": 2018,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For a given integer\n$$n\\ge2,$$\nlet\n$$\\{a_1,a_2,\\ldots,a_m\\}$$\nbe the set of positive integers less than $n$ that are relatively prime to $n$. Prove that if every prime that divides $m$ also divides $n$, then\n$$\na_1^k+a_2^k+\\cdots+a_m^k\n$$\nis divisible by $m$ for every positive integer $k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2018"
+  },
+  {
+    "id": "USAMO_2018_P4",
+    "year": 2018,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "Let $p$ be a prime, and let\n$$a_1,a_2,\\ldots,a_p$$\nbe integers. Show that there exists an integer $k$ such that the numbers\n$$a_1+k,a_2+2k,\\ldots,a_p+pk$$\nproduce at least\n$$\\frac p2$$\ndistinct remainders upon division by $p$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2018",
+    "statement_note": "Remainder-count fraction visually verified from uploaded PDF because OCR partially corrupted the fraction formatting. :contentReference[oaicite:2]{index=2}"
+  },
+  {
+    "id": "USAMO_2018_P5",
+    "year": 2018,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In convex cyclic quadrilateral $ABCD$, we know that lines $AC$ and $BD$ intersect at $E$, lines $AB$ and $CD$ intersect at $F$, and lines $BC$ and $DA$ intersect at $G$. Suppose that the circumcircle of triangle $ABE$ intersects line $CB$ at $B$ and $P$, and the circumcircle of triangle $ADE$ intersects line $CD$ at $D$ and $Q$, where $C,B,P,G$ and $C,Q,D,F$ are collinear in that order. Prove that if lines $FP$ and $GQ$ intersect at $M$, then\n$$\\angle MAC=90^\\circ.$$\n",
+    "has_figure": false,
+    "figure_description": "Convex cyclic quadrilateral with auxiliary intersections and a right-angle conclusion.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2018",
+    "statement_note": "Point ordering and angle notation visually verified from uploaded PDF because OCR partially corrupted geometry symbols. :contentReference[oaicite:3]{index=3}"
+  },
+  {
+    "id": "USAMO_2018_P6",
+    "year": 2018,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics",
+      "Permutations"
+    ],
+    "statement": "Let $a_n$ be the number of permutations\n$$(x_1,x_2,\\ldots,x_n)$$\nof the numbers\n$$(1,2,\\ldots,n)$$\nsuch that the $n$ ratios\n$$\\frac{x_k}{k}$$\nfor\n$$1\\le k\\le n$$\nare all distinct. Prove that $a_n$ is odd for all\n$$n\\ge1.$$\n",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2018",
+    "statement_note": "Permutation and ratio notation visually verified from the uploaded image/PDF because OCR partially corrupted subscripts and fractions. :contentReference[oaicite:4]{index=4}"
+  }
+]

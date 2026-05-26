@@ -1,0 +1,134 @@
+[
+  {
+    "id": "USAMO_2000_P1",
+    "year": 2000,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Analysis",
+      "Functional Equations",
+      "Convexity"
+    ],
+    "statement": "Call a real-valued function $f$ very convex if\n$$\n\\frac{f(x)+f(y)}{2}\n\\ge\nf\\left(\\frac{x+y}{2}\\right)+|x-y|\n$$\nholds for all real numbers $x$ and $y$. Prove that no very convex function exists.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2000",
+    "statement_note": "Functional inequality visually verified from uploaded PDF because OCR partially corrupted the fraction structure. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2000_P2",
+    "year": 2000,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $S$ be the set of all triangles $ABC$ for which\n$$\n5\\left(\\frac1{AP}+\\frac1{BQ}+\\frac1{CR}\\right)\n-\n\\frac3{\\min\\{AP,BQ,CR\\}}\n=\n\\frac6r,\n$$\nwhere $r$ is the inradius and $P,Q,R$ are the points of tangency of the incircle with sides $AB,BC,CA$, respectively. Prove that all triangles in $S$ are isosceles and similar to one another.",
+    "has_figure": false,
+    "figure_description": "Triangle with incircle tangent points on all three sides.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2000"
+  },
+  {
+    "id": "USAMO_2000_P3",
+    "year": 2000,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics",
+      "Optimization"
+    ],
+    "statement": "A game of solitaire is played with $R$ red cards, $W$ white cards, and $B$ blue cards. A player plays all the cards one at a time. With each play he accumulates a penalty. If he plays a blue card, then he is charged a penalty which is the number of white cards still in his hand. If he plays a white card, then he is charged a penalty which is twice the number of red cards still in his hand. If he plays a red card, then he is charged a penalty which is three times the number of blue cards still in his hand. Find, as a function of $R,W,$ and $B$, the minimal total penalty a player can amass and all the ways in which this minimum can be achieved.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2000"
+  },
+  {
+    "id": "USAMO_2000_P4",
+    "year": 2000,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics",
+      "Geometry"
+    ],
+    "statement": "Find the smallest positive integer $n$ such that if $n$ squares of a $1000\\times1000$ chessboard are colored, then there will exist three colored squares whose centers form a right triangle with sides parallel to the edges of the board.",
+    "has_figure": false,
+    "figure_description": "Colored cells on a large square grid producing an axis-parallel right triangle.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2000"
+  },
+  {
+    "id": "USAMO_2000_P5",
+    "year": 2000,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $A_1A_2A_3$ be a triangle and let $\\omega_1$ be a circle in its plane passing through $A_1$ and $A_2$. Suppose there exist circles\n$$\\omega_2,\\omega_3,\\ldots,\\omega_7$$\nsuch that for\n$$k=2,3,\\ldots,7,$$\n$\\omega_k$ is externally tangent to $\\omega_{k-1}$ and passes through $A_k$ and $A_{k+1}$, where\n$$A_{n+3}=A_n$$\nfor all $n\\ge1$. Prove that\n$$\\omega_7=\\omega_1.$$",
+    "has_figure": false,
+    "figure_description": "Cyclic chain of tangent circles associated with a triangle.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2000"
+  },
+  {
+    "id": "USAMO_2000_P6",
+    "year": 2000,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Inequalities",
+      "Algebra"
+    ],
+    "statement": "Let\n$$a_1,b_1,a_2,b_2,\\ldots,a_n,b_n$$\nbe nonnegative real numbers. Prove that\n$$\n\\sum_{i,j=1}^{n}\\min\\{a_ia_j,b_ib_j\\}\n\\le\n\\sum_{i,j=1}^{n}\\min\\{a_ib_j,a_jb_i\\}.\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2000"
+  }
+]

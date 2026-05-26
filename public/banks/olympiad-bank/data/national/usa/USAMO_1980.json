@@ -1,0 +1,108 @@
+[
+  {
+    "id": "USAMO_1980_P1",
+    "year": 1980,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A two-pan balance is inaccurate since its balance arms are of different lengths and its pans are of different weights. Three objects of different weights $A$, $B$, and $C$ are each weighed separately. When placed on the left-hand pan, they are balanced by weights $A_1$, $B_1$, and $C_1$, respectively. When $A$ and $B$ are placed on the right-hand pan, they are balanced by $A_2$ and $B_2$, respectively. Determine the true weight of $C$ in terms of $A_1$, $B_1$, $C_1$, $A_2$, and $B_2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1980"
+  },
+  {
+    "id": "USAMO_1980_P2",
+    "year": 1980,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Determine the maximum number of three-term arithmetic progressions which can be chosen from a sequence of $n$ real numbers\n$$a_1<a_2<\\cdots<a_n.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1980"
+  },
+  {
+    "id": "USAMO_1980_P3",
+    "year": 1980,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra",
+      "Trigonometry"
+    ],
+    "statement": "Let\n$$F_r=x^r\\sin(rA)+y^r\\sin(rB)+z^r\\sin(rC),$$\nwhere $x,y,z,A,B,C$ are real and $A+B+C$ is an integral multiple of $\\pi$. Prove that if $F_1=F_2=0$, then $F_r=0$ for all positive integers $r$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1980"
+  },
+  {
+    "id": "USAMO_1980_P4",
+    "year": 1980,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "The inscribed sphere of a given tetrahedron touches all four faces of the tetrahedron at their respective centroids. Prove that the tetrahedron is regular.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1980"
+  },
+  {
+    "id": "USAMO_1980_P5",
+    "year": 1980,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Inequalities"
+    ],
+    "statement": "Prove that for numbers $a,b,c\\in[0,1]$,\n$$\n\\frac{a}{b+c+1}+\\frac{b}{c+a+1}+\\frac{c}{a+b+1}+(1-a)(1-b)(1-c)\\le1.\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1980"
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "USAMO_2024_P1",
+    "year": 2024,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integers\n$$n\\ge3$$\nsuch that the following property holds: if we list the divisors of $n!$ in increasing order as\n$$1=d_1<d_2<\\cdots<d_k=n!,$$\nthen we have\n$$d_2-d_1\\le d_3-d_2\\le\\cdots\\le d_k-d_{k-1}.$$\n",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2024",
+    "statement_note": "Divisor-ordering notation visually verified from official PDF because OCR partially corrupted subscripts and inequalities. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2024_P2",
+    "year": 2024,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics",
+      "Set Theory"
+    ],
+    "statement": "Let\n$$S_1,S_2,\\ldots,S_{100}$$\nbe finite sets of integers whose intersection is not empty. For each nonempty subset\n$$T\\subseteq\\{S_1,S_2,\\ldots,S_{100}\\},$$\nthe size of the intersection of the sets in $T$ is a multiple of the number of sets in $T$. What is the least possible number of elements that are in at least $50$ sets?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2024"
+  },
+  {
+    "id": "USAMO_2024_P3",
+    "year": 2024,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry",
+      "Triangulations"
+    ],
+    "statement": "Let $m$ be a positive integer. A triangulation of a polygon is called $m$-balanced if its triangles can be colored with $m$ colors in such a way that the sum of the areas of all triangles of the same color is the same for each of the $m$ colors. Find all positive integers $n$ for which there exists an $m$-balanced triangulation of a regular $n$-gon.\n\nNote: A triangulation of a convex polygon $P$ with $n\\ge3$ sides is any partitioning of $P$ into $n-2$ triangles by $n-3$ diagonals of $P$ that do not intersect in the polygon’s interior.",
+    "has_figure": false,
+    "figure_description": "Balanced colorings of triangulations of a regular polygon.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2024",
+    "statement_note": "The OCR contained broken forum markup around 'm-balanced'; wording was visually corrected from the PDF. :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "id": "USAMO_2024_P4",
+    "year": 2024,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $m$ and $n$ be positive integers. A circular necklace contains $mn$ beads, each either red or blue. It turns out that no matter how the necklace is cut into $m$ blocks of $n$ consecutive beads, each block has a distinct number of red beads. Determine, with proof, all possible ordered pairs $(m,n)$.",
+    "has_figure": false,
+    "figure_description": "Circular necklace partitioned into consecutive blocks with distinct red-bead counts.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2024"
+  },
+  {
+    "id": "USAMO_2024_P5",
+    "year": 2024,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Point $D$ is selected inside acute triangle $ABC$ so that\n$$\\angle DAC=\\angle ACB$$\nand\n$$\\angle BDC=90^\\circ+\\angle BAC.$$\nPoint $E$ is chosen on ray $BD$ so that\n$$AE=EC.$$\nLet $M$ be the midpoint of $BC$. Show that line $AB$ is tangent to the circumcircle of triangle $BEM$.",
+    "has_figure": false,
+    "figure_description": "Acute triangle with interior point and tangent circumcircle condition.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2024",
+    "statement_note": "Right-angle expression visually verified from official PDF because OCR partially corrupted the degree symbol. :contentReference[oaicite:2]{index=2}"
+  },
+  {
+    "id": "USAMO_2024_P6",
+    "year": 2024,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics",
+      "Inequalities"
+    ],
+    "statement": "Let $n>2$ be an integer and let\n$$\\ell\\in\\{1,2,\\ldots,n\\}.$$\nA collection\n$$A_1,\\ldots,A_k$$\nof (not necessarily distinct) subsets of\n$$\\{1,2,\\ldots,n\\}$$\nis called $\\ell$-large if\n$$|A_i|\\ge\\ell$$\nfor all\n$$1\\le i\\le k.$$\nFind, in terms of $n$ and $\\ell$, the largest real number $c$ such that the inequality\n$$\n\\sum_{i=1}^{k}\\sum_{j=1}^{k}\n x_ix_j\n \\frac{|A_i\\cap A_j|^2}{|A_i|\\cdot|A_j|}\n\\ge\nc\\left(\\sum_{i=1}^{k}x_i\\right)^2\n$$\nholds for all positive integers $k$, all nonnegative real numbers\n$$x_1,x_2,\\ldots,x_k,$$\nand all $\\ell$-large collections\n$$A_1,A_2,\\ldots,A_k$$\nof subsets of\n$$\\{1,2,\\ldots,n\\}.$$",
+    "has_figure": false,
+    "figure_description": "Intersection-density inequality for collections of subsets.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2024",
+    "statement_note": "Double summation and fraction structure carefully reconstructed from the official PDF because OCR partially corrupted the inequality layout. :contentReference[oaicite:3]{index=3}"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "USAMO_1992_P1",
+    "year": 1992,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find, as a function of $n$, the sum of the digits of\n$$9\\times99\\times9999\\times\\cdots\\times(10^{2^n}-1),$$\nwhere each factor has twice as many digits as the previous one.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1992",
+    "statement_note": "Product notation visually verified from PDF image because OCR corrupted the exponent formatting."
+  },
+  {
+    "id": "USAMO_1992_P2",
+    "year": 1992,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Trigonometry"
+    ],
+    "statement": "Prove that\n$$\n\\frac1{\\cos0^\\circ\\cos1^\\circ}\n+\n\\frac1{\\cos1^\\circ\\cos2^\\circ}\n+\n\\cdots\n+\n\\frac1{\\cos88^\\circ\\cos89^\\circ}\n=\n\\frac{\\cos1^\\circ}{\\sin^21^\\circ}.\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1992",
+    "statement_note": "Trigonometric identity visually verified from PDF image because OCR corrupted degree symbols and fraction layout."
+  },
+  {
+    "id": "USAMO_1992_P3",
+    "year": 1992,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "For a nonempty set $S$ of integers, let $\\sigma(S)$ be the sum of the elements of $S$. Suppose that\n$$A=\\{a_1,a_2,\\ldots,a_{11}\\}$$\nis a set of positive integers with\n$$a_1<a_2<\\cdots<a_{11},$$\nand that, for each positive integer $n\\le1500$, there is a subset $S$ of $A$ for which\n$$\\sigma(S)=n.$$\nWhat is the smallest possible value of $a_{10}$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1992"
+  },
+  {
+    "id": "USAMO_1992_P4",
+    "year": 1992,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Chords $AA'$, $BB'$, $CC'$ of a sphere meet at an interior point $P$ but are not contained in a plane. The sphere through $A,B,C,P$ is tangent to the sphere through $A',B',C',P$. Prove that\n$$AA'=BB'=CC'.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1992"
+  },
+  {
+    "id": "USAMO_1992_P5",
+    "year": 1992,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra",
+      "Complex Numbers"
+    ],
+    "statement": "Let $P(z)$ be a polynomial with complex coefficients which is of degree $1992$ and has distinct zeros. Prove that there exist complex numbers\n$$a_1,a_2,\\ldots,a_{1992}$$\nsuch that $P(z)$ divides the polynomial\n$$\\Bigl(\\cdots((z-a_1)^2-a_2)^2\\cdots-a_{1991}\\Bigr)^2-a_{1992}.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1992",
+    "statement_note": "Nested polynomial expression visually reconstructed from PDF because OCR corrupted the recursive exponent structure."
+  }
+]

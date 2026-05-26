@@ -1,0 +1,109 @@
+[
+  {
+    "id": "USAMO_1981_P1",
+    "year": 1981,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "The measure of a given angle is $\\frac{180^\\circ}{n}$, where $n$ is a positive integer not divisible by $3$. Prove that the angle can be trisected by Euclidean means (straightedge and compass).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1981"
+  },
+  {
+    "id": "USAMO_1981_P2",
+    "year": 1981,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Every pair of communities in a county are linked directly by one mode of transportation: bus, train, or airplane. All three methods of transportation are used in the county, with no community being serviced by all three modes and no three communities being linked pairwise by the same mode. Determine the largest number of communities in this county.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1981"
+  },
+  {
+    "id": "USAMO_1981_P3",
+    "year": 1981,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Trigonometry",
+      "Inequalities"
+    ],
+    "statement": "If $A$, $B$, and $C$ are the angles of a triangle, prove that\n$$\n-2\\le \\sin3A+\\sin3B+\\sin3C\\le \\frac{3\\sqrt3}{2},\n$$\nand determine when equality holds.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1981"
+  },
+  {
+    "id": "USAMO_1981_P4",
+    "year": 1981,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "The sum of the measures of all the face angles of a given complex polyhedral angle is equal to the sum of all its dihedral angles. Prove that the polyhedral angle is a trihedral angle.\n\nNote: A convex polyhedral angle may be formed by drawing rays from an exterior point to all points of a convex polygon.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1981"
+  },
+  {
+    "id": "USAMO_1981_P5",
+    "year": 1981,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Inequalities"
+    ],
+    "statement": "If $x$ is a positive real number and $n$ is a positive integer, prove that\n$$\n[nx] > \\frac{[x]}{1}+\\frac{[2x]}{2}+\\frac{[3x]}{3}+\\cdots+\\frac{[nx]}{n},\n$$\nwhere $[t]$ denotes the greatest integer less than or equal to $t$. For example, $[\\pi]=3$ and $[\\sqrt2]=1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1981"
+  }
+]

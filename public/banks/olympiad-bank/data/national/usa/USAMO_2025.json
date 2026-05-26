@@ -1,0 +1,137 @@
+[
+  {
+    "id": "USAMO_2025_P1",
+    "year": 2025,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $k$ and $d$ be positive integers. Prove that there exists a positive integer $N$ such that for every odd integer\n$$n>N,$$\nthe digits in the base-$2n$ representation of\n$$n^k$$\nare all greater than $d$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2025",
+    "statement_note": "Base-$2n$ notation and exponent formatting visually verified from official PDF. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2025_P2",
+    "year": 2025,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra",
+      "Polynomials"
+    ],
+    "statement": "Let $n$ and $k$ be positive integers with\n$$k<n.$$\nLet $P(x)$ be a polynomial of degree $n$ with real coefficients, nonzero constant term, and no repeated roots. Suppose that for any real numbers\n$$a_0,a_1,\\ldots,a_k$$\nsuch that the polynomial\n$$a_kx^k+\\cdots+a_1x+a_0$$\ndivides $P(x)$, the product\n$$a_0a_1\\cdots a_k$$\nis zero. Prove that $P(x)$ has a nonreal root.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2025",
+    "statement_note": "Polynomial divisor expression visually verified from official PDF because OCR partially corrupted superscripts and ellipsis formatting. :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "id": "USAMO_2025_P3",
+    "year": 2025,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics",
+      "Graph Theory",
+      "Geometry"
+    ],
+    "statement": "Alice the architect and Bob the builder play a game. First, Alice chooses two points $P$ and $Q$ in the plane and a subset $S$ of the plane, which are announced to Bob. Next, Bob marks infinitely many points in the plane, designating each a city. He may not place two cities within distance at most one unit of each other, and no three cities he places may be collinear. Finally, roads are constructed between the cities as follows: for each pair $A,B$ of cities, they are connected with a road along the line segment $AB$ if and only if the following condition holds:\n\nFor every city $C$ distinct from $A$ and $B$, there exists $R\\in S$ such that triangle $PQR$ is directly similar to either triangle $ABC$ or triangle $BAC$.\n\nAlice wins the game if:\n\n(i) the resulting roads allow for travel between any pair of cities via a finite sequence of roads, and\n\n(ii) no two roads cross.\n\nOtherwise, Bob wins. Determine, with proof, which player has a winning strategy.\n\nNote: Triangle $UVW$ is directly similar to triangle $XYZ$ if there exists a sequence of rotations, translations, and dilations sending $U$ to $X$, $V$ to $Y$, and $W$ to $Z$.",
+    "has_figure": false,
+    "figure_description": "Infinite-city geometric graph game with similarity constraints on triangles.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2025",
+    "statement_note": "Similarity-condition wording and geometric-game constraints visually verified from official PDF. :contentReference[oaicite:2]{index=2}"
+  },
+  {
+    "id": "USAMO_2025_P4",
+    "year": 2025,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $H$ be the orthocenter of acute triangle $ABC$, let $F$ be the foot of the altitude from $C$ to $AB$, and let $P$ be the reflection of $H$ across $BC$. Suppose that the circumcircle of triangle $AFP$ intersects line $BC$ at two distinct points $X$ and $Y$. Prove that $C$ is the midpoint of $XY$.",
+    "has_figure": false,
+    "figure_description": "Acute triangle with orthocenter reflection and circumcircle intersection configuration.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2025"
+  },
+  {
+    "id": "USAMO_2025_P5",
+    "year": 2025,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Determine, with proof, all positive integers $k$ such that\n$$\n\\frac1{n+1}\\sum_{i=0}^{n}\\binom{n}{i}^k\n$$\nis an integer for every positive integer $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2025",
+    "statement_note": "The OCR severely corrupted the binomial-sum expression; the formula was visually reconstructed from the official PDF. :contentReference[oaicite:3]{index=3}"
+  },
+  {
+    "id": "USAMO_2025_P6",
+    "year": 2025,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics",
+      "Fair Division"
+    ],
+    "statement": "Let $m$ and $n$ be positive integers with\n$$m\\ge n.$$\nThere are $m$ cupcakes of different flavors arranged around a circle and $n$ people who like cupcakes. Each person assigns a nonnegative real number score to each cupcake, depending on how much they like the cupcake. Suppose that for each person $P$, it is possible to partition the circle of $m$ cupcakes into $n$ groups of consecutive cupcakes so that the sum of $P$’s scores of the cupcakes in each group is at least $1$. Prove that it is possible to distribute the $m$ cupcakes to the $n$ people so that each person $P$ receives cupcakes of total score at least $1$ with respect to $P$.",
+    "has_figure": false,
+    "figure_description": "Fair-division problem on circularly arranged cupcakes.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2025"
+  }
+]

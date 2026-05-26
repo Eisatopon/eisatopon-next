@@ -1,0 +1,133 @@
+[
+  {
+    "id": "USAMO_2023_P1",
+    "year": 2023,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In an acute triangle $ABC$, let $M$ be the midpoint of $BC$. Let $P$ be the foot of the perpendicular from $C$ to $AM$. Suppose that the circumcircle of triangle $ABP$ intersects line $BC$ at two distinct points $B$ and $Q$. Let $N$ be the midpoint of $AQ$. Prove that\n$$NB=NC.$$\n",
+    "has_figure": false,
+    "figure_description": "Acute triangle with midpoint, altitude foot, and circumcircle intersection construction.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2023"
+  },
+  {
+    "id": "USAMO_2023_P2",
+    "year": 2023,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Functional Equations"
+    ],
+    "statement": "Let $\\mathbb{R}^+$ be the set of positive real numbers. Find all functions\n$$f:\\mathbb{R}^+\\to\\mathbb{R}^+$$\nsuch that, for all\n$$x,y\\in\\mathbb{R}^+,$$\n$$f(xy+f(x))=xf(y)+2.$$\n",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2023"
+  },
+  {
+    "id": "USAMO_2023_P3",
+    "year": 2023,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics",
+      "Tilings"
+    ],
+    "statement": "Consider an $n\\times n$ board of unit squares for some odd positive integer $n$. We say that a collection $C$ of identical dominoes is a maximal grid-aligned configuration on the board if $C$ consists of\n$$\\frac{n^2-1}{2}$$\ndominoes where each domino covers exactly two neighboring squares and the dominoes do not overlap; thus $C$ covers all but one square on the board. We are allowed to slide (but not rotate) a domino on the board to cover the uncovered square, resulting in a new maximal grid-aligned configuration with another square uncovered. Let $k(C)$ be the number of distinct maximal grid-aligned configurations obtainable from $C$ by repeatedly sliding dominoes. Find all possible values of $k(C)$ as a function of $n$.",
+    "has_figure": false,
+    "figure_description": "Domino sliding process on an odd-sized square board with one uncovered square.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2023",
+    "statement_note": "Fraction and domino-configuration wording visually verified from official PDF because OCR partially corrupted formatting. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2023_P4",
+    "year": 2023,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics",
+      "Game Theory"
+    ],
+    "statement": "A positive integer $a$ is selected, and some positive integers are written on a board. Alice and Bob play the following game. On Alice’s turn, she must replace some integer $n$ on the board with $n+a$, and on Bob’s turn he must replace some even integer $n$ on the board with\n$$\\frac n2.$$\nAlice goes first and they alternate turns. If on his turn Bob has no valid moves, the game ends.\n\nAfter analyzing the integers on the board, Bob realizes that, regardless of what moves Alice makes, he will be able to force the game to end eventually. Show that, in fact, for this value of $a$ and these integers on the board, the game is guaranteed to end regardless of Alice’s or Bob’s moves.",
+    "has_figure": false,
+    "figure_description": "Integer replacement game involving addition and halving operations.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2023"
+  },
+  {
+    "id": "USAMO_2023_P5",
+    "year": 2023,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics",
+      "Arithmetic Progressions"
+    ],
+    "statement": "Let $n\\ge3$ be an integer. We say that an arrangement of the numbers\n$$1,2,\\ldots,n^2$$\nin an $n\\times n$ table is row-valid if the numbers in each row can be permuted to form an arithmetic progression, and column-valid if the numbers in each column can be permuted to form an arithmetic progression. For what values of $n$ is it possible to transform any row-valid arrangement into a column-valid arrangement by permuting the numbers in each row?",
+    "has_figure": false,
+    "figure_description": "Arithmetic-progression conditions on rows and columns of a square table.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2023"
+  },
+  {
+    "id": "USAMO_2023_P6",
+    "year": 2023,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle with incenter $I$ and excenters $I_a,I_b,$ and $I_c$ opposite $A,B,$ and $C$, respectively. Let $D$ be an arbitrary point on the circumcircle of triangle $ABC$ that does not lie on any of the lines $II_a$, $I_bI_c$, or $BC$. Suppose the circumcircles of triangles $DII_a$ and $DI_bI_c$ intersect at two distinct points $D$ and $F$. If $E$ is the intersection of lines $DF$ and $BC$, prove that\n$$\\angle BAD=\\angle EAC.$$\n",
+    "has_figure": false,
+    "figure_description": "Triangle with incenter, excenters, and intersecting auxiliary circumcircles.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2023",
+    "statement_note": "Excenter notation and angle equality visually verified from official PDF because OCR partially corrupted subscripts and geometry notation. :contentReference[oaicite:1]{index=1}"
+  }
+]

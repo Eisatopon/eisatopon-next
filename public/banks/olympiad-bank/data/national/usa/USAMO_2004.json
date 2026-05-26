@@ -1,0 +1,133 @@
+[
+  {
+    "id": "USAMO_2004_P1",
+    "year": 2004,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry",
+      "Inequalities"
+    ],
+    "statement": "Let $ABCD$ be a quadrilateral circumscribed about a circle, whose interior and exterior angles are at least $60^\\circ$. Prove that\n$$\n\\frac13|AB^3-AD^3|\n\\le\n|BC^3-CD^3|\n\\le\n3|AB^3-AD^3|.\n$$\nWhen does equality hold?",
+    "has_figure": false,
+    "figure_description": "Tangential quadrilateral with cubic side-length inequality.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2004",
+    "statement_note": "Absolute-value and cubic expressions visually verified from uploaded PDF. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2004_P2",
+    "year": 2004,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory",
+      "Set Theory"
+    ],
+    "statement": "Suppose $a_1,\\ldots,a_n$ are integers whose greatest common divisor is $1$. Let $S$ be a set of integers with the following properties:\n\n(a) For $i=1,\\ldots,n$, $a_i\\in S$.\n\n(b) For $i,j=1,\\ldots,n$ (not necessarily distinct),\n$$a_i-a_j\\in S.$$\n\n(c) For any integers $x,y\\in S$, if\n$$x+y\\in S,$$\nthen\n$$x-y\\in S.$$\n\nProve that $S$ must be equal to the set of all integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2004"
+  },
+  {
+    "id": "USAMO_2004_P3",
+    "year": 2004,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry",
+      "Dissections"
+    ],
+    "statement": "For what real values of $k>0$ is it possible to dissect a $1\\times k$ rectangle into two similar, but noncongruent, polygons?",
+    "has_figure": false,
+    "figure_description": "Dissection of a rectangle into two similar noncongruent polygons.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2004"
+  },
+  {
+    "id": "USAMO_2004_P4",
+    "year": 2004,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Game Theory",
+      "Combinatorics"
+    ],
+    "statement": "Alice and Bob play a game on a $6\\times6$ grid. On his or her turn, a player chooses a rational number not yet appearing in the grid and writes it in an empty square of the grid. Alice goes first and then the players alternate. When all squares have numbers written in them, in each row, the square with the greatest number in that row is colored black. Alice wins if she can then draw a line from the top of the grid to the bottom of the grid that stays in black squares, and Bob wins if she can’t. (If two squares share a vertex, Alice can draw a line from one to the other that stays in those two squares.) Find, with proof, a winning strategy for one of the players.",
+    "has_figure": false,
+    "figure_description": "Path game on a 6×6 grid using row maxima.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2004"
+  },
+  {
+    "id": "USAMO_2004_P5",
+    "year": 2004,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Inequalities"
+    ],
+    "statement": "Let $a,b,c>0$. Prove that\n$$\n(a^5-a^2+3)(b^5-b^2+3)(c^5-c^2+3)\n\\ge\n(a+b+c)^3.\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2004"
+  },
+  {
+    "id": "USAMO_2004_P6",
+    "year": 2004,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A circle $\\omega$ is inscribed in a quadrilateral $ABCD$. Let $I$ be the center of $\\omega$. Suppose that\n$$\n(AI+DI)^2+(BI+CI)^2=(AB+CD)^2.\n$$\nProve that $ABCD$ is an isosceles trapezoid.",
+    "has_figure": false,
+    "figure_description": "Tangential quadrilateral with incenter distance condition.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2004"
+  }
+]

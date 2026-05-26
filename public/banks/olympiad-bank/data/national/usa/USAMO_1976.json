@@ -1,0 +1,107 @@
+[
+  {
+    "id": "USAMO_1976_P1",
+    "year": 1976,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "(a) Suppose that each square of a $4\\times7$ chessboard is colored either black or white. Prove that with any such coloring, the board must contain a rectangle (formed by the horizontal and vertical lines of the board) whose four distinct corner squares are all of the same color.\n\n(b) Exhibit a black-white coloring of a $4\\times6$ board in which the four corner squares of every rectangle are not all of the same color.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1976"
+  },
+  {
+    "id": "USAMO_1976_P2",
+    "year": 1976,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "If $A$ and $B$ are fixed points on a given circle and $XY$ is a variable diameter of the same circle, determine the locus of the point of intersection of lines $AX$ and $BY$. You may assume that $AB$ is not a diameter.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1976"
+  },
+  {
+    "id": "USAMO_1976_P3",
+    "year": 1976,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine all integral solutions of\n$$a^2+b^2+c^2=a^2b^2.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1976"
+  },
+  {
+    "id": "USAMO_1976_P4",
+    "year": 1976,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "If the sum of the lengths of the six edges of a trirectangular tetrahedron $PABC$ (i.e., $\\angle APB=\\angle BPC=\\angle CPA=90^\\circ$) is $S$, determine its maximum volume.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1976"
+  },
+  {
+    "id": "USAMO_1976_P5",
+    "year": 1976,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "If $P(x)$, $Q(x)$, $R(x)$, and $S(x)$ are polynomials such that\n$$P(x^5)+xQ(x^5)+x^2R(x^5)=(x^4+x^3+x^2+x+1)S(x),$$\nprove that $x-1$ is a factor of $P(x)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1976"
+  }
+]

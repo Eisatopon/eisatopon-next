@@ -1,0 +1,133 @@
+[
+  {
+    "id": "USAMO_2009_P1",
+    "year": 2009,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given circles $\\omega_1$ and $\\omega_2$ intersecting at points $X$ and $Y$, let $\\ell_1$ be a line through the center of $\\omega_1$ intersecting $\\omega_2$ at points $P$ and $Q$ and let $\\ell_2$ be a line through the center of $\\omega_2$ intersecting $\\omega_1$ at points $R$ and $S$. Prove that if $P,Q,R,$ and $S$ lie on a circle then the center of this circle lies on line $XY$.",
+    "has_figure": false,
+    "figure_description": "Two intersecting circles with secant lines through their centers.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2009"
+  },
+  {
+    "id": "USAMO_2009_P2",
+    "year": 2009,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics",
+      "Additive Number Theory"
+    ],
+    "statement": "Let $n$ be a positive integer. Determine the size of the largest subset of\n$$\\{-n,-n+1,\\ldots,n-1,n\\}$$\nwhich does not contain three elements $a,b,c$ (not necessarily distinct) satisfying\n$$a+b+c=0.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2009"
+  },
+  {
+    "id": "USAMO_2009_P3",
+    "year": 2009,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics",
+      "Tilings"
+    ],
+    "statement": "We define a chessboard polygon to be a polygon whose sides are situated along lines of the form\n$$x=a$$\nor\n$$y=b,$$\nwhere $a$ and $b$ are integers. These lines divide the interior into unit squares, shaded alternately grey and white so that adjacent squares have different colors.\n\nTo tile a chessboard polygon by dominoes is to exactly cover the polygon by non-overlapping $1\\times2$ rectangles. Finally, a tasteful tiling is one which avoids two specified local configurations.\n\n(a) Prove that if a chessboard polygon can be tiled by dominoes, then it can be done so tastefully.\n\n(b) Prove that such a tasteful tiling is unique.",
+    "has_figure": true,
+    "figure_description": "Domino tilings of chessboard polygons with forbidden local configurations.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2009",
+    "statement_note": "Problem references embedded tiling diagrams shown in the official PDF. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2009_P4",
+    "year": 2009,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Inequalities"
+    ],
+    "statement": "For\n$$n\\ge2,$$\nlet $a_1,a_2,\\ldots,a_n$ be positive real numbers such that\n$$\n(a_1+a_2+\\cdots+a_n)\n\\left(\\frac1{a_1}+\\frac1{a_2}+\\cdots+\\frac1{a_n}\\right)\n\\le\n\\left(n+\\frac12\\right)^2.\n$$\nProve that\n$$\n\\max(a_1,a_2,\\ldots,a_n)\n\\le\n4\\min(a_1,a_2,\\ldots,a_n).\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2009",
+    "statement_note": "Inequality carefully reconstructed from uploaded PDF because OCR partially corrupted the parenthesized reciprocal sum. :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "id": "USAMO_2009_P5",
+    "year": 2009,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Trapezoid $ABCD$, with\n$$AB\\parallel CD,$$\nis inscribed in circle $\\omega$ and point $G$ lies inside triangle $BCD$. Rays $AG$ and $BG$ meet $\\omega$ again at points $P$ and $Q$, respectively. Let the line through $G$ parallel to $AB$ intersect $BD$ and $BC$ at points $R$ and $S$, respectively. Prove that quadrilateral $PQRS$ is cyclic if and only if $BG$ bisects\n$$\\angle CBD.$$",
+    "has_figure": false,
+    "figure_description": "Cyclic trapezoid with interior point and parallel-line construction.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2009"
+  },
+  {
+    "id": "USAMO_2009_P6",
+    "year": 2009,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Let\n$$s_1,s_2,s_3,\\ldots$$\nbe an infinite, nonconstant sequence of rational numbers. Suppose that\n$$t_1,t_2,t_3,\\ldots$$\nis also an infinite, nonconstant sequence of rational numbers with the property that\n$$(s_i-s_j)(t_i-t_j)$$\nis an integer for all $i$ and $j$. Prove that there exists a rational number $r$ such that\n$$(s_i-s_j)r$$\nand\n$$\\frac{t_i-t_j}{r}$$\nare integers for all $i$ and $j$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2009"
+  }
+]

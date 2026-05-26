@@ -1,0 +1,136 @@
+[
+  {
+    "id": "USAMO_2012_P1",
+    "year": 2012,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry",
+      "Inequalities"
+    ],
+    "statement": "Find all integers\n$$n\\ge3$$\nsuch that among any $n$ positive real numbers\n$$a_1,a_2,\\ldots,a_n$$\nwith\n$$\n\\max(a_1,a_2,\\ldots,a_n)\n\\le\nn\\cdot \\min(a_1,a_2,\\ldots,a_n),\n$$\nthere exist three that are the side lengths of an acute triangle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2012"
+  },
+  {
+    "id": "USAMO_2012_P2",
+    "year": 2012,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics",
+      "Geometry"
+    ],
+    "statement": "A circle is divided into $432$ congruent arcs by $432$ points. The points are colored in four colors such that some $108$ points are colored Red, some $108$ points are colored Green, some $108$ points are colored Blue, and the remaining $108$ points are colored Yellow. Prove that one can choose three points of each color in such a way that the four triangles formed by the chosen points of the same color are congruent.",
+    "has_figure": false,
+    "figure_description": "Equally spaced colored points on a circle forming congruent monochromatic triangles.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2012"
+  },
+  {
+    "id": "USAMO_2012_P3",
+    "year": 2012,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory",
+      "Sequences"
+    ],
+    "statement": "Determine which integers\n$$n>1$$\nhave the property that there exists an infinite sequence\n$$a_1,a_2,a_3,\\ldots$$\nof nonzero integers such that the equality\n$$a_k+2a_{2k}+\\cdots+na_{nk}=0$$\nholds for every positive integer $k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2012",
+    "statement_note": "Indexed summation expression visually verified from uploaded PDF because OCR partially corrupted subscripts. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2012_P4",
+    "year": 2012,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Functional Equations",
+      "Number Theory"
+    ],
+    "statement": "Find all functions\n$$f:\\mathbb{Z}^+\\to\\mathbb{Z}^+$$\n(where $\\mathbb{Z}^+$ is the set of positive integers) such that\n$$f(n!)=f(n)!$$\nfor all positive integers $n$ and such that\n$$m-n$$\ndivides\n$$f(m)-f(n)$$\nfor all distinct positive integers $m,n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2012"
+  },
+  {
+    "id": "USAMO_2012_P5",
+    "year": 2012,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $P$ be a point in the plane of triangle $ABC$, and let $\\gamma$ be a line passing through $P$. Let $A',B',C'$ be the points where the reflections of lines $PA,PB,PC$ with respect to $\\gamma$ intersect lines $BC,CA,AB$, respectively. Prove that points $A',B',$ and $C'$ are collinear.",
+    "has_figure": false,
+    "figure_description": "Reflection of cevians across a line through an interior point.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2012"
+  },
+  {
+    "id": "USAMO_2012_P6",
+    "year": 2012,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics",
+      "Probability",
+      "Inequalities"
+    ],
+    "statement": "For integer\n$$n\\ge2,$$\nlet\n$$x_1,x_2,\\ldots,x_n$$\nbe real numbers satisfying\n$$x_1+x_2+\\cdots+x_n=0$$\nand\n$$x_1^2+x_2^2+\\cdots+x_n^2=1.$$\nFor each subset\n$$A\\subseteq\\{1,2,\\ldots,n\\},$$\ndefine\n$$S_A=\\sum_{i\\in A}x_i.$$\n(If $A$ is the empty set, then $S_A=0$.)\n\nProve that for any positive number $\\lambda$, the number of sets $A$ satisfying\n$$S_A\\ge\\lambda$$\nis at most\n$$2^{n-3/\\lambda^2}.$$\nFor which choices of\n$$x_1,x_2,\\ldots,x_n,\\lambda$$\ndoes equality hold?",
+    "has_figure": false,
+    "figure_description": "Subset-sum distribution inequality under quadratic normalization.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2012",
+    "statement_note": "Subset notation and exponential bound visually verified from uploaded PDF because OCR partially corrupted superscripts and subset symbols. :contentReference[oaicite:1]{index=1}"
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "USAMO_2006_P1",
+    "year": 2006,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p$ be a prime number and let $s$ be an integer with $0<s<p$. Prove that there exist integers $m$ and $n$ with\n$$0<m<n<p$$\nand\n$$\n\\left\\{\\frac{sm}{p}\\right\\}\n<\n\\left\\{\\frac{sn}{p}\\right\\}\n<\n\\frac{s}{p}\n$$\nif and only if $s$ is not a divisor of $p-1$.\n\nNote: For $x$ a real number, let $\\lfloor x\\rfloor$ denote the greatest integer less than or equal to $x$, and let\n$$\\{x\\}=x-\\lfloor x\\rfloor$$\ndenote the fractional part of $x$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2006",
+    "statement_note": "Fractional-part and floor-function notation visually verified from uploaded PDF because OCR corrupted braces/symbols. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2006_P2",
+    "year": 2006,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics",
+      "Optimization"
+    ],
+    "statement": "For a given positive integer $k$ find, in terms of $k$, the minimum value of $N$ for which there is a set of $2k+1$ distinct positive integers that has sum greater than $N$ but every subset of size $k$ has sum at most\n$$\\frac N2.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2006"
+  },
+  {
+    "id": "USAMO_2006_P3",
+    "year": 2006,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory",
+      "Polynomials"
+    ],
+    "statement": "For integral $m$, let $p(m)$ be the greatest prime divisor of $m$. By convention, we set\n$$p(\\pm1)=1$$\nand\n$$p(0)=\\infty.$$\nFind all polynomials $f$ with integer coefficients such that the sequence\n$$\\left\\{p\\bigl(f(n^2)\\bigr)-2n\\right\\}_{n\\ge0}$$\nis bounded above. (In particular, this requires\n$$f(n^2)\\ne0$$\nfor $n\\ge0$.)",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2006",
+    "statement_note": "Polynomial/divisor notation carefully reconstructed from uploaded PDF because OCR corrupted nested parentheses and superscripts. :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "id": "USAMO_2006_P4",
+    "year": 2006,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Find all positive integers $n$ such that there are\n$$k\\ge2$$\npositive rational numbers\n$$a_1,a_2,\\ldots,a_k$$\nsatisfying\n$$a_1+a_2+\\cdots+a_k=a_1a_2\\cdots a_k=n.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2006"
+  },
+  {
+    "id": "USAMO_2006_P5",
+    "year": 2006,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "A mathematical frog jumps along the number line. The frog starts at $1$, and jumps according to the following rule: if the frog is at integer $n$, then it can jump either to\n$$n+1$$\nor to\n$$n+2^{m_n+1},$$\nwhere $2^{m_n}$ is the largest power of $2$ that is a factor of $n$. Show that if\n$$k\\ge2$$\nis a positive integer and $i$ is a nonnegative integer, then the minimum number of jumps needed to reach $2^ik$ is greater than the minimum number of jumps needed to reach $2^i$.",
+    "has_figure": false,
+    "figure_description": "Jump process on the integers controlled by powers of two.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2006",
+    "statement_note": "Power-of-two jump rule visually verified from uploaded PDF because OCR corrupted superscripts/subscripts. :contentReference[oaicite:2]{index=2}"
+  },
+  {
+    "id": "USAMO_2006_P6",
+    "year": 2006,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a quadrilateral, and let $E$ and $F$ be points on sides $AD$ and $BC$, respectively, such that\n$$\\frac{AE}{ED}=\\frac{BF}{FC}.$$\nRay $FE$ meets rays $BA$ and $CD$ at $S$ and $T$, respectively. Prove that the circumcircles of triangles $SAE$, $SBF$, $TCF$, and $TDE$ pass through a common point.",
+    "has_figure": false,
+    "figure_description": "Quadrilateral with proportional side points and four related circumcircles.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2006"
+  }
+]

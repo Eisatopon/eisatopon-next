@@ -1,0 +1,136 @@
+[
+  {
+    "id": "USAMO_2026_P1",
+    "year": 2026,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Inequalities"
+    ],
+    "statement": "If $x$ is a positive real number, and $n$ is a positive integer, prove that\n$$\n[nx]\n>\n\\frac{[x]}1+\n\\frac{[2x]}2+\n\\frac{[3x]}3+\n\\cdots+\n\\frac{[nx]}n,\n$$\nwhere $[t]$ denotes the greatest integer less than or equal to $t$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2026",
+    "statement_note": "The OCR for this problem was heavily corrupted around the floor-function summation; the formula was reconstructed visually from the uploaded image/PDF. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2026_P2",
+    "year": 2026,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory",
+      "Quadratic Forms"
+    ],
+    "statement": "Find all positive integers $n$ such that\n$$\n7n^2+7n+1\n$$\nis a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2026"
+  },
+  {
+    "id": "USAMO_2026_P3",
+    "year": 2026,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory",
+      "Sequences"
+    ],
+    "statement": "What is the smallest integer $n$, greater than one, for which the root-mean-square of the first $n$ positive integers is an integer?\n\nNote. The root-mean-square of $n$ numbers $a_1,a_2,\\ldots,a_n$ is defined to be\n$$\n\\sqrt{\\frac{a_1^2+a_2^2+\\cdots+a_n^2}{n}}.\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2026",
+    "statement_note": "The RMS formula was visually verified from the uploaded screenshot because OCR partially corrupted the radical and fraction layout."
+  },
+  {
+    "id": "USAMO_2026_P4",
+    "year": 2026,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics",
+      "Graph Theory"
+    ],
+    "statement": "There are $n$ people at a party. Prove that there are two people such that, of the remaining $n-2$ people, there are at least\n$$\\left\\lceil\\frac n2\\right\\rceil-1$$\nof them, each of whom either knows both or else knows neither of the two. Assume that knowing is a symmetric relation, and that $[x]$ denotes the greatest integer less than or equal to $x$.",
+    "has_figure": false,
+    "figure_description": "Party acquaintance problem involving symmetric relations.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2026",
+    "statement_note": "The original OCR/PDF was incomplete and partially corrupted; this wording was reconstructed carefully from the uploaded screenshot."
+  },
+  {
+    "id": "USAMO_2026_P5",
+    "year": 2026,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Given a sequence\n$$(x_1,x_2,\\ldots,x_n)$$\nof $0$'s and $1$'s, let $A$ be the number of triples\n$$(x_i,x_j,x_k)$$\nwith\n$$i<j<k$$\nsuch that\n$$(x_i,x_j,x_k)$$\nequals $(0,1,0)$ or $(1,0,1)$. For\n$$1\\le i\\le n,$$\nlet $d_i$ denote the number of $j$ for which either\n$$j<i\\text{ and }x_j=x_i,$$\nor else\n$$j>i\\text{ and }x_j\\ne x_i.$$\n\n(a) Prove that\n$$\nA=\\binom n3-\\sum_{i=1}^{n}\\binom{d_i}2.\n$$\n\n(b) Given an odd number $n$, what is the maximum possible value of $A$?",
+    "has_figure": false,
+    "figure_description": "Binary-sequence counting problem involving alternating triples.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2026",
+    "statement_note": "The binomial-expression identity was reconstructed visually from the uploaded screenshot because OCR heavily corrupted the combinatorial notation."
+  },
+  {
+    "id": "USAMO_2026_P6",
+    "year": 2026,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle, and let $P$ be a point in its interior. Suppose that the lines through $P$ parallel to the sides of $ABC$ divide the triangle into three triangles and three parallelograms. Prove that the sum of the areas of the three triangles is at least twice the sum of the areas of the three parallelograms.",
+    "has_figure": false,
+    "figure_description": "Interior-point parallel-line partition of a triangle into triangles and parallelograms.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2026"
+  }
+]

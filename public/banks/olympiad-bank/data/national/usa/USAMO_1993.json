@@ -1,0 +1,111 @@
+[
+  {
+    "id": "USAMO_1993_P1",
+    "year": 1993,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra",
+      "Inequalities"
+    ],
+    "statement": "For each integer $n\\ge2$, determine, with proof, which of the two positive real numbers $a$ and $b$ satisfying\n$$a^n=a+1,\\qquad b^{2n}=b+3a$$\nis larger.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1993"
+  },
+  {
+    "id": "USAMO_1993_P2",
+    "year": 1993,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a convex quadrilateral such that diagonals $AC$ and $BD$ intersect at right angles, and let $E$ be their intersection. Prove that the reflections of $E$ across $AB$, $BC$, $CD$, $DA$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1993"
+  },
+  {
+    "id": "USAMO_1993_P3",
+    "year": 1993,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Functional Equations",
+      "Analysis"
+    ],
+    "statement": "Consider functions $f:[0,1]\\to\\mathbb{R}$ which satisfy\n\n(i) $f(x)\\ge0$ for all $x\\in[0,1]$,\n\n(ii) $f(1)=1$,\n\n(iii) $f(x)+f(y)\\le f(x+y)$ whenever $x,y$, and $x+y$ are all in $[0,1]$.\n\nFind, with proof, the smallest constant $c$ such that\n$$f(x)\\le cx$$\nfor every function $f$ satisfying (i)-(iii) and every $x\\in[0,1]$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1993"
+  },
+  {
+    "id": "USAMO_1993_P4",
+    "year": 1993,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Recurrence Relations"
+    ],
+    "statement": "Let $a,b$ be odd positive integers. Define the sequence $(f_n)$ by putting $f_1=a$, $f_2=b$, and by letting $f_n$ for $n\\ge3$ be the greatest odd divisor of $f_{n-1}+f_{n-2}$. Show that $f_n$ is constant for $n$ sufficiently large and determine the eventual value as a function of $a$ and $b$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1993"
+  },
+  {
+    "id": "USAMO_1993_P5",
+    "year": 1993,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Inequalities",
+      "Sequences"
+    ],
+    "statement": "Let $a_0,a_1,a_2,\\ldots$ be a sequence of positive real numbers satisfying\n$$a_{i-1}a_{i+1}\\le a_i^2$$\nfor $i=1,2,3,\\ldots$. (Such a sequence is said to be log concave.) Show that for each $n>1$,\n$$\n\\frac{a_0+\\cdots+a_n}{n+1}\\cdot\n\\frac{a_1+\\cdots+a_{n-1}}{n-1}\n\\ge\n\\frac{a_0+\\cdots+a_{n-1}}{n}\\cdot\n\\frac{a_1+\\cdots+a_n}{n}.\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1993"
+  }
+]

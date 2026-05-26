@@ -1,0 +1,110 @@
+[
+  {
+    "id": "USAMO_1990_P1",
+    "year": 1990,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A certain state issues license plates consisting of six digits (from $0$ to $9$). The state requires that any two license plates differ in at least two places. (For instance, the numbers $027592$ and $020592$ cannot both be used.) Determine, with proof, the maximum number of distinct license plates that the state can use.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1990"
+  },
+  {
+    "id": "USAMO_1990_P2",
+    "year": 1990,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A sequence of functions $\\{f_n(x)\\}$ is defined recursively as follows:\n$$f_1(x)=\\sqrt{x^2+48},$$\nand\n$$f_{n+1}(x)=\\sqrt{x^2+6f_n(x)}\\qquad \\text{for } n\\ge1.$$\n(Recall that $\\sqrt{\\phantom{x}}$ is understood to represent the positive square root.) For each positive integer $n$, find all real solutions of the equation\n$$f_n(x)=2x.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1990",
+    "statement_note": "Recursive radical notation visually verified from PDF image because OCR partially corrupted square-root formatting."
+  },
+  {
+    "id": "USAMO_1990_P3",
+    "year": 1990,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Suppose that necklace $A$ has $14$ beads and necklace $B$ has $19$. Prove that for any odd integer\n$$n\\ge1,$$\nthere is a way to number each of the $33$ beads with an integer from the sequence\n$$\\{n,n+1,n+2,\\ldots,n+32\\}$$\nso that each integer is used once, and adjacent beads correspond to relatively prime integers.\n\n(Here a “necklace” is viewed as a circle in which each bead is adjacent to two other beads.)",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1990"
+  },
+  {
+    "id": "USAMO_1990_P4",
+    "year": 1990,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics",
+      "Number Systems"
+    ],
+    "statement": "Find, with proof, the number of positive integers whose base-$n$ representation consists of distinct digits with the property that, except for the leftmost digit, every digit differs by $\\pm1$ from some digit further to the left.\n\n(Your answer should be an explicit function of $n$ in simplest form.)",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1990"
+  },
+  {
+    "id": "USAMO_1990_P5",
+    "year": 1990,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "An acute-angled triangle $ABC$ is given in the plane. The circle with diameter $AB$ intersects altitude $CC'$ and its extension at points $M$ and $N$, and the circle with diameter $AC$ intersects altitude $BB'$ and its extensions at points $P$ and $Q$. Prove that the points $M,N,P,Q$ lie on a common circle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1990"
+  }
+]

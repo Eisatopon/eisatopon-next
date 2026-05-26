@@ -1,0 +1,130 @@
+[
+  {
+    "id": "USAMO_2014_P1",
+    "year": 2014,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a,b,c,d$ be odd positive integers such that\n$$0<a<b<c<d$$\nand\n$$ad=bc.$$\nProve that if\n$$a+b+c+d$$\nis a perfect square, then so is\n$$abcd.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2014"
+  },
+  {
+    "id": "USAMO_2014_P2",
+    "year": 2014,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Quadrilateral $ABCD$ is inscribed in circle $\\omega$ with\n$$\\angle CAD=\\angle CBD.$$\nPoint $P$ lies on segment $BD$. Lines $AP$ and $CD$ intersect at $Q$, and lines $BP$ and $AC$ intersect at $R$. Prove that the circumcircles of triangles $PQR$ and $CQB$ are tangent.",
+    "has_figure": false,
+    "figure_description": "Cyclic quadrilateral with intersecting cevians and tangent circumcircles.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2014"
+  },
+  {
+    "id": "USAMO_2014_P3",
+    "year": 2014,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics",
+      "Optimization"
+    ],
+    "statement": "For a pair of nonnegative integers $(a,b)$, let\n$$N(a,b)$$\ndenote the number of pairs $(A,B)$ of subsets of\n$$\\{0,1,2,\\ldots,n\\}$$\nsuch that\n$$|A|=a,\\ |B|=b,$$\nand every member of $A$ is less than every member of $B$. Determine the maximum value of\n$$N(a,b)$$\nas $(a,b)$ ranges over all pairs of nonnegative integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2014",
+    "statement_note": "Set-cardinality notation visually verified from uploaded PDF because OCR partially corrupted subset formatting. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2014_P4",
+    "year": 2014,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry",
+      "Complex Numbers"
+    ],
+    "statement": "Let $P$ be a point inside parallelogram $ABCD$. Prove that\n$$\n\\angle PAB+\\angle PCD\n=\n\\angle PBC+\\angle PDA.\n$$",
+    "has_figure": false,
+    "figure_description": "Interior-point angle relation inside a parallelogram.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2014"
+  },
+  {
+    "id": "USAMO_2014_P5",
+    "year": 2014,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics",
+      "Graph Theory"
+    ],
+    "statement": "A theory consists of a finite set of laws and a finite set of theorems. Each law and each theorem is a finite string of symbols. A theorem is said to be simple if its proof consists only of laws, and otherwise it is said to be complex. A complex theorem can be used in the proof of another theorem.\n\nSuppose that:\n\n(i) every theorem can be proved;\n\n(ii) every theorem has exactly one proof;\n\n(iii) every proof uses at most one complex theorem.\n\nShow that the number of theorems is at most the number of laws.",
+    "has_figure": false,
+    "figure_description": "Abstract proof-dependency structure between laws and theorems.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2014"
+  },
+  {
+    "id": "USAMO_2014_P6",
+    "year": 2014,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory",
+      "Recurrence Relations"
+    ],
+    "statement": "Let\n$$a_0,a_1,a_2,\\ldots$$\nbe a sequence of integers satisfying\n$$a_{n+2}=a_{n+1}+a_n$$\nfor all integers $n\\ge0$. Suppose that there exists a positive integer $N$ such that\n$$N$$\ndivides\n$$a_n^2+a_{n+1}^2$$\nfor every nonnegative integer $n$. Prove that $N\\le5$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2014"
+  }
+]

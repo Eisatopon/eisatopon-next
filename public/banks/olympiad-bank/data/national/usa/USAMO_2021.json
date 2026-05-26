@@ -1,0 +1,137 @@
+[
+  {
+    "id": "USAMO_2021_P1",
+    "year": 2021,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Rectangles $BCC_1B_2$, $CAA_1C_2$, and $ABB_1A_2$ are erected outside an acute triangle $ABC$. Suppose that\n$$\n\\angle BC_1C + \\angle CA_1A + \\angle AB_1B = 180^\\circ.\n$$\nProve that lines $B_1C_2$, $C_1A_2$, and $A_1B_2$ are concurrent.",
+    "has_figure": false,
+    "figure_description": "Rectangles erected externally on the sides of an acute triangle.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2021",
+    "statement_note": "Subscript geometry notation visually verified from official PDF because OCR partially corrupted indices. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2021_P2",
+    "year": 2021,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics",
+      "Graph Theory"
+    ],
+    "statement": "The Planar National Park is a subset of the Euclidean plane consisting of several trails which meet at junctions. Every trail has its two endpoints at two different junctions whereas each junction is the endpoint of exactly three trails. Trails only intersect at junctions (in particular, trails only meet at endpoints). Finally, no trails begin and end at the same two junctions.\n\nA visitor walks through the park as follows: she begins at a junction and starts walking along a trail. At the end of that first trail, she enters a junction and turns left. On the next junction she turns right, and so on, alternating left and right turns at each junction. She does this until she gets back to the junction where she started. What is the largest possible number of times she could have entered any junction during her walk, over all possible layouts of the park?",
+    "has_figure": true,
+    "figure_description": "Planar cubic graph representing trails and junctions in a park.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2021",
+    "statement_note": "Problem references a planar graph illustration shown in the official PDF. :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "id": "USAMO_2021_P3",
+    "year": 2021,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics",
+      "Tilings"
+    ],
+    "statement": "Let $n\\ge2$ be an integer. An $n\\times n$ board is initially empty. Each minute, you may perform one of three moves:\n\n- If there is an L-shaped tromino region of three cells without stones on the board (rotations not allowed), you may place a stone in each of those cells.\n\n- If all cells in a column have a stone, you may remove all stones from that column.\n\n- If all cells in a row have a stone, you may remove all stones from that row.\n\nFor which $n$ is it possible that, after some non-zero number of moves, the board has no stones?",
+    "has_figure": true,
+    "figure_description": "L-shaped tromino placement on a square board.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2021",
+    "statement_note": "Tromino figure and move list visually verified from official PDF. :contentReference[oaicite:2]{index=2}"
+  },
+  {
+    "id": "USAMO_2021_P4",
+    "year": 2021,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Set Theory"
+    ],
+    "statement": "A finite set $S$ of positive integers has the property that, for each $s\\in S$, and each positive integer divisor $d$ of $s$, there exists a unique element $t\\in S$ satisfying\n$$\\gcd(s,t)=d.$$\n(The elements $s$ and $t$ could be equal.)\n\nGiven this information, find all possible values for the number of elements of $S$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2021"
+  },
+  {
+    "id": "USAMO_2021_P5",
+    "year": 2021,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra",
+      "Systems of Equations"
+    ],
+    "statement": "Let $n\\ge4$ be an integer. Find all positive real solutions to the following system of $2n$ equations:\n$$\na_1=\\frac1{a_{2n}}+\\frac1{a_2},\\qquad a_2=a_1+a_3,\n$$\n$$\na_3=\\frac1{a_2}+\\frac1{a_4},\\qquad a_4=a_3+a_5,\n$$\n$$\na_5=\\frac1{a_4}+\\frac1{a_6},\\qquad a_6=a_5+a_7,\n$$\n$$\\vdots$$\n$$\na_{2n-1}=\\frac1{a_{2n-2}}+\\frac1{a_{2n}},\n$$\n$$a_{2n}=a_{2n-1}+a_1.$$\n",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2021",
+    "statement_note": "Multiline cyclic system carefully reconstructed from official PDF because OCR corrupted alignment and fractions. :contentReference[oaicite:3]{index=3}"
+  },
+  {
+    "id": "USAMO_2021_P6",
+    "year": 2021,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCDEF$ be a convex hexagon satisfying\n$$AB\\parallel DE,\\qquad BC\\parallel EF,\\qquad CD\\parallel FA,$$\nand\n$$AB\\cdot DE = BC\\cdot EF = CD\\cdot FA.$$\nLet $X,Y,$ and $Z$ be the midpoints of $AD,BE,$ and $CF$. Prove that the circumcenter of triangle $ACE$, the circumcenter of triangle $BDF$, and the orthocenter of triangle $XYZ$ are collinear.",
+    "has_figure": false,
+    "figure_description": "Convex hexagon with opposite parallel sides and midpoint triangle.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2021",
+    "statement_note": "Parallelism and product conditions visually verified from official PDF because OCR partially corrupted symbols. :contentReference[oaicite:4]{index=4}"
+  }
+]

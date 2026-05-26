@@ -1,0 +1,133 @@
+[
+  {
+    "id": "USAMO_1999_P1",
+    "year": 1999,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics",
+      "Graph Theory"
+    ],
+    "statement": "Some checkers placed on an $n\\times n$ checkerboard satisfy the following conditions:\n\n(a) every square that does not contain a checker shares a side with one that does;\n\n(b) given any pair of squares that contain checkers, there is a sequence of squares containing checkers, starting and ending with the given squares, such that every two consecutive squares of the sequence share a side.\n\nProve that at least\n$$\\frac{n^2-2}{3}$$\ncheckers have been placed on the board.",
+    "has_figure": false,
+    "figure_description": "Connected checker configuration on a square grid.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1999"
+  },
+  {
+    "id": "USAMO_1999_P2",
+    "year": 1999,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry",
+      "Inequalities"
+    ],
+    "statement": "Let $ABCD$ be a cyclic quadrilateral. Prove that\n$$|AB-CD|+|AD-BC|\\ge2|AC-BD|.$$",
+    "has_figure": false,
+    "figure_description": "Cyclic quadrilateral with diagonals and side-length inequality.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1999"
+  },
+  {
+    "id": "USAMO_1999_P3",
+    "year": 1999,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p>2$ be a prime and let $a,b,c,d$ be integers not divisible by $p$, such that\n$$\n\\left\\{\\frac{ra}{p}\\right\\}\n+\n\\left\\{\\frac{rb}{p}\\right\\}\n+\n\\left\\{\\frac{rc}{p}\\right\\}\n+\n\\left\\{\\frac{rd}{p}\\right\\}\n=2\n$$\nfor any integer $r$ not divisible by $p$. Prove that at least two of the numbers\n$$a+b,\\ a+c,\\ a+d,\\ b+c,\\ b+d,\\ c+d$$\nare divisible by $p$.\n\n(Note:\n$$\\{x\\}=x-\\lfloor x\\rfloor$$\ndenotes the fractional part of $x$.)",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1999",
+    "statement_note": "Fractional-part notation and floor symbols visually verified from uploaded PDF. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_1999_P4",
+    "year": 1999,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Inequalities",
+      "Algebra"
+    ],
+    "statement": "Let $a_1,a_2,\\ldots,a_n$ ($n>3$) be real numbers such that\n$$a_1+a_2+\\cdots+a_n\\ge n$$\nand\n$$a_1^2+a_2^2+\\cdots+a_n^2\\ge n^2.$$\nProve that\n$$\\max(a_1,a_2,\\ldots,a_n)\\ge2.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1999"
+  },
+  {
+    "id": "USAMO_1999_P5",
+    "year": 1999,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Game Theory",
+      "Combinatorics"
+    ],
+    "statement": "The Y2K Game is played on a $1\\times2000$ grid as follows. Two players in turn write either an $S$ or an $O$ in an empty square. The first player who produces three consecutive boxes that spell\n$$SOS$$\nwins. If all boxes are filled without producing $SOS$ then the game is a draw. Prove that the second player has a winning strategy.",
+    "has_figure": false,
+    "figure_description": "Sequential letter-placement game on a one-dimensional grid.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1999"
+  },
+  {
+    "id": "USAMO_1999_P6",
+    "year": 1999,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be an isosceles trapezoid with\n$$AB\\parallel CD.$$\nThe inscribed circle $\\omega$ of triangle $BCD$ meets $CD$ at $E$. Let $F$ be a point on the (internal) angle bisector of $\\angle DAC$ such that\n$$EF\\perp CD.$$\nLet the circumscribed circle of triangle $ACF$ meet line $CD$ at $C$ and $G$. Prove that the triangle $AFG$ is isosceles.",
+    "has_figure": false,
+    "figure_description": "Isosceles trapezoid with incircle and circumcircle configuration.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1999"
+  }
+]

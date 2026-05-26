@@ -1,0 +1,108 @@
+[
+  {
+    "id": "USAMO_1985_P1",
+    "year": 1985,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine whether or not there are any positive integral solutions of the simultaneous equations\n$$x_1^2+x_2^2+\\cdots+x_{1985}^2=y^3,$$\n$$x_1^3+x_2^3+\\cdots+x_{1985}^3=z^2,$$\nwith distinct integers $x_1,x_2,\\ldots,x_{1985}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1985"
+  },
+  {
+    "id": "USAMO_1985_P2",
+    "year": 1985,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Determine each real root of\n$$x^4-(2\\cdot10^{10}+1)x^2-x+10^{20}+10^{10}-1=0$$\ncorrect to four decimal places.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1985"
+  },
+  {
+    "id": "USAMO_1985_P3",
+    "year": 1985,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $A,B,C,$ and $D$ denote four points in space such that at most one of the distances $AB,AC,AD,BC,BD,CD$ is greater than $1$. Determine the maximum possible value of the sum of the six distances.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1985"
+  },
+  {
+    "id": "USAMO_1985_P4",
+    "year": 1985,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "There are $n$ people at a party. Prove that there are two people such that, of the remaining $n-2$ people, there are at least\n$$\\left\\lfloor\\frac{n}{2}\\right\\rfloor-1$$\nof them, each of whom either knows both or else knows neither of the two. Assume that knowing is a symmetric relation, and that $\\lfloor x\\rfloor$ denotes the greatest integer less than or equal to $x$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1985",
+    "statement_note": "Floor expression visually verified from screenshot because OCR corrupted the floor symbols."
+  },
+  {
+    "id": "USAMO_1985_P5",
+    "year": 1985,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $a_1,a_2,a_3,\\ldots$ be a non-decreasing sequence of positive integers. For $m\\ge1$, define\n$$b_m=\\min\\{n:a_n\\ge m\\},$$\nthat is, $b_m$ is the minimum value of $n$ such that $a_n\\ge m$. If $a_{19}=85$, determine the maximum value of\n$$a_1+a_2+\\cdots+a_{19}+b_1+b_2+\\cdots+b_{85}.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1985"
+  }
+]

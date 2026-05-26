@@ -1,0 +1,112 @@
+[
+  {
+    "id": "USAMO_1994_P1",
+    "year": 1994,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Sequences"
+    ],
+    "statement": "Let $k_1<k_2<k_3<\\cdots$ be positive integers, no two consecutive, and let\n$$s_m=k_1+k_2+\\cdots+k_m$$\nfor $m=1,2,3,\\ldots$. Prove that, for each positive integer $n$, the interval $[s_n,s_{n+1})$ contains at least one perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1994"
+  },
+  {
+    "id": "USAMO_1994_P2",
+    "year": 1994,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics",
+      "Graph Theory"
+    ],
+    "statement": "The sides of a $99$-gon are initially colored so that consecutive sides are red, blue, red, blue, $\\ldots$, red, blue, yellow. We make a sequence of modifications in the coloring, changing the color of one side at a time to one of the three given colors (red, blue, yellow), under the constraint that no two adjacent sides may be the same color. By making a sequence of such modifications, is it possible to arrive at the coloring in which consecutive sides are red, blue, red, blue, red, blue, $\\ldots$, red, yellow, blue?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1994"
+  },
+  {
+    "id": "USAMO_1994_P3",
+    "year": 1994,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A convex hexagon $ABCDEF$ is inscribed in a circle such that\n$$AB=CD=EF$$\nand diagonals $AD$, $BE$, and $CF$ are concurrent. Let $P$ be the intersection of $AD$ and $CE$. Prove that\n$$\\frac{CP}{PE}=\\left(\\frac{AC}{CE}\\right)^2.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1994"
+  },
+  {
+    "id": "USAMO_1994_P4",
+    "year": 1994,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Inequalities"
+    ],
+    "statement": "Let $a_1,a_2,a_3,\\ldots$ be a sequence of positive real numbers satisfying\n$$\\sum_{j=1}^{n} a_j\\ge\\sqrt{n}$$\nfor all $n\\ge1$. Prove that, for all $n\\ge1$,\n$$\n\\sum_{j=1}^{n} a_j^2>\n\\frac14\\left(1+\\frac12+\\cdots+\\frac1n\\right).\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1994",
+    "statement_note": "Square-root and summation notation visually verified from uploaded PDF."
+  },
+  {
+    "id": "USAMO_1994_P5",
+    "year": 1994,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics",
+      "Algebra"
+    ],
+    "statement": "Let $|U|$, $\\sigma(U)$ and $\\pi(U)$ denote the number of elements, the sum, and the product, respectively, of a finite set $U$ of positive integers. (If $U$ is the empty set, $|U|=0$, $\\sigma(U)=0$, $\\pi(U)=1$.) Let $S$ be a finite set of positive integers. As usual,\n$$\\binom{n}{k}=\\frac{n!}{k!(n-k)!}.$$\nProve that\n$$\n\\sum_{U\\subseteq S}(-1)^{|U|}\n\\binom{m-\\sigma(U)}{|S|}\n=\\pi(S)\n$$\nfor all integers $m\\ge\\sigma(S)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1994",
+    "statement_note": "Binomial-coefficient notation visually verified from uploaded PDF because OCR partially corrupted the combinatorial symbols."
+  }
+]

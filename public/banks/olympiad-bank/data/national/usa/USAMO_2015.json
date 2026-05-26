@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2015_P1",
+    "year": 2015,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Triangle $ABC$ is inscribed in circle $\\omega$. A circle $\\Gamma$ passes through $A$ and meets segment $BC$ at two distinct points $D$ and $E$ such that\n$$BD<CD<CE.$$\nThe circumcircles of triangles $ABD$ and $ACE$ meet line $BC$ again at points $X$ and $Y$, respectively. Prove that the lines $AX,AY,$ and the tangent to $\\Gamma$ at $A$ are concurrent.",
+    "has_figure": false,
+    "figure_description": "Triangle with an auxiliary circle through a vertex intersecting the opposite side.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2015"
+  },
+  {
+    "id": "USAMO_2015_P2",
+    "year": 2015,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Let\n$$a_1,a_2,a_3,\\ldots$$\nbe an infinite sequence of positive integers. Suppose there is an integer $N>1$ such that, for each positive integer $n$, the number of indices $i$ with\n$$a_i=n$$\nis finite and less than $N$. Prove that there exists a nonempty finite set $S$ of positive integers such that\n$$\n\\sum_{i\\in S}\\frac1{a_i}=1.\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2015"
+  },
+  {
+    "id": "USAMO_2015_P3",
+    "year": 2015,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics",
+      "Algorithms"
+    ],
+    "statement": "In the game of Hyper Knight, Chuck and Sandra play on a chessboard with finitely many rows and columns. Chuck places a knight on a starting square of his choice, and Sandra then chooses an ending square. Chuck can move the knight any number of times, but is not allowed to revisit a square he has already visited. Sandra wins if Chuck can reach the ending square; otherwise, Chuck wins.\n\nFind all pairs $(m,n)$ of positive integers such that Sandra has a winning strategy on every $m\\times n$ chessboard.",
+    "has_figure": false,
+    "figure_description": "Knight-move reachability game on finite chessboards.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2015"
+  },
+  {
+    "id": "USAMO_2015_P4",
+    "year": 2015,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n$ be a positive integer. The numbers\n$$k_1,k_2,\\ldots,k_n$$\nare positive integers not exceeding $n$ such that\n$$k_i+k_j>n$$\nfor all\n$$1\\le i<j\\le n.$$\nProve that\n$$\n\\frac1{k_1}+\frac1{k_2}+\\cdots+\\frac1{k_n}\n\\le\n2.\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2015"
+  },
+  {
+    "id": "USAMO_2015_P5",
+    "year": 2015,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCDE$ be a convex pentagon such that\n$$AB=BC=CD=DE.$$\nSuppose that there is a point $P$ inside the pentagon such that\n$$PA=PE$$\nand\n$$PB=PD.$$\nProve that line $PC$ bisects at least one of the angles\n$$\\angle BCD\\quad\\text{or}\\quad\\angle AP E.$$",
+    "has_figure": false,
+    "figure_description": "Convex pentagon with equal consecutive sides and interior-point symmetry conditions.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2015",
+    "statement_note": "Angle notation and equal-length conditions visually verified from uploaded PDF because OCR partially corrupted spacing and symbols. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2015_P6",
+    "year": 2015,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics",
+      "Probability"
+    ],
+    "statement": "For each finite set $A$ of positive integers, let\n$$\\sigma(A)$$\ndenote the sum of the elements of $A$. Let $X$ be a set of $2015$ distinct positive integers. Prove that there exist two nonempty disjoint subsets $A$ and $B$ of $X$ such that\n$$\n\\sigma(A)\n\\mid\n\\sigma(B).\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2015"
+  }
+]

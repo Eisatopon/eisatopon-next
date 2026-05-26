@@ -1,0 +1,131 @@
+[
+  {
+    "id": "USAMO_2020_P1",
+    "year": 2020,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "For a positive integer $n$, let\n$$S(n)$$\ndenote the sum of the digits of $n$ written in base ten. Compute\n$$\n\\sum_{n=1}^{2020}S(n).\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2020"
+  },
+  {
+    "id": "USAMO_2020_P2",
+    "year": 2020,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Quadrilateral $ABCD$ is inscribed in circle $\\Omega$. Point $P$ lies on segment $AC$. The line through $P$ perpendicular to $PC$ intersects line $BD$ at $X$, and the line through $P$ perpendicular to $PA$ intersects line $BD$ at $Y$. Let line $AX$ intersect $CY$ at $Z$. Prove that line $PZ$ is tangent to $\\Omega$.",
+    "has_figure": false,
+    "figure_description": "Cyclic quadrilateral with perpendicular constructions from a point on a diagonal.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2020"
+  },
+  {
+    "id": "USAMO_2020_P3",
+    "year": 2020,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Inequalities"
+    ],
+    "statement": "Let $x_1,x_2,\\ldots,x_n$ be nonnegative real numbers such that\n$$x_1+x_2+\\cdots+x_n=1.$$\nProve that\n$$\n\\sum_{i=1}^{n}\\frac{x_i}{1-x_i}\n\\ge\n\\frac{n}{n-1}.\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2020",
+    "statement_note": "Summation inequality visually verified from uploaded PDF because OCR partially corrupted fractions and subscripts. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2020_P4",
+    "year": 2020,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics",
+      "Graph Theory"
+    ],
+    "statement": "There are $n$ students standing in a circle, where $n\\ge3$. Initially, every pair of students is friends. One by one, students leave the circle. Whenever a student leaves, all remaining students who were adjacent to that student in the circle cease being friends with each other. Determine, with proof, the minimum possible number of pairs of students who are friends at the end.",
+    "has_figure": false,
+    "figure_description": "Dynamic friendship graph induced by removing students from a circle.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2020"
+  },
+  {
+    "id": "USAMO_2020_P5",
+    "year": 2020,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle with circumcenter $O$. The incircle of triangle $ABC$ touches sides $BC,CA,$ and $AB$ at points $D,E,$ and $F$, respectively. Let $X$ be a point on segment $EF$ such that\n$$DX\\parallel AO.$$\nSimilarly, let $Y$ be a point on segment $FD$ such that\n$$EY\\parallel BO,$$\nand let $Z$ be a point on segment $DE$ such that\n$$FZ\\parallel CO.$$\nProve that the lines through $X,Y,Z$ perpendicular to $EF,FD,DE$, respectively, are concurrent.",
+    "has_figure": false,
+    "figure_description": "Triangle with incircle contact triangle and parallel constructions from the circumcenter.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2020"
+  },
+  {
+    "id": "USAMO_2020_P6",
+    "year": 2020,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Let $a_1,a_2,\\ldots,a_n$ be positive integers. Prove that there exists a polynomial\n$$P(x)$$\nwith integer coefficients such that\n$$P(a_i)=2^i$$\nfor all\n$$1\\le i\\le n$$\nif and only if the numbers\n$$a_1,a_2,\\ldots,a_n$$\nare pairwise distinct modulo $2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2020",
+    "statement_note": "Polynomial interpolation condition visually verified from uploaded PDF because OCR partially corrupted exponent notation. :contentReference[oaicite:1]{index=1}"
+  }
+]

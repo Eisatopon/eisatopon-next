@@ -1,0 +1,109 @@
+[
+  {
+    "id": "USAMO_1986_P1",
+    "year": 1986,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "(a) Do there exist $14$ consecutive positive integers each of which is divisible by one or more primes $p$ from the interval $2\\le p\\le11$?\n\n(b) Do there exist $21$ consecutive positive integers each of which is divisible by one or more primes $p$ from the interval $2\\le p\\le13$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1986"
+  },
+  {
+    "id": "USAMO_1986_P2",
+    "year": 1986,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "During a certain lecture, each of five mathematicians fell asleep exactly twice. For each pair of mathematicians, there was some moment when both were asleep simultaneously. Prove that, at some moment, three of them were sleeping simultaneously.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1986"
+  },
+  {
+    "id": "USAMO_1986_P3",
+    "year": 1986,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "What is the smallest integer $n$, greater than one, for which the root-mean-square of the first $n$ positive integers is an integer?\n\nNote. The root-mean-square of $n$ numbers $a_1,a_2,\\ldots,a_n$ is defined to be\n$$\\left(\\frac{a_1^2+a_2^2+\\cdots+a_n^2}{n}\\right)^{1/2}.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1986",
+    "statement_note": "RMS formula visually verified from screenshot because OCR corrupted the exponent formatting."
+  },
+  {
+    "id": "USAMO_1986_P4",
+    "year": 1986,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two distinct circles $K_1$ and $K_2$ are drawn in the plane. They intersect at points $A$ and $B$, where $AB$ is the diameter of $K_1$. A point $P$ on $K_2$ and inside $K_1$ is also given.\n\nUsing only a T-square (i.e. an instrument which can produce a straight line joining two points and the perpendicular to a line through a point on or off the line), find a construction for two points $C$ and $D$ on $K_1$ such that $CD$ is perpendicular to $AB$ and $\\angle CPD$ is a right angle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1986"
+  },
+  {
+    "id": "USAMO_1986_P5",
+    "year": 1986,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "By a partition $\\pi$ of an integer $n\\ge1$, we mean a representation of $n$ as a sum of one or more positive integers where the summands are written in nondecreasing order.\n\nFor any partition $\\pi$, define $A(\\pi)$ to be the number of $1$'s which appear in $\\pi$, and define $B(\\pi)$ to be the number of distinct integers which appear in $\\pi$.\n\nProve that, for any fixed $n$, the sum of $A(\\pi)$ over all partitions $\\pi$ of $n$ is equal to the sum of $B(\\pi)$ over all partitions $\\pi$ of $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1986"
+  }
+]

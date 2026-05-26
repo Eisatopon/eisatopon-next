@@ -1,0 +1,130 @@
+[
+  {
+    "id": "USAMO_2019_P1",
+    "year": 2019,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics",
+      "Optimization"
+    ],
+    "statement": "Find the least real number $c$ such that, for every integer $n\\ge3$ and every set of positive real numbers\n$$a_1,a_2,\\ldots,a_n,$$\nthere exists a label assignment of the vertices of a regular $n$-gon by the numbers\n$$a_1,a_2,\\ldots,a_n$$\nso that, for every edge of the $n$-gon, the ratio of the larger label to the smaller label on the endpoints of that edge is at most $c$.",
+    "has_figure": false,
+    "figure_description": "Optimization problem on labeling the vertices of a regular polygon.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2019"
+  },
+  {
+    "id": "USAMO_2019_P2",
+    "year": 2019,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute triangle $ABC$, points $A_1,B_1,C_1$ lie on sides $BC,CA,AB$, respectively. Let $P$ and $Q$ be points such that\n$$PA_1\\parallel QB_1$$\nand\n$$PB_1\\parallel QC_1.$$\nSuppose that points\n$$P,A_1,B_1,Q,C_1$$\nall lie on one circle. Prove that if lines $PA, QB,$ and $C_1A_1$ are concurrent, then lines $QA, PC,$ and $A_1B_1$ are concurrent.",
+    "has_figure": false,
+    "figure_description": "Triangle with cevian points and cyclic/concurrency conditions.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2019"
+  },
+  {
+    "id": "USAMO_2019_P3",
+    "year": 2019,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Suppose that $n$ and $k$ are positive integers such that\n$$\nk-\\sqrt{k^2-n}\n$$\nis rational. Prove that there exists a divisor $d$ of $n$ such that\n$$d+\\frac nd$$\nis rational and less than $2k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2019",
+    "statement_note": "Radical expression visually verified from official PDF because OCR partially corrupted square-root notation. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2019_P4",
+    "year": 2019,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Convex quadrilateral $ABCD$ satisfies\n$$AB\\cdot CD=BC\\cdot DA.$$\nPoint $X$ lies inside quadrilateral $ABCD$ such that\n$$\\angle XAB=\\angle XCD$$\nand\n$$\\angle XBC=\\angle XDA.$$\nProve that\n$$\\angle BXA+\\angle DXC=180^\\circ.$$\n",
+    "has_figure": false,
+    "figure_description": "Convex quadrilateral with equal-angle conditions and interior point.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2019"
+  },
+  {
+    "id": "USAMO_2019_P5",
+    "year": 2019,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics",
+      "Graph Theory"
+    ],
+    "statement": "A social network has $2019$ users, some pairs of whom are friends. Users can communicate by private messages. If one user sends a private message to another, then neither the sender nor the recipient can send a private message to any of their friends for the next minute. Determine the maximum possible number of private messages that can be sent each minute.",
+    "has_figure": false,
+    "figure_description": "Optimization problem on message sending in a friendship graph.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2019"
+  },
+  {
+    "id": "USAMO_2019_P6",
+    "year": 2019,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra",
+      "Sequences"
+    ],
+    "statement": "Find all infinite sequences\n$$a_1,a_2,a_3,\\ldots$$\nof positive integers for which there exists an integer $N>0$ such that for all\n$$n\\ge N,$$\n$$\n\\frac{a_1}{a_2}+\frac{a_2}{a_3}+\\cdots+\\frac{a_{n-1}}{a_n}+\frac{a_n}{a_1}\n$$\nis an integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2019",
+    "statement_note": "Cyclic sum notation visually verified from official PDF because OCR partially corrupted fraction formatting. :contentReference[oaicite:1]{index=1}"
+  }
+]

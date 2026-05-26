@@ -1,0 +1,131 @@
+[
+  {
+    "id": "USAMO_2001_P1",
+    "year": 2001,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Each of eight boxes contains six balls. Each ball has been colored with one of $n$ colors, such that no two balls in the same box are the same color, and no two colors occur together in more than one box. Determine, with justification, the smallest integer $n$ for which this is possible.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2001"
+  },
+  {
+    "id": "USAMO_2001_P2",
+    "year": 2001,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle and let $\\omega$ be its incircle. Denote by $D_1$ and $E_1$ the points where $\\omega$ is tangent to sides $BC$ and $AC$, respectively. Denote by $D_2$ and $E_2$ the points on sides $BC$ and $AC$, respectively, such that\n$$CD_2=BD_1$$\nand\n$$CE_2=AE_1,$$\nand denote by $P$ the point of intersection of segments $AD_2$ and $BE_2$. Circle $\\omega$ intersects segment $AD_2$ at two points, the closer of which to the vertex $A$ is denoted by $Q$. Prove that\n$$AQ=D_2P.$$",
+    "has_figure": false,
+    "figure_description": "Triangle with incircle tangent points and cevian intersection configuration.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2001"
+  },
+  {
+    "id": "USAMO_2001_P3",
+    "year": 2001,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Inequalities",
+      "Algebra"
+    ],
+    "statement": "Let $a,b,c\\ge0$ and satisfy\n$$a^2+b^2+c^2+abc=4.$$\nShow that\n$$0\\le ab+bc+ca-abc\\le2.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2001"
+  },
+  {
+    "id": "USAMO_2001_P4",
+    "year": 2001,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $P$ be a point in the plane of triangle $ABC$ such that the segments $PA$, $PB$, and $PC$ are the sides of an obtuse triangle. Assume that in this triangle the obtuse angle opposes the side congruent to $PA$. Prove that $\\angle BAC$ is acute.",
+    "has_figure": false,
+    "figure_description": "Triangle and interior point inducing an obtuse auxiliary triangle.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2001"
+  },
+  {
+    "id": "USAMO_2001_P5",
+    "year": 2001,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Let $S$ be a set of integers (not necessarily positive) such that\n\n(a) there exist $a,b\\in S$ with\n$$\\gcd(a,b)=\\gcd(a-2,b-2)=1;$$\n\n(b) if $x$ and $y$ are elements of $S$ (possibly equal), then\n$$x^2-y$$\nalso belongs to $S$.\n\nProve that $S$ is the set of all integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2001"
+  },
+  {
+    "id": "USAMO_2001_P6",
+    "year": 2001,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry",
+      "Functional Equations"
+    ],
+    "statement": "Each point in the plane is assigned a real number such that, for any triangle, the number at the center of its inscribed circle is equal to the arithmetic mean of the three numbers at its vertices. Prove that all points in the plane are assigned the same number.",
+    "has_figure": false,
+    "figure_description": "Assignment of values to planar points constrained by incenters of triangles.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2001"
+  }
+]

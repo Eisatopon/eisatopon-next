@@ -1,0 +1,109 @@
+[
+  {
+    "id": "USAMO_1977_P1",
+    "year": 1977,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "statement": "Determine all pairs of positive integers $(m,n)$ such that\n$$1+x^n+x^{2n}+\\cdots+x^{mn}$$\nis divisible by\n$$1+x+x^2+\\cdots+x^m.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1977"
+  },
+  {
+    "id": "USAMO_1977_P2",
+    "year": 1977,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Triangles $ABC$ and $A'B'C'$ are in the same plane such that the lines $AA'$, $BB'$, and $CC'$ are mutually parallel. Let $[ABC]$ denote the signed area of triangle $ABC$, etc. Prove that\n$$3([ABC]+[A'B'C'])=[AB'C']+[BC'A']+[CA'B']+[A'BC]+[B'CA]+[C'AB].$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1977"
+  },
+  {
+    "id": "USAMO_1977_P3",
+    "year": 1977,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "If $a$ and $b$ are two roots of\n$$x^4+x^3-1=0,$$\nprove that $ab$ is a root of\n$$x^6+x^4+x^3-x^2-1=0.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1977"
+  },
+  {
+    "id": "USAMO_1977_P4",
+    "year": 1977,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Prove that if the opposite sides of a skew (non-planar) quadrilateral are congruent, then the line joining the midpoints of the two diagonals is perpendicular to these diagonals. Conversely, if the line joining the midpoints of the two diagonals of a skew quadrilateral is perpendicular to these diagonals, then the opposite sides of the quadrilateral are congruent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1977"
+  },
+  {
+    "id": "USAMO_1977_P5",
+    "year": 1977,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra",
+      "Inequalities"
+    ],
+    "statement": "If $a,b,c,d,e$ are positive numbers lying in the interval $[p,q]$, where $0<p<q$, prove that\n$$\n(a+b+c+d+e)\\left(\\frac1a+\\frac1b+\\frac1c+\\frac1d+\\frac1e\\right)\n\\leq\n25+6\\left(\\sqrt{\\frac pq}-\\sqrt{\\frac qp}\\right)^2\n$$\nand determine when equality occurs.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1977"
+  }
+]

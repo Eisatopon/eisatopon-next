@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2016_P1",
+    "year": 2016,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Triangle $ABC$ is inscribed in circle $\\Gamma$. Point $T$ lies on arc $BC$ of $\\Gamma$ such that\n$$AT\\perp BC.$$\nLet $D$ be the foot of the altitude from $A$ to $BC$. Let $E$ be the point on segment $AD$ such that\n$$DE=DT.$$\nProve that the circumcircles of triangles $BET$ and $CET$ are tangent.",
+    "has_figure": false,
+    "figure_description": "Triangle with altitude and equal-segment construction on a circumcircle arc.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2016"
+  },
+  {
+    "id": "USAMO_2016_P2",
+    "year": 2016,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics",
+      "Graph Theory"
+    ],
+    "statement": "A bored teenager writes down a list of $N$ positive integers, not necessarily distinct, with the property that every product of two consecutive integers in the list is a perfect square. Prove that it is possible to delete some consecutive terms from the beginning of the list and some consecutive terms from the end of the list so that the product of the remaining integers is a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2016"
+  },
+  {
+    "id": "USAMO_2016_P3",
+    "year": 2016,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics",
+      "Optimization"
+    ],
+    "statement": "Suppose that $n$ people, including A and B, are seated around a circular table. Knives are placed between every pair of adjacent people. We repeatedly perform the following operation: choose a person sitting between two knives, and remove both knives adjacent to that person.\n\nDetermine, with proof, the probability that A and B are the only two people remaining after all possible operations have been performed, if at each step the person to be removed is chosen uniformly at random from all people sitting between two knives.",
+    "has_figure": false,
+    "figure_description": "Random elimination process on a circular table with knives between adjacent people.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2016"
+  },
+  {
+    "id": "USAMO_2016_P4",
+    "year": 2016,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $b$ for which there exist positive integers $N$ and $M$ such that\n$$\nN^2-M^2=b\n$$\nand every digit of both $N$ and $M$ in base ten is one of the digits\n$$1,2,3,4,5,6,7,8,9.\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2016"
+  },
+  {
+    "id": "USAMO_2016_P5",
+    "year": 2016,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle and let $P$ be a point strictly inside triangle $ABC$. Let $A_1$ be the point where line $AP$ intersects side $BC$, and define points $B_1$ and $C_1$ similarly. Let $Q$ be a point on segment $PA_1$ such that\n$$\\angle BQP=\\angle CQP.$$\nDefine points $R$ and $S$ similarly on segments $PB_1$ and $PC_1$, respectively. Prove that points $Q,R,$ and $S$ are collinear.",
+    "has_figure": false,
+    "figure_description": "Interior-point cevian construction with equal-angle conditions.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2016",
+    "statement_note": "Angle conditions visually verified from uploaded PDF because OCR partially corrupted angle notation. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "USAMO_2016_P6",
+    "year": 2016,
+    "olympiad": "USAMO",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra",
+      "Functional Equations"
+    ],
+    "statement": "For each positive integer $n$, let\n$$f(n)$$\ndenote the number of nonempty subsets $S$ of\n$$\\{1,2,\\ldots,n\\}$$\nwith the following property: the arithmetic mean of the elements of $S$ is an integer. Prove that there is an integer $m>1$ such that\n$$m^2\\mid f(n)$$\nfor all sufficiently large positive integers $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 2016"
+  }
+]

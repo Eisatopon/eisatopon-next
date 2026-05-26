@@ -1,0 +1,134 @@
+[
+  {
+    "id": "USAMO_1997_P1",
+    "year": 1997,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Sequences"
+    ],
+    "statement": "Let $p_1,p_2,p_3,\\ldots$ be the prime numbers listed in increasing order, and let $x_0$ be a real number between $0$ and $1$. For positive integer $k$, define\n$$\nx_k=\n\\begin{cases}\n0 & \\text{if } x_{k-1}=0,\\\\\n\\left\\{\\dfrac{p_k}{x_{k-1}}\\right\\} & \\text{if } x_{k-1}\\ne0,\n\\end{cases}\n$$\nwhere $\\{x\\}$ denotes the fractional part of $x$. (The fractional part of $x$ is given by $x-\\lfloor x\\rfloor$ where $\\lfloor x\\rfloor$ is the greatest integer less than or equal to $x$.) Find, with proof, all $x_0$ satisfying $0<x_0<1$ for which the sequence\n$$x_0,x_1,x_2,\\ldots$$\neventually becomes $0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1997",
+    "statement_note": "Piecewise definition and fractional-part notation visually verified from uploaded PDF because OCR partially corrupted braces and floor symbols."
+  },
+  {
+    "id": "USAMO_1997_P2",
+    "year": 1997,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle. Take points $D,E,F$ on the perpendicular bisectors of $BC,CA,AB$ respectively. Show that the lines through $A,B,C$ perpendicular to $EF,FD,DE$ respectively are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1997"
+  },
+  {
+    "id": "USAMO_1997_P3",
+    "year": 1997,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra",
+      "Polynomials"
+    ],
+    "statement": "Prove that for any integer $n$, there exists a unique polynomial $Q$ with coefficients in\n$$\\{0,1,\\ldots,9\\}$$\nsuch that\n$$Q(-2)=Q(-5)=n.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1997"
+  },
+  {
+    "id": "USAMO_1997_P4",
+    "year": 1997,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "To clip a convex $n$-gon means to choose a pair of consecutive sides $AB,BC$ and to replace them by the three segments $AM,MN,NC$, where $M$ is the midpoint of $AB$ and $N$ is the midpoint of $BC$. In other words, one cuts off the triangle $MBN$ to obtain a convex $(n+1)$-gon.\n\nA regular hexagon $P_6$ of area $1$ is clipped to obtain a heptagon $P_7$. Then $P_7$ is clipped (in one of the seven possible ways) to obtain an octagon $P_8$, and so on. Prove that no matter how the clippings are done, the area of $P_n$ is greater than\n$$\\frac13$$\nfor all $n\\ge6$.",
+    "has_figure": false,
+    "figure_description": "Successive clipping of a convex polygon by removing corner triangles determined by midpoints.",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1997"
+  },
+  {
+    "id": "USAMO_1997_P5",
+    "year": 1997,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Inequalities"
+    ],
+    "statement": "Prove that, for all positive real numbers $a,b,c$,\n$$\n\\frac1{a^3+b^3+abc}\n+\n\\frac1{b^3+c^3+abc}\n+\n\\frac1{c^3+a^3+abc}\n\\le\n\\frac1{abc}.\n$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1997",
+    "statement_note": "Cyclic inequality visually verified from uploaded PDF because OCR corrupted denominator grouping."
+  },
+  {
+    "id": "USAMO_1997_P6",
+    "year": 1997,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory",
+      "Sequences"
+    ],
+    "statement": "Suppose the sequence of nonnegative integers $a_1,a_2,\\ldots,a_{1997}$ satisfies\n$$a_i+a_j\\le a_{i+j}\\le a_i+a_j+1$$\nfor all $i,j\\ge1$ with $i+j\\le1997$. Show that there exists a real number $x$ such that\n$$a_n=\\lfloor nx\\rfloor$$\nfor all $1\\le n\\le1997$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "USAMO 1997",
+    "statement_note": "Floor-function notation visually verified from uploaded PDF because OCR partially corrupted floor symbols."
+  }
+]
