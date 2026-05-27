@@ -191,7 +191,7 @@ function OlympiadReminder() {
     <div className="flex items-center justify-center gap-2 py-4 border-t border-border-dim mt-2 mb-2">
       <span className="text-[0.78rem] text-ink-muted">Looking for olympiad problems?</span>
       <a
-        href="/banks/olympiad-bank/olympiad_bank.html"
+        href="/banks/olympiad-bank/"
         className="text-[0.78rem] text-[#c9a227] hover:text-white transition-colors duration-200 underline underline-offset-2 decoration-[#c9a227]/40"
       >
         Math Olympiad Bank →
@@ -304,7 +304,7 @@ export default async function Home() {
 
         <Pagination
         currentPage={1}
-        totalPages={Math.ceil((articles.length - 1) / 8) + 1}
+        totalPages={Math.ceil(articles.length / 8)}
         />
 
 </section>
