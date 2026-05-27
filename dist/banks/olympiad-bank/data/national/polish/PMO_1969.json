@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1969_P1",
+    "year": 1969,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that if $\\dfrac{a}{m+2}+\\dfrac{b}{m+1}+\\dfrac{c}{m}=0$ for some positive $m$, then $ax^2+bx+c=0$ has a root in $(0,1)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1969"
+  },
+  {
+    "id": "PMO_1969_P2",
+    "year": 1969,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Given distinct reals $a_1,\\ldots,a_n$, find the minimum of $y=|x-a_1|+\\cdots+|x-a_n|$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1969"
+  },
+  {
+    "id": "PMO_1969_P3",
+    "year": 1969,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Prove that an equiangular octagon with all rational side lengths has a center of symmetry.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1969"
+  },
+  {
+    "id": "PMO_1969_P4",
+    "year": 1969,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "If $qr-ps=1$ and $\\frac{p}{q}<\\frac{a}{b}<\\frac{r}{s}$ for natural numbers $a,b,p,q,r,s$, prove $b\\geq q+s$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1969"
+  },
+  {
+    "id": "PMO_1969_P5",
+    "year": 1969,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For which values of $n$ does there exist a polyhedron with exactly $n$ edges?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1969"
+  },
+  {
+    "id": "PMO_1969_P6",
+    "year": 1969,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given $n$ points in the plane, not all collinear. Prove there exists a circle through at least 3 of them containing none of the others in its interior.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1969"
+  }
+]

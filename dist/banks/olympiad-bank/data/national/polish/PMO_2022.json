@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_2022_P1",
+    "year": 2022,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ ($AB<AC$); angle bisector from $A$ meets $BC$ at $D$ and circumcircle at $M\\neq A$. Points $X,Y$: $MX\\perp AB$, $BX\\perp MB$, $MY\\perp AC$, $CY\\perp MC$. Prove $X,D,Y$ collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2022"
+  },
+  {
+    "id": "PMO_2022_P2",
+    "year": 2022,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$m,n\\geq 2$. Prove there exist $a_1<\\cdots<a_m$ with $a_j/(a_j-a_i)$ divisible by $n$ for all $i<j$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2022"
+  },
+  {
+    "id": "PMO_2022_P3",
+    "year": 2022,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n$ points on a circle; chords drawn so removing any 2021 leaves any two points connected. Prove one can remove some chords, leaving $\\leq 2022n$ with the same property.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2022"
+  },
+  {
+    "id": "PMO_2022_P4",
+    "year": 2022,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all real triples $(a,b,c)$ with $a^3+b^2c=ac$, $b^3+c^2a=ba$, $c^3+a^2b=cb$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2022"
+  },
+  {
+    "id": "PMO_2022_P5",
+    "year": 2022,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ ($AB<AC$); $M$ = midpoint of $BC$; $P\\in AB$ with $AP>PB$; $Q\\in AC$ with $\\angle MPA=\\angle AQM$. Perp bisectors of $BC,PQ$ meet at $S$. Prove $\\angle BAC+\\angle QSP=\\angle QMP$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2022"
+  },
+  {
+    "id": "PMO_2022_P6",
+    "year": 2022,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prime $p$, positive integer $n$. Prove $1,\\ldots,p-1$ can be colored with $2n$ colors so that for $i=2,\\ldots,n$, no $i$ same-colored numbers sum to $0\\pmod{p}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2022"
+  }
+]

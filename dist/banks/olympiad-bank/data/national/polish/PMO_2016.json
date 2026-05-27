@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_2016_P1",
+    "year": 2016,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $p$ be prime. Find all nonneg­ative integers $n$ for which $P(x)=x^4-2(n+p)x^2+(n-p)^2$ factors into two quadratics in $\\mathbb{Z}[x]$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2016"
+  },
+  {
+    "id": "PMO_2016_P2",
+    "year": 2016,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Quadrilateral $ABCD$ circumscribed about circle $\\omega$ with center $I$; $\\angle BAD+\\angle ADC<\\pi$; $M,N$ = tangency points on $AB,CD$; $K\\in MN$ with $AK=AM$. Prove $ID$ bisects $KN$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2016"
+  },
+  {
+    "id": "PMO_2016_P3",
+    "year": 2016,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $f(a,b)$ = number of sequences $s_1,\\ldots,s_a$ of integers with $|s_1|+\\cdots+|s_a|\\leq b$. Show $f(a,b)=f(b,a)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2016"
+  },
+  {
+    "id": "PMO_2016_P4",
+    "year": 2016,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $k,n$ be odd positive integers $>1$. Prove: if there exists $a$ with $k\\mid 2^a+1$ and $n\\mid 2^a-1$, then there is no $b$ with $k\\mid 2^b-1$ and $n\\mid 2^b+1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2016"
+  },
+  {
+    "id": "PMO_2016_P5",
+    "year": 2016,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Given $0<a<b$, show there exist positive integers $p,q,r,s$ with $a<\\frac{p}{q}<\\frac{r}{s}<b$ and $p^2+q^2=r^2+s^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2016"
+  },
+  {
+    "id": "PMO_2016_P6",
+    "year": 2016,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Incenter $I$ of $\\triangle ABC$; $D,S\\neq A$ = intersections of $AI$ with $BC$ and circumcircle; $K,L$ = incenters of $\\triangle DSB,\\triangle DCS$; $P$ = reflection of $I$ over $KL$. Prove $BP\\perp CP$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2016"
+  }
+]

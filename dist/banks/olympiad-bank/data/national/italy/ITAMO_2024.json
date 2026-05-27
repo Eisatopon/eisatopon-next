@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ITAMO_2024_P1",
+    "year": 2024,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $x_0=2024^{2024}$ and $x_{n+1}=|x_n-\\pi|$ for $n\\geq 0$. Show there exists $n$ with $x_{n+2}=x_n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2024"
+  },
+  {
+    "id": "ITAMO_2024_P2",
+    "year": 2024,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A unit square in the plane. A point $M$ is median if there are points $P,Q$ on the boundary with $PQ=1$ and $M$ the midpoint of $PQ$. Find the geometric locus of all median points.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2024"
+  },
+  {
+    "id": "ITAMO_2024_P3",
+    "year": 2024,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$n$ is Egyptian if there is a strictly increasing sequence $0<a_1<\\cdots<a_k=n$ with $\\sum_{i=1}^k \\frac{1}{a_i}=1$. (a) Is 72 Egyptian? (b) Is 71 Egyptian? (c) Is 7271 Egyptian?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2024"
+  },
+  {
+    "id": "ITAMO_2024_P4",
+    "year": 2024,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Rectangle $ABCD$ ($AB<BC$) with circumcircle $\\Gamma$. $P$ on arc $BC$ not containing $A$; $Q$ on arc $CD$ not containing $A$; $BP=CQ$. Circle with diameter $AQ$ meets $AP$ again at $S$; perpendicular to $AQ$ through $B$ meets $AP$ at $X$. (a) Prove $XS=PS$. (b) Prove $AX=DQ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2024"
+  },
+  {
+    "id": "ITAMO_2024_P5",
+    "year": 2024,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A fortress is a connected finite set of unit squares (may have holes). Guards in cells oversee cells up/left/right/down until the next wall. (a) Find the smallest $k$ such that $k$ guards suffice for any fortress with perimeter $\\leq 2024$. (b) Same for area $\\leq 2024$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2024"
+  },
+  {
+    "id": "ITAMO_2024_P6",
+    "year": 2024,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For each integer $n$, find the smallest real $M_n$ such that $\\dfrac{1}{a_1}+\\dfrac{a_1}{a_2}+\\cdots+\\dfrac{a_{n-1}}{a_n}\\leq M_n$ for any $n$-tuple of integers $1<a_1<a_2<\\cdots<a_n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2024"
+  }
+]

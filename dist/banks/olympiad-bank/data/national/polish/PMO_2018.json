@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_2018_P1",
+    "year": 2018,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ ($AB<AC$); bisector of $\\angle BAC$ meets $BC$ at $D$; $M$ = midpoint of $BC$. Prove the line through the excenters of $\\triangle ABC$ and $\\triangle ADM$ is parallel to $AD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2018"
+  },
+  {
+    "id": "PMO_2018_P2",
+    "year": 2018,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "An $n$-point subset $S$ of the integer lattice ($n$ odd). Injective $f:S\\to S$ with $|f(A)-f(B)|\\geq|A-B|$ for all $A,B\\in S$. Prove there is a fixed point.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2018"
+  },
+  {
+    "id": "PMO_2018_P3",
+    "year": 2018,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $c\\in\\mathbb{R}$ for which there is a function $f:\\mathbb{R}\\to\\mathbb{R}$ with $f(f(x)+f(y))+cxy=f(x+y)$ for all $x,y$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2018"
+  },
+  {
+    "id": "PMO_2018_P4",
+    "year": 2018,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $M$ = number of squarefree $k\\in\\{1,\\ldots,n\\}$ for which $\\lfloor n/k\\rfloor$ is odd. Prove $M$ is odd.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2018"
+  },
+  {
+    "id": "PMO_2018_P5",
+    "year": 2018,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ ($AB<AC$); $E,F$ = feet of altitudes from $B,C$; tangent to circumcircle at $A$ meets $BC$ at $P$; line through $A$ parallel to $BC$ meets $EF$ at $Q$. Prove $PQ\\perp$ median from $A$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2018"
+  },
+  {
+    "id": "PMO_2018_P6",
+    "year": 2018,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prime $p>3$; $K$ = number of permutations $(a_1,\\ldots,a_p)$ of $\\{1,\\ldots,p\\}$ with $p\\mid a_1a_2+a_2a_3+\\cdots+a_pa_1$. Prove $p^2\\mid K+p$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2018"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ITAMO_2005_P1",
+    "year": 2005,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Right $\\triangle ABC$ with hypotenuse $AC$; $H$ = foot of altitude from $B$ to $AC$. Given that $AB$, $BC$, $BH$ are the sides of a right-angled triangle, find all possible values of $CH/AH$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2005"
+  },
+  {
+    "id": "ITAMO_2005_P2",
+    "year": 2005,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that among any 18 consecutive positive integers $\\leq 2005$, at least one is divisible by the sum of its digits.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2005"
+  },
+  {
+    "id": "ITAMO_2005_P3",
+    "year": 2005,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A $4\\times 4$ table has entries 1 or 2. The sum of entries in each of the four $3\\times 3$ sub-tables is divisible by 4, but the total sum is not. Find the maximum and minimum possible total sum.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2005"
+  },
+  {
+    "id": "ITAMO_2005_P4",
+    "year": 2005,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all $n\\geq 3$ for which there are $n$ positive integers, any two sharing a common divisor $>1$ but any three being coprime. For such $n$, if additionally each $a_i<5000$, what is the greatest possible $n$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2005"
+  },
+  {
+    "id": "ITAMO_2005_P5",
+    "year": 2005,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A sequence $(a_n)$ is defined by $a_0=1$ and $a_{n+1}=a_n/2$ if $a_n$ is even, $a_{n+1}=a_n+h$ otherwise (for fixed positive integer $h$). For which $h$ does there exist $n>0$ with $a_n=1$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2005"
+  },
+  {
+    "id": "ITAMO_2005_P6",
+    "year": 2005,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two circles $\\gamma_1,\\gamma_2$ with centers $A,B$ intersect at $C,D$. The circumcircle of $\\triangle ABC$ meets $\\gamma_1$ at $E$ and $\\gamma_2$ at $F$ (arc $EF$ not containing $C$ lies outside both circles). Prove the arc $EF$ is bisected by line $CD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2005"
+  }
+]

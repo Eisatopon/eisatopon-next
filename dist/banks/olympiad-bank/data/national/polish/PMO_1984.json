@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1984_P1",
+    "year": 1984,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all real functions $f$ that map sums of $n$ elements to sums of their images, with $f^{n-1}$ constant and $f^{n-2}$ not constant.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1984"
+  },
+  {
+    "id": "PMO_1984_P2",
+    "year": 1984,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For $i\\in\\{1,\\ldots,n\\}$, $j\\in\\{1,\\ldots,2n\\}$, define $a_{j,i}=1$ if $j=i$, 0 if $j\\neq i$ and $j\\leq n$, and $-1/n$ if $j>n$. Prove that for any permutation $p$ of $\\{1,\\ldots,2n\\}$: $\\sum_{j=1}^n\\left|\\sum_{k=1}^n a_{j,p(k)}\\right|\\geq\\frac{n}{2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1984"
+  },
+  {
+    "id": "PMO_1984_P3",
+    "year": 1984,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Regular octahedron $W$ with center $O$. Plane $P$ through $O$ with circles $k_1(O,r_1)\\subset P\\cap W\\subset k_2(O,r_2)$. Prove $r_2/r_1\\leq\\sqrt{2}/\\sqrt{3}$... (corrected: $\\leq\\sqrt{2}$).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1984"
+  },
+  {
+    "id": "PMO_1984_P4",
+    "year": 1984,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A coin is tossed $n$ times; each head contributes 1, each tail contributes 2 to partial sums $b_j$. Let $p(n)$ be the probability that some $b_j=n$. Express $p(n)$ in terms of $p(n-1)$ and $p(n-2)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1984"
+  },
+  {
+    "id": "PMO_1984_P5",
+    "year": 1984,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A regular hexagon of side 1 is covered by six unit discs. Prove no vertex is covered by two or more discs.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1984"
+  },
+  {
+    "id": "PMO_1984_P6",
+    "year": 1984,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Cities $P_1,\\ldots,P_{1025}$ connected by airlines $A_1,\\ldots,A_{10}$ so every pair has a direct flight. Prove some airline can offer a round trip with an odd number of flights.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1984"
+  }
+]

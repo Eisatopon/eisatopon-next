@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1973_P1",
+    "year": 1973,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that every polynomial is the difference of two increasing polynomials.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1973"
+  },
+  {
+    "id": "PMO_1973_P2",
+    "year": 1973,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $p_n$ be the probability that in $n$ fair coin tosses, heads appear 100 consecutive times. Prove $(p_n)$ converges and find the limit.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1973"
+  },
+  {
+    "id": "PMO_1973_P3",
+    "year": 1973,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A polyhedron $W$ has: (i) a center of symmetry $S$; (ii) every plane cross-section through $S$ and an edge of $W$ is a parallelogram; (iii) some vertex of $W$ has exactly 3 edges. Prove $W$ is a parallelepiped.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1973"
+  },
+  {
+    "id": "PMO_1973_P4",
+    "year": 1973,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A set of segments with total length $<1$ is given on a line. Prove that any set of $n$ points on the line can be translated by at most $n/2$ to be disjoint from all given segments.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1973"
+  },
+  {
+    "id": "PMO_1973_P5",
+    "year": 1973,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove every positive rational $m/n$ can be written as a sum of reciprocals of distinct positive integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1973"
+  },
+  {
+    "id": "PMO_1973_P6",
+    "year": 1973,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "For every centrally symmetric polygon, there is at most one ellipse of minimal area containing it. Prove this.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1973"
+  }
+]

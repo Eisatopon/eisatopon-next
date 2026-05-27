@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1982_P1",
+    "year": 1982,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n$ girls and $n$ boys around a round table. Let $d_n$ = number of girls between two boys, $c_n$ = number of boys between two girls. Find the arrangement maximizing $d_n-c_n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1982"
+  },
+  {
+    "id": "PMO_1982_P2",
+    "year": 1982,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In cyclic quadrilateral $ABCD$, the line through the midpoint of $AB$ and the intersection of diagonals is perpendicular to $CD$. Prove $AB\\parallel CD$ or the diagonals are perpendicular.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1982"
+  },
+  {
+    "id": "PMO_1982_P3",
+    "year": 1982,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all pairs of positive reals $(x,y)$ satisfying $x^2+y^2=a^2+b^2$ and $x^3+y^3=a^3+b^3$, where $a,b$ are given positives.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1982"
+  },
+  {
+    "id": "PMO_1982_P4",
+    "year": 1982,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A finite set of points in the plane can be covered by open squares $Q_1,\\ldots,Q_n$ such that $1\\leq\\frac{N_j}{S_j}\\leq 4$, where $N_j$ = points inside $Q_j$ and $S_j$ = area of $Q_j$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1982"
+  },
+  {
+    "id": "PMO_1982_P5",
+    "year": 1982,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Integers $x_0,x_1,\\ldots,x_n=x_0$, $x_{n+1}=x_1$ satisfy $(-1)^{x_k}\\cdot x_{k-1}x_{k+1}>0$ for all $k$. Prove $\\sum_{k=0}^{n-1}x_k-\\sum_{k=0}^{n-1}|x_k|$ is divisible by 4.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1982"
+  },
+  {
+    "id": "PMO_1982_P6",
+    "year": 1982,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Prove that the sum of dihedral angles of any tetrahedron exceeds $2\\pi$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1982"
+  }
+]

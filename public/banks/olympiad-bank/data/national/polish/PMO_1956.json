@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1956_P1",
+    "year": 1956,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Solve the system: $x^2y^2+x^2z^2=axyz$, $y^2z^2+y^2x^2=bxyz$, $z^2x^2+z^2y^2=cxyz$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1956"
+  },
+  {
+    "id": "PMO_1956_P2",
+    "year": 1956,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that if $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=\\frac{1}{a+b+c}$ and $n$ is any odd natural number, then $\\frac{1}{a^n}+\\frac{1}{b^n}+\\frac{1}{c^n}=\\frac{1}{a^n+b^n+c^n}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1956"
+  },
+  {
+    "id": "PMO_1956_P3",
+    "year": 1956,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "On a line, points $M,D,H$ are given. Construct a right-angled triangle for which $M$ is the midpoint of the hypotenuse, $D$ is where the bisector of the right angle meets the hypotenuse, and $H$ is the foot of the altitude to the hypotenuse.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1956"
+  },
+  {
+    "id": "PMO_1956_P4",
+    "year": 1956,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that if $a^2+b^2=c^2$ for natural numbers $a,b,c$, then (1) at least one of $a,b$ is divisible by 3; (2) at least one of $a,b$ is divisible by 4; (3) at least one of $a,b,c$ is divisible by 5.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1956"
+  },
+  {
+    "id": "PMO_1956_P5",
+    "year": 1956,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Prove that every polygon with perimeter $2a$ can be covered by a disk of diameter $a$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1956"
+  },
+  {
+    "id": "PMO_1956_P6",
+    "year": 1956,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A sphere of radius $R$ and a plane $\\alpha$ have no common points. A point $S$ moves in $\\alpha$ as the vertex of a cone tangent to the sphere along a circle with center $C$. Find the locus of $C$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1956"
+  }
+]

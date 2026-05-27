@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ITAMO_2021_P1",
+    "year": 2021,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A positive integer $m$ is a zero taker if there is a perfect square $k$ divisible by $m$ whose decimal expression contains $\\geq 2021$ zeros but does not end in 0. Find all zero takers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2021"
+  },
+  {
+    "id": "ITAMO_2021_P2",
+    "year": 2021,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with incenter $I$; $D$ = reflection of $I$ over $AB$; $E$ = reflection of $I$ over $AC$. Show the circumcircles of $\\triangle BID$ and $\\triangle CIE$ are tangent to each other.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2021"
+  },
+  {
+    "id": "ITAMO_2021_P3",
+    "year": 2021,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "An $n\\times n$ grid with sentries, each watching two perpendicular directions. (a) Show 12 sentries suffice in a $4\\times 4$ grid so every cell is watched by $\\leq 2$ sentries. (b) Let $S(n)$ = max sentries for every cell watched by $\\leq 2$. Prove $3n\\leq S(n)\\leq 4n$ for $n\\geq 3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2021"
+  },
+  {
+    "id": "ITAMO_2021_P4",
+    "year": 2021,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "On a blackboard: fractions $\\frac{1}{1},\\frac{1}{2},\\ldots,\\frac{1}{n}$ (reduced). A step: pick two fractions, delete them, write their 'pirate sum' $\\frac{a}{b}\\oplus\\frac{c}{d}=\\frac{a+c}{b+d}$ (reduced). Continue until one fraction remains. Find the maximum and minimum possible final fraction as a function of $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2021"
+  },
+  {
+    "id": "ITAMO_2021_P5",
+    "year": 2021,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$; $M$ = midpoint of $BC$; $H$ = foot of $B$-altitude; $Q$ = circumcenter of $\\triangle ABM$; $X$ = intersection of $BH$ with axis of $BC$. Prove circumcircles of $\\triangle ACM$, $\\triangle AXH$ and line $CQ$ pass through a common point iff $BQ\\perp CQ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2021"
+  },
+  {
+    "id": "ITAMO_2021_P6",
+    "year": 2021,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A periodic sequence $x_1,x_2,\\ldots$ of distinct positive integers with period $p$ (so $x_1,\\ldots,x_p$ are distinct and $x_{n+p}=x_n$). Reveal terms to find $p$. (a) If $1\\leq p\\leq 10$, find the minimum $n$ sufficient. (b) If $p$ is one of the first $k$ primes, for which $k$ can one find $p$ by revealing at most 5 terms?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2021"
+  }
+]

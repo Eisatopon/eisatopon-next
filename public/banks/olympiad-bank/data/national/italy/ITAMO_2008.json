@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ITAMO_2008_P1",
+    "year": 2008,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Regular dodecagon $ABCDEFGHILMN$; $P$ = intersection of diagonals $AF$ and $DH$; $S$ = circle through $A,H$ with same radius as circumcircle but different. Prove: (1) $P$ lies on $S$; (2) center of $S$ lies on diagonal $HN$; (3) $PE$ equals the side length of the dodecagon.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2008"
+  },
+  {
+    "id": "ITAMO_2008_P2",
+    "year": 2008,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "An $(n-1)\\times(n-1)$ square is divided into $(n-1)^2$ unit squares. Color each of the $n^2$ vertices red or blue so each unit square has exactly 2 red vertices. Find the number of such colorings.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2008"
+  },
+  {
+    "id": "ITAMO_2008_P3",
+    "year": 2008,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f:\\mathbb{Z}\\to\\mathbb{R}$ satisfying: (i) $f(m)<f(n)$ whenever $m<n$; (ii) for each pair $(m,n)$, there is an integer $k$ with $f(m)-f(n)=f(k)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2008"
+  },
+  {
+    "id": "ITAMO_2008_P4",
+    "year": 2008,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all triples $(a,b,c)$ of positive integers with $a^2 + 2^{b+1} = 3^c$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2008"
+  },
+  {
+    "id": "ITAMO_2008_P5",
+    "year": 2008,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with all angles in $(45^\\circ, 90^\\circ)$. (a) Prove three equal squares can be placed inside $\\triangle ABC$ with a common interior vertex $K$, each touching two sides of $\\triangle ABC$. (b) Let $P$ be the center of the square with side $AB$ outside $\\triangle ABC$; $r_C$ = line symmetric to $CK$ w.r.t. bisector of $\\angle BCA$. Prove $P$ lies on $r_C$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2008"
+  },
+  {
+    "id": "ITAMO_2008_P6",
+    "year": 2008,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Francesca and Giorgia play with stacks of coins. A move: split an even-size stack into two equal halves, or remove all odd-size stacks. First to remove the last coin wins. (1) Starting with $2008^{2008}$ coins in one stack, who wins? (2) Characterize all initial configurations where Francesca wins.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2008"
+  }
+]

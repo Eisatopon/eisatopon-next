@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ITAMO_2022_P1",
+    "year": 2022,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For which positive integers $n$ does there exist a positive integer $A$ divisible by 2022, using only digits 0 and 7, with exactly $n$ sevens?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2022"
+  },
+  {
+    "id": "ITAMO_2022_P2",
+    "year": 2022,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ ($AB<AC$); $D$ = foot of bisector from $A$ on $BC$; $E\\in BC$ with $AB=AE$; $F\\in BC$ with $BD=DF$; $G\\in AC$ with $AB=AG$. Prove the circumcircle of $\\triangle EFG$ is tangent to line $AC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2022"
+  },
+  {
+    "id": "ITAMO_2022_P3",
+    "year": 2022,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "10,000 contestants: the $k$th takes $k/n$ of the remaining cake. Which contestant takes the largest piece?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2022"
+  },
+  {
+    "id": "ITAMO_2022_P4",
+    "year": 2022,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Alberto places $a_1,\\ldots,a_{2022}$ in a $2022\\times 2022$ table (cell $(i,j)$ contains $a_{\\max(i,j)}$). Barbara wants to determine $a_k$ by asking for sums along paths from top-left to bottom-right. Find the minimum number of questions needed, as a function of $k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2022"
+  },
+  {
+    "id": "ITAMO_2022_P5",
+    "year": 2022,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Robot Mag-o-matic has 101 glasses. An instruction $(a;b,c)$ means: if glass $a$ has a ball, swap glasses $b$ and $c$. A subset $S\\subseteq\\{0,\\ldots,101\\}$ is identifiable if a program outputs a ball in glass 1 iff the number of balls is in $S$. (a) Show odd numbers form an identifiable set. (b) Find all identifiable subsets.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2022"
+  },
+  {
+    "id": "ITAMO_2022_P6",
+    "year": 2022,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Non-equilateral $\\triangle ABC$ with circumradius $R$, incenter $I$, incircle tangent to $CA$ at $D$ and $CB$ at $E$. $A_1$ on line $EI$ with $A_1I=R$ and $I$ between $A_1,E$; $B_1$ on line $DI$ with $B_1I=R$ and $I$ between $B_1,D$; $P=AA_1\\cap BB_1$. (a) Prove $P$ is on the circumcircle. (b) If $AB=1$ and $P=C$, find the possible perimeters.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2022"
+  }
+]

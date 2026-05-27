@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ITAMO_2004_P1",
+    "year": 2004,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "In Cesenatico, the low temperature each day equals the sum of the low temperatures the preceding and the following day. Given temperatures of $5°C$ on Dec 3 and $2°C$ on Jan 31, find the temperature on Dec 25.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2004"
+  },
+  {
+    "id": "ITAMO_2004_P2",
+    "year": 2004,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two parallel lines $r,s$ and points $P\\in r$, $Q\\in s$. Circles $C_P$ tangent to $r$ at $P$ and $C_Q$ tangent to $s$ at $Q$, externally tangent to each other at $T$. Find the locus of $T$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2004"
+  },
+  {
+    "id": "ITAMO_2004_P3",
+    "year": 2004,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "(a) Is $2005^{2004}$ the sum of two perfect squares? (b) Is $2004^{2005}$ the sum of two perfect squares?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2004"
+  },
+  {
+    "id": "ITAMO_2004_P4",
+    "year": 2004,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Antonio and Bernardo play with two piles of $m$ and $n$ chips. A move: take from one pile, take from both, or move a chip from one pile to the other. Who cannot move loses. Decide the winner as a function of $m$ and $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2004"
+  },
+  {
+    "id": "ITAMO_2004_P5",
+    "year": 2004,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "True or false: for every sequence $(x_n)$ of nonneg­ative reals, there exist nonneg­ative sequences $(a_n),(b_n)$ with $x_n=a_n+b_n$, and $\\sum_{i=1}^n a_i \\leq n$ for infinitely many $n$, and $\\sum_{i=1}^n b_i \\leq n$ for infinitely many $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2004"
+  },
+  {
+    "id": "ITAMO_2004_P6",
+    "year": 2004,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$P$ is inside $\\triangle ABC$. Lines $AP,BP,CP$ meet the opposite sides at $A',B',C'$. Let $x=PA/PA'$, $y=PB/PB'$, $z=PC/PC'$. Prove $xyz = x+y+z+2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2004"
+  }
+]

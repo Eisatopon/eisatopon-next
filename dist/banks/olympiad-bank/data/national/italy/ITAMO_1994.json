@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ITAMO_1994_P1",
+    "year": 1994,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Show there is an integer $N$ such that for all $n \\geq N$, a square can be partitioned into $n$ smaller squares.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1994"
+  },
+  {
+    "id": "ITAMO_1994_P2",
+    "year": 1994,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Solve the Diophantine equation $y^2 = x^3 - 16$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1994"
+  },
+  {
+    "id": "ITAMO_1994_P3",
+    "year": 1994,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "On an island of knights and scoundrels, $n$ inhabitants give statements: $A_k$ says 'there are at least $k$ scoundrels'. Can the journalist determine whether there are more scoundrels or more knights?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1994"
+  },
+  {
+    "id": "ITAMO_1994_P4",
+    "year": 1994,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ lies in a half-plane bounded by line $r$. $A',B',C'$ are reflections of $A,B,C$ in $r$. The line through $A'$ parallel to $BC$, through $B'$ parallel to $AC$, and through $C'$ parallel to $AB$ — show these three lines are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1994"
+  },
+  {
+    "id": "ITAMO_1994_P5",
+    "year": 1994,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$OP$ is a diagonal of a unit cube. Find the minimum and maximum area of the cross-section through $OP$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1994"
+  },
+  {
+    "id": "ITAMO_1994_P6",
+    "year": 1994,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A $10\\times 10$ chessboard is labeled $1,\\ldots,100$ in the usual way. Signs of 50 numbers are changed so each row and column has exactly 5 negative numbers. Show the sum of all numbers is zero.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1994"
+  }
+]

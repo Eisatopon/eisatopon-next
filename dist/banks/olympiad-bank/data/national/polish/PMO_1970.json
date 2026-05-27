@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1970_P1",
+    "year": 1970,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Diameter $AB$ divides a circle into two semicircles; $P_1,\\ldots,P_n$ are on one semicircle. How should $C$ on the other semicircle be chosen to maximize the sum of areas of triangles $CP_1P_2,CP_2P_3,\\ldots,CP_{n-1}P_n$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1970"
+  },
+  {
+    "id": "PMO_1970_P2",
+    "year": 1970,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Three sequences $(a_n),(b_n),(c_n)$, each with pairwise distinct terms. Prove there exist $k<l$ with $a_k<a_l$, $b_k<b_l$, $c_k<c_l$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1970"
+  },
+  {
+    "id": "PMO_1970_P3",
+    "year": 1970,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove $n>1$ is prime iff $n\\mid\\binom{n}{k}$ for every $1\\leq k\\leq n-1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1970"
+  },
+  {
+    "id": "PMO_1970_P4",
+    "year": 1970,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In the plane, two perpendicular lines and $n$ rectangles with sides parallel to these lines are given. If every two rectangles share a common point, prove all rectangles share a common point.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1970"
+  },
+  {
+    "id": "PMO_1970_P5",
+    "year": 1970,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In how many ways can a 12-element set be partitioned into six 2-element subsets?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1970"
+  },
+  {
+    "id": "PMO_1970_P6",
+    "year": 1970,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find the smallest real $A$ such that every quadratic $f(x)$ with $|f(x)|\\leq 1$ for $0\\leq x\\leq 1$ satisfies $f'(0)\\leq A$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1970"
+  }
+]

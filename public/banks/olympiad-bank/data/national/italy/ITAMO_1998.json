@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ITAMO_1998_P1",
+    "year": 1998,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Calculate $\\sum_{n=1}^{1{,}000{,}000} \\lfloor\\sqrt{n}\\rfloor$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1998"
+  },
+  {
+    "id": "ITAMO_1998_P2",
+    "year": 1998,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Prove that in any polyhedron there exist two faces with the same number of edges.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1998"
+  },
+  {
+    "id": "ITAMO_1998_P3",
+    "year": 1998,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Alberto wants to organize a poker game (needs $\\geq 4$ players including himself). Bruno and Barbara go to gym once every 3 evenings; Carla, Corrado, Dario, Davide are busy once every 2 evenings; Dario refuses to play with Davide. Find the probability the game is played.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1998"
+  },
+  {
+    "id": "ITAMO_1998_P4",
+    "year": 1998,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Trapezoid $ABCD$ with longer base $AB$; diagonals $AC,BD$ are perpendicular. $O$ = circumcenter of $\\triangle ABC$; $E$ = intersection of $OB$ and $CD$. Prove $BC^2 = CD \\cdot CE$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1998"
+  },
+  {
+    "id": "ITAMO_1998_P5",
+    "year": 1998,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Distinct integers $a_1,a_2,a_3,a_4$ with $P(a_i)=1$ for some polynomial $P$ with integer coefficients. (a) Prove no integer $n$ has $P(n)=12$. (b) Does there exist such $P$ and $n$ with $P(n)=1998$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1998"
+  },
+  {
+    "id": "ITAMO_1998_P6",
+    "year": 1998,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Call $f:\\mathbb{N}\\to\\mathbb{N}$ increasing if $n<m\\Rightarrow f(n)<f(m)$, completely multiplicative if $f(nm)=f(n)f(m)$ always. (a) If $f$ is increasing, prove $f(n)\\geq n$. (b) If $f$ is increasing, completely multiplicative, and $f(2)=2$, prove $f(n)=n$. (c) Does (b) hold without 'completely'?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1998"
+  }
+]

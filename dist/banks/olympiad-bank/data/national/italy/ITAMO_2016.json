@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ITAMO_2016_P1",
+    "year": 2016,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$; $D,E$ = orthogonal projections of $A$ onto internal bisectors from $B$ and $C$. Prove $DE\\parallel BC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2016"
+  },
+  {
+    "id": "ITAMO_2016_P2",
+    "year": 2016,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A math contest has 3 problems, each scored 0–7. For any two contestants, there is at most one problem where they scored the same. Find the maximum number of contestants.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2016"
+  },
+  {
+    "id": "ITAMO_2016_P3",
+    "year": 2016,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\Gamma$ = excircle of $\\triangle ABC$ opposite $A$. $D$ = center of $\\Gamma$; $E,F$ = tangency points with extensions of $AB,AC$; $J$ = intersection of $BD$ and $EF$. Prove $\\angle CJB=90^\\circ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2016"
+  },
+  {
+    "id": "ITAMO_2016_P4",
+    "year": 2016,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all pairs $(a,n)$ of positive integers with $a\\geq n\\geq 2$ for which $(a+1)^n+a-1$ is a power of 2.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2016"
+  },
+  {
+    "id": "ITAMO_2016_P5",
+    "year": 2016,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Sequence $(x_n)$ of rationals: $x_0$ arbitrary; $x_{n+1}=(x_n^2-1)/1$ if numerator of $x_n$ is even; $x_{n+1}=x_n-1$ if odd (numerator in lowest terms). Prove: (a) the sequence has finitely many distinct terms; (b) it contains exactly one of 0 and $2/3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2016"
+  },
+  {
+    "id": "ITAMO_2016_P6",
+    "year": 2016,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A machine has a secret sequence of 2016 integers, all equal but one. You query a length-2016 sequence and get the dot product. (a) Knowing the odd one out equals 0, find the minimum questions needed. (b) Without knowing the odd one out, find the minimum questions needed.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2016"
+  }
+]

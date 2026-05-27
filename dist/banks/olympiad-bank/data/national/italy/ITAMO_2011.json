@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ITAMO_2011_P1",
+    "year": 2011,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A trapezoid has parallel bases of length 1 and 4. Cut parallel to the bases at length 3. Divide the two resulting trapezoids (parallel cuts) into $m$ and $n$ trapezoids of equal area. Minimize $m+n$ and find the required cut lengths.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2011"
+  },
+  {
+    "id": "ITAMO_2011_P2",
+    "year": 2011,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A ladder of length $n$ is $n$ consecutive integers in ascending order. (a) For every $n$, show there are two length-$n$ ladders with no common elements such that $\\gcd(a_i,b_i)=1$ for all $i$. (b) Same, but $\\gcd(a_i,b_i)>1$ for all $i$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2011"
+  },
+  {
+    "id": "ITAMO_2011_P3",
+    "year": 2011,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Integers from 1 to 7 are on a board (with repetitions). A move: choose distinct numbers from the board, delete them, write numbers so together they form $\\{1,\\ldots,7\\}$. If a sequence of moves leads to a single number, prove that number is independent of the sequence.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2011"
+  },
+  {
+    "id": "ITAMO_2011_P4",
+    "year": 2011,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Convex quadrilateral $ABCD$. $P$ = intersection of external bisectors of $\\angle DAC$ and $\\angle DBC$. Prove $\\angle APD=\\angle BPC$ iff $AD+AC=BC+BD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2011"
+  },
+  {
+    "id": "ITAMO_2011_P5",
+    "year": 2011,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine all solutions $(p,n)$ of $n^3 = p^2 - p - 1$ where $p$ is prime and $n$ is an integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2011"
+  },
+  {
+    "id": "ITAMO_2011_P6",
+    "year": 2011,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$X=\\{1,\\ldots,8\\}$. Color all 3-element subsets of $X$ with $k$ colors so that any two disjoint subsets have distinct colors. Prove: (a) 4 colors suffice; (b) 3 colors do not suffice.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 2011"
+  }
+]
