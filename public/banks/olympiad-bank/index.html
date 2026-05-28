@@ -458,7 +458,7 @@ buildOlympiadDrop('all');
     for (const batch of batches) {
       await Promise.all(batch.map(async path => {
         try {
-          const r = await fetch('data/national/' + path);
+          const r = await fetch('data/national/' + path.split('/').map(encodeURIComponent).join('/'));
           const arr = await r.json();
           if (!Array.isArray(arr) || arr.length === 0) return;
           const key = arr[0].olympiad;
