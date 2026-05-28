@@ -302,10 +302,12 @@ export default async function Home() {
         {/* ── Reminder link ── */}
         <OlympiadReminder />
 
-        <Pagination
-        currentPage={1}
-        totalPages={Math.ceil(articles.length / 8)}
-        />
+        <div className="flex justify-center mt-6">
+          <Pagination
+            currentPage={1}
+            totalPages={Math.ceil(articles.length / 8)}
+          />
+        </div>
 
 </section>
 
@@ -344,7 +346,7 @@ export default async function Home() {
                   <span className="text-[0.62rem] text-ink-muted opacity-70">{potd.date}</span>
                 </div>
                 <div className="mt-4 pt-4 border-t border-border-dim">
-                  <Link href="/problems" className="block text-center text-[0.72rem] tracking-wide text-gold hover:text-white transition-colors duration-300">
+                  <Link href="/archive" className="block text-center text-[0.72rem] tracking-wide text-gold hover:text-white transition-colors duration-300">
                     Browse Previous POTD →
                   </Link>
                 </div>
