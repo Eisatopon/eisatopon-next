@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -448,6 +448,29 @@ document.getElementById('searchBtn').addEventListener('click', doSearch);
 
 // Init
 buildOlympiadDrop('all');
+// === National data lazy loader ===
+(async function loadNational() {
+  try {
+    const res = await fetch('data/national/index.json');
+    const paths = await res.json();
+    const batches = [];
+    for (let i = 0; i < paths.length; i += 20) batches.push(paths.slice(i, i+20));
+    for (const batch of batches) {
+      await Promise.all(batch.map(async path => {
+        try {
+          const r = await fetch('data/national/' + path);
+          const arr = await r.json();
+          if (!Array.isArray(arr) || arr.length === 0) return;
+          const key = arr[0].olympiad;
+          if (!DATA[key]) DATA[key] = [];
+          DATA[key].push(...arr);
+        } catch(e) {}
+      }));
+    }
+    buildOlympiadDrop(fScope.value);
+    buildYearDrop(document.getElementById('fOlympiad').value);
+  } catch(e) { console.warn('National load failed', e); }
+})();
 buildYearDrop('all');
 </script>
 </body>
