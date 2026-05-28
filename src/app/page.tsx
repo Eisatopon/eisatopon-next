@@ -299,17 +299,7 @@ export default async function Home() {
             </div>
           )}
 
-        {/* ── Reminder link ── */}
-        <OlympiadReminder />
-
-        <div className="flex justify-center mt-6">
-          <Pagination
-            currentPage={1}
-            totalPages={Math.ceil(articles.length / 8)}
-          />
-        </div>
-
-</section>
+        </section>
 
         {/* SIDEBAR */}
         <aside className="flex flex-col gap-7">
@@ -346,7 +336,7 @@ export default async function Home() {
                   <span className="text-[0.62rem] text-ink-muted opacity-70">{potd.date}</span>
                 </div>
                 <div className="mt-4 pt-4 border-t border-border-dim">
-                  <Link href="/archive" className="block text-center text-[0.72rem] tracking-wide text-gold hover:text-white transition-colors duration-300">
+                  <Link href="/potd" className="block text-center text-[0.72rem] tracking-wide text-gold hover:text-white transition-colors duration-300">
                     Browse Previous POTD →
                   </Link>
                 </div>
@@ -376,6 +366,17 @@ export default async function Home() {
           </div>
 
         </aside>
+      </div>
+
+      {/* ── Full-width Reminder + Pagination ── */}
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-[1200px]">
+        <OlympiadReminder />
+        <div className="flex justify-center mt-4 mb-10">
+          <Pagination
+            currentPage={1}
+            totalPages={Math.ceil(articles.length / 8)}
+          />
+        </div>
       </div>
 
       {/* FOOTER */}
