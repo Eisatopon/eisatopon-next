@@ -1,0 +1,88 @@
+[
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_2025_P1",
+    "year": 2025,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra",
+      "Polynomials"
+    ],
+    "statement": "Let $P(x)=x^4+5x^3+mx^2+5nx+4$ have 2 distinct real roots which sum to $-5$. If $m,n\\in\\mathbb{Z}^+$, find the values of $m,n$ and their corresponding roots.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4242999"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_2025_P2",
+    "year": 2025,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be an acute triangle and $D$ a point on $BC$. Points $E,Z$ on line $AD$ satisfy $EB\\perp AB$ and $ZC\\perp AC$; points $H,T$ on $BC$ satisfy $EH\\parallel AC$ and $ZT\\parallel AB$. The circumcircle of triangle $BHE$ meets line $AB$ again at $M\\neq B$, and the circumcircle of triangle $CTZ$ meets line $AC$ again at $N\\neq C$. Prove that $MH$, $NT$ and $AD$ are concurrent.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4242999"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_2025_P3",
+    "year": 2025,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra",
+      "Functions"
+    ],
+    "statement": "Let $f:\\mathbb{Q}\\to\\mathbb{Q}$ satisfy $f(x+2y)+f(2x-y)=5f(x)+5f(y)$ for all $x,y\\in\\mathbb{Q}$. Find all such functions.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4242999"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_2025_P4",
+    "year": 2025,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that no perfect cube is of the form $y^2+108$ where $y\\in\\mathbb{Z}$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4242999"
+  }
+]

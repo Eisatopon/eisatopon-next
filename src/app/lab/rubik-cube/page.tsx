@@ -180,9 +180,6 @@ export default function RubikCubeSolver() {
   return (
     <div className="rk-root">
 
-  <a href="/" className="rk-back">
-    ← EisatoponAI
-  </a>
       <div className="rk-bg">
         <div className="rk-orb rk-orb1" />
         <div className="rk-orb rk-orb2" />
@@ -190,11 +187,17 @@ export default function RubikCubeSolver() {
       </div>
 
       <header className="rk-header">
-        <div className="rk-brand">
-          <div className="rk-cube-icon"><span>⬛</span></div>
-          <div>
-            <h1 className="rk-title">Rubik&apos;s Cube<br/><span className="rk-title-accent">Solver</span></h1>
-            <p className="rk-sub">Interactive 3D · WCA Notation · Optimal Solution</p>
+        <div className="rk-header-left">
+          <a href="/" className="rk-back">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+            <span>EisatoponAI</span>
+          </a>
+          <div className="rk-brand">
+            <div className="rk-cube-icon"><span>⬛</span></div>
+            <div>
+              <h1 className="rk-title">Rubik&apos;s Cube<br/><span className="rk-title-accent">Solver</span></h1>
+              <p className="rk-sub">Interactive 3D · WCA Notation · Optimal Solution</p>
+            </div>
           </div>
         </div>
 
@@ -439,43 +442,27 @@ export default function RubikCubeSolver() {
           text-align:center; font-size:12px; color:#1e293b; padding:12px;
         }
         .rk-footer strong { color:#334155; }
-        .rk-back{
-  position:fixed;
-  top:20px;
-  left:20px;
-  z-index:9999;
-
-  display:flex;
-  align-items:center;
-  gap:8px;
-
-  padding:10px 16px;
-
-  border-radius:999px;
-
-  background:rgba(255,255,255,.05);
-  border:1px solid rgba(255,255,255,.08);
-
-  backdrop-filter:blur(14px);
-
-  color:#cbd5e1;
-  text-decoration:none;
-
-  font-size:12px;
-  font-weight:700;
-  letter-spacing:.08em;
-  text-transform:uppercase;
-
-  transition:all .25s ease;
-}
-
-.rk-back:hover{
-  border-color:rgba(37,196,145,.35);
-  color:#25c491;
-  background:rgba(37,196,145,.08);
-
-  transform:translateY(-1px);
-}
+        .rk-header-left {
+          display:flex; flex-direction:column; gap:12px;
+        }
+        .rk-back {
+          display:inline-flex; align-items:center; gap:6px;
+          padding:6px 14px; border-radius:999px;
+          background:rgba(255,255,255,.04);
+          border:1px solid rgba(255,255,255,.08);
+          color:#64748b; text-decoration:none;
+          font-size:11px; font-weight:700;
+          letter-spacing:.1em; text-transform:uppercase;
+          transition:all .2s ease;
+          width:fit-content;
+        }
+        .rk-back svg { transition:transform .2s ease; }
+        .rk-back:hover {
+          border-color:rgba(37,196,145,.4);
+          color:#25c491;
+          background:rgba(37,196,145,.08);
+        }
+        .rk-back:hover svg { transform:translateX(-3px); }
         @media(max-width:600px){
           .rk-header { padding:16px; }
           .rk-controls { justify-content:flex-start; }

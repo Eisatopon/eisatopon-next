@@ -268,6 +268,10 @@ export default function DyscalculiaTest() {
 
         {/* header */}
         <header className="dt-header">
+          <a href="/" className="dt-home-back">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+            <span>EisatoponAI</span>
+          </a>
           <div className="dt-header-inner">
             <div className="dt-badge" style={{background: `color-mix(in srgb,${CATEGORY_COLORS[q.category]} 15%,transparent)`, color: CATEGORY_COLORS[q.category]}}>
               {q.category}
@@ -358,8 +362,27 @@ const STYLES = `
     border:1px solid rgba(255,255,255,.07);
     border-radius:24px 24px 0 0;
     padding:36px 32px 28px;
-    text-align:center;
+    display:flex; flex-direction:column; align-items:flex-start;
   }
+  .dt-header-inner { width:100%; text-align:center; }
+  .dt-home-back {
+    display:inline-flex; align-items:center; gap:6px;
+    padding:6px 14px; border-radius:999px;
+    background:rgba(255,255,255,.04);
+    border:1px solid rgba(255,255,255,.08);
+    color:#64748b; text-decoration:none;
+    font-size:11px; font-weight:700;
+    letter-spacing:.1em; text-transform:uppercase;
+    transition:all .2s ease;
+    margin-bottom:20px;
+  }
+  .dt-home-back svg { transition:transform .2s ease; }
+  .dt-home-back:hover {
+    border-color:rgba(59,130,246,.4);
+    color:#60a5fa;
+    background:rgba(59,130,246,.08);
+  }
+  .dt-home-back:hover svg { transform:translateX(-3px); }
   .dt-badge {
     display:inline-block;
     padding:5px 16px;

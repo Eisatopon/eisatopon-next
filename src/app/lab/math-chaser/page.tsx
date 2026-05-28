@@ -227,6 +227,10 @@ export default function MathChaserPro() {
             <div className="mc-orb mc-orb3" />
           </div>
           <div className="mc-landing-content">
+            <a href="/" className="mc-home-back">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+              <span>EisatoponAI</span>
+            </a>
             <div className={`mc-icon-ring ${pulse?'mc-pulse':''}`}>
               <span className="mc-brain">🧠</span>
             </div>
@@ -390,6 +394,25 @@ export default function MathChaserPro() {
         .mc-orb2 { width:300px; height:300px; background:#0ea5e9; bottom:-50px; right:-50px; }
         .mc-orb3 { width:200px; height:200px; background:#f59e0b; top:50%; left:50%; transform:translate(-50%,-50%); }
         .mc-landing-content { position:relative; z-index:1; }
+
+        .mc-home-back {
+          display:inline-flex; align-items:center; gap:6px;
+          padding:6px 14px; border-radius:999px;
+          background:rgba(255,255,255,.04);
+          border:1px solid rgba(255,255,255,.08);
+          color:#64748b; text-decoration:none;
+          font-size:11px; font-weight:700;
+          letter-spacing:.1em; text-transform:uppercase;
+          transition:all .2s ease;
+          margin-bottom:28px;
+        }
+        .mc-home-back svg { transition:transform .2s ease; }
+        .mc-home-back:hover {
+          border-color:rgba(124,58,237,.4);
+          color:#a78bfa;
+          background:rgba(124,58,237,.08);
+        }
+        .mc-home-back:hover svg { transform:translateX(-3px); }
 
         .mc-icon-ring {
           width:100px; height:100px; border-radius:50%;

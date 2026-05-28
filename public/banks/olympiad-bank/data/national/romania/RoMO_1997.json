@@ -1,0 +1,172 @@
+[
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_1997_VII_P1",
+    "year": 1997,
+    "problem_id": "VII_P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n_1=\\overline{abcabc}$ and $n_2=\\overline{d00d}$ be numbers in the decimal system, $a\\neq 0$, $d\\neq 0$.\\na) Prove that $\\sqrt{n_1}$ cannot be an integer.\\nb) Find all positive integers $n_1$ and $n_2$ such that $\\sqrt{n_1+n_2}$ is an integer.\\nc) Among all pairs $(n_1,n_2)$ such that $\\sqrt{n_1n_2}$ is an integer, find those for which $\\sqrt{n_1n_2}$ has the greatest possible value.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c_1997_RoNO"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_1997_VII_P2",
+    "year": 1997,
+    "problem_id": "VII_P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a\\neq 0$ be a natural number. Prove that $a$ is a perfect square if and only if for every $b\\in\\mathbb{N}^*$ there exists $c\\in\\mathbb{N}^*$ such that $a+bc$ is a perfect square.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c_1997_RoNO"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_1997_VII_P3",
+    "year": 1997,
+    "problem_id": "VII_P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Triangle $ABC$ has $\\angle ACB=30°$, $BC=4$ cm and $AB=3$ cm. Compute the altitudes of the triangle.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c_1997_RoNO"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_1997_VII_P4",
+    "year": 1997,
+    "problem_id": "VII_P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Quadrilateral $ABCD$ has two parallel sides. Let $M,N$ be midpoints of $[DC]$ and $[BC]$, and $P$ the intersection of lines $AM$ and $DN$. If $\\dfrac{PM}{AP}=\\dfrac{1}{4}$, prove that $ABCD$ is a parallelogram.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c_1997_RoNO"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_1997_VIII_P1",
+    "year": 1997,
+    "problem_id": "VIII_P1",
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "statement": "Let $k$ be an integer and $P(X)=X^{1997}-X^{1995}+X^2-3kX+3k+1$. Prove that:\\na) the polynomial has no integer root;\\nb) the numbers $P(n)$ and $P(n)+3$ are relatively prime for every integer $n$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c_1997_RoNO"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_1997_VIII_P2",
+    "year": 1997,
+    "problem_id": "VIII_P2",
+    "topic": [
+      "Algebra",
+      "Inequalities"
+    ],
+    "statement": "For all positive reals $x,y,z$ with $xyz=1$, prove that $\\dfrac{x^9+y^9}{x^6+x^3y^3+y^6}+\\dfrac{y^9+z^9}{y^6+y^3z^3+z^6}+\\dfrac{z^9+x^9}{z^6+z^3x^3+x^6}\\geq 2$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c_1997_RoNO"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_1997_VIII_P3",
+    "year": 1997,
+    "problem_id": "VIII_P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Rectangular parallelepiped $ABCDA'B'C'D'$ has $AA'=2AB=8a$. $E$ is the midpoint of $(AB)$ and $M\\in(DD')$ with $DM=a\\!\\left(1+\\dfrac{AD}{AC}\\right)$.\\na) Find $F\\in[AA']$ minimizing $CF+FM$.\\nb) With $F$ as above, find the angle between planes $(D,E,F)$ and $(D,B',C')$.\\nc) Given lines $AC'$ and $FD$ are perpendicular, compute the volume of the parallelepiped.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c_1997_RoNO"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_1997_VIII_P4",
+    "year": 1997,
+    "problem_id": "VIII_P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $S$ be a point outside the plane of parallelogram $ABCD$ such that triangles $SAB$, $SBC$, $SCD$ and $SAD$ are congruent.\\na) Prove $ABCD$ is a rhombus.\\nb) If the distance from $S$ to plane $(A,B,C,D)$ is 12, $BD=30$ and $AC=40$, compute the distance from the projection of $S$ on plane $(A,B,C,D)$ to plane $(S,B,C)$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c_1997_RoNO"
+  }
+]

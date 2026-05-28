@@ -1,0 +1,87 @@
+[
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_2022_P1",
+    "year": 2022,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle with $AB<AC<BC$. Let $D,E$ be points on $BC$ such that $BD=BA$ and $CE=CA$. If $K$ is the circumcenter of triangle $ADE$, $F$ is the intersection of lines $AD,KC$ and $G$ is the intersection of lines $AE,KB$, then prove that the circumcircle of triangle $KDE$, the circle with center $F$ and radius $FE$, and the circle with center $G$ and radius $GD$ concur on a point lying on line $AK$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c3000111"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_2022_P2",
+    "year": 2022,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n>4$ be a positive integer divisible by 4. Denote by $A_n$ the sum of odd positive divisors of $n$ and by $B_n$ the sum of even positive divisors of $n$ excluding $n$ itself. Find the least possible value of $f(n)=B_n-2A_n$ and determine for which $n$ this minimum is attained.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c3000111"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_2022_P3",
+    "year": 2022,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra",
+      "Inequalities"
+    ],
+    "statement": "The positive real numbers $a,b,c,d$ satisfy $a+bc+cd+db+\\dfrac{1}{ab^2c^2d^2}=18$. Find the maximum possible value of $a$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c3000111"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_2022_P4",
+    "year": 2022,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $Q_n$ be the set of all $n$-tuples $x=(x_1,\\ldots,x_n)$ with $x_i\\in\\{0,1,2\\}$. A triple $(x,y,z)$ of distinct elements of $Q_n$ is called good if there exists $i$ such that $\\{x_i,y_i,z_i\\}=\\{0,1,2\\}$. A subset $A$ of $Q_n$ is called good if any three elements form a good triple. Prove that every good subset of $Q_n$ contains at most $2\\cdot\\left(\\dfrac{2}{3}\\right)^n\\cdot 3^n$ elements.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c3000111"
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2004_VII_P1",
+    "year": 2004,
+    "problem_id": "VII_P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "On sides $AB$, $AD$ of rhombus $ABCD$ are points $E,F$ with $AE=DF$. Lines $BC,DE$ meet at $P$ and $CD,BF$ meet at $Q$. Prove: (a) $\\dfrac{PF}{PD}+\\dfrac{QE}{QB}=1$; (b) $P,A,Q$ are collinear.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4417"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2004_VII_P2",
+    "year": 2004,
+    "problem_id": "VII_P2",
+    "topic": [
+      "Geometry",
+      "Inequalities"
+    ],
+    "statement": "The side lengths of a triangle are $a,b,c$.\\na) Prove there is a triangle with side lengths $\\sqrt{a},\\sqrt{b},\\sqrt{c}$.\\nb) Prove $\\sqrt{ab}+\\sqrt{bc}+\\sqrt{ca}\\leq\\sqrt{a}+\\sqrt{b}+\\sqrt{c}<2\\sqrt{ab}+2\\sqrt{bc}+2\\sqrt{ca}$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4417"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2004_VII_P3",
+    "year": 2004,
+    "problem_id": "VII_P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be an orthodiagonal trapezoid with $\\angle A=90°$ and $AB$ the larger base. Diagonals meet at $O$, $(OE$ bisects $\\angle AOD$ with $E\\in(AD)$, $EF\\parallel AB$ with $F\\in(BC)$. Let $P,Q$ be intersections of $EF$ with $AC,BD$. Prove: (a) $EP=QF$; (b) $EF=AD$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4417"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2004_VII_P4",
+    "year": 2004,
+    "problem_id": "VII_P4",
+    "topic": [
+      "Combinatorics",
+      "Geometry"
+    ],
+    "statement": "Let $U=\\{(x,y)\\mid x,y\\in\\mathbb{Z},\\,0\\leq x,y<4\\}$.\\na) Prove we can choose 6 points from $U$ with no isosceles triangle among them.\\nb) Prove that any 7 points from $U$ contain three forming an isosceles triangle.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4417"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2004_VIII_P1",
+    "year": 2004,
+    "problem_id": "VIII_P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all non-negative integers $n$ such that there exist $a,b\\in\\mathbb{Z}$ with $n^2=a+b$ and $n^3=a^2+b^2$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4417"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2004_VIII_P2",
+    "year": 2004,
+    "problem_id": "VIII_P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that $x^2+y^2+z^2+t^2=2^{2004}$, $0\\leq x\\leq y\\leq z\\leq t$, has exactly 2 solutions in $\\mathbb{Z}$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4417"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2004_VIII_P3",
+    "year": 2004,
+    "problem_id": "VIII_P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCDA'B'C'D'$ be a truncated regular pyramid with $BC'\\perp DA'$.\\na) Prove $\\angle(AB',DA')=60°$.\\nb) If the projection of $B'$ on $(ABC)$ is the incenter of $ABC$, prove $d(CB',AD')=\\frac{1}{2}BC'$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4417"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2004_VIII_P4",
+    "year": 2004,
+    "problem_id": "VIII_P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Inside a cube of side 6 there are 1001 unit cubes with faces parallel to the cube's faces. Prove there exist 2 unit cubes such that the center of one lies in the interior or on a face of the other.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4417"
+  }
+]
