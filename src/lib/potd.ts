@@ -1,82 +1,59 @@
-import fs from "fs/promises";
+import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
 export interface PotdProblem {
   date: string;
   title: string;
-  difficulty: "Easy" | "Medium" | "Hard";
-  topic: string;
   problem: string;
   hint: string;
+  difficulty: "Easy" | "Medium" | "Hard";
+  topic: string;
   formula?: string;
-  slug: string;
 }
 
 const POTD_DIR = path.join(process.cwd(), "content/potd");
 
-// Ψάχνει αναδρομικά για το MDX αρχείο
-async function findMdxFile(date: string): Promise<string | null> {
-  const searchDir = async (dir: string): Promise<string | null> => {
-    const entries = await fs.readdir(dir, { withFileTypes: true });
-    for (const entry of entries) {
-      const fullPath = path.join(dir, entry.name);
-      if (entry.isDirectory()) {
-        const found = await searchDir(fullPath);
-        if (found) return found;
-      } else if (entry.name === `${date}.mdx`) {
-        return fullPath;
-      }
-    }
-    return null;
-  };
-  return searchDir(POTD_DIR);
-}
-
-// Βρίσκει όλα τα MDX αναδρομικά
-async function getAllMdxFiles(dir: string): Promise<string[]> {
-  const entries = await fs.readdir(dir, { withFileTypes: true });
-  const files: string[] = [];
+function findMdxFiles(dir: string): string[] {
+  const results: string[] = [];
+  if (!fs.existsSync(dir)) return results;
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
   for (const entry of entries) {
     const fullPath = path.join(dir, entry.name);
     if (entry.isDirectory()) {
-      files.push(...await getAllMdxFiles(fullPath));
+      results.push(...findMdxFiles(fullPath));
     } else if (entry.name.endsWith(".mdx")) {
-      files.push(entry.name);
+      results.push(fullPath);
     }
   }
-  return files;
+  return results;
+}
+
+export function getAllPotd(): PotdProblem[] {
+  const files = findMdxFiles(POTD_DIR);
+
+  const problems = files.map((filePath): PotdProblem => {
+    const raw = fs.readFileSync(filePath, "utf-8");
+    const { data, content } = matter(raw);
+
+    return {
+      date: data.date ?? "",
+      title: data.title ?? "Untitled",
+      problem: content.trim(),
+      hint: data.hint ?? "",
+      difficulty: data.difficulty ?? "Medium",
+      topic: data.topic ?? "",
+      formula: data.formula ?? undefined,
+    };
+  });
+
+  return problems
+    .filter((p) => p.date)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
 export async function getTodayProblem(): Promise<PotdProblem | null> {
   const today = new Date().toISOString().split("T")[0];
-  return getProblemByDate(today);
-}
-
-export async function getProblemByDate(date: string): Promise<PotdProblem | null> {
-  const filePath = await findMdxFile(date);
-  if (!filePath) return getMostRecentProblem();
-  
-  const fileContent = await fs.readFile(filePath, "utf-8");
-  const { data, content } = matter(fileContent);
-  
-  return {
-    date: data.date,
-    title: data.title,
-    difficulty: data.difficulty,
-    topic: data.topic,
-    problem: content.trim(),
-    hint: data.hint,
-    formula: data.formula,
-    slug: date,
-  };
-}
-
-async function getMostRecentProblem(): Promise<PotdProblem | null> {
-  const files = await getAllMdxFiles(POTD_DIR);
-  if (files.length === 0) return null;
-  
-  const mostRecent = files.sort().reverse()[0];
-  const date = mostRecent.replace(".mdx", "");
-  return getProblemByDate(date);
+  const all = getAllPotd();
+  return all.find((p) => p.date === today) ?? null;
 }
