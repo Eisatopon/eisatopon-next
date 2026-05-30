@@ -2,36 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.eisatopon.gr</loc>
-    <lastmod>2026-05-27T15:04:50.733Z</lastmod>
+    <lastmod>2026-05-30T14:44:23.394Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.eisatopon.gr/articles</loc>
-    <lastmod>2026-05-27T15:04:50.737Z</lastmod>
+    <lastmod>2026-05-30T14:44:23.394Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.eisatopon.gr/about</loc>
-    <lastmod>2026-05-27T15:04:50.737Z</lastmod>
+    <lastmod>2026-05-30T14:44:23.394Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.eisatopon.gr/banks</loc>
-    <lastmod>2026-05-27T15:04:50.737Z</lastmod>
+    <lastmod>2026-05-30T14:44:23.394Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.eisatopon.gr/banks/imo</loc>
-    <lastmod>2026-05-27T15:04:50.737Z</lastmod>
+    <lastmod>2026-05-30T14:44:23.394Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.eisatopon.gr/articles/Lev Landau and the Mathematics of Instinct</loc>
+    <loc>https://www.eisatopon.gr/articles/lev-landau-mathematics-instinct</loc>
     <lastmod>2026-05-25T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

@@ -151,7 +151,7 @@ function ArticleCard({ article, index }: { article: Article; index: number }) {
 function OlympiadBanner() {
   return (
     <a
-  href="/banks/olympiad-bank"
+  href="/banks/olympiad-bank/index.html"
   className="block rounded-xl overflow-hidden border border-[#2d3f6b] bg-[#1a2744] hover:border-[#c9a227]/50 transition-all duration-300 hover:-translate-y-0.5 group my-5"
   aria-label="Open Math Olympiad Bank — National, Regional and TST problems"
 >
@@ -191,7 +191,7 @@ function OlympiadReminder() {
     <div className="flex items-center justify-center gap-2 py-4 border-t border-border-dim mt-2 mb-2">
       <span className="text-[0.78rem] text-ink-muted">Looking for olympiad problems?</span>
       <a
-        href="/banks/olympiad-bank/"
+        href="/banks/olympiad-bank/index.html"
         className="text-[0.78rem] text-[#c9a227] hover:text-white transition-colors duration-200 underline underline-offset-2 decoration-[#c9a227]/40"
       >
         Math Olympiad Bank →

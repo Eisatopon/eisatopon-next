@@ -199,33 +199,47 @@ export default function EMEPage() {
     setInfo(`Φόρτωση ${year}...`);
 
     try {
-      const response = await fetch(url);
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const data = await response.json();
+  const response = await fetch(url);
+  
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`);
+  }
 
-      const rawProblems = data["προβλήματα"] || {};
-      const recordYear = data.year || year;
-      const problems: EMEProblem[] = [];
-      const values = Object.values(rawProblems);
+  // Ασφαλής ανάγνωση JSON
+  const text = await response.text();
+  let data;
+  
+  try {
+    data = text.trim() ? JSON.parse(text) : {};
+  } catch (jsonError) {
+    console.error(`❌ JSON Parse Error for ${year}:`, jsonError);
+    setInfo(`❌ Σφάλμα: Κατεστραμμένο αρχείο JSON για ${year}`);
+    return false;
+  }
 
-      if (values.length > 0) {
-        // Old structure (Thales only): { gradeKey: [...problems] }
-        if (Array.isArray(values[0])) {
-          Object.entries(rawProblems).forEach(([gradeKey, list]: [string, any]) => {
-            const gradeCode = GRADE_MAP[gradeKey] || gradeKey;
-            (list || []).forEach((p: any) => {
-              problems.push({
-                id: p.id || problems.length + 1,
-                year: recordYear,
-                phase: "thales",
-                grade: gradeCode,
-                problem_number: String(p["αριθμός"] ?? ""),
-                content: String(p["statement"] ?? ""),
-                image: p["image"] ? IMAGES_BASE_URL + encodeURIComponent(p["image"]) : null,
-              });
-            });
+  const rawProblems = data["προβλήματα"] || {};
+  const recordYear = data.year || year;
+  const problems: EMEProblem[] = [];
+  const values = Object.values(rawProblems);
+
+  if (values.length > 0) {
+    // Old structure (Thales only): { gradeKey: [...problems] }
+    if (Array.isArray(values[0])) {
+      Object.entries(rawProblems).forEach(([gradeKey, list]: [string, any]) => {
+        const gradeCode = GRADE_MAP[gradeKey] || gradeKey;
+        (list || []).forEach((p: any) => {
+          problems.push({
+            id: p.id || problems.length + 1,
+            year: recordYear,
+            phase: "thales",
+            grade: gradeCode,
+            problem_number: String(p["αριθμός"] ?? ""),
+            content: String(p["statement"] ?? ""),
+            image: p["image"] ? IMAGES_BASE_URL + encodeURIComponent(p["image"]) : null,
           });
-        }
+        });
+      });
+    }
         // New structure (multiple phases): { phaseName: { gradeKey: [...problems] } }
         else {
           Object.entries(rawProblems).forEach(([phaseName, perPhaseObj]: [string, any]) => {

@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -53,6 +54,10 @@ main{flex:1;max-width:1200px;width:100%;margin:0 auto;padding:0 20px 60px;positi
 .hero h1 span{background:linear-gradient(135deg,#c9a227,#e8c84a);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .hero p{color:var(--text-muted);font-size:1rem;margin-bottom:0}
 .tagline{text-align:center;font-family:'STIX Two Text',serif;font-style:italic;color:var(--gold);opacity:.65;font-size:.95rem;margin:0 auto 28px;max-width:600px}
+.hero-stats{display:flex;justify-content:center;gap:32px;flex-wrap:wrap;margin:22px 0 30px}
+.hero-stats div{text-align:center}
+.hero-stats strong{display:block;color:var(--gold);font-size:1.3rem;font-weight:700}
+.hero-stats span{color:var(--text-muted);font-size:.82rem}
 /* Legend */
 .legend{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:24px}
 .legend-item{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--text-muted)}
@@ -141,9 +146,15 @@ footer a:hover{opacity:1}
 <div class="hero">
   <div class="hero-eye">EisatoponAI · Mathematical Archive</div>
   <h1>Math Olympiad <span>Bank</span></h1>
-  <p>National Olympiads · Team Selection Tests · Regional Competitions</p>
+  <p>The World's Mathematical Olympiad Archive</p>
 </div>
-<p class="tagline">An evolving archive of mathematical challenges from around the world — new competitions added continuously.</p>
+<p class="tagline">An evolving collection of national, regional and team-selection problems from around the world.</p>
+<div class="hero-stats">
+  <div><strong id="statProblems">—</strong><span>Problems</span></div>
+  <div><strong id="statOlympiads">—</strong><span>Olympiads</span></div>
+  <div><strong id="statCountries">—</strong><span>Countries</span></div>
+  <div><strong>1962–2026</strong><span>Coverage</span></div>
+</div>
 <div class="legend">
   <div class="legend-item"><div class="legend-dot" style="background:var(--col-national)"></div>National</div>
   <div class="legend-item"><div class="legend-dot" style="background:var(--col-tst)"></div>TST</div>
@@ -165,6 +176,9 @@ footer a:hover{opacity:1}
     <option value="Number Theory">Number Theory</option>
     <option value="Combinatorics">Combinatorics</option>
   </select></label>
+  <label>Search:
+    <input type="text" id="fSearch" placeholder="Problem ID, keyword, theorem..." style="padding:10px 12px;border:1px solid var(--border);border-radius:9px;font-size:15px;background:rgba(255,255,255,.06);color:var(--text);font-family:inherit;width:100%;">
+  </label>
   <button class="btn-search" id="searchBtn">Explore Problems →</button>
 </section>
 <div class="info" id="info">Select filters and press Explore.</div>
@@ -233,12 +247,24 @@ let currentList = [], page = 1, loaded = [], selected = new Set();
 const results = document.getElementById('results');
 const info = document.getElementById('info');
 const fScope = document.getElementById('fScope');
+const fSearch = document.getElementById('fSearch');
 
 // Flatten DATA into loaded array
 for (const key of Object.keys(DATA)) {
   const arr = DATA[key];
   if (Array.isArray(arr)) for (const p of arr) loaded.push(p);
 }
+// Update hero stats
+(function() {
+  const olympiads = new Set(loaded.map(p => p.olympiad));
+  const countries = new Set(loaded.filter(p => p.country).map(p => p.country));
+  const sp = document.getElementById('statProblems');
+  const so = document.getElementById('statOlympiads');
+  const sc = document.getElementById('statCountries');
+  if (sp) sp.textContent = loaded.length.toLocaleString();
+  if (so) so.textContent = olympiads.size;
+  if (sc) sc.textContent = countries.size;
+})();
 
 function buildOlympiadDrop(scope) {
   const sel = document.getElementById('fOlympiad');
@@ -282,6 +308,7 @@ function doSearch() {
   const olympiad = document.getElementById('fOlympiad').value;
   const year = document.getElementById('fYear').value;
   const topic = document.getElementById('fTopic').value;
+  const searchText = fSearch ? fSearch.value.toLowerCase() : '';
   const filtered = loaded.filter(p => {
     const sc = scopeClass(p);
     if (scope !== 'all' && sc !== scope) return false;
@@ -290,6 +317,12 @@ function doSearch() {
     if (topic !== 'all') {
       const topics = Array.isArray(p.topic) ? p.topic : [p.topic];
       if (!topics.includes(topic)) return false;
+    }
+    if (searchText) {
+      const stmt = (p.statement || '').toLowerCase();
+      const pid = (p.id || '').toLowerCase();
+      const olym = (p.olympiad || '').toLowerCase();
+      if (!stmt.includes(searchText) && !pid.includes(searchText) && !olym.includes(searchText)) return false;
     }
     return true;
   });

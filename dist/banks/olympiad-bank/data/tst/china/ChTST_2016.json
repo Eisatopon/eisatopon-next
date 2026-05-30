@@ -1,0 +1,196 @@
+[
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2016_T1D1_P1",
+    "year": 2016,
+    "day": "TST1 Day1",
+    "problem_id": "T1D1_P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Cyclic hexagon $ABCDEF$ with $AB=BC=CD=DE$. $K$ on $AE$ with $\\angle BKC=\\angle KFE$ and $\\angle CKD=\\angle KFA$. Prove $KC=KF$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c253462"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2016_T1D1_P2",
+    "year": 2016,
+    "day": "TST1 Day1",
+    "problem_id": "T1D1_P2",
+    "topic": [
+      "Complex Numbers",
+      "Optimization"
+    ],
+    "statement": "Find the smallest $\\lambda$ such that for any $z_1,z_2,z_3$ with $|z_i|<1$ and $z_1+z_2+z_3=0$: $|z_1z_2+z_2z_3+z_3z_1|^2+|z_1z_2z_3|^2<\\lambda$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c253462"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2016_T1D1_P3",
+    "year": 2016,
+    "day": "TST1 Day1",
+    "problem_id": "T1D1_P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $X=\\{(a_1,\\ldots,a_n):a_k\\in\\{0,\\ldots,k\\}\\}$. For $s,t\\in X$, define $s\\vee t$ and $s\\wedge t$ componentwise. Find the largest proper subset $A$ of $X$ closed under $\\vee$ and $\\wedge$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c253462"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2016_T1D2_P4",
+    "year": 2016,
+    "day": "TST1 Day2",
+    "problem_id": "T1D2_P4",
+    "topic": [
+      "Number Theory",
+      "Sequences"
+    ],
+    "statement": "Let $c,d\\geq 2$. Sequence $a_1=c$, $a_{n+1}=a_n^d+c$. Prove for any $n\\geq 2$ there is a prime $p\\mid a_n$ with $p\\nmid a_i$ for $i<n$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c253462"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2016_T1D2_P5",
+    "year": 2016,
+    "day": "TST1 Day2",
+    "problem_id": "T1D2_P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Cyclic quadrilateral $ABCD$ with center $O$. Internal bisectors of $\\angle A,\\angle C$ meet at $I$; bisectors of $\\angle B,\\angle D$ meet at $J$. Extend $AB,CD$ to meet $IJ$ at $P,R$; $IJ$ meets $BC,DA$ at $Q,S$. Midpoints of $PR$ and $QS$ are $M,N$. Given $O\\notin IJ$, show $OM\\perp ON$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c253462"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2016_T1D2_P6",
+    "year": 2016,
+    "day": "TST1 Day2",
+    "problem_id": "T1D2_P6",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "Let $m,n$ be naturals with $n\\geq m\\geq 2$ and $S$ a set of $n$ naturals. Prove $S$ has at least $2^{n-m+1}$ distinct subsets each with sum divisible by $m$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c253462"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2016_T2D1_P1",
+    "year": 2016,
+    "day": "TST2 Day1",
+    "problem_id": "T2D1_P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$P$ inside acute $\\triangle ABC$. $D,E,F$ reflections of $P$ over $BC,CA,AB$. Rays $AP,BP,CP$ meet circumcircle at $L,M,N$. Prove circumcircles of $\\triangle PDL$, $\\triangle PEM$, $\\triangle PFN$ meet at a point $T\\neq P$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c253462"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2016_T2D1_P2",
+    "year": 2016,
+    "day": "TST2 Day1",
+    "problem_id": "T2D1_P2",
+    "topic": [
+      "Geometry",
+      "Optimization"
+    ],
+    "statement": "Find the smallest $\\lambda$ such that for any 12 points $P_1,\\ldots,P_{12}$ in the plane with pairwise distances $\\leq 1$: $\\sum_{1\\leq i<j\\leq 12}|P_iP_j|^2\\leq\\lambda$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c253462"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2016_T2D1_P3",
+    "year": 2016,
+    "day": "TST2 Day1",
+    "problem_id": "T2D1_P3",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Let $P$ be a finite set of primes and $A$ an infinite set of positive integers where every element has a prime factor not in $P$. Prove there is an infinite $B\\subseteq A$ such that the sum of any finite subset of $B$ has a prime factor not in $P$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c253462"
+  }
+]

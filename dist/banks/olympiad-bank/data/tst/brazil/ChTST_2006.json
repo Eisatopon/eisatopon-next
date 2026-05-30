@@ -1,0 +1,130 @@
+[
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2006_D1_P1",
+    "year": 2006,
+    "day": "Day1",
+    "problem_id": "D1_P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Trapezoid $ABCD$ with $AB\\parallel CD$. Circles $\\omega_1,\\omega_2$ inside: $\\omega_1$ tangent to $DA,AB,BC$; $\\omega_2$ tangent to $BC,CD,DA$. Let $\\ell_1$ pass through $A$ tangent to $\\omega_2$ (not $AD$); $\\ell_2$ pass through $C$ tangent to $\\omega_1$ (not $CB$). Prove $\\ell_1\\parallel\\ell_2$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4962"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2006_D1_P2",
+    "year": 2006,
+    "day": "Day1",
+    "problem_id": "D1_P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integer pairs $(a,n)$ such that $\\dfrac{(a+1)^n-a^n}{n}$ is an integer.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4962"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2006_D1_P3",
+    "year": 2006,
+    "day": "Day1",
+    "problem_id": "D1_P3",
+    "topic": [
+      "Algebra",
+      "Inequalities"
+    ],
+    "statement": "Given reals $a_1,\\ldots,a_n$ ($n\\geq 1$). Prove there exist reals $b_1,\\ldots,b_n$ such that: (a) $a_i-b_i$ is a positive integer for all $i$; (b) $\\sum_{1\\leq i<j\\leq n}(b_i-b_j)^2\\leq\\frac{n^2-1}{12}$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4962"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2006_D2_P1",
+    "year": 2006,
+    "day": "Day2",
+    "problem_id": "D2_P1",
+    "topic": [
+      "Sequences"
+    ],
+    "statement": "Positive sequences $\\{a_n\\},\\{b_n\\}$ satisfy: $a_0=1\\geq a_1$, $a_n(b_{n+1}+b_{n-1})=a_{n-1}b_{n-1}+a_{n+1}b_{n+1}$ for $n\\geq 1$; and $\\sum_{i=1}^n b_i\\leq n^{3/2}$ for $n\\geq 1$. Find the general term of $\\{a_n\\}$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4962"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2006_D2_P2",
+    "year": 2006,
+    "day": "Day2",
+    "problem_id": "D2_P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$P$ is an interior point of $\\triangle ABC$ with circumcircle $\\omega$. $A_1,B_1,C_1$ are intersections of $AP,BP,CP$ with $\\omega$; $A_2,B_2,C_2$ are reflections of $A_1,B_1,C_1$ over midpoints of $BC,CA,AB$. Show the circumcircle of $\\triangle A_2B_2C_2$ passes through the orthocenter of $\\triangle ABC$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4962"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2006_D2_P3",
+    "year": 2006,
+    "day": "Day2",
+    "problem_id": "D2_P3",
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "statement": "Let $a_i,b_i$ ($i=1,\\ldots,n$) be rational numbers with $x^2+x+4=\\sum_{i=1}^n(a_ix+b_i)^2$ for all real $x$. Find the minimum possible value of $n$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4962"
+  }
+]

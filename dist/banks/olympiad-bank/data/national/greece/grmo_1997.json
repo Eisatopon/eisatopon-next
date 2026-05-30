@@ -1,0 +1,88 @@
+[
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_1997_P1",
+    "year": 1997,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $P$ be a point inside or on the boundary of a square $ABCD$. Find the minimum and maximum values of $f(P)=\\angle ABP+\\angle BCP+\\angle CDP+\\angle DAP$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c5177"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_1997_P2",
+    "year": 1997,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra",
+      "Functions"
+    ],
+    "statement": "Let a function $f:\\mathbb{R}^+\\to\\mathbb{R}$ satisfy: (i) $f$ is strictly increasing, (ii) $f(x)>-1/x$ for all $x>0$, (iii) $f(x)\\cdot f\\!\\left(f(x)+\\dfrac{1}{x}\\right)=1$ for all $x>0$. Determine $f(1)$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c5177"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_1997_P3",
+    "year": 1997,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integer solutions to $\\dfrac{13}{2}z+\\dfrac{1}{x^2}=\\dfrac{1996}{1997}$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c5177"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_1997_P4",
+    "year": 1997,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "statement": "A polynomial $P$ with integer coefficients has at least 13 distinct integer roots. Prove that if an integer $n$ is not a root of $P$, then $|P(n)|\\geq 7\\cdot(6!)^2$, and give an example for equality.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c5177"
+  }
+]

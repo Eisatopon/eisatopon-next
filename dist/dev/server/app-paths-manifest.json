@@ -1,7 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/lab/rubik-cube/page": "app/lab/rubik-cube/page.js",
-  "/lab/math-chaser/page": "app/lab/math-chaser/page.js",
-  "/lab/page": "app/lab/page.js",
-  "/dyscalculia-test/page": "app/dyscalculia-test/page.js"
-}
