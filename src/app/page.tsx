@@ -151,7 +151,7 @@ function ArticleCard({ article, index }: { article: Article; index: number }) {
 function OlympiadBanner() {
   return (
     <a
-  href="/banks/olympiad-bank/index.html"
+  href="/banks/olympiad-bank/"
   className="block rounded-xl overflow-hidden border border-[#2d3f6b] bg-[#1a2744] hover:border-[#c9a227]/50 transition-all duration-300 hover:-translate-y-0.5 group my-5"
   aria-label="Open Math Olympiad Bank — National, Regional and TST problems"
 >
