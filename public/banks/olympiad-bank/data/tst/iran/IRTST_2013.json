@@ -1,0 +1,380 @@
+[
+  {
+    "id": "IRTST_2013_TST1D1_P1",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST1D1",
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute $\\triangle ABC$, $H$ is the foot of altitude from $A$, and $J$, $I$ are the excenters opposite $AH$ in $\\triangle ABH$ and $\\triangle ACH$. If $P$ is the tangency point of the incircle with $BC$, prove $I$, $J$, $P$, $H$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST1D1"
+  },
+  {
+    "id": "IRTST_2013_TST1D1_P2",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST1D1",
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the maximum number of subsets of $\\{1,\\ldots,n\\}$ such that for any two with $A\\subset B$, $|B\\setminus A|\\geq 3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST1D1"
+  },
+  {
+    "id": "IRTST_2013_TST1D1_P3",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST1D1",
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Define $a(0,0)=2$, $a(0,n)=1$, $a(n,0)=2$ for $n\\geq 1$, and $a(m,n)=a(m-1,n)+a(m,n-1)$. Prove that for every $k$, all roots of $P_k(x)=\\sum_{i=0}^k a(i,2k+1-2i)x^i$ are real.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST1D1"
+  },
+  {
+    "id": "IRTST_2013_TST1D2_P4",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST1D2",
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A Donkey on a hexagonal grid moves $m$ cells in one direction, turns $60^\\circ$ clockwise, then moves $n$ cells. What is the maximum number of cells from which one cannot reach another with finitely many Donkey moves?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST1D2"
+  },
+  {
+    "id": "IRTST_2013_TST1D2_P5",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST1D2",
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Do there exist naturals $a,b,c$ such that $2013(ab+bc+ca) \\mid a^2+b^2+c^2$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST1D2"
+  },
+  {
+    "id": "IRTST_2013_TST1D2_P6",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST1D2",
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Points $A$, $B$, $C$, $D$ on line $\\ell$ in order. Circular arcs $C_1$, $C_2$ through $A,B$ and $C_3$, $C_4$ through $C,D$ lie on one side of $\\ell$ with $C_1$ tangent to $C_3$ and $C_2$ tangent to $C_4$. Prove the common external tangents of $C_2,C_3$ and of $C_1,C_4$ meet on $\\ell$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST1D2"
+  },
+  {
+    "id": "IRTST_2013_TST2D1_P7",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST2D1",
+    "problem_id": "P7",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Non-negative reals $p_1,\\ldots,p_n$ and $q_1,\\ldots,q_n$ with equal sums. Among all non-negative matrices with row sums $p_i$ and column sums $q_j$, find the maximum sum of diagonal entries.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST2D1"
+  },
+  {
+    "id": "IRTST_2013_TST2D1_P8",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST2D1",
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all arithmetic progressions $a_1,a_2,\\ldots$ of natural numbers for which there exists $N>1$ such that for every $k$: $a_1a_2\\cdots a_k \\mid a_{N+1}a_{N+2}\\cdots a_{N+k}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST2D1"
+  },
+  {
+    "id": "IRTST_2013_TST2D1_P9",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST2D1",
+    "problem_id": "P9",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f,g:\\mathbb{R}^+\\to\\mathbb{R}^+$ with $f$ increasing such that $f(f(x)+2g(x)+3f(y))=g(x)+2f(x)+3g(y)$ and $g(f(x)+y+g(y))=2x-g(x)+f(y)+y$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST2D1"
+  },
+  {
+    "id": "IRTST_2013_TST2D2_P10",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST2D2",
+    "problem_id": "P10",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "On each edge of a graph is a real number such that for every even closed walk, the signed alternating sum of edge labels is zero. Prove we can assign numbers to vertices so that adjacent vertex numbers sum to the edge label between them.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST2D2"
+  },
+  {
+    "id": "IRTST_2013_TST2D2_P11",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST2D2",
+    "problem_id": "P11",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a\\geq b\\geq c$ be triangle sides. Prove $\\sqrt{a(a+b-\\sqrt{ab})}+\\sqrt{b(a+c-\\sqrt{ac})}+\\sqrt{c(b+c-\\sqrt{bc})}\\geq\\sqrt{a}+\\sqrt{b}+\\sqrt{c}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST2D2"
+  },
+  {
+    "id": "IRTST_2013_TST2D2_P12",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST2D2",
+    "problem_id": "P12",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Cyclic quadrilateral $ABCD$ inscribed in $\\omega$. $I_1$, $I_2$ are incenters and $r_1=r_2$ are inradii of $\\triangle ACD$ and $\\triangle ABC$. Circle $\\omega'$ is tangent to $AB$, $AD$ and internally tangent to $\\omega$ at $T$. Tangents from $A$ and $T$ to $\\omega$ meet at $K$. Prove $I_1$, $I_2$, $K$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST2D2"
+  },
+  {
+    "id": "IRTST_2013_TST3D1_P13",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST3D1",
+    "problem_id": "P13",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$P$ is inside acute $\\triangle ABC$. $A_1$, $B_1$, $C_1$ are reflections of $P$ over $BC$, $CA$, $AB$. Prove the centroid of $\\triangle A_1B_1C_1$ lies inside $\\triangle ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST3D1"
+  },
+  {
+    "id": "IRTST_2013_TST3D1_P14",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST3D1",
+    "problem_id": "P14",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Given $n$ rectangles in the plane, among the $4n$ right angles formed, there are at least $\\lfloor 4\\sqrt{n}\\rfloor$ distinct angles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST3D1"
+  },
+  {
+    "id": "IRTST_2013_TST3D1_P15",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST3D1",
+    "problem_id": "P15",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "(a) Does there exist a sequence $a_1<a_2<\\cdots$ of positive integers and $N$ such that for all $m>N$, $a_m$ has exactly $d(m)-1$ divisors among the $a_i$? (b) Same for $d(m)+1$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST3D1"
+  },
+  {
+    "id": "IRTST_2013_TST3D2_P16",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST3D2",
+    "problem_id": "P16",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "$f:\\mathbb{Z}\\to\\mathbb{Z}$ satisfies $f(m)+f(n)+f(f(m^2+n^2))=1$ for all $m,n$. If there exist $a,b$ with $f(a)-f(b)=3$, prove there exist $c,d$ with $f(c)-f(d)=1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST3D2"
+  },
+  {
+    "id": "IRTST_2013_TST3D2_P17",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST3D2",
+    "problem_id": "P17",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, $AD$ is the angle bisector and $AH$ the altitude from $A$. The perpendicular bisector of $AD$ meets the semicircles with diameters $AB$ and $AC$ (drawn outside $\\triangle ABC$) at $X$ and $Y$. Prove $XYDH$ is cyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST3D2"
+  },
+  {
+    "id": "IRTST_2013_TST3D2_P18",
+    "year": 2013,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "TST3D2",
+    "problem_id": "P18",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A parallelogram tile is made of two right isosceles triangles of side 1. We tile part of an $n\\times n$ room so that each vertex of each tile has integer distance to the sides, and tiles don't overlap. Prove the uncovered area is at least $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2013, TST3D2"
+  }
+]

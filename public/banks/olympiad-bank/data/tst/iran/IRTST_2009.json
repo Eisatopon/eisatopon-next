@@ -1,0 +1,254 @@
+[
+  {
+    "id": "IRTST_2009_D1_P1",
+    "year": 2009,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 1",
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle and $A', B', C'$ on $BC$, $CA$, $AB$ such that the incircles of $A'B'C'$ and $ABC$ are concentric and the inradius of $A'B'C'$ is half that of $ABC$. Prove $ABC$ is equilateral.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2009, Day 1"
+  },
+  {
+    "id": "IRTST_2009_D1_P2",
+    "year": 2009,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 1",
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a$ be a fixed natural number. Prove that the set of prime divisors of $\\{2^{2^n}+a : n=1,2,\\ldots\\}$ is infinite.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2009, Day 1"
+  },
+  {
+    "id": "IRTST_2009_D1_P3",
+    "year": 2009,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 1",
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a,b,c>0$ with $a+b+c=3$. Prove $\\frac{1}{2+a^2+b^2}+\\frac{1}{2+b^2+c^2}+\\frac{1}{2+c^2+a^2} \\leq \\frac{3}{4}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2009, Day 1"
+  },
+  {
+    "id": "IRTST_2009_D2_P4",
+    "year": 2009,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 2",
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all polynomials $f$ with integer coefficients such that for every prime $p$ and naturals $u,v$ with $p \\mid uv-1$, we have $p \\mid f(u)f(v)-1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2009, Day 2"
+  },
+  {
+    "id": "IRTST_2009_D2_P5",
+    "year": 2009,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 2",
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, altitudes $AA'$, $BB'$, $CC'$ are drawn. Let $P$ be the foot of the perpendicular from $C'$ to $A'B'$, and $Q$ on $A'B'$ with $QA=QB$. Prove $\\angle PBQ = \\angle PAQ = \\angle PC'C$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2009, Day 2"
+  },
+  {
+    "id": "IRTST_2009_D2_P6",
+    "year": 2009,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 2",
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A Hamiltonian cycle on the vertices of an $n\\times n$ grid is given. Prove there exist two adjacent vertices such that cutting the path at these points yields two pieces each of length $\\geq \\frac{1}{4}$ the total.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2009, Day 2"
+  },
+  {
+    "id": "IRTST_2009_D3_P7",
+    "year": 2009,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 3",
+    "problem_id": "P7",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Three directions are given in the plane. We draw 11 lines in each direction. Find the maximum number of points that lie on lines from all three directions.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2009, Day 3"
+  },
+  {
+    "id": "IRTST_2009_D3_P8",
+    "year": 2009,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 3",
+    "problem_id": "P8",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all polynomials $P(x,y)$ such that for all reals $x,y$: $P(x^2,y^2) = P\\!\\left(\\frac{(x+y)^2}{2},\\frac{(x-y)^2}{2}\\right)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2009, Day 3"
+  },
+  {
+    "id": "IRTST_2009_D3_P9",
+    "year": 2009,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 3",
+    "problem_id": "P9",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, the incircle (center $I$) touches $BC$, $CA$, $AB$ at $D$, $E$, $F$. $M$ is the foot of the perpendicular from $D$ to $EF$. $P$ on $DM$ with $DP = MP$. $H$ is the orthocenter of $BIC$. Prove $PH$ bisects $EF$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2009, Day 3"
+  },
+  {
+    "id": "IRTST_2009_D4_P10",
+    "year": 2009,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 4",
+    "problem_id": "P10",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with $AB \\neq AC$, $D$ on $BC$ with $BA=BD$, $B$ between $C$ and $D$. $I_c$ is the center of the excircle touching $AB$ and extensions of $AC$ and $BC$. $CI_c$ meets the circumcircle again at $T$. If $\\angle TDI_c = \\frac{\\angle B+\\angle C}{4}$, find $\\angle A$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2009, Day 4"
+  },
+  {
+    "id": "IRTST_2009_D4_P11",
+    "year": 2009,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 4",
+    "problem_id": "P11",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n$ be a positive integer. Prove that $3^{2^{n+2}} \\cdot (5^{2^n}-1) \\equiv (-5)^{2^n} \\cdot (3^{2^{n+2}}-1) \\pmod{2^{n+4}}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2009, Day 4"
+  },
+  {
+    "id": "IRTST_2009_D4_P12",
+    "year": 2009,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 4",
+    "problem_id": "P12",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A subset $T$ of $\\{1,2,\\ldots,n\\}$ has the property that for all distinct $i,j\\in T$, $i$ does not divide $2j$. Prove $|T| \\leq \\frac{4}{9}n + \\log_2 n + 2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2009, Day 4"
+  }
+]

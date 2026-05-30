@@ -1,0 +1,254 @@
+[
+  {
+    "id": "IRTST_2020_T1D1_P1",
+    "year": 2020,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D1",
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A complete weighted graph with distinct positive weights has every triangle degenerate (one edge weight equals the sum of the other two). Prove we can assign values to vertices so that each edge weight equals the absolute difference of its endpoints' values.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2020, T1D1"
+  },
+  {
+    "id": "IRTST_2020_T1D1_P2",
+    "year": 2020,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D1",
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$O$ is circumcenter of $\\triangle ABC$. $D$ on $AC$, $E$ on $AB$, and points $P,Q,R,S$ in the plane with $\\triangle BCE\\sim\\triangle ADQ$, $\\triangle CBD\\sim\\triangle AEP$, $\\angle ARE=\\angle ASD=\\angle BAC$. If $RS\\parallel PQ$, prove $RE$ and $DS$ meet on $AO$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2020, T1D1"
+  },
+  {
+    "id": "IRTST_2020_T1D1_P3",
+    "year": 2020,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D1",
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n$ is interesting if for every permutation $\\sigma$ of $\\{1,\\ldots,n\\}$, polynomials $P_1,\\ldots,P_n$ and $\\varepsilon>0$ exist with $P_1(0)=\\cdots=P_n(0)$, $P_1>P_2>\\cdots>P_n$ on $(-\\varepsilon,0)$, and $P_{\\sigma(1)}>\\cdots>P_{\\sigma(n)}$ on $(0,\\varepsilon)$. Find all interesting $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2020, T1D1"
+  },
+  {
+    "id": "IRTST_2020_T1D2_P4",
+    "year": 2020,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D2",
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "$g:[0,1]\\to\\mathbb{R}$ satisfies: for any non-empty partition $[0,1]=A\\cup B$, either $\\exists x\\in A: g(x)\\in B$ or $\\exists x\\in B: g(x)\\in A$. Also $g(x)>x$ for all $x$. Prove $\\{x:g(x)=1\\}$ is infinite.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2020, T1D2"
+  },
+  {
+    "id": "IRTST_2020_T1D2_P5",
+    "year": 2020,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D2",
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Given $k\\in\\mathbb{Z}$, prove there exist infinitely many pairs of distinct naturals $(n,m)$ with $n+s(2n)=m+s(2m)$ and $kn+s(n^2)=km+s(m^2)$, where $s(n)$ is the digit sum.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2020, T1D2"
+  },
+  {
+    "id": "IRTST_2020_T1D2_P6",
+    "year": 2020,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D2",
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$n$ positive numbers are given. Can we always find a convex $(n+3)$-gon with a triangulation using exactly $n$ diagonals of the given lengths?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2020, T1D2"
+  },
+  {
+    "id": "IRTST_2020_T2D1_P7",
+    "year": 2020,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D1",
+    "problem_id": "P7",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p$ be prime and $m\\geq 2$. Find the number of monic square-free mod $p$ polynomials of degree $m$ with coefficients in $\\{0,\\ldots,p-1\\}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2020, T2D1"
+  },
+  {
+    "id": "IRTST_2020_T2D1_P8",
+    "year": 2020,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D1",
+    "problem_id": "P8",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Alice and Bob alternate coloring cells of a $2020\\times 2020$ board (Alice first). Each player scores as many points as already-colored cells in the same row and column. Who wins and what is the maximum difference they can guarantee?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2020, T2D1"
+  },
+  {
+    "id": "IRTST_2020_T2D1_P9",
+    "year": 2020,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D1",
+    "problem_id": "P9",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with circumcircle $\\Gamma$. $E,F$ feet of $B$- and $C$-angle bisectors, $I$ incenter, $K=AI\\cap EF$, $T$ midpoint of arc $BAC$. $\\Gamma$ meets $A$-median and circumcircle of $AEF$ again at $X$ and $S$. $S'$ is reflection of $S$ over $AI$. $J$ is the second intersection of circumcircle of $AS'K$ and $AX$. Prove $TJIX$ is cyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2020, T2D1"
+  },
+  {
+    "id": "IRTST_2020_T2D2_P10",
+    "year": 2020,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D2",
+    "problem_id": "P10",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Isosceles $\\triangle ABC$ ($AB=AC$) with incenter $I$. Circle $\\omega$ through $C$, $I$ tangent to $AI$, meeting $AC$ and circumcircle of $\\triangle ABC$ at $Q$ and $D$. $M$ midpoint of $AB$, $N$ midpoint of $CQ$. Prove $AD$, $MN$, $BC$ concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2020, T2D2"
+  },
+  {
+    "id": "IRTST_2020_T2D2_P11",
+    "year": 2020,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D2",
+    "problem_id": "P11",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For every $k>1$, prove there exists $x\\in\\mathbb{R}$ such that for every positive integer $n<1398$: $\\{xn\\}<x^{n-1}\\Leftrightarrow k\\mid n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2020, T2D2"
+  },
+  {
+    "id": "IRTST_2020_T2D2_P12",
+    "year": 2020,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D2",
+    "problem_id": "P12",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$p$ is an odd prime. Find all $\\frac{p-1}{2}$-tuples $(x_1,\\ldots,x_{(p-1)/2})\\in\\mathbb{Z}_p^{(p-1)/2}$ such that $\\sum x_i\\equiv\\sum x_i^2\\equiv\\cdots\\equiv\\sum x_i^{(p-1)/2}\\pmod{p}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2020, T2D2"
+  }
+]
