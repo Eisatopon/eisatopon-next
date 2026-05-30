@@ -186,20 +186,6 @@ function OlympiadBanner() {
   );
 }
 
-function OlympiadReminder() {
-  return (
-    <div className="flex items-center justify-center gap-2 py-4 border-t border-border-dim mt-2 mb-2">
-      <span className="text-[0.78rem] text-ink-muted">Looking for olympiad problems?</span>
-      <a
-        href="/banks/olympiad-bank/index.html"
-        className="text-[0.78rem] text-[#c9a227] hover:text-white transition-colors duration-200 underline underline-offset-2 decoration-[#c9a227]/40"
-      >
-        Math Olympiad Bank →
-      </a>
-    </div>
-  );
-}
-
 // ─── Main Page ────────────────────────────────────────────────────
 
 export default async function Home() {
@@ -370,8 +356,7 @@ export default async function Home() {
 
       {/* ── Full-width Reminder + Pagination ── */}
       <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-[1200px]">
-        <OlympiadReminder />
-        <div className="flex justify-center mt-4 mb-10">
+         <div className="flex justify-center mt-4 mb-10">
           <Pagination
             currentPage={1}
             totalPages={Math.ceil(articles.length / 8)}

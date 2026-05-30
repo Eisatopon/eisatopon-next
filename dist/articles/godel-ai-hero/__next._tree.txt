@@ -1,4 +1,4 @@
 :HL["/_next/static/css/2f46e0db0d4a3aed.css","style"]
-:HL["/_next/static/css/e0d45c4312d5f4e6.css","style"]
+:HL["/_next/static/css/a1370871c641bea9.css","style"]
 :HL["/logo/eisatoponai-logo.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"articles","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"godel-ai-hero","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"DKayyP8O82gZT-0VXsM4x"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"articles","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"godel-ai-hero","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"_JokBDtyhEluqNfbjY5CF"}
