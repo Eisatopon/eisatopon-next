@@ -1,0 +1,233 @@
+[
+  {
+    "id": "IRTST_2025_T1_P1",
+    "year": 2025,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1",
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a_n$ be a sequence of positive reals with $a_n=\\max_{1\\leq i\\leq 2025}a_{n-i}-\\min_{1\\leq i\\leq 2025}a_{n-i}$ for $n>2025$. Prove there exists $M$ such that $a_n<\\frac{1}{1404}$ for all $n>M$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2025, T1"
+  },
+  {
+    "id": "IRTST_2025_T1_P2",
+    "year": 2025,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1",
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$p$ is prime. Cards labeled $0,1,\\ldots,p-1$ (0 appears once, others at most once). For each pair $x,y$, determine a winner. Conditions: (a) transitivity; (b) if $x$ doesn't beat $y$ and $y$ doesn't beat $z$, then $x+z$ doesn't beat $y+t$ for any $t$. Find the maximum number of cards.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2025, T1"
+  },
+  {
+    "id": "IRTST_2025_T1_P3",
+    "year": 2025,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1",
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n>10$ lines in the plane, no three concurrent, no two parallel. At least $n^2/8+1$ bounded regions are colored black. A good triangle is formed by three lines lying entirely in a black region. Prove there are at least $n/2$ good triangles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2025, T1"
+  },
+  {
+    "id": "IRTST_2025_T2_P4",
+    "year": 2025,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2",
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Numbers 2 to 99 on a board. Operations: (a) erase $i$ and $i+10$ if both present ($2\\leq i\\leq 89$); (b) erase $i$ and $i+1$ if both present ($2\\leq i\\leq 98$). Find the maximum number that can be erased.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2025, T2"
+  },
+  {
+    "id": "IRTST_2025_T2_P5",
+    "year": 2025,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2",
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Scalene $\\triangle ABC$. Incircle touches $BC$ at $D$. $T_B$, $T_C$ are the second intersections of the $B$- and $C$-angle bisectors with the circumcircle. $X_B$ is the antipode of $A$ in the circumcircle of $\\triangle ACD$; $X_C$ in the circumcircle of $\\triangle ABD$. Prove $\\triangle BT_CX_C\\sim\\triangle CT_BX_B$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2025, T2"
+  },
+  {
+    "id": "IRTST_2025_T2_P6",
+    "year": 2025,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2",
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f:\\mathbb{R}^+\\to\\mathbb{R}^+$ with $f(f(f(xy))+x^2)=f(y)(f(x)-f(x+y))$ for all $x,y>0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2025, T2"
+  },
+  {
+    "id": "IRTST_2025_T3_P7",
+    "year": 2025,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T3",
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Right $\\triangle ABC$ ($\\angle A=90^\\circ$), $M$ midpoint of $BC$, $P$ on $AM$. Reflection of $BP$ over $AB$ meets $AC$ at $T$ and $AM$ at $Q$. Circumcircles of $\\triangle BPQ$ and $\\triangle ABC$ meet again at $F$. Prove the circumcenter of $\\triangle CFT$ lies on $BQ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2025, T3"
+  },
+  {
+    "id": "IRTST_2025_T3_P8",
+    "year": 2025,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T3",
+    "problem_id": "P8",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$f(x,y)$ is $n$-friendly if for fewer than 1\\% of integers $|k|\\leq n$, the equation $f(x,y)=k$ has a solution $(x_0,y_0)$ with $x_0\\in[y_0/100,100y_0]$. Suppose $f\\leq g$ where $g$ is a polynomial with real coefficients, negative leading term, total degree $>2$, and $g(x,y)\\to\\infty$ as $y/x\\to 1$. Prove $f$ is not $n$-friendly for large $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2025, T3"
+  },
+  {
+    "id": "IRTST_2025_T4_P10",
+    "year": 2025,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T4",
+    "problem_id": "P10",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$n$ is lucky if it has $\\geq 2$ distinct prime divisors and can be written as $n=p_1^{\\alpha_1}+\\cdots+p_k^{\\alpha_k}$ where $p_1,\\ldots,p_k$ are distinct primes dividing $n$. Prove for every prime $p$ there exists a lucky $n$ with $p\\mid n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2025, T4"
+  },
+  {
+    "id": "IRTST_2025_T4_P11",
+    "year": 2025,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T4",
+    "problem_id": "P11",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n$ cups labeled $1,\\ldots,n$ (cup $i$ has capacity $i$ liters). Total: $n$ liters in integer amounts. Transfers (source empties or destination fills). (a) Prove any integer-amount configuration reaches all-1's in at most $4n/3$ steps. (b) Prove any integer configuration reaches any other in at most $5n/3$ steps.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2025, T4"
+  },
+  {
+    "id": "IRTST_2025_T4_P12",
+    "year": 2025,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T4",
+    "problem_id": "P12",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Scalene $\\triangle ABC$. $Y,X$ on $AC,BC$ with $BC\\perp XY$. $Z,T$ are reflections of $X,Y$ over midpoints of $BC,AC$. $P$ on $ZT$ such that the circumcenter of $\\triangle XZP$ equals the circumcenter of $\\triangle ABC$. Prove the nine-point circle of $\\triangle ABC$ passes through the midpoint of $XP$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2025, T4"
+  }
+]

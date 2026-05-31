@@ -1,0 +1,254 @@
+[
+  {
+    "id": "IRTST_2008_D1_P1",
+    "year": 2008,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 1",
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f:\\mathbb{R}\\to\\mathbb{R}$ such that for all $x,y$: $f(xf(y)) + y + f(x) = f(x+f(y)) + yf(x)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2008, Day 1"
+  },
+  {
+    "id": "IRTST_2008_D1_P2",
+    "year": 2008,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 1",
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Incenter $I$ of $\\triangle ABC$, line $\\ell_0$ tangent to incircle. Another line $\\ell$ meets $AB$, $AC$, $BC$ at $C'$, $B'$, $A'$ resp. From $A'$ draw a tangent to the incircle (other than $BC$) meeting $\\ell_0$ at $A_1$; define $B_1$, $C_1$ similarly. Prove $AA_1$, $BB_1$, $CC_1$ are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2008, Day 1"
+  },
+  {
+    "id": "IRTST_2008_D1_P3",
+    "year": 2008,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 1",
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Suppose $T$ is a tree with $k$ edges. Prove the $k$-dimensional hypercube can be partitioned into copies of $T$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2008, Day 1"
+  },
+  {
+    "id": "IRTST_2008_D2_P4",
+    "year": 2008,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 2",
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $P_1, P_2, P_3, P_4$ be points on the unit sphere. Prove that $\\sum_{i \\neq j} \\frac{1}{|P_i - P_j|}$ is minimized if and only if the four points are vertices of a regular tetrahedron.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2008, Day 2"
+  },
+  {
+    "id": "IRTST_2008_D2_P5",
+    "year": 2008,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 2",
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c > 0$ with $ab+bc+ca=1$. Prove that $\\sqrt{a^3+a}+\\sqrt{b^3+b}+\\sqrt{c^3+c} \\geq 2\\sqrt{a+b+c}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2008, Day 2"
+  },
+  {
+    "id": "IRTST_2008_D2_P6",
+    "year": 2008,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 2",
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Prove that in a tournament with 799 teams there exist 14 teams that can be partitioned into two groups such that every team in the first group has beaten every team in the second.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2008, Day 2"
+  },
+  {
+    "id": "IRTST_2008_D3_P7",
+    "year": 2008,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 3",
+    "problem_id": "P7",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $S$ be a set with $n$ elements and $\\mathcal{F}$ a family of $2^{n-1}$ subsets of $S$ such that for any $A, B, C \\in \\mathcal{F}$, $A \\cap B \\cap C \\neq \\emptyset$. Prove the intersection of all elements of $\\mathcal{F}$ is nonempty.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2008, Day 3"
+  },
+  {
+    "id": "IRTST_2008_D3_P8",
+    "year": 2008,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 3",
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all polynomials $p$ with integer coefficients such that if $a+b$ is a perfect square (with $a,b\\in\\mathbb{N}$), then $p(a)+p(b)$ is also a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2008, Day 3"
+  },
+  {
+    "id": "IRTST_2008_D3_P9",
+    "year": 2008,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 3",
+    "problem_id": "P9",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$I_a$ is the $A$-excenter of $\\triangle ABC$ and $AI_a$ meets the circumcircle at $T$. Point $X$ on $TI_a$ satisfies $XI_a^2 = XA \\cdot XT$. Drop a perpendicular from $X$ to $BC$ meeting it at $A'$; define $B'$, $C'$ similarly. Prove $AA'$, $BB'$, $CC'$ concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2008, Day 3"
+  },
+  {
+    "id": "IRTST_2008_D4_P10",
+    "year": 2008,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 4",
+    "problem_id": "P10",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, $T$ is the midpoint of arc $BAC$ and $I$ is the incenter. $E$ satisfies $\\angle AEI=90^\\circ$ and $AE \\parallel BC$. $TE$ meets the circumcircle again at $P$. If $\\angle B = \\angle IPB$, find $\\angle A$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2008, Day 4"
+  },
+  {
+    "id": "IRTST_2008_D4_P11",
+    "year": 2008,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 4",
+    "problem_id": "P11",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$k$ is a given natural number. Find all $f:\\mathbb{N}\\to\\mathbb{N}$ such that for all $m,n$: $(f(m)+f(n)) \\mid (m+n)^k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2008, Day 4"
+  },
+  {
+    "id": "IRTST_2008_D4_P12",
+    "year": 2008,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 4",
+    "problem_id": "P12",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute $\\triangle ABC$, $D$ is the foot of the altitude from $A$ and $I_a$ the $A$-excenter. $K$ is on the extension of $AB$ from $B$ with $\\angle AKI_a = 90^\\circ + \\frac{3}{4}\\angle C$. Let $I_aK$ meet the extension of $AD$ at $L$. Prove $DI_a$ bisects $\\angle AI_aB$ iff $AL = 2R$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2008, Day 4"
+  }
+]

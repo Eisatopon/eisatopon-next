@@ -1,0 +1,254 @@
+[
+  {
+    "id": "IRTST_2006_D1_P1",
+    "year": 2006,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 1",
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Suppose $p$ is prime. Find all natural numbers $n$ such that $p \\mid \\varphi(n)$ and for all $a$ with $\\gcd(a,n)=1$ we have $n \\mid a^{\\varphi(n)/p}-1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2006, Day 1"
+  },
+  {
+    "id": "IRTST_2006_D1_P2",
+    "year": 2006,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 1",
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "We have $n$ coins of unknown masses and a balance. Each weighing puts equal numbers of coins on each side. Our goal is to determine whether all coins are equal in mass. Show that at least $n-1$ comparisons are required.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2006, Day 1"
+  },
+  {
+    "id": "IRTST_2006_D1_P3",
+    "year": 2006,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 1",
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle, $M$ the midpoint of $BC$. Let $AM$ intersect the incircle at $K$, $L$. Draw parallels from $K$ and $L$ to $BC$; let their second intersections with the incircle be $X$ and $Y$. Let $AX$ and $AY$ meet $BC$ at $P$ and $Q$. Prove that $BP = CQ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2006, Day 1"
+  },
+  {
+    "id": "IRTST_2006_D2_P4",
+    "year": 2006,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 2",
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $x_1, x_2, \\ldots, x_n$ be real numbers. Prove that $\\sum_{i,j=1}^n |x_i + x_j| \\geq n \\sum_{i=1}^n |x_i|$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2006, Day 2"
+  },
+  {
+    "id": "IRTST_2006_D2_P5",
+    "year": 2006,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 2",
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle whose circumradius equals the radius of the $A$-excircle. Suppose the $A$-excircle touches $BC$, $AC$, $AB$ at $M$, $N$, $L$. Prove that the circumcenter $O$ is the orthocenter of $MNL$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2006, Day 2"
+  },
+  {
+    "id": "IRTST_2006_D2_P6",
+    "year": 2006,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 2",
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $G$ be a tournament whose edges are colored red or blue. Prove there exists a vertex $v$ such that for every other vertex $u$ there is a monochromatic directed path from $v$ to $u$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2006, Day 2"
+  },
+  {
+    "id": "IRTST_2006_D3_P7",
+    "year": 2006,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 3",
+    "problem_id": "P7",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "We have $n$ points in the plane, no three collinear. Call $k$ of them good if they form a convex polygon containing no other points. Let $c_k$ be the number of sets of $k$ good points. Show that $\\sum_{i=3}^n (-1)^i c_i$ depends only on $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2006, Day 3"
+  },
+  {
+    "id": "IRTST_2006_D3_P8",
+    "year": 2006,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 3",
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n$ be a fixed natural number. (a) Find all solutions to $\\sum_{k=1}^n \\lfloor x/2^k \\rfloor = x - 1$. (b) Find the number of solutions to $\\sum_{k=1}^n \\lfloor x/2^k \\rfloor = x - m$ for fixed $m$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2006, Day 3"
+  },
+  {
+    "id": "IRTST_2006_D3_P9",
+    "year": 2006,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 3",
+    "problem_id": "P9",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\ell$, $m$ be two parallel lines with a fixed point $P$ between them. Let $E$ on $\\ell$ and $F$ on $m$ vary so that $\\angle EPF = \\alpha$ (directed) is fixed. Show there is another fixed point seeing $EF$ at a fixed angle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2006, Day 3"
+  },
+  {
+    "id": "IRTST_2006_D4_P10",
+    "year": 2006,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 4",
+    "problem_id": "P10",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n$ be a fixed natural number. Find all $n$-tuples of pairwise distinct and coprime natural numbers $a_1,\\ldots,a_n$ such that for all $1 \\leq i \\leq n$: $(a_1+\\cdots+a_n) \\mid (a_1^i + \\cdots + a_n^i)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2006, Day 4"
+  },
+  {
+    "id": "IRTST_2006_D4_P11",
+    "year": 2006,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 4",
+    "problem_id": "P11",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be acute with $D$, $E$, $F$ the feet of the altitudes from $A$, $B$, $C$. Let $P$, $Q$, $R$ be feet of perpendiculars from $A$, $B$, $C$ to $EF$, $FD$, $DE$. Prove that $2(PQ + QR + RP) \\geq DE + EF + FD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2006, Day 4"
+  },
+  {
+    "id": "IRTST_2006_D4_P12",
+    "year": 2006,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 4",
+    "problem_id": "P12",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Show that a simple polygon has a diameter entirely inside it such that the two arcs it creates on the boundary each contain at least one-third of the polygon's vertices.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2006, Day 4"
+  }
+]

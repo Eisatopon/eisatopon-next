@@ -1,0 +1,254 @@
+[
+  {
+    "id": "IRTST_2011_D1_P1",
+    "year": 2011,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 1",
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute $\\triangle ABC$ with $\\angle B>\\angle C$, $M$ is the midpoint of $BC$, $D$ and $E$ are feet of altitudes from $C$ and $B$. $K$ and $L$ are midpoints of $ME$ and $MD$. If $KL$ meets the line through $A$ parallel to $BC$ at $T$, prove $TA=TM$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2011, Day 1"
+  },
+  {
+    "id": "IRTST_2011_D1_P2",
+    "year": 2011,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 1",
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all naturals $n>2$ for which there exist $n$ naturals $a_1,\\ldots,a_n$, not all equal, such that $a_1a_2, a_2a_3, \\ldots, a_na_1$ is an arithmetic progression with nonzero common difference.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2011, Day 1"
+  },
+  {
+    "id": "IRTST_2011_D1_P3",
+    "year": 2011,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 1",
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "There are $n>1$ points on a circle. An interval is an arc between consecutive chosen points. Consider a family $F$ of intervals such that each element has at most one other element as a superset. Let $m$ be the number of maximal elements and $a$ the number of non-maximal elements. Prove $n \\geq m + a/2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2011, Day 1"
+  },
+  {
+    "id": "IRTST_2011_D2_P4",
+    "year": 2011,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 2",
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A finite set $A$ is good if: (a) $\\gcd(a,b,c)=1$ for any three distinct elements; (b) for any two distinct $b,c\\in A$ there exists $a\\in A$ (distinct from $b,c$) with $a\\mid bc$. Find all good sets.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2011, Day 2"
+  },
+  {
+    "id": "IRTST_2011_D2_P5",
+    "year": 2011,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 2",
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all surjective $f:\\mathbb{R}\\to\\mathbb{R}$ such that for all $x,y$: $f(x+f(x)+2f(y)) = f(2x)+f(2y)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2011, Day 2"
+  },
+  {
+    "id": "IRTST_2011_D2_P6",
+    "year": 2011,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 2",
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "From $T$ outside circle $\\omega$ (center $O$), draw tangents $TB$ and $TC$. $K$ on $TB$, $H$ on $TC$. (a) $B', C'$ are antipodes of $B, C$ on $\\omega$. $K'$ on bisector of $\\angle BCO$ with $KK'\\perp BC$, $H'$ on bisector of $\\angle CBO$ with $HH'\\perp BC$. Prove $K,H',B'$ collinear $\\Leftrightarrow$ $H,K',C'$ collinear. (b) Two circles inside $TBC$ tangent to each other at $J$ and to $\\omega$, with one tangent to $TB$ at $K$ and the other to $TC$ at $H$. Prove $BKJI$ and $CHJI$ are cyclic ($I$ is incenter of $\\triangle OBC$).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2011, Day 2"
+  },
+  {
+    "id": "IRTST_2011_D3_P7",
+    "year": 2011,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 3",
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Find the locus of points $P$ inside equilateral $\\triangle ABC$ such that $\\sqrt{d(P,\\ell_1)} = \\sqrt{d(P,\\ell_2)} + \\sqrt{d(P,\\ell_3)}$ for some labeling of the sides.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2011, Day 3"
+  },
+  {
+    "id": "IRTST_2011_D3_P8",
+    "year": 2011,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 3",
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p$ be prime and $k\\leq p$ a positive integer. $f(x)\\in\\mathbb{Z}[x]$ satisfies $p^k\\mid f(x)$ for all $x\\in\\mathbb{Z}$. (a) Prove there exist $A_0,\\ldots,A_k\\in\\mathbb{Z}[x]$ with $f(x)=\\sum_{i=0}^k(x^p-x)^i p^{k-i}A_i(x)$. (b) Give a counterexample for each prime $p$ and $k>p$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2011, Day 3"
+  },
+  {
+    "id": "IRTST_2011_D3_P9",
+    "year": 2011,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 3",
+    "problem_id": "P9",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "We have $n$ non-collinear points. A line $\\ell$ is good if the points can be split into two sets $A$, $B$ with equal sums of distances to $\\ell$. Prove there exist infinitely many points through each of which at least $n+1$ good lines pass.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2011, Day 3"
+  },
+  {
+    "id": "IRTST_2011_D4_P10",
+    "year": 2011,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 4",
+    "problem_id": "P10",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find the least $k$ such that for all $a,b,c,d\\in\\mathbb{R}$: $\\sqrt{(a^2+1)(b^2+1)(c^2+1)}+\\sqrt{(b^2+1)(c^2+1)(d^2+1)}+\\sqrt{(c^2+1)(d^2+1)(a^2+1)}+\\sqrt{(d^2+1)(a^2+1)(b^2+1)} \\geq 2(ab+bc+cd+da+ac+bd)-k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2011, Day 4"
+  },
+  {
+    "id": "IRTST_2011_D4_P11",
+    "year": 2011,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 4",
+    "problem_id": "P11",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\triangle ABC$ with $A', B', C'$ the midpoints of $BC$, $CA$, $AB$. Points $P$ and $P'$ satisfy $PA=P'A'$, $PB=P'B'$, $PC=P'C'$. Prove all lines $PP'$ pass through a fixed point.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2011, Day 4"
+  },
+  {
+    "id": "IRTST_2011_D4_P12",
+    "year": 2011,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "Day 4",
+    "problem_id": "P12",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$f:\\mathbb{N}\\to\\mathbb{N}$ is such that $af(a)+bf(b)+2ab$ is always a perfect square. Prove $f(a)=a$ for all $a$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2011, Day 4"
+  }
+]

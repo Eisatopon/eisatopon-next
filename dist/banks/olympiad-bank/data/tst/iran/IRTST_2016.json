@@ -1,0 +1,380 @@
+[
+  {
+    "id": "IRTST_2016_T1D1_P1",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D1",
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $m>n$ be positive integers. Define $x_k=\\frac{m+k}{n+k}$ for $k=1,\\ldots,n+1$. Prove that if all $x_k$ are integers, then $x_1x_2\\cdots x_{n+1}-1$ is divisible by an odd prime.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T1D1"
+  },
+  {
+    "id": "IRTST_2016_T1D1_P2",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D1",
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For a finite set $A$ of positive integers, a partition into $A_1,A_2$ is good if $\\text{lcm}(A_1)=\\gcd(A_2)$. Find the minimum $n$ such that a set of $n$ positive integers has exactly 2015 good partitions.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T1D1"
+  },
+  {
+    "id": "IRTST_2016_T1D1_P3",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D1",
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a convex quadrilateral with points $P,Q,R,S$ on sides $AB,BC,CD,DA$ such that $PR\\cap QS=O$. If each of the quadrilaterals $APOS$, $BQOP$, $CROQ$, $DSOR$ has an incircle, prove $AC$, $PQ$, $RS$ are concurrent or parallel.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T1D1"
+  },
+  {
+    "id": "IRTST_2016_T1D2_P4",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D2",
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find the maximum of $\\sum_{1\\leq r<s\\leq 2n}(s-r-n)x_rx_s$ where $-1\\leq x_i\\leq 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T1D2"
+  },
+  {
+    "id": "IRTST_2016_T1D2_P5",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D2",
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with $\\angle C=90^\\circ$, $H$ foot of altitude from $C$. $D$ inside $\\triangle CBH$ with $CH$ bisecting $AD$. $P=BD\\cap CH$. Semicircle with diameter $BD$ meets $CB$ at interior point. Tangent to semicircle through $P$ at $Q$. Prove $CQ$ and $AD$ meet on the semicircle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T1D2"
+  },
+  {
+    "id": "IRTST_2016_T1D2_P6",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D2",
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Some pairs in a group are enemies. A group is unsociable if it has odd size $\\geq 3$ and can be seated around a table with all neighbors enemies. Given at most 2015 unsociable groups, prove the group can be partitioned into 11 parts with no two enemies in the same part.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T1D2"
+  },
+  {
+    "id": "IRTST_2016_T2D1_P7",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D1",
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$, $M$ midpoint of $AC$. Circle $\\omega$ through $B,M$ meets $AB,BC$ at $P,Q$. $T$ such that $BPTQ$ is a parallelogram, $T$ on circumcircle of $\\triangle ABC$. Find all possible values of $BT/BM$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T2D1"
+  },
+  {
+    "id": "IRTST_2016_T2D1_P8",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D1",
+    "problem_id": "P8",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a,b,c,d>0$ with $\\frac{1}{a+1}+\\frac{1}{b+1}+\\frac{1}{c+1}+\\frac{1}{d+1}=2$. Prove (a) $\\sum\\sqrt{\\frac{a^2+1}{2}}\\geq\\sum\\sqrt{a}-8\\cdot\\ldots$ (see original).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T2D1"
+  },
+  {
+    "id": "IRTST_2016_T2D1_P9",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D1",
+    "problem_id": "P9",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Two players $A$ and $B$ alternately choose positive integers $k\\leq n$. A player cannot choose a previously chosen number or one consecutive to their own previous choices. If all numbers are chosen it is a draw; otherwise the player unable to choose loses. $A$ goes first. Determine the outcome with optimal play.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T2D1"
+  },
+  {
+    "id": "IRTST_2016_T2D2_P10",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D2",
+    "problem_id": "P10",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with $CA\\neq CB$. $D,F,G$ midpoints of $AB,AC,BC$. Circle $\\Gamma$ through $C$ tangent to $AB$ at $D$ meets $AF$ and $BG$ at $H,I$. $H',I'$ symmetric to $H,I$ over $F,G$. $H'I'$ meets $CD$ and $FG$ at $Q,M$. $CM$ meets $\\Gamma$ again at $P$. Prove $CQ=QP$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T2D2"
+  },
+  {
+    "id": "IRTST_2016_T2D2_P11",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D2",
+    "problem_id": "P11",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two unequal regular $n$-gons $P$, $P'$ with interior points $A$, $A'$. Distances from $A$ to vertices of $P$ are $d_1,\\ldots,d_n$; from $A'$ to vertices of $P'$ are $d_1',\\ldots,d_n'$. Can $\\{d_1',\\ldots,d_n'\\}$ be a permutation of $\\{d_1,\\ldots,d_n\\}$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T2D2"
+  },
+  {
+    "id": "IRTST_2016_T2D2_P12",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D2",
+    "problem_id": "P12",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all $k$ such that there exists a $k$-good function $f:\\mathbb{Z}_{>0}\\to\\mathbb{Z}_{>0}$ (meaning $\\gcd(f(m)+n,f(n)+m)\\leq k$ for all $m\\neq n$).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T2D2"
+  },
+  {
+    "id": "IRTST_2016_T3D1_P13",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T3D1",
+    "problem_id": "P13",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A real function is assigned to every cell of an $n\\times n$ table. Prove that a function can be assigned to each row and column so that each cell's function equals the combination of its row and column functions.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T3D1"
+  },
+  {
+    "id": "IRTST_2016_T3D1_P14",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T3D1",
+    "problem_id": "P14",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$, $O$ circumcenter. $X,Y$ on $AB,AC$ such that the reflection of $BC$ over $XY$ is tangent to the circumcircle of $\\triangle AXY$. Prove the circumcircle of $\\triangle AXY$ is tangent to the circumcircle of $\\triangle BOC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T3D1"
+  },
+  {
+    "id": "IRTST_2016_T3D1_P15",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T3D1",
+    "problem_id": "P15",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p\\neq 13$ be a prime of the form $8k+5$ with 39 a quadratic non-residue mod $p$. Prove $x_1^4+x_2^4+x_3^4+x_4^4\\equiv 0\\pmod{p}$ has a solution with $p\\nmid x_1x_2x_3x_4$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T3D1"
+  },
+  {
+    "id": "IRTST_2016_T3D2_P16",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T3D2",
+    "problem_id": "P16",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A sequence of positive reals satisfies $a_{k+1}\\geq\\frac{ka_k}{a_k^2+(k-1)}$ for all $k$. Prove $a_1+a_2+\\cdots+a_n\\geq n$ for all $n\\geq 2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T3D2"
+  },
+  {
+    "id": "IRTST_2016_T3D2_P17",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T3D2",
+    "problem_id": "P17",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, altitudes $AD$, $BE=BF$, $CF$. $Q$ on $EF$ with $QF=DE$, $F$ between $E,Q$. $P$ on $EF$ with $EP=DF$, $E$ between $P,F$. Perpendicular bisector of $DQ$ meets $AB$ at $X$; perpendicular bisector of $DP$ meets $AC$ at $Y$. Prove the midpoint of $BC$ lies on $XY$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T3D2"
+  },
+  {
+    "id": "IRTST_2016_T3D2_P18",
+    "year": 2016,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T3D2",
+    "problem_id": "P18",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A council of five members makes decisions by vote. The method is monotone (if a favorable outcome remains so when an opposing member switches) and symmetric (all switching changes the outcome). Prove the method is a weighted majority for some non-negative weights $\\omega_1,\\ldots,\\omega_5$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2016, T3D2"
+  }
+]

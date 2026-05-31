@@ -274,12 +274,18 @@ function buildOlympiadDrop(scope) {
   for (const p of loaded) {
     const sc = scopeClass(p);
     if (scope !== 'all' && sc !== scope) continue;
-    const c = CFG[p.olympiad];
-    if (!c || seen.has(p.olympiad)) continue;
-    seen.add(p.olympiad);
-    const opt = document.createElement('option');
-    opt.value = p.olympiad;
-    opt.textContent = `${c.flag||''} ${c.fullName||p.olympiad}`;
+    const c = CFG[p.olympiad] || {
+  flag: '',
+  fullName: p.olympiad_full_name || p.olympiad
+};
+
+if (seen.has(p.olympiad)) continue;
+
+seen.add(p.olympiad);
+
+const opt = document.createElement('option');
+opt.value = p.olympiad;
+opt.textContent = `${c.flag || ''} ${c.fullName || p.olympiad}`;
     sel.appendChild(opt);
   }
   if ([...sel.options].some(o => o.value === cur)) sel.value = cur;
@@ -479,32 +485,62 @@ fScope.addEventListener('change',()=>{ buildOlympiadDrop(fScope.value); buildYea
 document.getElementById('fOlympiad').addEventListener('change',()=>buildYearDrop(document.getElementById('fOlympiad').value));
 document.getElementById('searchBtn').addEventListener('click', doSearch);
 
-// Init
+/// Init
 buildOlympiadDrop('all');
+
 // === National data lazy loader ===
 (async function loadNational() {
   try {
     const res = await fetch('data/national/index.json');
     const paths = await res.json();
+
     const batches = [];
-    for (let i = 0; i < paths.length; i += 20) batches.push(paths.slice(i, i+20));
+
+    for (let i = 0; i < paths.length; i += 20)
+      batches.push(paths.slice(i, i + 20));
+
     for (const batch of batches) {
+
       await Promise.all(batch.map(async path => {
+
         try {
-          const r = await fetch('data/national/' + path.split('/').map(encodeURIComponent).join('/'));
+
+          const r = await fetch(
+            'data/national/' +
+            path.split('/').map(encodeURIComponent).join('/')
+          );
+
           const arr = await r.json();
+
           if (!Array.isArray(arr) || arr.length === 0) return;
+
           const key = arr[0].olympiad;
+
           if (!DATA[key]) DATA[key] = [];
+
           DATA[key].push(...arr);
-        } catch(e) {}
+
+        } catch (e) {}
+
       }));
+
     }
+
     buildOlympiadDrop(fScope.value);
     buildYearDrop(document.getElementById('fOlympiad').value);
-  } catch(e) { console.warn('National load failed', e); }
+
+    console.log('Loaded olympiads:', Object.keys(DATA));
+
+  } catch (e) {
+
+    console.warn('National load failed', e);
+
+  }
+
 })();
+
 buildYearDrop('all');
+
 </script>
 </body>
 </html>

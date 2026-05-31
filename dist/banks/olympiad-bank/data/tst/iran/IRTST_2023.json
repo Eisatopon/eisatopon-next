@@ -1,0 +1,254 @@
+[
+  {
+    "id": "IRTST_2023_E1_P1",
+    "year": 2023,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1",
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "$n\\geq 3$. Find the maximum $k$ such that there exist reals $a_1,\\ldots,a_n\\in[0,1)$ (not necessarily distinct) where for every $j\\leq k$, some subset sums to $j$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2023, E1"
+  },
+  {
+    "id": "IRTST_2023_E1_P2",
+    "year": 2023,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1",
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Cyclic $ABCD$, $O$ circumcenter. $E=AD\\cap BC$, $F=AC\\cap BD$. Circle $\\omega$ tangent to lines $AC$ and $BD$. $PQ$ is a diameter of $\\omega$ with $F$ the orthocenter of $\\triangle EPQ$. Prove line $OE$ passes through the center of $\\omega$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2023, E1"
+  },
+  {
+    "id": "IRTST_2023_E1_P3",
+    "year": 2023,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1",
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A number is good if repeatedly taking the sum of cubes of digits eventually yields 1. Prove there is an arithmetic progression of length 1402 consisting of good numbers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2023, E1"
+  },
+  {
+    "id": "IRTST_2023_E1_P4",
+    "year": 2023,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1",
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "The Hive game is on a hexagonal grid with $k$ layers. Three players Ali, Shayan, Sajad alternate placing tiles (rotation allowed). The first unable to place loses. Prove two players can collude to ensure the third always loses.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2023, E1"
+  },
+  {
+    "id": "IRTST_2023_E1_P5",
+    "year": 2023,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1",
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "$n\\geq 2$, naturals $a_1,\\ldots,a_n$ with $\\gcd(a_1,\\ldots,a_n)=1$. Find all strictly increasing $f:\\mathbb{Z}\\to\\mathbb{R}$ satisfying $f\\!\\left(\\sum_{i=1}^n x_ia_i\\right)=\\sum_{i=1}^n f(x_ia_i)$ for all $x_1,\\ldots,x_n\\in\\mathbb{Z}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2023, E1"
+  },
+  {
+    "id": "IRTST_2023_E1_P6",
+    "year": 2023,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1",
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with orthocenter $H$. $P$ inside $\\triangle BHC$ with $\\angle HPC=3\\angle HBC$ and $\\angle HPB=3\\angle HCB$. $X,Y$ are reflections of $P$ over $BH$, $CH$. If $S$ is the circumcenter of $\\triangle AXY$, prove $\\angle BAS=\\angle CAP$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2023, E1"
+  },
+  {
+    "id": "IRTST_2023_E2_P7",
+    "year": 2023,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2",
+    "problem_id": "P7",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $d(n)$ be the number of divisors. Prove there exists $n$ such that $d(n)/d(n\\pm i)>1401$ for all $i\\leq 1402$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2023, E2"
+  },
+  {
+    "id": "IRTST_2023_E2_P8",
+    "year": 2023,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2",
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$\\frac{1}{2}<s<1$. An insect on $[0,1]$: from $a$, it jumps to $as$ or $(a-1)s+1$. Prove that for every $0\\leq c\\leq 1$, the insect can get within distance $\\frac{1}{1402}$ of $c$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2023, E2"
+  },
+  {
+    "id": "IRTST_2023_E2_P9",
+    "year": 2023,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2",
+    "problem_id": "P9",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f:\\mathbb{R}^+\\to\\mathbb{R}^+$ such that $x+f(y)$, $f(f(y))+z$, $f(f(z))+f(x)$ are sides of a triangle for all $x,y,z>0$, and for every $p>0$ there is a triangle with these sides of perimeter $p$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2023, E2"
+  },
+  {
+    "id": "IRTST_2023_E2_P10",
+    "year": 2023,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2",
+    "problem_id": "P10",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Line $\\ell$ through $A$ in $\\triangle ABC$. $X$ on $\\ell$. $\\omega_b$, $\\omega_c$ are circles through $X,A$ tangent to $AB$, $AC$ respectively. Tangents from $B,C$ to $\\omega_b,\\omega_c$ (other than $AB,AC$) meet them at $Y,Z$. Prove that as $X$ varies on $\\ell$, the circumcircle of $\\triangle XYZ$ passes through two fixed points.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2023, E2"
+  },
+  {
+    "id": "IRTST_2023_E2_P11",
+    "year": 2023,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2",
+    "problem_id": "P11",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all injective $f:\\mathbb{Z}_{\\geq 0}\\to\\mathbb{Z}_{\\geq 0}$ such that for all $n$ and reals $a_0,\\ldots,a_n$ (not all zero): $\\sum a_ix^i$ has a real root iff $\\sum a_ix^{f(i)}$ has a real root.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2023, E2"
+  },
+  {
+    "id": "IRTST_2023_E2_P12",
+    "year": 2023,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2",
+    "problem_id": "P12",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Given $2n$ non-empty subsets of $\\{0,\\ldots,2n-1\\}$ with total element count $\\binom{2n+1}{2}$. Prove we can choose one element from each subset such that their sum is $\\binom{2n}{2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2023, E2"
+  }
+]

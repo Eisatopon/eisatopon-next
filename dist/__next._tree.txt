@@ -1,4 +1,4 @@
 :HL["/_next/static/css/2f46e0db0d4a3aed.css","style"]
-:HL["/_next/static/css/3a805c75218b0726.css","style"]
+:HL["/_next/static/css/e6a9874de09e08a7.css","style"]
 :HL["/logo/eisatoponai-logo.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"oLuFmNbR343q31EtSwj7y"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"lUwtERn8Zbwf-jsL8qm-N"}

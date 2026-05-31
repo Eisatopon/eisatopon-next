@@ -1,0 +1,380 @@
+[
+  {
+    "id": "IRTST_2012_P1",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1D1",
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $n\\geq 2$ such that for all $0\\leq i,j\\leq n$, the numbers $i+j$ and $\\binom{n}{i}+\\binom{n}{j}$ have the same parity.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E1D1"
+  },
+  {
+    "id": "IRTST_2012_P2",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1D1",
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$D$ is the midpoint of arc $BAC$ and $I$ the incenter of $\\triangle ABC$. $DI$ meets $BC$ at $E$ and the circumcircle again at $F$. $P$ on line $AF$ with $PE \\parallel AI$. Prove $PE$ bisects $\\angle BPC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E1D1"
+  },
+  {
+    "id": "IRTST_2012_P3",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1D1",
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $S$ be a set of plane points such that no $n$ lines cover all of $S$, but for each $X\\in S$ there are $n$ lines covering $S\\setminus\\{X\\}$. Find the maximum of $|S|$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E1D1"
+  },
+  {
+    "id": "IRTST_2012_P4",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1D2",
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "An $m\\times n$ table ($m,n\\geq 4$) has a closed non-self-intersecting path passing through all $(m-1)(n-1)$ interior vertices but no outer vertices. Let $A$ = vertices traversed straight, $B$ = squares with only opposite sides used, $C$ = squares with no sides used. Prove $A = B - C + m + n - 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E1D2"
+  },
+  {
+    "id": "IRTST_2012_P5",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1D2",
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "$f:\\mathbb{R}_{\\geq 0}\\to\\mathbb{R}_{\\geq 0}$ satisfies: $f(a)=0\\Leftrightarrow a=0$; $f(ab)=f(a)f(b)$; $f(a+b)\\leq 2\\max(f(a),f(b))$. Prove $f(a+b)\\leq f(a)+f(b)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E1D2"
+  },
+  {
+    "id": "IRTST_2012_P6",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1D2",
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Pentagon $ABCDE$ is inscribed in circle $\\omega$. Circles $\\omega_a,\\ldots,\\omega_e$ are reflections of $\\omega$ over the sides. Let $A'$ be the second intersection of $\\omega_a,\\omega_e$, etc. Prove $2\\leq S_{A'B'C'D'E'}/S_{ABCDE}\\leq 3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E1D2"
+  },
+  {
+    "id": "IRTST_2012_P7",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2D1",
+    "problem_id": "P7",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Can we put $n^2$ consecutive naturals on the edges of $K_n$ so that for every length-3 path with edge labels $a,b,c$ ($b$ in the middle), $b$ is divisible by $\\gcd(a,c)$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E2D1"
+  },
+  {
+    "id": "IRTST_2012_P8",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2D1",
+    "problem_id": "P8",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $g(x)$ be a polynomial of degree $\\geq 2$ with all positive coefficients. Find all $f:\\mathbb{R}^+\\to\\mathbb{R}^+$ with $f(f(x)+g(x)+2y)=f(x)+g(x)+2f(y)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E2D1"
+  },
+  {
+    "id": "IRTST_2012_P9",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2D1",
+    "problem_id": "P9",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Parallelogram $ABCD$ has circles $\\omega_1$ (tangent to $AB$, $AD$) and $\\omega_2$ (tangent to $BC$, $CD$). If there exists a circle tangent to $AD$, $DC$ and externally tangent to $\\omega_1$, $\\omega_2$, prove there also exists a circle tangent to $AB$, $BC$ and externally tangent to $\\omega_1$, $\\omega_2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E2D1"
+  },
+  {
+    "id": "IRTST_2012_P10",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2D2",
+    "problem_id": "P10",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For positive reals $a,b,c$ with $ab+bc+ca=1$, show $3(\\sqrt{a}+\\sqrt{b}+\\sqrt{c}) \\leq \\frac{a\\sqrt{a}}{bc}+\\frac{b\\sqrt{b}}{ca}+\\frac{c\\sqrt{c}}{ab}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E2D2"
+  },
+  {
+    "id": "IRTST_2012_P11",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2D2",
+    "problem_id": "P11",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Points $A$ and $B$ on circle $\\omega$ (center $O$) with $\\pi/3 < \\angle AOB < 2\\pi/3$. $C$ is the circumcenter of $AOB$. Line $\\ell$ through $C$ making angle $\\pi/3$ with $OC$ cuts tangents at $A$, $B$ to $\\omega$ at $M$, $N$. Circumcircles of $CAM$ and $CBN$ cut $\\omega$ at $Q$, $R$ and each other at $P$. Prove $OP\\perp QR$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E2D2"
+  },
+  {
+    "id": "IRTST_2012_P12",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2D2",
+    "problem_id": "P12",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For $A\\subseteq\\{1,\\ldots,n\\}$, let $f(A)=\\max_{i}(a_{i+1}-a_i)$ and $g(A)=$ max length of a consecutive subset of $A$. Define $F(n)=\\sum_{A}f(A)$ and $G(n)=\\sum_A g(A)$. Prove there exists $m$ such that $F(n)>G(n)$ for all $n>m$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E2D2"
+  },
+  {
+    "id": "IRTST_2012_P13",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E3D1",
+    "problem_id": "P13",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Consider a regular $2^k$-gon with center $O$. Reflect $O$ over side $\\ell_1$, then the result over $\\ell_2$, etc. until side $\\ell_{2^k}$. Prove the final point's distance from $O$ is less than the perimeter of the polygon.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E3D1"
+  },
+  {
+    "id": "IRTST_2012_P14",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E3D1",
+    "problem_id": "P14",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Do there exist 2000 nonzero reals such that placing any 1000 as roots of a monic degree-1000 polynomial gives coefficients (except leading) that are a permutation of the remaining 1000?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E3D1"
+  },
+  {
+    "id": "IRTST_2012_P15",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E3D1",
+    "problem_id": "P15",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integer solutions to $(y^3+xy-1)(x^2+x-y)=(x^3-xy+1)(y^2+x-y)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E3D1"
+  },
+  {
+    "id": "IRTST_2012_P16",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E3D2",
+    "problem_id": "P16",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p$ be an odd prime. Call $f(x)=\\sum a_jx^j$ $i$-remainder if $\\sum_{p-1\\mid j,j>0}a_j\\equiv i\\pmod{p}$. Prove $\\{f(0),f(1),\\ldots,f(p-1)\\}$ is a complete residue system mod $p$ iff $f,f^2,\\ldots,f^{p-2}$ are 0-remainder and $f^{p-1}$ is 1-remainder.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E3D2"
+  },
+  {
+    "id": "IRTST_2012_P17",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E3D2",
+    "problem_id": "P17",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Sets $A$ and $B$ each contain $n$ points in the plane with no three collinear. $T(A)$ = number of non-self-intersecting $(n-1)$-edge polygonal paths through points of $A$. If $B$ is convex but $A$ is not, prove $T(B)<T(A)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E3D2"
+  },
+  {
+    "id": "IRTST_2012_P18",
+    "year": 2012,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E3D2",
+    "problem_id": "P18",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$O$ is circumcenter of acute $\\triangle ABC$. $A',B',C'$ on $BC$, $CA$, $AB$ such that circumcircles of $AB'C'$, $BC'A'$, $CA'B'$ pass through $O$. Define $\\ell_a$ as the radical axis of the circle center $B'$ radius $B'C$ and circle center $C'$ radius $C'B$; similarly $\\ell_b$, $\\ell_c$. Prove the triangle formed by $\\ell_a$, $\\ell_b$, $\\ell_c$ has the same orthocenter as $\\triangle ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2012, E3D2"
+  }
+]

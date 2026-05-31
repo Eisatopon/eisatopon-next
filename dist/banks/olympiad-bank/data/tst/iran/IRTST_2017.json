@@ -1,0 +1,380 @@
+[
+  {
+    "id": "IRTST_2017_T1D1_P1",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D1",
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a+b+c+d=2$ with all positive. Prove $\\frac{a+b+1}{c+d+1}+\\frac{c+d+1}{a+b+1}+4\\geq 4\\left(\\frac{(a+c)^2}{ad+bc}+\\frac{(b+d)^2}{ac+bd}\\right)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T1D1"
+  },
+  {
+    "id": "IRTST_2017_T1D1_P2",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D1",
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In a camp of 13 students and 6 selection tests, no two students score the same on the same test. The committee picks a permutation of the tests and, going in order, the student with the highest score still remaining joins the team (6 members total). Can all 13 students potentially be selected?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T1D1"
+  },
+  {
+    "id": "IRTST_2017_T1D1_P3",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D1",
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, $I_a$ is the $A$-excenter. Circle $\\omega$ through $A,I_a$ meets extensions of $AB,AC$ at $X,Y$. $S,T$ on $I_aB,I_aC$ with $\\angle AXI_a=\\angle BTI_a$ and $\\angle AYI_a=\\angle CSI_a$. $BT\\cap CS=K$ and $KI_a\\cap TS=Z$. Prove $X,Y,Z$ collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T1D1"
+  },
+  {
+    "id": "IRTST_2017_T1D2_P4",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D2",
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Primes $p_1<p_2<\\cdots$. A sequence $n_1<n_2<\\cdots$ of positive integers has: for all $i$, $x^{n_i}\\equiv 2\\pmod{p_i}$ has a solution. Does there always exist $x$ satisfying all equations simultaneously?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T1D2"
+  },
+  {
+    "id": "IRTST_2017_T1D2_P5",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D2",
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, $P,Q$ on $BC$ with $BP=CQ$, $P$ between $B,Q$. Circumcircle of $\\triangle APQ$ meets $AB,AC$ at $E,F$. $T=EP\\cap FQ$. Lines through midpoint of $BC$ parallel to $AB,AC$ meet $EP,FQ$ at $X,Y$. Prove circumcircles of $\\triangle TXY$ and $\\triangle APQ$ are tangent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T1D2"
+  },
+  {
+    "id": "IRTST_2017_T1D2_P6",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T1D2",
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Numbers $1,2,\\ldots,100$ on a $1\\times 100$ tape. We fold it in any order and direction until $1\\times 1$. Prove the number of distinct permutations visible (top to bottom) is between $2^{100}$ and $4^{100}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T1D2"
+  },
+  {
+    "id": "IRTST_2017_T2D1_P7",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D1",
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$ABCD$ is a trapezoid with $AB\\parallel CD$, diagonals meeting at $P$. $\\omega_1$ through $B$ tangent to $AC$ at $A$; $\\omega_2$ through $C$ tangent to $BD$ at $D$; $\\omega_3$ circumcircle of $\\triangle BPC$. Prove the common chords of $\\omega_1,\\omega_3$ and $\\omega_2,\\omega_3$ meet on $AD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T2D1"
+  },
+  {
+    "id": "IRTST_2017_T2D1_P8",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D1",
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the largest $n$ for which there exist $n$ positive integers such that none divides another, but among any three, one divides the sum of the other two.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T2D1"
+  },
+  {
+    "id": "IRTST_2017_T2D1_P9",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D1",
+    "problem_id": "P9",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "27 cards each have 1, 2, or 3 shapes (circle, square, or triangle) in white, grey, or black. A triple is a match if all three cards have the same or all different amounts, same or all different shapes, same or all different colors. Find the maximum number of cards with no three forming a match.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T2D1"
+  },
+  {
+    "id": "IRTST_2017_T2D2_P10",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D2",
+    "problem_id": "P10",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "An $(n+1)$-tuple $(h_1,\\ldots,h_{n+1})$ of $n$-variable polynomials is good if: whenever $P_i(x)=h_i(f_1(x),\\ldots,f_n(x))$ is a polynomial for all $i$, then each $f_j$ is a polynomial. (a) Prove for all $n$, a good tuple exists with all $h_i$ of degree $>1$. (b) Prove no good tuple with all $h_i$ symmetric exists for $n>1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T2D2"
+  },
+  {
+    "id": "IRTST_2017_T2D2_P11",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D2",
+    "problem_id": "P11",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Prove that at least $(k-1)(n-k+1)$ positive integers can be formed using exactly $n$ copies of $k$ and operations $+,-,\\times,\\div$ (with parentheses), but not with $n-1$ copies.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T2D2"
+  },
+  {
+    "id": "IRTST_2017_T2D2_P12",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T2D2",
+    "problem_id": "P12",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Sequence: $a_1=1$, $a_2=k$, $a_{n+1}-(k+1)a_n+a_{n-1}=0$. Find all positive integers $n$ such that $a_n$ is a power of $k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T2D2"
+  },
+  {
+    "id": "IRTST_2017_T3D1_P13",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T3D1",
+    "problem_id": "P13",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove there exists an integer $\\lfloor n/2\\rfloor\\leq m\\leq n-1$ such that $\\frac{a_m}{m+1}+\\frac{a_{m+1}}{m+2}+\\cdots+\\frac{a_{n-1}}{n}=\\frac{1}{\\text{lcm}(1,2,\\ldots,n)}$ has a solution with $a_m>0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T3D1"
+  },
+  {
+    "id": "IRTST_2017_T3D1_P14",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T3D1",
+    "problem_id": "P14",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$P$ inside quadrilateral $ABCD$ with $\\angle BPC=2\\angle BAC$, $\\angle PCA=\\angle PAD$, $\\angle PDA=\\angle PAC$. Prove $\\angle PBD=|\\angle BCA-\\angle PCA|$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T3D1"
+  },
+  {
+    "id": "IRTST_2017_T3D1_P15",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T3D1",
+    "problem_id": "P15",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f:\\mathbb{R}^+\\times\\mathbb{R}^+\\to\\mathbb{R}^+$ satisfying $f(f(x,y),z)=x^2y^2f(x,z)$ and $f(x,1+f(x,y))\\geq x^2+xyf(x,x)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T3D1"
+  },
+  {
+    "id": "IRTST_2017_T3D2_P16",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T3D2",
+    "problem_id": "P16",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "6 points in the plane, no 3 collinear. For every 4 points, there is one whose power w.r.t. the circumcircle of the other 3 is a constant $k$. Prove $k=0$ and all 6 lie on a circle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T3D2"
+  },
+  {
+    "id": "IRTST_2017_T3D2_P17",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T3D2",
+    "problem_id": "P17",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Sequence $\\{c_i\\}_{i\\geq 0}$ of non-negative reals with $c_{2017}>0$. Polynomials: $P_{-1}=0$, $P_0=1$, $P_{n+1}(x)=xP_n(x)+c_nP_{n-1}(x)$. Prove there is no integer $n>2017$ and real $c$ with $P_{2n}(x)=P_n(x^2+c)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T3D2"
+  },
+  {
+    "id": "IRTST_2017_T3D2_P18",
+    "year": 2017,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "T3D2",
+    "problem_id": "P18",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, $O$ circumcenter, $H$ orthocenter. $P$ is the reflection of $A$ over $OH$, not on the same side of $BC$ as $A$. $E,F$ on $AB,AC$ with $BE=PC$, $CF=PB$. $K=AP\\cap OH$. Prove $\\angle EKF=90^\\circ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2017, T3D2"
+  }
+]

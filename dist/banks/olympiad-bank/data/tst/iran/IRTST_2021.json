@@ -1,0 +1,254 @@
+[
+  {
+    "id": "IRTST_2021_E1D1_P1",
+    "year": 2021,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1D1",
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute scalene $\\triangle ABC$, the external bisector of $\\angle BAC$ meets $BC$ at $X$. Lines $\\ell_b$, $\\ell_c$ are the tangents to $(ABC)$ at $B$, $C$. A line through $X$ meets $\\ell_b$, $\\ell_c$ at $Y$, $Z$. $(AYB)\\cap(AZC)=N$, $\\ell_b\\cap\\ell_c=D$. Show $ND$ bisects $\\angle YNZ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2021, E1D1"
+  },
+  {
+    "id": "IRTST_2021_E1D1_P2",
+    "year": 2021,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1D1",
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In simple connected graph $G$, let $x_i$ = number of vertices with degree $i$, and $d>3$ the max degree. Prove that if $x_d\\geq x_{d-1}+2x_{d-2}+\\cdots+(d-1)x_1$, there exists a degree-$d$ vertex whose removal keeps $G$ connected.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2021, E1D1"
+  },
+  {
+    "id": "IRTST_2021_E1D1_P3",
+    "year": 2021,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1D1",
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Positive integers $a,b,c,d$ with $abcd\\neq 1$, pairwise coprime. Multiplicative $f,g:\\mathbb{N}\\to\\{0,1\\}$ with $f(an+b)=g(cn+d)$ for all $n$. Prove: either $f(an+b)=g(cn+d)=0$ for all $n$, or there exists $k$ such that $f(n)=g(n)=1$ whenever $\\gcd(n,k)=1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2021, E1D1"
+  },
+  {
+    "id": "IRTST_2021_E1D2_P4",
+    "year": 2021,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1D2",
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $\\Omega(n)$, $\\omega(n)$ be the largest and smallest prime factors of $n$. Alireza and Amin play: Alireza picks 1400 integer polynomials, Amin picks 700. Amin wins if $\\max_{P\\in A}(\\Omega(P(n)))\\geq\\min_{P\\in B}(\\omega(P(n)))$ for all $n$. Who wins?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2021, E1D2"
+  },
+  {
+    "id": "IRTST_2021_E1D2_P5",
+    "year": 2021,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1D2",
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A triple of reals is nice if one is the average of the other two. Given $2k+1$ distinct reals with $k^2$ nice triples, prove they can be split into two arithmetic progressions with equal ratio.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2021, E1D2"
+  },
+  {
+    "id": "IRTST_2021_E1D2_P6",
+    "year": 2021,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E1D2",
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$D$ on the Euler line of $\\triangle ABC$, inside the triangle. $E,F$ are where $BD,CD$ meet $AC,AB$. $X$ on line $AD$ with $\\angle EXF=180^\\circ-\\angle A$, $A$ and $X$ on the same side of $EF$. $P$ is the second intersection of circumcircles of $CXF$ and $BXE$. Prove $XP$, $EF$ meet on the $A$-altitude.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2021, E1D2"
+  },
+  {
+    "id": "IRTST_2021_E2D1_P7",
+    "year": 2021,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2D1",
+    "problem_id": "P7",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Natural numbers fill an infinite grid so that each cell equals the number of its (8-neighbor) adjacent cells with the same number. Find the maximum number of distinct values.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2021, E2D1"
+  },
+  {
+    "id": "IRTST_2021_E2D1_P8",
+    "year": 2021,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2D1",
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all $f:\\mathbb{N}\\to\\mathbb{N}$ such that $f(n)+1400m^2\\mid n^2+f(f(m))$ for all $m,n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2021, E2D1"
+  },
+  {
+    "id": "IRTST_2021_E2D1_P9",
+    "year": 2021,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2D1",
+    "problem_id": "P9",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove there exist coprime polynomials $P(x),Q(x)\\in\\mathbb{Z}[x]$ and $u>0$ such that if positive integers $a,b,c,d$ satisfy $\\left|\\frac{a}{c}-u\\right|^{2021}\\leq\\frac{u}{|d||c|^{1010}}$ and $\\left|\\left(\\frac{a}{c}\\right)^{2020}-\\frac{b}{d}\\right|\\leq\\frac{u}{|d||c|^{1010}}$, then $bP(a/c)=dQ(a/c)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2021, E2D1"
+  },
+  {
+    "id": "IRTST_2021_E2D2_P10",
+    "year": 2021,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2D2",
+    "problem_id": "P10",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f:\\mathbb{N}\\to\\mathbb{R}$ such that for all positive integers $a,b,c$: $f(ac)+f(bc)-f(c)f(ab)\\geq 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2021, E2D2"
+  },
+  {
+    "id": "IRTST_2021_E2D2_P11",
+    "year": 2021,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2D2",
+    "problem_id": "P11",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$X$ inside non-trapezoid $ABCD$ with $\\angle AXD+\\angle BXC=180^\\circ$. The bisector of $\\angle ABX$ meets the $D$-altitude of $\\triangle ADX$ at $K$, and the bisector of $\\angle DCX$ meets the $A$-altitude of $\\triangle ADX$ at $L$. Given $BK\\perp CX$ and $CL\\perp BX$. If the circumcenter of $\\triangle ADX$ lies on $KL$, prove $KL\\perp AD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2021, E2D2"
+  },
+  {
+    "id": "IRTST_2021_E2D2_P12",
+    "year": 2021,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": "E2D2",
+    "problem_id": "P12",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Prove we can color every $n$-element subset of a $3n$-element set using 8 colors such that there are no three subsets $A,B,C$ of the same color with $|A\\cap B|\\leq 1$, $|A\\cap C|\\leq 1$, $|B\\cap C|\\leq 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2021, E2D2"
+  }
+]
