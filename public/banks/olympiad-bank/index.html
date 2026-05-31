@@ -488,7 +488,8 @@ document.getElementById('searchBtn').addEventListener('click', doSearch);
 /// Init
 buildOlympiadDrop('all');
 
-// === National data lazy loader ===
+<!-- === National data lazy loader === -->
+<script>
 (async function loadNational() {
   try {
     const res = await fetch('data/national/index.json');
@@ -540,7 +541,6 @@ buildOlympiadDrop('all');
 })();
 
 buildYearDrop('all');
-
 </script>
 </body>
 </html>
