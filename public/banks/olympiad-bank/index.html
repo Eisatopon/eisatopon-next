@@ -274,12 +274,18 @@ function buildOlympiadDrop(scope) {
   for (const p of loaded) {
     const sc = scopeClass(p);
     if (scope !== 'all' && sc !== scope) continue;
-    const c = CFG[p.olympiad];
-    if (!c || seen.has(p.olympiad)) continue;
-    seen.add(p.olympiad);
-    const opt = document.createElement('option');
-    opt.value = p.olympiad;
-    opt.textContent = `${c.flag||''} ${c.fullName||p.olympiad}`;
+    const c = CFG[p.olympiad] || {
+  flag: '',
+  fullName: p.olympiad_full_name || p.olympiad
+};
+
+if (seen.has(p.olympiad)) continue;
+
+seen.add(p.olympiad);
+
+const opt = document.createElement('option');
+opt.value = p.olympiad;
+opt.textContent = `${c.flag || ''} ${c.fullName || p.olympiad}`;
     sel.appendChild(opt);
   }
   if ([...sel.options].some(o => o.value === cur)) sel.value = cur;
