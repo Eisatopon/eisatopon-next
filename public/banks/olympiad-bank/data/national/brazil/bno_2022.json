@@ -1,0 +1,128 @@
+[
+  {
+    "id": "BRAZIL_2022_D1_P1",
+    "year": 2022,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A single player game has the following rules: initially, there are 10 piles of stones with $1, 2, \\ldots, 10$ stones, respectively. A movement consists of making one of the following operations:\n\ni) Choose 2 piles, both of them with at least 2 stones, combine them and then add 2 stones to the new pile;\n\nii) Choose a pile with at least 4 stones, remove 2 stones from it, and then split it into two piles with sizes to be chosen by the player.\n\nThe game continues until no operation is possible. Show that the number of piles with one stone at the end of the game is always the same, no matter how the moves are made.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2022 Day 1"
+  },
+  {
+    "id": "BRAZIL_2022_D1_P2",
+    "year": 2022,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be an acute triangle, with $AB < AC$. Let $K$ be the midpoint of the arc $BC$ that does not contain $A$, and let $P$ be the midpoint of $BC$. Let $I_B$, $I_C$ be the $B$-excenter and $C$-excenter of $ABC$, respectively. Let $Q$ be the reflection of $K$ with respect to $A$. Prove that the points $P, Q, I_B, I_C$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2022 Day 1"
+  },
+  {
+    "id": "BRAZIL_2022_D1_P3",
+    "year": 2022,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $\\{a_n\\}_{n=0}^{\\infty}$ be a sequence of integers. Let $\\Delta^1 a_n = a_{n+1} - a_n$ for a non-negative integer $n$. Define $\\Delta^M a_n = \\Delta^{M-1} a_{n+1} - \\Delta^{M-1} a_n$. A sequence is \\textit{patriota} if there are positive integers $k, l$ such that $a_{n+k} = \\Delta^M a_{n+l}$ for all non-negative integers $n$. Determine, with proof, whether there exists a sequence such that the largest value of $M$ for which the sequence is patriota is $2022$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2022 Day 1"
+  },
+  {
+    "id": "BRAZIL_2022_D2_P4",
+    "year": 2022,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Initially, a natural number $n$ is written on the blackboard. Then, at each minute, Neymar chooses a divisor $d > 1$ of $n$, erases $n$, and writes $n + d$. If the initial number on the board is $2022$, what is the largest composite number that Neymar will never be able to write on the blackboard?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2022 Day 2"
+  },
+  {
+    "id": "BRAZIL_2022_D2_P5",
+    "year": 2022,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n$ be a positive integer. Define $S(n)$ to be the least positive integer such that $S(n) \\equiv n \\pmod{2}$, $S(n) \\geq n$, and such that there are no positive integers $k, x_1, x_2, \\ldots, x_k$ with $n = x_1 + x_2 + \\cdots + x_k$ and $S(n) = x_1^2 + x_2^2 + \\cdots + x_k^2$. Prove that there exists a real constant $c > 0$ and a positive integer $n_0$ such that, for all $n \\geq n_0$, $S(n) \\geq cn^{3/2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2022 Day 2"
+  },
+  {
+    "id": "BRAZIL_2022_D2_P6",
+    "year": 2022,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Some cells of a $10 \\times 10$ board are colored blue. A set of six cells is called \\textit{gremista} when the cells are the intersection of three rows and two columns, or two rows and three columns, and are all painted blue. Determine the greatest value of $n$ for which it is possible to color $n$ cells of the board blue such that there is no gremista set.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2022 Day 2"
+  }
+]

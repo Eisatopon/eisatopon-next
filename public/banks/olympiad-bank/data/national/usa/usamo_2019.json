@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2019_P1",
+    "year": 2019,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$f:\\mathbb{N}\\to\\mathbb{N}$ satisfies $\\underbrace{f(f(\\cdots f}_{f(n)\\text{ times}}(n)\\cdots))=\\frac{n^2}{f(f(n))}$. Determine all possible values of $f(1000)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2019"
+  },
+  {
+    "id": "USAMO_2019_P2",
+    "year": 2019,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Cyclic $ABCD$ with $AD^2+BC^2=AB^2$; diagonals meet at $E$; $P\\in AB$ with $\\angle APD=\\angle BPC$. Show line $PE$ bisects $CD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2019"
+  },
+  {
+    "id": "USAMO_2019_P3",
+    "year": 2019,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $K$ = set of positive integers without digit 7. Find all polynomials $f$ with nonneg­ative integer coefficients with $f(n)\\in K$ whenever $n\\in K$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2019"
+  },
+  {
+    "id": "USAMO_2019_P4",
+    "year": 2019,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the number of ways to choose $(n+1)^2$ sets $S_{i,j}\\subseteq\\{1,\\ldots,2n\\}$ for $0\\leq i,j\\leq n$ with $|S_{i,j}|=i+j$ and $S_{i,j}\\subseteq S_{k,l}$ whenever $i\\leq k,j\\leq l$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2019"
+  },
+  {
+    "id": "USAMO_2019_P5",
+    "year": 2019,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Rationals $\\frac{m}{n}$ and $\\frac{m}{n}$ on a board (actually $\\frac{m}{n}$ written twice, where $\\gcd(m,n)=1$). Evan can write the arithmetic or harmonic mean of any two numbers on the board. Find all $(m,n)$ such that Evan can write 1 in finitely many steps.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2019"
+  },
+  {
+    "id": "USAMO_2019_P6",
+    "year": 2019,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all real polynomials $P$ with $\\frac{P(x)}{yz}+\\frac{P(y)}{zx}+\\frac{P(z)}{xy}=P(x-y)+P(y-z)+P(z-x)$ for nonzero $x,y,z$ with $2xyz=x+y+z$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2019"
+  }
+]

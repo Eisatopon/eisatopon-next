@@ -1,0 +1,128 @@
+[
+  {
+    "id": "BRAZIL_1981_D1_P1",
+    "year": 1981,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For which values of $k$ does the system $x^2 - y^2 = 0$, $(x-k)^2 + y^2 = 1$ have exactly (i) two real solutions, (ii) three real solutions?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1981"
+  },
+  {
+    "id": "BRAZIL_1981_D1_P2",
+    "year": 1981,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show that there are at least $3$ and at most $4$ powers of $2$ with $m$ digits. For which $m$ are there exactly $4$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1981"
+  },
+  {
+    "id": "BRAZIL_1981_D1_P3",
+    "year": 1981,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given a sheet of paper, a ruler, a compass, and a pencil, show how to draw a straight line through two given points if the length of the ruler and the maximum opening of the compass are both less than half the distance between the two points. (You may not fold the paper.)",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1981"
+  },
+  {
+    "id": "BRAZIL_1981_D1_P4",
+    "year": 1981,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A graph has $100$ vertices. Given any $4$ vertices, at least one is joined to the other three. Show that some vertex must be joined to all $99$ others. What is the smallest number of vertices that must be joined to all others?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1981"
+  },
+  {
+    "id": "BRAZIL_1981_D1_P5",
+    "year": 1981,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Two thieves stole $8$ liters of wine. How can they divide it into two equal parts using only a $3$-liter and a $5$-liter container? In general, show that $m+n$ liters can be divided into two equal parts using containers of sizes $m$ and $n$ (positive integers) if and only if $m+n$ is even and $(m+n)/2$ is divisible by $\\gcd(m,n)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1981"
+  },
+  {
+    "id": "BRAZIL_1981_D1_P6",
+    "year": 1981,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "The centers of the faces of a cube form a regular octahedron of volume $V$. Through each vertex of the cube take the plane perpendicular to the long diagonal from that vertex. These planes also form a regular octahedron. Show that its volume is $27V$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1981"
+  }
+]

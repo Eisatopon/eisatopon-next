@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_1999_P1",
+    "year": 1999,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Checkers on an $n\\times n$ board: (a) every unchecked square shares a side with a checked one; (b) any two checked squares are connected by a sequence of checked squares sharing sides. Prove at least $(n^2-2)/3$ squares are checked.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1999"
+  },
+  {
+    "id": "USAMO_1999_P2",
+    "year": 1999,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be cyclic. Prove $|AB-CD|+|AD-BC|\\geq 2|AC-BD|$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1999"
+  },
+  {
+    "id": "USAMO_1999_P3",
+    "year": 1999,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p>2$ be prime and $a,b,c,d$ integers not divisible by $p$ with $\\{ra/p\\}+\\{rb/p\\}+\\{rc/p\\}+\\{rd/p\\}=2$ for all $r\\not\\equiv 0\\pmod{p}$. Prove at least two of $a+b,a+c,a+d,b+c,b+d,c+d$ are divisible by $p$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1999"
+  },
+  {
+    "id": "USAMO_1999_P4",
+    "year": 1999,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a_1,\\ldots,a_n$ ($n>3$) be real with $\\sum a_i\\geq n$ and $\\sum a_i^2\\geq n^2$. Prove $\\max a_i\\geq 2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1999"
+  },
+  {
+    "id": "USAMO_1999_P5",
+    "year": 1999,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "The Y2K game on $1\\times 2000$: players alternate writing S or O. First to spell SOS wins; if full without SOS it's a draw. Prove the second player has a winning strategy.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1999"
+  },
+  {
+    "id": "USAMO_1999_P6",
+    "year": 1999,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Isosceles trapezoid $ABCD$ with $AB\\parallel CD$. Incircle of $\\triangle BCD$ touches $CD$ at $E$. $F$ on the angle bisector of $\\angle DAC$ with $EF\\perp CD$. Circumcircle of $\\triangle ACF$ meets line $CD$ again at $G$. Prove $\\triangle AFG$ is isosceles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1999"
+  }
+]

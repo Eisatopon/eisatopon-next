@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2020_P1",
+    "year": 2020,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ inscribed in circle $\\omega$ with center $O$. Variable $X$ on minor arc $AB$; segments $CX$ and $AB$ meet at $D$; $O_1,O_2$ = circumcenters of $\\triangle ADX$ and $\\triangle BDX$. Find all $X$ minimizing the area of $\\triangle OO_1O_2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2020"
+  },
+  {
+    "id": "USAMO_2020_P2",
+    "year": 2020,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Empty $2020\\times 2020\\times 2020$ cube with $2020\\times 2020$ grid on each face. A beam is a $1\\times 1\\times 2020$ prism. Place beams so: (i) the two $1\\times 1$ faces coincide with opposite faces of the cube; (ii) no two beams intersect; (iii) each $1\\times 2020$ face of each beam touches the cube or another beam. Find the smallest positive number of beams satisfying all conditions.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2020"
+  },
+  {
+    "id": "USAMO_2020_P3",
+    "year": 2020,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p$ be odd prime. Set $A$ = integers $a$ with $1\\leq a<p$ where both $a$ and $4-a$ are quadratic non-residues mod $p$. Find the remainder when the product of elements of $A$ is divided by $p$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2020"
+  },
+  {
+    "id": "USAMO_2020_P4",
+    "year": 2020,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$(a_1,b_1),\\ldots,(a_{100},b_{100})$ are distinct ordered pairs of nonneg­ative integers. Let $N$ = number of pairs $(i,j)$ with $1\\leq i<j\\leq 100$ and $|a_ib_j-a_jb_i|=1$. Find the largest possible $N$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2020"
+  },
+  {
+    "id": "USAMO_2020_P5",
+    "year": 2020,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$S\\subseteq\\mathbb{R}^2$ is overdetermined if $|S|\\geq 2$ and there is a nonzero polynomial $P(t)$ of degree $\\leq|S|-2$ with $P(x)=y$ for all $(x,y)\\in S$. For each $n\\geq 2$, find the largest $k$ such that some set of $n$ distinct points is not overdetermined but has $k$ overdetermined subsets.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2020"
+  },
+  {
+    "id": "USAMO_2020_P6",
+    "year": 2020,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Reals $x_1\\geq\\cdots\\geq x_n$ and $y_1\\geq\\cdots\\geq y_n$ with $\\sum x_i=\\sum y_i=0$ and $\\sum x_i^2=\\sum y_i^2=1$. Prove $\\sum_{i=1}^n(x_iy_i-x_iy_{n+1-i})\\geq\\frac{2}{\\sqrt{n-1}}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2020"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2026_P1",
+    "year": 2026,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For integer $n>1$, find all real $x$ maximizing $\\lfloor nx\\rfloor-\\sum_{k=1}^n\\frac{\\lfloor kx\\rfloor}{k}$, and find that maximum.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2026"
+  },
+  {
+    "id": "USAMO_2026_P2",
+    "year": 2026,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Annie starts with a row of powers of 2. Each turn: erase two adjacent numbers and replace with a power of 2 greater than either. She wins if the final number is less than 4 times the sum of the original numbers. Can Annie always win?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2026"
+  },
+  {
+    "id": "USAMO_2026_P3",
+    "year": 2026,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute scalene $\\triangle ABC$ (no angle $60^\\circ$), circumcircle $\\omega$. For each vertex $V\\in\\{B,C\\}$, let $\\Delta_V$ be the equilateral triangle inscribed in $\\omega$ with one vertex at $V$, and $\\ell_V$ the line through the other two vertices. $Y=AC\\cap\\ell_B$, $Z=AB\\cap\\ell_C$, $N$ = midpoint of minor arc $BC$; $R$ = triangle formed by $\\ell_B$, $\\ell_C$, and tangent to $\\omega$ at $N$. Prove circumcircle of $\\triangle AYZ$ and incircle of $R$ are tangent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2026"
+  },
+  {
+    "id": "USAMO_2026_P4",
+    "year": 2026,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Call $n$ solitary if for any nonneg­ative $a,b$ with $a+b=n$, either $a$ or $b$ contains the digit 1. Determine the number of solitary integers less than $10^{2026}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2026"
+  },
+  {
+    "id": "USAMO_2026_P5",
+    "year": 2026,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with $D,E,F$ on $BC,CA,AB$ with $\\angle AFE=\\angle BDF=\\angle CED$. $O_A,O_B,O_C$ = circumcenters of $\\triangle AFE$, $\\triangle BDF$, $\\triangle CED$. $M,N,O$ = circumcenters of $\\triangle ABC$, $\\triangle DEF$, $\\triangle O_AO_BO_C$. Prove $OM=ON$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2026"
+  },
+  {
+    "id": "USAMO_2026_P6",
+    "year": 2026,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a,b$ be positive integers with $\\varphi(ab+1)\\mid a^2+b^2+1$. Prove $a$ and $b$ are Fibonacci numbers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2026"
+  }
+]

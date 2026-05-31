@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2017_P1",
+    "year": 2017,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove there are infinitely many distinct pairs $(a,b)$ of relatively prime integers $a,b>1$ with $a+b\\mid a^b+b^a$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2017"
+  },
+  {
+    "id": "USAMO_2017_P2",
+    "year": 2017,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For a sequence $(a_1,\\ldots,a_n)$ and permutation $w$ of $(m_1,\\ldots,m_n)$, an $A$-inversion is a pair $(w_i,w_j)$ with $i<j$ satisfying certain conditions. Show the number of permutations with exactly $k$ $A$-inversions equals the number with exactly $k$ $B$-inversions, for any two sequences $A,B$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2017"
+  },
+  {
+    "id": "USAMO_2017_P3",
+    "year": 2017,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Scalene $\\triangle ABC$ with circumcircle $\\Omega$, incenter $I$. Ray $AI$ meets $BC$ at $D$ and $\\Omega$ at $M$; circle with diameter $DM$ meets $\\Omega$ at $K$; $MK\\cap BC=S$; $N$ = midpoint of $IS$. Circumcircles of $\\triangle KID$ and $\\triangle MAN$ meet at $L_1,L_2$. Prove $\\Omega$ passes through the midpoint of $IL_1$ or $IL_2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2017"
+  },
+  {
+    "id": "USAMO_2017_P4",
+    "year": 2017,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$2n$ distinct points on the unit circle (not $(1,0)$), $n$ red and $n$ blue. Order red points $R_1,\\ldots,R_n$ arbitrarily; let $B_i$ be the nearest remaining blue point to $R_i$ counterclockwise. Show the number of arcs $R_i\\to B_i$ containing $(1,0)$ is independent of the ordering of red points.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2017"
+  },
+  {
+    "id": "USAMO_2017_P5",
+    "year": 2017,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find all $c>0$ such that there is a labeling of lattice points $(x,y)\\in\\mathbb{Z}^2$ with positive integers where only finitely many labels occur and any two points labeled $i$ are at distance $\\geq ci$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2017"
+  },
+  {
+    "id": "USAMO_2017_P6",
+    "year": 2017,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find the minimum of $\\frac{a}{b^3+4}+\\frac{b}{c^3+4}+\\frac{c}{d^3+4}+\\frac{d}{a^3+4}$ for nonneg­ative reals $a,b,c,d$ with $a+b+c+d=4$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2017"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "USAMO_1988_P1",
+    "year": 1988,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "If a mixed repeating decimal is written as $p/q$ in lowest terms, prove $q$ is divisible by 2 or 5 (or both).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1988"
+  },
+  {
+    "id": "USAMO_1988_P2",
+    "year": 1988,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "The cubic $x^3+ax^2+bx+c=0$ has three real roots. Show $a^2-3b\\geq 0$ and $\\sqrt{a^2-3b}$ is at most the difference between the largest and smallest roots.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1988"
+  },
+  {
+    "id": "USAMO_1988_P3",
+    "year": 1988,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$f(S)$ assigns to each 9-element subset $S\\subseteq\\{1,\\ldots,20\\}$ a number in $\\{1,\\ldots,20\\}$. Prove there exists a 10-element subset $T$ with $f(T\\setminus\\{k\\})\\neq k$ for all $k\\in T$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1988"
+  },
+  {
+    "id": "USAMO_1988_P4",
+    "year": 1988,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $I$ be the incenter of $\\triangle ABC$, and $A',B',C'$ the circumcenters of $\\triangle IBC$, $\\triangle ICA$, $\\triangle IAB$. Prove the circumcircles of $\\triangle ABC$ and $\\triangle A'B'C'$ are concentric.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1988"
+  },
+  {
+    "id": "USAMO_1988_P5",
+    "year": 1988,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A polynomial $(1-z)^{b_1}(1-z^2)^{b_2}\\cdots(1-z^{32})^{b_{32}}$ with positive integer $b_k$, when expanded and discarding terms with $z$ to power $>32$, leaves $1-2z$. Determine $b_{32}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1988"
+  }
+]

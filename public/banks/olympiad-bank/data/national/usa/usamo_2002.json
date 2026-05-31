@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2002_P1",
+    "year": 2002,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$S$ has $2002$ elements. For $0\\leq N\\leq 2^{2002}$, prove every subset of $S$ can be colored black or white so that (a) any two white subsets have white union; (b) any two black subsets have black union; (c) exactly $N$ subsets are white.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2002"
+  },
+  {
+    "id": "USAMO_2002_P2",
+    "year": 2002,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\triangle ABC$ satisfy $\\cot^2\\frac{A}{2}+2\\cot^2\\frac{B}{2}+3\\cot^2\\frac{C}{2}=\\frac{36s^2}{7r^2}$, where $s,r$ are semiperimeter and inradius. Prove $\\triangle ABC$ is similar to an integer-sided triangle with no common divisors and find those integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2002"
+  },
+  {
+    "id": "USAMO_2002_P3",
+    "year": 2002,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove any monic polynomial of degree $n$ with real coefficients is the average of two monic polynomials of degree $n$ with $n$ real roots each.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2002"
+  },
+  {
+    "id": "USAMO_2002_P4",
+    "year": 2002,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f:\\mathbb{R}\\to\\mathbb{R}$ with $f(x^2-y^2)=xf(x)-yf(y)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2002"
+  },
+  {
+    "id": "USAMO_2002_P5",
+    "year": 2002,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a,b>2$ be integers. Prove there exist positive integers $n_1,\\ldots,n_k$ with $n_1=a$, $n_k=b$, and $n_in_{i+1}\\mid n_i+n_{i+1}$ for each $i$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2002"
+  },
+  {
+    "id": "USAMO_2002_P6",
+    "year": 2002,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "From an $n\\times n$ stamp sheet, tear out blocks of 3 consecutive stamps in a row or column. Let $b(n)$ = minimum blocks to make further tearing impossible. Prove $\\frac{1}{7}n^2-cn\\leq b(n)\\leq\\frac{1}{5}n^2+dn$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2002"
+  }
+]

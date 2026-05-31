@@ -1,0 +1,107 @@
+[
+  {
+    "id": "USAMO_1985_P1",
+    "year": 1985,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Do there exist positive integers $x_1,\\ldots,x_{1985}$ (distinct) satisfying $x_1^2+\\cdots+x_{1985}^2=y^3$ and $x_1^3+\\cdots+x_{1985}^3=z^2$ simultaneously?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1985"
+  },
+  {
+    "id": "USAMO_1985_P2",
+    "year": 1985,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Determine each real root of $x^4-(2\\cdot10^{10}+1)x^2-x+10^{20}+10^{10}-1=0$ correct to four decimal places.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1985"
+  },
+  {
+    "id": "USAMO_1985_P3",
+    "year": 1985,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$A,B,C,D$ are distinct points with at most one of $AB,AC,AD,BC,BD,CD$ greater than 1. Determine the maximum value of the sum of the six distances.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1985"
+  },
+  {
+    "id": "USAMO_1985_P4",
+    "year": 1985,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "There are $n$ people at a party. Prove there are two people such that of the remaining $n-2$, at least $\\lfloor n/2\\rfloor-1$ of them either know both or know neither of the two.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1985"
+  },
+  {
+    "id": "USAMO_1985_P5",
+    "year": 1985,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $a_1\\leq a_2\\leq\\cdots$ be a nondecreasing sequence of positive integers. Define $b_m=\\min\\{n:a_n\\geq m\\}$. If $a_{19}=85$, find the maximum of $a_1+\\cdots+a_{19}+b_1+\\cdots+b_{85}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1985"
+  }
+]

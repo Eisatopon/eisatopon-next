@@ -1,0 +1,107 @@
+[
+  {
+    "id": "USAMO_1980_P1",
+    "year": 1980,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A two-pan balance has arms of different lengths and pans of different weights. Objects $A,B,C$ are each weighed separately on both pans (balanced by $A_1,B_1,C_1$ on the left and $A_2,B_2$ on the right for $A,B$). Determine the true weight of $C$ in terms of $A_1,B_1,C_1,A_2,B_2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1980"
+  },
+  {
+    "id": "USAMO_1980_P2",
+    "year": 1980,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Determine the maximum number of three-term arithmetic progressions that can be chosen from a sequence $a_1<a_2<\\cdots<a_n$ of real numbers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1980"
+  },
+  {
+    "id": "USAMO_1980_P3",
+    "year": 1980,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $F_r=x^r\\sin rA+y^r\\sin rB+z^r\\sin rC$ where $A+B+C$ is an integral multiple of $\\pi$. Prove that if $F_1=F_2=0$, then $F_r=0$ for all positive integers $r$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1980"
+  },
+  {
+    "id": "USAMO_1980_P4",
+    "year": 1980,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "The inscribed sphere of a tetrahedron touches all four faces at their centroids. Prove the tetrahedron is regular.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1980"
+  },
+  {
+    "id": "USAMO_1980_P5",
+    "year": 1980,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that for $a,b,c\\in[0,1]$: $\\dfrac{a}{b+c+1}+\\dfrac{b}{c+a+1}+\\dfrac{c}{a+b+1}+(1-a)(1-b)(1-c)\\leq 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1980"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "BRAZIL_1994_D1_P1",
+    "year": 1994,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "The edges of a cube are labeled from $1$ to $12$ in an arbitrary manner.\n\na) Show that it is not possible to make the sum of edge-labels at each vertex the same.\n\nb) Show that if one of the labels is changed to $13$, we can label the edges so that all eight vertices have the same sum.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1994 Day 1"
+  },
+  {
+    "id": "BRAZIL_1994_D1_P2",
+    "year": 1994,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given any convex polygon, show that there exist three consecutive vertices such that the polygon lies inside the circle passing through them.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1994 Day 1"
+  },
+  {
+    "id": "BRAZIL_1994_D1_P3",
+    "year": 1994,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "We are given $n$ objects of identical appearance but different masses, and a balance that can compare any two objects (one object per pan). How many weighings are necessary and sufficient to find both the heaviest and the lightest object?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1994 Day 1"
+  },
+  {
+    "id": "BRAZIL_1994_D2_P4",
+    "year": 1994,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b > 0$ be reals such that $a^3 = a + 1$ and $b^6 = b + 3a$. Show that $a > b$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1994 Day 2"
+  },
+  {
+    "id": "BRAZIL_1994_D2_P5",
+    "year": 1994,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A \\textit{super-integer} is an infinite sequence of decimal digits $\\ldots d_n \\ldots d_2 d_1$. Given two super-integers $\\ldots c_n \\ldots c_2 c_1$ and $\\ldots d_n \\ldots d_2 d_1$, their product $\\ldots p_n \\ldots p_2 p_1$ is defined by taking $p_n \\ldots p_2 p_1$ to be the last $n$ digits of the ordinary product $c_n \\ldots c_2 c_1 \\times d_n \\ldots d_2 d_1$. Can we find two nonzero super-integers whose product is the zero super-integer (all digits zero)?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1994 Day 2"
+  },
+  {
+    "id": "BRAZIL_1994_D2_P6",
+    "year": 1994,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A triangle has semiperimeter $s$, circumradius $R$, and inradius $r$. Show that it is right-angled if and only if $2R = s - r$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1994 Day 2"
+  }
+]

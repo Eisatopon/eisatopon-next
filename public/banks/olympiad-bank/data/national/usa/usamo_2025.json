@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2025_P1",
+    "year": 2025,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $k,d$ be positive integers. Prove there is a positive integer $N$ such that for every odd $n>N$, all digits in the base-$2n$ representation of $n^k$ are greater than $d$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2025"
+  },
+  {
+    "id": "USAMO_2025_P2",
+    "year": 2025,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $n,k$ be positive integers with $k<n$. Let $P(x)$ be a degree-$n$ polynomial with real coefficients, nonzero constant term, and no repeated roots. Suppose for any $a_0,\\ldots,a_k$ with $a_kx^k+\\cdots+a_0\\mid P(x)$, the product $a_0a_1\\cdots a_k=0$. Prove $P(x)$ has a nonreal root.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2025"
+  },
+  {
+    "id": "USAMO_2025_P3",
+    "year": 2025,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Alice chooses points $P,Q$ and subset $S$ of the plane; Bob places infinitely many cities (no two within distance 1, no three collinear). Cities $A,B$ are connected iff for every city $C\\neq A,B$, there exists $R\\in S$ such that $\\triangle PQR$ is directly similar to $\\triangle ABC$ or $\\triangle BAC$. Alice wins if roads allow travel between any two cities and no two roads cross. Who has a winning strategy?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2025"
+  },
+  {
+    "id": "USAMO_2025_P4",
+    "year": 2025,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$H$ = orthocenter of acute $\\triangle ABC$; $F$ = foot of altitude from $C$ to $AB$; $P$ = reflection of $H$ across $BC$. Circumcircle of $\\triangle AFP$ meets line $BC$ at two points $X,Y$. Prove $C$ is the midpoint of $XY$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2025"
+  },
+  {
+    "id": "USAMO_2025_P5",
+    "year": 2025,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $k$ such that $\\frac{1}{n+1}\\sum_{i=0}^n\\binom{n}{i}^k$ is an integer for every positive integer $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2025"
+  },
+  {
+    "id": "USAMO_2025_P6",
+    "year": 2025,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $m\\geq n$ be positive integers. $m$ cupcakes of different flavors arranged in a circle; $n$ people each score each cupcake nonneg­atively. For each person $P$, the circle can be partitioned into $n$ groups of consecutive cupcakes so each group's score is $\\geq 1$. Prove the cupcakes can be distributed so each person gets total score $\\geq 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2025"
+  }
+]
