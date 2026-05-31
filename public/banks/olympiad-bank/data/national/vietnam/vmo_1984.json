@@ -1,0 +1,129 @@
+[
+  {
+    "id": "VMO_1984_D1_P1",
+    "year": 1984,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "a) Find a polynomial with integer coefficients of smallest degree having $\\sqrt{2}+\\sqrt[3]{3}$ as a root.\nb) Solve $1 + \\sqrt{1+x^2}\\left(\\sqrt{(1+x)^3} - \\sqrt{(1-x)^3}\\right) = 2\\sqrt{1-x^2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1984 Day 1"
+  },
+  {
+    "id": "VMO_1984_D1_P2",
+    "year": 1984,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "The sequence $(u_n)$ is defined by $u_1=1$, $u_2=2$ and $u_{n+1}=3u_n-u_{n-1}$ for $n \\geq 2$. Set $v_n = \\displaystyle\\sum_{k=1}^{n}\\text{arccot}\\, u_k$. Compute $\\lim_{n\\to\\infty} v_n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1984 Day 1"
+  },
+  {
+    "id": "VMO_1984_D1_P3",
+    "year": 1984,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A square $ABCD$ of side $2a$ lies on plane $\\Pi$. Point $S$ is on the ray $Ax$ perpendicular to $\\Pi$ with $AS=2a$. Variable points $M \\in BC$ and $N \\in CD$.\na) i. Find $M, N$ with $BM+DN \\geq \\frac{3}{2}$ such that planes $SAM$ and $SMN$ are perpendicular and $BM \\cdot DN$ is minimum. ii. Find $M, N$ with $\\angle MAN=45^\\circ$ such that the volume of $SAMN$ is extremal.\nb) Let $Q$ satisfy $\\angle AQB = \\angle AQD = 90^\\circ$. Line $DQ$ meets the plane $\\pi$ through $AB$ perpendicular to $\\Pi$ at $Q'$. i. Find the locus of $Q'$. ii. Let $K$ be the locus of $Q$ and $CQ$ meet $K$ again at $R$. Let $DR$ meet $\\Pi$ at $R'$. Prove that $\\sin^2\\angle Q'DB + \\sin^2\\angle R'DB$ is independent of $Q$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1984 Day 1"
+  },
+  {
+    "id": "VMO_1984_D2_P1",
+    "year": 1984,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "a) Let $x, y$ be integers, not both zero. Find the minimum of $|5x^2+11xy-5y^2|$.\nb) Find all positive reals $t$ such that $\\dfrac{9t}{10} = \\dfrac{\\lfloor t \\rfloor}{t - \\lfloor t \\rfloor}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1984 Day 2"
+  },
+  {
+    "id": "VMO_1984_D2_P2",
+    "year": 1984,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Given reals $a, b$ with $a \\neq 0$, find all polynomials $P(x)$ satisfying $xP(x-a) = (x-b)P(x)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1984 Day 2"
+  },
+  {
+    "id": "VMO_1984_D2_P3",
+    "year": 1984,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Consider a trihedral angle $Sxyz$ with $\\angle xSz=\\alpha$, $\\angle xSy=\\beta$, $\\angle ySz=\\gamma$. Let $A, B, C$ be the dihedral angles at edges $y, z, x$ respectively.\na) Prove that $\\dfrac{\\sin\\alpha}{\\sin A} = \\dfrac{\\sin\\beta}{\\sin B} = \\dfrac{\\sin\\gamma}{\\sin C}$.\nb) Show that $\\alpha+\\beta=180^\\circ$ iff $\\angle A+\\angle B=180^\\circ$.\nc) Assume $\\alpha=\\beta=\\gamma=90^\\circ$. Let $O \\in Sz$ be fixed with $SO=a$ and $M, N$ variable on $x, y$. Prove $\\angle SOM+\\angle SON+\\angle MON$ is constant and find the locus of the incenter of $OSMN$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1984 Day 2"
+  }
+]

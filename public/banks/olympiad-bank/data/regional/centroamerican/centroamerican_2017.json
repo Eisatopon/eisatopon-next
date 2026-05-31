@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CENTROAMERICAN_2017_P1",
+    "year": 2017,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Gabriel and Arnaldo color segments on a triangular net: endpoints at triangle vertices, segment made of one or more sides, no overlap with previous. Gabriel goes first; player unable to move loses. Find a winning strategy.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2017"
+  },
+  {
+    "id": "CENTROAMERICAN_2017_P2",
+    "year": 2017,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Call $(a,b)$ with $a<391$ a \\textit{pupusa} pair if $\\text{lcm}(a,b)>\\text{lcm}(a,391)$. Find the minimum $b$ over all pupusa pairs.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2017"
+  },
+  {
+    "id": "CENTROAMERICAN_2017_P3",
+    "year": 2017,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with $D$ = foot of altitude from $A$; $\\ell$ = line through midpoints of $BC$ and $AC$; $E$ = reflection of $D$ over $\\ell$. Prove the circumcenter of $\\triangle ABC$ lies on line $AE$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2017"
+  },
+  {
+    "id": "CENTROAMERICAN_2017_P4",
+    "year": 2017,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Right $\\triangle ABC$ with $\\angle ABC=90^\\circ$ and $AB<BC$; $B'$ = reflection of $B$ over $AC$; $M$ = midpoint of $AC$; $D\\in BM$ with $BD=AC$. Prove $B'C$ bisects $\\angle MB'D$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2017"
+  },
+  {
+    "id": "CENTROAMERICAN_2017_P5",
+    "year": 2017,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Susana and Brenda alternate building a polynomial. Susana picks $n_0$, writes $P_0(x)=n_0$. Each turn: pick a new positive integer and either add or subtract it times the appropriate power of $x$. First to write a polynomial with an integer root wins. Find a winning strategy.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2017"
+  },
+  {
+    "id": "CENTROAMERICAN_2017_P6",
+    "year": 2017,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Tita the Frog sits on integer $k>1$. From $n$, she hops to $f(n)+g(n)$ where $f(n)$ and $g(n)$ are the largest and smallest prime factors of $n$. Find all $k$ for which Tita visits infinitely many distinct integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2017"
+  }
+]

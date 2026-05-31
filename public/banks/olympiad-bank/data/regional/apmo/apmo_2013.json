@@ -1,0 +1,107 @@
+[
+  {
+    "id": "APMO_2013_P1",
+    "year": 2013,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\triangle ABC$ be acute with altitudes $AD$, $BE$, $CF$ and circumcenter $O$. Show that $OA$, $OF$, $OB$, $OD$, $OC$, $OE$ dissect $\\triangle ABC$ into three pairs of equal-area triangles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2013"
+  },
+  {
+    "id": "APMO_2013_P2",
+    "year": 2013,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine all positive integers $n$ for which $\\dfrac{n^2+1}{\\lfloor\\sqrt{n}\\rfloor^2+2}$ is an integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2013"
+  },
+  {
+    "id": "APMO_2013_P3",
+    "year": 2013,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For $2k$ reals $a_1,\\ldots,a_k,b_1,\\ldots,b_k$, define $X_n = \\displaystyle\\sum_{i=1}^k \\lfloor a_i n + b_i \\rfloor$. If $\\{X_n\\}$ is an arithmetic progression, show $\\displaystyle\\sum a_i$ is an integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2013"
+  },
+  {
+    "id": "APMO_2013_P4",
+    "year": 2013,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $a$, $b$ be positive integers and $A$, $B$ disjoint finite sets of integers. If $i \\in A \\cup B$ implies ($i+a \\in A$ or $i-b \\in B$), prove $a|A| = b|B|$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2013"
+  },
+  {
+    "id": "APMO_2013_P5",
+    "year": 2013,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Cyclic quadrilateral $ABCD$ inscribed in $\\omega$, $P$ on extension of $AC$ with $PB$ and $PD$ tangent to $\\omega$. The tangent at $C$ meets $PD$ at $Q$ and $AD$ at $R$. Let $E$ be the second intersection of $AQ$ with $\\omega$. Prove $B$, $E$, $R$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2013"
+  }
+]

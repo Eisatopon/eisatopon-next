@@ -1,0 +1,254 @@
+[
+  {
+    "id": "IRTST_2022_P1",
+    "year": 2022,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Morteza has 100 sets. Mahdi can choose two and Morteza tells him their intersection and union. Find the minimum number of steps for Mahdi to determine all sets.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2022"
+  },
+  {
+    "id": "IRTST_2022_P2",
+    "year": 2022,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For positive integers $a,b$, if $\\sigma(a^n)\\mid\\sigma(b^n)$ for all $n\\in\\mathbb{N}$, prove every prime factor of $\\tau(a)$ divides $\\tau(b)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2022"
+  },
+  {
+    "id": "IRTST_2022_P3",
+    "year": 2022,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, incircle $\\omega$ touches $CB$, $CA$ at $D$, $E$. $X$ is the reflection of $D$ over $B$. $DE$ is tangent to the $A$-excircle at $Z$. The circumcircle of $\\triangle XZE$ meets $\\omega$ again at $K$. Prove $BK\\cap AZ\\in\\omega$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2022"
+  },
+  {
+    "id": "IRTST_2022_P4",
+    "year": 2022,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Cyclic $ABCD$ with circumcenter $O$, $P=AC\\cap BD$. $M$, $N$ midpoints of $AD$, $BC$. $\\omega_1,\\omega_2,\\omega_3$ circumcircles of $\\triangle ADP$, $\\triangle BCP$, $\\triangle OMN$. $E$ is the intersection of $\\omega_1,\\omega_3$ not on arc $APD$; $F$ for $\\omega_2,\\omega_3$ not on arc $BPC$. Prove $OE=OF$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2022"
+  },
+  {
+    "id": "IRTST_2022_P5",
+    "year": 2022,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $C\\in\\mathbb{R}$ such that every integer sequence $\\{a_n\\}$ bounded below satisfying $0\\leq a_{n-1}+Ca_n+a_{n+1}<1$ for all $n\\geq 2$ is periodic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2022"
+  },
+  {
+    "id": "IRTST_2022_P6",
+    "year": 2022,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Positive integers $m,n,a_1,\\ldots,a_m$. Ali and Mohammad play: Ali picks $b_1,\\ldots,b_m\\in\\mathbb{N}$, then Mohammad picks $s\\in\\mathbb{N}$ and forms $c_i=a_i+b_{i+s}$. Ali wins if all $c_i$ become divisible by $n$ in finitely many rounds. Find all $m,n$ for which Ali wins regardless of initial values.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2022"
+  },
+  {
+    "id": "IRTST_2022_P7",
+    "year": 2022,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P7",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Consider a regular $2n$-gon with one longest diagonal parallel to the $x$-axis. Find the smallest $d$ such that a polynomial $P$ of degree $d$ exists whose graph intersects all sides of the polygon at non-vertex points.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2022"
+  },
+  {
+    "id": "IRTST_2022_P8",
+    "year": 2022,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P8",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with $AB<AC$, $I$ is incenter, $E$ is the tangency of the $A$-excircle with $BC$. $F$ on external bisector of $\\angle BAC$ with $E,F$ on the same side of $AI$ and $\\angle AIF=\\angle AEB$. $Q$ on $BC$ with $\\angle AIQ=90^\\circ$. Circles $\\omega_b$, $\\omega_c$ tangent to $FQ$ and $AB$, $AC$ at $B$, $C$ respectively, passing through the triangle's interior. If $M$ is the midpoint of arc $BC$ not containing $A$, prove $M$ lies on the radical axis of $\\omega_b$ and $\\omega_c$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2022"
+  },
+  {
+    "id": "IRTST_2022_P9",
+    "year": 2022,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P9",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n\\geq 6$ points in the plane, no three collinear. A road network is a connected graph (edges = segments) with no two edges intersecting except at vertices. Prove there exist three road networks $G_1,G_2,G_3$ with no common edge.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2022"
+  },
+  {
+    "id": "IRTST_2022_P10",
+    "year": 2022,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P10",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Call $S\\subseteq\\mathbb{N}$ good if for all distinct $a,b,c\\in S$, every positive divisor of $\\frac{a^c-b^c}{a-b}$ belongs to $S$. For all $n>1$, prove there exists a good $S$ with $n\\notin S$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2022"
+  },
+  {
+    "id": "IRTST_2022_P11",
+    "year": 2022,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P11",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "An $n\\times 2n$ table has some blocked cells. A robot placed on any unblocked cell moves right/left/up/down, changing direction only at blocks or borders. Find the smallest $m$ such that $m$ blocks and a starting cell can be chosen so the robot visits all unblocked cells.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2022"
+  },
+  {
+    "id": "IRTST_2022_P12",
+    "year": 2022,
+    "olympiad": "IRTST",
+    "olympiad_full_name": "Iran Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "Iran",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P12",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f:\\mathbb{R}\\to\\mathcal{A}$ (closed intervals $[a,b]\\subset\\mathbb{R}$) satisfying: $x\\in f(y)\\Leftrightarrow y\\in f(x)$; $|x-y|>2\\Leftrightarrow f(x)\\cap f(y)=\\emptyset$; and $f(r)=[r^2-1,r^2+1]$ for $0\\leq r\\leq 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Iran TST 2022"
+  }
+]

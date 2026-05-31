@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BENELUX_2021_P1",
+    "year": 2021,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "a) Prove that for all $a, b, c, d \\in \\mathbb{R}$ with $a+b+c+d = 0$, $\\max(a,b) + \\max(a,c) + \\max(a,d) + \\max(b,c) + \\max(b,d) + \\max(c,d) \\geq 0$.\\n\\nb) Find the largest nonneg­ative integer $k$ such that replacing $k$ of the six maxima by minima still gives an inequality valid for all $a+b+c+d=0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2021"
+  },
+  {
+    "id": "BENELUX_2021_P2",
+    "year": 2021,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Pebbles are placed on a $2021 \\times 2021$ board, at most one per square. The \\textit{pebble set} of a square is the collection of all pebbles in its row or column (including the pebble in that square itself, if any). What is the minimum number of pebbles so that no two squares have the same pebble set?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2021"
+  },
+  {
+    "id": "BENELUX_2021_P3",
+    "year": 2021,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Cyclic quadrilateral $ABXC$ has circumcenter $O$. Let $D$ on line $BX$ satisfy $AD = BD$, and $E$ on line $CX$ satisfy $AE = CE$. Prove that the circumcenter of $\\triangle DEX$ lies on the perpendicular bisector of $OA$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2021"
+  },
+  {
+    "id": "BENELUX_2021_P4",
+    "year": 2021,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A sequence $a_1, a_2, a_3, \\ldots$ of positive integers satisfies $a_1 > 5$ and $a_{n+1} = 5 + 6 + \\cdots + a_n$ for all $n \\geq 1$. Determine all primes $p$ such that, regardless of $a_1$, this sequence must contain a multiple of $p$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2021"
+  }
+]

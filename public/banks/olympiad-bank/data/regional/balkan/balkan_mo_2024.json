@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_2024_P1",
+    "year": 2024,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\triangle ABC$ be acute with $AC > AB$ and $D$ the foot of the $A$-angle bisector on $BC$. Reflections of lines $AB, AC$ in $BC$ meet $AC, AB$ at $E, F$ respectively. A line through $D$ meets $AC$ at $G$ and $AB$ at $H$ (with $G$ strictly between $A, C$ and $H$ strictly between $B, F$). Prove the circumcircles of $\\triangle EDG$ and $\\triangle FDH$ are tangent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2024"
+  },
+  {
+    "id": "BALKAN_MO_2024_P2",
+    "year": 2024,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n \\geq k \\geq 3$ be integers. For every integer sequence $1 \\leq a_1 < \\cdots < a_k \\leq n$, show one can choose nonneg­ative integers $b_1, \\ldots, b_k$ with $0 \\leq b_i \\leq n$, positive $b_i$ distinct, such that $a_i + b_i$ ($1 \\leq i \\leq k$) form a permutation of the first $k$ terms of a nonconstant arithmetic progression.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2024"
+  },
+  {
+    "id": "BALKAN_MO_2024_P3",
+    "year": 2024,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a, b$ be distinct positive integers with $(3a+2) \\mid (3b+2)$. Prove $a > b^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2024"
+  },
+  {
+    "id": "BALKAN_MO_2024_P4",
+    "year": 2024,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f : \\mathbb{R}^+ \\to \\mathbb{R}^+$ and polynomials $P(x)$ with nonneg­ative real coefficients and $P(0)=0$ satisfying $f(f(x) + P(y)) = f(x-y) + 2y$ for all $x > y > 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2024"
+  }
+]

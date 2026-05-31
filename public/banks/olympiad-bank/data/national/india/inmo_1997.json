@@ -1,0 +1,128 @@
+[
+  {
+    "id": "INMO_1997_P1",
+    "year": 1997,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a parallelogram. A line through $C$ (outside the parallelogram) meets lines $AB$ and $AD$ at $E$ and $F$ respectively. Show $AC^2 + CE \\cdot CF = AB \\cdot AE + AD \\cdot AF$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1997"
+  },
+  {
+    "id": "INMO_1997_P2",
+    "year": 1997,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show there do not exist positive integers $m, n$ with $\\dfrac{m}{n} + \\dfrac{n+1}{m} = 4$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1997"
+  },
+  {
+    "id": "INMO_1997_P3",
+    "year": 1997,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "If $a, b, c$ are real with $a + \\frac{1}{b} = b + \\frac{1}{c} = c + \\frac{1}{a} = t$, prove $abc + t = 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1997"
+  },
+  {
+    "id": "INMO_1997_P4",
+    "year": 1997,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In a unit square, 100 segments are drawn from the center to the sides, dividing the square into 100 equal-area parts. If all parts have equal perimeter $p$, show $\\frac{14}{10} < p < \\frac{15}{10}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1997"
+  },
+  {
+    "id": "INMO_1997_P5",
+    "year": 1997,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the number of $4 \\times 4$ arrays with entries from $\\{0,1,2,3\\}$ such that the sum of entries in each row and each column is divisible by 4.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1997"
+  },
+  {
+    "id": "INMO_1997_P6",
+    "year": 1997,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b > 0$ and suppose all roots of $x^3 - ax + b = 0$ are real. If $\\alpha$ is the root with minimal absolute value, prove $\\dfrac{b}{a} < \\alpha < \\dfrac{3b}{2a}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1997"
+  }
+]

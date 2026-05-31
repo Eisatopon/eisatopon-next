@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_2014_P1",
+    "year": 2014,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For $n \\geq 3$, count triples $(A, B, C)$ of pairwise disjoint sets with $A \\cup B \\cup C = \\{1,\\ldots,n\\}$ and $\\sum A \\equiv \\sum B \\equiv \\sum C \\pmod{3}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2014"
+  },
+  {
+    "id": "RIOPLATENSE_2014_P2",
+    "year": 2014,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "The divisors of $n$ in increasing order are $d_1 < \\cdots < d_8$ (8 divisors). $n$ is \\textit{red} if $d_5 = 3d_3 - 4$. Find all red numbers smaller than 2014.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2014"
+  },
+  {
+    "id": "RIOPLATENSE_2014_P3",
+    "year": 2014,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Kiko cuts a rod of length $2n$ ($n \\geq 3$) into $k \\leq 2n$ integer-length pieces. Ñoño must arrange them into a hexagon with equal opposite sides and equal angles. Determine who can guarantee a win based on $k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2014"
+  },
+  {
+    "id": "RIOPLATENSE_2014_P4",
+    "year": 2014,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A pair $(a,b)$ of positive integers is \\textit{Rioplatense} if $a + k \\mid b + k$ for all $k \\in \\{0,1,2,3,4\\}$. Prove there is an infinite set $A$ of positive integers such that any $a < b$ in $A$ form a Rioplatense pair.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2014"
+  },
+  {
+    "id": "RIOPLATENSE_2014_P5",
+    "year": 2014,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "On segment $AC$, take $B$. Construct circles $T_1$, $T_2$, $T_3$ with diameters $AB$, $BC$, $AC$. A line through $B$ meets $T_3$ at $P$, $Q$ and meets $T_1$, $T_2$ at $R$, $S$ respectively. Prove $PR = QS$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2014"
+  },
+  {
+    "id": "RIOPLATENSE_2014_P6",
+    "year": 2014,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n \\in \\mathbb{N}$ with $3 \\mid \\binom{n+1}{2}$. Integers $a_1 \\geq a_2 \\geq a_3 \\geq 2$ have sum $n$ with $\\binom{a_1+1}{2} \\leq \\frac{1}{3}\\binom{n+1}{2}$ and $\\binom{a_1+a_2+1}{2} \\leq \\frac{2}{3}\\binom{n+1}{2}$. Prove there is a partition of $\\{1,\\ldots,n\\}$ into three subsets of sizes $a_1, a_2, a_3$ with equal sums.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2014"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_1996_P1",
+    "year": 1996,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $O$ be the circumcenter and $G$ the centroid of triangle $ABC$ with circumradius $R$ and inradius $r$. Prove that $OG \\leq \\sqrt{R(R-2r)}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1996"
+  },
+  {
+    "id": "BALKAN_MO_1996_P2",
+    "year": 1996,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p > 5$ be prime and $X = \\{p - n^2 : n \\in \\mathbb{N},\\, n^2 < p\\}$. Prove that $X$ contains two distinct elements $x, y$ with $x \\neq 1$ and $x \\mid y$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1996"
+  },
+  {
+    "id": "BALKAN_MO_1996_P3",
+    "year": 1996,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In convex pentagon $ABCDE$, let $M, N, P, Q, R$ be midpoints of $AB, BC, CD, DE, EA$. If $AP, BQ, CR, DM$ are concurrent, prove that $EN$ passes through the same point.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1996"
+  },
+  {
+    "id": "BALKAN_MO_1996_P4",
+    "year": 1996,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $X = \\{1, 2, \\ldots, 2^{1996}-1\\}$. Prove there exists $A \\subseteq X$ with: a) $1 \\in A$ and $2^{1996}-1 \\in A$; b) every element of $A$ except $1$ is the sum of two (possibly equal) elements of $A$; c) $|A| \\leq 2012$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1996"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BENELUX_2023_P1",
+    "year": 2023,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all functions $f : \\mathbb{R} \\to \\mathbb{R}$ such that $(x-y)f(x) + f(y) \\leq f(x^2 - y^2)$ for all $x, y \\in \\mathbb{R}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2023"
+  },
+  {
+    "id": "BENELUX_2023_P2",
+    "year": 2023,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Determine all integers $k \\geq 1$ with the following property: if each integer is colored with one of $k$ colors, then there must exist integers $a_1 < a_2 < \\cdots < a_{2023}$ of the same color such that the differences $a_2 - a_1, a_3 - a_2, \\ldots, a_{2023} - a_{2022}$ are all powers of $2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2023"
+  },
+  {
+    "id": "BENELUX_2023_P3",
+    "year": 2023,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle with incenter $I$ and circumcircle $\\omega$. Let $N$ be the second intersection of line $AI$ with $\\omega$. The line through $I$ perpendicular to $AI$ meets $BC$, $AB$, $AC$ at $D$, $E$, $F$ respectively. The circumcircle of $\\triangle AEF$ meets $\\omega$ again at $P$, and lines $PN$ and $BC$ meet at $Q$. Prove that lines $IQ$ and $DN$ intersect on $\\omega$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2023"
+  },
+  {
+    "id": "BENELUX_2023_P4",
+    "year": 2023,
+    "olympiad": "BENELUX",
+    "olympiad_full_name": "Benelux Mathematical Olympiad",
+    "scope": "regional",
+    "region": "benelux",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A positive integer $n$ is \\textit{friendly} if adjacent digits (in base 10) differ by exactly $1$. Find all odd natural numbers $m$ for which there exists a friendly integer divisible by $64m$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Benelux Mathematical Olympiad 2023"
+  }
+]

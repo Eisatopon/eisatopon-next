@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_1995_P1",
+    "year": 1995,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For reals $x, y$, define $x \\star y = \\dfrac{x+y}{1+xy}$. Evaluate $(\\cdots((2 \\star 3) \\star 4) \\star 5) \\star \\cdots) \\star 1995$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1995"
+  },
+  {
+    "id": "BALKAN_MO_1995_P2",
+    "year": 1995,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Circles $C_1(O_1, r_1)$ and $C_2(O_2, r_2)$ with $r_2 > r_1$ intersect at $A, B$ with $\\angle O_1AO_2 = 90^\\circ$. Line $O_1O_2$ meets $C_1$ at $C, D$ and $C_2$ at $E, F$ (order $C, E, D, F$). Line $BE$ meets $C_1$ at $K$ and $AC$ at $M$; line $BD$ meets $C_2$ at $L$ and $AF$ at $N$. Prove that $\\dfrac{r_2}{r_1} = \\dfrac{KE}{KM} \\cdot \\dfrac{LN}{LD}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1995"
+  },
+  {
+    "id": "BALKAN_MO_1995_P3",
+    "year": 1995,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a > b$ be natural numbers of the same parity. Prove that the solutions of $x^2 - (a^2 - a + 1)(x - b^2 - 1) - (b^2+1)^2 = 0$ are natural numbers, none a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1995"
+  },
+  {
+    "id": "BALKAN_MO_1995_P4",
+    "year": 1995,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $S = \\{(x,y) : x, y \\in \\{1,\\ldots,n\\}\\}$ and $T$ the set of all squares with vertices in $S$. For $k \\geq 0$, let $a_k$ be the number of unordered pairs of points in $S$ belonging to exactly $k$ squares in $T$. Prove that $a_0 = a_2 + 2a_3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1995"
+  }
+]

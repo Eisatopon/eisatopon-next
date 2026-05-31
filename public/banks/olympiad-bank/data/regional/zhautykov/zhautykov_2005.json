@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ZHAUTYKOV_2005_P1",
+    "year": 2005,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that $x^5 + 31 = y^2$ has no integer solutions.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2005"
+  },
+  {
+    "id": "ZHAUTYKOV_2005_P2",
+    "year": 2005,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $r$ be a real number such that a sequence $(a_n)_{n\\geq 1}$ of positive reals satisfies $a_1 + a_2 + \\cdots + a_{m+1} \\leq r a_m$ for each positive integer $m$. Prove $r \\geq 4$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2005"
+  },
+  {
+    "id": "ZHAUTYKOV_2005_P3",
+    "year": 2005,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $SABC$ be a regular triangular pyramid. Find the set of all points $D$ ($D \\neq S$) in space satisfying $|\\cos \\angle ASD - 2\\cos \\angle BSD - 2\\cos \\angle CSD| = 3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2005"
+  },
+  {
+    "id": "ZHAUTYKOV_2005_P4",
+    "year": 2005,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For positive reals $a, b, c, d$ prove $\\dfrac{c}{a+2b} + \\dfrac{d}{b+2c} + \\dfrac{a}{c+2d} + \\dfrac{b}{d+2a} \\geq \\dfrac{4}{3}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2005"
+  },
+  {
+    "id": "ZHAUTYKOV_2005_P5",
+    "year": 2005,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "An interior point $X$ of a quadrilateral is \\textit{observable} from side $YZ$ if the perpendicular to line $YZ$ meets the closed segment $[YZ]$. The point is a \\textit{$k$-point} if observable from exactly $k$ sides. Prove that if a convex quadrilateral has a 1-point, it also has a $k$-point for each $k = 2, 3, 4$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2005"
+  },
+  {
+    "id": "ZHAUTYKOV_2005_P6",
+    "year": 2005,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all prime numbers $p, q < 2005$ such that $q \\mid p^2 + 8$ and $p \\mid q^2 + 8$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2005"
+  }
+]

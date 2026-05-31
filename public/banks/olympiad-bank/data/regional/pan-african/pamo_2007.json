@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PAMO_2007_P1",
+    "year": 2007,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all natural numbers $N$ with exactly $1112$ digits such that: (a) the digit sum of $N$ is divisible by $2000$; (b) the digit sum of $N+1$ is divisible by $2000$; (c) $1$ is a digit of $N$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2007"
+  },
+  {
+    "id": "PAMO_2007_P2",
+    "year": 2007,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $A$, $B$, $C$ be fixed noncollinear points. Consider all triangles $AB'C'$ where $B'$ moves on a given line not through $A$, and $C'$ is determined so that $\\angle B' = \\angle B$ and $\\angle C' = \\angle C$. Find the locus of $C'$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2007"
+  },
+  {
+    "id": "PAMO_2007_P3",
+    "year": 2007,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In a country, each town is connected directly to exactly three others. Show that there exists a town from which one can make a round-trip using each road at most once, such that the number of roads used is not divisible by $3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2007"
+  },
+  {
+    "id": "PAMO_2007_P4",
+    "year": 2007,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Solve in reals: $x = \\sqrt{2y+3}$, $y = \\sqrt{2z+3}$, $z = \\sqrt{2x+3}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2007"
+  },
+  {
+    "id": "PAMO_2007_P5",
+    "year": 2007,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For which positive integers $n$ is $2^{31n} - 2^{22n} - 8^n - 1$ divisible by $2007$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2007"
+  },
+  {
+    "id": "PAMO_2007_P6",
+    "year": 2007,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "An equilateral triangle of side $2$ is divided into four pieces by two perpendicular lines intersecting at the centroid. What is the maximum possible area of one piece?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2007"
+  }
+]

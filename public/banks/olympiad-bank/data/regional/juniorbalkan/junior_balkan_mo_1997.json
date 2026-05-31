@@ -1,0 +1,107 @@
+[
+  {
+    "id": "JUNIOR_BALKAN_MO_1997_P1",
+    "year": 1997,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Show that among any 9 points inside a unit square, some 3 form a triangle with area less than $\\dfrac{1}{8}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 1997"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_1997_P2",
+    "year": 1997,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $\\dfrac{x^2+y^2}{x^2-y^2} + \\dfrac{x^2-y^2}{x^2+y^2} = k$. Compute $E(x,y) = \\dfrac{x^8+y^8}{x^8-y^8} - \\dfrac{x^8-y^8}{x^8+y^8}$ in terms of $k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 1997"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_1997_P3",
+    "year": 1997,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle with incenter $I$, and $N$, $M$ the midpoints of $AB$ and $CA$. Lines $BI$ and $CI$ meet $MN$ at $K$ and $L$ respectively. Prove that $AI + BI + CI > BC + KL$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 1997"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_1997_P4",
+    "year": 1997,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Determine the triangle with sides $a, b, c$ and circumradius $R$ for which $R(b+c) = a\\sqrt{bc}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 1997"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_1997_P5",
+    "year": 1997,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n_1, n_2, \\ldots, n_{1998}$ be positive integers with $n_1^2 + n_2^2 + \\cdots + n_{1997}^2 = n_{1998}^2$. Show that at least two of the numbers are even.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 1997"
+  }
+]

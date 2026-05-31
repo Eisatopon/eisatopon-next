@@ -1,0 +1,128 @@
+[
+  {
+    "id": "INMO_2013_P1",
+    "year": 2013,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Circles $\\Gamma_1, \\Gamma_2$ touch externally at $R$. Line $\\ell_1$ is tangent to $\\Gamma_2$ at $P$ and passes through center $O_1$; $\\ell_2$ tangent to $\\Gamma_1$ at $Q$ and passes through $O_2$. $K = \\ell_1 \\cap \\ell_2$. If $KP = KQ$, prove $\\triangle PQR$ is equilateral.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2013"
+  },
+  {
+    "id": "INMO_2013_P2",
+    "year": 2013,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all $m, n \\in \\mathbb{N}$ and primes $p \\geq 5$ satisfying $m(4m^2 + m + 12) = 3(p^n - 1)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2013"
+  },
+  {
+    "id": "INMO_2013_P3",
+    "year": 2013,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c, d \\in \\mathbb{N}$ with $a \\geq b \\geq c \\geq d$. Show $x^4 - ax^3 - bx^2 - cx - d = 0$ has no integer solution.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2013"
+  },
+  {
+    "id": "INMO_2013_P4",
+    "year": 2013,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $T_n$ = number of nonempty subsets $S$ of $\\{1,\\ldots,n\\}$ whose average is an integer. Prove $T_n - n$ is always even.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2013"
+  },
+  {
+    "id": "INMO_2013_P5",
+    "year": 2013,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with circumcenter $O$, centroid $G$, orthocenter $H$. $D \\in BC$ with $OD \\perp BC$; $E \\in CA$ with $HE \\perp CA$; $F$ = midpoint of $AB$. If $\\triangle ODC$, $\\triangle HEA$, $\\triangle GFB$ have equal areas, find all possible values of $\\angle C$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2013"
+  },
+  {
+    "id": "INMO_2013_P6",
+    "year": 2013,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c, x, y, z > 0$ with $x+y+z = a+b+c$ and $xyz = abc$. If $a \\leq x < y < z \\leq c$ and $a < b < c$, prove $a=x$, $b=y$, $c=z$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2013"
+  }
+]

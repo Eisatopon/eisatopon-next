@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1987_P1",
+    "year": 1987,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$n\\geq 2$ points in a unit square. Show the points can be labeled $P_1,\\ldots,P_n$ so $\\sum_{i=1}^n|P_{i-1}-P_i|^2\\leq 4$ (cyclic subscripts).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1987"
+  },
+  {
+    "id": "PMO_1987_P2",
+    "year": 1987,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A regular $n$-gon inscribed in a unit circle; $X$ = set of all arcs $PQ$ for distinct vertices $P,Q$. Five elements $L_1,\\ldots,L_5\\in X$ are chosen at random. Show the expected length of $L_1\\cap\\cdots\\cap L_5$ is independent of $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1987"
+  },
+  {
+    "id": "PMO_1987_P3",
+    "year": 1987,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$w(x)$ is a polynomial with integer coefficients; $p_n$ = sum of digits of $w(n)$. Show some value occurs infinitely often in $(p_n)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1987"
+  },
+  {
+    "id": "PMO_1987_P4",
+    "year": 1987,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Among all tetrahedra with base area 1, total face area 4, and equal base-face angles, find the one with maximum volume.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1987"
+  },
+  {
+    "id": "PMO_1987_P5",
+    "year": 1987,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the smallest $n$ such that $n^2-n+11$ is a product of four primes (not necessarily distinct).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1987"
+  },
+  {
+    "id": "PMO_1987_P6",
+    "year": 1987,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A plane is tiled with regular hexagons of side 1; $A$ is a fixed vertex. Find the number of paths from $A$ to any vertex of length 60 along edges such that no shorter path exists between $A$ and the endpoint.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1987"
+  }
+]

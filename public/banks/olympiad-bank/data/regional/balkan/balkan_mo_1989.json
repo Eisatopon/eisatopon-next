@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_1989_P1",
+    "year": 1989,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n$ be a positive integer with divisors $1 = d_1 < d_2 < \\cdots < d_k = n$. Find all $n$ with $k \\geq 4$ and $n = d_1^2 + d_2^2 + d_3^2 + d_4^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1989"
+  },
+  {
+    "id": "BALKAN_MO_1989_P2",
+    "year": 1989,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a_n a_{n-1} \\cdots a_1 a_0$ be the decimal representation of a prime with $n > 1$ and $a_n > 1$. Prove that $P(x) = a_n x^n + \\cdots + a_1 x + a_0$ cannot be written as a product of two nonconstant integer polynomials.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1989"
+  },
+  {
+    "id": "BALKAN_MO_1989_P3",
+    "year": 1989,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $G$ be the centroid of triangle $ABC$ and $\\ell$ a line meeting $AB$ at $B_1$ and $AC$ at $C_1$ such that $A$ and $G$ are on the same side of $\\ell$. Prove that $[BB_1GC_1] + [CC_1GB_1] \\geq \\frac{4}{9}[ABC]$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1989"
+  },
+  {
+    "id": "BALKAN_MO_1989_P4",
+    "year": 1989,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $\\mathcal{F}$ be a family of 3-element subsets of $\\{1, 2, \\ldots, n\\}$ such that any two members share at most one element. Let $f(n)$ be the maximum size of $\\mathcal{F}$. Prove that $\\dfrac{n^2-4n}{6} \\leq f(n) \\leq \\dfrac{n^2-n}{6}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1989"
+  }
+]

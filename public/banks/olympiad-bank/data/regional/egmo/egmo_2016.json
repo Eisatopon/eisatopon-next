@@ -1,0 +1,128 @@
+[
+  {
+    "id": "EGMO_2016_D1_P1",
+    "year": 2016,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $n$ be an odd positive integer and $x_1, \\ldots, x_n \\geq 0$. Show that $\\min_{i=1,\\ldots,n}(x_i^2 + x_{i+1}^2) \\leq \\max_{j=1,\\ldots,n}(2x_j x_{j+1})$ (indices mod $n$).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2016"
+  },
+  {
+    "id": "EGMO_2016_D1_P2",
+    "year": 2016,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a cyclic quadrilateral. Diagonals $AC$ and $BD$ meet at $X$. Let $C_1, D_1, M$ be midpoints of $CX, DX, CD$. Lines $AD_1$ and $BC_1$ meet at $Y$; line $MY$ meets diagonals at $E$ and $F$. Prove line $XY$ is tangent to the circumcircle of $\\triangle EFX$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2016"
+  },
+  {
+    "id": "EGMO_2016_D1_P3",
+    "year": 2016,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Consider a $4m \\times 4m$ array. Two cells are related if they share a row or column. Some cells are blue so every cell is related to at least two blue cells. Find the minimum number of blue cells.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2016"
+  },
+  {
+    "id": "EGMO_2016_D2_P4",
+    "year": 2016,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two circles $\\omega_1$ and $\\omega_2$ of equal radius meet at $X_1$ and $X_2$. Circle $\\omega$ is externally tangent to $\\omega_1$ at $T_1$ and internally tangent to $\\omega_2$ at $T_2$. Prove $X_1T_1$ and $X_2T_2$ intersect at a point on $\\omega$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2016"
+  },
+  {
+    "id": "EGMO_2016_D2_P5",
+    "year": 2016,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $k \\geq 2$ and $k \\leq n \\leq 2k-1$. Tile an $n \\times n$ board with $1 \\times k$ and $k \\times 1$ tiles until no more can be placed. For each pair $(k, n)$, find the minimum number of tiles such an arrangement may contain.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2016"
+  },
+  {
+    "id": "EGMO_2016_D2_P6",
+    "year": 2016,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $S$ be the set of positive integers $n$ such that $n^4$ has a divisor in $(n^2, n^2+2n]$. Prove there are infinitely many elements of $S$ of each of the forms $7m$, $7m+1$, $7m+2$, $7m+5$, $7m+6$, and no elements of the forms $7m+3$ and $7m+4$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2016"
+  }
+]

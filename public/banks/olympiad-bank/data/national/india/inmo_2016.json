@@ -1,0 +1,128 @@
+[
+  {
+    "id": "INMO_2016_P1",
+    "year": 2016,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In isosceles $\\triangle ABC$ ($AB = AC$), the orthocenter lies on the incircle. Find the ratio $BC/AB$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2016"
+  },
+  {
+    "id": "INMO_2016_P2",
+    "year": 2016,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For positive reals $a, b, c$, which of the following implies $a = b = c$: (I) $a(b^3+c^3) = b(c^3+a^3) = c(a^3+b^3)$; (II) $a(a^3+b^3) = b(b^3+c^3) = c(c^3+a^3)$? Justify.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2016"
+  },
+  {
+    "id": "INMO_2016_P3",
+    "year": 2016,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$T : \\mathbb{N} \\to \\mathbb{N}$: $T(2k) = k$, $T(2k+1) = 2k+2$. (i) Show for each $n \\in \\mathbb{N}$, there is $k$ with $T^k(n) = 1$. (ii) Let $c_k = |\\{n : T^k(n)=1\\}|$. Prove $c_{k+2} = c_{k+1} + c_k$ for $k \\geq 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2016"
+  },
+  {
+    "id": "INMO_2016_P4",
+    "year": 2016,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Some 2016 points on a circle are colored red; remaining points are blue. For any $n \\geq 3$, prove there is a regular $n$-gon with all vertices blue.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2016"
+  },
+  {
+    "id": "INMO_2016_P5",
+    "year": 2016,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Right $\\triangle ABC$ ($\\angle B = 90^\\circ$); $D$ on $AC$ so inradii of $\\triangle ABD$ and $\\triangle CBD$ are equal (common value $r'$, inradius of $\\triangle ABC$ is $r$). Prove $\\frac{1}{r'} = \\frac{1}{r} + \\frac{1}{BD}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2016"
+  },
+  {
+    "id": "INMO_2016_P6",
+    "year": 2016,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $(a_n)$ be a nonconstant AP. Suppose there exist coprime integers $p, q > 1$ with $a_1^2$, $a_{2p+1}^2$, $a_{2q+1}^2$ also in AP. Prove all terms of the AP are integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2016"
+  }
+]

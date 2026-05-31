@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_2008_P1",
+    "year": 2008,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In an $a \\times b$ chessboard, each square has 0 or 1 such that: if a row and column meet at 0, they have the same number of 0s; if they meet at 1, they have the same number of 1s. Find all pairs $(a,b)$ for which this is possible.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2008"
+  },
+  {
+    "id": "RIOPLATENSE_2008_P2",
+    "year": 2008,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "On a line are $n$ closed intervals (not single points) with union $S$. For every real $d$ with $0 < d \\leq 1$, some two points of $S$ are distance $d$ apart. (a) Show the total length exceeds $\\dfrac{1}{n}$. (b) Prove $\\dfrac{1}{n}$ cannot be replaced by a larger constant.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2008"
+  },
+  {
+    "id": "RIOPLATENSE_2008_P3",
+    "year": 2008,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integers $k \\geq 2$ such that for all integers $n \\geq 2$, $n$ does not divide the greatest odd divisor of $k^n + 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2008"
+  },
+  {
+    "id": "RIOPLATENSE_2008_P4",
+    "year": 2008,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Can the positive integers be partitioned into 12 subsets such that for each $k$, the numbers $k, 2k, \\ldots, 12k$ belong to 12 different subsets?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2008"
+  },
+  {
+    "id": "RIOPLATENSE_2008_P5",
+    "year": 2008,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with $AB < AC$, let $X, Y, Z$ be the incircle tangency points on $BC, CA, AB$. $U$ is the midpoint of arc $BC$ containing $A$ on the circumcircle. Line $UX$ meets the circumcircle again at $K$; $T = AK \\cap YZ$. Prove $XT \\perp YZ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2008"
+  },
+  {
+    "id": "RIOPLATENSE_2008_P6",
+    "year": 2008,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Stones of total weight 65 pounds, each at most $w$ pounds. Find the largest $w$ such that any such collection can be split into two groups differing in weight by at most 1 pound.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2008"
+  }
+]

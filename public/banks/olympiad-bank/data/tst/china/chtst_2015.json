@@ -1,0 +1,174 @@
+[
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2015_T1D1_P1",
+    "year": 2015,
+    "day": "TST1 Day1",
+    "problem_id": "T1D1_P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Circle $\\Gamma$ through $A$ of $\\triangle ABC$ meets $AB,AC$ at $E,F$ and circumcircle of $ABC$ at $P$. Prove the reflection of $P$ over $EF$ lies on $BC$ iff $\\Gamma$ passes through the circumcenter $O$ of $\\triangle ABC$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c42845"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2015_T1D1_P2",
+    "year": 2015,
+    "day": "TST1 Day1",
+    "problem_id": "T1D1_P2",
+    "topic": [
+      "Sequences",
+      "Analysis"
+    ],
+    "statement": "Let $a_1,a_2,\\ldots$ be distinct positive integers and $0<c<\\frac{2}{3}$. Prove there are infinitely many $k$ with $\\text{lcm}(a_k,a_{k+1})>ck$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c42845"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2015_T1D1_P3",
+    "year": 2015,
+    "day": "TST1 Day1",
+    "problem_id": "T1D1_P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Fix positive integers $k,n$. A vending machine has many candy colors, each with $2n$ pieces. Each kid buys 2 candies of different colors. Given any $k+1$ kids share at least one color, find the maximum number of kids.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c42845"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2015_T1D2_P4",
+    "year": 2015,
+    "day": "TST1 Day2",
+    "problem_id": "T1D2_P4",
+    "topic": [
+      "Geometry",
+      "Number Theory"
+    ],
+    "statement": "For each $n\\geq 3$, prove there exist positive integers $a_1<a_2<\\cdots<a_n$ such that for $i=1,\\ldots,n-2$, the numbers $a_i,a_{i+1},a_{i+2}$ are sides of a triangle with positive integer area.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c42845"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2015_T1D2_P5",
+    "year": 2015,
+    "day": "TST1 Day2",
+    "problem_id": "T1D2_P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Fix positive integer $n$. Prove: for any positive integers $a,b,c\\leq 3n^2+4n$, there exist integers $x,y,z$ with $|x|,|y|,|z|\\leq 2n$, not all zero, and $ax+by+cz=0$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c42845"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2015_T1D2_P6",
+    "year": 2015,
+    "day": "TST1 Day2",
+    "problem_id": "T1D2_P6",
+    "topic": [
+      "Combinatorics",
+      "Graph Theory"
+    ],
+    "statement": "Ping-pong tournament where every 2 players play at most once. Given: each player wins at least $a$ and loses to at least $b$ ($a,b\\geq 1$); for any $A,B$ there is a directed path $P_1=A,P_2,\\ldots,P_k=B$ with $P_i$ beating $P_{i+1}$. Prove there exist $a+b+1$ players $Q_1,\\ldots,Q_{a+b+1}$ with $Q_i$ beating $Q_{i+1}$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c42845"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2015_T2D1_P1",
+    "year": 2015,
+    "day": "TST2 Day1",
+    "problem_id": "T2D1_P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For positive integer $n$ and nonempty $A\\subseteq\\{1,\\ldots,2n\\}$, call $A$ good if $\\{u\\pm v:u,v\\in A\\}$ does not contain $\\{1,\\ldots,n\\}$. Find the smallest $c$ such that $|A|\\leq cn$ for any good $A$ and $n$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c42845"
+  },
+  {
+    "olympiad": "ChTST",
+    "olympiad_full_name": "China Team Selection Test",
+    "scope": "national",
+    "region": null,
+    "country": "China",
+    "gender_restricted": false,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "ChTST_2015_T2D1_P2",
+    "year": 2015,
+    "day": "TST2 Day1",
+    "problem_id": "T2D1_P2",
+    "topic": [
+      "Algebra",
+      "Inequalities"
+    ],
+    "statement": "Let $a_1,\\ldots,a_n>0$ with $n\\geq 2$. Prove $\\left(\\sum_{j=1}^n a_j\\right)^n\\geq n^n\\prod_{j=1}^n a_j$ ... (Rearrangement-type inequality for the given expression).",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c42845"
+  }
+]

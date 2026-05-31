@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_2009_P1",
+    "year": 2009,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all pairs $(a,b)$ of reals such that: for any reals $c, d$, if $x^2 + ax + 1 = c$ and $x^2 + bx + 1 = d$ both have real roots, then $x^2 + (a+b)x + 1 = cd$ has real roots.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2009"
+  },
+  {
+    "id": "RIOPLATENSE_2009_P2",
+    "year": 2009,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $A, B, C, D, E, F, G, H, I$ be nine points in space such that $ABCDE$, $ABFGH$, and $GFCDI$ are each regular pentagons of side length 1. Find the side lengths of triangle $EHI$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2009"
+  },
+  {
+    "id": "RIOPLATENSE_2009_P3",
+    "year": 2009,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A permutation of $(1, 2, \\ldots, n)$ is \\textit{$d$-ordered} if it contains no decreasing subsequence of length $d$. Prove that for every $d \\in \\{2, \\ldots, n\\}$, the number of $d$-ordered permutations is at most $(d-1)^2 \\cdot n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2009"
+  },
+  {
+    "id": "RIOPLATENSE_2009_P4",
+    "year": 2009,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f : \\mathbb{R} \\to \\mathbb{R}$ such that $f(xy) = \\max\\{f(x+y), f(x)f(y)\\}$ for all $x, y \\in \\mathbb{R}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2009"
+  },
+  {
+    "id": "RIOPLATENSE_2009_P5",
+    "year": 2009,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all pairs $(a, b)$ of integers with $a > 1$ and $b > 1$ such that $a \\mid b+1$ and $b \\mid a^3 - 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2009"
+  },
+  {
+    "id": "RIOPLATENSE_2009_P6",
+    "year": 2009,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Alice and Bob play: start with $1000$ unit $1\\times2$ rectangles. A move: choose two rectangles sharing a common side length, combine them along those sides. First player unable to move loses. Alice goes first. Describe Bob's winning strategy.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2009"
+  }
+]

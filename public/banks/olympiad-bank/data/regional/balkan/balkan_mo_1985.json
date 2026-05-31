@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_1985_P1",
+    "year": 1985,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In triangle $ABC$, $O$ is the circumcenter, $D$ the midpoint of $AB$, and $E$ the centroid of triangle $ACD$. Show that $CD \\perp OE$ if and only if $AB = AC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1985"
+  },
+  {
+    "id": "BALKAN_MO_1985_P2",
+    "year": 1985,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c, d \\in [-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ with $\\sin a + \\sin b + \\sin c + \\sin d = 1$ and $\\cos 2a + \\cos 2b + \\cos 2c + \\cos 2d \\geq \\frac{10}{3}$. Prove that $a, b, c, d \\in [0, \\frac{\\pi}{6}]$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1985"
+  },
+  {
+    "id": "BALKAN_MO_1985_P3",
+    "year": 1985,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $S$ be the set of all positive integers of the form $19a + 85b$ where $a, b$ are positive integers. On the real axis, color points of $S$ red and all other integers green. Does there exist a point $A$ on the real axis such that any two integers symmetric with respect to $A$ necessarily have distinct colors?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1985"
+  },
+  {
+    "id": "BALKAN_MO_1985_P4",
+    "year": 1985,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "There are $1985$ participants at an international meeting. In any group of three participants, at least two speak the same language. Each participant speaks at most five languages. Prove that at least $200$ participants speak the same language.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1985"
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "id": "INMO_1986_P1",
+    "year": 1986,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A person left home between 4 p.m. and 5 p.m. and returned between 5 p.m. and 6 p.m., finding that the hands of his watch had exactly exchanged places. When did he go out?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1986"
+  },
+  {
+    "id": "INMO_1986_P2",
+    "year": 1986,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Solve the system: $\\log_2 x + \\log_4 y + \\log_4 z = 2$, $\\log_3 y + \\log_9 z + \\log_9 x = 2$, $\\log_4 z + \\log_{16} x + \\log_{16} y = 2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1986"
+  },
+  {
+    "id": "INMO_1986_P3",
+    "year": 1986,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two circles with radii $a$ and $b$ touch each other externally. Let $c$ be the radius of a circle that touches these two circles and a common internal tangent to the two circles. Prove that $\\dfrac{1}{\\sqrt{c}} = \\dfrac{1}{\\sqrt{a}} + \\dfrac{1}{\\sqrt{b}}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1986"
+  },
+  {
+    "id": "INMO_1986_P4",
+    "year": 1986,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the least natural number whose last digit is 7 such that it becomes 5 times larger when this last digit is moved to the beginning.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1986"
+  },
+  {
+    "id": "INMO_1986_P5",
+    "year": 1986,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "If $P(x)$ is a polynomial with integer coefficients and $a, b, c$ are three distinct integers, show that it is impossible to have $P(a) = b$, $P(b) = c$, $P(c) = a$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1986"
+  },
+  {
+    "id": "INMO_1986_P6",
+    "year": 1986,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Construct a quadrilateral which is not a parallelogram, in which a pair of opposite angles and a pair of opposite sides are equal.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1986"
+  },
+  {
+    "id": "INMO_1986_P7",
+    "year": 1986,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P7",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "If $a, b, x, y$ are integers greater than 1 with $\\gcd(a,b)=1$ and $x^a = y^b$, show that $x = n^b$ and $y = n^a$ for some integer $n > 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1986"
+  },
+  {
+    "id": "INMO_1986_P8",
+    "year": 1986,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P8",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Suppose $A_1, \\ldots, A_6$ are six sets each with four elements and $B_1, \\ldots, B_n$ are $n$ sets each with two elements, with $S = A_1 \\cup \\cdots \\cup A_6 = B_1 \\cup \\cdots \\cup B_n$. Each element of $S$ belongs to exactly four of the $A_i$'s and exactly three of the $B_j$'s. Find $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1986"
+  },
+  {
+    "id": "INMO_1986_P9",
+    "year": 1986,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P9",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Show that among all quadrilaterals of a given perimeter, the square has the largest area.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1986"
+  }
+]

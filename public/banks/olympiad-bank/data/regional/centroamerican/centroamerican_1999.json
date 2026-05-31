@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CENTROAMERICAN_1999_P1",
+    "year": 1999,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "5 people each know a different piece of information. Each call: A tells B everything A knows, but B says nothing. (a) What is the minimum number of calls for everyone to know everything? (b) Generalize to $n$ people.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 1999"
+  },
+  {
+    "id": "CENTROAMERICAN_1999_P2",
+    "year": 1999,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find a 1000-digit positive integer with all nonzero digits such that its digits can be grouped into 500 pairs where the sum of the 500 products of each pair is a divisor of the number.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 1999"
+  },
+  {
+    "id": "CENTROAMERICAN_1999_P3",
+    "year": 1999,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Two players $A$ and $B$ alternate pressing digits on a calculator (with a '+' button), each choosing a digit in the same row or column as the last digit pressed (but not the same digit). The first player to reach or exceed 31 loses. Which player has a winning strategy?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 1999"
+  },
+  {
+    "id": "CENTROAMERICAN_1999_P4",
+    "year": 1999,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In trapezoid $ABCD$ with bases $AB$ and $CD$, $M$ is the midpoint of $DA$. If $BC=a$, $MC=b$, and $\\angle MCB=150^\\circ$, find the area of $ABCD$ as a function of $a$ and $b$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 1999"
+  },
+  {
+    "id": "CENTROAMERICAN_1999_P5",
+    "year": 1999,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a$ be an odd positive integer greater than 17 such that $3a-2$ is a perfect square. Show there exist distinct positive integers $b,c$ such that $a+b$, $a+c$, $b+c$, $a+b+c$ are all perfect squares.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 1999"
+  },
+  {
+    "id": "CENTROAMERICAN_1999_P6",
+    "year": 1999,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $S\\subseteq\\{1,\\ldots,1000\\}$ such that no sum of two different elements of $S$ belongs to $S$. Find the maximum size of $S$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 1999"
+  }
+]

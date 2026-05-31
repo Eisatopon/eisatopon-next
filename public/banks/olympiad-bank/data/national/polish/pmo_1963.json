@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1963_P1",
+    "year": 1963,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that two numbers consisting entirely of the digit 1 (repunits) are coprime if and only if their number of digits are coprime.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1963"
+  },
+  {
+    "id": "PMO_1963_P2",
+    "year": 1963,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In space, four distinct points $A,B,C,D$ are given. Prove the three segments connecting midpoints of $AB$ and $CD$; $AC$ and $BD$; $AD$ and $BC$ all share the same midpoint.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1963"
+  },
+  {
+    "id": "PMO_1963_P3",
+    "year": 1963,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "From a given triangle, cut out the rectangle with the largest area.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1963"
+  },
+  {
+    "id": "PMO_1963_P4",
+    "year": 1963,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that for every natural number $n$: $1+\\dfrac{1}{\\sqrt{2}}+\\cdots+\\dfrac{1}{\\sqrt{n}}>\\sqrt{n}-1$ (actually $>2(\\sqrt{n+1}-1)$... use the standard version: $>\\sqrt{n}$).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1963"
+  },
+  {
+    "id": "PMO_1963_P5",
+    "year": 1963,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that $P(x)=x^5-3x^4+6x^3-3x^2+9x-6$ cannot be factored as a product of two lower-degree polynomials with integer coefficients.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1963"
+  },
+  {
+    "id": "PMO_1963_P6",
+    "year": 1963,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Through the vertex of a trihedral angle (no edge perpendicular to the opposite face), draw in each face a line perpendicular to the opposite edge. Prove the three lines lie in one plane.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1963"
+  }
+]

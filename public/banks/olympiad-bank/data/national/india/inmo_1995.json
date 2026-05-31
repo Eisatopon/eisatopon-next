@@ -1,0 +1,128 @@
+[
+  {
+    "id": "INMO_1995_P1",
+    "year": 1995,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute $\\triangle ABC$ with $\\angle A = 30^\\circ$, $H$ is the orthocenter and $M$ is the midpoint of $BC$. On line $HM$, take $T$ with $HM = MT$. Show $AT = 2BC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1995"
+  },
+  {
+    "id": "INMO_1995_P2",
+    "year": 1995,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show there are infinitely many pairs $(a,b)$ of relatively prime integers (not necessarily positive) such that both $x^2 + ax + b = 0$ and $x^2 + 2ax + b = 0$ have integer roots.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1995"
+  },
+  {
+    "id": "INMO_1995_P3",
+    "year": 1995,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Show the number of 3-element subsets $\\{a,b,c\\}$ of $\\{1,2,\\ldots,63\\}$ with $a+b+c < 95$ is less than the number with $a+b+c \\geq 95$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1995"
+  },
+  {
+    "id": "INMO_1995_P4",
+    "year": 1995,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with incircle $\\Gamma$. Circle $\\Gamma_0$ lies outside $\\triangle ABC$, touches $\\Gamma$ externally, and touches sides $AB, AC$. Show $r_0 / r = \\tan^2\\!\\left(\\frac{\\pi - A}{4}\\right)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1995"
+  },
+  {
+    "id": "INMO_1995_P5",
+    "year": 1995,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $n \\geq 2$ and $a_1,\\ldots,a_n$ be reals all less than 1 with $|a_k - a_{k+1}| < 1$ for $1 \\leq k \\leq n-1$. Show $\\frac{a_1}{a_2} + \\frac{a_2}{a_3} + \\cdots + \\frac{a_n}{a_1} < 2n-1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1995"
+  },
+  {
+    "id": "INMO_1995_P6",
+    "year": 1995,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all primes $p$ for which $\\dfrac{2^{p-1}-1}{p}$ is a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1995"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2024_P1",
+    "year": 2024,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integers $n\\geq 3$ such that if $1=d_1<d_2<\\cdots<d_k=n!$ are divisors of $n!$, then $d_2-d_1\\leq d_3-d_2\\leq\\cdots\\leq d_k-d_{k-1}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2024"
+  },
+  {
+    "id": "USAMO_2024_P2",
+    "year": 2024,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Finite sets $S_1,\\ldots,S_{100}$ of integers with nonempty intersection. For each nonempty $T\\subseteq\\{S_1,\\ldots,S_{100}\\}$, $|\\bigcap T|$ is a multiple of $|T|$. Find the least possible number of elements in at least 50 sets.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2024"
+  },
+  {
+    "id": "USAMO_2024_P3",
+    "year": 2024,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A triangulation of a polygon is $m$-balanced if its triangles can be colored with $m$ colors so that all same-color triangles have equal total area. Find all $n$ for which a regular $n$-gon has an $m$-balanced triangulation.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2024"
+  },
+  {
+    "id": "USAMO_2024_P4",
+    "year": 2024,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A circular necklace has $mn$ beads, each red or blue. No matter how the necklace is cut into $m$ blocks of $n$ consecutive beads, each block has a distinct number of red beads. Find all $(m,n)$ for which this is possible.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2024"
+  },
+  {
+    "id": "USAMO_2024_P5",
+    "year": 2024,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$D$ inside acute $\\triangle ABC$ with $\\angle DAC=\\angle ACB$ and $\\angle BDC=90^\\circ+\\angle BAC$. $E$ on ray $BD$ with $AE=EC$; $M$ = midpoint of $BC$. Show line $AB$ is tangent to the circumcircle of $\\triangle BEM$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2024"
+  },
+  {
+    "id": "USAMO_2024_P6",
+    "year": 2024,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n>2$ be an integer, $\\ell\\in\\{1,\\ldots,n\\}$. A collection $A_1,\\ldots,A_k\\subseteq\\{1,\\ldots,n\\}$ is $\\ell$-large if $|A_i|\\geq\\ell$ for all $i$. Find the largest $c$ (in terms of $n,\\ell$) such that $\\sum_{i,j}x_ix_j\\frac{|A_i\\cap A_j|^2}{|A_i||A_j|}\\geq c\\left(\\sum_i x_i\\right)^2$ for all $k\\geq 1$, nonneg­ative $x_i$, and $\\ell$-large collections.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2024"
+  }
+]

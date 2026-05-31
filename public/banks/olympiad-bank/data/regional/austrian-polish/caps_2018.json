@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CAPS_2018_P1",
+    "year": 2018,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f:\\mathbb{R}\\to\\mathbb{R}$ with $f(x^2+xy)=f(x)f(y)+yf(x)+xf(x+y)$ for all $x,y\\in\\mathbb{R}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2018"
+  },
+  {
+    "id": "CAPS_2018_P2",
+    "year": 2018,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute scalene $\\triangle ABC$; $D\\in AB$, $E\\in AC$ with $BD=CE$. Let $O_1,O_2$ be circumcenters of $\\triangle ABE$ and $\\triangle ACD$. Prove the circumcircles of $\\triangle ABC$, $\\triangle ADE$, $\\triangle AO_1O_2$ share a common point $\\neq A$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2018"
+  },
+  {
+    "id": "CAPS_2018_P3",
+    "year": 2018,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "2018 players sit around a table; $K$ cards dealt. A turn: choose a player whose both neighbors hold $\\geq 1$ card; that player takes one card from each neighbor. The game ends when no such player exists. Find the largest $K$ guaranteeing the game always terminates.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2018"
+  },
+  {
+    "id": "CAPS_2018_P4",
+    "year": 2018,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with perimeter $2s$; three pairwise disjoint circles centered at $A,B,C$ with pairwise disjoint interiors. Prove there exists a circle of radius $s$ containing all three circles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2018"
+  },
+  {
+    "id": "CAPS_2018_P5",
+    "year": 2018,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A $2\\times 3$ rectangle contains a polyline of length 36 (self-intersections allowed). Show there exists a line parallel to two sides of the rectangle, meeting the other two sides in their interiors, and intersecting the polyline in $<10$ points.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2018"
+  },
+  {
+    "id": "CAPS_2018_P6",
+    "year": 2018,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Call $n>0$ fantastic if $n=a+\\frac{1}{a}+b+\\frac{1}{b}$ for positive rationals $a,b$. (a) Prove infinitely many primes $p$ have no fantastic multiple. (b) Prove infinitely many primes $p$ have a fantastic multiple.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2018"
+  }
+]

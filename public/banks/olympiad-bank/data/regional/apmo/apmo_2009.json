@@ -1,0 +1,107 @@
+[
+  {
+    "id": "APMO_2009_P1",
+    "year": 2009,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Start with a positive real $r$ on a blackboard. Operation: replace $r$ with two positive reals $a, b$ satisfying $2r^2 = ab$. After $k^2 - 1$ such operations, $k^2$ numbers remain. Show some number does not exceed $k/r$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2009"
+  },
+  {
+    "id": "APMO_2009_P2",
+    "year": 2009,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a_1, \\ldots, a_5$ satisfy $\\displaystyle\\sum_{i=1}^5 \\frac{a_i}{k^2+i} = \\frac{1}{k^2}$ for $k = 1, 2, 3, 4, 5$. Find $\\displaystyle\\sum_{i=1}^5 \\frac{a_i}{37+i}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2009"
+  },
+  {
+    "id": "APMO_2009_P3",
+    "year": 2009,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Three mutually external circles $\\Gamma_1, \\Gamma_2, \\Gamma_3$ are given. For each exterior point $P$, construct tangent points $A_i, B_i$ on each $\\Gamma_i$. Call $P$ \\textit{exceptional} if $A_1B_1$, $A_2B_2$, $A_3B_3$ are concurrent. Prove all exceptional points lie on one circle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2009"
+  },
+  {
+    "id": "APMO_2009_P4",
+    "year": 2009,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that for any positive integer $k$, there exists an arithmetic sequence $\\dfrac{a_1}{b_1}, \\dfrac{a_2}{b_2}, \\ldots, \\dfrac{a_k}{b_k}$ of rationals where all $a_i, b_i$ are distinct positive integers with $\\gcd(a_i, b_i) = 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2009"
+  },
+  {
+    "id": "APMO_2009_P5",
+    "year": 2009,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Larry makes 90° left turns every $\\ell$ km and Rob makes 90° right turns every $r$ km, where $\\gcd(\\ell, r) = 1$. Simultaneous turns cancel. For which $(\\ell, r)$ is the car guaranteed to reach any target?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2009"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "USAMO_1990_P1",
+    "year": 1990,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A state uses 6-digit license plates where any two plates differ in at least two places. Determine the maximum number of distinct plates.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1990"
+  },
+  {
+    "id": "USAMO_1990_P2",
+    "year": 1990,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "$f_1(x)=\\sqrt{x^2+48}$, $f_{n+1}(x)=\\sqrt{x^2+6f_n(x)}$. For each positive integer $n$, find all real solutions of $f_n(x)=2x$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1990"
+  },
+  {
+    "id": "USAMO_1990_P3",
+    "year": 1990,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Necklace $A$ has 14 beads, necklace $B$ has 19. Prove that for any odd $n\\geq 1$, the 33 beads can be numbered with integers from $\\{n,n+1,\\ldots,n+32\\}$ (each used once) so that adjacent beads are relatively prime.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1990"
+  },
+  {
+    "id": "USAMO_1990_P4",
+    "year": 1990,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the number of positive integers whose base-$n$ representation uses distinct digits such that every digit (except the leftmost) differs by $\\pm 1$ from some digit to its left.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1990"
+  },
+  {
+    "id": "USAMO_1990_P5",
+    "year": 1990,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$: circle with diameter $AB$ meets altitude $CC'$ at $M,N$; circle with diameter $AC$ meets altitude $BB'$ at $P,Q$. Prove $M,N,P,Q$ lie on a circle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1990"
+  }
+]

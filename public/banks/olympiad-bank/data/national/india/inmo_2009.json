@@ -1,0 +1,128 @@
+[
+  {
+    "id": "INMO_2009_P1",
+    "year": 2009,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, $P$ is an interior point with $\\angle BPC = 90^\\circ$, $\\angle BAP = \\angle BCP$, $M, N$ = midpoints of $AC, BC$. If $BP = 2PM$, prove $A, P, N$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2009"
+  },
+  {
+    "id": "INMO_2009_P2",
+    "year": 2009,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Define $a_n = 0$ if the number of positive divisors of $n$ is odd, and $a_n = 1$ if it is even. Let $x = 0.a_1a_2a_3\\ldots$ in decimal. Is $x$ rational or irrational?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2009"
+  },
+  {
+    "id": "INMO_2009_P3",
+    "year": 2009,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all real $x$ with $\\lfloor x^2 + 2x \\rfloor = \\lfloor x \\rfloor^2 + 2\\lfloor x \\rfloor$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2009"
+  },
+  {
+    "id": "INMO_2009_P4",
+    "year": 2009,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "All points in the plane are colored with 3 colors. Prove there exists a monochromatic triangle that is either isosceles or has angles in geometric progression.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2009"
+  },
+  {
+    "id": "INMO_2009_P5",
+    "year": 2009,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\triangle ABC$ be acute with orthocenter $H$ and $h_{\\max}$ the largest altitude. Prove $AH + BH + CH \\leq 2h_{\\max}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2009"
+  },
+  {
+    "id": "INMO_2009_P6",
+    "year": 2009,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c > 0$ with $a^3 + b^3 = c^3$. Prove $a^2 + b^2 - c^2 > 6(c-a)(c-b)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2009"
+  }
+]

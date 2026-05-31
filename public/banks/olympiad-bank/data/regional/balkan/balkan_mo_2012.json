@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_2012_P1",
+    "year": 2012,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $A, B, C \\in \\Gamma$ (center $O$) with $\\angle ABC > 90^\\circ$. Let $D = AB \\cap (\\text{perp. to }AC\\text{ at }C)$. Let $\\ell$ be the line through $D$ perpendicular to $AO$. Let $E = \\ell \\cap AC$ and $F \\in \\Gamma \\cap \\ell$ between $D$ and $E$. Prove the circumcircles of $\\triangle BFE$ and $\\triangle CFD$ are tangent at $F$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2012"
+  },
+  {
+    "id": "BALKAN_MO_2012_P2",
+    "year": 2012,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that $\\displaystyle\\sum_{\\text{cyc}} (x+y)\\sqrt{(z+x)(z+y)} \\geq 4(xy+yz+zx)$ for all $x, y, z > 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2012"
+  },
+  {
+    "id": "BALKAN_MO_2012_P3",
+    "year": 2012,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $P_n = \\{2^n, 2^{n-1} \\cdot 3, \\ldots, 3^n\\}$. For $0 \\leq y \\leq 3^{n+1} - 2^{n+1}$, prove there exists $Y \\subseteq P_n$ with $0 \\leq y - S_Y < 2^n$, where $S_Y$ is the sum of elements of $Y$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2012"
+  },
+  {
+    "id": "BALKAN_MO_2012_P4",
+    "year": 2012,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f : \\mathbb{Z}^+ \\to \\mathbb{Z}^+$ satisfying: (i) $f(n!) = f(n)!$ for all $n$; (ii) $m - n \\mid f(m) - f(n)$ for all distinct $m, n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2012"
+  }
+]

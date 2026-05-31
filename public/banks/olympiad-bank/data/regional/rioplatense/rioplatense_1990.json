@@ -1,0 +1,65 @@
+[
+  {
+    "id": "RIOPLATENSE_1990_P1",
+    "year": 1990,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "How many positive integer solutions does the equation $\\left\\lfloor\\dfrac{x}{10}\\right\\rfloor = \\left\\lfloor\\dfrac{x}{11}\\right\\rfloor + 1$ have?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 1990"
+  },
+  {
+    "id": "RIOPLATENSE_1990_P2",
+    "year": 1990,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Some people at a meeting greet each other. Let $n$ be the number of people who greet an odd number of people. Prove that $n$ is even.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 1990"
+  },
+  {
+    "id": "RIOPLATENSE_1990_P3",
+    "year": 1990,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a trapezoid with bases $AB$ and $CD$ with $AB = 2CD$. From $A$ draw line $r$ perpendicular to $BC$, and from $B$ draw line $t$ perpendicular to $AD$; let $P = r \\cap t$. From $C$ draw line $s$ perpendicular to $BC$ and from $D$ draw $u$ perpendicular to $AD$; let $Q = s \\cap u$. Let $R$ be the intersection of the diagonals. Prove $P$, $Q$, $R$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 1990"
+  }
+]

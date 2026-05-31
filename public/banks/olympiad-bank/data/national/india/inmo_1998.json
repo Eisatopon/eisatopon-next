@@ -1,0 +1,128 @@
+[
+  {
+    "id": "INMO_1998_P1",
+    "year": 1998,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In circle $C_1$ with center $O$, let $AB$ be a chord with midpoint $M$. Take $T$ on circle $C_2$ with diameter $OM$. Let the tangent to $C_2$ at $T$ meet $C_1$ at $P$. Show $PA^2 + PB^2 = 4PT^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1998"
+  },
+  {
+    "id": "INMO_1998_P2",
+    "year": 1998,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a, b > 0$ be rational with $\\sqrt[3]{a} + \\sqrt[3]{b}$ rational. Prove $\\sqrt[3]{a}$ and $\\sqrt[3]{b}$ are themselves rational.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1998"
+  },
+  {
+    "id": "INMO_1998_P3",
+    "year": 1998,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p, q, r, s$ be integers with $5 \\nmid s$. If there is an integer $a$ with $pa^3 + qa^2 + ra + s \\equiv 0 \\pmod{5}$, prove there is an integer $b$ with $sb^3 + rb^2 + qb + p \\equiv 0 \\pmod{5}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1998"
+  },
+  {
+    "id": "INMO_1998_P4",
+    "year": 1998,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Cyclic quadrilateral $ABCD$ inscribed in a circle of radius 1 with $AB \\cdot BC \\cdot CD \\cdot DA \\geq 4$. Prove $ABCD$ is a square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1998"
+  },
+  {
+    "id": "INMO_1998_P5",
+    "year": 1998,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c \\in \\mathbb{R}$ such that $x^2 - (a+b+c)x + (ab+bc+ca) = 0$ has roots $\\alpha + i\\beta$ with $\\alpha > 0$, $\\beta \\neq 0$. Show: (i) $a, b, c > 0$; (ii) $\\sqrt{a}, \\sqrt{b}, \\sqrt{c}$ form a triangle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1998"
+  },
+  {
+    "id": "INMO_1998_P6",
+    "year": 1998,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Choose $n$ integers from $\\{0,0,1,1,2,2,\\ldots,n-1,n-1\\}$ so the average is an integer and as small as possible. Show this is possible for each $n$ and find this minimum.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1998"
+  }
+]

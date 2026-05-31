@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CONO_SUR_1998_P1",
+    "year": 1998,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Arrange cards labeled 1 to 98 such that any two consecutive numbers $X, Y$ satisfy $|X - Y| > 48$. Determine how many such sequences exist.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1998"
+  },
+  {
+    "id": "CONO_SUR_1998_P2",
+    "year": 1998,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $H$ be the orthocenter of $\\triangle ABC$ and $M$ the midpoint of $BC$. Let $X$ be the intersection of line $HM$ with the circumcircle on arc $BC$ not containing $A$; $Y$ the intersection of line $BH$ with the circumcircle. Prove $XY = BC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1998"
+  },
+  {
+    "id": "CONO_SUR_1998_P3",
+    "year": 1998,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that for at least 30\\% of natural numbers $n$ between 1 and $10^6$, the first digit of $2^n$ is 1.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1998"
+  },
+  {
+    "id": "CONO_SUR_1998_P4",
+    "year": 1998,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f : \\mathbb{R} \\to \\mathbb{R}$ satisfying $f(x^2) - f(y^2) + 2x + 1 = f(x+y)f(x-y)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1998"
+  },
+  {
+    "id": "CONO_SUR_1998_P5",
+    "year": 1998,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n$ houses have one-way routes forming a permutation (exactly one route starts and ends at each house). Every day each goblin moves to the next house. (a) Prove all goblins eventually return to their original house. (b) For $n = 98$, show routes can be arranged so this takes at least 300,000 days.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1998"
+  },
+  {
+    "id": "CONO_SUR_1998_P6",
+    "year": 1998,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A city transport system: each line passes exactly 3 stops; any two lines share exactly 1 stop; any two stops are on exactly one common line. Find the number of bus stops.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 1998"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "CMO_1997_P1",
+    "year": 1997,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Determine the number of pairs of positive integers $(x, y)$ such that $x \\leq y$, $\\gcd(x, y) = 5!$, and $\\text{lcm}(x, y) = 50!$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1997"
+  },
+  {
+    "id": "CMO_1997_P2",
+    "year": 1997,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "The closed interval $A = [0, 50]$ is the union of a finite number of closed intervals, each of length $1$. Prove that some of the intervals can be removed so that those remaining are mutually disjoint and have total length greater than $25$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1997"
+  },
+  {
+    "id": "CMO_1997_P3",
+    "year": 1997,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "statement": "Prove that\n$$\\frac{1}{1999} < \\prod_{i=1}^{999} \\frac{2i-1}{2i} < \\frac{1}{44}.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1997"
+  },
+  {
+    "id": "CMO_1997_P4",
+    "year": 1997,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "The point $O$ is situated inside the parallelogram $ABCD$ such that $\\angle AOB + \\angle COD = 180^\\circ$. Prove that $\\angle OBC = \\angle ODC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1997"
+  },
+  {
+    "id": "CMO_1997_P5",
+    "year": 1997,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "Write the sum\n$$\\sum_{i=0}^{n} \\frac{(-1)^i \\dbinom{n}{i}}{i^3 + 9i^2 + 26i + 24}$$\nas the ratio of two explicitly defined polynomials in $n$ with integer coefficients.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1997"
+  }
+]

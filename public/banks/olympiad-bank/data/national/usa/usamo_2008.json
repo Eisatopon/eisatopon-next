@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2008_P1",
+    "year": 2008,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that for each positive integer $n$, there are pairwise relatively prime integers $k_0,k_1,\\ldots,k_n>1$ such that $k_0k_1\\cdots k_n-1$ is the product of two consecutive integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2008"
+  },
+  {
+    "id": "USAMO_2008_P2",
+    "year": 2008,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute scalene $\\triangle ABC$; $M,N,P$ = midpoints of $BC,CA,AB$. Perpendicular bisectors of $AB,AC$ meet ray $AM$ at $D,E$; lines $BD,CE$ meet at $F$ inside $\\triangle ABC$. Prove $A,N,F,P$ lie on one circle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2008"
+  },
+  {
+    "id": "USAMO_2008_P3",
+    "year": 2008,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $S_n=\\{(x,y)\\in\\mathbb{Z}^2:|x|+|y+\\frac{1}{2}|<n\\}$. A path is a sequence of distinct adjacent lattice points in $S_n$. Prove $S_n$ cannot be partitioned into fewer than $n$ paths.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2008"
+  },
+  {
+    "id": "USAMO_2008_P4",
+    "year": 2008,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A regular $n$-gon ($n\\geq 3$) has a triangulation into $n-2$ triangles using $n-3$ non-crossing diagonals. If all triangles are isosceles, find all possible $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2008"
+  },
+  {
+    "id": "USAMO_2008_P5",
+    "year": 2008,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Three nonneg­ative reals $r_1,r_2,r_3$ with $a_1r_1+a_2r_2+a_3r_3=0$ for some not-all-zero integers $a_i$. Permitted: choose $x\\leq y$ on board, erase $y$, write $y-x$. Prove after finitely many such operations, at least one 0 appears.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2008"
+  },
+  {
+    "id": "USAMO_2008_P6",
+    "year": 2008,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "At a conference, every pair of mathematicians are friends or strangers. Each eats in one of two rooms, wanting a room with an even number of friends. Prove the number of valid room-splits is a power of 2.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2008"
+  }
+]

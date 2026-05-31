@@ -1,0 +1,128 @@
+[
+  {
+    "id": "EGMO_2019_D1_P1",
+    "year": 2019,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all triples $(a, b, c)$ of real numbers with $ab + bc + ca = 1$ and $a^2b + c = b^2c + a = c^2a + b$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2019"
+  },
+  {
+    "id": "EGMO_2019_D1_P2",
+    "year": 2019,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Dominoes are placed on a $2n \\times 2n$ board so every cell is adjacent to exactly one cell covered by a domino. For each $n$, find the largest number of dominoes that can be placed.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2019"
+  },
+  {
+    "id": "EGMO_2019_D1_P3",
+    "year": 2019,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with $\\angle CAB > \\angle ABC$ and incenter $I$, let $D \\in BC$ with $\\angle CAD = \\angle ABC$. Let $\\omega$ be the circle tangent to $AC$ at $A$ and passing through $I$; $X$ the second intersection of $\\omega$ with the circumcircle of $\\triangle ABC$. Prove the angle bisectors of $\\angle DAB$ and $\\angle CXB$ meet on $BC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2019"
+  },
+  {
+    "id": "EGMO_2019_D2_P4",
+    "year": 2019,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with incenter $I$, the circle through $B$ tangent to $AI$ at $I$ meets $AB$ again at $P$; the circle through $C$ tangent to $AI$ at $I$ meets $AC$ again at $Q$. Prove $PQ$ is tangent to the incircle of $\\triangle ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2019"
+  },
+  {
+    "id": "EGMO_2019_D2_P5",
+    "year": 2019,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n \\geq 2$ and $a_1, \\ldots, a_n$ be positive integers. Show there exist positive integers $b_1, \\ldots, b_n$ with: (A) $a_i \\leq b_i$; (B) $b_1, \\ldots, b_n$ have pairwise distinct remainders mod $n$; (C) $\\displaystyle\\sum b_i \\leq \\tfrac{n-1}{2} + n\\left\\lfloor\\frac{\\sum a_i}{n}\\right\\rfloor + n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2019"
+  },
+  {
+    "id": "EGMO_2019_D2_P6",
+    "year": 2019,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Alina draws 2019 chords on a circle with distinct endpoints. A point is \\textit{marked} if it is an endpoint or an intersection of $\\geq 2$ chords. She labels 2019 endpoints with 0 and 2019 with 1; intersections get arbitrary integers. Each segment between consecutive marked points on a chord gets a yellow label (sum of endpoint labels) and a blue label (absolute difference). The $N+1$ yellow labels are $0, 1, \\ldots, N$ each exactly once. Prove at least one blue label is divisible by 3.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2019"
+  }
+]

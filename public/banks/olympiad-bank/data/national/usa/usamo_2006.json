@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2006_P1",
+    "year": 2006,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p$ be prime, $0<s<p$. Prove there exist $m,n$ with $0<m<n<p$ and $\\{sm/p\\}<\\{sn/p\\}<s/p$ iff $s\\nmid p-1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2006"
+  },
+  {
+    "id": "USAMO_2006_P2",
+    "year": 2006,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For fixed $k$, find the minimum $N$ such that some set of $2k+1$ distinct positive integers has sum $>N$ but every $k$-element subset has sum $\\leq N/2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2006"
+  },
+  {
+    "id": "USAMO_2006_P3",
+    "year": 2006,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all polynomials $f$ with integer coefficients such that $\\{p(f(n^2-2n))\\}_{n\\geq 0}$ (where $p(m)$ is the greatest prime divisor) is bounded above.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2006"
+  },
+  {
+    "id": "USAMO_2006_P4",
+    "year": 2006,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $n$ for which there exist $k\\geq 2$ positive rationals $a_1,\\ldots,a_k$ with $a_1+\\cdots+a_k=a_1\\cdots a_k=n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2006"
+  },
+  {
+    "id": "USAMO_2006_P5",
+    "year": 2006,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A frog starts at 1 on the number line. From $n$ it can jump to $n+1$ or $n+2^{m_n+1}$ where $2^{m_n}\\| n$. Show the minimum jumps to reach $2^ik$ exceeds minimum jumps to $2^i$, for $k\\geq 2$, $i\\geq 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2006"
+  },
+  {
+    "id": "USAMO_2006_P6",
+    "year": 2006,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a quadrilateral with $E\\in AD$, $F\\in BC$, $AE/ED=BF/FC$. Ray $FE$ meets rays $BA,CD$ at $S,T$. Prove circumcircles of $\\triangle SAE$, $\\triangle SBF$, $\\triangle TCF$, $\\triangle TDE$ share a common point.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2006"
+  }
+]

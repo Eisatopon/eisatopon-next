@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CENTROAMERICAN_2008_P1",
+    "year": 2008,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the least positive integer $N$ such that the digit sum of $N$ is 100 and the digit sum of $2N$ is 110.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2008"
+  },
+  {
+    "id": "CENTROAMERICAN_2008_P2",
+    "year": 2008,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Convex cyclic quadrilateral $ABCD$ with $AC$ a diameter, center $O$. Parallelograms $DAOE$ and $BCOF$ are constructed. Show that if $E,F$ lie on the circumcircle, then $ABCD$ is a rectangle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2008"
+  },
+  {
+    "id": "CENTROAMERICAN_2008_P3",
+    "year": 2008,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "2008 bags numbered $1,\\ldots,2008$, each with 2008 frogs. A move: choose a bag, remove some frogs (leaving $x\\geq 0$); from each higher-numbered bag with more than $x$ frogs, frogs escape until $x$ remain. Player removing the last frog from bag 1 loses. Find a winning strategy.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2008"
+  },
+  {
+    "id": "CENTROAMERICAN_2008_P4",
+    "year": 2008,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Five girls share a store (Mon–Fri). Each works exactly 2 days per week; the 5 weekly pairs are all different. How many ways can the work schedule be arranged?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2008"
+  },
+  {
+    "id": "CENTROAMERICAN_2008_P5",
+    "year": 2008,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find a real-coefficient polynomial $p(x)$ satisfying $(x+10)p(2x)=(8x-32)p(x+6)$ for all real $x$ and $p(1)=210$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2008"
+  },
+  {
+    "id": "CENTROAMERICAN_2008_P6",
+    "year": 2008,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with $P\\in AB$, $Q\\in AC$ so $BPQC$ is cyclic. Circumcircle of $\\triangle ABQ$ meets $BC$ at $S$; circumcircle of $\\triangle APC$ meets $BC$ at $R$. $PR\\cap QS=L$. Prove $AL\\cap BC$ is independent of the choice of $P,Q$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2008"
+  }
+]

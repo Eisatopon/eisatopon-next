@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CENTROAMERICAN_2000_P1",
+    "year": 2000,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all three-digit numbers $\\overline{abc}$ (with $a\\neq 0$) such that $a^2+b^2+c^2$ is a divisor of 26.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2000"
+  },
+  {
+    "id": "CENTROAMERICAN_2000_P2",
+    "year": 2000,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Determine all positive integers $n$ such that a $15\\times n$ board can be tiled with L-shaped trominoes.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2000"
+  },
+  {
+    "id": "CENTROAMERICAN_2000_P3",
+    "year": 2000,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCDE$ be a convex pentagon. If $P,Q,R,S$ are the centroids of triangles $ABE$, $BCE$, $CDE$, $DAE$ respectively, show $PQRS$ is a parallelogram with area $\\frac{2}{9}$ of $ABCDE$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2000"
+  },
+  {
+    "id": "CENTROAMERICAN_2000_P4",
+    "year": 2000,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Write an integer on each of the 16 small triangles of a subdivided triangle so that every number with at least two neighbors equals the difference of two of its neighbors.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2000"
+  },
+  {
+    "id": "CENTROAMERICAN_2000_P5",
+    "year": 2000,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$; circles $C_1,C_2$ with diameters $AB,AC$. $C_2$ meets $AB$ again at $F$; $C_1$ meets $AC$ again at $E$. $BE$ meets $C_2$ at $P$; $CF$ meets $C_1$ at $Q$. Prove $AP=AQ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2000"
+  },
+  {
+    "id": "CENTROAMERICAN_2000_P6",
+    "year": 2000,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A \\textit{nice representation} of $n$ is a sum of powers of 2 with at most two equal summands. (a) Write all 5 nice representations of 10. (b) Find all positive integers with an even number of nice representations.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2000"
+  }
+]

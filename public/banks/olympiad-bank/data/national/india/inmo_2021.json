@@ -1,0 +1,128 @@
+[
+  {
+    "id": "INMO_2021_P1",
+    "year": 2021,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $r \\geq 2$ and let $m_1,n_1,\\ldots,m_r,n_r$ be $2r$ integers with $|m_in_j - m_jn_i| = 1$ for all $1 \\leq i < j \\leq r$. Find the maximum possible value of $r$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2021"
+  },
+  {
+    "id": "INMO_2021_P2",
+    "year": 2021,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all pairs of integers $(a,b)$ such that each of $x^3 + ax + b$ and $x^3 + bx + a$ has all roots integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2021"
+  },
+  {
+    "id": "INMO_2021_P3",
+    "year": 2021,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Betal marks 2021 points in the plane (no three collinear) and draws all $\\binom{2021}{2}$ segments. He marks midpoints of 1011 of these segments. Vikram must construct, using only a straightedge, the midpoint of a chosen segment whose midpoint is not yet marked. Can Vikram always do this?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2021"
+  },
+  {
+    "id": "INMO_2021_P4",
+    "year": 2021,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A Magician and Detective play: 52 cards face-down; Detective asks if two pointed cards are consecutive. After finitely many questions, Detective wins by pointing to two consecutive cards. Prove Detective can guarantee a win iff allowed at least 50 questions.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2021"
+  },
+  {
+    "id": "INMO_2021_P5",
+    "year": 2021,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Convex quadrilateral $ABCD$ with $\\angle ABD = 30^\\circ$, $\\angle BCA = 75^\\circ$, $\\angle ACD = 25^\\circ$, $CD = CB$. Line $CB$ extended meets circumcircle of $\\triangle DAC$ at $E$. Prove $CE = BD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2021"
+  },
+  {
+    "id": "INMO_2021_P6",
+    "year": 2021,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f : \\mathbb{R}[x] \\to \\mathbb{R}[x]$ such that: $f$ maps the zero polynomial to itself; for nonzero $P$, $\\deg f(P) \\leq 1 + \\deg P$; and for any $P, Q$, the polynomials $P - f(Q)$ and $Q - f(P)$ have the same real roots.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2021"
+  }
+]

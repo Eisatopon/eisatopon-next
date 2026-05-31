@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_2011_P1",
+    "year": 2011,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a cyclic non-trapezoid quadrilateral with diagonals meeting at $E$. Let $F, G$ be midpoints of $AB, CD$, and $\\ell$ the line through $G$ parallel to $AB$. Let $H, K$ be feet of perpendiculars from $E$ to $\\ell$ and $CD$. Prove $EF \\perp HK$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2011"
+  },
+  {
+    "id": "BALKAN_MO_2011_P2",
+    "year": 2011,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Given $x + y + z = 0$, show that $\\dfrac{x(x+2)}{2x^2+1} + \\dfrac{y(y+2)}{2y^2+1} + \\dfrac{z(z+2)}{2z^2+1} \\geq 0$. When does equality hold?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2011"
+  },
+  {
+    "id": "BALKAN_MO_2011_P3",
+    "year": 2011,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $S$ be a finite set of positive integers closed under taking divisors. Call $T \\subseteq S$ \\textit{good} if for any $x < y$ in $T$, $y/x$ is a prime power; call $T$ \\textit{bad} if for any $x < y$ in $T$, $y/x$ is not a prime power. Let $k$ be the largest size of a good subset. Prove $k$ is also the minimum number of pairwise disjoint bad subsets covering $S$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2011"
+  },
+  {
+    "id": "BALKAN_MO_2011_P4",
+    "year": 2011,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCDEF$ be a convex hexagon of area $1$ with opposite sides parallel. Lines $AB, CD, EF$ meet pairwise forming one triangle; lines $BC, DE, FA$ meet pairwise forming another. Show the area of at least one of these triangles is at least $\\frac{3}{2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2011"
+  }
+]

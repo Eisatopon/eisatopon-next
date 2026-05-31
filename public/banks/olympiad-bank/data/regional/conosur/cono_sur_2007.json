@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CONO_SUR_2007_P1",
+    "year": 2007,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all pairs $(x, y)$ of nonneg­ative integers satisfying $x^3y + x + y = xy + 2xy^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2007"
+  },
+  {
+    "id": "CONO_SUR_2007_P2",
+    "year": 2007,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "100 positive integers sum to their product. Find the minimum number of 1s among them.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2007"
+  },
+  {
+    "id": "CONO_SUR_2007_P3",
+    "year": 2007,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute $\\triangle ABC$ with altitudes $AD$, $BE$, $CF$ and midpoint $M$ of $BC$, the circumcircle of $\\triangle AEF$ meets line $AM$ at $X \\neq A$; line $AM$ meets $CF$ at $Y$; $Z = AD \\cap BX$. Show $YZ \\parallel BC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2007"
+  },
+  {
+    "id": "CONO_SUR_2007_P4",
+    "year": 2007,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A $2007 \\times 2007$ table is \\textit{charrua} if no row and no column is completely colored. (a) Find the maximum number $k$ of colored cells. (b) For that $k$, count the number of distinct charrua tables.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2007"
+  },
+  {
+    "id": "CONO_SUR_2007_P5",
+    "year": 2007,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A convex pentagon $ABCDE$ has an inscribed circle and all positive integer side lengths with at least one side of length 1 and $AB = 2$. Let $P$ be the tangency point on $AB$. (a) Find $AP$ and $BP$. (b) Give an example of such a pentagon.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2007"
+  },
+  {
+    "id": "CONO_SUR_2007_P6",
+    "year": 2007,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show that for each positive integer $n$, there exists a positive integer $k$ such that each of $k, 2k, \\ldots, nk$ contains all digits 0–9 in its decimal representation.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2007"
+  }
+]

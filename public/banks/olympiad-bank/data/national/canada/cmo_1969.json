@@ -1,0 +1,215 @@
+[
+  {
+    "id": "CMO_1969_P1",
+    "year": 1969,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "If $\\dfrac{a_1}{b_1} = \\dfrac{a_2}{b_2} = \\dfrac{a_3}{b_3}$ and $p_1, p_2, p_3$ are not all zero, show that for all $n \\in \\mathbb{N}$,\n$$\\left(\\frac{a_1}{b_1}\\right)^n = \\frac{p_1 a_1^n + p_2 a_2^n + p_3 a_3^n}{p_1 b_1^n + p_2 b_2^n + p_3 b_3^n}.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1969"
+  },
+  {
+    "id": "CMO_1969_P2",
+    "year": 1969,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Determine which of the two numbers $\\sqrt{c+1} - \\sqrt{c}$, $\\sqrt{c} - \\sqrt{c-1}$ is greater for any $c \\geq 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1969"
+  },
+  {
+    "id": "CMO_1969_P3",
+    "year": 1969,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Let $c$ be the length of the hypotenuse of a right triangle whose two other sides have lengths $a$ and $b$. Prove that $a + b \\leq c\\sqrt{2}$. When does equality hold?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1969"
+  },
+  {
+    "id": "CMO_1969_P4",
+    "year": 1969,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be an equilateral triangle, and $P$ be an arbitrary point within the triangle. Perpendiculars $PD$, $PE$, $PF$ are drawn to the three sides of the triangle. Show that, no matter where $P$ is chosen,\n$$\\frac{PD + PE + PF}{AB + BC + CA} = \\frac{1}{2\\sqrt{3}}.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1969"
+  },
+  {
+    "id": "CMO_1969_P5",
+    "year": 1969,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle with sides of length $a$, $b$, and $c$. Let the bisector of angle $C$ cut $AB$ in $D$. Prove that the length of $CD$ is\n$$\\frac{2ab\\cos\\dfrac{C}{2}}{a+b}.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1969"
+  },
+  {
+    "id": "CMO_1969_P6",
+    "year": 1969,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "Find the sum $1\\cdot1! + 2\\cdot2! + 3\\cdot3! + \\cdots + (n-1)(n-1)! + n\\cdot n!$, where $n! = n(n-1)(n-2)\\cdots 2\\cdot 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1969"
+  },
+  {
+    "id": "CMO_1969_P7",
+    "year": 1969,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P7",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show that there are no integers $a, b, c$ for which $a^2 + b^2 - 8c = 6$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1969"
+  },
+  {
+    "id": "CMO_1969_P8",
+    "year": 1969,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Let $f$ be a function with the following properties:\n\n\n• $f(n)$ is defined for every positive integer $n$;\n\n• $f(n)$ is an integer;\n\n• $f(2) = 2$;\n\n• $f(mn) = f(m)f(n)$ for all $m$ and $n$;\n\n• $f(m) > f(n)$ whenever $m > n$.\n\nProve that $f(n) = n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1969"
+  },
+  {
+    "id": "CMO_1969_P9",
+    "year": 1969,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P9",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Show that for any quadrilateral inscribed in a circle of radius $1$, the length of the shortest side is less than or equal to $\\sqrt{2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1969"
+  },
+  {
+    "id": "CMO_1969_P10",
+    "year": 1969,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P10",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be the right-angled isosceles triangle whose equal sides have length $1$. $P$ is a point on the hypotenuse, and the feet of the perpendiculars from $P$ to the other sides are $Q$ and $R$. Consider the areas of the triangles $APQ$ and $PBR$, and the area of the rectangle $QCRP$. Prove that regardless of how $P$ is chosen, the largest of these three areas is at least $2/9$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1969"
+  }
+]

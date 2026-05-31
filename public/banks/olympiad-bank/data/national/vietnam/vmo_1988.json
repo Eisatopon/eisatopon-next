@@ -1,0 +1,130 @@
+[
+  {
+    "id": "VMO_1988_D1_P1",
+    "year": 1988,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "There are 1988 birds in 994 cages, two in each cage. Every day we rearrange the birds so that no cage contains the same pair as on any previous day. What is the greatest possible number of days we can keep doing this?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1988 Day 1"
+  },
+  {
+    "id": "VMO_1988_D1_P2",
+    "year": 1988,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $P(x) = a_n x^n + \\cdots + a_1 x + a_0$ be a real polynomial of degree $n > 2$ with $a_n = 1$, $a_{n-1} = -n$, $a_{n-2} = \\dfrac{n^2-n}{2}$, such that all roots of $P$ are real. Determine all the coefficients $a_i$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1988 Day 1"
+  },
+  {
+    "id": "VMO_1988_D1_P3",
+    "year": 1988,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics",
+      "Geometry"
+    ],
+    "statement": "The plane is partitioned into congruent equilateral triangles such that any two non-disjoint triangles share either a vertex or a side. Is there a circle containing exactly 1988 lattice points (triangle vertices) in its interior?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1988 Day 1"
+  },
+  {
+    "id": "VMO_1988_D2_P1",
+    "year": 1988,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A bounded sequence $(x_n)_{n \\geq 1}$ of real numbers satisfies $x_n + x_{n+1} \\geq 2x_{n+2}$ for all $n \\geq 1$. Prove that this sequence has a finite limit.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1988 Day 2"
+  },
+  {
+    "id": "VMO_1988_D2_P2",
+    "year": 1988,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra",
+      "Geometry"
+    ],
+    "statement": "Suppose $ABC$ is an acute triangle such that $\\tan A, \\tan B, \\tan C$ are the three roots of $x^3 + px^2 + qx + p = 0$ where $q \\neq 1$. Show that $p \\leq -3\\sqrt{3}$ and $q > 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1988 Day 2"
+  },
+  {
+    "id": "VMO_1988_D2_P3",
+    "year": 1988,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $a, b, c$ be three pairwise skew lines in space. Prove that they have a common perpendicular if and only if $S_a \\circ S_b \\circ S_c$ is a reflection in a line, where $S_x$ denotes the reflection in line $x$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1988 Day 2"
+  }
+]

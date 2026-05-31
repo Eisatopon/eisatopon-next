@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_2010_P1",
+    "year": 2010,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Integer $n>1$ and $S\\subseteq\\{0,\\ldots,n-1\\}$ with $|S|>\\frac{3}{4}n$. Prove there exist integers $a,b,c$ with $a,b,c,a+b,b+c,c+a,a+b+c$ all having remainders in $S$ when divided by $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2010"
+  },
+  {
+    "id": "PMO_2010_P2",
+    "year": 2010,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Positive rationals $a,b$ satisfy $a^3+4a^2b=4a^2+b^4$. Prove $\\sqrt{a-1}$ is a perfect square of a rational.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2010"
+  },
+  {
+    "id": "PMO_2010_P3",
+    "year": 2010,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Parallelogram $ABCD$ with $\\angle DAB$ acute; $A,P,B,D$ concyclic. Lines $AP,CD$ meet at $Q$; $O$ = circumcenter of $\\triangle CPQ$. If $D\\neq O$, prove $AD\\perp DO$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2010"
+  },
+  {
+    "id": "PMO_2010_P4",
+    "year": 2010,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$D,E$ on side $BC$ with $BD<BE$; perimeters $p_1,p_2$ of $\\triangle ABC$, $\\triangle ADE$. Prove $p_1>p_2+2\\min(BD,EC)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2010"
+  },
+  {
+    "id": "PMO_2010_P5",
+    "year": 2010,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prime $p>3$ with $p\\equiv 2\\pmod{3}$; $a_k=k^2+k+1$ for $k=1,\\ldots,p-1$. Prove $a_1a_2\\cdots a_{p-1}\\equiv 3\\pmod{p}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2010"
+  },
+  {
+    "id": "PMO_2010_P6",
+    "year": 2010,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Real $C>1$; sequence $(a_n)$ of positive reals with $a_1=1$, $a_2=2$, $a_{mn}=a_ma_n$, and $a_{m+n}\\leq C(a_m+a_n)$. Prove $a_n=n$ for all $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2010"
+  }
+]

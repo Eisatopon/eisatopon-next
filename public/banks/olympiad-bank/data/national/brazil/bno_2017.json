@@ -1,0 +1,128 @@
+[
+  {
+    "id": "BRAZIL_2017_D1_P1",
+    "year": 2017,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For each real number $r$ between $0$ and $1$ we can represent $r$ as an infinite decimal $r = 0.r_1r_2r_3\\ldots$ with $0 \\leq r_i \\leq 9$.\n\na) Show that we can choose two rational numbers $p$ and $q$ between $0$ and $1$ such that, from their decimal representations $p = 0.p_1p_2p_3\\ldots$ and $q = 0.q_1q_2q_3\\ldots$, it is possible to construct an irrational number $\\alpha = 0.a_1a_2a_3\\ldots$ such that, for each $i = 1, 2, 3, \\ldots$, we have $a_i = p_i$ or $a_i = q_i$.\n\nb) Show that there exists a rational number $s = 0.s_1s_2s_3\\ldots$ and an irrational number $\\beta = 0.b_1b_2b_3\\ldots$ such that, for all $N \\geq 2017$, the number of indices $1 \\leq i \\leq N$ satisfying $s_i \\neq b_i$ is less than or equal to $\\dfrac{N}{2017}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2017 Day 1"
+  },
+  {
+    "id": "BRAZIL_2017_D1_P2",
+    "year": 2017,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n \\geq 3$ be an integer. Prove that for all integers $k$ with $1 \\leq k \\leq \\binom{n}{2}$, there exists a set $A$ with $n$ distinct positive integer elements such that the set $B = \\{\\gcd(x, y) : x, y \\in A,\\, x \\neq y\\}$ contains exactly $k$ distinct elements.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2017 Day 1"
+  },
+  {
+    "id": "BRAZIL_2017_D1_P3",
+    "year": 2017,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A quadrilateral $ABCD$ has an incircle $\\omega$ and is such that the semi-lines $AB$ and $DC$ intersect at point $P$, and the semi-lines $AD$ and $BC$ intersect at point $Q$. The lines $AC$ and $PQ$ intersect at point $R$. Let $T$ be the point of $\\omega$ closest to line $PQ$. Prove that the line $RT$ passes through the incenter of triangle $PQC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2017 Day 1"
+  },
+  {
+    "id": "BRAZIL_2017_D2_P4",
+    "year": 2017,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A phone lock screen uses passwords drawn as polygonal lines with vertices on a $3 \\times 3$ lattice of points labeled $1$ to $9$. The rules are: (i) tracing starts at some point; (ii) each segment must end at a previously unused point; (iii) if a segment passes through a third (middle) point not yet used, that point is automatically included in the password; (iv) every password has at least four digits.\n\nDetermine the smallest $n$ ($n \\geq 4$) such that, given any subset of $n$ digits from $1$ to $9$, it is possible to construct a password that involves exactly those digits in some order.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2017 Day 2"
+  },
+  {
+    "id": "BRAZIL_2017_D2_P5",
+    "year": 2017,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In triangle $ABC$, let $r_A$ be the line that passes through the midpoint of $BC$ and is perpendicular to the internal bisector of $\\angle BAC$. Define $r_B$ and $r_C$ similarly. Let $H$ and $I$ be the orthocenter and incenter of $ABC$, respectively. Suppose that the three lines $r_A$, $r_B$, $r_C$ define a triangle. Prove that the circumcenter of this triangle is the midpoint of $HI$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2017 Day 2"
+  },
+  {
+    "id": "BRAZIL_2017_D2_P6",
+    "year": 2017,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a$ be a positive integer and $p$ a prime divisor of $a^3 - 3a + 1$, with $p \\neq 3$. Prove that $p$ is of the form $9k + 1$ or $9k - 1$, where $k$ is an integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2017 Day 2"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "FRANCOPHONE_2022_P1",
+    "year": 2022,
+    "olympiad": "FRANCOPHONE",
+    "olympiad_full_name": "Francophone Mathematical Olympiad",
+    "scope": "regional",
+    "region": "francophone",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integers $n \\geq 1$ such that $\\lfloor\\sqrt{n}\\rfloor \\mid n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Francophone Mathematical Olympiad 2022"
+  },
+  {
+    "id": "FRANCOPHONE_2022_P2",
+    "year": 2022,
+    "olympiad": "FRANCOPHONE",
+    "olympiad_full_name": "Francophone Mathematical Olympiad",
+    "scope": "regional",
+    "region": "francophone",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "An $n \\times n$ table ($n \\geq 1$): Aya wishes to color $k$ cells so that there is a unique way to place $n$ non-attacking rooks on colored squares. What is the maximum $k$ for which this is achievable?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Francophone Mathematical Olympiad 2022"
+  },
+  {
+    "id": "FRANCOPHONE_2022_P3",
+    "year": 2022,
+    "olympiad": "FRANCOPHONE",
+    "olympiad_full_name": "Francophone Mathematical Olympiad",
+    "scope": "regional",
+    "region": "francophone",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\triangle ABC$ be a triangle, $D$ the intersection of the angle bisector of $\\angle BAC$ and the perpendicular bisector of $AC$. The line through $B$ parallel to $AC$ meets line $AD$ at $X$. The line through $B$ parallel to $CX$ meets $AC$ at $Y$. $E = \\odot(AYB) \\cap BX$ ($E \\neq B$). Prove that $C$, $D$, $E$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Francophone Mathematical Olympiad 2022"
+  },
+  {
+    "id": "FRANCOPHONE_2022_P4",
+    "year": 2022,
+    "olympiad": "FRANCOPHONE",
+    "olympiad_full_name": "Francophone Mathematical Olympiad",
+    "scope": "regional",
+    "region": "francophone",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the smallest integer $n \\geq 1$ such that $a^2 + b^2 + c^2 - nd^2 = 0$ has $(0,0,0,0)$ as its unique integer solution.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Francophone Mathematical Olympiad 2022"
+  },
+  {
+    "id": "FRANCOPHONE_2022_P5",
+    "year": 2022,
+    "olympiad": "FRANCOPHONE",
+    "olympiad_full_name": "Francophone Mathematical Olympiad",
+    "scope": "regional",
+    "region": "francophone",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all functions $f : \\mathbb{Z} \\to \\mathbb{Z}$ such that $f(m+n) + f(m)f(n) = n^2(f(m)+1) + m^2(f(n)+1) + mn(2-mn)$ for all $m, n \\in \\mathbb{Z}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Francophone Mathematical Olympiad 2022"
+  },
+  {
+    "id": "FRANCOPHONE_2022_P6",
+    "year": 2022,
+    "olympiad": "FRANCOPHONE",
+    "olympiad_full_name": "Francophone Mathematical Olympiad",
+    "scope": "regional",
+    "region": "francophone",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Alice must choose a password of $n$ characters from 27 characters (A–Z and \\#). A password is \\textit{redundant} if some consecutive block can be 2-colored (red/blue) so that the red and blue subsequences are identical. Show that for any $n \\geq 1$, there exist at least $18^n$ non-redundant passwords of length $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Francophone Mathematical Olympiad 2022"
+  },
+  {
+    "id": "FRANCOPHONE_2022_P7",
+    "year": 2022,
+    "olympiad": "FRANCOPHONE",
+    "olympiad_full_name": "Francophone Mathematical Olympiad",
+    "scope": "regional",
+    "region": "francophone",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle with circumcircle $\\Gamma$ and tangent $\\Delta$ at $A$. Circle $\\Gamma_1$ is tangent to $\\Delta$, $AB$, $BC$ with tangency point $E$ on $AB$. Circle $\\Gamma_2$ is tangent to $\\Delta$, $AC$, $BC$ with tangency point $F$ on $AC$. Suppose $E \\in [AB]$, $F \\in [AC]$, and both circles lie outside $\\triangle ABC$. Show that $BC \\parallel EF$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Francophone Mathematical Olympiad 2022"
+  },
+  {
+    "id": "FRANCOPHONE_2022_P8",
+    "year": 2022,
+    "olympiad": "FRANCOPHONE",
+    "olympiad_full_name": "Francophone Mathematical Olympiad",
+    "scope": "regional",
+    "region": "francophone",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $a \\geq 2$ and $b \\geq 2$ with $a$ even such that all digits of $a^b + 1$ are equal.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Francophone Mathematical Olympiad 2022"
+  }
+]

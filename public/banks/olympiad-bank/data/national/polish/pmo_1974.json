@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1974_P1",
+    "year": 1974,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In tetrahedron $ABCD$, edges $AB\\perp CD$ and $\\angle ACB=\\angle ADB$. Prove the plane through $AB$ and the midpoint of $CD$ is perpendicular to $CD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1974"
+  },
+  {
+    "id": "PMO_1974_P2",
+    "year": 1974,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A salmon must cross two waterfalls. Each minute, probability $p>0$ of crossing the first and $q>0$ of crossing the second (independent). Find the probability of not having crossed the first waterfall in $n$ minutes, given it didn't cross both.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1974"
+  },
+  {
+    "id": "PMO_1974_P3",
+    "year": 1974,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $r$ be a natural number. Prove $x^2-rx-1$ does not divide any nonzero polynomial with integer coefficients whose absolute values are all $<r$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1974"
+  },
+  {
+    "id": "PMO_1974_P4",
+    "year": 1974,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that for any $a_1,\\ldots,a_n$ and any $k$: $\\left|\\sum_{i=1}^k a_i - \\sum_{j=k+1}^n a_j\\right|\\leq\\max_{1\\leq m\\leq n}|a_m|$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1974"
+  },
+  {
+    "id": "PMO_1974_P5",
+    "year": 1974,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that for natural numbers $n,r$ with $r+3\\leq n$, the binomial coefficients $\\binom{n}{r},\\binom{n}{r+1},\\binom{n}{r+2},\\binom{n}{r+3}$ cannot be four successive terms of an arithmetic progression.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1974"
+  },
+  {
+    "id": "PMO_1974_P6",
+    "year": 1974,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Diagonals are drawn in a convex $n$-gon dividing it into triangles, with: (i) an even number of diagonals at each vertex; (ii) no two diagonals sharing an interior point. Prove $3\\mid n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1974"
+  }
+]

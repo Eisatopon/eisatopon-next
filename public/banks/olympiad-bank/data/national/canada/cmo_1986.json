@@ -1,0 +1,110 @@
+[
+  {
+    "id": "CMO_1986_P1",
+    "year": 1986,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In the diagram, line segments $AB$ and $CD$ are of length $1$, while angles $\\angle ABC = 90^\\circ$ and $\\angle CBD = 30^\\circ$. Find $AC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1986"
+  },
+  {
+    "id": "CMO_1986_P2",
+    "year": 1986,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "A Mathlon is a competition with $M$ athletic events. Only $A$, $B$, and $C$ participated. In each event $p_1$ points were awarded for first place, $p_2$ for second, and $p_3$ for third, where $p_1 > p_2 > p_3 > 0$ and $p_1, p_2, p_3$ are integers. The final scores were: $A = 22$, $B = 9$, $C = 9$. $B$ won the $100$ metres. What is the value of $M$ and who finished second in the high jump?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1986"
+  },
+  {
+    "id": "CMO_1986_P3",
+    "year": 1986,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A chord $ST$ of constant length slides around a semicircle with diameter $AB$. $M$ is the midpoint of $ST$ and $P$ is the foot of the perpendicular from $S$ to $AB$. Prove that $\\angle SPM$ is constant for all positions of $ST$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1986"
+  },
+  {
+    "id": "CMO_1986_P4",
+    "year": 1986,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "For all positive integers $n$ and $k$, define\n$$F(n, k) = \\sum_{r=1}^{n} r^{2k-1}.$$\nProve that $F(n, 1)$ divides $F(n, k)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1986"
+  },
+  {
+    "id": "CMO_1986_P5",
+    "year": 1986,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Let $u_1, u_2, u_3, \\ldots$ be a sequence of integers satisfying the recurrence relation $u_{n+2} = u_{n+1}^2 - u_n$. Suppose $u_1 = 39$ and $u_2 = 45$. Prove that $1986$ divides infinitely many terms of the sequence.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 1986"
+  }
+]

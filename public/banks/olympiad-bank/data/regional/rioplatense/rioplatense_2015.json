@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_2015_P1",
+    "year": 2015,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, $P \\in BC$. Circle $S_1$ centered at $B$ through $P$ meets $AB$ at $D$; circle $S_2$ centered at $C$ through $P$ meets $AC$ at $E$. Line $AP$ meets $S_1$ at $X$ and $S_2$ at $Y$ ($\\neq P$). $T = DX \\cap EY$. Prove $\\angle BAC + 2\\angle DTE = 180^\\circ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2015"
+  },
+  {
+    "id": "RIOPLATENSE_2015_P2",
+    "year": 2015,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a, b, c$ be pairwise coprime positive integers. For each $n \\geq 1$, let $s(n)$ = number of elements of $\\{a,b,c\\}$ dividing $n$. Let $k_1 < k_2 < \\cdots$ be all positive integers divisible by some element of $\\{a,b,c\\}$. The characteristic sequence of $(a,b,c)$ is $s(k_1), s(k_2), \\ldots$ Prove that equal characteristic sequences imply $\\{a,b,c\\} = \\{a',b',c'\\}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2015"
+  },
+  {
+    "id": "RIOPLATENSE_2015_P3",
+    "year": 2015,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$n \\geq 1$ is \\textit{conservative} if the smallest prime divisor of $(n!)^n + 1$ is at most $n + 2015$. Is the number of conservative integers finite or infinite?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2015"
+  },
+  {
+    "id": "RIOPLATENSE_2015_P4",
+    "year": 2015,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A $9 \\times 9$ board has some cells painted black. A coloring is \\textit{good} if there exists a white starting square from which a chip can return to the start, moving through white squares, visiting at least 3 squares without repetition. Find the maximum $k$ such that any coloring of $k$ cells black is good.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2015"
+  },
+  {
+    "id": "RIOPLATENSE_2015_P5",
+    "year": 2015,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For positive integer $n$, let $d(n) = \\gcd\\!\\left\\{\\binom{n+1}{n}, \\binom{n+2}{n}, \\ldots, \\binom{2n}{n}\\right\\}$. Find all possible values of $d(n)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2015"
+  },
+  {
+    "id": "RIOPLATENSE_2015_P6",
+    "year": 2015,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with incenter $I$, circumcenter $O$, and inradius $r$: $A_1 \\in \\omega$ (incircle) makes $AIA_1O$ a convex trapezoid with bases $AO$ and $IA_1$. Circle $\\omega_1$ (radius $r$, through $A_1$, tangent to $AB$, $\\neq \\omega$) and $\\omega_2$ (radius $r$, through $A_1$, tangent to $AC$, $\\neq \\omega$) meet at $A_1$ and $A_2$. Define $B_2$, $C_2$ similarly. Prove $AA_2$, $BB_2$, $CC_2$ concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2015"
+  }
+]

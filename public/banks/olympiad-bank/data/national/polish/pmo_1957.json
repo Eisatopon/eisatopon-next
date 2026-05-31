@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1957_P1",
+    "year": 1957,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Through midpoint $S$ of segment $MN$ (with $M,N$ on the legs of an isosceles triangle), a line parallel to the base meets the legs at $K,L$. Prove the projection of $MN$ onto the base equals $KL$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1957"
+  },
+  {
+    "id": "PMO_1957_P2",
+    "year": 1957,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that for sides $a,b,c$ and opposite angles $A,B,C$ of a triangle: $a^2\\cos^2 A = b^2\\cos^2 B + c^2\\cos^2 C + 2bc\\cos B\\cos C\\cos 2A$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1957"
+  },
+  {
+    "id": "PMO_1957_P3",
+    "year": 1957,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that if $ax^2+bx+c$ takes an integer value for every integer $x$, then $2a$, $a+b$, $c$ are integers, and conversely.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1957"
+  },
+  {
+    "id": "PMO_1957_P4",
+    "year": 1957,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that for $a,b\\geq 0$: $\\sqrt{a^2+b^2}\\geq a+b-(2-\\sqrt{2})\\sqrt{ab}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1957"
+  },
+  {
+    "id": "PMO_1957_P5",
+    "year": 1957,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given a line $m$ and segment $AB$ parallel to it, divide $AB$ into three equal parts using only a straightedge (no compass).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1957"
+  },
+  {
+    "id": "PMO_1957_P6",
+    "year": 1957,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A cube has base $ABCD$ with $AB=a$. Find the distance from line $BC$ to the line through $A$ and the center $S$ of the face opposite the base.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1957"
+  }
+]

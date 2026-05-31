@@ -1,0 +1,128 @@
+[
+  {
+    "id": "EGMO_2013_D1_P1",
+    "year": 2013,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Side $BC$ of $\\triangle ABC$ is extended to $D$ with $CD = BC$; side $CA$ is extended to $E$ with $AE = 2CA$. Prove that if $AD = BE$, then $\\triangle ABC$ is right-angled.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2013"
+  },
+  {
+    "id": "EGMO_2013_D1_P2",
+    "year": 2013,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Determine all integers $m$ for which an $m \\times m$ square can be dissected into five rectangles with side lengths $1, 2, 3, \\ldots, 10$ in some order.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2013"
+  },
+  {
+    "id": "EGMO_2013_D1_P3",
+    "year": 2013,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n$ be a positive integer. (a) Prove there exists a set $S$ of $6n$ pairwise different positive integers such that $\\text{lcm}(a,b) \\leq 32n^2$ for any two elements. (b) Prove every set $T$ of $6n$ pairwise different positive integers contains two elements with $\\text{lcm} > 9n^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2013"
+  },
+  {
+    "id": "EGMO_2013_D2_P4",
+    "year": 2013,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $a$ and $b$ for which $P(n) = \\dfrac{n^5 + a}{b}$ takes integer values at three consecutive integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2013"
+  },
+  {
+    "id": "EGMO_2013_D2_P5",
+    "year": 2013,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\Omega$ be the circumcircle of $\\triangle ABC$. Circle $\\omega$ is tangent to $AC$ and $BC$, and internally tangent to $\\Omega$ at $P$. A line parallel to $AB$ through the interior of $\\triangle ABC$ is tangent to $\\omega$ at $Q$. Prove $\\angle ACP = \\angle QCB$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2013"
+  },
+  {
+    "id": "EGMO_2013_D2_P6",
+    "year": 2013,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Snow White and seven dwarves work on 16 consecutive days: each day each dwarf either mines or collects berries (not both). On any two different days, at least three dwarves performed both types of work. On day 1, all dwarves mined. Prove that on some day all dwarves collected berries.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2013"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "INMO_2018_P1",
+    "year": 2018,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Non-equilateral $\\triangle ABC$ with integer sides; $D, E$ = midpoints of $BC, CA$; $G$ = centroid. If $D, C, E, G$ are concyclic, find the least possible perimeter.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2018"
+  },
+  {
+    "id": "INMO_2018_P2",
+    "year": 2018,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A $1 \\times n$ board is tiled with $1 \\times 1$ red, $1 \\times 1$ green, and $1 \\times 2$ blue tiles. Let $t_n$ = number of tilings. Prove $t_n \\mid t_{2n+1}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2018"
+  },
+  {
+    "id": "INMO_2018_P3",
+    "year": 2018,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Circles $\\Gamma_1, \\Gamma_2$ with centers $O_1, O_2$ intersect at $A, B$ with $\\angle O_1AO_2$ obtuse. Circumcircle of $\\triangle O_1AO_2$ meets $\\Gamma_1$ at $C$ and $\\Gamma_2$ at $D$. Line $CB$ meets $\\Gamma_2$ at $E$; line $DB$ meets $\\Gamma_1$ at $F$. Prove $C, D, E, F$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2018"
+  },
+  {
+    "id": "INMO_2018_P4",
+    "year": 2018,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all polynomials $P$ with real coefficients such that $P(x^2+x+1)$ divides $P(x^3-1)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2018"
+  },
+  {
+    "id": "INMO_2018_P5",
+    "year": 2018,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n \\geq 3$ girls sit around a table. Each time a girl has more apples than both neighbors combined, the teacher removes one apple from her and gives one to each neighbor. Prove the process stops after finitely many steps.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2018"
+  },
+  {
+    "id": "INMO_2018_P6",
+    "year": 2018,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$f : \\mathbb{N} \\to \\mathbb{N}$ with $f(mn) = f(m)f(n)$ and $m+n \\mid f(m)+f(n)$ for all $m, n$. Prove there is an odd $k$ with $f(n) = n^k$ for all $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2018"
+  }
+]

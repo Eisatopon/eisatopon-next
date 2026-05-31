@@ -1,0 +1,108 @@
+[
+  {
+    "id": "VMO_2009_D1_P1",
+    "year": 2009,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $(x, y)$ satisfying:\n$$\\begin{cases} \\dfrac{1}{\\sqrt{1+2x^2}} + \\dfrac{1}{\\sqrt{1+2y^2}} = \\dfrac{2}{\\sqrt{1+2xy}} \\$$6pt] \\sqrt{x(1-2x)} + \\sqrt{y(1-2y)} = \\dfrac{2}{9} \\end{cases}$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2009"
+  },
+  {
+    "id": "VMO_2009_D1_P2",
+    "year": 2009,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "The sequence $\\{x_n\\}$ is defined by $x_1 = \\tfrac{1}{2}$ and $x_n = \\dfrac{\\sqrt{x_{n-1}^2 + 4x_{n-1}} + x_{n-1}}{2}$. Prove that the sequence $\\{y_n\\}$, where $y_n = \\displaystyle\\sum_{i=1}^{n} \\dfrac{1}{x_i^2}$, has a finite limit and find that limit.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2009"
+  },
+  {
+    "id": "VMO_2009_D1_P3",
+    "year": 2009,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $A, B$ be two fixed points and $C$ a variable point on the plane such that $\\angle ACB = \\alpha$ (constant), $0^\\circ \\leq \\alpha \\leq 180^\\circ$. Let $D, E, F$ be the projections of the incenter $I$ of $\\triangle ABC$ onto sides $BC, CA, AB$ respectively. Let $M, N$ be the intersections of $AI, BI$ with $EF$ respectively. Prove that the length $MN$ is constant and that the circumcircle of $\\triangle DMN$ always passes through a fixed point.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2009"
+  },
+  {
+    "id": "VMO_2009_D1_P4",
+    "year": 2009,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c$ be three real numbers such that $a^n + b^n + c^n$ is an integer for every positive integer $n$. Prove that there exist integers $p, q, r$ such that $a, b, c$ are roots of $x^3 + px^2 + qx + r = 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2009"
+  },
+  {
+    "id": "VMO_2009_D1_P5",
+    "year": 2009,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $S = \\{1, 2, 3, \\ldots, 2n\\}$ ($n \\in \\mathbb{Z}^+$). Determine the number of subsets $T$ of $S$ such that no two elements $a, b \\in T$ satisfy $|a - b| \\in \\{1, n\\}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2009"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2010_P1",
+    "year": 2010,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Convex pentagon $AXYZB$ inscribed in a semicircle of diameter $AB$. $P,Q,R,S$ are feet of perpendiculars from $Y$ to lines $AX,BX,AZ,BZ$. Prove the acute angle of $PQ$ and $RS$ is half $\\angle XOZ$, where $O$ is the midpoint of $AB$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2010"
+  },
+  {
+    "id": "USAMO_2010_P2",
+    "year": 2010,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n$ students in a circle with heights $h_1<\\cdots<h_n$. Student of height $h_k$ may switch with $h_{k-2}$ (or shorter) directly behind. Prove at most $\\binom{n}{3}$ switches occur.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2010"
+  },
+  {
+    "id": "USAMO_2010_P3",
+    "year": 2010,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Positive numbers $a_1,\\ldots,a_{2010}$ satisfy $a_ia_j\\leq i+j$ for distinct $i,j$. Find the largest possible product $a_1a_2\\cdots a_{2010}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2010"
+  },
+  {
+    "id": "USAMO_2010_P4",
+    "year": 2010,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with $\\angle A=90^\\circ$; $D\\in AC$ with $\\angle ABD=\\angle DBC$; $E\\in AB$ with $\\angle ACE=\\angle ECB$; $BD\\cap CE=I$. Determine whether $AB,AC,BI,ID,CI,IE$ can all have integer lengths.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2010"
+  },
+  {
+    "id": "USAMO_2010_P5",
+    "year": 2010,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $q=\\frac{3p-5}{2}$ with $p$ odd prime and $S_q=\\sum_{k=1}^{q}\\frac{1}{k(k+1)(k+2)}$. Prove $p\\mid m-n$ where $\\frac{1}{p}-2S_q=\\frac{m}{n}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2010"
+  },
+  {
+    "id": "USAMO_2010_P6",
+    "year": 2010,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "68 pairs of nonzero integers on a blackboard (at most one of $(k,k)$ and $(-k,-k)$ for each $k$). A student erases some integers (no two summing to 0) and scores 1 for each pair with at least one erased. Find the largest guaranteed score $N$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2010"
+  }
+]

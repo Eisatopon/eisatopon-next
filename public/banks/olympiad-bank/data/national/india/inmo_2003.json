@@ -1,0 +1,128 @@
+[
+  {
+    "id": "INMO_2003_P1",
+    "year": 2003,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$P$ is an interior point of acute $\\triangle ABC$. Line $BP$ meets $AC$ at $E$; line $CP$ meets $AB$ at $F$. Lines $AP$ and $EF$ meet at $D$; $K$ is the foot of the perpendicular from $D$ to $BC$. Show $KD$ bisects $\\angle EKF$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2003"
+  },
+  {
+    "id": "INMO_2003_P2",
+    "year": 2003,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all primes $p, q$ and even $n > 2$ such that $p^n + p^{n-1} + \\cdots + 1 = q^2 + q + 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2003"
+  },
+  {
+    "id": "INMO_2003_P3",
+    "year": 2003,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Show that $8x^4 - 16x^3 + 16x^2 - 8x + k = 0$ has at least one real root for all real $k$. Find the sum of the non-real roots.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2003"
+  },
+  {
+    "id": "INMO_2003_P4",
+    "year": 2003,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all 7-digit numbers using only digits 5 and 7 that are divisible by 35.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2003"
+  },
+  {
+    "id": "INMO_2003_P5",
+    "year": 2003,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $a, b, c$ be sides and $S$ the area of $\\triangle ABC$. Set $x = a + \\frac{b}{2}$, $y = b + \\frac{c}{2}$, $z = c + \\frac{a}{2}$. Prove there is a triangle with sides $x, y, z$ and area $\\geq \\frac{9}{4}S$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2003"
+  },
+  {
+    "id": "INMO_2003_P6",
+    "year": 2003,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Each lottery ticket has a 9-digit number using only digits 1, 2, 3. Each ticket is red, blue, or green. If two tickets differ in all 9 places, they have different colors. Ticket 122222222 is red; 222222222 is green. What color is ticket 123123123?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2003"
+  }
+]

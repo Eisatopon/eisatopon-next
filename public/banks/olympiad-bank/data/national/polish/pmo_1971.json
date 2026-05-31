@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1971_P1",
+    "year": 1971,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show that if $(a_n)$ is an infinite sequence of distinct positive integers with no digit 0 in their decimal expansions, then $\\sum_{n=1}^\\infty\\frac{1}{a_n}<29$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1971"
+  },
+  {
+    "id": "PMO_1971_P2",
+    "year": 1971,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A billiard table has the shape of a triangle with angles in rational ratio. A ball from an interior point reflects off the sides (no reaching vertices). Prove the ball travels along only finitely many segments.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1971"
+  },
+  {
+    "id": "PMO_1971_P3",
+    "year": 1971,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A safe has several locks. 11 committee members have keys. What is the minimum number of locks so every 6 members can open the safe but no 5 can? How should keys be distributed?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1971"
+  },
+  {
+    "id": "PMO_1971_P4",
+    "year": 1971,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that if positive integers $x,y,z$ satisfy $x^n+y^n=z^n$, then $\\min(x,y)\\geq n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1971"
+  },
+  {
+    "id": "PMO_1971_P5",
+    "year": 1971,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the largest integer $A$ such that for any permutation of $1,\\ldots,100$, the sum of some 10 consecutive terms is at least $A$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1971"
+  },
+  {
+    "id": "PMO_1971_P6",
+    "year": 1971,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Regular unit-edge tetrahedron. (a) Prove there exist 4 points on its surface such that every surface point is within distance $1/2$ of some one. (b) Prove 3 points do not suffice. (Surface distance = shortest path over the surface.)",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1971"
+  }
+]

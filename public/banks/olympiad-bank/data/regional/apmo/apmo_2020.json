@@ -1,0 +1,107 @@
+[
+  {
+    "id": "APMO_2020_P1",
+    "year": 2020,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\Gamma$ be the circumcircle of $\\triangle ABC$. $D$ is on $BC$. The tangent to $\\Gamma$ at $A$ meets the parallel to $BA$ through $D$ at $E$. $CE$ meets $\\Gamma$ again at $F$. Suppose $B,D,F,E$ are concyclic. Prove $AC$, $BF$, $DE$ are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2020"
+  },
+  {
+    "id": "APMO_2020_P2",
+    "year": 2020,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Show that $r = 2$ is the largest real with the following property: if a sequence of positive integers satisfies $a_n \\leq a_{n+2} \\leq \\sqrt{a_n^2 + r a_{n+1}}$ for all $n$, then $a_{n+2} = a_n$ for all sufficiently large $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2020"
+  },
+  {
+    "id": "APMO_2020_P3",
+    "year": 2020,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find all positive integers $k$ for which there exist a positive integer $m$ and a set $S$ of positive integers such that every integer $n > m$ can be written as a sum of distinct elements of $S$ in exactly $k$ ways.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2020"
+  },
+  {
+    "id": "APMO_2020_P4",
+    "year": 2020,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all polynomials $P(x)$ with integer coefficients such that for any bijection $a : \\mathbb{Z}^+ \\to \\mathbb{Z}$, there exist indices $i < j$ and an integer $k$ with $a_i + \\cdots + a_j = P(k)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2020"
+  },
+  {
+    "id": "APMO_2020_P5",
+    "year": 2020,
+    "olympiad": "APMO",
+    "olympiad_full_name": "Asian Pacific Mathematics Olympiad",
+    "scope": "regional",
+    "region": "asia_pacific",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "The number 1 is written $n \\geq 3$ times. A move: erase $a$ and $b$, write 1 and $a+b$, add 1 stone to bucket 1 and $\\gcd(a,b)$ stones to bucket 2. After finitely many moves, bucket 1 has $s$ stones and bucket 2 has $t$ stones. Find all possible values of $s/t$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Asian Pacific Mathematics Olympiad 2020"
+  }
+]

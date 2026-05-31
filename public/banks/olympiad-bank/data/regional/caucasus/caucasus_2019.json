@@ -1,0 +1,338 @@
+[
+  {
+    "id": "CAUCASUS_2019_P1",
+    "year": 2019,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In a kindergarten there are 100 balls (30 red, some blue, some green). Pasha took 30 red, 10 blue, 20 green, lost 5, returned the rest. Next day Sasha took 8 red, 18 blue, 48 green. Can we determine the color of at least one lost ball?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAUCASUS_2019_P2",
+    "year": 2019,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Do there exist five consecutive positive integers whose LCM is a perfect square?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAUCASUS_2019_P3",
+    "year": 2019,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Points $A'$, $B'$ lie inside parallelogram $ABCD$ and $C'$, $D'$ lie outside, so all sides of the octagon $AA'BB'CC'DD'$ are equal. Prove $A',B',C',D'$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAUCASUS_2019_P4",
+    "year": 2019,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Vasya has the expression $\\square\\cdot\\square+\\square\\cdot\\square$ and 4 number cards. He fills the blanks in all ways and always gets the same result. Prove at least three cards have equal numbers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAUCASUS_2019_P5",
+    "year": 2019,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with $\\angle BAC=90^\\circ$, let $BL$ be the angle bisector with $L\\in AC$. Let $D$ be the reflection of $A$ over $BL$; $M$ = circumcenter of $\\triangle ADC$. Prove $CM$, $DL$, $AB$ are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAUCASUS_2019_P6",
+    "year": 2019,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "15 initially empty boxes. Each move: choose some boxes and put in each a number of apricots equal to a distinct power of 2 (different powers for different boxes). Find the minimum $k$ moves to make all boxes equal.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAUCASUS_2019_P7",
+    "year": 2019,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with incenter $I$, prove that the circle through $A$ tangent to $BI$ at $I$ and the circle through $B$ tangent to $AI$ at $I$ intersect on the circumcircle of $\\triangle ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAUCASUS_2019_P8",
+    "year": 2019,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P8",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Do there exist pairwise distinct positive integers $a_1,\\ldots,a_{101},b_1,\\ldots,b_{101}$ such that for each nonempty $S\\subseteq\\{1,\\ldots,101\\}$, the sum $\\sum_{i\\in S}a_i$ divides $100!+\\sum_{i\\in S}b_i$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAUCASUS_2019_P9",
+    "year": 2019,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P9",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Numbers $1,\\ldots,100$ are placed in a $10\\times 10$ grid. Dima colors the largest number in every square sub-grid with $>1$ cell green. Is it possible that all two-digit numbers are colored green?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAUCASUS_2019_P10",
+    "year": 2019,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P10",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with incenter $I$, the circle through $A$ tangent to $BI$ at $I$ and the circle through $B$ tangent to $AI$ at $I$ meet on the circumcircle of $\\triangle ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAUCASUS_2019_P11",
+    "year": 2019,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P11",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all $n\\geq 2$ for which there exists a permutation $a_1,\\ldots,a_{2n}$ of $1,\\ldots,2n$ with $a_1a_2+a_3a_4+\\cdots+a_{2n-3}a_{2n-2}=a_{2n-1}a_{2n}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAUCASUS_2019_P12",
+    "year": 2019,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P12",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Dima has 100 rocks with pairwise distinct weights and a strange scale (put exactly 10 on each side). A pair is \\textit{clear} if Dima can determine which is heavier. Find the minimum possible number of clear pairs.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAUCASUS_2019_P13",
+    "year": 2019,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P13",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with $\\angle BAC=\\alpha$, $\\angle CBA=\\beta$, $\\angle ACB=\\gamma$. Prove $a\\sin(\\beta-\\gamma)+b\\sin(\\gamma-\\alpha)+c\\sin(\\alpha-\\beta)=0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAUCASUS_2019_P14",
+    "year": 2019,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P14",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "(Same as Juniors P6 — 15 boxes apricots problem.)",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAUCASUS_2019_P15",
+    "year": 2019,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P15",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "On sides $BC,CA,AB$ of $\\triangle ABC$, points $K,L,M$ satisfy $PL\\parallel BC$, $PM\\parallel CA$, $PK\\parallel AB$ for interior point $P$. Can each of the three trapezoids $AMPL$, $BKPM$, $CLPK$ have an inscribed circle?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAUCASUS_2019_P16",
+    "year": 2019,
+    "olympiad": "CAUCASUS",
+    "olympiad_full_name": "Caucasus Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caucasus",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P16",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Do there exist pairwise distinct positive integers $a_1,\\ldots,a_{101},b_1,\\ldots,b_{101}$ such that for each nonempty $S\\subseteq\\{1,\\ldots,101\\}$, $\\sum_{i\\in S}a_i$ divides $100!+\\sum_{i\\in S}b_i$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Caucasus Mathematical Olympiad 2019"
+  }
+]

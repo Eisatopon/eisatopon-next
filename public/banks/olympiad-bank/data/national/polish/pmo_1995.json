@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1995_P1",
+    "year": 1995,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "How many subsets of $\\{1,\\ldots,2n\\}$ contain no two numbers summing to $2n+1$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1995"
+  },
+  {
+    "id": "PMO_1995_P2",
+    "year": 1995,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "The diagonals of a convex pentagon divide it into a small pentagon and 10 triangles. What is the largest number of these triangles that can all have the same area?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1995"
+  },
+  {
+    "id": "PMO_1995_P3",
+    "year": 1995,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Define $x_i=i$ for $i=0,\\ldots,p-1$ and $x_n=x_{n-1}+x_{n-p}$ for $n\\geq p$ ($p$ prime). Find the remainder when $x_{p^3}$ is divided by $p$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1995"
+  },
+  {
+    "id": "PMO_1995_P4",
+    "year": 1995,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Positive reals $x_1,\\ldots,x_n$ have harmonic mean 1. Find the minimum of $x_1+\\frac{x_2^2}{2}+\\cdots+\\frac{x_n^n}{n}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1995"
+  },
+  {
+    "id": "PMO_1995_P5",
+    "year": 1995,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "An urn has $n$ balls labeled $1,\\ldots,n$. Draw without replacement until a ball divisible by $k$ appears. Find all $k$ for which the expected number of balls removed is $k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1995"
+  },
+  {
+    "id": "PMO_1995_P6",
+    "year": 1995,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Rays $PA,PB,PC$ in space. Show there is exactly one pair $B',C'$ with $B'$ on $PB$, $C'$ on $PC$, satisfying $PC'+B'C'=PA+AB'$ and $PB'+B'C'=PA+AC'$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1995"
+  }
+]

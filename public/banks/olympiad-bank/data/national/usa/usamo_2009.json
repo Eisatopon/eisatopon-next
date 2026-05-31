@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2009_P1",
+    "year": 2009,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Circles $\\omega_1,\\omega_2$ intersect at $X,Y$. Line $\\ell_1$ through center of $\\omega_1$ meets $\\omega_2$ at $P,Q$; $\\ell_2$ through center of $\\omega_2$ meets $\\omega_1$ at $R,S$. If $P,Q,R,S$ are concyclic, prove their circle's center lies on $XY$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2009"
+  },
+  {
+    "id": "USAMO_2009_P2",
+    "year": 2009,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the largest subset of $\\{-n,-n+1,\\ldots,n\\}$ containing no three elements $a,b,c$ (not necessarily distinct) with $a+b+c=0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2009"
+  },
+  {
+    "id": "USAMO_2009_P3",
+    "year": 2009,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "(a) Prove that if a chessboard polygon can be tiled by dominoes, it can be done so tastefully (avoiding two specific configurations). (b) Prove such a tasteful tiling is unique.",
+    "has_figure": true,
+    "figure_description": "Distasteful domino configurations and examples of tasteful/non-tasteful tilings",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2009"
+  },
+  {
+    "id": "USAMO_2009_P4",
+    "year": 2009,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For $n\\geq 2$, positive reals $a_1,\\ldots,a_n$ satisfy $(a_1+\\cdots+a_n)(1/a_1+\\cdots+1/a_n)\\leq(n+\\frac{1}{2})^2$. Prove $\\max\\leq 4\\min$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2009"
+  },
+  {
+    "id": "USAMO_2009_P5",
+    "year": 2009,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Trapezoid $ABCD$ ($AB\\parallel CD$) inscribed in $\\omega$; $G$ inside $\\triangle BCD$. Rays $AG,BG$ meet $\\omega$ at $P,Q$; line through $G$ parallel to $AB$ meets $BD,BC$ at $R,S$. Prove $PQRS$ is cyclic iff $BG$ bisects $\\angle CBD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2009"
+  },
+  {
+    "id": "USAMO_2009_P6",
+    "year": 2009,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Nonconstant rational sequences $(s_n),(t_n)$ with $(s_i-s_j)(t_i-t_j)\\in\\mathbb{Z}$ for all $i,j$. Prove there exists rational $r$ with $(s_i-s_j)r\\in\\mathbb{Z}$ and $(t_i-t_j)/r\\in\\mathbb{Z}$ for all $i,j$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2009"
+  }
+]

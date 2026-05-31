@@ -1,0 +1,212 @@
+[
+  {
+    "id": "INMO_1992_P1",
+    "year": 1992,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, $\\angle A = 2\\angle B$. Prove that $a^2 = b(b+c)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1992"
+  },
+  {
+    "id": "INMO_1992_P2",
+    "year": 1992,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "If $x, y, z \\in \\mathbb{R}$ with $x + y + z = 4$ and $x^2 + y^2 + z^2 = 6$, show each of $x, y, z$ lies in $[\\frac{2}{3}, 2]$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1992"
+  },
+  {
+    "id": "INMO_1992_P3",
+    "year": 1992,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the remainder when $1992^{1992}$ is divided by $92$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1992"
+  },
+  {
+    "id": "INMO_1992_P4",
+    "year": 1992,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the number of permutations $(p_1,p_2,p_3,p_4,p_5,p_6)$ of $(1,2,3,4,5,6)$ such that for $k = 1,\\ldots,5$, $(p_1,\\ldots,p_k)$ does not form a permutation of $\\{1,\\ldots,k\\}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1992"
+  },
+  {
+    "id": "INMO_1992_P5",
+    "year": 1992,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two circles $C_1, C_2$ intersect at $P, Q$. A line through $P$ meets $C_1$ at $A$ and $C_2$ at $B$. Let $Y$ be the midpoint of $AB$; line $QY$ meets $C_1$ at $X$ and $C_2$ at $Z$. Show $Y$ is also the midpoint of $XZ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1992"
+  },
+  {
+    "id": "INMO_1992_P6",
+    "year": 1992,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $f(x)$ be a polynomial with integer coefficients and $f(a_1) = \\cdots = f(a_5) = 2$ for five distinct integers. Show there is no integer $b$ with $f(b) = 9$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1992"
+  },
+  {
+    "id": "INMO_1992_P7",
+    "year": 1992,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P7",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the number of ways to place $1, 2, \\ldots, n^2$ in an $n \\times n$ board so that numbers in each row and column are in arithmetic progression.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1992"
+  },
+  {
+    "id": "INMO_1992_P8",
+    "year": 1992,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine all pairs $(m,n)$ of positive integers for which $2^m + 3^n$ is a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1992"
+  },
+  {
+    "id": "INMO_1992_P9",
+    "year": 1992,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P9",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $A_1 A_2 \\cdots A_n$ be a regular polygon. If $\\frac{1}{A_1 A_2} = \\frac{1}{A_1 A_3} + \\frac{1}{A_1 A_4}$, find $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1992"
+  },
+  {
+    "id": "INMO_1992_P10",
+    "year": 1992,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P10",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Determine all $f : \\mathbb{R} \\setminus \\{0,1\\} \\to \\mathbb{R}$ such that $f(x) + f\\!\\left(\\frac{1}{1-x}\\right) = \\frac{2(1-2x)}{x(1-x)}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 1992"
+  }
+]

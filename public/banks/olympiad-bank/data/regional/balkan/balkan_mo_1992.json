@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_1992_P1",
+    "year": 1992,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For positive integers $m, n$, define $f(m,n) = m^{3 \\cdot 4^n + 6} - m^{3 \\cdot 4^n + 4} - m^5 + m^3$. Find all $n$ such that $1992 \\mid f(m,n)$ for every $m$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1992"
+  },
+  {
+    "id": "BALKAN_MO_1992_P2",
+    "year": 1992,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that $(2n^2 + 3n + 1)^n \\geq 6^n (n!)^2$ for all positive integers $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1992"
+  },
+  {
+    "id": "BALKAN_MO_1992_P3",
+    "year": 1992,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $D, E, F$ be points on sides $BC, CA, AB$ of triangle $ABC$. If quadrilateral $AFDE$ is cyclic, prove that $\\dfrac{4[DEF]}{[ABC]} \\leq \\left(\\dfrac{EF}{AD}\\right)^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1992"
+  },
+  {
+    "id": "BALKAN_MO_1992_P4",
+    "year": 1992,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For each integer $n \\geq 3$, find the least $f(n)$ such that every $f(n)$-element subset of $\\{1, 2, \\ldots, n\\}$ contains three pairwise coprime elements.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1992"
+  }
+]

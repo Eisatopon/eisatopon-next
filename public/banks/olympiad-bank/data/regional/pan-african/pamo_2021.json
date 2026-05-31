@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PAMO_2021_P1",
+    "year": 2021,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n > 3$. A square of side $n$ is divided into $n^2$ unit squares. Find the number of convex trapezoids with vertices among the lattice points of these unit squares, with all side lengths at most $3$ and area equal to $2$. (Parallelograms are trapezoids.)",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2021"
+  },
+  {
+    "id": "PAMO_2021_P2",
+    "year": 2021,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $\\Gamma$ be a circle, $P$ a point outside, and $A$, $B$ the tangency points from $P$. Let $K$ be a point on line $AB$ (distinct from $A$, $B$), and $T$ the second intersection of $\\Gamma$ with the circumcircle of $\\triangle PBK$. Let $P'$ be the reflection of $P$ in $A$. Show that $\\angle PBT = \\angle P'KA$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2021"
+  },
+  {
+    "id": "PAMO_2021_P3",
+    "year": 2021,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $(a_i)$ and $(p_i)$ be sequences of positive integers with $a_1 \\geq 2$, $p_n$ the smallest prime divisor of $a_n$, and $a_{n+1} = a_n + a_n^{p_n}$. Prove there exists $N$ such that $a_{n+3} = 3a_n$ for all $n > N$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2021"
+  },
+  {
+    "id": "PAMO_2021_P4",
+    "year": 2021,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integers $m, n$ such that $\\dfrac{m^2+n^2}{n^2-m}$ and $\\dfrac{n^2+m}{m^2-n}$ are both integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2021"
+  },
+  {
+    "id": "PAMO_2021_P5",
+    "year": 2021,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all functions $f : \\mathbb{R} \\to \\mathbb{R}$ such that $(f(x)+y)(f(y)+x) = f(x^2) + f(y^2) + 2f(xy)$ for all $x, y \\in \\mathbb{R}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2021"
+  },
+  {
+    "id": "PAMO_2021_P6",
+    "year": 2021,
+    "olympiad": "PAMO",
+    "olympiad_full_name": "Pan-African Mathematics Olympiad",
+    "scope": "regional",
+    "region": "pan_african",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a non-parallelogram trapezoid with $AD \\parallel BC$. Let $O = BD \\cap AC$ and $S$ the second intersection of the circumcircles of $\\triangle AOB$ and $\\triangle DOC$. Prove that the circumcircles of $\\triangle ASD$ and $\\triangle BSC$ are tangent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Pan-African Mathematics Olympiad 2021"
+  }
+]

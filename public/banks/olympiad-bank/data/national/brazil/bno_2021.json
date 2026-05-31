@@ -1,0 +1,128 @@
+[
+  {
+    "id": "BRAZIL_2021_D1_P1",
+    "year": 2021,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a convex quadrilateral in the plane and let $O_A$, $O_B$, $O_C$, $O_D$ be the circumcenters of triangles $BCD$, $CDA$, $DAB$, and $ABC$, respectively. Suppose these four circumcenters are distinct points. Prove that these points do not all lie on the same circle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2021 Day 1"
+  },
+  {
+    "id": "BRAZIL_2021_D1_P2",
+    "year": 2021,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n$ be a positive integer. On a $2 \\times 3n$ board, we mark some squares so that any square (marked or not) is adjacent to at most two other distinct marked squares. (Two squares are adjacent when they are distinct and share at least one vertex, i.e., they are horizontal, vertical, or diagonal neighbors.)\n\na) What is the greatest possible number of marked squares?\n\nb) For this maximum number, in how many ways can we mark the squares? (Configurations obtained through rotation or reflection are considered distinct.)",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2021 Day 1"
+  },
+  {
+    "id": "BRAZIL_2021_D1_P3",
+    "year": 2021,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $k$ for which there is an irrational $\\alpha > 1$ and a positive integer $N$ such that $\\lfloor \\alpha^n \\rfloor$ is a perfect square minus $k$ for every integer $n$ with $n > N$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2021 Day 1"
+  },
+  {
+    "id": "BRAZIL_2021_D2_P4",
+    "year": 2021,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A set $A$ of real numbers is \\textit{framed} when it is bounded and, for all $a, b \\in A$ (not necessarily distinct), $(a - b)^2 \\in A$. What is the smallest real number that belongs to some framed set?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2021 Day 2"
+  },
+  {
+    "id": "BRAZIL_2021_D2_P5",
+    "year": 2021,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all triples of non-negative integers $(a, b, c)$ such that $$a^2 + b^2 + c^2 = abc + 1.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2021 Day 2"
+  },
+  {
+    "id": "BRAZIL_2021_D2_P6",
+    "year": 2021,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $n \\geq 5$ be an integer. The convex polygon $P = A_1A_2\\cdots A_n$ is bicentric, that is, it has both an inscribed and a circumscribed circle. Set $A_{i+n} = A_i$ for every integer $i$ (all indices modulo $n$). Suppose that for all $i$ with $1 \\leq i \\leq n$, the rays $A_{i-1}A_i$ and $A_{i+2}A_{i+1}$ meet at the point $B_i$. Let $\\omega_i$ be the circumcircle of triangle $B_iA_iA_{i+1}$. Prove that there is a circle tangent to all $n$ circles $\\omega_i$, for $1 \\leq i \\leq n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2021 Day 2"
+  }
+]

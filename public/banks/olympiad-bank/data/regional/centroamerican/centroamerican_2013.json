@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CENTROAMERICAN_2013_P1",
+    "year": 2013,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Juan writes pairs $(n,3^n)$ and underlines them when $n$ and $3^n$ have the same units digit. What is the 2013th underlined pair?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2013"
+  },
+  {
+    "id": "CENTROAMERICAN_2013_P2",
+    "year": 2013,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$P_1,\\ldots,P_{2013}$ sit at a round table with 10000 coins total. Starting with $P_1$: if even coins, give all to left neighbor; if odd, give an odd amount (at least 1, at most all) to left, keep rest. Prove eventually one person has all the coins.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2013"
+  },
+  {
+    "id": "CENTROAMERICAN_2013_P3",
+    "year": 2013,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Convex quadrilateral $ABCD$; $M$ = midpoint of $AB$. Circle through $D$ tangent to $AB$ at $A$ meets $DM$ at $E$. Circle through $C$ tangent to $AB$ at $B$ meets $CM$ at $F$. If $AF\\cap BE$ lies on the perpendicular bisector of $AB$, prove $A,E,C$ are collinear iff $B,F,D$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2013"
+  },
+  {
+    "id": "CENTROAMERICAN_2013_P4",
+    "year": 2013,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Ana and Beatriz alternate on a grid game starting with a $1\\times 1$ square. Each turn: add a square sharing a full side with the current figure. A player wins if the figure becomes a rectangle with area divisible by 5. If Ana goes first, does either player have a winning strategy?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2013"
+  },
+  {
+    "id": "CENTROAMERICAN_2013_P5",
+    "year": 2013,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with circumcircle $\\Gamma$; bisector of $\\angle A$ meets $BC$ at $D$, $\\Gamma$ at $K$, and tangent from $B$ at $X$. Show $K$ is the midpoint of $AX$ iff $\\dfrac{DC}{AD}=\\sqrt{2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2013"
+  },
+  {
+    "id": "CENTROAMERICAN_2013_P6",
+    "year": 2013,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all pairs of non-constant polynomials $p(x),q(x)$ with leading coefficient 1, degree $n$, and $n$ nonneg­ative integer roots, satisfying $p(x)-q(x)=1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2013"
+  }
+]

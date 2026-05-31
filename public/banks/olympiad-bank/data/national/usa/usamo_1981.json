@@ -1,0 +1,107 @@
+[
+  {
+    "id": "USAMO_1981_P1",
+    "year": 1981,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "The measure of a given angle is $\\frac{180^\\circ}{n}$ where $n$ is a positive integer not divisible by 3. Prove the angle can be trisected by Euclidean means.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1981"
+  },
+  {
+    "id": "USAMO_1981_P2",
+    "year": 1981,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Every pair of communities in a county are linked by exactly one of bus, train, or airplane. All three modes are used, no community is served by all three, and no three communities are pairwise linked by the same mode. Find the largest possible number of communities.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1981"
+  },
+  {
+    "id": "USAMO_1981_P3",
+    "year": 1981,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "If $A,B,C$ are angles of a triangle, prove $-2\\leq\\sin 3A+\\sin 3B+\\sin 3C\\leq\\frac{3\\sqrt{3}}{2}$ and find when equality holds.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1981"
+  },
+  {
+    "id": "USAMO_1981_P4",
+    "year": 1981,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "The sum of all face angles of a convex polyhedral angle equals the sum of all its dihedral angles. Prove it is a trihedral angle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1981"
+  },
+  {
+    "id": "USAMO_1981_P5",
+    "year": 1981,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "If $x$ is a positive real number and $n$ a positive integer, prove $\\lfloor nx\\rfloor>\\frac{\\lfloor x\\rfloor}{1}+\\frac{\\lfloor 2x\\rfloor}{2}+\\cdots+\\frac{\\lfloor nx\\rfloor}{n}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1981"
+  }
+]

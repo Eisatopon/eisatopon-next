@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_2016_P1",
+    "year": 2016,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Ana chooses $N \\geq 0$; Beto writes a sequence of $2016$ numbers ($1008$ ones and $1008$ negative ones). Ana splits it into consecutive blocks and sums each block; then sums the squares of those sums. If equal to $N$, Ana wins. Find all $N$ for which Ana can guarantee a win.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2016"
+  },
+  {
+    "id": "RIOPLATENSE_2016_P2",
+    "year": 2016,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $n$ for which there exist positive reals $x, y, z$ with $\\sqrt{x} + \\sqrt{y} + \\sqrt{z} = 1$ and $\\sqrt{x+n} + \\sqrt{y+n} + \\sqrt{z+n}$ an integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2016"
+  },
+  {
+    "id": "RIOPLATENSE_2016_P3",
+    "year": 2016,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with circumcenter $O$ and orthocenter $H$. $M$ = midpoint of $BC$; $N$ = reflection of $H$ over $A$; $P$ = midpoint of $NM$; $X$ on line $AH$ with $MX \\parallel CH$. Prove $BX \\perp OP$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2016"
+  },
+  {
+    "id": "RIOPLATENSE_2016_P4",
+    "year": 2016,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A function $f : [0,1] \\to \\mathbb{R}$ is \\textit{$c$-friendly} if $f(0)=0$, $f(1)=1$, and $|f(x)-f(y)| \\leq c|x-y|$ for all $x,y$. Find the maximum of $|f(x)-f(y)|$ over all $c$-friendly $f$ and $x, y \\in [0,1]$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2016"
+  },
+  {
+    "id": "RIOPLATENSE_2016_P5",
+    "year": 2016,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A $29 \\times 29$ table starts with 0s. A move adds 1 to all cells of a $5 \\times 5$ subtable. After 1000 moves, find the maximum $n$ such that some four cells (vertices of a square, not necessarily axis-aligned) have values summing to at least $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2016"
+  },
+  {
+    "id": "RIOPLATENSE_2016_P6",
+    "year": 2016,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Natural numbers are written in increasing order: $123456789101112\\ldots$ Let $A_k$ be the number formed by the first $k$ digits. Prove that for all positive integers $n$, there exists $m$ such that $n \\mid A_m$, $n \\mid m$, and $n \\mid S(A_m)$ (digit sum).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2016"
+  }
+]

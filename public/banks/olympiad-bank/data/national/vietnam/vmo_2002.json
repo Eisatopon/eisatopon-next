@@ -1,0 +1,128 @@
+[
+  {
+    "id": "VMO_2002_D1_P1",
+    "year": 2002,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Solve the equation $\\sqrt{4 - 3\\sqrt{10 - 3x}} = x - 2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2002 Day 1"
+  },
+  {
+    "id": "VMO_2002_D1_P2",
+    "year": 2002,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "An isosceles triangle $ABC$ with $AB = AC$ is given. A variable circle $(O)$ with center on line $BC$ passes through $A$ and does not touch lines $AB$ or $AC$. Let $M$ and $N$ be the second intersections of $(O)$ with lines $AB$ and $AC$. Find the locus of the orthocenter of triangle $AMN$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2002 Day 1"
+  },
+  {
+    "id": "VMO_2002_D1_P3",
+    "year": 2002,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Given positive integers $m < 2001$ and $n < 2002$. Distinct real numbers are written in the cells of a $2001 \\times 2002$ board. A cell is called \\emph{bad} if its number is smaller than at least $m$ numbers in the same column and at least $n$ numbers in the same row. Let $s$ be the total number of bad cells. Find the least possible value of $s$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2002 Day 1"
+  },
+  {
+    "id": "VMO_2002_D2_P1",
+    "year": 2002,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c$ be real numbers for which $x^3 + ax^2 + bx + c$ has three real roots. Prove that\n$$12ab + 27c \\leq 6a^3 + 10(a^2 - 2b)^{3/2}.$$\nWhen does equality occur?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2002 Day 2"
+  },
+  {
+    "id": "VMO_2002_D2_P2",
+    "year": 2002,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine all positive integers $n$ for which the equation $a + b + c + d = n\\sqrt{abcd}$ has positive integer solutions.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2002 Day 2"
+  },
+  {
+    "id": "VMO_2002_D2_P3",
+    "year": 2002,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For a positive integer $n$, consider the equation\n$$\\frac{1}{x-1} + \\frac{1}{4x-1} + \\cdots + \\frac{1}{k^2x-1} + \\cdots + \\frac{1}{n^2x-1} = \\frac{1}{2}.$$\na) Prove that for every $n$, this equation has a unique root $x_n > 1$.\nb) Prove that $\\lim_{n \\to \\infty} x_n = 4$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2002 Day 2"
+  }
+]

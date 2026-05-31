@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_2004_P1",
+    "year": 2004,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "The sequence $(a_n)_{n \\geq 0}$ satisfies $a_{m+n} + a_{m-n} - m + n - 1 = \\frac{1}{2}(a_{2m} + a_{2n})$ for nonneg­ative integers $m \\geq n$. Given $a_1 = 3$, find $a_{2004}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2004"
+  },
+  {
+    "id": "BALKAN_MO_2004_P2",
+    "year": 2004,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Solve in primes: $x^y - y^x = xy^2 - 19$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2004"
+  },
+  {
+    "id": "BALKAN_MO_2004_P3",
+    "year": 2004,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $O$ be an interior point of acute triangle $ABC$. Circles centered at midpoints of the sides passing through $O$ meet pairwise again at $K$, $L$, $M$ (other than $O$). Prove $O$ is the incenter of $\\triangle KLM$ if and only if $O$ is the circumcenter of $\\triangle ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2004"
+  },
+  {
+    "id": "BALKAN_MO_2004_P4",
+    "year": 2004,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "The plane is divided into regions by finitely many lines, no three concurrent. Assign integers to regions so that: (i) the product of integers for any two neighbors is less than their sum; (ii) for each line and each half-plane it determines, the sum of integers in that half-plane is zero. Prove this is possible if and only if the lines are not all parallel.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2004"
+  }
+]

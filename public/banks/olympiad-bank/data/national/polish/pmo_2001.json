@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_2001_P1",
+    "year": 2001,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove: $x_1+2x_2+\\cdots+nx_n\\leq\\frac{n(n-1)}{2}+x_1+x_2^2+\\cdots+x_n^n$ for all $x_i>0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2001"
+  },
+  {
+    "id": "PMO_2001_P2",
+    "year": 2001,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Regular tetrahedron $ABCD$ with edge 1. $P$ is inside. Maximize $|PA|+|PB|+|PC|+|PD|$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2001"
+  },
+  {
+    "id": "PMO_2001_P3",
+    "year": 2001,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A Fibonacci-type sequence has $x_0=A$, $x_1=B$, $x_{n+2}=x_{n+1}+x_n$. Value $C$ is a repeated value if $x_s=x_t=C$ for some $s\\neq t$. Prove one can choose $A,B$ to have as many repeated values as desired, but never infinitely many.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2001"
+  },
+  {
+    "id": "PMO_2001_P4",
+    "year": 2001,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "If $a,b$ are integers and $2^na+b$ is a perfect square for every $n$, prove $a=0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2001"
+  },
+  {
+    "id": "PMO_2001_P5",
+    "year": 2001,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Parallelogram $ABCD$; $K\\in BC$, $L\\in CD$ with $BK\\cdot AD=DL\\cdot AB$; $P=DK\\cap BL$. Show $\\angle DAP=\\angle BAC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2001"
+  },
+  {
+    "id": "PMO_2001_P6",
+    "year": 2001,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Positive integers $n_1<\\cdots<n_{2000}<10^{100}$. Prove one can choose nonempty disjoint $A,B$ from this set with the same number of elements, same sum, and same sum of squares.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2001"
+  }
+]

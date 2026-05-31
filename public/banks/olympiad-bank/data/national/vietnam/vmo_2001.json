@@ -1,0 +1,128 @@
+[
+  {
+    "id": "VMO_2001_D1_P1",
+    "year": 2001,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A circle with center $O$ meets a circle with center $O'$ at $A$ and $B$. The common external tangent $TT'$ touches the first circle at $T$ and the second at $T'$. The perpendiculars from $T$ and $T'$ to line $OO'$ meet it at $S$ and $S'$. Ray $AS$ meets the first circle again at $R$, and ray $AS'$ meets the second circle again at $R'$. Show that $R, B, R'$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2001 Day 1"
+  },
+  {
+    "id": "VMO_2001_D1_P2",
+    "year": 2001,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $N = 6^n$ where $n$ is a positive integer, and let $M = a^N + b^N$ where $a, b$ are coprime integers greater than 1. Suppose $M$ has at least two odd prime divisors greater than 1, call them $p$ and $q$. Find the residue of $p^N + q^N \\pmod{6 \\cdot 12^n}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2001 Day 1"
+  },
+  {
+    "id": "VMO_2001_D1_P3",
+    "year": 2001,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For real $a, b$, define the sequence $x_0, x_1, x_2, \\ldots$ by $x_0 = a$ and $x_{n+1} = x_n + b\\sin x_n$. If $b = 1$, show that the sequence converges to a finite limit for all $a$. If $b > 2$, show that the sequence diverges for some $a$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2001 Day 1"
+  },
+  {
+    "id": "VMO_2001_D2_P1",
+    "year": 2001,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find the maximum value of $\\dfrac{1}{x^2} + \\dfrac{2}{y^2} + \\dfrac{3}{z^2}$, where $x, y, z$ are positive reals satisfying $\\dfrac{1}{\\sqrt{2}} \\leq z < \\dfrac{\\min(x\\sqrt{2},\\, y\\sqrt{3})}{2}$, $x + z\\sqrt{3} \\geq \\sqrt{6}$, and $y\\sqrt{3} + z\\sqrt{10} \\geq 2\\sqrt{5}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2001 Day 2"
+  },
+  {
+    "id": "VMO_2001_D2_P2",
+    "year": 2001,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all real-valued continuous functions on $(-1,1)$ such that $(1-x^2)f\\!\\left(\\dfrac{2x}{1+x^2}\\right) = (1+x^2)^2 f(x)$ for all $x$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2001 Day 2"
+  },
+  {
+    "id": "VMO_2001_D2_P3",
+    "year": 2001,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $(a_1, a_2, \\ldots, a_{2n})$ be a permutation of $\\{1, 2, \\ldots, 2n\\}$ such that $|a_i - a_{i+1}| \\neq |a_j - a_{j+1}|$ for $i \\neq j$. Show that $a_1 = a_{2n} + n$ if and only if $1 \\leq a_{2i} \\leq n$ for $i = 1, 2, \\ldots, n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2001 Day 2"
+  }
+]

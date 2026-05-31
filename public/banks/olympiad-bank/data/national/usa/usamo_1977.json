@@ -1,0 +1,107 @@
+[
+  {
+    "id": "USAMO_1977_P1",
+    "year": 1977,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine all pairs of positive integers $(m,n)$ such that $1+x^n+x^{2n}+\\cdots+x^{mn}$ is divisible by $1+x+x^2+\\cdots+x^m$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1977"
+  },
+  {
+    "id": "USAMO_1977_P2",
+    "year": 1977,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$ABC$ and $A'B'C'$ are triangles in the same plane with $AA'\\parallel BB'\\parallel CC'$. Prove that $3([ABC]+[A'B'C'])=[AB'C']+[BC'A']+[CA'B']+[A'BC]+[B'CA]+[C'AB]$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1977"
+  },
+  {
+    "id": "USAMO_1977_P3",
+    "year": 1977,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "If $a$ and $b$ are two roots of $x^4+x^3-1=0$, prove that $ab$ is a root of $x^6+x^4+x^3-x^2-1=0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1977"
+  },
+  {
+    "id": "USAMO_1977_P4",
+    "year": 1977,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Prove that if the opposite sides of a skew quadrilateral are congruent, then the line joining the midpoints of the diagonals is perpendicular to both diagonals; and conversely.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1977"
+  },
+  {
+    "id": "USAMO_1977_P5",
+    "year": 1977,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "If $a,b,c,d,e \\in [p,q]$ with $0<p$, prove $(a+b+c+d+e)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}+\\frac{1}{e}\\right) \\leq 25+6\\left(\\sqrt{\\frac{p}{q}}-\\sqrt{\\frac{q}{p}}\\right)^2$ and find when equality holds.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1977"
+  }
+]

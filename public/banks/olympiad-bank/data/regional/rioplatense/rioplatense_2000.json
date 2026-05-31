@@ -1,0 +1,128 @@
+[
+  {
+    "id": "RIOPLATENSE_2000_P1",
+    "year": 2000,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a$ and $b$ be positive integers such that $b^2 + (b+1)^2 + \\cdots + (b+a)^2 - 3$ is divisible by 5 and $a + b$ is odd. Find the units digit of $a + b$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2000"
+  },
+  {
+    "id": "RIOPLATENSE_2000_P2",
+    "year": 2000,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, points $D \\in BC$, $E \\in CA$, $F \\in AB$ are such that $[AFE] = [BFD] = [CDE]$. Prove $\\dfrac{[DEF]}{[ABC]} \\geq \\dfrac{1}{4}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2000"
+  },
+  {
+    "id": "RIOPLATENSE_2000_P3",
+    "year": 2000,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $n > 1$ be an integer. For all $(x_1, \\ldots, x_n)$ with $x_1^2 + \\cdots + x_n^2 = 1$, define $m = \\min\\{|x_i - x_j| : 1 \\leq i < j \\leq n\\}$. Find the maximum possible value of $m$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2000"
+  },
+  {
+    "id": "RIOPLATENSE_2000_P4",
+    "year": 2000,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a, b, c$ be positive integers with $a^2 + b^2 + 1 = c^2$. Prove that $\\lfloor a/2 \\rfloor + \\lfloor c/2 \\rfloor$ is even.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2000"
+  },
+  {
+    "id": "RIOPLATENSE_2000_P5",
+    "year": 2000,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$ with $AB < AC$, $L$ is the midpoint of arc $BC$ of the circumcircle $\\omega$ not containing $A$. $E \\in AC$ with $2AE = AB + AC$; line $EL$ meets $\\omega$ again at $P$. Let $M$, $N$ be midpoints of $AB$, $BC$. Prove $AL$, $BP$, $MN$ are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2000"
+  },
+  {
+    "id": "RIOPLATENSE_2000_P6",
+    "year": 2000,
+    "olympiad": "RIOPLATENSE",
+    "olympiad_full_name": "Rioplatense Mathematical Olympiad",
+    "scope": "regional",
+    "region": "rioplatense",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $g(x) = ax^2 + bx + c$ be quadratic with real coefficients ($a \\neq 0$) such that $g(g(x)) = x$ has four distinct real roots. Prove there is no $f : \\mathbb{R} \\to \\mathbb{R}$ with $f(f(x)) = g(x)$ for all $x$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Rioplatense Mathematical Olympiad 2000"
+  }
+]

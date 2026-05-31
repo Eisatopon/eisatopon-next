@@ -1,0 +1,86 @@
+[
+  {
+    "id": "JUNIOR_BALKAN_MO_2016_P1",
+    "year": 2016,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Trapezoid $ABCD$ ($AB \\parallel CD$, $AB > CD$) is circumscribed. The incircle of $\\triangle ABC$ touches $AB$ at $M$ and $AC$ at $N$. Prove the incenter of $ABCD$ lies on line $MN$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2016"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2016_P2",
+    "year": 2016,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a, b, c > 0$. Prove $\\dfrac{8}{(a+b)^2+4abc} + \\dfrac{8}{(b+c)^2+4abc} + \\dfrac{8}{(a+c)^2+4abc} + a^2+b^2+c^2 \\geq \\dfrac{8}{a+3} + \\dfrac{8}{b+3} + \\dfrac{8}{c+3}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2016"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2016_P3",
+    "year": 2016,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integer triples $(a,b,c)$ such that $N = \\dfrac{(a-b)(b-c)(c-a)}{2} + 2$ is a power of 2016.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2016"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2016_P4",
+    "year": 2016,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A $5 \\times 5$ table is \\textit{regular} if each cell contains one of four distinct reals, each appearing exactly once in every $2 \\times 2$ subtable. For any four numbers, construct all regular tables and compute their total sums. Find the maximum number of distinct total sums.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2016"
+  }
+]

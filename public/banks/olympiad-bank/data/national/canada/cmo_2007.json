@@ -1,0 +1,108 @@
+[
+  {
+    "id": "CMO_2007_P1",
+    "year": 2007,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "What is the maximum number of non-overlapping $2 \\times 1$ dominoes that can be placed on an $8 \\times 9$ checkerboard if six of them are placed as shown? Each domino must be placed horizontally or vertically to cover two adjacent squares of the board.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2007"
+  },
+  {
+    "id": "CMO_2007_P2",
+    "year": 2007,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "You are given a pair of triangles for which two sides of one triangle are equal in length to two sides of the second triangle, and the triangles are similar but not necessarily congruent. Prove that the ratio of the sides that correspond under the similarity lies strictly between $\\dfrac{1}{2}(\\sqrt{5}-1)$ and $\\dfrac{1}{2}(\\sqrt{5}+1)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2007"
+  },
+  {
+    "id": "CMO_2007_P3",
+    "year": 2007,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Suppose that $f$ is a real-valued function satisfying\n$$f(xy) + f(y - x) \\geq f(y + x)$$\nfor all real numbers $x$ and $y$.\n\n(a) Give a non-constant polynomial that satisfies the condition.\n\n(b) Prove that $f(x) \\geq 0$ for all real $x$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2007"
+  },
+  {
+    "id": "CMO_2007_P4",
+    "year": 2007,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For two real numbers $a, b$ with $ab \\neq 1$, define $a \\ast b = \\dfrac{a + b - 2ab}{1 - ab}$. Start with a list of $n \\geq 2$ real numbers, all satisfying $0 < x < 1$. Repeatedly select any two numbers $a$ and $b$ from the list, remove them, and append $a \\ast b$, reducing the list length by one. Repeat until one number remains.\n\n(a) Prove that this final number is independent of the order in which pairs are chosen.\n\n(b) If the condition is weakened to $0 < x \\leq 1$, what happens if the list contains exactly one $1$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2007"
+  },
+  {
+    "id": "CMO_2007_P5",
+    "year": 2007,
+    "olympiad": "CMO",
+    "olympiad_full_name": "Canadian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Canada",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let the incircle of triangle $ABC$ touch sides $BC$, $CA$, $AB$ at $D$, $E$, $F$ respectively. Let $\\omega$, $\\omega_1$, $\\omega_2$, $\\omega_3$ denote the circumcircles of triangles $ABC$, $AEF$, $BDF$, $CDE$ respectively. Let $\\omega$ and $\\omega_1$ intersect at $A$ and $P$; $\\omega$ and $\\omega_2$ at $B$ and $Q$; $\\omega$ and $\\omega_3$ at $C$ and $R$.\n\n(a) Prove that $\\omega_1$, $\\omega_2$, $\\omega_3$ intersect in a common point.\n\n(b) Show that $PD$, $QE$, and $RF$ are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Canadian Mathematical Olympiad 2007"
+  }
+]

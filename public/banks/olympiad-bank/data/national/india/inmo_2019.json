@@ -1,0 +1,128 @@
+[
+  {
+    "id": "INMO_2019_P1",
+    "year": 2019,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with $\\angle BAC > 90^\\circ$. $D$ on $BC$; $E$ on line $AD$ with $AB$ tangent to circumcircle of $\\triangle ACD$ at $A$ and $BE \\perp AD$. Given $CA = CD$ and $AE = CE$, find $\\angle BCA$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2019"
+  },
+  {
+    "id": "INMO_2019_P2",
+    "year": 2019,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $A_1B_1C_1D_1E_1$ be a regular pentagon. For $2 \\leq n \\leq 11$, let $A_nB_nC_nD_nE_n$ have vertices at midpoints of sides of the previous pentagon. All 55 vertices are colored red or blue. Prove four same-colored points form a cyclic quadrilateral.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2019"
+  },
+  {
+    "id": "INMO_2019_P3",
+    "year": 2019,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For distinct positive integers $m, n$, prove $\\gcd(m,n) + \\gcd(m+1,n+1) + \\gcd(m+2,n+2) \\leq 2|m-n| + 1$ and find when equality holds.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2019"
+  },
+  {
+    "id": "INMO_2019_P4",
+    "year": 2019,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n, M$ be positive integers with $M > n^{n-1}$. Prove there are $n$ distinct primes $p_1,\\ldots,p_n$ with $p_j \\mid M+j$ for all $1 \\leq j \\leq n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2019"
+  },
+  {
+    "id": "INMO_2019_P5",
+    "year": 2019,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$AB$ is a diameter of circle $\\Gamma$; $C$ on $\\Gamma$; $D$ = foot from $C$ on $AB$; $K$ on $CD$ with $AC$ equal to the semiperimeter of $\\triangle ADK$. Show the excircle of $\\triangle ADK$ opposite $A$ is tangent to $\\Gamma$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2019"
+  },
+  {
+    "id": "INMO_2019_P6",
+    "year": 2019,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "$f$ defined on $\\{(x,y) : xy \\neq 0\\}$ to positive reals with (i) $f(xy,z) = f(x,z)f(y,z)$; (ii) $f(x,yz) = f(x,y)f(x,z)$; (iii) $f(x,1-x)=1$ for $x \\neq 0,1$. Prove: (a) $f(x,x) = f(x,-x) = 1$; (b) $f(x,y)f(y,x) = 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2019"
+  }
+]

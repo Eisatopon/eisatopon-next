@@ -1,0 +1,86 @@
+[
+  {
+    "id": "JUNIOR_BALKAN_MO_2007_P1",
+    "year": 2007,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $a > 0$ with $a^3 = 6(a+1)$. Prove $x^2 + ax + a^2 - 6 = 0$ has no real solutions.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2007"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2007_P2",
+    "year": 2007,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In convex quadrilateral $ABCD$: $\\angle DAC = \\angle BDC = 36^\\circ$, $\\angle CBD = 18^\\circ$, $\\angle BAC = 72^\\circ$. Diagonals meet at $P$. Find $\\angle APD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2007"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2007_P3",
+    "year": 2007,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "50 points in the plane, no three collinear, each colored with one of 4 colors. Prove some color determines at least 130 scalene triangles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2007"
+  },
+  {
+    "id": "JUNIOR_BALKAN_MO_2007_P4",
+    "year": 2007,
+    "olympiad": "JUNIOR_BALKAN_MO",
+    "olympiad_full_name": "Junior Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that if $p$ is prime, then $7^p + 3^p - 4$ is not a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Junior Balkan Mathematical Olympiad 2007"
+  }
+]

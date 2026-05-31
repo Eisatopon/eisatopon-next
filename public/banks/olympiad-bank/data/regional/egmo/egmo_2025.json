@@ -1,0 +1,128 @@
+[
+  {
+    "id": "EGMO_2025_D1_P1",
+    "year": 2025,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For a positive integer $N$, let $c_1 < c_2 < \\cdots < c_m$ be all positive integers smaller than $N$ that are coprime to $N$. Find all $N \\geq 3$ such that $\\gcd(N,\\, c_i + c_{i+1}) \\neq 1$ for all $1 \\leq i \\leq m-1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2025"
+  },
+  {
+    "id": "EGMO_2025_D1_P2",
+    "year": 2025,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "An infinite increasing sequence $a_1 < a_2 < a_3 < \\cdots$ of positive integers is called \\textit{central} if for every positive integer $n$, the arithmetic mean of the first $a_n$ terms equals $a_n$. Show that there exists an infinite sequence $b_1, b_2, b_3, \\ldots$ of positive integers such that for every central sequence $a_1, a_2, a_3, \\ldots$, there are infinitely many positive integers $n$ with $a_n = b_n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2025"
+  },
+  {
+    "id": "EGMO_2025_D1_P3",
+    "year": 2025,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be an acute triangle. Points $B$, $D$, $E$, $C$ lie on a line in this order with $BD = DE = EC$. Let $M$ and $N$ be the midpoints of $AD$ and $AE$. Suppose triangle $ADE$ is acute with orthocenter $H$. Points $P$ and $Q$ lie on lines $BM$ and $CN$ respectively such that $D$, $H$, $M$, $P$ are concyclic and pairwise different, and $E$, $H$, $N$, $Q$ are concyclic and pairwise different. Prove that $P$, $Q$, $N$, $M$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2025"
+  },
+  {
+    "id": "EGMO_2025_D2_P4",
+    "year": 2025,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be an acute triangle with incenter $I$ and $AB \\neq AC$. Lines $BI$ and $CI$ intersect the circumcircle of $ABC$ at $P \\neq B$ and $Q \\neq C$ respectively. Consider points $R$ and $S$ such that $AQRB$ and $ACSP$ are parallelograms (with $AQ \\parallel RB$, $AB \\parallel QR$, $AC \\parallel SP$, $AP \\parallel CS$). Let $T$ be the intersection of lines $RB$ and $SC$. Prove that $R$, $S$, $T$, $I$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2025"
+  },
+  {
+    "id": "EGMO_2025_D2_P5",
+    "year": 2025,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n > 1$ be an integer. In a \\textit{configuration} of an $n \\times n$ board, each of the $n^2$ cells contains an arrow pointing up, down, left, or right. Given a starting configuration, Turbo the snail starts in one cell and moves in the direction of the arrow, rotating all arrows $90^\\circ$ counterclockwise after each move. A cell is \\textit{good} if starting from it, Turbo visits each cell exactly once and returns to the start. Determine, in terms of $n$, the maximum number of good cells over all configurations.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2025"
+  },
+  {
+    "id": "EGMO_2025_D2_P6",
+    "year": 2025,
+    "olympiad": "EGMO",
+    "olympiad_full_name": "European Girls' Mathematical Olympiad",
+    "scope": "regional",
+    "region": "european_girls",
+    "country": null,
+    "gender_restricted": true,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "In each cell of a $2025 \\times 2025$ board, a nonneg­ative real number is written so that each row sums to 1 and each column sums to 1. Let $r_i$ be the largest value in row $i$ and $R = r_1 + r_2 + \\cdots + r_{2025}$. Let $c_i$ be the largest value in column $i$ and $C = c_1 + c_2 + \\cdots + c_{2025}$. What is the largest possible value of $\\dfrac{R}{C}$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "European Girls' Mathematical Olympiad 2025"
+  }
+]

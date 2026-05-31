@@ -1,0 +1,170 @@
+[
+  {
+    "id": "FRANCOPHONE_2020_P1",
+    "year": 2020,
+    "olympiad": "FRANCOPHONE",
+    "olympiad_full_name": "Francophone Mathematical Olympiad",
+    "scope": "regional",
+    "region": "francophone",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle with $AB < AC$, $\\omega$ its incircle and $\\Gamma$ its circumcircle. Let $\\omega_b$ be the excircle relative to vertex $B$; $B'$ is the tangency point of $\\omega_b$ with line $AC$. Let $\\omega_c$ be the excircle relative to vertex $C$; $C'$ is the tangency point of $\\omega_c$ with line $AB$. Let $I$ be the center of $\\omega$ and $X$ the point of $\\Gamma$ such that $\\angle XAI = 90^\\circ$. Prove that triangles $XBC'$ and $XCB'$ are congruent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Francophone Mathematical Olympiad 2020"
+  },
+  {
+    "id": "FRANCOPHONE_2020_P2",
+    "year": 2020,
+    "olympiad": "FRANCOPHONE",
+    "olympiad_full_name": "Francophone Mathematical Olympiad",
+    "scope": "regional",
+    "region": "francophone",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Emperor Zorg founds a colony of $n$ cities, each speaking exactly one of 2020 official languages. Some cities are connected by air links (bidirectional, cost 1 galactic credit). He wants: any two cities speaking the same language can travel between each other, and the cheapest trip costs exactly 2020 credits. For which values of $n$ can Emperor Zorg fulfill his dream?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Francophone Mathematical Olympiad 2020"
+  },
+  {
+    "id": "FRANCOPHONE_2020_P3",
+    "year": 2020,
+    "olympiad": "FRANCOPHONE",
+    "olympiad_full_name": "Francophone Mathematical Olympiad",
+    "scope": "regional",
+    "region": "francophone",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $n \\geq 1$ be an integer. Find, as a function of $n$, the smallest integer $k \\geq 2$ such that among any $k$ real numbers, there necessarily exist two whose absolute difference is either strictly less than $\\dfrac{1}{n}$ or strictly greater than $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Francophone Mathematical Olympiad 2020"
+  },
+  {
+    "id": "FRANCOPHONE_2020_P4",
+    "year": 2020,
+    "olympiad": "FRANCOPHONE",
+    "olympiad_full_name": "Francophone Mathematical Olympiad",
+    "scope": "regional",
+    "region": "francophone",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integers $x, y, z \\geq 0$ such that $2^x + 9 \\cdot 7^y = z^3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Francophone Mathematical Olympiad 2020"
+  },
+  {
+    "id": "FRANCOPHONE_2020_P5",
+    "year": 2020,
+    "olympiad": "FRANCOPHONE",
+    "olympiad_full_name": "Francophone Mathematical Olympiad",
+    "scope": "regional",
+    "region": "francophone",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be an acute triangle with $AC > AB$. Let $DEF$ be the contact triangle with $D \\in BC$, $E \\in AC$, $F \\in AB$. Let $G$ be the intersection of the perpendicular from $D$ to $EF$ with $AB$, and $X = \\odot(ABC) \\cap \\odot(AEF)$ (second intersection). Prove that $B$, $D$, $G$, $X$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Francophone Mathematical Olympiad 2020"
+  },
+  {
+    "id": "FRANCOPHONE_2020_P6",
+    "year": 2020,
+    "olympiad": "FRANCOPHONE",
+    "olympiad_full_name": "Francophone Mathematical Olympiad",
+    "scope": "regional",
+    "region": "francophone",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $a_1, a_2, \\ldots, a_n$ be a finite sequence of nonneg­ative integers. A subsequence is any sequence of the form $a_i, a_{i+1}, \\ldots, a_j$ with $1 \\leq i \\leq j \\leq n$. A subsequence is palindromic if $a_{i+k} = a_{j-k}$ for all valid $k$. What is the greatest number of distinct palindromic subsequences that a palindromic sequence of length $n$ can contain?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Francophone Mathematical Olympiad 2020"
+  },
+  {
+    "id": "FRANCOPHONE_2020_P7",
+    "year": 2020,
+    "olympiad": "FRANCOPHONE",
+    "olympiad_full_name": "Francophone Mathematical Olympiad",
+    "scope": "regional",
+    "region": "francophone",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P7",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $(a_i)_{i \\geq 1}$ be a sequence with $a_1 = 23$ and $a_{n+1} = 1 + \\dfrac{n}{a_n}$. Find $n$ such that $2020 \\leq a_n < 2021$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Francophone Mathematical Olympiad 2020"
+  },
+  {
+    "id": "FRANCOPHONE_2020_P8",
+    "year": 2020,
+    "olympiad": "FRANCOPHONE",
+    "olympiad_full_name": "Francophone Mathematical Olympiad",
+    "scope": "regional",
+    "region": "francophone",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $(a_i)_{i \\geq 1}$ be a sequence of positive integers such that for any finite nonempty subset $S$ of $\\mathbb{N}$, the integer $\\prod_{k \\in S} a_k - 1$ is prime. Prove that the number of $a_i$ with fewer than $m$ distinct prime factors is finite.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Francophone Mathematical Olympiad 2020"
+  }
+]

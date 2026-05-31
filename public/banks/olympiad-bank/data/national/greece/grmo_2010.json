@@ -1,0 +1,88 @@
+[
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_2010_P1",
+    "year": 2010,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Solve in integers the Diophantine equation $x^4-6x^2+1=7\\cdot 2^y$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c5190"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_2010_P2",
+    "year": 2010,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra",
+      "Inequalities"
+    ],
+    "statement": "If $x,y$ are positive real numbers with sum $2a$, prove that $x^3y^3(x^2+y^2)^2\\leq 4a^{10}$. When does equality hold?",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c5190"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_2010_P3",
+    "year": 2010,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A triangle $ABC$ is inscribed in a circle $C(O,R)$ and has incenter $I$. Lines $AI,BI,CI$ meet the circumcircle at points $D,E,F$ respectively. The circles with diameter $ID,IE,IF$ meet the sides $BC,CA,AB$ at pairs of points $(A_1,A_2),(B_1,B_2),(C_1,C_2)$ respectively. Prove that the six points $A_1,A_2,B_1,B_2,C_1,C_2$ are concyclic.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c5190"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_2010_P4",
+    "year": 2010,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics",
+      "Geometry"
+    ],
+    "statement": "On the plane are given $k+n$ distinct lines ($k>1$ integer, $n$ integer), no three concurrent. Exactly $k$ are parallel and the other $n$ intersect each other. All $k+n$ lines define a partition of triangular, polygonal or unbounded regions. A region is 'good' if it is contained between two parallel lines. If the minimum number of good regions is 176 and the maximum is 221, find $k$ and $n$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c5190"
+  }
+]

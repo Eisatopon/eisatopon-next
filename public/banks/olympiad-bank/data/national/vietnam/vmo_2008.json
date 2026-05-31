@@ -1,0 +1,149 @@
+[
+  {
+    "id": "VMO_2008_D1_P1",
+    "year": 2008,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Determine the number of solutions of the simultaneous equations $x^2 + y^3 = 29$ and $\\log_3 x \\cdot \\log_2 y = 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2008"
+  },
+  {
+    "id": "VMO_2008_D1_P2",
+    "year": 2008,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given a triangle with acute angle $\\angle BEC$, let $E$ be the midpoint of $AB$. Point $M$ is chosen on the opposite ray of $EC$ such that $\\angle BME = \\angle ECA$. Denote by $\\theta$ the measure of $\\angle BEC$. Evaluate $\\dfrac{MC}{AB}$ in terms of $\\theta$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2008"
+  },
+  {
+    "id": "VMO_2008_D1_P3",
+    "year": 2008,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $m = 2007^{2008}$. How many natural numbers $n$ are there such that $n < m$ and $m \\mid n(2n+1)(5n+2)$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2008"
+  },
+  {
+    "id": "VMO_2008_D1_P4",
+    "year": 2008,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "The sequence $(x_n)$ is defined by $x_1 = 0$, $x_2 = 2$ and $x_{n+2} = 2^{-x_n} + \\tfrac{1}{2}$ for all $n = 1, 2, 3, \\ldots$ Prove that the sequence has a limit as $n \\to +\\infty$ and determine the limit.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2008"
+  },
+  {
+    "id": "VMO_2008_D1_P5",
+    "year": 2008,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "How many natural numbers divisible by 9, with at most 2008 digits, have at least two digits equal to 9?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2008"
+  },
+  {
+    "id": "VMO_2008_D1_P6",
+    "year": 2008,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $x, y, z$ be distinct non-negative real numbers. Prove that\n$$\\frac{1}{(x-y)^2} + \\frac{1}{(y-z)^2} + \\frac{1}{(z-x)^2} \\geq \\frac{4}{xy+yz+zx}.$$\nWhen does equality hold?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2008"
+  },
+  {
+    "id": "VMO_2008_D1_P7",
+    "year": 2008,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $AD$ be a median of triangle $ABC$. Let $d$ be the line perpendicular to $AD$ and $M$ a point on $d$. Let $E, F$ be the midpoints of $MB, MC$. The line through $E$ perpendicular to $d$ meets $AB$ at $P$. The line through $F$ perpendicular to $d$ meets $AC$ at $Q$. Let $d'$ be the line through $M$ perpendicular to $PQ$. Prove that $d'$ always passes through a fixed point.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 2008"
+  }
+]

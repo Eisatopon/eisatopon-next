@@ -1,0 +1,65 @@
+[
+  {
+    "id": "VMO_1972_D1_P1",
+    "year": 1972,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $x = \\cos\\alpha$, $y = \\cos n\\alpha$ ($n \\in \\mathbb{Z}$).\ni) Prove that to each $x \\in [-1,1]$ corresponds exactly one value of $y$, so we can write $y = T_n(x)$. Compute $T_1(x)$, $T_2(x)$ and prove $T_{n+1}(x) = 2xT_n(x) - T_{n-1}(x)$. Conclude $T_n(x)$ is a polynomial of degree $n$.\nii) Prove that $T_n(x)$ has $n$ distinct roots in $[-1,1]$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1972"
+  },
+  {
+    "id": "VMO_1972_D1_P3",
+    "year": 1972,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Triangle $ABC$ with $I$ the midpoint of $BC$. $U$ is a point on line $BC$. The line through $C$ parallel to $AI$ meets $AU$ at $E$. The line through $E$ parallel to $BC$ meets $AB$ at $F$. The line through $E$ parallel to $AB$ meets $BC$ at $H$. The line through $H$ parallel to $AU$ meets $AB$ at $K$. Lines $HK$ and $FG$ meet at $T$. Let $V$ be on $AU$ such that $A$ is the midpoint of $UV$. Show that $V$, $T$, $I$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1972"
+  },
+  {
+    "id": "VMO_1972_D1_P4",
+    "year": 1972,
+    "olympiad": "VMO",
+    "olympiad_full_name": "Vietnam Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Vietnam",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a regular tetrahedron with side $a$. Take $E, E'$ on $AB$, $F, F'$ on $AC$, $G, G'$ on $AD$ with $AE=a/6$, $AE'=5a/6$, $AF=a/4$, $AF'=3a/4$, $AG=a/3$, $AG'=2a/3$. Compute the volume of $EFGE'F'G'$ in terms of $a$ and find the angles between lines $AB, AC, AD$ and the plane $EFG$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Vietnam National Olympiad 1972"
+  }
+]

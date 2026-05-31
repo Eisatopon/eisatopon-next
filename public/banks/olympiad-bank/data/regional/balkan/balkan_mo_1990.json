@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_1990_P1",
+    "year": 1990,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "The sequence $(a_n)$ is defined by $a_1 = 1$, $a_2 = 3$, $a_{n+2} = (n+3)a_{n+1} - (n+2)a_n$ for $n \\geq 1$. Find all $n$ for which $11 \\mid a_n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1990"
+  },
+  {
+    "id": "BALKAN_MO_1990_P2",
+    "year": 1990,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $P(X) = (X + 2X^2 + \\cdots + nX^n)^2 = a_0 + a_1X + \\cdots + a_{2n}X^{2n}$. Prove that $a_{n+1} + a_{n+2} + \\cdots + a_{2n} = \\dfrac{n(n+1)(5n^2+5n+2)}{24}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1990"
+  },
+  {
+    "id": "BALKAN_MO_1990_P3",
+    "year": 1990,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be acute and $A_1, B_1, C_1$ the feet of its altitudes. The incircle of $\\triangle A_1B_1C_1$ touches its sides at $A_2, B_2, C_2$. Prove that the Euler lines of $\\triangle ABC$ and $\\triangle A_2B_2C_2$ coincide.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1990"
+  },
+  {
+    "id": "BALKAN_MO_1990_P4",
+    "year": 1990,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the least number of elements of a finite set $A$ such that there exists $f : \\mathbb{Z}^+ \\to A$ with $f(i) \\neq f(j)$ whenever $i - j$ is prime.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 1990"
+  }
+]

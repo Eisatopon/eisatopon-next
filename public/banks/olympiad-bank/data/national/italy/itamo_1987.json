@@ -1,0 +1,149 @@
+[
+  {
+    "id": "ITAMO_1987_P1",
+    "year": 1987,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show that $3x^5 + 5x^3 - 8x$ is divisible by 120 for any integer $x$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1987"
+  },
+  {
+    "id": "ITAMO_1987_P2",
+    "year": 1987,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A tetrahedron has the property that the three segments connecting midpoints of opposite edges are equal and mutually orthogonal. Prove the tetrahedron is regular.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1987"
+  },
+  {
+    "id": "ITAMO_1987_P3",
+    "year": 1987,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Show how to construct (with ruler and compass) a right-angled triangle given its inradius and circumradius.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1987"
+  },
+  {
+    "id": "ITAMO_1987_P4",
+    "year": 1987,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Given $I_0 = \\{-1, 1\\}$, define $I_n$ as the set of solutions $x$ of $x^2 - 2xy + y^2 - 4n = 0$ where $y$ ranges over $I_{n-1}$. Determine $\\bigcup_{n \\geq 0} I_n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1987"
+  },
+  {
+    "id": "ITAMO_1987_P5",
+    "year": 1987,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $(a_1, a_2, \\ldots)$ and $(b_1, b_2, \\ldots)$ be two infinite sequences of natural numbers. Prove there exist different indices $r, s$ with $a_r \\geq a_s$ and $b_r \\geq b_s$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1987"
+  },
+  {
+    "id": "ITAMO_1987_P6",
+    "year": 1987,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Three balls of distinct colors are in a bag. We draw one ball at a time and replace it after each drawing. After $n$ drawings, find the probability that (a) exactly one color occurred; (b) exactly two colors occurred; (c) all three colors occurred.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1987"
+  },
+  {
+    "id": "ITAMO_1987_P7",
+    "year": 1987,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P7",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "An $n \\times n$ square grid is divided by unit walls between some cells so that every cell is reachable from every other without crossing a wall. Find (in terms of $n$) the largest possible total length of the walls.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1987"
+  }
+]

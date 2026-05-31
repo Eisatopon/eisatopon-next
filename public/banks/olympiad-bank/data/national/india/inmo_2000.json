@@ -1,0 +1,128 @@
+[
+  {
+    "id": "INMO_2000_P1",
+    "year": 2000,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Incircle of $\\triangle ABC$ touches $BC, CA, AB$ at $K, L, M$. Line through $A$ parallel to $LK$ meets $MK$ at $P$; line through $A$ parallel to $MK$ meets $LK$ at $Q$. Show $PQ$ bisects $AB$ and $AC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2000"
+  },
+  {
+    "id": "INMO_2000_P2",
+    "year": 2000,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Solve for integers $x, y, z$: $x + y = 1 - z$, $x^3 + y^3 = 1 - z^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2000"
+  },
+  {
+    "id": "INMO_2000_P3",
+    "year": 2000,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "If $a, b, c, x$ are real with $abc \\neq 0$ and $\\frac{xb+(1-x)c}{a} = \\frac{xc+(1-x)a}{b} = \\frac{xa+(1-x)b}{c}$, prove $a = b = c$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2000"
+  },
+  {
+    "id": "INMO_2000_P4",
+    "year": 2000,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In convex quadrilateral $PQRS$, $PQ = RS$, $(\\sqrt{3}+1)QR = SP$, and $\\angle RSP - \\angle SQP = 30^\\circ$. Prove $\\angle PQR - \\angle QRS = 90^\\circ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2000"
+  },
+  {
+    "id": "INMO_2000_P5",
+    "year": 2000,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $1 \\geq a \\geq b \\geq c \\geq 0$. If $\\lambda$ is a root of $x^3 + ax^2 + bx + c = 0$, prove $|\\lambda| \\leq 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2000"
+  },
+  {
+    "id": "INMO_2000_P6",
+    "year": 2000,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For $n \\geq 3$, let $f(n)$ = number of congruent integer-sided triangles with perimeter $n$. Show: (i) $f(1999) > f(1996)$; (ii) $f(2000) = f(1997)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2000"
+  }
+]

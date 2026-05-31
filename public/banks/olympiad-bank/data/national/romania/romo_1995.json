@@ -1,0 +1,173 @@
+[
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_1995_IX_P1",
+    "year": 1995,
+    "problem_id": "IX_P1",
+    "topic": [
+      "Number Theory",
+      "Functions"
+    ],
+    "statement": "Let $f:\\mathbb{Z}^+\\to\\mathbb{Z}^+$ be defined by $f(n)=$ the number of perfect squares in the interval $[n^2,2n^2]$. Prove that $f$ is increasing and surjective.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4355777"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_1995_IX_P2",
+    "year": 1995,
+    "problem_id": "IX_P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $XOY$ be an angle of measure $\\alpha\\in(0,\\pi/2)$. For a variable point $M$ on $(OY)$, let $N\\in(OX)$ with $MN\\perp OX$; $P\\in(OY)$ with $NP\\perp OM$; $Q$ the midpoint of $[ON]$; $S=NP\\cap MQ$; $T\\in(OX)$ with $ST\\perp OX$.\\na) Find the locus of $S$.\\nb) Prove $SP=ST$ iff $\\cos 2\\alpha+2\\cos\\alpha=1$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4355777"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_1995_IX_P3",
+    "year": 1995,
+    "problem_id": "IX_P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "The vertex $C$ of triangle $ABC$ is the starting point of rays $[CX\\parallel AB$ and $[CY\\parallel$ bisector of $\\angle BAC$, both in the half-plane of $AC$ containing $B$. A variable secant through $B$ meets $(CX$ at $D$ and $(CY$ at $E$; $AD$ meets $BC$ at $F$. Prove $EF$ passes through a fixed point.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4355777"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_1995_IX_P4",
+    "year": 1995,
+    "problem_id": "IX_P4",
+    "topic": [
+      "Algebra",
+      "Functions"
+    ],
+    "statement": "a) Let $f_1,f_2:\\mathbb{R}\\to\\mathbb{R}$, $f_1(x)=a_1x^2+b_1x+c_1$, $f_2(x)=a_2x^2+b_2x+c_2$ with $a_1a_2<0$. Prove that if their graphs do not intersect, there is a line separating them.\\nb) If $f_1(x)=x^2+\\frac{25}{4}$ and $f_2(x)=-x^2+x$, find all such separating lines.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4355777"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_1995_X_P1",
+    "year": 1995,
+    "problem_id": "X_P1",
+    "topic": [
+      "Analysis",
+      "Algebra"
+    ],
+    "statement": "Let $a_1<a_2<\\cdots<a_n$ be real numbers.\\na) Prove there exist reals $A_1,\\ldots,A_n$ such that $\\prod_{k=1}^n\\frac{1}{x+a_k}=\\sum_{k=1}^n\\frac{A_k}{x+a_k}$ for all $x\\in\\mathbb{R}\\setminus\\{-a_1,\\ldots,-a_n\\}$.\\nb) Prove that the signs of $A_1,\\;A_1+A_2,\\;\\ldots,\\;A_1+\\cdots+A_n$ alternate.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4355777"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_1995_X_P2",
+    "year": 1995,
+    "problem_id": "X_P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $[ABCDA'B'C'D']$ be the frustum of a quadrilateral pyramid and $k>0$. Find the locus of points $M$ in space for which $V_{[MADD'A']}+V_{[MBCC'B']}=k$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4355777"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_1995_X_P3",
+    "year": 1995,
+    "problem_id": "X_P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Consider integer $n\\geq 3$, real $a\\neq 0$, and the equation $\\sqrt[n]{x}+ax+1=0$. Prove that any non-real root $z$ satisfies $|z|\\geq n^{1/(n-1)}$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4355777"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_1995_X_P4",
+    "year": 1995,
+    "problem_id": "X_P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For $A=\\{a_1>a_2>\\cdots>a_p\\}\\subset\\mathbb{Z}_{\\geq 0}$ define $s_A=\\sum_{k=1}^p(-1)^{k+1}a_k$. Let $M\\subset\\mathbb{Z}_{\\geq 0}$ have $n$ elements. Prove that $2^{n-1}$ divides $\\sum_{A\\subseteq M}s_A$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4355777"
+  }
+]

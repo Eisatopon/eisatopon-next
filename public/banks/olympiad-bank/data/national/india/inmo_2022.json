@@ -1,0 +1,65 @@
+[
+  {
+    "id": "INMO_2022_P1",
+    "year": 2022,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $D$ be an interior point on side $BC$ of acute $\\triangle ABC$. The circumcircle of $\\triangle ADB$ meets $AC$ again at $E$; circumcircle of $\\triangle ADC$ meets $AB$ again at $F$. Lines $AD, BE, CF$ meet the circumcircle of $\\triangle ABC$ again at $D_1, E_1, F_1$. Let $I, I_1$ be incenters of $\\triangle DEF$ and $\\triangle D_1E_1F_1$. Prove $E, F, I, I_1$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2022"
+  },
+  {
+    "id": "INMO_2022_P2",
+    "year": 2022,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all natural numbers $n$ for which there is a permutation $\\sigma$ of $\\{1,\\ldots,n\\}$ satisfying $\\displaystyle\\sum_{i=1}^n \\sigma(i)(-2)^{i-1} = 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2022"
+  },
+  {
+    "id": "INMO_2022_P3",
+    "year": 2022,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For a positive integer $N$, $T(N)$ = number of arrangements of $1,\\ldots,N$ into a sequence $a_1,\\ldots,a_N$ with $a_i > a_{2i}$ and $a_i > a_{2i+1}$ whenever valid. (a) Find $T(7)$. (b) If $2^K \\mid T(2^n-1)$ with $K$ maximal, show $K = 2^n - n - 1$. (c) Find the maximal $K$ with $2^K \\mid T(2^n+1)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2022"
+  }
+]

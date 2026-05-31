@@ -1,0 +1,86 @@
+[
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_1995_P1",
+    "year": 1995,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $n$ such that $-5^4+5^5+5^n$ is a perfect square. Do the same for $2^4+2^7+2^n$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c5175"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_1995_P2",
+    "year": 1995,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle with $AB=AC$ and let $D$ be a point on $BC$ such that the incircle of $\\triangle ABD$ and the excircle of $\\triangle ADC$ corresponding to $A$ have the same radius. Prove that this radius equals one quarter of the altitude from $B$ of triangle $ABC$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c5175"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_1995_P3",
+    "year": 1995,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "If the equation $ax^2+(c-b)x+(e-d)=0$ has real roots greater than 1, prove that the equation $ax^4+bx^3+cx^2+dx+e=0$ has at least one real root.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c5175"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_1995_P4",
+    "year": 1995,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Given are the lines $l_1,l_2,\\ldots,l_k$ in the plane, no two of which are parallel and no three of which are concurrent. For which $k$ can one label the intersection points of these lines by $1,2,\\ldots,k-1$ so that in each of the given lines all the labels appear exactly once?",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c5175"
+  }
+]

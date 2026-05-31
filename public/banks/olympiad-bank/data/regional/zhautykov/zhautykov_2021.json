@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ZHAUTYKOV_2021_P1",
+    "year": 2021,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove there exists a positive integer $n$ such that the remainder of $3^n$ when divided by $2^n$ exceeds $10^{2021}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2021"
+  },
+  {
+    "id": "ZHAUTYKOV_2021_P2",
+    "year": 2021,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Cyclic convex hexagon $ABCDEF$ with $BC = EF$ and $CD = AF$. $Q = AC \\cap BF$, $P = EC \\cap DF$. $R \\in DF$ and $S \\in BF$ with $FR = PD$ and $BQ = FS$. $T = RQ \\cap PS$. Prove line $TC$ bisects diagonal $DB$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2021"
+  },
+  {
+    "id": "ZHAUTYKOV_2021_P3",
+    "year": 2021,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n \\times n$ table filled with reals where every \\textit{rook set} (one cell per row and column) has nonneg­ative sum. By a move, add $a$ to all cells of a chosen row and subtract $a$ from all cells of a chosen column. Prove one can make all entries nonneg­ative.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2021"
+  },
+  {
+    "id": "ZHAUTYKOV_2021_P4",
+    "year": 2021,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ has incircle of radius $r$ and three mixtilinear incircles (each inscribed between the incircle and one angle of $ABC$) of radii $r_1, r_2, r_3 < r$. Prove $r_1 + r_2 + r_3 \\geq r$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2021"
+  },
+  {
+    "id": "ZHAUTYKOV_2021_P5",
+    "year": 2021,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "99 guests, 99 chairs in a circle. Ann and Bob alternate (Ann first): each turn, order a standing guest to sit; if an adjacent chair is occupied, the same host orders one neighbor to stand. Ann's goal: after her turn, at least $k$ chairs are occupied. Find the largest $k$ Ann can guarantee.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2021"
+  },
+  {
+    "id": "ZHAUTYKOV_2021_P6",
+    "year": 2021,
+    "olympiad": "ZHAUTYKOV",
+    "olympiad_full_name": "International Zhautykov Olympiad",
+    "scope": "regional",
+    "region": "central_asian",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "$P(x)$ is a nonconstant irreducible polynomial of degree $n$ with rational coefficients. Prove: (a) the number of polynomials $Q(x)$ of degree $< n$ with rational coefficients such that $P(x) \\mid P(Q(x))$ is finite; (b) this number is at most $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "International Zhautykov Olympiad 2021"
+  }
+]

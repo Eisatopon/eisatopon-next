@@ -1,0 +1,107 @@
+[
+  {
+    "id": "USAMO_1978_P1",
+    "year": 1978,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Given $a+b+c+d+e=8$ and $a^2+b^2+c^2+d^2+e^2=16$ for real $a,b,c,d,e$, determine the maximum value of $e$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1978"
+  },
+  {
+    "id": "USAMO_1978_P2",
+    "year": 1978,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$ABCD$ and $A'B'C'D'$ are square maps of the same region drawn to different scales and superimposed. Prove there is exactly one point $O$ on the small map lying directly over point $O'$ of the large map such that $O$ and $O'$ represent the same place. Also give a Euclidean construction for $O$.",
+    "has_figure": true,
+    "figure_description": "Two overlapping squares representing two maps at different scales",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1978"
+  },
+  {
+    "id": "USAMO_1978_P3",
+    "year": 1978,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "An integer $n$ is \\textit{good} if $n=a_1+\\cdots+a_k$ where $a_i$ are positive integers with $\\frac{1}{a_1}+\\cdots+\\frac{1}{a_k}=1$. Given that integers 33 through 73 are good, prove every integer $\\geq 33$ is good.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1978"
+  },
+  {
+    "id": "USAMO_1978_P4",
+    "year": 1978,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "(a) Prove that if all six dihedral angles of a tetrahedron are congruent, then the tetrahedron is regular. (b) Is a tetrahedron necessarily regular if five dihedral angles are congruent?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1978"
+  },
+  {
+    "id": "USAMO_1978_P5",
+    "year": 1978,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Nine mathematicians meet at a conference. Among any three, at least two speak a common language. Each speaks at most three languages. Prove at least three speak the same language.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 1978"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "BALKAN_MO_2018_P1",
+    "year": 2018,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Cyclic quadrilateral $ABCD$ with $AB > CD$ and $AB \\not\\parallel CD$. Diagonals meet at $M$; the perpendicular from $M$ to $AB$ meets $AB$ at $E$. If $EM$ bisects $\\angle CED$, prove $AB$ is a diameter.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2018"
+  },
+  {
+    "id": "BALKAN_MO_2018_P2",
+    "year": 2018,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $q > 0$ be rational. Two ants start at the same point $X$ in the plane. In minute $n$, each walks distance $q^n$ in one of the four compass directions. After some whole number of minutes they are at the same point (not necessarily $X$) but have not taken the same route. Find all possible $q$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2018"
+  },
+  {
+    "id": "BALKAN_MO_2018_P3",
+    "year": 2018,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Alice and Bob play with nonempty coin piles. Alice goes first. Each turn: choose a pile with an even number of coins and move half to the other pile. The player who cannot move loses. Find all pairs $(a,b)$ of positive integers such that Bob wins when the piles start with $a$ and $b$ coins.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2018"
+  },
+  {
+    "id": "BALKAN_MO_2018_P4",
+    "year": 2018,
+    "olympiad": "BALKAN_MO",
+    "olympiad_full_name": "Balkan Mathematical Olympiad",
+    "scope": "regional",
+    "region": "balkan",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all primes $p, q$ such that $3^{pq-1} + 1$ divides $11^p + 17^p$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Balkan Mathematical Olympiad 2018"
+  }
+]

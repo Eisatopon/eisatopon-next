@@ -1,0 +1,128 @@
+[
+  {
+    "id": "INMO_2007_P1",
+    "year": 2007,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In right $\\triangle ABC$ with $\\angle C = 90^\\circ$, the median through $B$ bisects the angle between $BA$ and the bisector of $\\angle B$. Prove $\\frac{5}{2} < \\frac{AB}{BC} < 3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2007"
+  },
+  {
+    "id": "INMO_2007_P2",
+    "year": 2007,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $n = a^2 + b^2 + c^2$ for natural numbers $a, b, c$. Prove $9n = (p_1a+q_1b+r_1c)^2 + (p_2a+q_2b+r_2c)^2 + (p_3a+q_3b+r_3c)^2$ where all $p_j, q_j, r_j$ are nonzero. If $3 \\nmid $ at least one of $a,b,c$, show $9n = x^2+y^2+z^2$ with $3\\nmid x,y,z$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2007"
+  },
+  {
+    "id": "INMO_2007_P3",
+    "year": 2007,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $m, n$ be positive integers with $x^2 - mx + n = 0$ having real roots $\\alpha, \\beta$. Prove $\\alpha, \\beta$ are integers iff $\\lfloor m\\alpha \\rfloor + \\lfloor m\\beta \\rfloor$ is a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2007"
+  },
+  {
+    "id": "INMO_2007_P4",
+    "year": 2007,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "How many permutations of $(1, 2, \\ldots, n)$ ($n \\geq 3$) have exactly two inversions?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2007"
+  },
+  {
+    "id": "INMO_2007_P5",
+    "year": 2007,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Isosceles $\\triangle ABC$ ($AB = AC$), $D$ = midpoint of $BC$, $P$ on $AD$, $E$ = foot from $P$ on $AC$. Let $AP/PD = BP/PE = \\lambda$ and $BD/AD = m$. Define $z = m^2(1+\\lambda)$. Prove $z^2 - (\\lambda^3 - \\lambda^2 - 2)z + 1 = 0$ and hence $\\lambda \\geq 2$ with equality iff $\\triangle ABC$ is equilateral.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2007"
+  },
+  {
+    "id": "INMO_2007_P6",
+    "year": 2007,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove $(x+y+z)^2(yz+zx+xy)^2 \\leq 3(y^2+yz+z^2)(z^2+zx+x^2)(x^2+xy+y^2)$ for positive reals $x,y,z$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2007"
+  }
+]

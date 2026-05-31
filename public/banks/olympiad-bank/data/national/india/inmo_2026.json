@@ -1,0 +1,128 @@
+[
+  {
+    "id": "INMO_2026_P1",
+    "year": 2026,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $x_1=1$ and $x_{n+1} = x_n + \\lfloor\\sqrt{x_n}\\rfloor$. Find all positive integers $m$ with $x_n = m^2$ for some $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2026"
+  },
+  {
+    "id": "INMO_2026_P2",
+    "year": 2026,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$f : \\mathbb{N} \\to \\mathbb{N}$: for $k > 2026$, $f(k)$ = the maximum number of times any value appears in $f(1),\\ldots,f(k-1)$. Prove $f(n) = f(n+f(n))$ for infinitely many $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2026"
+  },
+  {
+    "id": "INMO_2026_P3",
+    "year": 2026,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute scalene $\\triangle ABC$ with circumcircle $\\Gamma$. $M$ = midpoint of $BC$, $N$ = midpoint of minor arc $BC$. $P \\in AB$, $Q \\in AC$ with $BP = BN$ and $CQ = CN$. $K \\neq N$ on line $AN$ with $MK = MN$. Prove $\\angle PKQ = 90^\\circ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2026"
+  },
+  {
+    "id": "INMO_2026_P4",
+    "year": 2026,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Two integers $a, b$ are companions if every prime divides both or neither. Find all $f : \\mathbb{N}_0 \\to \\mathbb{N}_0$ with $f(0) = 0$ and $f(m)+n$, $f(n)+m$ companions for all $m, n \\in \\mathbb{N}_0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2026"
+  },
+  {
+    "id": "INMO_2026_P5",
+    "year": 2026,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Lines $\\ell_1, \\ell_2, \\ell_3$ form acute $\\triangle T$; $P$ inside $T$; $\\tau_i$ = reflection in $\\ell_i$; $P_{ijk} = \\tau_k(\\tau_j(\\tau_i(P)))$. Prove $P_{123}, P_{132}, P_{213}, P_{231}, P_{312}, P_{321}$ are concyclic iff $P$ is the orthocenter of $T$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2026"
+  },
+  {
+    "id": "INMO_2026_P6",
+    "year": 2026,
+    "olympiad": "INMO",
+    "olympiad_full_name": "India National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "India",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Two decks $A, B$ of 40 cards. Top cards $a \\in A$, $b \\in B$ duel each minute: if $a$ wins, $a$ returns to top and $b$ goes to bottom; if evenly matched, both removed; if they do not interact, both go to respective bottoms. Process ends when both decks empty. Prove the maximum duration of a game equals 356 minutes.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "India National Mathematical Olympiad 2026"
+  }
+]

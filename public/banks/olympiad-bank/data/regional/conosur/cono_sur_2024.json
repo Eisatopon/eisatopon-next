@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CONO_SUR_2024_P1",
+    "year": 2024,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove there are infinitely many quadruples of positive integers $(a,b,c,d)$ such that $ab+1$, $bc+16$, $cd+4$, $ad+9$ are all perfect squares.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CONO_SUR_2024_P2",
+    "year": 2024,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In $\\triangle ABC$, points $A_1, A_2 \\in BC$; $B_1, B_2 \\in CA$; $C_1, C_2 \\in AB$ form a convex hexagon $A_1A_2B_1B_2C_1C_2$ with $B, A_1, A_2, C$ in that order on $BC$. Triangles $AB_2C_1$, $BA_1C_2$, $CA_2B_1$ are \\textit{glueable} if they can be assembled as the three corner triangles of some triangle $PQR$. Prove they are glueable iff the centroids of $\\triangle A_1B_1C_1$ and $\\triangle A_2B_2C_2$ coincide.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CONO_SUR_2024_P3",
+    "year": 2024,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $n$ such that $3^n - 2^n - 1$ is a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CONO_SUR_2024_P4",
+    "year": 2024,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A positive integer $N$ with $2k$ digits is \\textit{cearense} if: it has an even number of digits; its two $k$-digit chunks are coprime; and it divides its \\textit{reverse} (formed by swapping the chunks). Find the two smallest cearense integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CONO_SUR_2024_P5",
+    "year": 2024,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A permutation of $\\{1,2,\\ldots,n\\}$ is \\textit{magic} if each element $k$ has at least $\\lfloor k/2 \\rfloor$ elements smaller than it to its left. For each $n$, find the number of magic permutations.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CONO_SUR_2024_P6",
+    "year": 2024,
+    "olympiad": "CONO_SUR",
+    "olympiad_full_name": "Cono Sur Mathematical Olympiad",
+    "scope": "regional",
+    "region": "cono_sur",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "On an $8 \\times 8$ board with 64 kings (one per cell), Arnaldo and Bernaldo alternate. Each move: choose a king and move it right, up, or diagonally up-right. If a king lands on an occupied cell, both are removed. The player who removes the last two kings or leaves one king in the upper-right corner wins. Who wins with optimal play?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Cono Sur Mathematical Olympiad 2024"
+  }
+]

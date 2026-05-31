@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1989_P1",
+    "year": 1989,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "An even number of politicians sit at a round table, then re-seat themselves arbitrarily. Show there must be two people with the same number of people between them as before.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1989"
+  },
+  {
+    "id": "PMO_1989_P2",
+    "year": 1989,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Three circles $k_1,k_2,k_3$: $k_2,k_3$ touch externally at $P$; $k_3,k_1$ at $Q$; $k_1,k_2$ at $R$. Line $PQ$ meets $k_1$ again at $S$; line $PR$ meets $k_1$ again at $T$; line $RS$ meets $k_2$ again at $U$; line $QT$ meets $k_3$ again at $V$. Show $P,U,V$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1989"
+  },
+  {
+    "id": "PMO_1989_P3",
+    "year": 1989,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Edges of a cube are labeled 1 to 12. Show there exist at least 8 triples $(i,j,k)$ ($i<j<k$) where $i,j,k$ are consecutive edges of a path. Show a labeling exists with no 9 such triples.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1989"
+  },
+  {
+    "id": "PMO_1989_P4",
+    "year": 1989,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n,k$ positive integers. $A_0=\\{1,\\ldots,n\\}$; $A_i$ = randomly chosen subset of $A_{i-1}$. Show the expected number of elements of $A_k$ is $n/2^k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1989"
+  },
+  {
+    "id": "PMO_1989_P5",
+    "year": 1989,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Three circles of radius $a$ on a sphere of radius $r$: each pair touches externally, all in one hemisphere. Find the radius of a circle on the sphere tangent to all three.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1989"
+  },
+  {
+    "id": "PMO_1989_P6",
+    "year": 1989,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For positive reals $a,b,c,d$: $\\left(\\dfrac{ab+ac+ad+bc+bd+cd}{6}\\right)^3\\geq\\left(\\dfrac{abc+abd+acd+bcd}{4}\\right)^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1989"
+  }
+]

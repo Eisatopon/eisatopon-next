@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_2013_P1",
+    "year": 2013,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integer solutions to $x^4+y=x^3+y^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2013"
+  },
+  {
+    "id": "PMO_2013_P2",
+    "year": 2013,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Integers $a\\neq 0$ and $b$ with $6a\\mid 3+a+b^2$. Prove $a<0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2013"
+  },
+  {
+    "id": "PMO_2013_P3",
+    "year": 2013,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Quadrilateral $ABCD$ has an inscribed circle. Segments $AB,BC,CD,DA$ are diameters of circles $o_1,o_2,o_3,o_4$. Prove there is a circle tangent to all four.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2013"
+  },
+  {
+    "id": "PMO_2013_P4",
+    "year": 2013,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Tetrahedron $ABCD$ with $AB=CD$ and $\\angle BAD+\\angle BCD=180^\\circ$. Prove $\\angle BAD>\\angle ADC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2013"
+  },
+  {
+    "id": "PMO_2013_P5",
+    "year": 2013,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For distinct positive integers $k,m,n$: $\\left(k-\\frac{1}{k}\\right)\\left(m-\\frac{1}{m}\\right)\\left(n-\\frac{1}{n}\\right)\\leq kmn-(k+m+n)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2013"
+  },
+  {
+    "id": "PMO_2013_P6",
+    "year": 2013,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For each positive integer $n$, find the maximum size of a set $A$ of integer-coordinate points in $[0,n]^3$ such that for any two distinct points in $A$, at least one coordinate strictly increases and at least one strictly decreases.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2013"
+  }
+]

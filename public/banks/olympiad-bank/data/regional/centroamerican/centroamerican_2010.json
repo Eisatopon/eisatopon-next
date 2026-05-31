@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CENTROAMERICAN_2010_P1",
+    "year": 2010,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $S(n)$ be the digit sum of $n$. Find all solutions of $n(S(n)-1)=2010$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2010"
+  },
+  {
+    "id": "CENTROAMERICAN_2010_P2",
+    "year": 2010,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with $L,M,N$ = midpoints of $BC,CA,AB$. Tangent to circumcircle at $A$ meets $LM,LN$ at $P,Q$. Show $CP\\parallel BQ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2010"
+  },
+  {
+    "id": "CENTROAMERICAN_2010_P3",
+    "year": 2010,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A token on an $m\\times n$ board moves to adjacent squares but never revisits and no two consecutive moves in the same direction. Game ends when stuck. Find all $m,n$ for which, for some starting square, all squares are visited.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2010"
+  },
+  {
+    "id": "CENTROAMERICAN_2010_P4",
+    "year": 2010,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $N$ such that an $N\\times N$ board can be tiled with $5\\times 5$ or $1\\times 3$ tiles (no overlaps, complete coverage).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2010"
+  },
+  {
+    "id": "CENTROAMERICAN_2010_P5",
+    "year": 2010,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "If $p,q,r$ are nonzero rationals with $\\sqrt[3]{pq^2}+\\sqrt[3]{qr^2}+\\sqrt[3]{rp^2}$ a nonzero rational, prove $\\dfrac{1}{\\sqrt[3]{pq^2}}+\\dfrac{1}{\\sqrt[3]{qr^2}}+\\dfrac{1}{\\sqrt[3]{rp^2}}$ is also rational.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2010"
+  },
+  {
+    "id": "CENTROAMERICAN_2010_P6",
+    "year": 2010,
+    "olympiad": "CENTROAMERICAN",
+    "olympiad_full_name": "Central American and Caribbean Mathematical Olympiad",
+    "scope": "regional",
+    "region": "centroamerican",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Circles $\\Gamma,\\Gamma_1$ internally tangent at $A$ with radii $r>r_1$. $B$ is diametrically opposite $A$ on $\\Gamma$; $C$ on $\\Gamma$ with $BC$ tangent to $\\Gamma_1$ at $P$. $A'$ = midpoint of $BC$. Given $O_1A'\\parallel AP$, find $r/r_1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Central American and Caribbean Mathematical Olympiad 2010"
+  }
+]

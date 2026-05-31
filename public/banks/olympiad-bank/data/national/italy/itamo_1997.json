@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ITAMO_1997_P1",
+    "year": 1997,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "An infinite rectangular strip of width 3 cm is folded along a line. Find the minimum possible area of the overlapping region.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1997"
+  },
+  {
+    "id": "ITAMO_1997_P2",
+    "year": 1997,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A function $f$ on $\\mathbb{R}$ satisfies: (i) $f(10+x)=f(10-x)$; (ii) $f(20+x)=-f(20-x)$ for all $x$. Prove $f$ is odd and periodic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1997"
+  },
+  {
+    "id": "ITAMO_1997_P3",
+    "year": 1997,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Can one color the unit squares of the first quadrant black and white so that: (i) every $n\\times n$ square with corner at the origin has more black than white squares; (ii) every diagonal parallel to $y=x$ contains only finitely many black squares?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1997"
+  },
+  {
+    "id": "ITAMO_1997_P4",
+    "year": 1997,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a tetrahedron, $a = AB$, and $S$ the area of its projection onto a plane perpendicular to $AB$. Determine the volume in terms of $a$ and $S$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1997"
+  },
+  {
+    "id": "ITAMO_1997_P5",
+    "year": 1997,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $X$ be the set of positive integers with all distinct digits. For $n \\in X$, let $A_n$ = set of permutations of digits of $n$, and $d_n = \\gcd$ of numbers in $A_n$. Find the maximum of $d_n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1997"
+  },
+  {
+    "id": "ITAMO_1997_P6",
+    "year": 1997,
+    "olympiad": "ITAMO",
+    "olympiad_full_name": "Italian Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Italy",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A tourist wants to visit 10 cities. Railway lines cost 150,000 lire and air lines cost 250,000 lire (graph provided). Find the minimum-cost route visiting all cities.",
+    "has_figure": true,
+    "figure_description": "Graph of 10 cities with railway (solid) and air (dashed) connections",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Italian Mathematical Olympiad 1997"
+  }
+]

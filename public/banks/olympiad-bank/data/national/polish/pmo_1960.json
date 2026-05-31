@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1960_P1",
+    "year": 1960,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that for any integer $n>4$, $2^n > n^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1960"
+  },
+  {
+    "id": "PMO_1960_P2",
+    "year": 1960,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A plane through the altitude of a regular tetrahedron intersects the planes of the lateral faces along three lines making angles $\\alpha,\\beta,\\gamma$ with the base plane. Prove $\\tan^2\\alpha+\\tan^2\\beta+\\tan^2\\gamma=12$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1960"
+  },
+  {
+    "id": "PMO_1960_P3",
+    "year": 1960,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Six distinct points $A,B,C,D,E,F$ on a circle satisfy $AB\\parallel DE$ and $DC\\parallel AF$. Prove $BC\\parallel EF$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1960"
+  },
+  {
+    "id": "PMO_1960_P4",
+    "year": 1960,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that if $x^4+ax+b=0$ has two equal roots, then $\\left(\\frac{a}{4}\\right)^4=\\left(\\frac{b}{3}\\right)^3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1960"
+  },
+  {
+    "id": "PMO_1960_P5",
+    "year": 1960,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "From digits $1,2,\\ldots,9$, all possible 4-digit numbers with distinct digits are formed. Find their sum.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1960"
+  },
+  {
+    "id": "PMO_1960_P6",
+    "year": 1960,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "On the perimeter of a rectangle, point $M$ is chosen. Find the shortest path starting and ending at $M$ that has a common point with each side of the rectangle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1960"
+  }
+]
