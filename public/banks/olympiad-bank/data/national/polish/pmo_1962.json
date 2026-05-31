@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1962_P1",
+    "year": 1962,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that if $a_1,a_2,\\ldots,a_n$ (with $n\\geq 2$) form an arithmetic progression with no zero term, then $\\dfrac{1}{a_1a_2}+\\dfrac{1}{a_2a_3}+\\cdots+\\dfrac{1}{a_{n-1}a_n}=\\dfrac{n-1}{a_1a_n}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1962"
+  },
+  {
+    "id": "PMO_1962_P2",
+    "year": 1962,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Inside a convex quadrilateral, find a point such that the segments to the midpoints of the sides divide the quadrilateral into four equal-area parts.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1962"
+  },
+  {
+    "id": "PMO_1962_P3",
+    "year": 1962,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "What condition must angles of $\\triangle ABC$ satisfy so that the angle bisector from $A$, median from $B$, and altitude from $C$ are concurrent?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1962"
+  },
+  {
+    "id": "PMO_1962_P4",
+    "year": 1962,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In how many ways can a set of $n$ elements be partitioned into two sets?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1962"
+  },
+  {
+    "id": "PMO_1962_P5",
+    "year": 1962,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that for $n>2$: $\\sqrt[n+1]{n+1}<\\sqrt[n]{n}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1962"
+  },
+  {
+    "id": "PMO_1962_P6",
+    "year": 1962,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given three mutually skew lines $a,b,c$. Is it possible to construct a parallelepiped whose edges lie on these lines?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1962"
+  }
+]

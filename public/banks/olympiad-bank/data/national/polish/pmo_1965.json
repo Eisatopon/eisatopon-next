@@ -1,0 +1,107 @@
+[
+  {
+    "id": "PMO_1965_P1",
+    "year": 1965,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Prove that for sides $a,b,c$ and angles $\\alpha,\\beta,\\gamma$ (in radians) of a triangle: $\\dfrac{\\pi}{3}\\leq\\dfrac{a\\alpha+b\\beta+c\\gamma}{a+b+c}<\\dfrac{\\pi}{2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1965"
+  },
+  {
+    "id": "PMO_1965_P2",
+    "year": 1965,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $x_1,x_2$ be roots of $x^2+px-1=0$ ($p$ odd). Prove that $x_1^n+x_2^n$ and $x_1^{n+1}+x_2^{n+1}$ are integers and coprime for every natural $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1965"
+  },
+  {
+    "id": "PMO_1965_P3",
+    "year": 1965,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n>2$ points are chosen on a circle and connected pairwise. Is it possible to draw all $\\binom{n}{2}$ segments in a single sequence (end of each = beginning of next, end of last = beginning of first)?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1965"
+  },
+  {
+    "id": "PMO_1965_P4",
+    "year": 1965,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that if integers $a,b$ satisfy $2a^2+a=3b^2+b$, then $a-b$ and $2a+2b+1$ are perfect squares.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1965"
+  },
+  {
+    "id": "PMO_1965_P5",
+    "year": 1965,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Points $A_1,B_1,C_1$ divide sides $BC,CA,AB$ of $\\triangle ABC$ in ratios $k_1,k_2,k_3$. Find the ratio of areas of $\\triangle A_1B_1C_1$ and $\\triangle ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1965"
+  }
+]

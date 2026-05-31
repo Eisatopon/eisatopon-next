@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1978_P1",
+    "year": 1978,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A ray of light reflects off the sides of a given angle. A ray entering the vertex is absorbed. Prove there is a natural number $n$ such that any ray reflects at most $n$ times.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1978"
+  },
+  {
+    "id": "PMO_1978_P2",
+    "year": 1978,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Consider integer coordinate points $(x,y)$ where at least one coordinate is not divisible by 4. Prove these points cannot be paired so that each pair has distance 1. (An infinite board with every cell having both coordinates divisible by 4 removed cannot be tiled by dominoes.)",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1978"
+  },
+  {
+    "id": "PMO_1978_P3",
+    "year": 1978,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let $m$ be a natural number and $P,Q,R$ polynomials of degree $<m$ with $x^{2m}P(x,y)+y^{2m}Q(x,y)=(x+y)^{2m}R(x,y)$. Prove each is the zero polynomial.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1978"
+  },
+  {
+    "id": "PMO_1978_P4",
+    "year": 1978,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $X$ have $n$ elements. Prove that $\\sum_{A,B\\subseteq X}|A\\cap B|=n\\cdot 4^{n-1}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1978"
+  },
+  {
+    "id": "PMO_1978_P5",
+    "year": 1978,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For real $a$, define $a_1=a$ and $a_{n+1}=\\frac{1}{2}\\left(\\frac{a_n-1}{a_n}\\right)$ if $a_n\\neq 0$, else 0. Prove the sequence contains infinitely many nonpositive terms.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1978"
+  },
+  {
+    "id": "PMO_1978_P6",
+    "year": 1978,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "If $h_1,h_2,h_3,h_4$ are the altitudes of a tetrahedron and $d_1,d_2,d_3$ are the distances between opposite edge pairs, prove $\\frac{1}{h_1^2}+\\frac{1}{h_2^2}+\\frac{1}{h_3^2}+\\frac{1}{h_4^2}=\\frac{1}{d_1^2}+\\frac{1}{d_2^2}+\\frac{1}{d_3^2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1978"
+  }
+]

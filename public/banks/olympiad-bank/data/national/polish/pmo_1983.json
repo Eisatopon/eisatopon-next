@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1983_P1",
+    "year": 1983,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Convex $n$-gon $P_1\\cdots P_n$ with interior point $Q$ not on any diagonal. If $n$ is even, prove the number of triangles $P_iP_jP_k$ containing $Q$ is even.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1983"
+  },
+  {
+    "id": "PMO_1983_P2",
+    "year": 1983,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Given irrational $a\\in(0,1)$ and positive integer $N$. Prove there exist positive integers $p,q,r,s$ with $\\frac{p}{q}<a<\\frac{r}{s}$, $\\frac{r}{s}-\\frac{p}{q}<\\frac{1}{N}$, and $rq-ps=1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1983"
+  },
+  {
+    "id": "PMO_1983_P3",
+    "year": 1983,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "On an infinite chessboard: if two adjacent squares each have a pawn, and the next square in line is empty, you may remove the two pawns and place one in the empty square. If the initial position forms a rectangle with area divisible by 3, prove you cannot end with just one pawn.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1983"
+  },
+  {
+    "id": "PMO_1983_P4",
+    "year": 1983,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Natural numbers $a,b,c,d$ satisfy $ab=cd$. Prove $\\dfrac{\\gcd(a,c)\\cdot\\gcd(a,d)}{\\gcd(a,b,c,d)}=a$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1983"
+  },
+  {
+    "id": "PMO_1983_P5",
+    "year": 1983,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Unit vectors $\\vec{a}_1,\\vec{a}_2,\\vec{a}_3$ in the plane. Show we can choose $c_1,c_2,c_3\\in\\{-1,1\\}$ such that $|c_1\\vec{a}_1+c_2\\vec{a}_2+c_3\\vec{a}_3|\\geq 2$ (corrected: $\\geq\\sqrt{3}$... standard version).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1983"
+  },
+  {
+    "id": "PMO_1983_P6",
+    "year": 1983,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Prove that if all dihedral angles of a tetrahedron are acute, then all its faces are acute-angled triangles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1983"
+  }
+]
