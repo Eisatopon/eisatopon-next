@@ -1,0 +1,128 @@
+[
+  {
+    "id": "BRAZIL_2016_D1_P1",
+    "year": 2016,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABC$ be a triangle. Let $r$ and $s$ be the angle bisectors of $\\angle ABC$ and $\\angle BCA$, respectively. The points $E$ on $r$ and $D$ on $s$ are such that $AD \\parallel BE$ and $AE \\parallel CD$. The lines $BD$ and $CE$ meet at $F$. Let $I$ be the incenter of $ABC$. Show that if $A$, $F$, $I$ are collinear, then $AB = AC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2016 Day 1"
+  },
+  {
+    "id": "BRAZIL_2016_D1_P2",
+    "year": 2016,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the smallest number $n$ such that any set of $n$ points in the Cartesian plane, all of them with integer coordinates, contains two points such that the square of their mutual distance is a multiple of $2016$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2016 Day 1"
+  },
+  {
+    "id": "BRAZIL_2016_D1_P3",
+    "year": 2016,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $k$ be a fixed positive integer. Alberto and Beralto play the following game: given an initial number $N_0$ and starting with Alberto, they alternately perform the following operation: change the number $n$ for a number $m$ such that $m < n$ and $m$ and $n$ differ, in their base-$2$ representation, in exactly $l$ consecutive digits for some $l$ with $1 \\leq l \\leq k$. If someone cannot play, he loses.\n\nWe say a non-negative integer $t$ is a \\textit{winner} number when the player who receives the number $t$ has a winning strategy. Otherwise, we call it a \\textit{loser} number.\n\nProve that, for every positive integer $N$, the total number of non-negative loser integers less than $2^N$ is $2^{N - \\lfloor \\frac{\\log(\\min\\{N,k\\})}{\\log 2} \\rfloor}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2016 Day 1"
+  },
+  {
+    "id": "BRAZIL_2016_D2_P4",
+    "year": 2016,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "What is the greatest number of positive integers less than or equal to $2016$ one can choose such that no two of them differ by $1$, $2$, or $6$?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2016 Day 2"
+  },
+  {
+    "id": "BRAZIL_2016_D2_P5",
+    "year": 2016,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Consider the second-degree polynomial $P(x) = 4x^2 + 12x - 3015$. Define the sequence of polynomials $P_1(x) = \\frac{P(x)}{2016}$ and $P_{n+1}(x) = \\frac{P(P_n(x))}{2016}$ for every integer $n \\geq 1$.\n\n- Show that there exists a real number $r$ such that $P_n(r) < 0$ for every positive integer $n$.\n- Find how many integers $m$ are such that $P_n(m) < 0$ for infinitely many positive integers $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2016 Day 2"
+  },
+  {
+    "id": "BRAZIL_2016_D2_P6",
+    "year": 2016,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a non-cyclic convex quadrilateral with no parallel sides. The lines $AB$ and $CD$ meet at $E$. Let $M \\neq E$ be the intersection of the circumcircles of triangles $ADE$ and $BCE$. The internal angle bisectors of $ABCD$ form a convex cyclic quadrilateral with circumcenter $I$. The external angle bisectors of $ABCD$ form a convex cyclic quadrilateral with circumcenter $J$. Show that $I$, $J$, $M$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2016 Day 2"
+  }
+]

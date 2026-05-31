@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2003_P1",
+    "year": 2003,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that for every positive integer $n$, there exists an $n$-digit number divisible by $5^n$ all of whose digits are odd.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2003"
+  },
+  {
+    "id": "USAMO_2003_P2",
+    "year": 2003,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A convex polygon $P$ is dissected into smaller convex polygons by all its diagonals. All sides and diagonals of $P$ have rational lengths. Prove all sides of all polygons in the dissection are rational.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2003"
+  },
+  {
+    "id": "USAMO_2003_P3",
+    "year": 2003,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For any sequence $A=(a_0,\\ldots,a_n)$ with $0\\leq a_i\\leq i$, define $t(A)$ by $t(a_i)=$ number of terms before $a_i$ that differ from $a_i$. Show fewer than $n$ applications of $t$ lead to a fixed sequence $B$ with $t(B)=B$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2003"
+  },
+  {
+    "id": "USAMO_2003_P4",
+    "year": 2003,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Circle through $A,B$ meets segments $AC,BC$ at $D,E$. Lines $AB,DE$ meet at $F$; lines $BD,CF$ meet at $M$. Prove $MF=MC$ iff $MB\\cdot MD=MC^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2003"
+  },
+  {
+    "id": "USAMO_2003_P5",
+    "year": 2003,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove $\\frac{(2a+b+c)^2}{2a^2+(b+c)^2}+\\frac{(2b+c+a)^2}{2b^2+(c+a)^2}+\\frac{(2c+a+b)^2}{2c^2+(a+b)^2}\\leq 8$ for positive $a,b,c$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2003"
+  },
+  {
+    "id": "USAMO_2003_P6",
+    "year": 2003,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "At vertices of a regular hexagon write nonneg­ative integers summing to $2003^{2003}$. Bert may replace any vertex value by the absolute difference of its two neighbors. Prove Bert can make all values 0.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2003"
+  }
+]

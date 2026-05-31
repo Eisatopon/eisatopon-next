@@ -1,0 +1,107 @@
+[
+  {
+    "id": "BRAZIL_1987_D1_P1",
+    "year": 1987,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $p(x_1, x_2, \\ldots, x_n)$ be a polynomial with integer coefficients. For each positive integer $r$, let $k(r)$ be the number of $n$-tuples $(a_1, \\ldots, a_n)$ with $0 \\leq a_i \\leq r-1$ and $\\gcd(p(a_1,\\ldots,a_n), r) = 1$. Show that if $u$ and $v$ are coprime then $k(uv) = k(u)k(v)$, and if $p$ is prime then $k(p^s) = p^{n(s-1)}k(p)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1987"
+  },
+  {
+    "id": "BRAZIL_1987_D1_P2",
+    "year": 1987,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given a point $p$ inside a convex polyhedron $P$, show that there is a face $F$ of $P$ such that the foot of the perpendicular from $p$ to the plane of $F$ lies in the interior of $F$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1987"
+  },
+  {
+    "id": "BRAZIL_1987_D1_P3",
+    "year": 1987,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Two players alternate. The first player is given a pair of positive integers $(x_1, y_1)$. Each player replaces the pair $(x_n, y_n)$ by $(x_{n+1}, y_{n+1})$ where $x_{n+1} = \\min(x_n, y_n)$ and $y_{n+1} = \\max(x_n, y_n) - k \\cdot x_{n+1}$ for some positive integer $k$. The first player to pass on a pair with $y_{n+1} = 0$ wins. For which values of $x_1/y_1$ does the first player have a winning strategy?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1987"
+  },
+  {
+    "id": "BRAZIL_1987_D1_P4",
+    "year": 1987,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Given points $A_1(x_1,y_1,z_1), \\ldots, A_n(x_n,y_n,z_n)$, let $P(x,y,z)$ minimize $\\sum(|x-x_i|+|y-y_i|+|z-z_i|)$. Give an example (for each $n > 4$) of points $A_i$ for which $P$ lies outside the convex hull of the $A_i$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1987"
+  },
+  {
+    "id": "BRAZIL_1987_D1_P5",
+    "year": 1987,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$A$ and $B$ wish to divide a triangular prism (triangular faces horizontal) into two pieces. $A$ chooses a point $P$ on the top face; $B$ then chooses a vertical plane through $P$ to cut the cake and takes the larger piece. Which point $P$ should $A$ choose to secure as large a slice as possible?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1987"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "BRAZIL_2001_D1_P1",
+    "year": 2001,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Show that for any positive reals $a, b, c$, $$(a+b)(a+c) \\geq 2\\sqrt{abc(a+b+c)}.$$",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2001 Day 1"
+  },
+  {
+    "id": "BRAZIL_2001_D1_P2",
+    "year": 2001,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Given $a_0 > 1$, the sequence $a_0, a_1, a_2, \\ldots$ is such that for all $k > 0$, $a_k$ is the smallest integer greater than $a_{k-1}$ that is relatively prime to all earlier terms. Find all $a_0$ for which every term of the sequence is a prime or a prime power.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2001 Day 1"
+  },
+  {
+    "id": "BRAZIL_2001_D1_P3",
+    "year": 2001,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In triangle $ABC$, points $E$ and $F$ lie on $AB$ with $AE = EF = FB$. Point $D$ lies on line $BC$ such that $ED \\perp BC$ and $AD \\perp CF$. Given that $3\\angle BDF = \\angle CFA$, determine the ratio $\\dfrac{DB}{DC}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2001 Day 1"
+  },
+  {
+    "id": "BRAZIL_2001_D2_P4",
+    "year": 2001,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A calculator treats angles as radians and initially displays $1$. What is the largest value that can be achieved by pressing the buttons $\\cos$ or $\\sin$ a total of $2001$ times?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2001 Day 2"
+  },
+  {
+    "id": "BRAZIL_2001_D2_P5",
+    "year": 2001,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "An altitude of a convex quadrilateral is a line through the midpoint of a side perpendicular to the opposite side. Show that the four altitudes are concurrent if and only if the quadrilateral is cyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2001 Day 2"
+  },
+  {
+    "id": "BRAZIL_2001_D2_P6",
+    "year": 2001,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A one-player game is played as follows: there is a bowl at each integer on the $x$-axis. All bowls are initially empty except for the bowl at the origin, which contains $n \\geq 2$ stones. A move is either: (A) remove two stones from a bowl and place one in each of the two adjacent bowls; or (B) remove one stone from each of two adjacent bowls and add one stone to the bowl immediately to their left. Show that only a finite number of moves can be made and that the final position is independent of the moves made (for a given $n$).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 2001 Day 2"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "BRAZIL_1988_D1_P1",
+    "year": 1988,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all primes which are both the sum of two primes and the difference of two primes.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1988"
+  },
+  {
+    "id": "BRAZIL_1988_D1_P2",
+    "year": 1988,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Show that, among all triangles whose vertices are at distances $3$, $5$, $7$ respectively from a given point $P$, the ones with the largest area have $P$ as their orthocenter. (You may assume, without proof, the existence of a triangle of maximal area.)",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1988"
+  },
+  {
+    "id": "BRAZIL_1988_D1_P3",
+    "year": 1988,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all functions $f : \\mathbb{N}^* \\to \\mathbb{N}$ such that: $f(x \\cdot y) = f(x) + f(y)$; $f(30) = 0$; $f(x) = 0$ whenever the units digit of $x$ is $7$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1988"
+  },
+  {
+    "id": "BRAZIL_1988_D1_P4",
+    "year": 1988,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two triangles are circumscribed about a circle. Show that if there exists a circle passing through five of their six vertices, then it passes through the sixth vertex as well.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1988"
+  },
+  {
+    "id": "BRAZIL_1988_D1_P5",
+    "year": 1988,
+    "olympiad": "BNO",
+    "olympiad_full_name": "Brazil National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Brazil",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A figure shows $n$ points on a sphere, no four coplanar. Some pairs are joined by segments, each colored red or blue. For each point there is a key that switches the colors of all segments through that point. For every three points there is a sequence of key presses making the three segments between them all red. Show that it is possible to make all segments red, and find the smallest number of key presses sufficient to do so starting from the worst case.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Brazil National Olympiad 1988"
+  }
+]

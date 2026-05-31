@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2022_P1",
+    "year": 2022,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "An $(a+b+1)\\times(a+b+1)$ grid colored amber and bronze with $\\geq a^2+ab-b$ amber and $\\geq b^2+ab-a$ bronze cells. Prove one can choose $a$ amber and $b$ bronze cells with no two in the same row or column.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2022"
+  },
+  {
+    "id": "USAMO_2022_P2",
+    "year": 2022,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$2b$ black rods and $2w$ white rods (each length 1) assemble into a regular $2n$-gon ($n=b+w$) with parallel sides the same color. Black rods form convex $2b$-gon $B$; white form $2w$-gon $W$. Prove the difference of areas of $B$ and $W$ depends only on $b,w$.",
+    "has_figure": true,
+    "figure_description": "Assembly diagram for b=3, w=2 with resulting polygons B and W",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2022"
+  },
+  {
+    "id": "USAMO_2022_P3",
+    "year": 2022,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f:\\mathbb{R}_{>0}\\to\\mathbb{R}_{>0}$ with $f(x)=f(f(f(x))+y)+f(xf(y))f(x+y)$ for all $x,y>0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2022"
+  },
+  {
+    "id": "USAMO_2022_P4",
+    "year": 2022,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all pairs of primes $(p,q)$ for which $p-q$ and $pq-q$ are both perfect squares.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2022"
+  },
+  {
+    "id": "USAMO_2022_P5",
+    "year": 2022,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$f:\\mathbb{R}\\to\\mathbb{R}$ is essentially increasing if $f(s)\\leq f(t)$ whenever $s\\leq t$ and $f(s)\\neq 0\\neq f(t)$. Find the smallest $k$ such that any 2022 reals $x_1,\\ldots,x_{2022}$ can be written as $f_1(n)+\\cdots+f_k(n)=x_n$ for essentially increasing $f_i$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2022"
+  },
+  {
+    "id": "USAMO_2022_P6",
+    "year": 2022,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "2022 users on Mathbook; a new friendship forms iff the two users have $\\geq 2$ mutual friends. Find the minimum number of initial friendships so that eventually all users can become friends.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2022"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2004_P1",
+    "year": 2004,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be circumscribed about a circle with all interior and exterior angles $\\geq 60^\\circ$. Prove $\\frac{1}{3}|AB^3-AD^3|\\leq|BC^3-CD^3|\\leq 3|AB^3-AD^3|$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2004"
+  },
+  {
+    "id": "USAMO_2004_P2",
+    "year": 2004,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$a_1,\\ldots,a_n$ are integers with $\\gcd=1$. Set $S$ satisfies: (a) each $a_i\\in S$; (b) $a_i-a_j\\in S$; (c) if $x,y\\in S$ and $x+y\\in S$, then $x-y\\in S$. Prove $S=\\mathbb{Z}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2004"
+  },
+  {
+    "id": "USAMO_2004_P3",
+    "year": 2004,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "For which real $k>0$ can a $1\\times k$ rectangle be dissected into two similar, noncongruent polygons?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2004"
+  },
+  {
+    "id": "USAMO_2004_P4",
+    "year": 2004,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Alice and Bob play on a $6\\times 6$ grid. Each turn: player writes a rational not yet on the grid in an empty square. Alice goes first. When full, in each row the largest number is colored black. Alice wins if she can draw a path from top to bottom through black squares. Find a winning strategy.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2004"
+  },
+  {
+    "id": "USAMO_2004_P5",
+    "year": 2004,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For $a,b,c>0$: $(a^5-a^2+3)(b^5-b^2+3)(c^5-c^2+3)\\geq(a+b+c)^3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2004"
+  },
+  {
+    "id": "USAMO_2004_P6",
+    "year": 2004,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Circle $\\omega$ inscribed in $ABCD$ with center $I$. If $(AI+DI)^2+(BI+CI)^2=(AB+CD)^2$, prove $ABCD$ is an isosceles trapezoid.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2004"
+  }
+]

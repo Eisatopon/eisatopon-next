@@ -1,0 +1,171 @@
+[
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2005_VII_P1",
+    "year": 2005,
+    "problem_id": "VII_P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a parallelogram. The bisector of $\\angle ADC$ meets line $BC$ at $E$, and the perpendicular bisector of $AD$ meets line $DE$ at $M$. Let $F=AM\\cap BC$. Prove: (a) $DE=AF$; (b) $AD\\cdot AB=DE\\cdot DM$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4418"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2005_VII_P2",
+    "year": 2005,
+    "problem_id": "VII_P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a,b$ be integers. Prove: (a) $13\\mid 2a+3b$ iff $13\\mid 2b-3a$; (b) if $13\\mid a^2+b^2$ then $13\\mid(2a+3b)(2b+3a)$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4418"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2005_VII_P3",
+    "year": 2005,
+    "problem_id": "VII_P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a quadrilateral with $AB\\parallel CD$ and $AC\\perp BD$, $O=AC\\cap BD$. On rays $(OA$ and $(OB$ take $M,N$ with $\\angle ANC=\\angle BMD=90°$. Let $E$ be the midpoint of $MN$. Prove: (a) $\\triangle OMN\\sim\\triangle OBA$; (b) $OE\\perp AB$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4418"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2005_VII_P4",
+    "year": 2005,
+    "problem_id": "VII_P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "On a circle there are written 2005 non-negative integers with sum 7022. Prove there exist two pairs of consecutive numbers on the circle such that each pair has sum at least 8.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4418"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2005_VIII_P1",
+    "year": 2005,
+    "problem_id": "VIII_P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Prove that a tetrahedron with vertices among the vertices of a unit cube has volume $\\frac{1}{6}$ if and only if 3 of its vertices are vertices of the same face of the cube.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4418"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2005_VIII_P2",
+    "year": 2005,
+    "problem_id": "VIII_P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For a positive integer $n$, let $p(n)$ be the product of its digits.\\na) Prove $p(n)\\leq n$.\\nb) Find all positive integers $n$ with $10p(n)=n^2+4n-2005$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4418"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2005_VIII_P3",
+    "year": 2005,
+    "problem_id": "VIII_P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCA'B'C'$ be a regular prism. $M,N$ are midpoints of $BB'$ and $BC$, and $\\angle(AB',BC')=60°$. Let $O=A'C\\cap B'C$, $P=AC'\\cap C'N$.\\na) Prove $AC'\\perp(OPM)$.\\nb) Find the angle between line $AP$ and plane $(OPM)$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4418"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2005_VIII_P4",
+    "year": 2005,
+    "problem_id": "VIII_P4",
+    "topic": [
+      "Algebra",
+      "Inequalities"
+    ],
+    "statement": "a) Prove that for all positive reals $u,v,x,y$: $\\dfrac{u}{x}+\\dfrac{v}{y}\\geq\\dfrac{4(uy+vx)}{(x+y)^2}$.\\nb) Let $a,b,c,d>0$. Prove $\\dfrac{a}{b+2c+d}+\\dfrac{b}{c+2d+a}+\\dfrac{c}{d+2a+b}+\\dfrac{d}{a+2b+c}\\geq 1$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4418"
+  }
+]

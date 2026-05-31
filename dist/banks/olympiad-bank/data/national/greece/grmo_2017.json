@@ -1,0 +1,88 @@
+[
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_2017_P1",
+    "year": 2017,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "An acute triangle $ABC$ with $AB<AC<BC$ is inscribed in a circle $c(O,R)$. The circle $c_1(A,AC)$ intersects $c$ at $D$ and $CB$ at $E$. If line $AE$ intersects $c$ at $F$ and $G$ on $BC$ satisfies $EB=BG$, prove that $F,E,D,G$ are concyclic.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c446281"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_2017_P2",
+    "year": 2017,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let $A$ be a point in the plane and 3 lines through $A$ divide the plane into 6 regions. In each region there are 5 points, with no three of the 30 points collinear. Prove that there exist at least 1000 triangles whose vertices are among those 30 points such that $A$ lies in the interior or on the side of the triangle.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c446281"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_2017_P3",
+    "year": 2017,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Find all integer triples $(a,b,c)$ with $a>0>b>c$ and $a+b+c=0$ such that $N=2017-a^3b-b^3c-c^3a$ is a perfect square.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c446281"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_2017_P4",
+    "year": 2017,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "statement": "Let $u$ be the positive root of $x^2+x-4=0$. The polynomial $P(x)=a_nx^n+a_{n-1}x^{n-1}+\\cdots+a_0$ with non-negative integer coefficients satisfies $P(u)=2017$.\\n1) Prove that $a_0+a_1+\\cdots+a_n\\equiv 1\\pmod{2}$.\\n2) Find the minimum possible value of $a_0+a_1+\\cdots+a_n$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c446281"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2016_P1",
+    "year": 2016,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Distinct nonempty subsets $X_1,\\ldots,X_{100}$ of $S$: any two consecutive are disjoint with union $\\neq S$. Find the smallest possible $|S|$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2016"
+  },
+  {
+    "id": "USAMO_2016_P2",
+    "year": 2016,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that for any positive integer $k$, $(k^2)!\\cdot\\prod_{j=0}^{k-1}\\frac{j!}{(j+k)!}$ is an integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2016"
+  },
+  {
+    "id": "USAMO_2016_P3",
+    "year": 2016,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with $B$-excenter $I_B$, $C$-excenter $I_C$, circumcenter $O$. $E,Y$ on $AC$ with $\\angle ABY=\\angle CBY$ and $BE\\perp AC$; $F,Z$ on $AB$ with $\\angle ACZ=\\angle BCZ$ and $CF\\perp AB$. Lines $I_BF$ and $I_CE$ meet at $P$. Prove $PO\\perp YZ$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2016"
+  },
+  {
+    "id": "USAMO_2016_P4",
+    "year": 2016,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f:\\mathbb{R}\\to\\mathbb{R}$ with $(f(x)+xy)f(x-3y)+(f(y)+xy)f(3x-y)=(f(x+y))^2$ for all $x,y$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2016"
+  },
+  {
+    "id": "USAMO_2016_P5",
+    "year": 2016,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Equilateral pentagon $AMNPQ$ inscribed in $\\triangle ABC$ with $M\\in AB$, $Q\\in AC$, $N,P\\in BC$. $S=MN\\cap PQ$. Let $\\ell$ be the angle bisector of $\\angle MSQ$. Prove $OI\\parallel\\ell$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2016"
+  },
+  {
+    "id": "USAMO_2016_P6",
+    "year": 2016,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "You play against a wizard with $2n$ cards (two cards labeled $i$ for each $i=1,\\ldots,n$). You point to $k$ cards; wizard reveals them. If two match, you win; else wizard permutes and turns face down. For which $(n,k)$ is the game winnable?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2016"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2013_P1",
+    "year": 2013,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$P,Q,R$ on sides $BC,CA,AB$ of $\\triangle ABC$. $\\omega_A,\\omega_B,\\omega_C$ = circumcircles of $\\triangle AQR,\\triangle BRP,\\triangle CPQ$. $AP$ meets these again at $X,Y,Z$. Prove $YX/XZ=BP/PC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2013"
+  },
+  {
+    "id": "USAMO_2013_P2",
+    "year": 2013,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n\\geq 4$ equally spaced points on a circle, one labeled $A$. A marker at $A$ moves clockwise 1 or 2 steps at a time. Let $a_n$ = number of ways to go around exactly twice, starting and ending at $A$, without repeating a move. Prove $a_{n-1}+a_n=2^n$ for $n\\geq 4$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2013"
+  },
+  {
+    "id": "USAMO_2013_P3",
+    "year": 2013,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n(n+1)/2$ marks in an equilateral triangle (largest row has $n$), each black-side or white-side up, initially all black. An operation: flip all marks on a line parallel to a side. Find the maximum of $f(C)$ over all achievable configurations $C$, where $f(C)$ is the minimum operations needed.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2013"
+  },
+  {
+    "id": "USAMO_2013_P4",
+    "year": 2013,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $x,y,z\\geq 1$ satisfying $\\min(\\sqrt{x+xyz},\\sqrt{y+xyz},\\sqrt{z+xyz})=\\sqrt{x-1}+\\sqrt{y-1}+\\sqrt{z-1}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2013"
+  },
+  {
+    "id": "USAMO_2013_P5",
+    "year": 2013,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Given positive integers $m,n$, prove there is a positive integer $c$ such that $cm$ and $cn$ have the same number of occurrences of each nonzero digit in base 10.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2013"
+  },
+  {
+    "id": "USAMO_2013_P6",
+    "year": 2013,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$; find all $P$ on $BC$ such that if $X,Y$ are intersections of line $PA$ with common external tangents of circumcircles of $\\triangle PAB$ and $\\triangle PAC$, then $\\left(\\frac{PA}{XY}\\right)^2+\\frac{PB\\cdot PC}{AB\\cdot AC}=1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2013"
+  }
+]

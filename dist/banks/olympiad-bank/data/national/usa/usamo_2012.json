@@ -1,0 +1,128 @@
+[
+  {
+    "id": "USAMO_2012_P1",
+    "year": 2012,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $n\\geq 3$ such that among any $n$ positive reals with $\\max\\leq n\\cdot\\min$, some three are sides of an acute triangle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2012"
+  },
+  {
+    "id": "USAMO_2012_P2",
+    "year": 2012,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A circle has 432 points colored with 4 colors (108 each). Prove one can choose 3 of each color such that the four monochromatic triangles are congruent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2012"
+  },
+  {
+    "id": "USAMO_2012_P3",
+    "year": 2012,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all $n>1$ such that there exists an infinite sequence $(a_k)$ of nonzero integers with $\\sum_{i=1}^n ia_{ik}=0$ for every positive integer $k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2012"
+  },
+  {
+    "id": "USAMO_2012_P4",
+    "year": 2012,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all $f:\\mathbb{Z}^+\\to\\mathbb{Z}^+$ with $f(n!)=f(n)!$ and $m-n\\mid f(m)-f(n)$ for distinct $m,n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2012"
+  },
+  {
+    "id": "USAMO_2012_P5",
+    "year": 2012,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $P$ be a point in the plane of $\\triangle ABC$ and $\\gamma$ a line through $P$. $A',B',C'$ are where reflections of $PA,PB,PC$ in $\\gamma$ meet $BC,AC,AB$. Prove $A',B',C'$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2012"
+  },
+  {
+    "id": "USAMO_2012_P6",
+    "year": 2012,
+    "olympiad": "USAMO",
+    "olympiad_full_name": "United States of America Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "USA",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Reals $x_1,\\ldots,x_n$ sum to 0 with $\\sum x_i^2=1$. For $A\\subseteq\\{1,\\ldots,n\\}$, $S_A=\\sum_{i\\in A}x_i$. Prove: for any $\\lambda>0$, the number of $A$ with $S_A\\geq\\lambda$ is at most $2^{n-3}/\\lambda^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "United States of America Mathematical Olympiad 2012"
+  }
+]

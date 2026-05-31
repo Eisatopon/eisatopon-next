@@ -1,0 +1,172 @@
+[
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2010_VII_P1",
+    "year": 2010,
+    "problem_id": "VII_P1",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "Let $S$ be a subset with 673 elements of $\\{1,2,\\ldots,2010\\}$. Prove there exist distinct $a,b\\in S$ such that 6 divides $a+b$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4423"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2010_VII_P2",
+    "year": 2010,
+    "problem_id": "VII_P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $ABCD$ be a rectangle with center $O$ and $\\angle DAC=60°$. The bisector of $\\angle DAC$ meets $DC$ at $S$. Lines $OS$ and $AD$ meet at $L$, and lines $BL$ and $AC$ meet at $M$. Prove $SM\\parallel CL$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4423"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2010_VII_P3",
+    "year": 2010,
+    "problem_id": "VII_P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Each cell of a $50\\times 50$ table is colored red or blue (initially all red). A step changes all cells in a row or column.\\na) Prove no sequence of steps gives exactly 2011 blue cells.\\nb) Describe a sequence giving exactly 2010 blue cells.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4423"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2010_VII_P4",
+    "year": 2010,
+    "problem_id": "VII_P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In isosceles triangle $ABC$ with $AB=AC$, the bisector of $\\angle B$ meets $AC$ at $B'$. Suppose $BB'+B'A=BC$. Find the angles of triangle $ABC$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4423"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2010_VIII_P1",
+    "year": 2010,
+    "problem_id": "VIII_P1",
+    "topic": [
+      "Algebra",
+      "Inequalities"
+    ],
+    "statement": "Let $a,b,c$ be integers $>1$. Prove $a(a-1)+b(b-1)+c(c-1)\\leq(a+b+c-4)(a+b+c-5)+4$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4423"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2010_VIII_P2",
+    "year": 2010,
+    "problem_id": "VIII_P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "How many four-digit numbers $\\overline{abcd}$ simultaneously satisfy $a+b=c+d$ and $a^2+b^2=c^2+d^2$?",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4423"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2010_VIII_P3",
+    "year": 2010,
+    "problem_id": "VIII_P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let $VABCD$ be a regular pyramid with square base $ABCD$. Suppose $M$ is on line $AC$ with $VM=MB$ and $(VMB)\\perp(VAB)$. Prove that $4AM=3AC$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4423"
+  },
+  {
+    "olympiad": "RoMO",
+    "olympiad_full_name": "Romania National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Romania",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "RoMO_2010_VIII_P4",
+    "year": 2010,
+    "problem_id": "VIII_P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let $a,b,c,d$ be positive integers and $p=a+b+c+d$. Prove that if $p$ is prime, then $p$ does not divide $ab-cd$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c4423"
+  }
+]
