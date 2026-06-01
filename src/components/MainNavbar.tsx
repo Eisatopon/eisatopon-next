@@ -93,7 +93,7 @@ export default function MainNavbar() {
             </Link>
 
             <Link
-              href="/problems"
+              href="/banks"
               className="hover:text-[#d4af37] transition-colors duration-300"
             >
               Problem Banks
