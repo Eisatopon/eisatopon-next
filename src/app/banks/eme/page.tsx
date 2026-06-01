@@ -19,18 +19,36 @@ interface EMEProblem {
 
 // --- Data ---
 const DATA_URLS: Record<string, string> = {
-  "2024-2025": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/thalys_2024.json",
-  "2012-2013": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2012_2013.json",
-  "2011-2012": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2011_2012.json",
-  "2010-2011": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2010_2011.json",
-  "2009-2010": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2009_2010.json",
-  "2008-2009": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2008_2009.json",
-  "2007-2008": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2007_2008.json",
-  "2006-2007": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2006_2007.json",
-  "2005-2006": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2005_2006.json",
-  "2004-2005": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2004_2005.json",
-  "2003-2004": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2003_2004.json",
-  "2002-2003": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2002_2003.json",
+  "2024-2025": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2024_2025_latex.json",
+  "2023-2024": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2023_2024_latex.json",
+  "2022-2023": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2022_2023_latex.json",
+  "2021-2022": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2021_2022_latex.json",
+  "2020-2021": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2020_2021_latex.json",
+  "2019-2020": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2019_2020_latex.json",
+  "2018-2019": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2018_2019_latex.json",
+  "2017-2018": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2017_2018_latex.json",
+  "2016-2017": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2016_2017_latex.json",
+  "2015-2016": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2015_2016_latex.json",
+  "2014-2015": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2014_2015_latex.json",
+  "2013-2014": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2013_2014_latex.json",
+  "2012-2013": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2012_2013_latex.json",
+  "2011-2012": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2011_2012_latex.json",
+  "2010-2011": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2010_2011_latex.json",
+  "2009-2010": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2009_2010_latex.json",
+  "2008-2009": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2008_2009_latex.json",
+  "2007-2008": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2007_2008_latex.json",
+  "2006-2007": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2006_2007_latex.json",
+  "2005-2006": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2005_2006_latex.json",
+  "2004-2005": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2004_2005_latex.json",
+  "2003-2004": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2003_2004_latex.json",
+  "2002-2003": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2002_2003_latex.json",
+  "2001-2002": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2001_2002_latex.json",
+  "2000-2001": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2000_2001_latex.json",
+  "1999-2000": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_1999_2000_latex.json",
+  "1998-1999": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_1998_1999_latex.json",
+  "1997-1998": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_1997_1998_latex.json",
+  "1996-1997": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_1996_1997_latex.json",
+  "1995-1996": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_1995_1996_latex.json",
 };
 
 const IMAGES_BASE_URL = "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/";
@@ -67,11 +85,7 @@ const PHASE_MAP: Record<string, string> = {
   "Αρχιμήδης": "archimedes",
 };
 
-const YEARS = [
-  "2024-2025", "2012-2013", "2011-2012", "2010-2011", "2009-2010",
-  "2008-2009", "2007-2008", "2006-2007", "2005-2006", "2004-2005",
-  "2003-2004", "2002-2003",
-];
+const YEARS = Object.keys(DATA_URLS).sort((a, b) => b.localeCompare(a));
 
 const NORMAL_GRADES = [
   { value: "", label: "Όλες οι τάξεις" },
@@ -89,10 +103,6 @@ const ARCHIMEDES_GRADES = [
 ];
 
 // --- KaTeX renderer ---
-// FIX 1 (formatContent): Correct order — escape HTML first, then
-// parse LaTeX delimiters \(...\) and \[...\] with KaTeX.
-// Old code did LaTeX replacements BEFORE HTML escaping, which broke the LaTeX.
-
 function escapeHtml(str: string): string {
   return str
     .replace(/&/g, "&amp;")
@@ -103,10 +113,7 @@ function escapeHtml(str: string): string {
 }
 
 function renderContent(raw: string): string {
-  // Normalize escaped newlines from JSON
   const normalized = raw.replace(/\\n/g, "\n");
-
-  // Split on display \[...\] and inline \(...\) delimiters
   const parts = normalized.split(/(\\\[[\s\S]*?\\\]|\\\([\s\S]*?\\\))/g);
 
   return parts
@@ -127,7 +134,6 @@ function renderContent(raw: string): string {
           return `<span class="text-red-400 font-mono text-xs">${escapeHtml(part)}</span>`;
         }
       }
-      // Plain text: escape HTML, then convert newlines to <br />
       return escapeHtml(part).replace(/\n/g, "<br />");
     })
     .join("");
@@ -162,7 +168,6 @@ export default function EMEPage() {
   const [selectedGrade, setSelectedGrade] = useState<string>("");
   const [selectedProblem, setSelectedProblem] = useState<string>("");
 
-  // FIX 2: Correct generic syntax — was useState<<EMEProblem[]>
   const [allProblems, setAllProblems] = useState<EMEProblem[]>([]);
   const [filteredProblems, setFilteredProblems] = useState<EMEProblem[]>([]);
   const [selectedForExam, setSelectedForExam] = useState<EMEProblem[]>([]);
@@ -173,20 +178,15 @@ export default function EMEPage() {
   const [qrUrl, setQrUrl] = useState<string>("");
   const [info, setInfo] = useState("Επιλέξτε φίλτρα για να δείτε θέματα");
 
-  // FIX 3: Keep loadedYear in a ref so loadYear's dependency array stays
-  // stable and doesn't cause re-creation on every render.
   const loadedYearRef = useRef<string | null>(null);
   const allProblemsRef = useRef<EMEProblem[]>([]);
 
-  // Keep refs in sync
   useEffect(() => { loadedYearRef.current = loadedYear; }, [loadedYear]);
   useEffect(() => { allProblemsRef.current = allProblems; }, [allProblems]);
 
-  // Load year data — stable: no state in dependency array
-  const loadYear = useCallback(async (year: string): Promise<boolean> => {
-    // Return cached data if already loaded
+  const loadYear = useCallback(async (year: string): Promise<EMEProblem[] | false> => {
     if (loadedYearRef.current === year && allProblemsRef.current.length > 0) {
-      return true;
+      return allProblemsRef.current;
     }
 
     const url = DATA_URLS[year];
@@ -199,49 +199,41 @@ export default function EMEPage() {
     setInfo(`Φόρτωση ${year}...`);
 
     try {
-  const response = await fetch(url);
-  
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status}`);
-  }
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
-  // Ασφαλής ανάγνωση JSON
-  const text = await response.text();
-  let data;
-  
-  try {
-    data = text.trim() ? JSON.parse(text) : {};
-  } catch (jsonError) {
-    console.error(`❌ JSON Parse Error for ${year}:`, jsonError);
-    setInfo(`❌ Σφάλμα: Κατεστραμμένο αρχείο JSON για ${year}`);
-    return false;
-  }
+      const text = await response.text();
+      let data;
+      try {
+        data = text.trim() ? JSON.parse(text) : {};
+      } catch (jsonError) {
+        console.error(`❌ JSON Parse Error for ${year}:`, jsonError);
+        setInfo(`❌ Σφάλμα: Κατεστραμμένο αρχείο JSON για ${year}`);
+        return false;
+      }
 
-  const rawProblems = data["προβλήματα"] || {};
-  const recordYear = data.year || year;
-  const problems: EMEProblem[] = [];
-  const values = Object.values(rawProblems);
+      const rawProblems = data["προβλήματα"] || {};
+      const recordYear = data.year || year;
+      const problems: EMEProblem[] = [];
+      const values = Object.values(rawProblems);
 
-  if (values.length > 0) {
-    // Old structure (Thales only): { gradeKey: [...problems] }
-    if (Array.isArray(values[0])) {
-      Object.entries(rawProblems).forEach(([gradeKey, list]: [string, any]) => {
-        const gradeCode = GRADE_MAP[gradeKey] || gradeKey;
-        (list || []).forEach((p: any) => {
-          problems.push({
-            id: p.id || problems.length + 1,
-            year: recordYear,
-            phase: "thales",
-            grade: gradeCode,
-            problem_number: String(p["αριθμός"] ?? ""),
-            content: String(p["statement"] ?? ""),
-            image: p["image"] ? IMAGES_BASE_URL + encodeURIComponent(p["image"]) : null,
+      if (values.length > 0) {
+        if (Array.isArray(values[0])) {
+          Object.entries(rawProblems).forEach(([gradeKey, list]: [string, any]) => {
+            const gradeCode = GRADE_MAP[gradeKey] || gradeKey;
+            (list || []).forEach((p: any) => {
+              problems.push({
+                id: p.id || problems.length + 1,
+                year: recordYear,
+                phase: "thales",
+                grade: gradeCode,
+                problem_number: String(p["αριθμός"] ?? ""),
+                content: String(p["statement"] ?? ""),
+                image: p["image"] ? IMAGES_BASE_URL + encodeURIComponent(p["image"]) : null,
+              });
+            });
           });
-        });
-      });
-    }
-        // New structure (multiple phases): { phaseName: { gradeKey: [...problems] } }
-        else {
+        } else {
           Object.entries(rawProblems).forEach(([phaseName, perPhaseObj]: [string, any]) => {
             const phaseCode = PHASE_MAP[phaseName] || phaseName;
             Object.entries(perPhaseObj || {}).forEach(([gradeKey, list]: [string, any]) => {
@@ -265,16 +257,15 @@ export default function EMEPage() {
       setAllProblems(problems);
       setLoadedYear(year);
       setInfo(`✅ Φορτώθηκαν ${problems.length} θέματα για ${year}`);
-      return true;
+      return problems;
     } catch (e: any) {
       setInfo(`❌ Σφάλμα: ${e.message}`);
       return false;
     } finally {
       setLoading(false);
     }
-  }, []); // stable — uses refs, not state
+  }, []);
 
-  // Apply filters — operates on already-loaded allProblems
   const applyFilters = useCallback((
     problems: EMEProblem[],
     phase: string,
@@ -291,20 +282,17 @@ export default function EMEPage() {
     setInfo(`Βρέθηκαν ${filtered.length} θέματα`);
   }, []);
 
-  // Search handler
   const handleSearch = async () => {
     if (!selectedYear) {
       setInfo("⚠️ Επιλέξτε σχολικό έτος");
       return;
     }
-    const ok = await loadYear(selectedYear);
-    if (ok) {
-      // After loadYear, allProblemsRef.current has the fresh data
-      applyFilters(allProblemsRef.current, selectedPhase, selectedGrade, selectedProblem);
+    const problems = await loadYear(selectedYear);
+    if (problems) {
+      applyFilters(problems, selectedPhase, selectedGrade, selectedProblem);
     }
   };
 
-  // Reset all state
   const handleReset = () => {
     setSelectedYear("");
     setSelectedPhase("");
@@ -316,10 +304,8 @@ export default function EMEPage() {
     setInfo("Επιλέξτε φίλτρα για να δείτε θέματα");
   };
 
-  // Grade options depend on selected phase
   const gradeOptions = selectedPhase === "archimedes" ? ARCHIMEDES_GRADES : NORMAL_GRADES;
 
-  // Add problem to exam (deduplicated)
   const addToExam = (problem: EMEProblem) => {
     setSelectedForExam((prev) => {
       if (prev.find((p) => p.id === problem.id)) {
@@ -330,12 +316,10 @@ export default function EMEPage() {
     });
   };
 
-  // Remove problem from exam
   const removeFromExam = (id: number) => {
     setSelectedForExam((prev) => prev.filter((p) => p.id !== id));
   };
 
-  // Print exam
   const printExam = () => {
     if (!selectedForExam.length) {
       setInfo("⚠️ Δεν έχετε επιλέξει θέματα");
@@ -344,8 +328,6 @@ export default function EMEPage() {
     window.print();
   };
 
-  // FIX 4: Replace confirm() with a simple state-based approach
-  // confirm() can be blocked in some browser/Next.js environments
   const [showClearConfirm, setShowClearConfirm] = useState(false);
 
   const clearExam = () => {
@@ -359,15 +341,12 @@ export default function EMEPage() {
     setShowClearConfirm(false);
   };
 
-  // Generate QR Code
   const generateQR = () => {
     if (!selectedForExam.length) {
       setInfo("⚠️ Πρώτα προσθέστε θέματα");
       return;
     }
     const ids = selectedForExam.map((p) => p.id).join(",");
-    // FIX 5: Safe URL construction — window.location is always available
-    // in "use client" components but we guard anyway
     const base = typeof window !== "undefined"
       ? window.location.href.split("?")[0]
       : "";
@@ -376,27 +355,20 @@ export default function EMEPage() {
     setShowQRModal(true);
   };
 
-  // FIX 6: URL params loading — the old code ran on mount when allProblems
-  // was still [], so the filter found nothing. Now we load first, then filter.
   useEffect(() => {
     if (typeof window === "undefined") return;
     const params = new URLSearchParams(window.location.search);
     const ids = params.get("problems");
     const year = params.get("year");
-
     if (!ids || !year) return;
-
-    loadYear(year).then((ok) => {
-      if (!ok) return;
-      // allProblemsRef.current is now populated by loadYear
+    loadYear(year).then((problems) => {
+      if (!problems) return;
       const idList = ids.split(",").map((id) => parseInt(id, 10));
-      const problems = allProblemsRef.current.filter((p) => idList.includes(p.id));
-      setSelectedForExam(problems);
-      if (problems.length > 0) {
-        setInfo(`✅ Φορτώθηκαν ${problems.length} θέματα από QR`);
-      }
+      const selected = problems.filter((p) => idList.includes(p.id));
+      setSelectedForExam(selected);
+      if (selected.length > 0) setInfo(`✅ Φορτώθηκαν ${selected.length} θέματα από QR`);
     });
-  }, [loadYear]); // loadYear is now stable so this runs exactly once
+  }, [loadYear]);
 
   return (
     <main className="min-h-screen bg-base text-ink-primary">
@@ -432,7 +404,7 @@ export default function EMEPage() {
             </div>
             <div className="w-px h-8 bg-border-dim" />
             <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-ink-primary font-playfair">12+</div>
+              <div className="text-2xl md:text-3xl font-bold text-ink-primary font-playfair">30+</div>
               <div className="uppercase mt-1">Έτη</div>
             </div>
             <div className="w-px h-8 bg-border-dim" />
@@ -458,7 +430,6 @@ export default function EMEPage() {
                 value={selectedYear}
                 onChange={(e) => {
                   setSelectedYear(e.target.value);
-                  // Clear loaded data when year changes so next search re-fetches
                   setAllProblems([]);
                   setFilteredProblems([]);
                   setLoadedYear(null);
@@ -482,7 +453,7 @@ export default function EMEPage() {
                 value={selectedPhase}
                 onChange={(e) => {
                   setSelectedPhase(e.target.value);
-                  setSelectedGrade(""); // reset grade when phase changes
+                  setSelectedGrade("");
                 }}
                 className="w-full bg-card border border-border-dim rounded-lg px-3 py-2.5 text-sm text-ink-primary focus:outline-none focus:border-gold/50 transition-colors appearance-none cursor-pointer"
                 style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%235a5652'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E")`, backgroundRepeat: "no-repeat", backgroundPosition: "right 10px center", backgroundSize: "16px", paddingRight: "36px" }}
@@ -587,7 +558,6 @@ export default function EMEPage() {
                   <button
                     onClick={() => addToExam(problem)}
                     className="px-4 py-2 bg-gold/10 text-gold border border-gold/30 rounded-lg text-sm font-semibold hover:bg-gold/20 transition-colors"
-                    aria-label={`Προσθήκη θέματος ${problem.problem_number} στην επιλογή μου`}
                   >
                     ✅ Προσθήκη
                   </button>
@@ -597,7 +567,6 @@ export default function EMEPage() {
                   Θέμα {problem.problem_number}
                 </h3>
 
-                {/* FIX 1: renderContent() instead of formatContent() */}
                 <div
                   className="text-[0.95rem] leading-[1.85] text-ink-secondary pl-3"
                   dangerouslySetInnerHTML={{ __html: renderContent(problem.content) }}
@@ -605,8 +574,6 @@ export default function EMEPage() {
 
                 {problem.image && (
                   <div className="mt-4 pl-3">
-                    {/* FIX 7: next/image warning suppressed with eslint comment;
-                        using <img> here because image dimensions are unknown at build time */}
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={problem.image}
@@ -657,12 +624,10 @@ export default function EMEPage() {
                     <button
                       onClick={() => removeFromExam(p.id)}
                       className="px-3 py-1.5 bg-red-500/10 text-red-400 border border-red-500/30 rounded-lg text-sm hover:bg-red-500/20 transition-colors"
-                      aria-label={`Αφαίρεση θέματος ${p.problem_number}`}
                     >
                       ❌ Αφαίρεση
                     </button>
                   </div>
-                  {/* FIX 1: renderContent() here too */}
                   <div
                     className="text-sm text-ink-secondary leading-relaxed"
                     dangerouslySetInnerHTML={{ __html: renderContent(p.content) }}
@@ -684,7 +649,6 @@ export default function EMEPage() {
           )}
         </div>
 
-        {/* Action buttons */}
         <div className="flex flex-wrap gap-3 mt-4">
           <button
             onClick={printExam}
@@ -709,7 +673,6 @@ export default function EMEPage() {
           </button>
         </div>
 
-        {/* FIX 4: Inline confirm dialog instead of window.confirm() */}
         {showClearConfirm && (
           <div className="mt-4 rounded-xl border border-red-500/30 bg-red-500/5 p-4 flex flex-col sm:flex-row items-center gap-3">
             <p className="text-sm text-red-400 flex-1">
@@ -732,7 +695,6 @@ export default function EMEPage() {
           </div>
         )}
 
-        {/* QR Panel */}
         {showQRModal && qrUrl && (
           <div className="mt-6 rounded-xl border border-border-dim bg-card p-6 text-center">
             <h4 className="text-gold font-semibold mb-4">📱 QR Code για κοινοποίηση</h4>
@@ -750,7 +712,6 @@ export default function EMEPage() {
       </section>
 
       {/* FOOTER */}
-      {/* FIX 8: Updated copyright year to 2026 */}
       <footer className="border-t border-border-dim bg-black/50 mt-auto">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 py-8 max-w-[1200px] text-center">
           <Link href="/" className="font-playfair text-lg font-bold text-ink-primary hover:text-gold transition-colors">
