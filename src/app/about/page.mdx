@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AboutPage() {
   return (
     <main
@@ -8,15 +10,18 @@ export default function AboutPage() {
         color: "#f5f1e8",
       }}
     >
-      <h1
-        style={{
-          fontSize: "4rem",
-          marginBottom: "2rem",
-          fontFamily: "var(--font-playfair)",
-        }}
-      >
-        About EisatoponAI
-      </h1>
+      <Link href="/" style={{ textDecoration: "none" }}>
+        <h1
+          style={{
+            fontSize: "4rem",
+            marginBottom: "2rem",
+            fontFamily: "var(--font-playfair)",
+            color: "#f5f1e8",
+          }}
+        >
+          About EisatoponAI
+        </h1>
+      </Link>
 
       <div
         style={{
@@ -107,7 +112,7 @@ export default function AboutPage() {
         </p>
 
         <p>
-          It is one of humanity’s most creative achievements.
+          It is one of humanity's most creative achievements.
         </p>
       </div>
     </main>
