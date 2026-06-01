@@ -6,7 +6,6 @@ import MainNavbar from "@/components/MainNavbar";
 import katex from "katex";
 import "katex/dist/katex.min.css";
 
-// --- Types ---
 interface EMEProblem {
   id: number;
   year: string;
@@ -17,7 +16,6 @@ interface EMEProblem {
   image: string | null;
 }
 
-// --- Data ---
 const DATA_URLS: Record<string, string> = {
   "2024-2025": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2024_2025_latex.json",
   "2023-2024": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2023_2024_latex.json",
@@ -102,7 +100,6 @@ const ARCHIMEDES_GRADES = [
   { value: "arch_big", label: "Αρχιμήδης (μεγάλοι)" },
 ];
 
-// --- KaTeX renderer ---
 function escapeHtml(str: string): string {
   return str
     .replace(/&/g, "&amp;")
@@ -114,20 +111,39 @@ function escapeHtml(str: string): string {
 
 function renderContent(raw: string): string {
   const normalized = raw.replace(/\\n/g, "\n");
-  const parts = normalized.split(/(\\\[[\s\S]*?\\\]|\\\([\s\S]*?\\\))/g);
+
+  // Protect inline HTML (images etc) before any processing
+  const htmlChunks: string[] = [];
+  const withProtectedHtml = normalized.replace(/<div[\s\S]*?<\/div>/gi, (match) => {
+    htmlChunks.push(match);
+    return `\x00HTML${htmlChunks.length - 1}\x00`;
+  });
+
+  // Split on all math delimiters
+  const parts = withProtectedHtml.split(
+    /(\\\[[\s\S]*?\\\]|\\\([\s\S]*?\\\)|\$\$[\s\S]*?\$\$|\$[^$\n]+?\$)/g
+  );
 
   return parts
     .map((part) => {
-      if (part.startsWith("\\[") && part.endsWith("\\]")) {
-        const latex = part.slice(2, -2);
+      // Restore protected HTML
+      if (part.includes("\x00HTML")) {
+        return part.replace(/\x00HTML(\d+)\x00/g, (_, i) => htmlChunks[parseInt(i)]);
+      }
+      // Display math: \[...\] or $$...$$
+      if ((part.startsWith("\\[") && part.endsWith("\\]")) ||
+          (part.startsWith("$$") && part.endsWith("$$"))) {
+        const latex = part.startsWith("\\[") ? part.slice(2, -2) : part.slice(2, -2);
         try {
           return katex.renderToString(latex, { displayMode: true, throwOnError: false });
         } catch {
           return `<span class="text-red-400 font-mono text-xs">${escapeHtml(part)}</span>`;
         }
       }
-      if (part.startsWith("\\(") && part.endsWith("\\)")) {
-        const latex = part.slice(2, -2);
+      // Inline math: \(...\) or $...$
+      if ((part.startsWith("\\(") && part.endsWith("\\)")) ||
+          (part.startsWith("$") && part.endsWith("$"))) {
+        const latex = part.startsWith("\\(") ? part.slice(2, -2) : part.slice(1, -1);
         try {
           return katex.renderToString(latex, { displayMode: false, throwOnError: false });
         } catch {
@@ -138,8 +154,6 @@ function renderContent(raw: string): string {
     })
     .join("");
 }
-
-// --- Components ---
 
 const PhaseBadge = ({ phase }: { phase: string }) => {
   const colors: Record<string, string> = {
@@ -160,23 +174,20 @@ const GradeBadge = ({ grade }: { grade: string }) => (
   </span>
 );
 
-// --- Main Page ---
-
 export default function EMEPage() {
   const [selectedYear, setSelectedYear] = useState<string>("");
   const [selectedPhase, setSelectedPhase] = useState<string>("");
   const [selectedGrade, setSelectedGrade] = useState<string>("");
   const [selectedProblem, setSelectedProblem] = useState<string>("");
-
   const [allProblems, setAllProblems] = useState<EMEProblem[]>([]);
   const [filteredProblems, setFilteredProblems] = useState<EMEProblem[]>([]);
   const [selectedForExam, setSelectedForExam] = useState<EMEProblem[]>([]);
-
   const [loading, setLoading] = useState(false);
   const [loadedYear, setLoadedYear] = useState<string | null>(null);
   const [showQRModal, setShowQRModal] = useState(false);
   const [qrUrl, setQrUrl] = useState<string>("");
   const [info, setInfo] = useState("Επιλέξτε φίλτρα για να δείτε θέματα");
+  const [showClearConfirm, setShowClearConfirm] = useState(false);
 
   const loadedYearRef = useRef<string | null>(null);
   const allProblemsRef = useRef<EMEProblem[]>([]);
@@ -188,35 +199,28 @@ export default function EMEPage() {
     if (loadedYearRef.current === year && allProblemsRef.current.length > 0) {
       return allProblemsRef.current;
     }
-
     const url = DATA_URLS[year];
     if (!url) {
       setInfo(`❌ Δεν υπάρχουν δεδομένα για το έτος ${year}`);
       return false;
     }
-
     setLoading(true);
     setInfo(`Φόρτωση ${year}...`);
-
     try {
       const response = await fetch(url);
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
       const text = await response.text();
       let data;
       try {
         data = text.trim() ? JSON.parse(text) : {};
-      } catch (jsonError) {
-        console.error(`❌ JSON Parse Error for ${year}:`, jsonError);
+      } catch {
         setInfo(`❌ Σφάλμα: Κατεστραμμένο αρχείο JSON για ${year}`);
         return false;
       }
-
       const rawProblems = data["προβλήματα"] || {};
       const recordYear = data.year || year;
       const problems: EMEProblem[] = [];
       const values = Object.values(rawProblems);
-
       if (values.length > 0) {
         if (Array.isArray(values[0])) {
           Object.entries(rawProblems).forEach(([gradeKey, list]: [string, any]) => {
@@ -253,7 +257,6 @@ export default function EMEPage() {
           });
         }
       }
-
       setAllProblems(problems);
       setLoadedYear(year);
       setInfo(`✅ Φορτώθηκαν ${problems.length} θέματα για ${year}`);
@@ -266,12 +269,7 @@ export default function EMEPage() {
     }
   }, []);
 
-  const applyFilters = useCallback((
-    problems: EMEProblem[],
-    phase: string,
-    grade: string,
-    problemNum: string
-  ) => {
+  const applyFilters = useCallback((problems: EMEProblem[], phase: string, grade: string, problemNum: string) => {
     const filtered = problems.filter((p) => {
       if (phase && p.phase !== phase) return false;
       if (grade && p.grade !== grade) return false;
@@ -283,24 +281,14 @@ export default function EMEPage() {
   }, []);
 
   const handleSearch = async () => {
-    if (!selectedYear) {
-      setInfo("⚠️ Επιλέξτε σχολικό έτος");
-      return;
-    }
+    if (!selectedYear) { setInfo("⚠️ Επιλέξτε σχολικό έτος"); return; }
     const problems = await loadYear(selectedYear);
-    if (problems) {
-      applyFilters(problems, selectedPhase, selectedGrade, selectedProblem);
-    }
+    if (problems) applyFilters(problems, selectedPhase, selectedGrade, selectedProblem);
   };
 
   const handleReset = () => {
-    setSelectedYear("");
-    setSelectedPhase("");
-    setSelectedGrade("");
-    setSelectedProblem("");
-    setAllProblems([]);
-    setFilteredProblems([]);
-    setLoadedYear(null);
+    setSelectedYear(""); setSelectedPhase(""); setSelectedGrade(""); setSelectedProblem("");
+    setAllProblems([]); setFilteredProblems([]); setLoadedYear(null);
     setInfo("Επιλέξτε φίλτρα για να δείτε θέματα");
   };
 
@@ -308,58 +296,28 @@ export default function EMEPage() {
 
   const addToExam = (problem: EMEProblem) => {
     setSelectedForExam((prev) => {
-      if (prev.find((p) => p.id === problem.id)) {
-        setInfo("⚠️ Το θέμα υπάρχει ήδη!");
-        return prev;
-      }
+      if (prev.find((p) => p.id === problem.id)) { setInfo("⚠️ Το θέμα υπάρχει ήδη!"); return prev; }
       return [...prev, problem];
     });
   };
 
-  const removeFromExam = (id: number) => {
-    setSelectedForExam((prev) => prev.filter((p) => p.id !== id));
-  };
-
-  const printExam = () => {
-    if (!selectedForExam.length) {
-      setInfo("⚠️ Δεν έχετε επιλέξει θέματα");
-      return;
-    }
-    window.print();
-  };
-
-  const [showClearConfirm, setShowClearConfirm] = useState(false);
-
-  const clearExam = () => {
-    if (!selectedForExam.length) return;
-    setShowClearConfirm(true);
-  };
-
-  const confirmClear = () => {
-    setSelectedForExam([]);
-    setShowQRModal(false);
-    setShowClearConfirm(false);
-  };
+  const removeFromExam = (id: number) => setSelectedForExam((prev) => prev.filter((p) => p.id !== id));
+  const printExam = () => { if (!selectedForExam.length) { setInfo("⚠️ Δεν έχετε επιλέξει θέματα"); return; } window.print(); };
+  const clearExam = () => { if (!selectedForExam.length) return; setShowClearConfirm(true); };
+  const confirmClear = () => { setSelectedForExam([]); setShowQRModal(false); setShowClearConfirm(false); };
 
   const generateQR = () => {
-    if (!selectedForExam.length) {
-      setInfo("⚠️ Πρώτα προσθέστε θέματα");
-      return;
-    }
+    if (!selectedForExam.length) { setInfo("⚠️ Πρώτα προσθέστε θέματα"); return; }
     const ids = selectedForExam.map((p) => p.id).join(",");
-    const base = typeof window !== "undefined"
-      ? window.location.href.split("?")[0]
-      : "";
-    const url = `${base}?problems=${ids}&year=${loadedYear}`;
-    setQrUrl(`https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodeURIComponent(url)}`);
+    const base = typeof window !== "undefined" ? window.location.href.split("?")[0] : "";
+    setQrUrl(`https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodeURIComponent(`${base}?problems=${ids}&year=${loadedYear}`)}`);
     setShowQRModal(true);
   };
 
   useEffect(() => {
     if (typeof window === "undefined") return;
     const params = new URLSearchParams(window.location.search);
-    const ids = params.get("problems");
-    const year = params.get("year");
+    const ids = params.get("problems"); const year = params.get("year");
     if (!ids || !year) return;
     loadYear(year).then((problems) => {
       if (!problems) return;
@@ -370,23 +328,14 @@ export default function EMEPage() {
     });
   }, [loadYear]);
 
+  const selectStyle = { backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%235a5652'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E")`, backgroundRepeat: "no-repeat", backgroundPosition: "right 10px center", backgroundSize: "16px", paddingRight: "36px" };
+  const selectClass = "w-full bg-card border border-border-dim rounded-lg px-3 py-2.5 text-sm text-ink-primary focus:outline-none focus:border-gold/50 transition-colors appearance-none cursor-pointer";
+
   return (
     <main className="min-h-screen bg-base text-ink-primary">
       <MainNavbar />
 
-      {/* HERO */}
       <section className="relative w-full overflow-hidden bg-gradient-to-br from-[#1a3a1a] via-[#0a0c10] to-[#1a1000]">
-        <div className="absolute inset-0 opacity-10">
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage: `radial-gradient(circle at 30% 50%, rgba(196,169,106,0.3) 1px, transparent 1px),
-                                radial-gradient(circle at 70% 50%, rgba(44,95,45,0.3) 1px, transparent 1px)`,
-              backgroundSize: "40px 40px",
-            }}
-          />
-        </div>
-
         <div className="relative z-10 mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 max-w-[1200px] text-center">
           <div className="text-6xl mb-4">🏛️</div>
           <h1 className="font-playfair text-[clamp(1.8rem,5vw,3rem)] font-bold leading-tight mb-4">
@@ -396,191 +345,94 @@ export default function EMEPage() {
           <p className="text-ink-tertiary text-lg md:text-xl max-w-2xl mx-auto">
             Θαλής • Ευκλείδης • Αρχιμήδης — Όλοι οι διαγωνισμοί σε μία πλατφόρμα
           </p>
-
           <div className="flex items-center justify-center gap-6 md:gap-10 mt-8 text-[0.75rem] tracking-widest text-ink-muted">
-            <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-gold font-playfair">3</div>
-              <div className="uppercase mt-1">Διαγωνισμοί</div>
-            </div>
+            <div className="text-center"><div className="text-2xl md:text-3xl font-bold text-gold font-playfair">3</div><div className="uppercase mt-1">Διαγωνισμοί</div></div>
             <div className="w-px h-8 bg-border-dim" />
-            <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-ink-primary font-playfair">30+</div>
-              <div className="uppercase mt-1">Έτη</div>
-            </div>
+            <div className="text-center"><div className="text-2xl md:text-3xl font-bold text-ink-primary font-playfair">30+</div><div className="uppercase mt-1">Έτη</div></div>
             <div className="w-px h-8 bg-border-dim" />
-            <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-gold font-playfair">500+</div>
-              <div className="uppercase mt-1">Θέματα</div>
-            </div>
+            <div className="text-center"><div className="text-2xl md:text-3xl font-bold text-gold font-playfair">500+</div><div className="uppercase mt-1">Θέματα</div></div>
           </div>
         </div>
       </section>
 
-      {/* FILTERS */}
       <section className="sticky top-0 z-30 bg-base/95 backdrop-blur-md border-y border-border-dim">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 py-4 max-w-[1200px]">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 mb-4">
-
-            {/* Year */}
             <div>
-              <label className="block text-[0.7rem] tracking-wider uppercase text-ink-muted mb-1.5 font-medium">
-                📅 Σχολικό Έτος
-              </label>
-              <select
-                value={selectedYear}
-                onChange={(e) => {
-                  setSelectedYear(e.target.value);
-                  setAllProblems([]);
-                  setFilteredProblems([]);
-                  setLoadedYear(null);
-                }}
-                className="w-full bg-card border border-border-dim rounded-lg px-3 py-2.5 text-sm text-ink-primary focus:outline-none focus:border-gold/50 transition-colors appearance-none cursor-pointer"
-                style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%235a5652'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E")`, backgroundRepeat: "no-repeat", backgroundPosition: "right 10px center", backgroundSize: "16px", paddingRight: "36px" }}
-              >
+              <label className="block text-[0.7rem] tracking-wider uppercase text-ink-muted mb-1.5 font-medium">📅 Σχολικό Έτος</label>
+              <select value={selectedYear} onChange={(e) => { setSelectedYear(e.target.value); setAllProblems([]); setFilteredProblems([]); setLoadedYear(null); }} className={selectClass} style={selectStyle}>
                 <option value="">Επιλέξτε έτος</option>
-                {YEARS.map((y) => (
-                  <option key={y} value={y}>{y}</option>
-                ))}
+                {YEARS.map((y) => <option key={y} value={y}>{y}</option>)}
               </select>
             </div>
-
-            {/* Phase */}
             <div>
-              <label className="block text-[0.7rem] tracking-wider uppercase text-ink-muted mb-1.5 font-medium">
-                🏅 Φάση Διαγωνισμού
-              </label>
-              <select
-                value={selectedPhase}
-                onChange={(e) => {
-                  setSelectedPhase(e.target.value);
-                  setSelectedGrade("");
-                }}
-                className="w-full bg-card border border-border-dim rounded-lg px-3 py-2.5 text-sm text-ink-primary focus:outline-none focus:border-gold/50 transition-colors appearance-none cursor-pointer"
-                style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%235a5652'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E")`, backgroundRepeat: "no-repeat", backgroundPosition: "right 10px center", backgroundSize: "16px", paddingRight: "36px" }}
-              >
+              <label className="block text-[0.7rem] tracking-wider uppercase text-ink-muted mb-1.5 font-medium">🏅 Φάση Διαγωνισμού</label>
+              <select value={selectedPhase} onChange={(e) => { setSelectedPhase(e.target.value); setSelectedGrade(""); }} className={selectClass} style={selectStyle}>
                 <option value="">Όλες οι φάσεις</option>
                 <option value="thales">Θαλής (Α' Φάση)</option>
                 <option value="euclides">Ευκλείδης (Β' Φάση)</option>
                 <option value="archimedes">Αρχιμήδης (Γ' Φάση)</option>
               </select>
             </div>
-
-            {/* Grade */}
             <div>
-              <label className="block text-[0.7rem] tracking-wider uppercase text-ink-muted mb-1.5 font-medium">
-                🎓 Τάξη / Κατηγορία
-              </label>
-              <select
-                value={selectedGrade}
-                onChange={(e) => setSelectedGrade(e.target.value)}
-                className="w-full bg-card border border-border-dim rounded-lg px-3 py-2.5 text-sm text-ink-primary focus:outline-none focus:border-gold/50 transition-colors appearance-none cursor-pointer"
-                style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%235a5652'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E")`, backgroundRepeat: "no-repeat", backgroundPosition: "right 10px center", backgroundSize: "16px", paddingRight: "36px" }}
-              >
-                {gradeOptions.map((g) => (
-                  <option key={g.value} value={g.value}>{g.label}</option>
-                ))}
+              <label className="block text-[0.7rem] tracking-wider uppercase text-ink-muted mb-1.5 font-medium">🎓 Τάξη / Κατηγορία</label>
+              <select value={selectedGrade} onChange={(e) => setSelectedGrade(e.target.value)} className={selectClass} style={selectStyle}>
+                {gradeOptions.map((g) => <option key={g.value} value={g.value}>{g.label}</option>)}
               </select>
             </div>
-
-            {/* Problem number */}
             <div>
-              <label className="block text-[0.7rem] tracking-wider uppercase text-ink-muted mb-1.5 font-medium">
-                🎯 Αριθμός Θέματος
-              </label>
-              <select
-                value={selectedProblem}
-                onChange={(e) => setSelectedProblem(e.target.value)}
-                className="w-full bg-card border border-border-dim rounded-lg px-3 py-2.5 text-sm text-ink-primary focus:outline-none focus:border-gold/50 transition-colors appearance-none cursor-pointer"
-                style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%235a5652'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E")`, backgroundRepeat: "no-repeat", backgroundPosition: "right 10px center", backgroundSize: "16px", paddingRight: "36px" }}
-              >
+              <label className="block text-[0.7rem] tracking-wider uppercase text-ink-muted mb-1.5 font-medium">🎯 Αριθμός Θέματος</label>
+              <select value={selectedProblem} onChange={(e) => setSelectedProblem(e.target.value)} className={selectClass} style={selectStyle}>
                 <option value="">Όλα τα θέματα</option>
-                {[1, 2, 3, 4].map((n) => (
-                  <option key={n} value={String(n)}>Θέμα {n}</option>
-                ))}
+                {[1,2,3,4].map((n) => <option key={n} value={String(n)}>Θέμα {n}</option>)}
               </select>
             </div>
           </div>
-
           <div className="flex gap-3 justify-center">
-            <button
-              onClick={handleSearch}
-              disabled={loading}
-              className="px-6 py-2.5 bg-gold/20 text-gold border border-gold/40 rounded-lg font-semibold text-sm hover:bg-gold/30 transition-all disabled:opacity-50"
-            >
+            <button onClick={handleSearch} disabled={loading} className="px-6 py-2.5 bg-gold/20 text-gold border border-gold/40 rounded-lg font-semibold text-sm hover:bg-gold/30 transition-all disabled:opacity-50">
               {loading ? "⏳ Φόρτωση..." : "🔍 Αναζήτηση"}
             </button>
-            <button
-              onClick={handleReset}
-              className="px-6 py-2.5 bg-white/5 text-ink-muted border border-border-dim rounded-lg font-semibold text-sm hover:border-gold/30 hover:text-ink-secondary transition-all"
-            >
+            <button onClick={handleReset} className="px-6 py-2.5 bg-white/5 text-ink-muted border border-border-dim rounded-lg font-semibold text-sm hover:border-gold/30 hover:text-ink-secondary transition-all">
               🔄 Επαναφορά
             </button>
           </div>
         </div>
       </section>
 
-      {/* RESULTS INFO */}
       <div className="mx-auto px-4 sm:px-6 lg:px-8 pt-6 max-w-[1200px]">
         <div className="bg-gold-dim border border-gold-border rounded-lg px-4 py-3 text-center">
           <p className="text-sm font-medium text-gold">{info}</p>
         </div>
       </div>
 
-      {/* PROBLEMS GRID */}
       <div className="mx-auto px-4 sm:px-6 lg:px-8 py-6 max-w-[1200px]">
         {filteredProblems.length === 0 ? (
           <div className="text-center py-20">
             <div className="text-5xl mb-4">📋</div>
             <h3 className="font-playfair text-xl text-ink-primary mb-2">
-              {allProblems.length === 0
-                ? "Επιλέξτε έτος και πατήστε Αναζήτηση"
-                : "Δεν βρέθηκαν θέματα"}
+              {allProblems.length === 0 ? "Επιλέξτε έτος και πατήστε Αναζήτηση" : "Δεν βρέθηκαν θέματα"}
             </h3>
             <p className="text-ink-muted">Προσαρμόστε τα φίλτρα σας</p>
           </div>
         ) : (
           <div className="space-y-4">
             {filteredProblems.map((problem) => (
-              <div
-                key={problem.id}
-                className="group rounded-xl border border-border-dim bg-card p-5 md:p-6 hover:border-gold/20 transition-all duration-300 relative overflow-hidden"
-              >
+              <div key={problem.id} className="group rounded-xl border border-border-dim bg-card p-5 md:p-6 hover:border-gold/20 transition-all duration-300 relative overflow-hidden">
                 <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-gold to-cat-amber opacity-60" />
-
                 <div className="flex flex-wrap items-center justify-between gap-3 mb-4 pl-3">
                   <div className="flex flex-wrap items-center gap-2">
-                    <span className="px-2.5 py-1 rounded-full text-[0.65rem] font-bold bg-gold/15 text-gold border border-gold/30">
-                      {problem.year}
-                    </span>
+                    <span className="px-2.5 py-1 rounded-full text-[0.65rem] font-bold bg-gold/15 text-gold border border-gold/30">{problem.year}</span>
                     <PhaseBadge phase={problem.phase} />
                     <GradeBadge grade={problem.grade} />
                   </div>
-                  <button
-                    onClick={() => addToExam(problem)}
-                    className="px-4 py-2 bg-gold/10 text-gold border border-gold/30 rounded-lg text-sm font-semibold hover:bg-gold/20 transition-colors"
-                  >
-                    ✅ Προσθήκη
-                  </button>
+                  <button onClick={() => addToExam(problem)} className="px-4 py-2 bg-gold/10 text-gold border border-gold/30 rounded-lg text-sm font-semibold hover:bg-gold/20 transition-colors">✅ Προσθήκη</button>
                 </div>
-
-                <h3 className="font-playfair text-lg font-semibold text-ink-primary mb-3 pl-3">
-                  Θέμα {problem.problem_number}
-                </h3>
-
-                <div
-                  className="text-[0.95rem] leading-[1.85] text-ink-secondary pl-3"
-                  dangerouslySetInnerHTML={{ __html: renderContent(problem.content) }}
-                />
-
+                <h3 className="font-playfair text-lg font-semibold text-ink-primary mb-3 pl-3">Θέμα {problem.problem_number}</h3>
+                <div className="text-[0.95rem] leading-[1.85] text-ink-secondary pl-3" dangerouslySetInnerHTML={{ __html: renderContent(problem.content) }} />
                 {problem.image && (
                   <div className="mt-4 pl-3">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={problem.image}
-                      alt={`Σχήμα θέματος ${problem.problem_number}`}
-                      className="max-w-full h-auto rounded-lg border border-border-dim"
-                      loading="lazy"
-                    />
+                    <img src={problem.image} alt={`Σχήμα θέματος ${problem.problem_number}`} className="max-w-full h-auto rounded-lg border border-border-dim" loading="lazy" />
                   </div>
                 )}
               </div>
@@ -589,26 +441,16 @@ export default function EMEPage() {
         )}
       </div>
 
-      {/* MY EXAM SECTION */}
       <section className="mx-auto px-4 sm:px-6 lg:px-8 py-10 max-w-[1200px] border-t border-border-dim">
-        <h2 className="font-playfair text-2xl font-bold text-ink-primary mb-6 flex items-center gap-2">
-          📝 <span className="text-gold">Η επιλογή μου</span>
-        </h2>
-
+        <h2 className="font-playfair text-2xl font-bold text-ink-primary mb-6 flex items-center gap-2">📝 <span className="text-gold">Η επιλογή μου</span></h2>
         {selectedForExam.length > 0 && (
           <div className="bg-gold-dim border border-gold-border rounded-lg px-4 py-3 mb-4 text-center">
-            <p className="text-sm font-medium text-gold">
-              Έχετε προσθέσει <span className="font-bold">{selectedForExam.length}</span> θέματα
-            </p>
+            <p className="text-sm font-medium text-gold">Έχετε προσθέσει <span className="font-bold">{selectedForExam.length}</span> θέματα</p>
           </div>
         )}
-
         <div className="rounded-xl border-2 border-dashed border-gold/30 bg-card p-6 min-h-[150px]">
           {selectedForExam.length === 0 ? (
-            <div className="text-center py-10">
-              <div className="text-4xl mb-3">✏️</div>
-              <p className="text-ink-muted">Πατήστε «Προσθήκη» στα θέματα που θέλετε</p>
-            </div>
+            <div className="text-center py-10"><div className="text-4xl mb-3">✏️</div><p className="text-ink-muted">Πατήστε «Προσθήκη» στα θέματα που θέλετε</p></div>
           ) : (
             <div className="space-y-6">
               {selectedForExam.map((p, idx) => (
@@ -616,31 +458,16 @@ export default function EMEPage() {
                   <div className="flex flex-wrap items-center justify-between gap-3 mb-3">
                     <div className="flex items-center gap-2">
                       <span className="text-gold font-bold text-lg">{idx + 1}.</span>
-                      <span className="font-semibold text-ink-primary">
-                        {PHASE_LABELS[p.phase]} – {GRADE_LABELS[p.grade]} – Θέμα {p.problem_number}
-                      </span>
+                      <span className="font-semibold text-ink-primary">{PHASE_LABELS[p.phase]} – {GRADE_LABELS[p.grade]} – Θέμα {p.problem_number}</span>
                       <span className="text-sm text-ink-muted">({p.year})</span>
                     </div>
-                    <button
-                      onClick={() => removeFromExam(p.id)}
-                      className="px-3 py-1.5 bg-red-500/10 text-red-400 border border-red-500/30 rounded-lg text-sm hover:bg-red-500/20 transition-colors"
-                    >
-                      ❌ Αφαίρεση
-                    </button>
+                    <button onClick={() => removeFromExam(p.id)} className="px-3 py-1.5 bg-red-500/10 text-red-400 border border-red-500/30 rounded-lg text-sm hover:bg-red-500/20 transition-colors">❌ Αφαίρεση</button>
                   </div>
-                  <div
-                    className="text-sm text-ink-secondary leading-relaxed"
-                    dangerouslySetInnerHTML={{ __html: renderContent(p.content) }}
-                  />
+                  <div className="text-sm text-ink-secondary leading-relaxed" dangerouslySetInnerHTML={{ __html: renderContent(p.content) }} />
                   {p.image && (
                     <div className="mt-3">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
-                        src={p.image}
-                        alt={`Σχήμα θέματος ${p.problem_number}`}
-                        className="max-w-full h-auto rounded-lg border border-border-dim"
-                        loading="lazy"
-                      />
+                      <img src={p.image} alt={`Σχήμα θέματος ${p.problem_number}`} className="max-w-full h-auto rounded-lg border border-border-dim" loading="lazy" />
                     </div>
                   )}
                 </div>
@@ -648,53 +475,20 @@ export default function EMEPage() {
             </div>
           )}
         </div>
-
         <div className="flex flex-wrap gap-3 mt-4">
-          <button
-            onClick={printExam}
-            disabled={!selectedForExam.length}
-            className="px-5 py-2.5 bg-gold/20 text-gold border border-gold/40 rounded-lg font-semibold text-sm hover:bg-gold/30 transition-colors disabled:opacity-30"
-          >
-            🖨️ Εκτύπωση
-          </button>
-          <button
-            onClick={generateQR}
-            disabled={!selectedForExam.length}
-            className="px-5 py-2.5 bg-cat-blue/10 text-cat-blue border border-cat-blue/30 rounded-lg font-semibold text-sm hover:bg-cat-blue/20 transition-colors disabled:opacity-30"
-          >
-            📱 QR Code
-          </button>
-          <button
-            onClick={clearExam}
-            disabled={!selectedForExam.length}
-            className="px-5 py-2.5 bg-red-500/10 text-red-400 border border-red-500/30 rounded-lg font-semibold text-sm hover:bg-red-500/20 transition-colors disabled:opacity-30"
-          >
-            🗑️ Καθαρισμός
-          </button>
+          <button onClick={printExam} disabled={!selectedForExam.length} className="px-5 py-2.5 bg-gold/20 text-gold border border-gold/40 rounded-lg font-semibold text-sm hover:bg-gold/30 transition-colors disabled:opacity-30">🖨️ Εκτύπωση</button>
+          <button onClick={generateQR} disabled={!selectedForExam.length} className="px-5 py-2.5 bg-cat-blue/10 text-cat-blue border border-cat-blue/30 rounded-lg font-semibold text-sm hover:bg-cat-blue/20 transition-colors disabled:opacity-30">📱 QR Code</button>
+          <button onClick={clearExam} disabled={!selectedForExam.length} className="px-5 py-2.5 bg-red-500/10 text-red-400 border border-red-500/30 rounded-lg font-semibold text-sm hover:bg-red-500/20 transition-colors disabled:opacity-30">🗑️ Καθαρισμός</button>
         </div>
-
         {showClearConfirm && (
           <div className="mt-4 rounded-xl border border-red-500/30 bg-red-500/5 p-4 flex flex-col sm:flex-row items-center gap-3">
-            <p className="text-sm text-red-400 flex-1">
-              Θέλετε σίγουρα να διαγράψετε όλα τα θέματα;
-            </p>
+            <p className="text-sm text-red-400 flex-1">Θέλετε σίγουρα να διαγράψετε όλα τα θέματα;</p>
             <div className="flex gap-2">
-              <button
-                onClick={confirmClear}
-                className="px-4 py-2 bg-red-500/20 text-red-400 border border-red-500/40 rounded-lg text-sm font-semibold hover:bg-red-500/30 transition-colors"
-              >
-                Ναι, διαγραφή
-              </button>
-              <button
-                onClick={() => setShowClearConfirm(false)}
-                className="px-4 py-2 bg-white/5 text-ink-muted border border-border-dim rounded-lg text-sm font-semibold hover:border-gold/30 transition-colors"
-              >
-                Ακύρωση
-              </button>
+              <button onClick={confirmClear} className="px-4 py-2 bg-red-500/20 text-red-400 border border-red-500/40 rounded-lg text-sm font-semibold hover:bg-red-500/30 transition-colors">Ναι, διαγραφή</button>
+              <button onClick={() => setShowClearConfirm(false)} className="px-4 py-2 bg-white/5 text-ink-muted border border-border-dim rounded-lg text-sm font-semibold hover:border-gold/30 transition-colors">Ακύρωση</button>
             </div>
           </div>
         )}
-
         {showQRModal && qrUrl && (
           <div className="mt-6 rounded-xl border border-border-dim bg-card p-6 text-center">
             <h4 className="text-gold font-semibold mb-4">📱 QR Code για κοινοποίηση</h4>
@@ -702,27 +496,15 @@ export default function EMEPage() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={qrUrl} alt="QR Code" className="w-[220px] h-[220px]" />
             </div>
-            {typeof window !== "undefined" && (
-              <p className="text-xs text-ink-muted mt-3 break-all">
-                <strong>URL:</strong> {window.location.href}
-              </p>
-            )}
           </div>
         )}
       </section>
 
-      {/* FOOTER */}
       <footer className="border-t border-border-dim bg-black/50 mt-auto">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 py-8 max-w-[1200px] text-center">
-          <Link href="/" className="font-playfair text-lg font-bold text-ink-primary hover:text-gold transition-colors">
-            Eisatopon<span className="text-gold">AI</span>
-          </Link>
-          <p className="text-[0.8rem] text-ink-muted mt-2">
-            Ελληνική Μαθηματική Εταιρεία — Θαλής • Ευκλείδης • Αρχιμήδης
-          </p>
-          <p className="text-[0.75rem] text-ink-muted mt-1">
-            © 2026 eisatopon.gr
-          </p>
+          <Link href="/" className="font-playfair text-lg font-bold text-ink-primary hover:text-gold transition-colors">Eisatopon<span className="text-gold">AI</span></Link>
+          <p className="text-[0.8rem] text-ink-muted mt-2">Ελληνική Μαθηματική Εταιρεία — Θαλής • Ευκλείδης • Αρχιμήδης</p>
+          <p className="text-[0.75rem] text-ink-muted mt-1">© 2026 eisatopon.gr</p>
         </div>
       </footer>
     </main>
