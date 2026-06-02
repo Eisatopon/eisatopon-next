@@ -90,7 +90,7 @@ export default function LabPage() {
 
           {/* TABOO — red, full width horizontal */}
           <Link href="/lab/taboo"
-            className="group relative overflow-hidden rounded-[32px] border border-white/[0.08] bg-white/[0.03] py-12 px-10 transition-all duration-500 hover:border-[#e74c3c]/30 hover:bg-white/[0.05] hover:-translate-y-1 hover:shadow-[0_20px_60px_-15px_rgba(231,76,60,0.15)] block mb-16">
+            className="group relative overflow-hidden rounded-[32px] border border-white/[0.08] bg-white/[0.03] py-12 px-10 transition-all duration-500 hover:border-[#e74c3c]/30 hover:bg-white/[0.05] hover:-translate-y-1 hover:shadow-[0_20px_60px_-15px_rgba(231,76,60,0.15)] block mb-8">
             <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
               style={{ background: "radial-gradient(circle at top left, rgba(231,76,60,0.12), transparent 60%)" }} />
             <div className="relative z-10 flex flex-col md:flex-row md:items-center gap-8">
@@ -113,6 +113,36 @@ export default function LabPage() {
                 </p>
               </div>
               <div className="flex items-center gap-3 uppercase tracking-[0.3em] text-[0.72rem] font-bold flex-shrink-0" style={{ color: "#e74c3c" }}>
+                Play Now <span className="transition-transform duration-300 group-hover:translate-x-2 text-base">→</span>
+              </div>
+            </div>
+          </Link>
+
+          {/* TILING — teal, full width horizontal */}
+          <Link href="/lab/tiling"
+            className="group relative overflow-hidden rounded-[32px] border border-white/[0.08] bg-white/[0.03] py-12 px-10 transition-all duration-500 hover:border-[#25c491]/30 hover:bg-white/[0.05] hover:-translate-y-1 hover:shadow-[0_20px_60px_-15px_rgba(37,196,145,0.15)] block mb-16">
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
+              style={{ background: "radial-gradient(circle at top left, rgba(37,196,145,0.12), transparent 60%)" }} />
+            <div className="relative z-10 flex flex-col md:flex-row md:items-center gap-8">
+              <div className="w-16 h-16 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0"
+                style={{ background: "rgba(37,196,145,0.1)", border: "1px solid rgba(37,196,145,0.2)", color: "#25c491" }}>◈</div>
+              <div className="flex-1">
+                <h2 style={{ fontFamily: "var(--font-playfair)", fontSize: "2.4rem", lineHeight: 1.1, color: "#f5f1e8", marginBottom: "10px" }}>
+                  Tiling Puzzle
+                  <span className="ml-3 text-[0.65rem] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded-full align-middle"
+                    style={{ background: "rgba(37,196,145,0.1)", border: "1px solid rgba(37,196,145,0.25)", color: "#25c491" }}>New</span>
+                </h2>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {["Puzzle","5 Levels","Combinatorics"].map(tag => (
+                    <span key={tag} className="text-[0.68rem] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded-full"
+                      style={{ background: "rgba(37,196,145,0.08)", border: "1px solid rgba(37,196,145,0.18)", color: "#25c491" }}>{tag}</span>
+                  ))}
+                </div>
+                <p style={{ color: "rgba(245,241,232,0.65)", fontSize: "1rem", lineHeight: 1.75 }}>
+                  Fill the grid using geometric pieces. Rotate and place — no gaps, no overlaps. Five levels of increasing complexity.
+                </p>
+              </div>
+              <div className="flex items-center gap-3 uppercase tracking-[0.3em] text-[0.72rem] font-bold flex-shrink-0" style={{ color: "#25c491" }}>
                 Play Now <span className="transition-transform duration-300 group-hover:translate-x-2 text-base">→</span>
               </div>
             </div>
