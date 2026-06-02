@@ -256,7 +256,7 @@ export default async function Home() {
       )}
 
       {/* ═══ ARTICLES + SIDEBAR ═══ */}
-      <div className="mx-auto px-4 sm:px-6 lg:px-8 py-10 max-w-[1200px] grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-12">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 py-6 max-w-[1200px] grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8">
 
         <section aria-labelledby="latest-heading">
           <div className="flex justify-between items-center mb-6">
@@ -356,7 +356,7 @@ export default async function Home() {
 
       {/* ── Full-width Reminder + Pagination ── */}
       <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-[1200px]">
-         <div className="flex justify-center mt-4 mb-10">
+         <div className="flex justify-center mt-4 mb-6">
           <Pagination
             currentPage={1}
             totalPages={Math.ceil(articles.length / 8)}
