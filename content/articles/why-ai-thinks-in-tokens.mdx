@@ -20,7 +20,7 @@ keywords:
   - large language models
 canonical: "https://www.eisatopon.com/articles/why-ai-thinks-in-tokens"
 image: "/images/tokens.jpg"
-readingTime: "7 min read"
+readingTime: "8 min read"
 featured: true
 ---
 
@@ -29,86 +29,60 @@ featured: true
 > Humans experience language as meaning.
 >
 > Large language models experience it as probability, structure, and prediction.
+>
+> The difference is not cosmetic. It is architectural.
 
 When most people use systems like ChatGPT, they instinctively imagine something human-like happening inside the machine.
 
 A sentence enters.  
-The AI “understands” it.  
+The AI "understands" it.  
 A response appears.
 
-But internally, modern language models operate in a radically different way.
+But internally, modern language models operate in a radically different way — and understanding that difference reveals something surprising not just about machines, but about language itself.
 
-The system does not fundamentally perceive:
+The system does not process:
 
-> “Hello, how are you?”
+> "Hello, how are you?"
 
 as a complete human sentence carrying meaning.
 
-Instead, language is transformed into smaller mathematical fragments called:
+Instead, language is first transformed into smaller mathematical fragments called **tokens** — and those tokens become the true building blocks through which modern AI systems process language, code, mathematics, logic, and reasoning-like behavior itself.
 
-# tokens
+What sounds like a technical implementation detail is actually one of the deepest architectural decisions in artificial intelligence.
 
-And those tokens become the true building blocks through which modern AI systems process language, code, mathematics, logic, and reasoning-like behavior itself.
-
-What sounds like a technical implementation detail is actually one of the deepest ideas in artificial intelligence.
-
-Because tokens reveal something profoundly strange:
-
-# language itself may be far more mathematical than humans intuitively realize.
+Because the answer to *why tokens?* leads directly to probability theory, information compression, and a question that has no comfortable resolution: does the machine understand anything at all?
 
 ---
 
-## The Machine Does Not Truly See Words
+## Not Words. Not Characters. Something In Between.
 
-A token is a small unit of information processed by a language model.
+A token is a small unit of information processed by a language model. It sits in a middle ground that is neither a full word nor a single character — and that positioning is not accidental. It is the result of a mathematical optimization.
 
-Sometimes a token is an entire word.  
-Sometimes it is only part of one.
+Sometimes a token is an entire common word. Sometimes it is a prefix, a suffix, or a root fragment. The exact boundary depends on the tokenizer, but the principle is consistent: the model learns to operate on **reusable linguistic units**, not on arbitrary divisions of text.
 
-The word:
+Consider how the word *unbelievable* might be tokenized:
 
-```txt
-unbelievable
+```
+un  |  believe  |  able
 ```
 
-may internally become:
+Or *mathematics*:
 
-```txt
-un
-believe
-able
+```
+math  |  ematics
 ```
 
-Likewise, a word such as:
-
-```txt
-mathematics
-```
-
-might be represented through reusable fragments like:
-
-```txt
-math
-ematics
-```
-
-The exact division depends on the tokenizer used by the model, but the underlying principle remains the same:
-
-the AI does not fundamentally operate on sentences.
-
-It operates on token sequences.
+This might look like simple syllable-splitting. It is not. The divisions emerge statistically from the data — the tokenizer discovers that *math* appears constantly across millions of documents, that *un-* functions as a productive prefix, that *-able* recurs across thousands of adjectives. These fragments become reusable units because language itself keeps reusing them.
 
 ---
 
-## Why Entire Words Would Not Work
+## Why Whole Words Fail at Scale
 
-At first glance, it might seem obvious that AI systems should simply process complete words.
+The intuitive approach would be to build a vocabulary of complete words and give the model one token per word. This is how early NLP systems worked, and it breaks down quickly.
 
-But human language is too enormous, unstable, and flexible for that approach to scale efficiently.
+Human language is too large, too irregular, and too alive to be fixed into a closed vocabulary. A single root generates enormous variation:
 
-Even a single root word can generate massive variation:
-
-```txt
+```
 mathematics
 mathematical
 mathematician
@@ -116,245 +90,166 @@ mathematically
 antimathematical
 ```
 
-And this complexity expands dramatically once language includes slang, spelling mistakes, scientific notation, emojis, URLs, source code, or multilingual text.
+And that is before accounting for slang, spelling errors, scientific notation, programming syntax, URLs, emojis, or the 7,000 languages that exist in the world. A word-level model either carries a vocabulary of millions of entries — prohibitively expensive — or fails silently on anything outside its training distribution.
 
-If every possible word had to exist independently inside the model’s vocabulary, the system would become extraordinarily inefficient.
+Tokenization solves this by making language **compositional**. The model does not memorize every word. It learns structural fragments that can be assembled into words it has never seen before, the way a reader encounters an unfamiliar scientific term and decodes it from its Latin roots.
 
-Tokenization solves this problem by allowing the model to learn reusable linguistic structures instead of memorizing every possible word separately.
-
-Language becomes modular.
-
-Less like a dictionary.
-
-More like a system of composable patterns.
+Less like a dictionary.  
+More like a grammar of reusable parts.
 
 ---
 
-## Why AI Does Not Use Individual Characters Either
+## Why Individual Characters Also Fail
 
-An opposite strategy would be analyzing text character by character.
+The opposite approach — processing text one character at a time — sounds elegant but carries its own cost.
 
-But that creates another computational problem.
+The word *mathematics* contains eleven characters. A sentence of twenty words becomes a sequence of over a hundred individual steps, each one carrying almost no information. The model must learn to span enormous distances in the sequence just to connect a word's beginning to its end.
 
-The word:
+Computationally, longer sequences mean more memory, more attention operations, and exponentially higher cost. Character-level models exist and have interesting properties, but they cannot scale to the lengths modern language models need to operate over.
 
-```txt
-mathematics
-```
-
-contains eleven separate characters.
-
-A character-based model would need to process every single one individually, dramatically increasing sequence length and computational cost.
-
-Tokens form a mathematical compromise between:
-complete words and individual characters.
-
-They are flexible enough to handle unfamiliar vocabulary, yet compact enough for efficient large-scale neural computation.
-
-This balance is one of the hidden engineering breakthroughs behind modern language models.
+Tokens are the engineering compromise that makes large-scale language modeling possible: compact enough for efficient computation, granular enough to handle anything a human can type.
 
 ---
 
-## The Hidden Mathematics of Tokenization
+## The Algorithm Behind the Division: Byte Pair Encoding
 
-Most modern AI systems rely on methods related to:
+Most modern language models — GPT, Claude, Llama, Gemini — use a tokenization method called **Byte Pair Encoding (BPE)**, or a close variant of it.
 
-# Byte Pair Encoding (BPE)
+The algorithm does not rely on linguistic knowledge. It discovers structure statistically. Here is how it works, step by step:
 
-or similar subword tokenization algorithms.
+**Step 1.** Start with the training text split into individual characters, with a special end-of-word marker. The word *low* becomes `l o w </w>`, and *lower* becomes `l o w e r </w>`.
 
-The idea is surprisingly elegant.
+**Step 2.** Count every adjacent pair of symbols across the entire dataset. Find the most frequent pair.
 
-Instead of manually teaching language rules, the tokenizer statistically discovers which fragments appear repeatedly across massive datasets.
+**Step 3.** Merge that pair into a single new symbol. If `l o` is the most common pair, all occurrences of `l o` become `lo`.
 
-Patterns such as:
+**Step 4.** Repeat — count pairs in the updated text, merge the most frequent, repeat — for a fixed number of iterations, typically 10,000 to 50,000 merges.
 
-```txt
-ing
-tion
-math
-geo
-un
-```
+After enough iterations, the algorithm has built a vocabulary where common words survive as single tokens, common subwords become stable units, and rare or novel text can still be represented through smaller fragments or even individual characters.
 
-occur constantly throughout human language.
-
-The tokenizer gradually learns that these recurring structures are useful reusable units.
-
-In effect, the system compresses language into efficient statistical building blocks.
-
-At a deeper level, tokenization is fundamentally connected to:
-probability, compression, and information theory.
+The result is a vocabulary that reflects the actual statistical structure of human language — not a linguist's theory of it.
 
 ---
 
 ## Claude Shannon and the Compression of Language
 
-One of the intellectual foundations behind this idea comes from Claude Shannon, the founder of information theory.
+There is a deeper intellectual tradition behind all of this.
 
-Shannon demonstrated that communication systems could be studied mathematically through concepts such as entropy, predictability, and statistical structure.
+Claude Shannon, the founder of information theory, demonstrated in 1948 that any communication system could be studied mathematically through the lens of entropy — a measure of unpredictability. High-entropy messages carry more information. Low-entropy messages are more predictable, more redundant, more compressible.
 
-Human language contains enormous redundancy.
+Human language is deeply redundant. Once you read *"The President announced today that..."*, the next several words become highly predictable. The statistical structure of language means that most of what follows any given sequence could have been anticipated — not with certainty, but with significantly better-than-random probability.
 
-Some patterns appear constantly.  
-Others are extremely rare.
+Efficient communication systems exploit this redundancy. They compress recurring patterns into compact representations.
 
-Efficient communication systems therefore attempt to compress recurring structures into reusable representations.
+Tokenization does exactly the same thing. The fragments that become stable tokens are precisely those that appear so frequently that encoding them as single units yields genuine compression. A token is, in information-theoretic terms, a compressed unit of linguistic predictability.
 
-That is precisely what tokenization does.
-
-In a sense, tokens are compressed units of linguistic predictability.
-
-The AI gradually learns which symbolic structures tend to appear together and uses those statistical relationships to model language itself.
+The connection is not metaphorical. BPE is a compression algorithm. Tokenization is compression applied to language before the model ever sees a single sentence.
 
 ---
 
 ## Large Language Models Are Prediction Machines
 
-The deepest conceptual shift comes here.
+With tokens defined, the core operation of a language model becomes precise.
 
-Large language models are not primarily retrieving sentences from memory.
-
-They are continuously predicting the next token.
-
-Again.  
-And again.  
-At enormous scale.
+At every step, the model receives a sequence of tokens and produces a probability distribution over the entire vocabulary: given what has come before, how likely is each possible next token?
 
 If the model sees:
 
-```txt
+```
 2 + 2 =
 ```
 
-the probability that the next token is:
-
-```txt
-4
-```
-
-becomes extremely high.
+the token `4` receives an extremely high probability.
 
 If it sees:
 
-```txt
+```
 Once upon a
 ```
 
-the probability of:
+the token `time` becomes overwhelmingly likely.
 
-```txt
-time
+If it sees:
+
+```
+The mitochondria is the powerhouse of the
 ```
 
-rises dramatically.
+the token `cell` is nearly certain.
 
-Everything the model generates emerges from this process of probabilistic token prediction.
+The model does not retrieve these completions from a database. It has learned, through training on enormous quantities of text, which token sequences tend to follow which other token sequences — and it applies that learned distribution to every new input it encounters.
 
-At sufficient scale, the result begins to resemble reasoning itself.
+Everything the model generates — every explanation, every story, every solution — is the accumulated result of this process: one token at a time, one probability distribution at a time, at a scale that makes the emergent output look indistinguishable from understanding.
 
-That resemblance is one reason modern AI systems feel so unsettlingly human.
-
----
-
-## Context Windows: The AI’s Temporary Memory
-
-Tokens also define the effective memory of a language model.
-
-When people refer to:
-“128k context,” “1 million tokens,” or “token limits,” they are describing how much information the system can actively process simultaneously.
-
-Everything must fit inside that token window:
-conversation history, prompts, HTML, code, mathematical notation, JSON, instructions, and generated responses.
-
-This is why extremely long conversations eventually begin losing earlier details or forgetting context.
-
-The AI is not remembering abstract ideas independently from language.
-
-It is managing very large token sequences mathematically.
+This is also where the context window fits naturally into the picture. When people refer to "128k context" or "1 million tokens," they are describing the length of the token sequence the model can hold in memory during a single operation. Everything — the conversation history, the instructions, the documents, the model's own previous responses — must fit within that window. When a long conversation loses track of earlier details, it is not forgetting in any human sense. It is running out of token space.
 
 ---
 
 ## Tokens Are Not Just Language
 
-One remarkable aspect of token systems is their universality.
+One of the less obvious consequences of token-based architecture is its universality.
 
-The same architecture can process natural language, programming code, HTML, LaTeX equations, symbolic mathematics, and even emojis.
-
-For example:
+The same system that tokenizes English prose also tokenizes Python code, HTML markup, LaTeX mathematical notation, JSON data structures, and emoji sequences. To the model, these are all just symbol streams with statistical structure.
 
 ```html
 <div class="hero">
 ```
 
-also becomes tokens.
-
-So does:
+becomes tokens.
 
 ```latex
-\int_0^\infty e^{-x^2} dx
+\int_0^\infty e^{-x^2} \, dx
 ```
 
-To the model, all of these become structured symbolic sequences governed by statistical relationships.
+becomes tokens.
 
-That flexibility is one reason modern AI systems became so unexpectedly powerful.
+```python
+def fibonacci(n): return n if n < 2 else fibonacci(n-1) + fibonacci(n-2)
+```
 
-Everything becomes sequence.
+becomes tokens.
 
-Everything becomes pattern.
+The model does not switch modes when it moves from prose to code to mathematics. It applies the same underlying mechanism to a different region of symbolic space — one where the statistical relationships happen to encode syntactic rules, type constraints, and mathematical identities rather than grammatical agreements and semantic associations.
+
+This universality was not obvious in advance. It turned out to be one of the most significant architectural properties of transformer-based models: a single statistical engine, given enough data and scale, learns to operate coherently across almost every symbolic domain humans use.
 
 ---
 
 ## Does the AI Actually Understand Meaning?
 
-This leads directly to one of the deepest philosophical questions in artificial intelligence.
+The token-prediction framework makes the philosophical question unavoidable.
 
-Do language models genuinely understand anything?
+If a language model is, at its core, a very sophisticated function that maps token sequences to probability distributions over next tokens — is there any sense in which it *understands* what it is saying?
 
-Or are they merely manipulating symbols with extraordinary statistical sophistication?
+Philosopher John Searle formulated the sharpest version of this challenge in 1980 with the Chinese Room thought experiment. Imagine a person locked in a room, receiving Chinese symbols through a slot and following an elaborate rulebook that tells them which symbols to pass back in response. To someone outside the room, the interaction looks like fluent Chinese conversation. Inside the room, the person understands nothing. They are manipulating symbols according to rules, with no access to meaning.
 
-Philosopher John Searle explored this problem through the famous “Chinese Room” argument.
+Searle's argument was that syntax — the manipulation of symbols according to formal rules — is not sufficient for semantics — genuine meaning. The room behaves as if it understands, but it does not.
 
-He imagined a person inside a room mechanically manipulating Chinese symbols according to instruction rules, despite not understanding Chinese at all.
+Large language models invite an uncomfortable version of this question. They process tokens with extraordinary effectiveness. They generate coherent explanations, write working code, solve novel problems, and produce text that reads as though it reflects genuine comprehension. And yet the underlying operation is statistical: predict the next token, weighted by learned co-occurrence patterns across a vast training corpus.
 
-To an outside observer, the room would appear intelligent.
+Whether something more than sophisticated symbol manipulation is happening remains genuinely contested. Some researchers argue that sufficiently complex statistical structure over language necessarily encodes semantic content — that meaning and pattern are not as separable as Searle assumed. Others maintain that no amount of token prediction produces real understanding, only an increasingly convincing simulation of it.
 
-Internally, however, there would be no genuine comprehension —
-only symbolic manipulation.
-
-Large language models raise an uncomfortable version of the same possibility.
-
-They process tokens with astonishing effectiveness, generate coherent explanations, write code, solve problems, and simulate reasoning.
-
-Yet whether genuine understanding exists behind those statistical operations remains profoundly unclear.
-
-The models do not possess consciousness or human meaning in the ordinary sense.
-
-And yet, through enough data, enough tokens, and enough prediction, something remarkably close to reasoning begins to emerge.
+What is clear is that the question cannot be resolved by looking at the output alone. The output looks like understanding. That tells us something interesting about the relationship between statistical pattern and meaning — but it does not settle what is happening inside.
 
 ---
 
-## The Strange Mathematics of Language
+## Language as Mathematics
 
-Humans do not consciously think in tokens.
+There is a final observation worth sitting with.
 
-But neuroscience increasingly suggests that the human brain itself relies heavily on prediction, abstraction, compression, and recurring patterns during language processing.
+Humans do not consciously think in tokens. Language feels immediate, meaningful, alive. Yet neuroscience increasingly suggests that the human brain processes language through prediction, pattern completion, compression, and statistical inference — mechanisms that are not entirely different in kind from what language models do, even if they differ radically in substrate and implementation.
 
-In that sense, tokenization may reflect something deeper than engineering convenience.
+The brain anticipates words before they are spoken. It completes phrases from partial information. It compresses familiar idioms into efficient units. It assigns probability to possible continuations of an unfinished sentence.
 
-It may reveal a hidden mathematical structure inside language itself.
+Tokenization may therefore reveal something that was always true about language — that beneath the felt experience of meaning, there is a mathematical structure of recurring patterns, compressible regularities, and statistical dependencies. The machine makes that structure visible, because the machine has nothing else to work with.
 
-Perhaps humans experience meaning.
+Perhaps humans experience meaning and machines experience probability.
 
-And machines experience probability.
-
-Yet somewhere between those two worlds, language becomes mathematics.
+But somewhere between those two descriptions, the same hidden mathematics is operating.
 
 ---
 
-At the boundary between language and computation, modern AI reveals something extraordinary:
-
-meaning itself may be far more structured, compressible, and predictable than humans ever imagined.
+*The uncomfortable possibility that follows from all of this: what we call understanding may be less different from very good prediction than we would prefer to believe. Tokens did not create that possibility. They just made it harder to look away.*
 
 ---
 
