@@ -25,12 +25,12 @@ export default function AboutPage() {
           color: #e8c04a;
         }
         .about-title {
-          font-size: clamp(2.2rem, 8vw, 4rem);
+          font-size: clamp(1.5rem, 5vw, 4rem);
           margin-bottom: 2rem;
           font-family: var(--font-playfair);
           color: #f5f1e8;
           cursor: pointer;
-          line-height: 1.15;
+          line-height: 1.15; white-space: nowrap;
         }
         .about-body {
           font-size: clamp(1rem, 2.5vw, 1.15rem);
