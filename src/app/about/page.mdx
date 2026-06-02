@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 
 export default function AboutPage() {
@@ -10,16 +12,35 @@ export default function AboutPage() {
         color: "#f5f1e8",
       }}
     >
+      <style>{`
+        @keyframes pulse {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0.6; }
+        }
+        .ai-span {
+          color: #c9a227;
+          display: inline-block;
+          animation: pulse 2s ease-in-out infinite;
+        }
+        .about-title:hover .ai-span {
+          animation: none;
+          color: #e8c04a;
+        }
+      `}</style>
+
       <Link href="/" style={{ textDecoration: "none" }}>
         <h1
+          className="about-title"
           style={{
             fontSize: "4rem",
             marginBottom: "2rem",
             fontFamily: "var(--font-playfair)",
             color: "#f5f1e8",
+            cursor: "pointer",
+            transition: "color 0.2s",
           }}
         >
-          About Eisatopon<span style={{ color: "#c9a227" }}>AI</span>
+          About Eisatopon<span className="ai-span">AI</span>
         </h1>
       </Link>
 
