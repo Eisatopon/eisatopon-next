@@ -110,7 +110,7 @@ function escapeHtml(str: string): string {
 }
 
 function renderContent(raw: string): string {
-  const normalized = raw.replace(/\\n/g, "\n");
+  const normalized = raw.replace(/\\\\n/g, "\n").replace(/https:\/\/raw\.githubusercontent\.com\/Eisatopon\/eisatopon-bank\/main\//g, 'https://cdn.jsdelivr.net/gh/Eisatopon/eisatopon-bank@main/');
 
   // Protect inline HTML (images etc) before any processing
   const htmlChunks: string[] = [];
