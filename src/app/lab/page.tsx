@@ -120,7 +120,7 @@ export default function LabPage() {
 
           {/* TILING — teal, full width horizontal */}
           <Link href="/lab/tiling"
-            className="group relative overflow-hidden rounded-[32px] border border-white/[0.08] bg-white/[0.03] py-12 px-10 transition-all duration-500 hover:border-[#25c491]/30 hover:bg-white/[0.05] hover:-translate-y-1 hover:shadow-[0_20px_60px_-15px_rgba(37,196,145,0.15)] block mb-16">
+            className="group relative overflow-hidden rounded-[32px] border border-white/[0.08] bg-white/[0.03] py-12 px-10 transition-all duration-500 hover:border-[#25c491]/30 hover:bg-white/[0.05] hover:-translate-y-1 hover:shadow-[0_20px_60px_-15px_rgba(37,196,145,0.15)] block mb-8">
             <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
               style={{ background: "radial-gradient(circle at top left, rgba(37,196,145,0.12), transparent 60%)" }} />
             <div className="relative z-10 flex flex-col md:flex-row md:items-center gap-8">
@@ -144,6 +144,36 @@ export default function LabPage() {
               </div>
               <div className="flex items-center gap-3 uppercase tracking-[0.3em] text-[0.72rem] font-bold flex-shrink-0" style={{ color: "#25c491" }}>
                 Play Now <span className="transition-transform duration-300 group-hover:translate-x-2 text-base">→</span>
+              </div>
+            </div>
+          </Link>
+
+          {/* STRATEGY MAP — cyan, full width horizontal */}
+          <Link href="/lab/strategy-map"
+            className="group relative overflow-hidden rounded-[32px] border border-white/[0.08] bg-white/[0.03] py-12 px-10 transition-all duration-500 hover:border-[#06b6d4]/30 hover:bg-white/[0.05] hover:-translate-y-1 hover:shadow-[0_20px_60px_-15px_rgba(6,182,212,0.15)] block mb-8">
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
+              style={{ background: "radial-gradient(circle at top left, rgba(6,182,212,0.12), transparent 60%)" }} />
+            <div className="relative z-10 flex flex-col md:flex-row md:items-center gap-8">
+              <div className="w-16 h-16 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0"
+                style={{ background: "rgba(6,182,212,0.1)", border: "1px solid rgba(6,182,212,0.2)", color: "#06b6d4" }}>◈</div>
+              <div className="flex-1">
+                <h2 style={{ fontFamily: "var(--font-playfair)", fontSize: "2.4rem", lineHeight: 1.1, color: "#f5f1e8", marginBottom: "10px" }}>
+                  Strategy Map
+                  <span className="ml-3 text-[0.65rem] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded-full align-middle"
+                    style={{ background: "rgba(6,182,212,0.1)", border: "1px solid rgba(6,182,212,0.25)", color: "#06b6d4" }}>New</span>
+                </h2>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {["12 Strategies", "36 Problems", "3 Levels"].map(tag => (
+                    <span key={tag} className="text-[0.68rem] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded-full"
+                      style={{ background: "rgba(6,182,212,0.08)", border: "1px solid rgba(6,182,212,0.18)", color: "#06b6d4" }}>{tag}</span>
+                  ))}
+                </div>
+                <p style={{ color: "rgba(245,241,232,0.65)", fontSize: "1rem", lineHeight: 1.75 }}>
+                  Twelve fundamental problem-solving strategies used by olympiad mathematicians — Extremal Element, Pigeonhole, Invariants, Induction, and more. Each with worked examples at three levels.
+                </p>
+              </div>
+              <div className="flex items-center gap-3 uppercase tracking-[0.3em] text-[0.72rem] font-bold flex-shrink-0" style={{ color: "#06b6d4" }}>
+                Explore <span className="transition-transform duration-300 group-hover:translate-x-2 text-base">→</span>
               </div>
             </div>
           </Link>
