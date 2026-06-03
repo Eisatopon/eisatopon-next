@@ -5,6 +5,7 @@ import ShareButtons from "@/components/ShareButtons";
 import { getArticleBySlug, getAllArticles } from "@/lib/articles";
 import type { Metadata } from "next";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import "katex/dist/katex.min.css";
@@ -222,7 +223,7 @@ const ArticlePage = async (
             source={content}
             options={{
               mdxOptions: {
-                remarkPlugins: [remarkMath],
+                remarkPlugins: [remarkGfm as any, remarkMath],
                 rehypePlugins: [rehypeKatex],
               },
             }}
