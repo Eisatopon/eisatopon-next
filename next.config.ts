@@ -39,7 +39,7 @@ const nextConfig: NextConfig = {
 
 const withMDX = createMDX({
   options: {
-    remarkPlugins: [remarkGfm, remarkMath],
+    remarkPlugins: [remarkGfm as any, remarkMath],
 
     rehypePlugins: [rehypeKatex],
   },
