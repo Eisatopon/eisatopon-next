@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CAPS_2019_P1",
+    "year": 2019,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Points $A,B,C,X,D,Y$ on $\\omega$ in order with $BD$ a diameter and $DX=DY=DP$ where $P=AC\\cap BD$. Lines $XP$ meets $AB,BC$ at $E,F$. Prove $B,E,F,Y$ lie on a circle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAPS_2019_P2",
+    "year": 2019,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers $n$ with $\\geq 6$ divisors $1=d_1<d_2<\\cdots<d_k=n$ satisfying $n=d_5^2+d_6^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAPS_2019_P3",
+    "year": 2019,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A trilateration of a convex polygon is \\textit{good} if each triangle's boundary arrows form a cycle and the whole polygon's boundary also forms a cycle. Find all $n\\geq 3$ for which a regular $n$-gon has a good trilateration.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAPS_2019_P4",
+    "year": 2019,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For $\\alpha\\in\\mathbb{R}$, find all pairs $(f,g)$ of $f,g:\\mathbb{R}\\to\\mathbb{R}$ with $xf(x+y)+\\alpha yf(x-y)=g(x)+g(y)$ for all $x,y$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAPS_2019_P5",
+    "year": 2019,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Determine whether there exist disks $D_2,\\ldots,D_{101}$ such that for all $2\\leq a<b\\leq 101$: if $a\\mid b$ then $D_a\\subseteq D_b$; if $\\gcd(a,b)=1$ then $D_a\\cap D_b=\\emptyset$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2019"
+  },
+  {
+    "id": "CAPS_2019_P6",
+    "year": 2019,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with $AB<AC$ and $\\angle BAC=60^\\circ$, altitudes $AD,BE,CF$, orthocenter $H$, midpoints $K,L,M$ of $BC,CA,AB$. Prove midpoints of $AH,DK,EL,FM$ lie on a single circle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2019"
+  }
+]

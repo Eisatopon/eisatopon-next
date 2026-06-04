@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1951_P1",
+    "year": 1951,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A beam of length $a$ is suspended horizontally with its ends on two parallel ropes of length $b$. The beam is rotated through angle $\\varphi$ around a vertical axis through its center. By how much does the beam rise?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1951"
+  },
+  {
+    "id": "PMO_1951_P2",
+    "year": 1951,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "What digits should replace the zeros in the third and fifth positions of $3{,}0{,}0{,}0{,}0{,}0{,}3$ (i.e., $3\\mathord{\\_}0\\mathord{\\_}003$) to make it divisible by 13?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1951"
+  },
+  {
+    "id": "PMO_1951_P3",
+    "year": 1951,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that for $a,b,c>0$: $ab(a+b)+bc(b+c)+ca(c+a)\\geq 6abc$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1951"
+  },
+  {
+    "id": "PMO_1951_P4",
+    "year": 1951,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Determine coefficients of $x^3-ax^2+bx-c=0$ such that its roots are $a,b,c$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1951"
+  },
+  {
+    "id": "PMO_1951_P5",
+    "year": 1951,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Quadrilateral $ABCD$ is inscribed in a circle. Lines $AB$ and $CD$ meet at $E$; lines $AD$ and $BC$ meet at $F$. The angle bisector of $\\angle AEC$ meets $BC$ at $M$ and $AD$ at $N$; the angle bisector of $\\angle BFD$ meets $AB$ at $P$ and $CD$ at $Q$. Prove $MPNQ$ is a rhombus.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1951"
+  },
+  {
+    "id": "PMO_1951_P6",
+    "year": 1951,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given a circle and segment $MN$. Find a point $C$ on the circle such that triangle $ABC$ (where $A,B$ are intersections of lines $MC,NC$ with the circle) is similar to triangle $MNC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1951"
+  }
+]

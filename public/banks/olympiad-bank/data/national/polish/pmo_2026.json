@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_2026_P1",
+    "year": 2026,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$2a=bn$; $\\{1,\\ldots,2a\\}$ split into $n$ sets of size $b$. Prove the sets can be split into two groups where the first group's union contains $\\geq a/2-4b$ numbers $\\leq a$ and the second's contains $\\geq a/2-4b$ numbers $\\geq a$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2026"
+  },
+  {
+    "id": "PMO_2026_P2",
+    "year": 2026,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Positive integers $a,b$. Prove $a\\mid b-1$ iff $\\lfloor\\frac{a}{b}n\\rfloor=\\lfloor\\frac{a}{b}(n-\\frac{1}{2})\\rfloor$ for all $n=1,\\ldots,2b$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2026"
+  },
+  {
+    "id": "PMO_2026_P3",
+    "year": 2026,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Positive $n$ and $x_1,\\ldots,x_n$ with $\\sum x_i=1$. Prove $\\left(\\sum x_i^2\\right)^2\\sqrt{n}\\geq\\sum x_i^3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2026"
+  },
+  {
+    "id": "PMO_2026_P4",
+    "year": 2026,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "$f:\\mathbb{R}\\to\\mathbb{R}$ with $f(x)=f(1/x)$ for $x\\neq 0$ and $f(x)=P(x)/Q(x)$ for polynomials $P,Q$. Prove there exist polynomials $R,S$ with $f(x)=R(x+1/x)/S(x+1/x)$ for all $x\\neq 0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2026"
+  },
+  {
+    "id": "PMO_2026_P5",
+    "year": 2026,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ ($AB<AC$); incircle touches $BC,CA,AB$ at $D,E,F$; $X,Y$ on line $EF$ with $\\angle XBC=\\angle YCB=90^\\circ$; $M$ = midpoint of $BC$; lines symmetric to $BX$ w.r.t. $MX$ and $CY$ w.r.t. $MY$ meet at $Z$. Prove $BC\\perp ZD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2026"
+  },
+  {
+    "id": "PMO_2026_P6",
+    "year": 2026,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$n$ bamboos grow at rates $a_1,\\ldots,a_n>0$ with $\\sum a_i=1$. Each midnight, Wojtek can cut one to height 0. Starting at all heights 0, prove he can keep every bamboo at height $\\leq 2$ always.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2026"
+  }
+]

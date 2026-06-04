@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CAPS_2008_P1",
+    "year": 2008,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all triples $(x,y,z)$ of positive reals satisfying: $2x^3=2y(x^2+1)-(z^2+1)$, $2y^4=3z(y^2+1)-2(x^2+1)$, $2z^5=4x(z^2+1)-3(y^2+1)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2008"
+  },
+  {
+    "id": "CAPS_2008_P2",
+    "year": 2008,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Convex hexagon $ABCDEF$ with $|\\angle FAB|=|\\angle BCD|=|\\angle DEF|$ and $|AB|=|BC|$, $|CD|=|DE|$, $|EF|=|FA|$. Prove lines $AD$, $BE$, $CF$ are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2008"
+  },
+  {
+    "id": "CAPS_2008_P3",
+    "year": 2008,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all primes $p$ such that $\\left(\\dfrac{p}{1}\\right)^2+\\left(\\dfrac{p}{2}\\right)^2+\\cdots+\\left(\\dfrac{p}{p-1}\\right)^2$ is divisible by $p^3$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2008"
+  },
+  {
+    "id": "CAPS_2008_P4",
+    "year": 2008,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove there exists a positive integer $n$ such that $k^2+k+n$ has no prime divisor less than 2008 for any integer $k$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2008"
+  },
+  {
+    "id": "CAPS_2008_P5",
+    "year": 2008,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$ABCDE$ is a regular pentagon. Find the minimum of $\\dfrac{|PA|+|PB|}{|PC|+|PD|+|PE|}$ over all points $P$ in its plane.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2008"
+  },
+  {
+    "id": "CAPS_2008_P6",
+    "year": 2008,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all triples $(k,m,n)$ of positive integers such that an $m\\times m$ square can be divided into several $1\\times k$ rectangles and a square of side $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2008"
+  }
+]

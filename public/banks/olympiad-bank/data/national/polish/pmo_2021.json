@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_2021_P1",
+    "year": 2021,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "$p_1,\\ldots,p_k$ = first $k$ primes, $N=p_1\\cdots p_k$. Prove exactly $N/2$ elements of $\\{1,\\ldots,N\\}$ are divisible by an odd number of the $p_i$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2021"
+  },
+  {
+    "id": "PMO_2021_P2",
+    "year": 2021,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For $0\\leq i,j\\leq n$, reals $f(i,j)$ with $f(i,i)=0$ and $f(i,l)\\leq 2\\max\\{f(i,j),f(j,k),f(k,l)\\}$ for $i\\leq j\\leq k\\leq l$. Prove $f(0,n)\\leq 2\\sum_{k=1}^n f(k-1,k)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2021"
+  },
+  {
+    "id": "PMO_2021_P3",
+    "year": 2021,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\omega$ = circumcircle of $\\triangle ABC$; $P\\in\\omega$ (not a vertex); $D=AP\\cap BC$, $E=BP\\cap AC$, $F=CP\\cap AB$; $X,Y,Z$ = projections of $D,E,F$ onto lines through midpoints of $AP,BC$; $BP,AC$; $CP,AB$ resp. $Q$ = circumcenter of $\\triangle XYZ$. Prove all such $Q$ lie on a circle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2021"
+  },
+  {
+    "id": "PMO_2021_P4",
+    "year": 2021,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For positive reals $a,b$ and positive integer $n$: $(a+b)^n-a^n-b^n\\geq\\frac{2n-2}{2^{n-2}}\\cdot ab(a+b)^{n-2}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2021"
+  },
+  {
+    "id": "PMO_2021_P5",
+    "year": 2021,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Convex hexagon $ABCDEF$: $\\angle FAB+\\angle BCD+\\angle DEF=360^\\circ$ and $\\angle AEB=\\angle ADB$. Lines $AB,DE$ not parallel. Prove the circumcenters of $\\triangle AFE$, $\\triangle BCD$ and $AB\\cap DE$ are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2021"
+  },
+  {
+    "id": "PMO_2021_P6",
+    "year": 2021,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$d\\geq 2$; finitely many chords on circle $\\omega$; each endpoint is an endpoint of $\\geq d$ chords. Prove some chord intersects $\\geq d^2/4$ others.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2021"
+  }
+]

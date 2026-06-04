@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_2003_P1",
+    "year": 2003,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with altitude $CD$; line through midpoint $M$ of $AB$ meets rays $CA,CB$ at $K,L$ with $CK=CL$; $S$ = circumcenter of $\\triangle CKL$. Prove $SD=SM$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2003"
+  },
+  {
+    "id": "PMO_2003_P2",
+    "year": 2003,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For $0<a<1$ and finite strictly increasing sequences $0\\leq k_1<\\cdots<k_n$ of nonneg­ative integers: $\\left(\\sum_{i=1}^n a^{k_i}\\right)^2<\\frac{1+a}{1-a}\\sum_{i=1}^n a^{2k_i}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2003"
+  },
+  {
+    "id": "PMO_2003_P3",
+    "year": 2003,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all polynomials $W$ with integer coefficients such that for every natural $n$, $W(n)\\mid 2n-1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2003"
+  },
+  {
+    "id": "PMO_2003_P4",
+    "year": 2003,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prime $p$ and integers $0<x<y<z<p$ with $x^3\\equiv y^3\\equiv z^3\\pmod{p}$. Show $x^2+y^2+z^2$ is divisible by $x+y+z$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2003"
+  },
+  {
+    "id": "PMO_2003_P5",
+    "year": 2003,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Insphere of tetrahedron $ABCD$ touches face $ABC$ at $H$; another sphere touches face $ABC$ at $O$ and the planes of the other faces at exterior points. If $O$ is the circumcenter of $\\triangle ABC$, prove $H$ is the orthocenter.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2003"
+  },
+  {
+    "id": "PMO_2003_P6",
+    "year": 2003,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For even $n$, show there is a permutation $(x_1,\\ldots,x_n)$ of $\\{1,\\ldots,n\\}$ with $x_{i+1}\\in\\{2x_i,2x_i-1,2x_i-n,2x_i-n-1\\}$ for all $i$ (indices mod $n$).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 2003"
+  }
+]

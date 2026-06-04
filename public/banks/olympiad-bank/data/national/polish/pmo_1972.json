@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1972_P1",
+    "year": 1972,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Polynomials $u_i(x)=a_ix+b_i$ ($a_i,b_i\\in\\mathbb{R}$, $i=1,2,3$) satisfy $u_1(x)^n+u_2(x)^n=u_3(x)^n$ for some integer $n\\geq 2$. Prove there exist $A,B,c_1,c_2,c_3$ with $u_i(x)=c_i(Ax+B)$ for each $i$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1972"
+  },
+  {
+    "id": "PMO_1972_P2",
+    "year": 1972,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$n>2$ points in the plane, no three collinear. Among all closed polygonal paths through these points, prove any minimum-length one is non-self-intersecting.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1972"
+  },
+  {
+    "id": "PMO_1972_P3",
+    "year": 1972,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove there is a polynomial $P(x)$ with integer coefficients such that $|P(x)-\\frac{1}{2}|<\\frac{1}{1000}$ for all $x\\in[\\frac{1}{10},\\frac{9}{10}]$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1972"
+  },
+  {
+    "id": "PMO_1972_P4",
+    "year": 1972,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Points $A$ and $B$ on a line with no common points with sphere $K$; foot of perpendicular from center of $K$ to line $AB$ is between $A$ and $B$; both $AP$ and $BP$ exceed the radius of $K$. Among all triangles $ABC$ with $AC,BC$ tangent to $K$, prove the triangle with maximum perimeter also has maximum area.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1972"
+  },
+  {
+    "id": "PMO_1972_P5",
+    "year": 1972,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Prove that all subsets of a finite set can be arranged in a sequence where every two consecutive subsets differ in exactly one element.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1972"
+  },
+  {
+    "id": "PMO_1972_P6",
+    "year": 1972,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that the sum of digits of $1972^n$ is unbounded as $n\\to\\infty$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1972"
+  }
+]

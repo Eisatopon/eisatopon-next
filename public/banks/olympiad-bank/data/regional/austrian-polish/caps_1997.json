@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CAPS_1997_P1",
+    "year": 1997,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Points $K,L$ on sides $AB,AC$ of equilateral $\\triangle ABC$ with $BK=AL$. Segments $BL$ and $CK$ meet at $P$. Find $\\dfrac{AK}{KB}$ for which $AP\\perp CK$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1997"
+  },
+  {
+    "id": "CAPS_1997_P2",
+    "year": 1997,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In a community of more than six people, each member exchanges letters with exactly three others. Show the community can be split into two nonempty groups so that each member exchanges letters with at least two members of their own group.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1997"
+  },
+  {
+    "id": "CAPS_1997_P3",
+    "year": 1997,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all $f:\\mathbb{R}\\to\\mathbb{R}$ with $f(f(x)+y)=f(x^2-y)+4f(x)y$ for all $x,y\\in\\mathbb{R}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1997"
+  },
+  {
+    "id": "CAPS_1997_P4",
+    "year": 1997,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Is it possible to place 100 balls in space so that no two share an interior point and each touches at least one third of the others?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1997"
+  },
+  {
+    "id": "CAPS_1997_P5",
+    "year": 1997,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "The sum of several integers equals 1492. Decide whether the sum of their seventh powers can equal (a) 1996; (b) 1998.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1997"
+  },
+  {
+    "id": "CAPS_1997_P6",
+    "year": 1997,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In a certain language with letters $A,B$, the only word of length 1 is $A$, and $X_1X_2\\cdots X_{n+1}$ is a word iff it contains at least one $A$ and is not of the form $WA$ for a word $W$ of length $n$. Show that the number of words with 1998 $A$s and 1998 $B$s not beginning with $AA$ equals $\\dbinom{3995}{1997}-1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 1997"
+  }
+]

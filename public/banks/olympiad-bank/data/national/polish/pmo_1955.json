@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1955_P1",
+    "year": 1955,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "What conditions must reals $a,b,c$ satisfy so that $x^3+ax^2+bx+c=0$ has three distinct real roots forming a geometric progression?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1955"
+  },
+  {
+    "id": "PMO_1955_P2",
+    "year": 1955,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that among any seven natural numbers forming an arithmetic progression with common difference 30, exactly one is divisible by 7.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1955"
+  },
+  {
+    "id": "PMO_1955_P3",
+    "year": 1955,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Equilateral triangle $ABC$ inscribed in a circle. Prove that for any point $M$ on the circle, one of the distances $MA,MB,MC$ equals the sum of the other two.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1955"
+  },
+  {
+    "id": "PMO_1955_P4",
+    "year": 1955,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that $\\sin^2\\alpha+\\sin^2\\beta\\geq\\sin\\alpha\\sin\\beta+\\sin\\alpha+\\sin\\beta-1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1955"
+  },
+  {
+    "id": "PMO_1955_P5",
+    "year": 1955,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Line $m$ and points $A,B$ on opposite sides of $m$ are given. Find $M$ on $m$ maximizing $|MA-MB|$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1955"
+  },
+  {
+    "id": "PMO_1955_P6",
+    "year": 1955,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Through $A$ and $B$, oblique lines $m,n$ are drawn perpendicular to $AB$. $C\\in m$, $D\\in n$. Given $AB=d$, $CD=\\ell$, and angle $\\varphi$ between $m$ and $n$, find the circumradius of sphere through $A,B,C,D$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1955"
+  }
+]

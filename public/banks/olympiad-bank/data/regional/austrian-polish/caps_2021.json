@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CAPS_2021_P1",
+    "year": 2021,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all quadruples $(a,b,c,d)$ of positive integers with $\\gcd(a,b,c,d)=1$ and $a\\mid b+c$, $b\\mid c+d$, $c\\mid d+a$, $d\\mid a+b$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2021"
+  },
+  {
+    "id": "CAPS_2021_P2",
+    "year": 2021,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In acute $\\triangle ABC$, incircle $\\omega$ touches $BC$ at $D$. Let $I_a$ be the excenter opposite $A$; $M$ = midpoint of $DI_a$. Prove the circumcircle of $\\triangle BMC$ is tangent to $\\omega$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2021"
+  },
+  {
+    "id": "CAPS_2021_P3",
+    "year": 2021,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For convex polygons $P_1,P_2$ with distinct vertices, let $f(P_1,P_2)$ = total number of their vertices lying on a side of the other polygon. For each $n\\geq 4$, find $\\max\\{f(P_1,P_2)\\mid P_1,P_2\\text{ are convex }n\\text{-gons}\\}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2021"
+  },
+  {
+    "id": "CAPS_2021_P4",
+    "year": 2021,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the number of 2021-tuples of positive integers containing 3 where consecutive elements differ by $\\leq 1$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2021"
+  },
+  {
+    "id": "CAPS_2021_P5",
+    "year": 2021,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Define $a_1=1$; for $n\\geq 2$, $a_n=a_{n-1}+3$ if $n-1\\in\\{a_1,\\ldots,a_{n-1}\\}$, else $a_n=a_{n-1}+2$. Prove $a_n<n(1+\\sqrt{2})$ for all $n$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2021"
+  },
+  {
+    "id": "CAPS_2021_P6",
+    "year": 2021,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute $\\triangle ABC$ with points $A,A_b,B_a,B,B_c,C_b,C,C_a,A_c$ on its perimeter in order. Let $A_1\\neq A$ be the second intersection of circumcircles of $\\triangle AA_bC_a$ and $\\triangle AA_cB_a$; define $B_1,C_1$ similarly. If $A_1,B_1,C_1$ are distinct, inside $\\triangle ABC$, and non-collinear, prove $AA_1,BB_1,CC_1$ and the circumcircle of $\\triangle A_1B_1C_1$ all pass through a common point.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2021"
+  }
+]

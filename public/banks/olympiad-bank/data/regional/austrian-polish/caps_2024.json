@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CAPS_2024_P1",
+    "year": 2024,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine whether there exist 2024 distinct positive integers such that every ratio between two distinct numbers (both $a/b$ and $b/a$) has a finite decimal expansion, and all these expansions have mutually distinct nonzero lengths.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAPS_2024_P2",
+    "year": 2024,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For a positive integer $n$, a sweet $n$-configuration $\\langle A_{i,j}\\rangle_{1\\leq i,j\\leq n}$ satisfies $A_{i,j}\\subseteq A_{i+1,j}$ and $A_{j,i}\\subseteq A_{j,i+1}$ for all valid $i,j$. Let $f(n,k)$ count sweet $n$-configurations with $A_{n,n}\\subseteq\\{1,\\ldots,k\\}$. Determine which is larger: $f\\!\\left(\\frac{2024}{2},2024\\right)$ or $f\\!\\left(2024,\\frac{2024}{2}\\right)$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAPS_2024_P3",
+    "year": 2024,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "$\\triangle ABC$ with $D$ on $BC$. Points $E,F$ on lines $AB,AC$ beyond $B,C$ with $BE=BD$ and $CF=CD$. $P$ is such that $D$ is the incenter of $\\triangle PEF$. Prove $P$ lies inside or on the circumcircle $\\Omega$ of $\\triangle ABC$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAPS_2024_P4",
+    "year": 2024,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Quadrilateral $ABCD$ with $AB=BC=CD$. Points $X,Y$ on rays $CA,BD$ with $BX=CY$. $P,Q,R,S$ = midpoints of $BX,CY,XD,YA$. Prove $P,Q,R,S$ are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAPS_2024_P5",
+    "year": 2024,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For $\\alpha\\neq 0$, find all $f:\\mathbb{R}\\to\\mathbb{R}$ with $f(x^2+y^2)=f(x-y)f(x+y)+\\alpha yf(y)$ for all $x,y\\in\\mathbb{R}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2024"
+  },
+  {
+    "id": "CAPS_2024_P6",
+    "year": 2024,
+    "olympiad": "CAPS",
+    "olympiad_full_name": "Czech-Austrian-Polish-Slovak Mathematical Olympiad",
+    "scope": "regional",
+    "region": "caps",
+    "country": null,
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine whether there exist infinitely many triples $(a,b,c)$ of positive integers such that every prime $p$ divides $\\lfloor(a+b\\sqrt{2024})^p\\rfloor-c$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Czech-Austrian-Polish-Slovak Mathematical Olympiad 2024"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1994_P1",
+    "year": 1994,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all triples $(x,y,z)$ of positive rationals with $x+y+z$, $\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}$, and $xyz$ all integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1994"
+  },
+  {
+    "id": "PMO_1994_P2",
+    "year": 1994,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Two parallel lines $k,\\ell$ and a circle not intersecting $k$. Variable point $A$ on $k$; tangents from $A$ to the circle meet $\\ell$ at $B,C$; $m$ = line through $A$ and midpoint of $BC$. Prove all such $m$ share a common point.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1994"
+  },
+  {
+    "id": "PMO_1994_P3",
+    "year": 1994,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Fixed $k\\geq 1$; $a_n$ = number of maps $f:2^{\\{1,\\ldots,n\\}}\\to\\{1,\\ldots,k\\}$ with $f(A\\cap B)=\\min(f(A),f(B))$. Find $\\lim_{n\\to\\infty}\\sqrt[n]{a_n}$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1994"
+  },
+  {
+    "id": "PMO_1994_P4",
+    "year": 1994,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "$m,n$ coprime; three jugs of capacity $m,n,m+n$ liters, largest full. Show for any $k\\in\\{1,\\ldots,m+n\\}$, exactly $k$ liters can be obtained in some jug.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1994"
+  },
+  {
+    "id": "PMO_1994_P5",
+    "year": 1994,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Parallelepiped with vertices $A_1,\\ldots,A_8$ and center $O$. Show $4\\sum_{i=1}^8 OA_i^2\\leq\\left(\\sum_{i=1}^8 OA_i\\right)^2$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1994"
+  },
+  {
+    "id": "PMO_1994_P6",
+    "year": 1994,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Distinct reals $x_1,\\ldots,x_n$ ($n>3$) with $\\sum x_i=0$, $\\sum x_i^2=1$. Show there are $a,b,c,d$ with $a+b+c+nabc\\leq\\sum x_i^3\\leq a+b+d+nabd$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1994"
+  }
+]

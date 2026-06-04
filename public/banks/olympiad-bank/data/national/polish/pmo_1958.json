@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PMO_1958_P1",
+    "year": 1958,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that the product of three consecutive natural numbers, the middle of which is a perfect cube, is divisible by 504.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1958"
+  },
+  {
+    "id": "PMO_1958_P2",
+    "year": 1958,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Each side of convex quadrilateral $ABCD$ is divided into three equal parts; a line is drawn through the two division points of $AB$ and $AD$ nearest to $A$, and similarly for $B,C,D$. Prove the centroid of the resulting quadrilateral equals the centroid of $ABCD$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1958"
+  },
+  {
+    "id": "PMO_1958_P3",
+    "year": 1958,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that for any natural number $n$: $\\cos\\frac{2\\pi}{n}+\\cos\\frac{4\\pi}{n}+\\cdots+\\cos\\frac{2n\\pi}{n}=0$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1958"
+  },
+  {
+    "id": "PMO_1958_P4",
+    "year": 1958,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that $(1+x)(1+x^2)(1+x^4)\\cdots(1+x^{2^k})=1+x+x^2+\\cdots+x^m$ for some $m$; determine $m$.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1958"
+  },
+  {
+    "id": "PMO_1958_P5",
+    "year": 1958,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In a tetrahedron, the plane bisector of any dihedral angle divides the opposite edge into segments proportional to the areas of the faces forming that dihedral angle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1958"
+  },
+  {
+    "id": "PMO_1958_P6",
+    "year": 1958,
+    "olympiad": "PMO",
+    "olympiad_full_name": "Polish Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Poland",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Prove that among all quadrilaterals circumscribed about a given circle, the square has the smallest perimeter.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "Polish Mathematical Olympiad 1958"
+  }
+]
