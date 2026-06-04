@@ -1,0 +1,90 @@
+[
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_1998_P1",
+    "year": 1998,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "Prove that for any integer $n>3$ there exist infinitely many non-constant arithmetic progressions of length $n-1$ whose terms are positive integers whose product is a perfect $n$-th power.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c5178"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_1998_P2",
+    "year": 1998,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry",
+      "Combinatorics"
+    ],
+    "statement": "For a regular $n$-gon, let $M$ be the set of the lengths of the segments joining its vertices. Show that the sum of the squares of the elements of $M$ is greater than twice the area of the polygon.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c5178"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_1998_P3",
+    "year": 1998,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra",
+      "Inequalities"
+    ],
+    "statement": "Prove that for any non-zero real numbers $a,b,c$: $$\\frac{(b+c-a)^2}{(b+c)^2+a^2}+\\frac{(c+a-b)^2}{(c+a)^2+b^2}+\\frac{(a+b-c)^2}{(a+b)^2+c^2}\\geq\\frac{3}{5}.$$",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c5178"
+  },
+  {
+    "olympiad": "GrMO",
+    "olympiad_full_name": "Greece National Mathematical Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Greece",
+    "gender_restricted": false,
+    "day": null,
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "English",
+    "id": "GrMO_1998_P4",
+    "year": 1998,
+    "problem_id": "P4",
+    "topic": [
+      "Sequences",
+      "Number Theory"
+    ],
+    "statement": "Let a function $g:\\mathbb{N}_0\\to\\mathbb{N}_0$ satisfy $g(0)=0$ and $g(n)=n-g(g(n-1))$ for all $n\\geq 1$. Prove that:\\na) $g(k)\\geq g(k-1)$ for any positive integer $k$.\\nb) There is no $k$ such that $g(k-1)=g(k)=g(k+1)$.",
+    "source": "AoPS Community, https://artofproblemsolving.com/community/c5178"
+  }
+]
