@@ -253,7 +253,7 @@ function buildOlympiadDrop(scope) {
     seen.add(p.olympiad);
     const opt = document.createElement('option');
     opt.value = p.olympiad;
-    opt.textContent = `${c.flag||''} ${c.fullName||p.olympiad}`;
+    opt.textContent = `${c.flag||''} ${c.short||p.olympiad}`;
     sel.appendChild(opt);
   }
   if ([...sel.options].some(o => o.value === cur)) sel.value = cur;
