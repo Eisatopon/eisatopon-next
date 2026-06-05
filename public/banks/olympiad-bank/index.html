@@ -482,9 +482,10 @@ function updateStats(){
           const arr = await r.json();
           if (!Array.isArray(arr) || arr.length === 0) return;
           const key = arr[0].olympiad;
+          const existed = !!DATA[key];
           if (!DATA[key]) DATA[key] = [];
           DATA[key].push(...arr);
-          for (const p of arr) loaded.push(p);
+          if (!existed) for (const p of arr) loaded.push(p);
         } catch(e) {}
       }));
     }
