@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ANO-1995-D1-1",
+    "year": 1995,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "\\(A_0A_1\\cdots A_n\\) is a regular polygon with \\(n+1\\) vertices (\\(n > 2\\)). Initially \\(n\\) stones are placed at vertex \\(A_0\\). In each allowed operation, 2 stones are moved simultaneously, at the player's choice: each stone is moved from the vertex where it is located to one of the two adjacent vertices. Find all values of \\(n\\) for which it is possible to have, after a succession of permitted operations, one stone at each of the vertices \\(A_1, A_2, \\ldots, A_n\\).\n\nClarification: The two stones that move in an allowed operation can be at the same vertex or at different vertices.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828622"
+  },
+  {
+    "id": "ANO-1995-D1-2",
+    "year": 1995,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For each positive integer \\(n\\) let \\(p(n)\\) be the number of ordered pairs \\((x, y)\\) of positive integers such that \\(\\dfrac{1}{x} + \\dfrac{1}{y} = \\dfrac{1}{n}\\). For example, for \\(n = 2\\) the pairs are \\((3,6)\\), \\((4,4)\\), \\((6,3)\\), so \\(p(2) = 3\\).\n\na) Determine \\(p(n)\\) for all \\(n\\) and calculate \\(p(1995)\\).\n\nb) Determine all pairs \\(n\\) such that \\(p(n) = 3\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828622"
+  },
+  {
+    "id": "ANO-1995-D1-3",
+    "year": 1995,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABCD\\) be a parallelogram, and \\(P\\) a point such that \\(2\\angle PDA = \\angle ABP\\) and \\(2\\angle PAD = \\angle PCD\\). Show that \\(AB = BP = CP\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828622"
+  },
+  {
+    "id": "ANO-1995-D2-4",
+    "year": 1995,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the smallest natural number that is simultaneously the sum of 9 consecutive natural numbers, the sum of 10 consecutive natural numbers, and the sum of 11 consecutive natural numbers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828622"
+  },
+  {
+    "id": "ANO-1995-D2-5",
+    "year": 1995,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(a, b\\) be real numbers such that the equation\n\\[x^3 + \\sqrt{3}(a-1)x^2 - 6ax + b = 0\\]\nhas three real roots. Prove that \\(|b| \\leq |a+1|^3\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828622"
+  },
+  {
+    "id": "ANO-1995-D2-6",
+    "year": 1995,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "The 27 points \\((a,b,c)\\) in space with \\(a, b, c \\in \\{0, 1, 2\\}\\) are marked as junctures. Using 54 rods of length 1, all junctures at distance 1 are joined, forming a \\(2 \\times 2 \\times 2\\) cubic structure. An ant starts from a juncture \\(A\\) and moves along the rods; when it reaches a juncture it turns \\(90^\\circ\\) and changes rod. If the ant returns to \\(A\\) having not visited any juncture more than once (except \\(A\\), which it visits twice, at the start and at the end), what is the greatest possible length of the ant's path?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828622"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ANO-2008-D1-1",
+    "year": 2008,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "101 positive integers are written in a line. Prove that we can insert signs \\(+\\), signs \\(\\times\\), and parentheses between them (without changing the order of the numbers) such that the resulting expression is valid and the result is divisible by \\(16!\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c1142401"
+  },
+  {
+    "id": "ANO-2008-D1-2",
+    "year": 2008,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In every cell of a \\(60 \\times 60\\) board a real number is written, with absolute value at most 1. The sum of all numbers on the board equals 600. Prove that there exists a \\(12 \\times 12\\) square on the board such that the absolute value of the sum of all numbers in it is at most 24.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c1142401"
+  },
+  {
+    "id": "ANO-2008-D1-3",
+    "year": 2008,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "On a circle with center \\(O\\), let \\(A\\) and \\(B\\) be points on the circle with \\(\\angle AOB = 120^\\circ\\). Point \\(C\\) lies on the minor arc \\(AB\\) and point \\(D\\) lies on segment \\(AB\\). Given that \\(AD = 2\\), \\(BD = 1\\), and \\(CD = \\sqrt{2}\\), calculate the area of triangle \\(ABC\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c1142401"
+  },
+  {
+    "id": "ANO-2008-D2-4",
+    "year": 2008,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all real numbers \\(x\\) satisfying \\(\\lfloor 2x \\rfloor + \\lfloor 3x \\rfloor + \\lfloor 7x \\rfloor = 2008\\), where \\(\\lfloor x \\rfloor\\) denotes the greatest integer less than or equal to \\(x\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c1142401"
+  },
+  {
+    "id": "ANO-2008-D2-5",
+    "year": 2008,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all perfect powers whose last four digits are 2, 0, 0, 8 (in that order).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c1142401"
+  },
+  {
+    "id": "ANO-2008-D2-6",
+    "year": 2008,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Consider an \\(a \\times b\\) board (with \\(a, b \\geq 2\\) integers) whose cells are colored black and white like a chessboard. The permitted operation consists of choosing two cells sharing a side and recoloring them: a white cell becomes black, a black cell becomes green, and a green cell becomes white. Determine for which values of \\(a\\) and \\(b\\) it is possible, through a succession of permitted operations, to have all originally white cells become black and all originally black cells become white.\n\nClarification: Initially there are no green cells, but they may appear after the first operation.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c1142401"
+  }
+]

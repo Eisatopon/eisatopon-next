@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ANO-2006-D1-1",
+    "year": 2006,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(A\\) be the set of positive real numbers less than 1 that have a periodic decimal expansion with a period consisting of exactly ten different digits. Find a positive integer \\(n > 1\\) and \\(n < 10^{10}\\) such that \\(na - a\\) is a positive integer for all \\(a \\in A\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828527"
+  },
+  {
+    "id": "ANO-2006-D1-2",
+    "year": 2006,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In triangle \\(ABC\\), \\(M\\) is the midpoint of \\(AB\\) and \\(D\\) is the foot of the bisector of angle \\(\\angle ABC\\). If \\(MD \\perp BD\\), calculate \\(\\dfrac{AB}{BC}\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828527"
+  },
+  {
+    "id": "ANO-2006-D1-3",
+    "year": 2006,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Pablo and Nacho together write a sequence of 2006 positive integers by the following rules: Pablo starts by writing 1; thereafter each player in turn writes a positive integer that is at least as large as the last number the opponent wrote and at most triple that number. After both have written all 2006 numbers, let \\(S\\) be the sum of the first 2005 numbers and \\(T\\) be the sum of all 2006 numbers. If \\(S\\) and \\(T\\) are coprime, Nacho wins; otherwise Pablo wins. Determine which player has a winning strategy, describe it, and prove it is winning.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828527"
+  },
+  {
+    "id": "ANO-2006-D2-4",
+    "year": 2006,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the greatest number \\(M\\) with the following property: in every arrangement of the integers \\(1, 2, \\ldots, 2006\\), there exist 1010 consecutive numbers in that arrangement whose sum is greater than or equal to \\(M\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828527"
+  },
+  {
+    "id": "ANO-2006-D2-5",
+    "year": 2006,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A captain distributed 4000 gold coins among 40 pirates. A group of 5 pirates is called poor if those 5 pirates received a total of at most 500 coins. The captain arranged the distribution so that the number of poor groups of 5 pirates is minimized. Determine how many poor groups of 5 pirates there are.\n\nClarification: Two groups of 5 pirates are different if at least one pirate is in one group but not the other.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828527"
+  },
+  {
+    "id": "ANO-2006-D2-6",
+    "year": 2006,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A natural number \\(n\\) is called adequate if there exist \\(n\\) integers \\(a_1, a_2, \\ldots, a_n\\) (not necessarily positive, repetitions allowed) such that\n\\[a_1 + a_2 + \\cdots + a_n = a_1 a_2 \\cdots a_n = n.\\]\nDetermine all adequate numbers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828527"
+  }
+]
