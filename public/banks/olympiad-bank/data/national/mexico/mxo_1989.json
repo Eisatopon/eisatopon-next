@@ -13,7 +13,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "In a triangle ABC the area is 18, the length AB is 5, and the medians from A and B are orthogonal. Find the lengths of the sides BC, AC.",
+    "statement": "In a triangle \\(ABC\\) the area is 18, \\(AB = 5\\), and the medians from \\(A\\) and \\(B\\) are perpendicular. Find the lengths of sides \\(BC\\) and \\(AC\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -34,7 +34,7 @@
     "topic": [
       "Number Theory"
     ],
-    "statement": "Find two positive integers a, b such that a|b2 , b2 |a3 , a3 |b4 , b4 |a5 , but a5 does not divide b6",
+    "statement": "Find two positive integers \\(a, b\\) such that \\(a \\mid b^2\\), \\(b^2 \\mid a^3\\), \\(a^3 \\mid b^4\\), \\(b^4 \\mid a^5\\), but \\(a^5\\) does not divide \\(b^6\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -53,10 +53,9 @@
     "day": 1,
     "problem_id": "P3",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Prove that there is no 1989-digit natural number at least three of whose digits are equal to 5 and such that the product of its digits equals their sum. – Day 2",
+    "statement": "Prove that there is no 1989-digit natural number having at least three digits equal to 5 and such that the product of its digits equals their sum.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -77,7 +76,7 @@
     "topic": [
       "Number Theory"
     ],
-    "statement": "Find the smallest possible natural number n = am ...a2 a1 a0 (in decimal system) such that the number r = a1 a0 am ...2 0 equals 2n.",
+    "statement": "Find the smallest possible natural number \\(n = \\overline{a_m \\cdots a_2 a_1 a_0}\\) (in decimal) such that the number \\(r = \\overline{a_1 a_0 a_m \\cdots a_2}\\) (obtained by moving the last two digits to the front) equals \\(2n\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -96,10 +95,9 @@
     "day": 2,
     "problem_id": "P5",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "Let C1 and C2 be two tangent unit circles inside a circle C of radius 2. Circle C3 inside C is tangent to the circles C, C1 , C2 , and circle C4 inside C is tangent to C, C1 , C3 . Prove that the centers of C, C1 , C3 and C4 are vertices of a rectangle.",
+    "statement": "Let \\(C_1\\) and \\(C_2\\) be two tangent unit circles inside a circle \\(C\\) of radius 2. Circle \\(C_3\\) inside \\(C\\) is tangent to \\(C\\), \\(C_1\\), and \\(C_2\\); circle \\(C_4\\) inside \\(C\\) is tangent to \\(C\\), \\(C_1\\), and \\(C_3\\). Prove that the centers of \\(C\\), \\(C_1\\), \\(C_3\\), and \\(C_4\\) are vertices of a rectangle.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -118,12 +116,11 @@
     "day": 2,
     "problem_id": "P6",
     "topic": [
-      "Geometry",
       "Combinatorics"
     ],
-    "statement": "Determine the number of paths from A to B on the picture that go along gridlines only, do not pass through any point twice, and never go upwards? https://cdn.artofproblemsolving.com/attachments/0/2/87868e24a48a2e130fb5039daeb85af42f4b9 png",
-    "has_figure": false,
-    "figure_description": null,
+    "statement": "Determine the number of paths from \\(A\\) to \\(B\\) on a grid that go along gridlines only, do not pass through any point twice, and never go upwards.",
+    "has_figure": true,
+    "figure_description": "Grid figure from AoPS attachment",
     "official_solution_available": false,
     "language": "en",
     "source": "AoPS"

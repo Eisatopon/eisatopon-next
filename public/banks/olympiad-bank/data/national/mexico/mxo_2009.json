@@ -13,7 +13,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "In 4ABC, let D be the foot of the altitude from A to BC. A circle centered at D with radius AD intersects lines AB and AC at P and Q, respectively. Show that 4AQP ∼ 4ABC.",
+    "statement": "In \\(\\triangle ABC\\), let \\(D\\) be the foot of the altitude from \\(A\\) to \\(BC\\). A circle centered at \\(D\\) with radius \\(AD\\) meets lines \\(AB\\) and \\(AC\\) at \\(P\\) and \\(Q\\) respectively. Show that \\(\\triangle AQP \\sim \\triangle ABC\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -32,10 +32,9 @@
     "day": 1,
     "problem_id": "P2",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "In boxes labeled 0, 1, 2, . . . , we place integers according to the following rules: • If p is a prime number, we place it in box 1. • If a is placed in box ma and b is placed in box mb , then ab is placed in the box labeled amb +bma . Find all positive integers n that are placed in the box labeled n.",
+    "statement": "In boxes labeled \\(0, 1, 2, \\ldots\\) we place integers by the rules: if \\(p\\) is prime, place it in box 1; if \\(a\\) is in box \\(m_a\\) and \\(b\\) in box \\(m_b\\), then \\(ab\\) is in box \\(am_b + bm_a\\). Find all positive integers \\(n\\) placed in box \\(n\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -56,7 +55,7 @@
     "topic": [
       "Algebra"
     ],
-    "statement": "Let a, b, and c be positive numbers satisfying abc = 1. Show that a3 b3 c3 1 1 1 + + ≥ 1 and 3 + 3 + 3 ≤1 3 3 3 a +2 b +2 c +2 a +2 b +2 c +2 Day 2",
+    "statement": "Let \\(a, b, c > 0\\) with \\(abc = 1\\). Show that \\(\\dfrac{a^3}{a^3+2} + \\dfrac{b^3}{b^3+2} + \\dfrac{c^3}{c^3+2} \\geq 1\\) and \\(\\dfrac{1}{a^3+2} + \\dfrac{1}{b^3+2} + \\dfrac{1}{c^3+2} \\leq 1\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -64,7 +63,7 @@
     "source": "AoPS"
   },
   {
-    "id": "MXO-2009-P1",
+    "id": "MXO-2009-P4",
     "year": 2009,
     "olympiad": "MXO",
     "olympiad_full_name": "Mexico National Olympiad",
@@ -72,14 +71,12 @@
     "region": "North America",
     "country": "Mexico",
     "gender_restricted": false,
-    "day": 1,
-    "problem_id": "P1",
+    "day": 2,
+    "problem_id": "P4",
     "topic": [
-      "Number Theory",
-      "Algebra",
-      "Combinatorics"
+      "Algebra"
     ],
-    "statement": "Let n > 1 be an odd integer, and let a1 , a2 , . . . , an be distinct real numbers. Let M be the maximum of these numbers and m the minimum. Show that it is possible to choose the signs of the expression s = ±a1 ± a2 ± · · · ± an so that m<s<M",
+    "statement": "Let \\(n > 1\\) be odd and \\(a_1, a_2, \\ldots, a_n\\) be distinct reals with maximum \\(M\\) and minimum \\(m\\). Show that signs \\(\\pm\\) can be chosen for \\(s = \\pm a_1 \\pm a_2 \\pm \\cdots \\pm a_n\\) such that \\(m < s < M\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -87,7 +84,7 @@
     "source": "AoPS"
   },
   {
-    "id": "MXO-2009-P2",
+    "id": "MXO-2009-P5",
     "year": 2009,
     "olympiad": "MXO",
     "olympiad_full_name": "Mexico National Olympiad",
@@ -95,12 +92,12 @@
     "region": "North America",
     "country": "Mexico",
     "gender_restricted": false,
-    "day": 1,
-    "problem_id": "P2",
+    "day": 2,
+    "problem_id": "P5",
     "topic": [
       "Geometry"
     ],
-    "statement": "Consider a triangle ABC and a point M on side BC. Let P be the intersection of the perpendiculars from M to AB and from B to BC, and let Q be the intersection of the perpendiculars from M to AC and from C to BC. Show that P Q is perpendicular to AM if and only if M is the midpoint of BC.",
+    "statement": "Consider triangle \\(ABC\\) and point \\(M\\) on side \\(BC\\). Let \\(P\\) be the intersection of the perpendiculars from \\(M\\) to \\(AB\\) and from \\(B\\) to \\(BC\\), and \\(Q\\) the intersection of the perpendiculars from \\(M\\) to \\(AC\\) and from \\(C\\) to \\(BC\\). Show that \\(PQ \\perp AM\\) if and only if \\(M\\) is the midpoint of \\(BC\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -108,7 +105,7 @@
     "source": "AoPS"
   },
   {
-    "id": "MXO-2009-P3",
+    "id": "MXO-2009-P6",
     "year": 2009,
     "olympiad": "MXO",
     "olympiad_full_name": "Mexico National Olympiad",
@@ -116,12 +113,12 @@
     "region": "North America",
     "country": "Mexico",
     "gender_restricted": false,
-    "day": 1,
-    "problem_id": "P3",
+    "day": 2,
+    "problem_id": "P6",
     "topic": [
-      "Algebra"
+      "Combinatorics"
     ],
-    "statement": "At a party with n people, it is known that among any 4 people, there are either 3 people who all know one another or 3 people none of which knows another. Show that the n people can be separated into two rooms, so that everyone in one room knows one another and no two people in the other room know each other.",
+    "statement": "At a party with \\(n\\) people, among any 4 people there are either 3 who all know each other or 3 who are mutually strangers. Show that the \\(n\\) people can be separated into two rooms so that everyone in one room knows each other and no two people in the other room know each other.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

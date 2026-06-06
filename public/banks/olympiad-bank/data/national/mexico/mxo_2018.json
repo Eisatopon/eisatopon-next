@@ -13,7 +13,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Let A and B be two points on a line ℓ, M the midpoint of AB, and X a point on segment AB other than M . Let Ω be a semicircle with diameter AB. Consider a point P on Ω and let Γ be the circle through P and X that is tangent to AB. Let Q be the second intersection point of Ω and Γ. The internal angle bisector of ∠P XQ intersects Γ at a point R. Let Y be a point on ℓ such that RY is perpendicular to ℓ. Show that M X > XY",
+    "statement": "Let \\(A, B\\) be on line \\(\\ell\\), \\(M\\) the midpoint of \\(AB\\), \\(X\\) another point on \\(AB\\). \\(\\Omega\\) is a semicircle with diameter \\(AB\\). \\(P\\) is on \\(\\Omega\\) and \\(\\Gamma\\) is the circle through \\(P, X\\) tangent to \\(\\ell\\). \\(Q\\) is the second intersection of \\(\\Omega\\) and \\(\\Gamma\\). The internal bisector of \\(\\angle PXQ\\) meets \\(\\Gamma\\) at \\(R\\). \\(Y\\) is on \\(\\ell\\) with \\(RY \\perp \\ell\\). Show \\(MX > XY\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -32,13 +32,11 @@
     "day": 1,
     "problem_id": "P2",
     "topic": [
-      "Geometry",
-      "Number Theory",
       "Combinatorics"
     ],
-    "statement": "For each positive integer m, we deﬁne Lm as the ﬁgure that is obtained and m × 1 rectangles in such a way that they coincide at the 1 × 1 square at their ends, as shown in the ﬁgure. ... L1 L2 L3 L4 Using some ﬁgures Lm1 , Lm2 , . . . , Lmk , we cover an n × n board completely, in such a way that the edges of the ﬁgure coincide with lines in the board. Among all possible coverings of the board, ﬁnd the minimal possible value of m1 + m2 + · · · + mk . Note: In covering the board, the ﬁgures may be rotated or reﬂected, and they may overlap or not be completely contained within the board.",
-    "has_figure": false,
-    "figure_description": null,
+    "statement": "For each positive integer \\(m\\), define \\(L_m\\) as the L-shaped figure formed by overlapping a \\(1 \\times m\\) and an \\(m \\times 1\\) rectangle at one corner. These figures cover an \\(n \\times n\\) board completely (edges matching gridlines, pieces may overlap or extend). Find the minimum possible value of \\(m_1 + m_2 + \\cdots + m_k\\) over all such coverings.",
+    "has_figure": true,
+    "figure_description": "L-shaped figure L_m for m=1,2,3,4",
     "official_solution_available": false,
     "language": "en",
     "source": "AoPS"
@@ -55,11 +53,9 @@
     "day": 1,
     "problem_id": "P3",
     "topic": [
-      "Number Theory",
-      "Algebra",
-      "Combinatorics"
+      "Number Theory"
     ],
-    "statement": "A sequence a2 , a3 , . . . , an of positive integers is said to be campechana, if for each i such that 2 ≤ i ≤ n it holds that exactly ai terms of the sequence are relatively prime to i. We say that the size of such a sequence is n − 1. Let m = p1 p2 . . . pk , where p1 , p2 , . . . , pk are pairwise distinct primes and k ≥ 2. Show that there exist at least two different campechana sequences of size m. – Day 2",
+    "statement": "A sequence \\(a_2, a_3, \\ldots, a_n\\) of positive integers is campechana if for each \\(i\\) with \\(2 \\leq i \\leq n\\), exactly \\(a_i\\) terms are relatively prime to \\(i\\). Let \\(m = p_1 p_2 \\cdots p_k\\) where \\(p_1, \\ldots, p_k\\) are distinct primes and \\(k \\geq 2\\). Show there exist at least two different campechana sequences of size \\(m\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -78,10 +74,9 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Number Theory",
       "Algebra"
     ],
-    "statement": "Let n ≥ 2 be an integer. For each k-tuple of positive integers a1 , a2 , . . . , ak such that a1 + a2 + · · · + ak = n, consider the sums Si = 1 + 2 + . . . + ai for 1 ≤ i ≤ k. Determine, in terms of n, the maximum possible value of the product S1 S2 · · · Sk . Proposed",
+    "statement": "For each \\(k\\)-tuple of positive integers \\((a_1, \\ldots, a_k)\\) with \\(a_1 + \\cdots + a_k = n\\), define \\(S_i = 1 + 2 + \\cdots + a_i\\). Determine, in terms of \\(n\\), the maximum possible value of the product \\(S_1 S_2 \\cdots S_k\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -102,7 +97,7 @@
     "topic": [
       "Number Theory"
     ],
-    "statement": "Let n ≥ 5 an integer and consider a regular n-gon. Initially, Nacho is situated in one of the vertices of the n-gon, in which he puts a ﬂag. He will start moving clockwise. First, he moves one position and puts another ﬂag, then, two positions and puts another ﬂag, etcetera, until he ﬁnally moves n − 1 positions and puts a ﬂag, in such a way that he puts n ﬂags in total. ¿For which values of n, Nacho will have put a ﬂag in each of the n vertices?",
+    "statement": "Let \\(n \\geq 5\\) be an integer. Nacho starts at a vertex of a regular \\(n\\)-gon and places a flag there. Moving clockwise, he successively moves 1, 2, 3, ..., \\(n-1\\) positions, placing a flag at each stop (total \\(n\\) flags). For which values of \\(n\\) does Nacho place a flag at each of the \\(n\\) vertices?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -121,10 +116,9 @@
     "day": 2,
     "problem_id": "P6",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "Let ABC be an acute-angled triangle with circumference Ω. Let the angle bisectors of ∠B and ∠C intersect Ω again at M and N . Let I be the intersection point of these angle bisectors. Let M ′ and N ′ be the respective reﬂections of M and N in AC and AB. Prove that the center of the circle passing through I, M ′ , N ′ lies on the altitude of triangle ABC from A. Proposed",
+    "statement": "Let \\(ABC\\) be an acute triangle with circumcircle \\(\\Omega\\). The angle bisectors of \\(\\angle B\\) and \\(\\angle C\\) meet \\(\\Omega\\) again at \\(M\\) and \\(N\\), and meet each other at \\(I\\). Let \\(M'\\) and \\(N'\\) be the reflections of \\(M\\) and \\(N\\) in \\(AC\\) and \\(AB\\) respectively. Prove the center of the circle through \\(I, M', N'\\) lies on the altitude from \\(A\\) in triangle \\(ABC\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

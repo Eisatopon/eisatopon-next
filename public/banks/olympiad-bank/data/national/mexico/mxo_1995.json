@@ -11,9 +11,10 @@
     "day": 1,
     "problem_id": "P1",
     "topic": [
+      "Combinatorics",
       "Algebra"
     ],
-    "statement": "N students are seated at desks in an m × n array, where m, n ≥ 3. Each student shakes hands with the students who are adjacent horizontally, vertically or diagonally. If there are 1020handshakes, what is N ?",
+    "statement": "\\(N\\) students are seated at desks in an \\(m \\times n\\) array, where \\(m, n \\geq 3\\). Each student shakes hands with all students adjacent horizontally, vertically, or diagonally. If there are 1020 handshakes, what is \\(N\\)?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -33,9 +34,9 @@
     "problem_id": "P2",
     "topic": [
       "Geometry",
-      "Algebra"
+      "Combinatorics"
     ],
-    "statement": "Consider 6 points on a plane such that 8 of the distances between them are equal to 1. Prove that there are at least 3 points that form an equilateral triangle.",
+    "statement": "Consider 6 points in the plane such that 8 of the \\(\\binom{6}{2} = 15\\) distances between them equal 1. Prove that there are at least 3 points forming an equilateral triangle.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -56,7 +57,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "A, B, C, D are consecutive vertices of a regular 7-gon. AL and AM are tangents to the circle center C radius CB. N is the intersection point of AC and BD. Show that L, M, N are collinear. – Day 2",
+    "statement": "\\(A, B, C, D\\) are consecutive vertices of a regular heptagon. \\(AL\\) and \\(AM\\) are tangents to the circle with center \\(C\\) and radius \\(CB\\). \\(N\\) is the intersection of \\(AC\\) and \\(BD\\). Show that \\(L, M, N\\) are collinear.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -75,9 +76,10 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Algebra"
+      "Number Theory",
+      "Combinatorics"
     ],
-    "statement": "Find 26 elements of {1, 2, 3, ..., 40} such that the product of two of them is never a square. Show that one cannot ﬁnd 27 such elements.",
+    "statement": "Find 26 elements of \\(\\{1, 2, 3, \\ldots, 40\\}\\) such that the product of any two of them is never a perfect square. Show that one cannot find 27 such elements.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -98,7 +100,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "ABCDE is a convex pentagon such that the triangles ABC, BCD, CDE, DEA and EAB have equal areas. Show that (1/4) area (ABCDE) < area (ABC) < (1/3) area (ABCDE).",
+    "statement": "\\(ABCDE\\) is a convex pentagon such that triangles \\(ABC, BCD, CDE, DEA, EAB\\) have equal areas. Show that \\(\\frac{1}{4}[ABCDE] < [ABC] < \\frac{1}{3}[ABCDE]\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -119,7 +121,7 @@
     "topic": [
       "Combinatorics"
     ],
-    "statement": "A 1 or 0 is placed on each square of a 4 × 4 board. One is allowed to change each symbol in a row, or change each symbol in a column, or change each symbol in a diagonal (there are 14 diagonals of lengths 1 to 4). For which arrangements can one make changes which end up with all 0s?",
+    "statement": "A 0 or 1 is placed in each square of a \\(4 \\times 4\\) board. One may change all symbols in a row, all in a column, or all in a diagonal (there are 14 diagonals of lengths 1 to 4). For which initial arrangements can one make all squares 0?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

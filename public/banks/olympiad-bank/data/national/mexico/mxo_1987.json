@@ -11,10 +11,9 @@
     "day": 1,
     "problem_id": "P1",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Prove that if the sum of two irreducible fractions is an integer then the two fractions have the same denominator.",
+    "statement": "Prove that if the sum of two irreducible fractions is an integer, then the two fractions have the same denominator.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -35,7 +34,7 @@
     "topic": [
       "Number Theory"
     ],
-    "statement": "How many positive divisors does number 20! have?",
+    "statement": "How many positive divisors does \\(20!\\) have?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -56,7 +55,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Consider two lines ` and `0 and a fixed point P equidistant from these lines. What is the locus of projections M of P on AB, where A is on `, B on `0 , and angle ∠AP B is right?",
+    "statement": "Consider two lines \\(\\ell\\) and \\(\\ell'\\) and a fixed point \\(P\\) equidistant from these lines. What is the locus of projections \\(M\\) of \\(P\\) on \\(AB\\), where \\(A\\) is on \\(\\ell\\), \\(B\\) on \\(\\ell'\\), and \\(\\angle APB = 90^\\circ\\)?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -75,10 +74,9 @@
     "day": 1,
     "problem_id": "P4",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Calculate the product of all positive integers less than 100 and having exactly three positive divisors. Show that this product is a square. – Day 2",
+    "statement": "Calculate the product of all positive integers less than 100 that have exactly three positive divisors. Show that this product is a perfect square.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -97,10 +95,9 @@
     "day": 2,
     "problem_id": "P5",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "In a right triangle ABC, M is a point on the hypotenuse BC and P and Q the projections of M on AB and AC respectively. Prove that for no such point M do the triangles BP M, M QC and the rectangle AQM P have the same area.",
+    "statement": "In a right triangle \\(ABC\\), \\(M\\) is a point on the hypotenuse \\(BC\\) and \\(P\\), \\(Q\\) are the projections of \\(M\\) on \\(AB\\) and \\(AC\\) respectively. Prove that for no such point \\(M\\) do the triangles \\(BPM\\), \\(MQC\\) and the rectangle \\(AQMP\\) have the same area.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -119,10 +116,9 @@
     "day": 2,
     "problem_id": "P6",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Prove that for every positive integer n the number (n3 − n)(58n+4 + 34n+2 ) is a multiple of 3804.",
+    "statement": "Prove that for every positive integer \\(n\\), the number \\((n^3 - n)(5^{8n+4} + 3^{4n+2})\\) is a multiple of \\(3804\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -143,7 +139,7 @@
     "topic": [
       "Number Theory"
     ],
-    "statement": "Show that the fraction nn2+n−1 is irreducible for every positive integer n. +2n",
+    "statement": "Show that the fraction \\(\\dfrac{n^2 + n - 1}{n^2 + 2n}\\) is irreducible for every positive integer \\(n\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -164,7 +160,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "(a) Three lines l, m, n in space pass through point S. A plane perpendicular to m intersects l, m, n at A, B, C respectively. Suppose that ∠ASB = ∠BSC = 45o and ∠ABC = 90o . Compute ∠ASC. (b) Furthermore, if a plane perpendicular to l intersects l, m, n at P, Q, R respectively and SP = 1, find the sides of triangle P QR.",
+    "statement": "(a) Three lines \\(l, m, n\\) in space pass through point \\(S\\). A plane perpendicular to \\(m\\) intersects \\(l, m, n\\) at \\(A, B, C\\) respectively. Suppose that \\(\\angle ASB = \\angle BSC = 45^\\circ\\) and \\(\\angle ABC = 90^\\circ\\). Compute \\(\\angle ASC\\). (b) Furthermore, if a plane perpendicular to \\(l\\) intersects \\(l, m, n\\) at \\(P, Q, R\\) respectively and \\(SP = 1\\), find the sides of triangle \\(PQR\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

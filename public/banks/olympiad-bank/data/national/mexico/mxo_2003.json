@@ -11,10 +11,9 @@
     "day": 1,
     "problem_id": "P1",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Find all positive integers with two or more digits such that if we insert a 0 between the units and tens digits we get a multiple of the original number.",
+    "statement": "Find all positive integers with two or more digits such that inserting a 0 between the units and tens digits gives a multiple of the original number.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -35,7 +34,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "A, B, C are collinear with B betweeen A and C. K1 is the circle with diameter AB, and K2 is the circle with diameter BC. Another circle touches AC at B and meets K1 again at P and K2 again at Q. The line P Q meets K1 again at R and K2 again at S. Show that the lines AR and CS meet on the perpendicular to AC at B.",
+    "statement": "\\(A, B, C\\) are collinear with \\(B\\) between \\(A\\) and \\(C\\). \\(K_1\\) has diameter \\(AB\\), \\(K_2\\) has diameter \\(BC\\). Another circle touches \\(AC\\) at \\(B\\) and meets \\(K_1\\) again at \\(P\\) and \\(K_2\\) again at \\(Q\\). Line \\(PQ\\) meets \\(K_1\\) again at \\(R\\) and \\(K_2\\) again at \\(S\\). Show that \\(AR\\) and \\(CS\\) meet on the perpendicular to \\(AC\\) at \\(B\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -54,9 +53,9 @@
     "day": 1,
     "problem_id": "P3",
     "topic": [
-      "Algebra"
+      "Combinatorics"
     ],
-    "statement": "At a party there are n women and n men. Each woman likes r of the men, and each man likes s of then women. For which r and s must there be a man and a woman who like each other? – Day 2",
+    "statement": "At a party there are \\(n\\) women and \\(n\\) men. Each woman likes \\(r\\) of the men, and each man likes \\(s\\) of the women. For which \\(r\\) and \\(s\\) must there be a man and a woman who like each other?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -77,7 +76,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "The quadrilateral ABCD has AB parallel to CD. P is on the side AB and Q on the side CD such that PAPB = DQ CQ . M is the intersection of AQ and DP , and N is the intersection of P C and QB. Find M N in terms of AB and CD.",
+    "statement": "Quadrilateral \\(ABCD\\) has \\(AB \\parallel CD\\). \\(P\\) on \\(AB\\) and \\(Q\\) on \\(CD\\) satisfy \\(\\frac{PA}{PB} = \\frac{DQ}{CQ}\\). \\(M\\) is the intersection of \\(AQ\\) and \\(DP\\), and \\(N\\) of \\(PC\\) and \\(QB\\). Find \\(MN\\) in terms of \\(AB\\) and \\(CD\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -96,11 +95,9 @@
     "day": 2,
     "problem_id": "P5",
     "topic": [
-      "Number Theory",
-      "Algebra",
       "Combinatorics"
     ],
-    "statement": "Some cards each have a pair of numbers written on them. There is just one card for each pair (a, b) with 1 ≤ a < b ≤ 2003. Two players play the following game. Each removes a card in turn and writes the product ab of its numbers on the blackboard. The first player who causes the greatest common divisor of the numbers on the blackboard to fall to 1 loses. Which player has a winning strategy?",
+    "statement": "There is one card for each pair \\((a, b)\\) with \\(1 \\leq a < b \\leq 2003\\). Two players alternately remove a card and write \\(ab\\) on the blackboard. The first player who causes the \\(\\gcd\\) of all numbers on the board to equal 1 loses. Which player has a winning strategy?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -121,7 +118,7 @@
     "topic": [
       "Number Theory"
     ],
-    "statement": "Given a positive integer n, an allowed move is to form 2n+1 or 3n+2. The set Sn is the set of all numbers that can be obtained we can form 5 → 11 → 35 so 5, 11 and 35 belong to S5 . We call m and n compatible if Sm and Sn has a common element. Which members of {1, 2, 3, ..., 2002} are compatible with 2003?",
+    "statement": "Given a positive integer \\(n\\), allowed moves are to form \\(2n+1\\) or \\(3n+2\\). The set \\(S_n\\) contains all numbers reachable from \\(n\\). Call \\(m\\) and \\(n\\) compatible if \\(S_m \\cap S_n \\neq \\emptyset\\). Which members of \\(\\{1, 2, 3, \\ldots, 2002\\}\\) are compatible with 2003?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

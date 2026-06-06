@@ -11,10 +11,9 @@
     "day": 1,
     "problem_id": "P1",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Evaluate the sum of all positive irreducible fractions less than 1 and having the denominator 1991.",
+    "statement": "Evaluate the sum of all positive irreducible fractions less than 1 with denominator 1991.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -33,10 +32,9 @@
     "day": 1,
     "problem_id": "P2",
     "topic": [
-      "Algebra",
-      "Combinatorics"
+      "Number Theory"
     ],
-    "statement": "A company of n soldiers is such that (i) n is a palindrome number (read equally in both directions); (ii) if the soldiers arrange in rows of 3, 4 or 5 soldiers, then the last row contains 2, 3 and 5 soldiers, respectively. Find the smallest n satisfying these conditions and prove that there are infinitely many such numbers n.",
+    "statement": "A company of \\(n\\) soldiers is such that: (i) \\(n\\) is a palindrome; (ii) if the soldiers arrange in rows of 3, 4, or 5, then the last row contains 2, 3, and 5 soldiers respectively. Find the smallest \\(n\\) satisfying these conditions and prove there are infinitely many such \\(n\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -57,7 +55,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Four balls of radius 1 are placed in space so that each of them touches the other three. What is the radius of the smallest sphere containing all of them? – Day 2",
+    "statement": "Four balls of radius 1 are placed in space so that each of them touches the other three. What is the radius of the smallest sphere containing all of them?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -76,10 +74,9 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "The diagonals AC and BD of a convex quarilateral ABCD are orthogonal. Let M, N, R, S be the midpoints of the sides AB, BC, CD and DA respectively, and let W, X, Y, Z be the projections of the points M, N, R and S on the lines CD, DA, AB and BC, respectively. Prove that the points M, N, R, S, W, X, Y and Z lie on a circle.",
+    "statement": "The diagonals \\(AC\\) and \\(BD\\) of a convex quadrilateral \\(ABCD\\) are perpendicular. Let \\(M, N, R, S\\) be the midpoints of sides \\(AB, BC, CD, DA\\) respectively, and let \\(W, X, Y, Z\\) be the projections of \\(M, N, R, S\\) on lines \\(CD, DA, AB, BC\\) respectively. Prove that \\(M, N, R, S, W, X, Y, Z\\) lie on a circle.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -98,10 +95,9 @@
     "day": 2,
     "problem_id": "P5",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "The sum of squares of two consecutive integers can be a square, as in 32 + 42 = 52 . Prove that the sum of squares of m consecutive integers cannot be a square for m = 3 or 6 and find an example of 11 consecutive integers the sum of whose squares is a square.",
+    "statement": "The sum of squares of two consecutive integers can be a square, as in \\(3^2 + 4^2 = 5^2\\). Prove that the sum of squares of \\(m\\) consecutive integers cannot be a square for \\(m = 3\\) or \\(m = 6\\), and find 11 consecutive integers whose sum of squares is a perfect square.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -120,10 +116,9 @@
     "day": 2,
     "problem_id": "P6",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Combinatorics"
     ],
-    "statement": "Given an n-gon (n ≥ 4), consider a set T of triangles formed the following property: Every two triangles in T have either two common vertices, or none. Prove that T contains at most n triangles.",
+    "statement": "Given an \\(n\\)-gon (\\(n \\geq 4\\)), consider a set \\(T\\) of triangles formed by vertices of the polygon such that any two triangles in \\(T\\) have either two common vertices or none. Prove that \\(T\\) contains at most \\(n\\) triangles.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

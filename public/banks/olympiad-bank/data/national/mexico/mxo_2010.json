@@ -11,9 +11,9 @@
     "day": 1,
     "problem_id": "P1",
     "topic": [
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Find all triplets of natural numbers (a, b, c) that satisfy the equation abc = a + b + c + 1.",
+    "statement": "Find all triplets of natural numbers \\((a, b, c)\\) satisfying \\(abc = a + b + c + 1\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -34,7 +34,7 @@
     "topic": [
       "Combinatorics"
     ],
-    "statement": "In each cell of an n×n board is a lightbulb. Initially, all of the lights are off. Each move consists of changing the state of all of the lights in a row or of all of the lights in a column (off lights are turned on and on lights are turned off). Show that if after a certain number of moves, at least one light is on, then at this moment at least n lights are on.",
+    "statement": "An \\(n \\times n\\) board has a light in each cell, all initially off. Each move toggles all lights in a row or all in a column. Show that if after some moves at least one light is on, then at that moment at least \\(n\\) lights are on.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -55,7 +55,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Let C1 and C2 be externally tangent at a point A. A line tangent to C1 at B intersects C2 at C and _ D; then the segment AB is extended to intersect C2 at a point E. Let F be the midpoint of CD that does not contain E, and let H be the intersection of BF with C2 . Show that CD, AF , and EH are concurrent. Day 2",
+    "statement": "Let \\(C_1\\) and \\(C_2\\) be externally tangent at \\(A\\). A line tangent to \\(C_1\\) at \\(B\\) intersects \\(C_2\\) at \\(C\\) and \\(D\\); segment \\(AB\\) extended meets \\(C_2\\) at \\(E\\). Let \\(F\\) be the midpoint of arc \\(CD\\) not containing \\(E\\), and \\(H\\) the intersection of \\(BF\\) with \\(C_2\\). Show that \\(CD\\), \\(AF\\), and \\(EH\\) are concurrent.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -63,7 +63,7 @@
     "source": "AoPS"
   },
   {
-    "id": "MXO-2010-P1",
+    "id": "MXO-2010-P4",
     "year": 2010,
     "olympiad": "MXO",
     "olympiad_full_name": "Mexico National Olympiad",
@@ -71,13 +71,12 @@
     "region": "North America",
     "country": "Mexico",
     "gender_restricted": false,
-    "day": 1,
-    "problem_id": "P1",
+    "day": 2,
+    "problem_id": "P4",
     "topic": [
-      "Number Theory",
       "Combinatorics"
     ],
-    "statement": "Let n be a positive integer. In an n × 4 table, each row is equal to",
+    "statement": "In an \\(n \\times 4\\) table each row is \\((2, 0, 1, 0)\\). A change takes three consecutive cells in the same row with distinct digits and maps \\(0 \\to 1, 1 \\to 2, 2 \\to 0\\). Show that for \\(n < 12\\), no finite sequence of changes can make the column sums equal.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -85,7 +84,7 @@
     "source": "AoPS"
   },
   {
-    "id": "MXO-2010-P1",
+    "id": "MXO-2010-P5",
     "year": 2010,
     "olympiad": "MXO",
     "olympiad_full_name": "Mexico National Olympiad",
@@ -93,54 +92,12 @@
     "region": "North America",
     "country": "Mexico",
     "gender_restricted": false,
-    "day": 1,
-    "problem_id": "P1",
-    "topic": [
-      "Number Theory"
-    ],
-    "statement": "0 A change is taking three consecutive boxes in the same row with different digits in them and changing the digits in these boxes as follows: 0 → 1, 1 → 2, 2 → 0. For example, a row 2 0 1 0 can be changed to the row 0 2 1 2 1 because 0, 1, and 0 are not distinct.",
-    "has_figure": false,
-    "figure_description": null,
-    "official_solution_available": false,
-    "language": "en",
-    "source": "AoPS"
-  },
-  {
-    "id": "MXO-2010-P1",
-    "year": 2010,
-    "olympiad": "MXO",
-    "olympiad_full_name": "Mexico National Olympiad",
-    "scope": "national",
-    "region": "North America",
-    "country": "Mexico",
-    "gender_restricted": false,
-    "day": 1,
-    "problem_id": "P1",
-    "topic": [
-      "Algebra"
-    ],
-    "statement": "2 0 but not to Changes can be applied as often as wanted, even to items already changed. Show that for n < 12, it is not possible to perform a finite number of changes so that the sum of the elements in each column is equal.",
-    "has_figure": false,
-    "figure_description": null,
-    "official_solution_available": false,
-    "language": "en",
-    "source": "AoPS"
-  },
-  {
-    "id": "MXO-2010-P2",
-    "year": 2010,
-    "olympiad": "MXO",
-    "olympiad_full_name": "Mexico National Olympiad",
-    "scope": "national",
-    "region": "North America",
-    "country": "Mexico",
-    "gender_restricted": false,
-    "day": 1,
-    "problem_id": "P2",
+    "day": 2,
+    "problem_id": "P5",
     "topic": [
       "Geometry"
     ],
-    "statement": "Let ABC be an acute triangle with AB 6= AC, M be the median of BC, and H be the orthocenter of 4ABC. The circumcircle of B, H, and C intersects the median AM at N . Show that ∠AN H = 90◦ .",
+    "statement": "Let \\(ABC\\) be an acute triangle with \\(AB \\neq AC\\), median \\(AM\\) to \\(BC\\), and orthocenter \\(H\\). The circumcircle of \\(\\triangle BHC\\) intersects median \\(AM\\) at \\(N\\). Show that \\(\\angle ANH = 90^\\circ\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -148,7 +105,7 @@
     "source": "AoPS"
   },
   {
-    "id": "MXO-2010-P3",
+    "id": "MXO-2010-P6",
     "year": 2010,
     "olympiad": "MXO",
     "olympiad_full_name": "Mexico National Olympiad",
@@ -156,12 +113,12 @@
     "region": "North America",
     "country": "Mexico",
     "gender_restricted": false,
-    "day": 1,
-    "problem_id": "P3",
+    "day": 2,
+    "problem_id": "P6",
     "topic": [
       "Number Theory"
     ],
-    "statement": "Let p, q, and r be distinct positive prime numbers. Show that if pqr | (pq)r + (qr)p + (rp)q − 1, then (pqr)3 | 3((pq)r + (qr)p + (rp)q − 1).",
+    "statement": "Let \\(p, q, r\\) be distinct positive primes. Show that if \\(pqr \\mid (pq)^r + (qr)^p + (rp)^q - 1\\), then \\((pqr)^3 \\mid 3\\bigl((pq)^r + (qr)^p + (rp)^q - 1\\bigr)\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

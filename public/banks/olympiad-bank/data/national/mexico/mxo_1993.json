@@ -13,7 +13,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "ABC is a triangle with ∠A = 90o . Take E such that the triangle AEC is outside ABC and AE = CE and ∠AEC = 90o . Similarly, take D so that ADB is outside ABC and similar to AEC. O is the midpoint of BC. Let the lines OD and EC meet at D0 , and the lines OE and BD meet at E 0 . Find area DED0 E 0 in terms of the sides of ABC.",
+    "statement": "Triangle \\(ABC\\) has \\(\\angle A = 90^\\circ\\). Take \\(E\\) such that triangle \\(AEC\\) is outside \\(ABC\\) with \\(AE = CE\\) and \\(\\angle AEC = 90^\\circ\\). Similarly, take \\(D\\) so that triangle \\(ADB\\) is outside \\(ABC\\) and similar to \\(AEC\\). \\(O\\) is the midpoint of \\(BC\\). Let the lines \\(OD\\) and \\(EC\\) meet at \\(D'\\), and lines \\(OE\\) and \\(BD\\) meet at \\(E'\\). Find the area of \\(DED'E'\\) in terms of the sides of \\(\\triangle ABC\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -32,9 +32,7 @@
     "day": 1,
     "problem_id": "P2",
     "topic": [
-      "Geometry",
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
     "statement": "Find all numbers between 100 and 999 which equal the sum of the cubes of their digits.",
     "has_figure": false,
@@ -55,9 +53,9 @@
     "day": 1,
     "problem_id": "P3",
     "topic": [
-      "Geometry"
+      "Combinatorics"
     ],
-    "statement": "Given a pentagon of area 1993 and 995 points inside the pentagon, let S be the set containing the vertices of the pentagon and the 995 points. Show that we can find three points of S which form a triangle of area ≤ 1. – Day 2",
+    "statement": "Given a pentagon of area 1993 and 995 points inside it, let \\(S\\) be the set containing the vertices of the pentagon and the 995 points. Show that we can find three points of \\(S\\) which form a triangle of area at most 1.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -76,9 +74,9 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Algebra"
+      "Combinatorics"
     ],
-    "statement": "f (n, k) is defined by (1) f (n, 0) = f (n, n) = 1 and (2) f (n, k) = f (n − 1, k − 1) + f (n − 1, k) for 0 < k < n. How many times do we need to use (2) to find f (3991, 1993)?",
+    "statement": "\\(f(n, k)\\) is defined by: (1) \\(f(n, 0) = f(n, n) = 1\\); (2) \\(f(n, k) = f(n-1, k-1) + f(n-1, k)\\) for \\(0 < k < n\\). How many times must rule (2) be used to find \\(f(3991, 1993)\\)?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -99,7 +97,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "OA, OB, OC are three chords of a circle. The circles with diameters OA, OB meet again at Z, the circles with diameters OB, OC meet again at X, and the circles with diameters OC, OA meet again at Y . Show that X, Y, Z are collinear.",
+    "statement": "\\(OA, OB, OC\\) are three chords of a circle. The circles with diameters \\(OA, OB\\) meet again at \\(Z\\); the circles with diameters \\(OB, OC\\) meet again at \\(X\\); the circles with diameters \\(OC, OA\\) meet again at \\(Y\\). Show that \\(X, Y, Z\\) are collinear.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -120,7 +118,7 @@
     "topic": [
       "Number Theory"
     ],
-    "statement": "p is an odd prime. Show that p divides n(n + 1)(n + 2)(n + 3) + 1 for some integer n iff p divides m2 − 5 for some integer m.",
+    "statement": "Let \\(p\\) be an odd prime. Show that \\(p\\) divides \\(n(n+1)(n+2)(n+3) + 1\\) for some integer \\(n\\) if and only if \\(p\\) divides \\(m^2 - 5\\) for some integer \\(m\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

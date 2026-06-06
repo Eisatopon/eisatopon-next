@@ -11,10 +11,9 @@
     "day": 1,
     "problem_id": "P1",
     "topic": [
-      "Geometry",
       "Combinatorics"
     ],
-    "statement": "In how many ways can one arrange seven white and five black balls in a line in such a way that there are no two neighboring black balls?",
+    "statement": "In how many ways can one arrange seven white and five black balls in a line such that no two black balls are neighboring?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -33,10 +32,9 @@
     "day": 1,
     "problem_id": "P2",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "If a and b are positive integers, prove that 11a + 2b is a multiple of 19 if and only if so is 18a + 5b .",
+    "statement": "If \\(a\\) and \\(b\\) are positive integers, prove that \\(11a + 2b\\) is a multiple of 19 if and only if \\(18a + 5b\\) is a multiple of 19.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -57,7 +55,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Two externally tangent circles with different radii are given. Their common tangents form a triangle. Find the area of this triangle in terms of the radii of the two circles.",
+    "statement": "Two externally tangent circles with different radii are given. Their common external tangents form a triangle. Find the area of this triangle in terms of the radii of the two circles.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -76,10 +74,9 @@
     "day": 1,
     "problem_id": "P4",
     "topic": [
-      "Number Theory",
       "Combinatorics"
     ],
-    "statement": "In how many ways can one select eight integers a1 , a2 , ..., a8 , not necesarily distinct, such that 1 ≤ a1 ≤ ... ≤ a8 ≤ 8? – Day 2",
+    "statement": "In how many ways can one select eight integers \\(a_1, a_2, \\ldots, a_8\\), not necessarily distinct, such that \\(1 \\leq a_1 \\leq a_2 \\leq \\cdots \\leq a_8 \\leq 8\\)?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -98,10 +95,9 @@
     "day": 2,
     "problem_id": "P5",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "If a and b are coprime positive integers and n an integer, prove that the greatest common divisor of a2 + b2 − nab and a + b divides n + 2.",
+    "statement": "If \\(a\\) and \\(b\\) are coprime positive integers and \\(n\\) is an integer, prove that \\(\\gcd(a^2 + b^2 - nab,\\, a + b)\\) divides \\(n + 2\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -122,7 +118,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Consider two fixed points B, C on a circle w. Find the locus of the incenters of all triangles ABC when point A describes w.",
+    "statement": "Consider two fixed points \\(B\\), \\(C\\) on a circle \\(\\omega\\). Find the locus of the incenters of all triangles \\(ABC\\) when point \\(A\\) describes \\(\\omega\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -141,10 +137,9 @@
     "day": 2,
     "problem_id": "P7",
     "topic": [
-      "Algebra",
       "Combinatorics"
     ],
-    "statement": "Two disjoint subsets of the set {1, 2, ..., √ m} have the same sums of elements. Prove that each of the subsets A, B has less than m/ 2 elements.",
+    "statement": "Two disjoint subsets of the set \\(\\{1, 2, \\ldots, m\\}\\) have the same sum of elements. Prove that each of the subsets has fewer than \\(m/\\sqrt{2}\\) elements.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

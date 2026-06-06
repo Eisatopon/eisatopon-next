@@ -11,11 +11,9 @@
     "day": null,
     "problem_id": "P1",
     "topic": [
-      "Number Theory",
-      "Algebra",
-      "Combinatorics"
+      "Number Theory"
     ],
-    "statement": "All the prime numbers are written in order, p1 = 2, p2 = 3, p3 = 5, ... Find all pairs of positive integers a and b with a − b ≥ 2, such that pa − pb divides 2(a − b).",
+    "statement": "All primes are written in order: \\(p_1 = 2, p_2 = 3, p_3 = 5, \\ldots\\) Find all pairs of positive integers \\(a, b\\) with \\(a - b \\geq 2\\) such that \\(p_a - p_b\\) divides \\(2(a - b)\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -36,7 +34,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Let ABCD be a parallelogram with the angle at A obtuse. Let P be a point on segment BD. The circle with center P passing through A cuts line AD at A and Y and cuts line AB at A and X. Line AP intersects BC at Q and CD at R. Prove ∠XP Y = ∠XQY + ∠XRY .",
+    "statement": "Let \\(ABCD\\) be a parallelogram with obtuse angle at \\(A\\). \\(P\\) is on segment \\(BD\\). The circle with center \\(P\\) passing through \\(A\\) meets line \\(AD\\) at \\(A\\) and \\(Y\\), and meets line \\(AB\\) at \\(A\\) and \\(X\\). Line \\(AP\\) meets \\(BC\\) at \\(Q\\) and \\(CD\\) at \\(R\\). Prove \\(\\angle XPY = \\angle XQY + \\angle XRY\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -55,9 +53,10 @@
     "day": null,
     "problem_id": "P3",
     "topic": [
+      "Combinatorics",
       "Number Theory"
     ],
-    "statement": "What is the largest amount of elements that can be taken from the set {1, 2, ..., 2012, 2013}, such that within them there are no distinct three, say a, b,and c, such that a is a divisor or multiple of b − c?",
+    "statement": "What is the largest subset of \\(\\{1, 2, \\ldots, 2013\\}\\) such that no three distinct elements \\(a, b, c\\) in the subset satisfy: \\(a\\) is a divisor or multiple of \\(b - c\\)?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -76,9 +75,9 @@
     "day": null,
     "problem_id": "P4",
     "topic": [
-      "Geometry"
+      "Combinatorics"
     ],
-    "statement": "A n × n × n cube is constructed using 1 × 1 × 1 cubes, some of them black and others white, such that in each n × 1 × 1, 1 × n × 1, and 1 × 1 × n subprism there are exactly two black cubes, and they are separated Show it is possible to replace half of the black cubes with white cubes such that each n×1×1, 1 × n × 1 and 1 × 1 × n subprism contains exactly one black cube.",
+    "statement": "An \\(n \\times n \\times n\\) cube is built from \\(1 \\times 1 \\times 1\\) unit cubes, colored black or white, such that every \\(n \\times 1 \\times 1\\), \\(1 \\times n \\times 1\\), and \\(1 \\times 1 \\times n\\) subprism has exactly two black cubes separated by an even number of white cubes. Show that half the black cubes can be recolored white so that each such subprism has exactly one black cube.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -98,10 +97,9 @@
     "problem_id": "P5",
     "topic": [
       "Number Theory",
-      "Algebra",
       "Combinatorics"
     ],
-    "statement": "A pair of integers is special if it is of the form (n, n − 1) or (n − 1, n) for some positive integer n. Let n and m be positive integers such that pair (n, m) is not special. Show (n, m) can be expressed as a sum of two or more different special pairs if and only if n and m satisfy the inequality n + m ≥ (n − m)2 . Note: The sum of two pairs is defined as (a, b) + (c, d) = (a + c, b + d).",
+    "statement": "A pair of integers is special if it is of the form \\((n, n-1)\\) or \\((n-1, n)\\). Let \\(n, m\\) be positive integers with \\((n, m)\\) not special. Show \\((n, m)\\) can be expressed as a sum of two or more different special pairs if and only if \\(n + m \\geq (n - m)^2\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -122,7 +120,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Let A1 A2 ...A8 be a convex octagon such that all of its sides are equal and its opposite sides are parallel. For each i = 1, ..., 8, define Bi as the intersection between segments Ai Ai+4 and Ai−1 Ai+1 , where Aj+8 = Aj and Bj+8 = Bj for all j. Show some number i, amongst 1, 2, 3, and 4 satisfies Ai Ai+4 3 ≤ Bi Bi+4",
+    "statement": "Let \\(A_1 A_2 \\cdots A_8\\) be a convex octagon with all sides equal and opposite sides parallel. For each \\(i\\), define \\(B_i\\) as the intersection of \\(A_i A_{i+4}\\) and \\(A_{i-1} A_{i+1}\\) (indices mod 8). Show that for some \\(i \\in \\{1, 2, 3, 4\\}\\): \\(\\dfrac{A_i A_{i+4}}{B_i B_{i+4}} \\leq \\dfrac{3}{2}\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

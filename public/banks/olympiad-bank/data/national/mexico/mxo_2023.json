@@ -11,10 +11,9 @@
     "day": 1,
     "problem_id": "P1",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Find all four digit positive integers such that the sum of the squares of the digits equals twice the sum of the digits.",
+    "statement": "Find all four-digit positive integers such that the sum of the squares of the digits equals twice the sum of the digits.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -33,11 +32,10 @@
     "day": 1,
     "problem_id": "P2",
     "topic": [
-      "Geometry",
-      "Number Theory",
-      "Algebra"
+      "Combinatorics",
+      "Number Theory"
     ],
-    "statement": "The numbers from 1 to 2000 are placed on the vertices of a regular polygon with 2000 sides, one on each vertex, so that the following is true: If four integers A, B, C, D satisfy that 1 ≤ A < B < C < D ≤ 2000, then the segment that joins the vertices of the numbers A and B and the segment that joins the vertices of C and D do not intersect inside the polygon. Prove that there exists a perfect square such that the number diametrically opposite to it is not a perfect square.",
+    "statement": "The numbers 1 to 2000 are placed on the vertices of a regular 2000-gon so that: if \\(1 \\leq A < B < C < D \\leq 2000\\), then segments joining vertices \\(A, B\\) and vertices \\(C, D\\) do not intersect inside the polygon. Prove there exists a perfect square such that the number diametrically opposite to it is not a perfect square.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -58,7 +56,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Let ABCD be a convex quadrilateral. If M, N, K are the midpoints of the segments AB, BC, and CD, respectively, and there is also a point P inside the quadrilateral ABCD such that, ∠BP N = ∠P AD and ∠CP N = ∠P DA. Show that AB · CD = 4P M · P K. – Day 2",
+    "statement": "Let \\(ABCD\\) be a convex quadrilateral. \\(M, N, K\\) are the midpoints of \\(AB, BC, CD\\) respectively. Point \\(P\\) inside \\(ABCD\\) satisfies \\(\\angle BPN = \\angle PAD\\) and \\(\\angle CPN = \\angle PDA\\). Show \\(AB \\cdot CD = 4PM \\cdot PK\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -77,11 +75,9 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Number Theory",
-      "Algebra",
       "Combinatorics"
     ],
-    "statement": "Let n ≥ 2 be a positive integer. For every number from 1 to n, there is a card with this number and which is either black or white. A magician can repeatedly perform the following move: For any two tiles with different number and different colour, he can replace the card with the smaller number other card. For instance, when n = 5 and the initial conﬁguration is (1B, 2B, 3W, 4B, 5B), the magician can choose 1B, 3W on the ﬁrst move to obtain (3W, 2B, 3W, 4B, 5B) and then 3W, 4B on the second move to obtain (4B, 2B, 3W, 4B, 5B). Determine in terms of n all possible lengths of sequences of moves from any possible initial conﬁguration to any conﬁguration in which no more move is possible.",
+    "statement": "For each number from 1 to \\(n\\) there is a card (black or white). A move: for two cards of different number and different color, replace the card with the smaller number by a copy of the other. Determine in terms of \\(n\\) all possible lengths of sequences of moves from any initial configuration to one where no move is possible.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -102,7 +98,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Let ABC be an acute triangle, Γ is its circumcircle and O is its circumcenter. Let F be the point on AC such that the ∠COF = ∠ACB, such that F and B lie in opposite sides with respect to CO. The line F O cuts BC at G. The line parallel to BC through A intersects Γ again at M . The lines CO and M G meet at K. Show that the circumcircles of the triangles BGK and AOK meet on AB.",
+    "statement": "Let \\(\\triangle ABC\\) be acute with circumcircle \\(\\Gamma\\) and circumcenter \\(O\\). \\(F\\) is on \\(AC\\) with \\(\\angle COF = \\angle ACB\\) (\\(F\\) and \\(B\\) on opposite sides of \\(CO\\)). Line \\(FO\\) meets \\(BC\\) at \\(G\\). The line parallel to \\(BC\\) through \\(A\\) meets \\(\\Gamma\\) at \\(M\\). Lines \\(CO\\) and \\(MG\\) meet at \\(K\\). Show the circumcircles of \\(\\triangle BGK\\) and \\(\\triangle AOK\\) meet on \\(AB\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -121,10 +117,9 @@
     "day": 2,
     "problem_id": "P6",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Find all functions f : N → N such that for all positive integers m, n, f (m + n) | f (m) + f (n) and f (m)f (n) | f (mn).",
+    "statement": "Find all functions \\(f : \\mathbb{N} \\to \\mathbb{N}\\) such that for all positive integers \\(m, n\\): \\(f(m+n) \\mid f(m) + f(n)\\) and \\(f(m)f(n) \\mid f(mn)\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

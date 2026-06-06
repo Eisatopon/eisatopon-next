@@ -12,9 +12,9 @@
     "problem_id": "P1",
     "topic": [
       "Number Theory",
-      "Algebra"
+      "Combinatorics"
     ],
-    "statement": "A set of ﬁve different positive integers is called virtual if the greatest common divisor of any three of its elements is greater than 1, but the greatest common divisor of any four of its elements is equal to 1. Prove that, in any virtual set, the product of its elements has at least 2020 distinct positive divisors. Proposed",
+    "statement": "A set of five different positive integers is virtual if the gcd of any three elements exceeds 1, but the gcd of any four equals 1. Prove that in any virtual set, the product of all five elements has at least 2020 distinct positive divisors.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -33,10 +33,9 @@
     "day": 1,
     "problem_id": "P2",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "Let ABC be a triangle with incenter I. The line BI meets AC at D. Let P be a point on CI such that DI = DP (P ̸= I), E the second intersection point of segment BC with the circumcircle of ABD and Q the second intersection point of line EP with the circumcircle of AEC. Prove that ∠P DQ = 90◦ . Proposed",
+    "statement": "Let \\(\\triangle ABC\\) have incenter \\(I\\). Line \\(BI\\) meets \\(AC\\) at \\(D\\). \\(P\\) is on \\(CI\\) with \\(DI = DP\\) (\\(P \\neq I\\)). \\(E\\) is the second intersection of segment \\(BC\\) with the circumcircle of \\(\\triangle ABD\\), and \\(Q\\) is the second intersection of line \\(EP\\) with the circumcircle of \\(\\triangle AEC\\). Prove \\(\\angle PDQ = 90^\\circ\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -55,9 +54,9 @@
     "day": 1,
     "problem_id": "P3",
     "topic": [
-      "Number Theory"
+      "Combinatorics"
     ],
-    "statement": "Let n ≥ 3 be an integer. Two players, Ana and Beto, play the following game. Ana tags the vertices of a regular n- gon with the numbers from 1 to n, in any order she wants. Every vertex must be tagged with a different number. Then, we place a turkey in each of the n vertices. These turkeys are trained for the following. If Beto whistles, each turkey moves to the adjacent vertex with greater tag. If Beto claps, each turkey moves to the adjacent vertex with lower tag. Beto wins if, after some number of whistles and claps, he gets to move all the turkeys to the same vertex. Ana wins if she can tag the vertices so that Beto can’t do this. For each n ≥ 3, determine which player has a winning strategy. Proposed – Day 2",
+    "statement": "Two players Ana and Beto play on a regular \\(n\\)-gon (\\(n \\geq 3\\)) with a turkey at each vertex. Ana labels the vertices 1 to \\(n\\) in any order. If Beto whistles, each turkey moves to the adjacent vertex with the greater label; if he claps, to the adjacent vertex with the smaller label. Beto wins if all turkeys ever reach the same vertex. For each \\(n \\geq 3\\), which player has a winning strategy?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -76,9 +75,9 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Number Theory"
+      "Combinatorics"
     ],
-    "statement": "Let n ≥ 3 be an integer. In a game there are n boxes in a circular array. At the beginning, each box contains an object which can be rock, paper or scissors, in such a way that there are no two adjacent boxes with the same object, and each object appears in at least one box. Same as in the game, rock beats scissors, scissors beat paper, and paper beats rock. The game consists on moving objects from one box to another according to the following rule: Two adjacent boxes and one object from each one are chosen in such a way that these are different, and we move the loser object to the box containing the winner object. For example, if we picked rock from box A and scissors from box B, we move scossors to box A.",
+    "statement": "In a circular array of \\(n\\) boxes (\\(n \\geq 3\\)), each contains rock, paper, or scissors, with no two adjacent boxes the same and each type appearing at least once. A move: choose two adjacent boxes with different objects and move the loser to the winner's box. Prove that by applying moves enough times, all objects can be moved to the same box.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -97,10 +96,9 @@
     "day": 2,
     "problem_id": "P5",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "A four-element set {a, b, c, d} of positive integers is called good if there are two of them such that their product is a mutiple of the greatest common divisor of the remaining two. For example, the set {2, 4, 6, 8} is good since the greatest common divisor of 2 and 6 is 2, and it divides 4×8 = 32. Find the greatest possible value of n, such that any four-element set with elements less than or equal to n is good. Proposed",
+    "statement": "A four-element set \\(\\{a, b, c, d\\}\\) of positive integers is good if two of them have a product divisible by the gcd of the other two. Find the greatest \\(n\\) such that any four-element set with elements at most \\(n\\) is good.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -119,10 +117,9 @@
     "day": 2,
     "problem_id": "P6",
     "topic": [
-      "Number Theory",
       "Algebra"
     ],
-    "statement": "Let n ≥ 2 be a positive integer. Let x1 , x2 , . . . , xn be non-zero real numbers satisfying the equation \u0012 \u0013\u0012 \u0013 \u0012 \u0013 \u0012 \u0013\u0012 \u0013 \u0012 \u0013 1 1 1 1 1 1 2 2 2 x1 + x2 + . . . xn + = x1 + 2 x2 + 2 . . . xn + 2 . x2 x3 x1 x2 x3 x1 Find all possible values of x1 , x2 , . . . , xn . Proposed",
+    "statement": "Let \\(n \\geq 2\\) and let \\(x_1, x_2, \\ldots, x_n\\) be nonzero reals satisfying \\(\\left(x_1 + \\tfrac{1}{x_2}\\right)\\left(x_2 + \\tfrac{1}{x_3}\\right)\\cdots\\left(x_n + \\tfrac{1}{x_1}\\right) = \\left(x_1^2 + \\tfrac{1}{x_2^2}\\right)\\left(x_2^2 + \\tfrac{1}{x_3^2}\\right)\\cdots\\left(x_n^2 + \\tfrac{1}{x_1^2}\\right)\\). Find all possible values of \\(x_1, x_2, \\ldots, x_n\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

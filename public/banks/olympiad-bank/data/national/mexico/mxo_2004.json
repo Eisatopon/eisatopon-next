@@ -11,10 +11,9 @@
     "day": 1,
     "problem_id": "P1",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Find all the prime number p, q and r with p < q < r, such that 25pq + r = 2004 and pqr + 1 is a perfect square.",
+    "statement": "Find all prime numbers \\(p, q, r\\) with \\(p < q < r\\) such that \\(25pq + r = 2004\\) and \\(pqr + 1\\) is a perfect square.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -33,10 +32,9 @@
     "day": 1,
     "problem_id": "P2",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Find the maximum number of positive integers such that any two of them a, b (with a 6= b) ab satisfy that|a − b| ≥ 100 .",
+    "statement": "Find the maximum number of positive integers such that any two of them, \\(a\\) and \\(b\\) with \\(a \\neq b\\), satisfy \\(|a - b| \\geq \\frac{ab}{100}\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -55,10 +53,9 @@
     "day": 1,
     "problem_id": "P3",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "Let Z and Y be the tangency points of the incircle of the triangle ABC with the sides AB and CA, respectively. The parallel line to Y Z through the midpoint M of BC, meets CA in N . Let L be the point in CA such that N L = AB (and L on the same side of N than A). The line M L meets AB in K. Prove that KA = N C. – Day 2",
+    "statement": "Let \\(Z\\) and \\(Y\\) be the tangency points of the incircle of triangle \\(ABC\\) with sides \\(AB\\) and \\(CA\\) respectively. The line parallel to \\(YZ\\) through the midpoint \\(M\\) of \\(BC\\) meets \\(CA\\) at \\(N\\). Let \\(L\\) on \\(CA\\) satisfy \\(NL = AB\\) with \\(L\\) on the same side of \\(N\\) as \\(A\\). Line \\(ML\\) meets \\(AB\\) at \\(K\\). Prove \\(KA = NC\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -77,10 +74,9 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Algebra",
       "Combinatorics"
     ],
-    "statement": "At the end of a soccer tournament in which any pair of teams played between them exactly once, and in which there were not draws, it was observed that for any three teams A, B and C, if A defeated B and B defeated C, then A defeated C. Any team calculated the difference (positive) between the number of games that it won and the number of games it lost. The sum of all these differences was 5000. How many teams played in the tournament? Find all possible answers.",
+    "statement": "In a round-robin soccer tournament with no draws, for any three teams \\(A, B, C\\): if \\(A\\) beat \\(B\\) and \\(B\\) beat \\(C\\), then \\(A\\) beat \\(C\\). Each team computed the positive difference between wins and losses. The sum of all these differences was 5000. How many teams played?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -99,10 +95,9 @@
     "day": 2,
     "problem_id": "P5",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "Let ω1 and ω2 be two circles such that the center O of ω2 lies in ω1 . Let C and D be the two intersection points of the circles. Let A be a point on ω1 and let B be a point on ω2 such that AC is tangent to ω2 in C and BC is tangent to ω1 in C. The line segment AB meets ω2 again in E and also meets ω1 again in F. The line CE meets ω1 again in G and the line CF meets the line GD in H. Prove that the intersection point of GO and EH is the center of the circumcircle of the triangle DEF .",
+    "statement": "Let \\(\\omega_1\\) and \\(\\omega_2\\) be two circles such that the center \\(O\\) of \\(\\omega_2\\) lies on \\(\\omega_1\\). They intersect at \\(C\\) and \\(D\\). \\(A\\) is on \\(\\omega_1\\) with \\(AC\\) tangent to \\(\\omega_2\\); \\(B\\) is on \\(\\omega_2\\) with \\(BC\\) tangent to \\(\\omega_1\\). Line \\(AB\\) meets \\(\\omega_2\\) again at \\(E\\) and \\(\\omega_1\\) again at \\(F\\). Line \\(CE\\) meets \\(\\omega_1\\) again at \\(G\\); line \\(CF\\) meets line \\(GD\\) at \\(H\\). Prove the intersection of \\(GO\\) and \\(EH\\) is the circumcenter of \\(\\triangle DEF\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -121,10 +116,9 @@
     "day": 2,
     "problem_id": "P6",
     "topic": [
-      "Algebra",
       "Combinatorics"
     ],
-    "statement": "What is the maximum number of possible change of directions in a path traveling on the edges of a rectangular array of 2004 × 2004, if the path does not cross the same place twice?.",
+    "statement": "What is the maximum number of direction changes in a path traveling on the edges of a \\(2004 \\times 2004\\) rectangular grid, if the path does not cross itself?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

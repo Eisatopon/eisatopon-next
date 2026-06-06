@@ -13,9 +13,9 @@
     "topic": [
       "Combinatorics"
     ],
-    "statement": "The ﬁgure shows all 6 colorings with for different colors of a 1 × 1 square divided in four 12 × 12 cells (two colorings are considered equal if one is the result of rotating the other). Each of the 1 × 1 colorings will be used as a piece for a puzzle. The pieces can be rotated but not reﬂected. Two pieces ﬁt if when sharing a side, the touching 21 × 12 cells are the same color respectively (see examples). ¿Is it possible to assemble a 3 × 2 puzzle using each of the 6 pieces exactly once and such that every pair of adjacent pieces ﬁt? https://imagizer.imageshack.com/img922/6019/ZUKcED.jpg",
-    "has_figure": false,
-    "figure_description": null,
+    "statement": "There are 6 colorings of a \\(1 \\times 1\\) square divided into four \\(\\frac{1}{2} \\times \\frac{1}{2}\\) cells using four different colors (two colorings equal if one is a rotation of the other). Each coloring is a puzzle piece; pieces can be rotated but not reflected. Two adjacent pieces fit if matching half-cells share the same color. Is it possible to assemble a \\(3 \\times 2\\) puzzle using each piece exactly once so all adjacent pieces fit?",
+    "has_figure": true,
+    "figure_description": "6 colorings of a 1x1 square divided into four quarter-cells",
     "official_solution_available": false,
     "language": "en",
     "source": "AoPS"
@@ -32,10 +32,9 @@
     "day": 1,
     "problem_id": "P2",
     "topic": [
-      "Number Theory",
-      "Combinatorics"
+      "Number Theory"
     ],
-    "statement": "Determine all pairs (a, b) of integers that satisfy both: 1. 5 ≤ b < a 2. There exists a natural number n such that the numbers ab and a − b are consecutive divisors of n, in that order. Note: Two positive integers x, y are consecutive divisors of m, in that order, if there is no divisor d of m such that x < d < y.",
+    "statement": "Determine all pairs \\((a, b)\\) of integers satisfying: (1) \\(5 \\leq b < a\\); (2) there exists a natural number \\(n\\) such that \\(ab\\) and \\(a - b\\) are consecutive divisors of \\(n\\) in that order.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -54,10 +53,9 @@
     "day": 1,
     "problem_id": "P3",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "Let ABCDEF a convex hexagon, and let A1 , B1 , C1 , D1 , E1 y F1 be the midpoints of AB, BC, CD, DE, EF and F A, respectively. Construct points A2 , B2 , C2 , D2 , E2 and F2 in the interior of A1 B1 C1 D1 E1 F1 such that both 1. The sides of the dodecagon A2 A1 B2 B1 C2 C1 D2 D1 E2 E1 F2 F1 are all equal and 2. ∠A1 B2 B1 + ∠C1 D2 D1 + ∠E1 F2 F1 = ∠B1 C2 C1 + ∠D1 E2 E1 + ∠F1 A2 A1 = 360◦ , where all these angles are less than 180◦ , Prove that A2 B2 C2 D2 E2 F2 is cyclic. Note: Dodecagon A2 A1 B2 B1 C2 C1 D2 D1 E2 E1 F2 F1 is shaped like a 6-pointed star, where the points are A1 , B1 , C1 , D1 , E1 y F1 . – Day 2",
+    "statement": "Let \\(ABCDEF\\) be a convex hexagon with midpoints \\(A_1, B_1, C_1, D_1, E_1, F_1\\) of sides \\(AB, BC, CD, DE, EF, FA\\). Construct \\(A_2, B_2, C_2, D_2, E_2, F_2\\) in the interior of \\(A_1B_1C_1D_1E_1F_1\\) such that: (1) all sides of the 12-gon \\(A_2A_1B_2B_1C_2C_1D_2D_1E_2E_1F_2F_1\\) are equal; (2) \\(\\angle A_1B_2B_1 + \\angle C_1D_2D_1 + \\angle E_1F_2F_1 = \\angle B_1C_2C_1 + \\angle D_1E_2E_1 + \\angle F_1A_2A_1 = 360^\\circ\\). Prove that \\(A_2B_2C_2D_2E_2F_2\\) is cyclic.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -76,10 +74,9 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "Let ABC an acute triangle with orthocenter H. Let M be a point on segment BC. The line through M and perpendicular to BC intersects lines BH and CH in points P and Q respectively. Prove that the orthocenter of triangle HP Q lies on the line AM .",
+    "statement": "Let \\(ABC\\) be an acute triangle with orthocenter \\(H\\). Let \\(M\\) be a point on segment \\(BC\\). The line through \\(M\\) perpendicular to \\(BC\\) meets lines \\(BH\\) and \\(CH\\) at \\(P\\) and \\(Q\\) respectively. Prove the orthocenter of \\(\\triangle HPQ\\) lies on line \\(AM\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -98,10 +95,9 @@
     "day": 2,
     "problem_id": "P5",
     "topic": [
-      "Algebra",
-      "Combinatorics"
+      "Algebra"
     ],
-    "statement": "Let A and B inﬁnite sets of positive real numbers such that: 1. For any pair of elements u ≥ v in A, it follows that u + v is an element of B.",
+    "statement": "Let \\(A\\) and \\(B\\) be infinite sets of positive real numbers such that: (1) for any \\(u \\geq v\\) in \\(A\\), \\(u + v \\in B\\); (2) for any \\(s > t\\) in \\(B\\), \\(s - t \\in A\\). Prove that either \\(A = B\\) or there exists \\(r > 0\\) such that \\(B = \\{2r, 3r, 4r, 5r, \\ldots\\}\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -120,11 +116,10 @@
     "day": 2,
     "problem_id": "P6",
     "topic": [
-      "Number Theory",
-      "Algebra",
-      "Combinatorics"
+      "Combinatorics",
+      "Number Theory"
     ],
-    "statement": "Ana and Beto play on a blackboard where all integers from 1 to 2024 (inclusive) are written. On each turn, Ana chooses three numbers a, b, c written on the board and then Beto erases them and writes one of the following numbers: a + b − c, a − b + c, or − a + b + c. The game ends when only two numbers are left on the board and Ana cannot play. If the sum of the ﬁnal numbers is a multiple of 3, Beto wins. Otherwise, Ana wins. ¿Who has a winning strategy?",
+    "statement": "All integers from 1 to 2024 are written on a board. On each turn, Ana chooses three numbers \\(a, b, c\\) on the board; Beto erases them and writes one of \\(a+b-c\\), \\(a-b+c\\), or \\(-a+b+c\\). The game ends when two numbers remain. If their sum is a multiple of 3, Beto wins; otherwise Ana wins. Who has a winning strategy?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

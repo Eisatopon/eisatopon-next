@@ -11,10 +11,9 @@
     "day": 1,
     "problem_id": "P1",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "Let ABC be an acuted-angle triangle and let H be it’s orthocenter. Let P Q be a segment through H such that P lies on AB and Q lies on AC and such that ∠P HB = ∠CHQ. Finally, in the circumcircle of 4ABC, consider M such that M is the mid point of the arc BC that doesn’t contain A. Prove that M P = M Q Proposed",
+    "statement": "Let \\(ABC\\) be an acute triangle with orthocenter \\(H\\). Let \\(PQ\\) be a segment through \\(H\\) with \\(P\\) on \\(AB\\) and \\(Q\\) on \\(AC\\), such that \\(\\angle PHB = \\angle CHQ\\). Let \\(M\\) be the midpoint of arc \\(BC\\) not containing \\(A\\) on the circumcircle of \\(\\triangle ABC\\). Prove that \\(MP = MQ\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -33,11 +32,9 @@
     "day": 1,
     "problem_id": "P2",
     "topic": [
-      "Geometry",
-      "Number Theory",
       "Combinatorics"
     ],
-    "statement": "Let n be a positive integer and let k be an integer between 1 and n inclusive. There is a white board of n × n. We do the following process. We draw k rectangles with integer sides lenghts and sides parallel to the ones of the n × n board, and such that each rectangle covers the top-right corner of the n × n board. Then, the k rectangles are painted of black. This process leaves a white figure in the board. How many different white figures are possible to do with k rectangles that can’t be done with less than k rectangles? Proposed",
+    "statement": "On an \\(n \\times n\\) board, draw \\(k\\) rectangles with integer side lengths, sides parallel to the board, each covering the top-right corner. Paint each rectangle black. How many different white figures can be produced with \\(k\\) rectangles that cannot be produced with fewer than \\(k\\) rectangles?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -59,7 +56,7 @@
       "Number Theory",
       "Algebra"
     ],
-    "statement": "Let N = {1, 2, 3, ...} be the set of positive integers. Let f : N → N be a function that gives a positive integer value, to every positive integer. Suppose that f satisfies the following conditions: f (1) = 1 f (a + b + ab) = a + b + f (ab) Find the value of f (2015) Proposed – Day 2",
+    "statement": "Let \\(f : \\mathbb{N} \\to \\mathbb{N}\\) satisfy \\(f(1) = 1\\) and \\(f(a + b + ab) = a + b + f(ab)\\) for all positive integers \\(a, b\\). Find \\(f(2015)\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -78,10 +75,9 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Number Theory",
       "Combinatorics"
     ],
-    "statement": "Let n be a positive integer. Mary writes the n3 triples of not necessarily distinct integers, each between 1 and n inclusive on a board. Afterwards, she finds the greatest (possibly more than one), and erases the rest. For example, in the triple (1, 3, 4) she erases the numbers 1 and 3, and in the triple (1, 2, 2) she erases only the number 1, Show after finishing this process, the amount of remaining numbers on the board cannot be a perfect square.",
+    "statement": "Mary writes all \\(n^3\\) triples of integers between 1 and \\(n\\) (inclusive, not necessarily distinct) on a board. For each triple, she erases all but the greatest element. Show that the total count of remaining numbers cannot be a perfect square.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -102,7 +98,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Let I be the incenter of an acute-angled triangle ABC. Line AI cuts the circumcircle of BIC again at E. Let D be the foot of the altitude from A to BC, and let J be the reflection of I across BC. Show D, J and E are collinear.",
+    "statement": "Let \\(I\\) be the incenter of an acute triangle \\(ABC\\). Line \\(AI\\) meets the circumcircle of \\(\\triangle BIC\\) again at \\(E\\). Let \\(D\\) be the foot of the altitude from \\(A\\) to \\(BC\\), and \\(J\\) the reflection of \\(I\\) across \\(BC\\). Show that \\(D\\), \\(J\\), and \\(E\\) are collinear.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -121,10 +117,9 @@
     "day": 2,
     "problem_id": "P6",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Let n be a positive integer and let d1 , d2 , . . . , dk be its positive divisors. Consider the number f (n) = (−1)d1 d1 + (−1)d2 d2 + · · · + (−1)dk dk Assume f (n) is a power of 2. Show if m is an integer greater than 1, then m2 does not divide n.",
+    "statement": "Let \\(n\\) be a positive integer with divisors \\(d_1, d_2, \\ldots, d_k\\). Consider \\(f(n) = (-1)^{d_1}d_1 + (-1)^{d_2}d_2 + \\cdots + (-1)^{d_k}d_k\\). Assume \\(f(n)\\) is a power of 2. Show that if \\(m > 1\\), then \\(m^2 \\nmid n\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

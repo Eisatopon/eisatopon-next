@@ -11,10 +11,9 @@
     "day": 1,
     "problem_id": "P1",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "An integer number m ≥ 1 is mexica if it’s of the form nd(n) , where n is a positive integer and d(n) is the number of positive integers which divide n. Find all mexica numbers less than 2019. Note. The divisors of n include 1 and n; for example, d(12) = 6, since 1, 2, 3, 4, 6, 12 are all the positive divisors of 12. Proposed",
+    "statement": "An integer \\(m \\geq 1\\) is mexica if it can be written in the form \\(n^{d(n)}\\), where \\(n\\) is a positive integer and \\(d(n)\\) is the number of positive divisors of \\(n\\). Find all mexica numbers less than 2019.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -35,7 +34,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Let H be the orthocenter of acute-angled triangle ABC and M be the midpoint of AH. Line BH cuts AC at D. Consider point E such that BC is the perpendicular bisector of DE. Segments CM and AE intersect at F . Show that BF is perpendicular to CM . Proposed",
+    "statement": "Let \\(H\\) be the orthocenter of acute triangle \\(ABC\\) and \\(M\\) the midpoint of \\(AH\\). Line \\(BH\\) meets \\(AC\\) at \\(D\\). Let \\(E\\) be such that \\(BC\\) is the perpendicular bisector of \\(DE\\). Segments \\(CM\\) and \\(AE\\) meet at \\(F\\). Show \\(BF \\perp CM\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -54,12 +53,9 @@
     "day": 1,
     "problem_id": "P3",
     "topic": [
-      "Geometry",
-      "Number Theory",
-      "Algebra",
       "Combinatorics"
     ],
-    "statement": "Let n ≥ 2 be an integer. Consider 2n points around a circle. Each vertex has been tagged with one integer from 1 to n, inclusive, and each one of these integers has been used exactly two times. Isabel divides the points into n pairs, and draws the segments joining them, with the condition that the segments do not intersect. Then, she assigns to each segment the greatest integer between its endpoints. a) Show that, no matter how the points have been tagged, Isabel can always choose the pairs in such a way that she uses exactly dn/2e numbers to tag the segments. b) Can the points be tagged in such a way that, no matter how Isabel divides the points into pairs, she always uses exactly dn/2e numbers to tag the segments? Note. For each real number x, dxe denotes the least integer greater than or equal to x. For example, d3.6e = 4 and d2e = 2. Proposed – Day 2",
+    "statement": "Let \\(n \\geq 2\\). Consider \\(2n\\) points on a circle, each tagged with an integer from 1 to \\(n\\) (each used exactly twice). Isabel divides the points into \\(n\\) non-crossing pairs and assigns to each segment the greater tag of its endpoints. (a) Show Isabel can always choose pairs using exactly \\(\\lceil n/2 \\rceil\\) distinct tags. (b) Can the points be tagged so that no matter how Isabel pairs them, she always uses exactly \\(\\lceil n/2 \\rceil\\) distinct tags?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -78,10 +74,9 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Combinatorics"
     ],
-    "statement": "A list of positive integers is called good if the maximum element of the list appears exactly once. A sublist is a list formed list 10, 34, 34, 22, 30, 22 the sublist 22, 30, 22 is good and 10, 34, 34, 22 is not. A list is very good if all its sublists are good. Find the minimum value of k such that there exists a very good list of length 2019 with k different values on it.",
+    "statement": "A list of positive integers is good if its maximum appears exactly once. A list is very good if all its sublists are good. Find the minimum \\(k\\) such that a very good list of length 2019 with \\(k\\) different values exists.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -100,11 +95,9 @@
     "day": 2,
     "problem_id": "P5",
     "topic": [
-      "Geometry",
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "2019 Mexico National Olympiad Let a > b be relatively prime positive integers. A grashopper stands at point 0 in a number line. Each minute, the grashopper jumps according to the following rules: - If the current minute is a multiple of a and not a multiple of b, it jumps a units forward. - If the current minute is a multiple of b and not a multiple of a, it jumps b units backward. - If the current minute is both a multiple of b and a multiple of a, it jumps a − b units forward. - If the current minute is neither a multiple of a nor a multiple of b, it doesn’t move. Find all positions on the number line that the grasshopper will eventually reach.",
+    "statement": "Let \\(a > b\\) be coprime positive integers. A grasshopper stands at 0. Each minute: if the minute is a multiple of \\(a\\) but not \\(b\\), jump \\(a\\) forward; if a multiple of \\(b\\) but not \\(a\\), jump \\(b\\) backward; if a multiple of both, jump \\(a - b\\) forward; otherwise, stay. Find all positions the grasshopper will eventually reach.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -123,10 +116,9 @@
     "day": 2,
     "problem_id": "P6",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "Let ABC be a triangle such that ∠BAC = 45◦ . Let H, O be the orthocenter and circumcenter of ABC, respectively. Let ω be the circumcircle of ABC and P the point on ω such that the circumcircle of P BH is tangent to BC. Let X and Y be the circumcenters of P HB and P HC respectively. Let O1 , O2 be the circumcenters of P XO and P Y O respectively. Prove that O1 and O2 lie on AB and AC, respectively.",
+    "statement": "Let \\(\\triangle ABC\\) have \\(\\angle BAC = 45^\\circ\\), orthocenter \\(H\\), circumcenter \\(O\\), and circumcircle \\(\\omega\\). Let \\(P\\) be on \\(\\omega\\) such that the circumcircle of \\(\\triangle PBH\\) is tangent to \\(BC\\). Let \\(X, Y\\) be the circumcenters of \\(\\triangle PHB\\) and \\(\\triangle PHC\\) respectively, and \\(O_1, O_2\\) the circumcenters of \\(\\triangle PXO\\) and \\(\\triangle PYO\\). Prove \\(O_1\\) lies on \\(AB\\) and \\(O_2\\) lies on \\(AC\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

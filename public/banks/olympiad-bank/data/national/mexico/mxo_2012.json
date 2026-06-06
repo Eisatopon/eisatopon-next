@@ -13,7 +13,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Let C1 be a circumference with center O, P a point on it and ` the line tangent to C1 at P . Consider a point Q on ` different from P , and let C2 be the circumference passing through O, P and Q. Segment OQ cuts C1 at S and line P S cuts C2 at a point R diffferent from P . If r1 and r2 are the radii of C1 and C2 respectively, Prove PS r1 = . SR r2",
+    "statement": "Let \\(C_1\\) have center \\(O\\), \\(P\\) on \\(C_1\\), and \\(\\ell\\) the tangent at \\(P\\). \\(Q\\) is on \\(\\ell\\) with \\(Q \\neq P\\), and \\(C_2\\) passes through \\(O, P, Q\\). Segment \\(OQ\\) meets \\(C_1\\) at \\(S\\), and line \\(PS\\) meets \\(C_2\\) again at \\(R\\). If \\(r_1, r_2\\) are the radii of \\(C_1, C_2\\), prove \\(\\dfrac{PS}{SR} = \\dfrac{r_1}{r_2}\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -32,11 +32,9 @@
     "day": 1,
     "problem_id": "P2",
     "topic": [
-      "Number Theory",
-      "Algebra",
       "Combinatorics"
     ],
-    "statement": "Let n ≥ 4 be an even integer. Consider an n × n grid. Two cells (1 × 1 squares) are neighbors if they share a side, are in opposite ends of a row, or are in opposite ends of a column. In this way, each cell in the grid has exactly four neighbors. An integer from 1 to 4 is written inside each square according to the following rules: -If a cell has a 2 written on it, then at least two of its neighbors contain a 1. -If a cell has a 3 written on it, then at least three of its neighbors contain a 1. -If a cell has a 4 written on it, then all of its neighbors contain a 1. Among all arrangements satisfying these conditions, what is the maximum number that can be obtained",
+    "statement": "Let \\(n \\geq 4\\) be even. An \\(n \\times n\\) grid wraps around (opposite ends of rows and columns are neighbors). Each cell has an integer from 1 to 4. Rules: a cell with 2 has at least two neighbors with 1; a cell with 3 has at least three; a cell with 4 has all four neighbors with 1. What is the maximum possible sum of all cells?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -55,10 +53,9 @@
     "day": 1,
     "problem_id": "P3",
     "topic": [
-      "Number Theory",
-      "Combinatorics"
+      "Number Theory"
     ],
-    "statement": "Prove among any 14 consecutive positive integers there exist 6 which are pairwise relatively prime. Day 2",
+    "statement": "Prove that among any 14 consecutive positive integers there exist 6 that are pairwise relatively prime.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -77,10 +74,9 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "The following process is applied to each positive integer: the sum of its digits is subtracted from the number, and the result is divided to 938 is 102, since 938−(9+3+8) = 102. Applying the process twice to 938 the result is 11, ap9 plied three times the result is 1, and applying it four times the result is 0. When the process is applied one or more times to an integer n, the result is eventually 0. The number obtained before obtaining 0 is called the house of n. How many integers less than 26000 share the same house as 2012?",
+    "statement": "Apply this process to a positive integer \\(n\\): subtract the sum of its digits and divide by 9. Applying this repeatedly eventually gives 0; the last nonzero result is the 'house' of \\(n\\). How many integers less than 26000 have the same house as 2012?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -101,9 +97,9 @@
     "topic": [
       "Combinatorics"
     ],
-    "statement": "Some frogs, some red and some others green, are going to move in an 11 × 11 grid, according to the following rules. If a frog is located, say, on the square marked with# in the following",
-    "has_figure": false,
-    "figure_description": null,
+    "statement": "Red and green frogs move on an \\(11 \\times 11\\) grid: red frogs jump to cells at a knight's move landing on specific squares; green frogs similarly. Two frogs can meet if both can reach the same square in some number of jumps. (a) Prove that among any 6 frogs, two can meet. (b) For which \\(k\\) can one place one green and one red frog that can meet at exactly \\(k\\) squares?",
+    "has_figure": true,
+    "figure_description": "Grid with frog movement pattern",
     "official_solution_available": false,
     "language": "en",
     "source": "AoPS"
@@ -122,7 +118,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Consider an acute triangle ABC with circumcircle C. Let H be the orthocenter of ABC and M the midpoint of BC. Lines AH, BH and CH cut C again at points D, E, and F respectively; line M H cuts C at J such that H lies between J and M . Let K and L be the incenters of triangles DEJ and DF J respectively. Prove KL is parallel to BC.",
+    "statement": "Acute triangle \\(ABC\\) has circumcircle \\(C\\), orthocenter \\(H\\), midpoint \\(M\\) of \\(BC\\). Lines \\(AH, BH, CH\\) meet \\(C\\) again at \\(D, E, F\\). Line \\(MH\\) meets \\(C\\) at \\(J\\) with \\(H\\) between \\(J\\) and \\(M\\). \\(K, L\\) are the incenters of \\(\\triangle DEJ\\) and \\(\\triangle DFJ\\). Prove \\(KL \\parallel BC\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

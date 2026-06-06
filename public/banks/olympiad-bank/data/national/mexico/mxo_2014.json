@@ -12,10 +12,9 @@
     "problem_id": "P1",
     "topic": [
       "Number Theory",
-      "Algebra",
       "Combinatorics"
     ],
-    "statement": "Each of the integers from 1 to 4027 has been colored either green or red. Changing the color of a number is making it red if it was green and making it green if it was red. Two positive integers n m and n are said to be cuates if either m n or m is a prime number. A step consists in choosing two numbers that are cuates and changing the color of each of them. Show it is possible to apply a sequence of steps such that every integer from 1 to 2014 is green.",
+    "statement": "Each integer from 1 to 4027 is colored green or red. Call \\(m\\) and \\(n\\) cuates if \\(m/n\\) or \\(n/m\\) is prime. A step changes the color of two cuates. Show there is a sequence of steps making every integer from 1 to 2014 green.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -34,10 +33,9 @@
     "day": 1,
     "problem_id": "P2",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "A positive integer a is said to reduce to a positive integer b if when dividing a the result is b. For example, 2015 reduces to 2015 5 = 403. Find all the positive integers that become 1 after some amount of reductions. For example, 12 is one such number because 12 reduces to 6 and 6 reduces to 1.",
+    "statement": "A positive integer \\(a\\) reduces to \\(b\\) if \\(b = a / (\\text{units digit of } a)\\). For example, 2015 reduces to 403. Find all positive integers that eventually reach 1 after some reductions.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -58,7 +56,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Let Γ1 be a circle and P a point outside of Γ1 . The tangents from P to Γ1 touch the circle at A and B. Let M be the midpoint of P A and Γ2 the circle through P , A and B. Line BM cuts Γ2 at C, line CA cuts Γ1 at D, segment DB cuts Γ2 at E and line P E cuts Γ1 at F , with E in segment P F . Prove lines AF , BP , and CE are concurrent. Day 2",
+    "statement": "Let \\(\\Gamma_1\\) be a circle, \\(P\\) outside it, tangents from \\(P\\) touching at \\(A\\) and \\(B\\). \\(M\\) is the midpoint of \\(PA\\), \\(\\Gamma_2\\) passes through \\(P, A, B\\). Line \\(BM\\) meets \\(\\Gamma_2\\) at \\(C\\), line \\(CA\\) meets \\(\\Gamma_1\\) at \\(D\\), segment \\(DB\\) meets \\(\\Gamma_2\\) at \\(E\\), and line \\(PE\\) meets \\(\\Gamma_1\\) at \\(F\\) (with \\(E\\) between \\(P\\) and \\(F\\)). Prove \\(AF\\), \\(BP\\), and \\(CE\\) are concurrent.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -77,10 +75,9 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "Problem 4 Let ABCD be a rectangle with diagonals AC and BD. Let E be the intersection of the bisector of ∠CAD with segment CD, F on CD such that E is midpoint of DF , and G on BC such that BG = AC (with C between B and G). Prove that the circumference through D, F and G is tangent to BG.",
+    "statement": "Let \\(ABCD\\) be a rectangle with diagonals \\(AC\\) and \\(BD\\). \\(E\\) is the intersection of the bisector of \\(\\angle CAD\\) with segment \\(CD\\), \\(F\\) on \\(CD\\) is such that \\(E\\) is the midpoint of \\(DF\\), and \\(G\\) on \\(BC\\) satisfies \\(BG = AC\\) (with \\(C\\) between \\(B\\) and \\(G\\)). Prove the circumcircle of \\(\\triangle DFG\\) is tangent to \\(BG\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -101,7 +98,7 @@
     "topic": [
       "Algebra"
     ],
-    "statement": "Let a, b, c be positive reals such that a + b + c = 3. Prove: a2 b2 c2 3 √ √ √ + + ≥ 3 3 3 2 b + ca a + bc c + ab And determine when equality holds.",
+    "statement": "Let \\(a, b, c\\) be positive reals with \\(a + b + c = 3\\). Prove: \\(\\dfrac{a^2}{\\sqrt[3]{b + ca}} + \\dfrac{b^2}{\\sqrt[3]{c + ab}} + \\dfrac{c^2}{\\sqrt[3]{a + bc}} \\geq \\dfrac{3}{2}\\). Determine when equality holds.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -120,10 +117,9 @@
     "day": 2,
     "problem_id": "P6",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Let d(n) be the number of positive divisors of a positive integer n (including 1 and n). Find all values of n such that n + d(n) = d(n)2 .",
+    "statement": "Let \\(d(n)\\) be the number of positive divisors of \\(n\\). Find all values of \\(n\\) such that \\(n + d(n) = d(n)^2\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

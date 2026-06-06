@@ -11,10 +11,9 @@
     "day": 1,
     "problem_id": "P1",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Find all integers N with the following property: for 10 but not 11 consecutive positive integers, each one is a divisor of N .",
+    "statement": "Find all integers \\(N\\) with the following property: for exactly 10 but not 11 consecutive positive integers, each one is a divisor of \\(N\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -35,7 +34,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Given an equilateral 4ABC, find the locus of points P such that ∠AP B = ∠BP C.",
+    "statement": "Given an equilateral triangle \\(ABC\\), find the locus of points \\(P\\) such that \\(\\angle APB = \\angle BPC\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -56,7 +55,7 @@
     "topic": [
       "Algebra"
     ],
-    "statement": "Given a, b, and c be positive real numbers with a + b + c = 1, prove that √ a + bc + √ b + ca + √ c + ab ≤ 2 Day 2",
+    "statement": "Let \\(a, b, c\\) be positive real numbers with \\(a + b + c = 1\\). Prove that \\(\\sqrt{a + bc} + \\sqrt{b + ca} + \\sqrt{c + ab} \\leq 2\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -64,7 +63,7 @@
     "source": "AoPS"
   },
   {
-    "id": "MXO-2007-P1",
+    "id": "MXO-2007-P4",
     "year": 2007,
     "olympiad": "MXO",
     "olympiad_full_name": "Mexico National Olympiad",
@@ -72,14 +71,12 @@
     "region": "North America",
     "country": "Mexico",
     "gender_restricted": false,
-    "day": 1,
-    "problem_id": "P1",
+    "day": 2,
+    "problem_id": "P4",
     "topic": [
-      "Number Theory",
-      "Algebra",
-      "Combinatorics"
+      "Number Theory"
     ],
-    "statement": "1 The fraction 10 can be expressed as the sum of two unit fraction in many ways, for example, 1 1 1 1 + and + 30 15 60 12 . 1 Find the number of ways that 2007 can be expressed as the sum of two distinct positive unit fractions.",
+    "statement": "The fraction \\(\\frac{1}{10}\\) can be expressed as the sum of two unit fractions in many ways. Find the number of ways that \\(\\frac{1}{2007}\\) can be expressed as the sum of two distinct positive unit fractions.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -87,7 +84,7 @@
     "source": "AoPS"
   },
   {
-    "id": "MXO-2007-P2",
+    "id": "MXO-2007-P5",
     "year": 2007,
     "olympiad": "MXO",
     "olympiad_full_name": "Mexico National Olympiad",
@@ -95,12 +92,12 @@
     "region": "North America",
     "country": "Mexico",
     "gender_restricted": false,
-    "day": 1,
-    "problem_id": "P2",
+    "day": 2,
+    "problem_id": "P5",
     "topic": [
       "Combinatorics"
     ],
-    "statement": "In each square of a 6 × 6 grid there is a lightning bug on or off. One move is to choose three consecutive squares, either horizontal or vertical, and change the lightning bugs in those 3 squares from off to on or from on to off. Show if at the beginning there is one lighting bug on and the rest of them off, it is not possible to make some moves so that at the end they are all turned off.",
+    "statement": "In each square of a \\(6 \\times 6\\) grid there is a light bulb, on or off. A move consists of choosing three consecutive squares (horizontally or vertically) and toggling all three. Show that if initially exactly one bulb is on, it is impossible to turn all bulbs off.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -108,7 +105,7 @@
     "source": "AoPS"
   },
   {
-    "id": "MXO-2007-P3",
+    "id": "MXO-2007-P6",
     "year": 2007,
     "olympiad": "MXO",
     "olympiad_full_name": "Mexico National Olympiad",
@@ -116,12 +113,12 @@
     "region": "North America",
     "country": "Mexico",
     "gender_restricted": false,
-    "day": 1,
-    "problem_id": "P3",
+    "day": 2,
+    "problem_id": "P6",
     "topic": [
       "Geometry"
     ],
-    "statement": "Let ABC be a triangle with AB > BC > CA. Let D be a point on AB such that CD = BC, and let M be the midpoint of AC. Show that BD = AC and that ∠BAC = 2∠ABM.",
+    "statement": "Let \\(ABC\\) be a triangle with \\(AB > BC > CA\\). \\(D\\) is on \\(AB\\) with \\(CD = BC\\), and \\(M\\) is the midpoint of \\(AC\\). Show that \\(BD = AC\\) and \\(\\angle BAC = 2\\angle ABM\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

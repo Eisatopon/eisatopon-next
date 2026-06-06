@@ -13,7 +13,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Let ABCD be a parallelogram. The circle with diameter BD cuts lines AD and DC at points E and F , respectively, with E and F different from D. Line EF intersects sides BA and BC at the points P and Q, respectively. Show that the center of the circle that passes through the points B, P , and Q lies on line BD.",
+    "statement": "Let \\(ABCD\\) be a parallelogram. The circle with diameter \\(BD\\) meets lines \\(AD\\) and \\(DC\\) at \\(E\\) and \\(F\\) (with \\(E, F \\neq D\\)). Line \\(EF\\) meets sides \\(BA\\) and \\(BC\\) at \\(P\\) and \\(Q\\). Show the center of the circle through \\(B, P, Q\\) lies on line \\(BD\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -32,10 +32,9 @@
     "day": 1,
     "problem_id": "P2",
     "topic": [
-      "Number Theory",
       "Algebra"
     ],
-    "statement": "Let n ≥ 4 be an integer. Find all sequences of real numbers (x1 , x2 , . . . , xn ) that satisfy simultaneously the following equations: x31 + x2 = x2 x3 + 1 x32 + x3 = x3 x4 + 1 .. . x3n + x1 = x1 x2 + 1",
+    "statement": "Let \\(n \\geq 4\\) be an integer. Find all sequences \\((x_1, x_2, \\ldots, x_n)\\) of real numbers satisfying simultaneously: \\(x_1^3 + x_2 = x_2 x_3 + 1,\\ x_2^3 + x_3 = x_3 x_4 + 1,\\ \\ldots,\\ x_n^3 + x_1 = x_1 x_2 + 1\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -54,12 +53,9 @@
     "day": 1,
     "problem_id": "P3",
     "topic": [
-      "Geometry",
-      "Number Theory",
-      "Algebra",
       "Combinatorics"
     ],
-    "statement": "Let n be a positive integer. Consider a 2 × n grid divided into 1 × 1 squares. Each one of the squares is labeled with a different number selected from 1 to 2n, utilizing each number exactly once. We deﬁne a path in the labeled grid as a sequence of squares, such that each pair of consecutive squares share a side in the grid, and that never visits a square more than once. A path is ascending if the labels of the visited squares are in increasing order (that is, if the path passes through the square labeled i and then visits the square labeled j, then i < j). Finally, a path is complete if it starts on the square labeled 1 and ends on the square labeled 2n. For each one of the labelings of the 2 × n rectangle we compute the number of complete ascending paths. Determine the maximum of these numbers in terms of n. [i]Note. In the following 2 × 5 board, the path 1, 3, 8, 10 is a complete ascending path.[/i]",
+    "statement": "Consider a \\(2 \\times n\\) grid with each square labeled by a distinct number from 1 to \\(2n\\). A path is ascending if labels are in increasing order; a path is complete if it starts at the square labeled 1 and ends at the square labeled \\(2n\\). For each labeling, compute the number of complete ascending paths. Determine the maximum of these numbers in terms of \\(n\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -75,14 +71,14 @@
     "region": "North America",
     "country": "Mexico",
     "gender_restricted": false,
-    "day": 1,
+    "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Algebra"
+      "Combinatorics"
     ],
-    "statement": "Lalo was gifted a magical net like the one shown in the ﬁgure. The net consists of 20 vertices joined the edges, and as they do, the traversed edges disappear. Lalo has n ants and plays them in the following way: 1. He places an ant on a vertex and it walks freely until Lalo decides to remove it after it reaches some vertex. Then, he places the following ant. 2. Each ant traverses at least one edge. 3. No three ants traverse the same amount of edges of the magical net. Lalo used each one of his ants exactly once, and at the end, the magical net had completely disappeared. What is the maximum number of edges that one of Lalo’s ants could have traversed?",
-    "has_figure": false,
-    "figure_description": null,
+    "statement": "Lalo has a magical net of 20 vertices and some edges. He places ants one by one on vertices; each ant walks on edges (which disappear as traversed), and Lalo removes each ant after it reaches some vertex. He has \\(n\\) ants, each traversing at least one edge, no two traversing the same number of edges, and together covering all edges. What is the maximum number of edges one ant could traverse?",
+    "has_figure": true,
+    "figure_description": "Magical net figure with 20 vertices",
     "official_solution_available": false,
     "language": "en",
     "source": "AoPS"
@@ -96,12 +92,12 @@
     "region": "North America",
     "country": "Mexico",
     "gender_restricted": false,
-    "day": 1,
+    "day": 2,
     "problem_id": "P5",
     "topic": [
       "Number Theory"
     ],
-    "statement": "Determine for which positive integers n ≥ 3 there exist n not necessarily distinct prime numbers p1 , p2 , . . . , pn such that p1 p2 + 1, p2 p3 + 1, . . . , pn−1 pn + 1 and pn p1 + 1 are all perfect powers. [i]Note. A perfect power is a number of the form ak where a and k are positive integers with k ≥ 2.[/i]",
+    "statement": "For which positive integers \\(n \\geq 3\\) do there exist \\(n\\) not necessarily distinct primes \\(p_1, p_2, \\ldots, p_n\\) such that \\(p_1 p_2 + 1,\\ p_2 p_3 + 1,\\ \\ldots,\\ p_{n-1}p_n + 1,\\ p_n p_1 + 1\\) are all perfect powers?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -117,12 +113,12 @@
     "region": "North America",
     "country": "Mexico",
     "gender_restricted": false,
-    "day": 1,
+    "day": 2,
     "problem_id": "P6",
     "topic": [
       "Geometry"
     ],
-    "statement": "Let ABC be a triangle and let I be the excenter opposite A. The perpendicular line to AI through I intersects lines AB and AC at E and F , respectively. The circle ωB is tangent to EF and to AB at B such that it is outside triangle AEF . Analogously, circle ωC is tangent to EF and to",
+    "statement": "Let \\(\\triangle ABC\\) have excenter \\(I\\) opposite \\(A\\). The perpendicular to \\(AI\\) through \\(I\\) meets lines \\(AB\\) and \\(AC\\) at \\(E\\) and \\(F\\). Circle \\(\\omega_B\\) is tangent to \\(EF\\) and to \\(AB\\) at \\(B\\), outside \\(\\triangle AEF\\). Circle \\(\\omega_C\\) is tangent to \\(EF\\) and to \\(AC\\) at \\(C\\), outside \\(\\triangle AEF\\). Line \\(IB\\) meets \\(\\omega_B\\) again at \\(X\\); line \\(IC\\) meets \\(\\omega_C\\) again at \\(Y\\). Let \\(\\omega_A\\) be the excircle of \\(\\triangle AEF\\) opposite \\(A\\). Show the reflection of \\(\\omega_A\\) over \\(EF\\) is tangent to \\(XY\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

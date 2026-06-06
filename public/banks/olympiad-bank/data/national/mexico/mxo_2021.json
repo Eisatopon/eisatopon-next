@@ -11,10 +11,9 @@
     "day": 1,
     "problem_id": "P1",
     "topic": [
-      "Geometry",
       "Algebra"
     ],
-    "statement": "The real positive numbers a1 , a2 , a3 are three consecutive terms of an arithmetic progression, and similarly, b1 , b2 , b3 are distinct real positive numbers and consecutive terms of an arithmetic progression. Is it possible to use three segments of lengths a1 , a2 , a3 as bases, and other three segments of lengths b1 , b2 , b3 as altitudes, to construct three rectangles of equal area ?",
+    "statement": "Positive reals \\(a_1, a_2, a_3\\) are three consecutive terms of an arithmetic progression; distinct positive reals \\(b_1, b_2, b_3\\) are also three consecutive terms of an arithmetic progression. Is it possible to use segments of lengths \\(a_1, a_2, a_3\\) as bases and segments of lengths \\(b_1, b_2, b_3\\) as altitudes to construct three rectangles of equal area?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -33,10 +32,9 @@
     "day": 1,
     "problem_id": "P2",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "Let ABC be a triangle with ∠ACB > 90◦ , and let D be a point on BC such that AD is perpendicular to BC. Consider the circumference Γ with with diameter BC. A line ℓ passes through D and is tangent to Γ at P , cuts AC at M (such that M is in between A and C), and cuts the side AB at N . Prove that M is the midpoint of DP if and only if N is the midpoint of AB.",
+    "statement": "Let \\(\\triangle ABC\\) have \\(\\angle ACB > 90^\\circ\\), with \\(D\\) on \\(BC\\) such that \\(AD \\perp BC\\). Let \\(\\Gamma\\) be the circle with diameter \\(BC\\). A line \\(\\ell\\) through \\(D\\) is tangent to \\(\\Gamma\\) at \\(P\\), meets \\(AC\\) at \\(M\\) (between \\(A\\) and \\(C\\)), and meets \\(AB\\) at \\(N\\). Prove that \\(M\\) is the midpoint of \\(DP\\) if and only if \\(N\\) is the midpoint of \\(AB\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -55,10 +53,9 @@
     "day": 1,
     "problem_id": "P3",
     "topic": [
-      "Number Theory",
       "Combinatorics"
     ],
-    "statement": "Let m, n ≥ 2 be two integers. In an m × n grid, an ant starts in the lower left square and wants to walk to the upper right square. Each step the ant takes must be to an adjacent square, according to the following possibilities: ↑, →, and ↗. However, an evil wizard has dropped lava from above and destroyed some of the squares, such that: • If a square is destroyed, then all the squares above it are also destroyed. • The number of destroyed squares is greater than or equal to 0. • There are enough undestroyed squares left for the ant to reach its goal. Let P be the number of even-length paths the ant can follow. Let I be the number of odd-length paths the ant can follow. Find the possible values of P − I. Note: The length of a path is the number of steps the ant takes. For example, a possible path of length 8 is shown in the 6 × 7 ﬁgure below, where the destroyed squares are shaded and the goal is indicated https://cdn.artofproblemsolving.com/attachments/5/3/46a180dd844f63f1f264721a2d570c258203d png – Day 2",
+    "statement": "In an \\(m \\times n\\) grid (\\(m, n \\geq 2\\)), an ant goes from lower-left to upper-right using steps \\(\\uparrow\\), \\(\\rightarrow\\), \\(\\nearrow\\). Some squares are destroyed (if a square is destroyed, all squares above it are destroyed), but the ant can still reach its goal. Let \\(P\\) = number of even-length paths, \\(I\\) = number of odd-length paths. Find all possible values of \\(P - I\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -77,10 +74,9 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "Let ABC be an acutangle scalene triangle with ∠BAC = 60◦ and orthocenter H. Let ωb be the circumference passing through H and tangent to AB at B, and ωc the circumference passing through H and tangent to AC at C. - Prove that ωb and ωc only have H as common point. - Prove that the line passing through H and the circumcenter O of triangle ABC is a common tangent to ωb and ωc . Note: The orthocenter of a triangle is the intersection point of the three altitudes, whereas the",
+    "statement": "Let \\(\\triangle ABC\\) be acute and scalene with \\(\\angle BAC = 60^\\circ\\) and orthocenter \\(H\\). Let \\(\\omega_b\\) be the circle through \\(H\\) tangent to \\(AB\\) at \\(B\\), and \\(\\omega_c\\) the circle through \\(H\\) tangent to \\(AC\\) at \\(C\\). Prove: (a) \\(\\omega_b\\) and \\(\\omega_c\\) share only the point \\(H\\). (b) The line through \\(H\\) and the circumcenter \\(O\\) is a common tangent to \\(\\omega_b\\) and \\(\\omega_c\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -99,10 +95,9 @@
     "day": 2,
     "problem_id": "P5",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "If n = a1 a2 · · · ak−1 ak , be s(n) such that . If k is even, s(n) = a1 a2 + a3 a4 · · · + ak−1 ak . If k is odd, s(n) = a1 + a2 a3 · · · + ak−1 ak For example s(123) = 1 + 23 = 24 and s(2021) = 20 + 21 = 41 Be n is digital if s(n) is a divisor of n. Prove that among any 198 consecutive positive integers, all of them less than 2000021 there is one of them that is digital.",
+    "statement": "If \\(n = a_1 a_2 \\cdots a_k\\), define \\(s(n)\\) as follows: if \\(k\\) is even, \\(s(n) = a_1 a_2 + a_3 a_4 + \\cdots + a_{k-1}a_k\\); if \\(k\\) is odd, \\(s(n) = a_1 + a_2 a_3 + \\cdots + a_{k-1}a_k\\) (where \\(a_i a_j\\) denotes the two-digit number). Call \\(n\\) digital if \\(s(n)\\) divides \\(n\\). Prove that among any 198 consecutive positive integers all less than 2000021, at least one is digital.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -122,9 +117,9 @@
     "problem_id": "P6",
     "topic": [
       "Number Theory",
-      "Algebra"
+      "Combinatorics"
     ],
-    "statement": "Determine all non empty sets C1 , C2 , C3 , · · · such that each one of them has a ﬁnite number of elements, all their elements are positive integers, and they satisfy the following property: For any positive integers n and m, the number of elements in the set Cn plus the number of elements in the set Cm equals the sum of the elements in the set Cm+n . Note: We denote |Cn | the number of elements in the set Cn , and Sk as the sum of the elements in the set Cn so the problem’s condition is that for every n and m: |Cn |+|Cm |= Sn+m is satisﬁed.",
+    "statement": "Determine all families of nonempty finite sets \\(C_1, C_2, C_3, \\ldots\\) of positive integers such that for all positive integers \\(n, m\\): \\(|C_n| + |C_m| = \\sum_{x \\in C_{m+n}} x\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

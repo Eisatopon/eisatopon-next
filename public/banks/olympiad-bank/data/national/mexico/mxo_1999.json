@@ -13,7 +13,7 @@
     "topic": [
       "Combinatorics"
     ],
-    "statement": "On a table there are 1999 counters, red on one side and black on the other side, arranged arbitrarily. Two people alternately make moves, where each move is of one of the following two types: (1) Remove several counters which all have the same color up; (2) Reverse several counters which all have the same color up. The player who takes the last counter wins. Decide which of the two players (the one playing first or the other one) has a wining strategy.",
+    "statement": "On a table there are 1999 counters, red on one side and black on the other, arranged arbitrarily. Two players alternate moves: (1) remove several counters of the same color up; (2) flip several counters of the same color up. The player who takes the last counter wins. Which player has a winning strategy?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -32,10 +32,9 @@
     "day": 1,
     "problem_id": "P2",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Prove that there are no 1999 primes in an arithmetic progression that are all less than 12345.",
+    "statement": "Prove that there are no 1999 primes in an arithmetic progression all less than 12345.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -54,10 +53,9 @@
     "day": 1,
     "problem_id": "P3",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "A point P is given inside a triangle ABC. Let D, E, F be the midpoints of AP, BP, CP , and let L, M, N be the intersection points of BF and CE, AF and CD, AE and BD, respectively. (a) Prove that the area of hexagon DN ELF M is equal to one third of the area of triangle ABC. (b) Prove that DL, EM , and F N are concurrent. – Day 2",
+    "statement": "A point \\(P\\) is inside triangle \\(ABC\\). Let \\(D, E, F\\) be the midpoints of \\(AP, BP, CP\\), and let \\(L, M, N\\) be the intersections of \\(BF \\cap CE\\), \\(AF \\cap CD\\), \\(AE \\cap BD\\) respectively. (a) Prove that the area of hexagon \\(DNELF M\\) equals one third of \\([ABC]\\). (b) Prove that \\(DL, EM, FN\\) are concurrent.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -76,10 +74,9 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Algebra",
       "Combinatorics"
     ],
-    "statement": "An 8 × 8 board is divided into unit squares. Ten of these squares have their √ centers marked. Prove that either there exist two marked points on the distance at most 2, or there is a point on the distance 1/2 from the edge of the board.",
+    "statement": "An \\(8 \\times 8\\) board is divided into unit squares and 10 squares have their centers marked. Prove that either two marked points are at distance at most \\(\\sqrt{2}\\), or some marked point is within distance \\(\\frac{1}{2}\\) from the edge of the board.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -98,10 +95,9 @@
     "day": 2,
     "problem_id": "P5",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "In a quadrilateral ABCD with AB//CD, the external bisectors of the angles at B and C meet at P , while the external bisectors of the angles at A and D meet at Q. Prove that the length of P Q equals the semiperimeter of ABCD.",
+    "statement": "In quadrilateral \\(ABCD\\) with \\(AB \\parallel CD\\), the external bisectors of \\(\\angle B\\) and \\(\\angle C\\) meet at \\(P\\), while the external bisectors of \\(\\angle A\\) and \\(\\angle D\\) meet at \\(Q\\). Prove that \\(PQ\\) equals the semiperimeter of \\(ABCD\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -120,10 +116,9 @@
     "day": 2,
     "problem_id": "P6",
     "topic": [
-      "Geometry",
       "Combinatorics"
     ],
-    "statement": "A polygon has each side integral and each pair of adjacent sides perpendicular (it is not necessarily convex). Show that if it can be covered one of its sides has even length.",
+    "statement": "A polygon has each side an integer and each pair of adjacent sides perpendicular (not necessarily convex). Show that if it can be covered by non-overlapping \\(2 \\times 1\\) dominoes, then at least one of its sides has even length.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

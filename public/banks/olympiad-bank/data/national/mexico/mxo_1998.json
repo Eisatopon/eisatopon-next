@@ -11,11 +11,9 @@
     "day": 1,
     "problem_id": "P1",
     "topic": [
-      "Number Theory",
-      "Algebra",
-      "Combinatorics"
+      "Number Theory"
     ],
-    "statement": "A number is called lucky if computing the sum of the squares of its digits and repeating this operation sufficiently many times leads to number 1. For example, 1900 is lucky, as 1900 → 82 → 68 → 100 → 1. Find infinitely many pairs of consecutive numbers each of which is lucky.",
+    "statement": "A number is called lucky if repeatedly summing the squares of its digits eventually yields 1. For example, \\(1900 \\to 82 \\to 68 \\to 100 \\to 1\\). Find infinitely many pairs of consecutive lucky numbers.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -36,7 +34,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Rays l and m forming an angle of a are drawn from the same point. Let P be a fixed point on l. For each circle C tangent to l at P and intersecting m at Q and R, let T be the intersection point of the bisector of angle QP R with C. Describe the locus of T and justify your answer.",
+    "statement": "Rays \\(\\ell\\) and \\(m\\) form an angle \\(\\alpha\\) at a point. \\(P\\) is a fixed point on \\(\\ell\\). For each circle \\(C\\) tangent to \\(\\ell\\) at \\(P\\) and intersecting \\(m\\) at \\(Q\\) and \\(R\\), let \\(T\\) be the intersection of the bisector of \\(\\angle QPR\\) with \\(C\\). Describe the locus of \\(T\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -55,10 +53,9 @@
     "day": 1,
     "problem_id": "P3",
     "topic": [
-      "Geometry",
       "Combinatorics"
     ],
-    "statement": "Every side and diagonal of a regular octagon is color with red or black. Show that there is at least seven triangles whose vertices are vertices of the octagon and its three sides are of the same color. – Day 2",
+    "statement": "Every side and diagonal of a regular octagon is colored red or black. Show that there are at least seven triangles whose vertices are vertices of the octagon and all three sides are the same color.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -77,10 +74,9 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Find all integers that can be written in the form a11 + a22 + ... + a99 where a1 , a2 , ..., a9 are nonzero digits, not necessarily different.",
+    "statement": "Find all integers that can be written in the form \\(a_1^1 + a_2^2 + \\cdots + a_9^9\\) where \\(a_1, a_2, \\ldots, a_9\\) are nonzero digits, not necessarily different.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -99,10 +95,9 @@
     "day": 2,
     "problem_id": "P5",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "The tangents at points B and C on a given circle meet at point A. Let Q be a point on segment AC and let BQ meet the circle again at P . The line through Q parallel to AB intersects BC at J. Prove that P J is parallel to AC if and only if BC 2 = AC · QC.",
+    "statement": "The tangents at points \\(B\\) and \\(C\\) on a circle meet at point \\(A\\). \\(Q\\) is on segment \\(AC\\) and \\(BQ\\) meets the circle again at \\(P\\). The line through \\(Q\\) parallel to \\(AB\\) meets \\(BC\\) at \\(J\\). Prove that \\(PJ \\parallel AC\\) if and only if \\(BC^2 = AC \\cdot QC\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -123,7 +118,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "A plane in space is equidistant from a set of points if its distances from the points in the set are equal. What is the largest possible number of equidistant planes from five points, no four of which are coplanar?",
+    "statement": "A plane in space is equidistant from a set of points if it is equidistant from all points in the set. What is the largest possible number of equidistant planes from five points in general position (no four coplanar)?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

@@ -11,11 +11,9 @@
     "day": null,
     "problem_id": "P1",
     "topic": [
-      "Number Theory",
-      "Algebra",
       "Combinatorics"
     ],
-    "statement": "A knight is placed on each square of the first column of a 2017×2017 board. A move consists in choosing two different knights and moving each of them to a square which is one knight-step away. Find all integers k with 1 ≤ k ≤ 2017 such that it is possible for each square in the k-th column to contain one knight after a finite number of moves. Note: Two squares are a knight-step away if they are opposite corners of a 2 × 3 or 3 × 2 board.",
+    "statement": "A knight is placed on each square of the first column of a \\(2017 \\times 2017\\) board. A move: choose two knights and move each one knight-step away. Find all \\(k\\) with \\(1 \\leq k \\leq 2017\\) such that after finitely many moves, each square of the \\(k\\)-th column contains exactly one knight.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -35,9 +33,9 @@
     "problem_id": "P2",
     "topic": [
       "Number Theory",
-      "Algebra"
+      "Combinatorics"
     ],
-    "statement": "A set of n positive integers is said to be balanced if for each integer k with 1 ≤ k ≤ n, the average of any k numbers in the set is an integer. Find the maximum possible sum of the elements of a balanced set, all of whose elements are less than or equal to 2017.",
+    "statement": "A set of \\(n\\) positive integers is balanced if for each \\(k\\) with \\(1 \\leq k \\leq n\\), the average of any \\(k\\) elements is an integer. Find the maximum possible sum of elements of a balanced set with all elements at most 2017.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -58,7 +56,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Let ABC be an acute triangle with orthocenter H. The circle through B, H, and C intersects lines AB and AC at D and E respectively, and segment DE intersects HB and HC at P and Q respectively. Two points X and Y , both different from A, are located on lines AP and AQ respectively such that X, H, A, B are concyclic and Y, H, A, C are concyclic. Show that lines XY and BC are parallel.",
+    "statement": "Let \\(ABC\\) be an acute triangle with orthocenter \\(H\\). The circle through \\(B, H, C\\) meets lines \\(AB\\) and \\(AC\\) at \\(D\\) and \\(E\\); segment \\(DE\\) meets \\(HB\\) and \\(HC\\) at \\(P\\) and \\(Q\\). Points \\(X \\neq A\\) on line \\(AP\\) and \\(Y \\neq A\\) on line \\(AQ\\) satisfy: \\(X, H, A, B\\) concyclic and \\(Y, H, A, C\\) concyclic. Show \\(XY \\parallel BC\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -77,11 +75,9 @@
     "day": null,
     "problem_id": "P4",
     "topic": [
-      "Geometry",
-      "Algebra",
       "Combinatorics"
     ],
-    "statement": "A subset B of {1, 2, . . . , 2017} is said to have property T if any three elements of B are the sides of a nondegenerate triangle. Find the maximum number of elements that a set with property T may contain.",
+    "statement": "A subset \\(B\\) of \\(\\{1, 2, \\ldots, 2017\\}\\) has property T if any three elements of \\(B\\) are the sides of a nondegenerate triangle. Find the maximum number of elements in a set with property T.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -100,10 +96,9 @@
     "day": null,
     "problem_id": "P5",
     "topic": [
-      "Geometry",
-      "Algebra"
+      "Geometry"
     ],
-    "statement": "On a circle Γ, points A, B, N, C, D, M are chosen in a clockwise order in such a way that N and M are the midpoints of clockwise arcs BC and AD respectively. Let P be the intersection of AC and BD, and let Q be a point on line M B such that P Q is perpendicular to M N . Point R is chosen on segment M C such that QB = RC, prove that the midpoint of QR lies on AC.",
+    "statement": "On circle \\(\\Gamma\\), points \\(A, B, N, C, D, M\\) are chosen clockwise with \\(N\\) the midpoint of clockwise arc \\(BC\\) and \\(M\\) the midpoint of clockwise arc \\(AD\\). Let \\(P = AC \\cap BD\\) and \\(Q\\) on line \\(MB\\) with \\(PQ \\perp MN\\). Point \\(R\\) on segment \\(MC\\) satisfies \\(QB = RC\\). Prove the midpoint of \\(QR\\) lies on \\(AC\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -122,12 +117,9 @@
     "day": null,
     "problem_id": "P6",
     "topic": [
-      "Geometry",
-      "Number Theory",
-      "Algebra",
       "Combinatorics"
     ],
-    "statement": "Let n ≥ 2 and m be positive integers. m ballot boxes are placed in a line. Two players A and B play and places a ballot in each of them. Afterwards, B chooses one of the boxes, and removes every ballot from it. A wins if after some turn of B, there exists a box containing n ballots. For each n, find the minimum value of m such that A can guarantee a win independently of how B plays.",
+    "statement": "Two players \\(A\\) and \\(B\\) alternate (\\(A\\) first). \\(m\\) ballot boxes are in a line. Each turn: \\(A\\) places a ballot in each of two chosen boxes; \\(B\\) removes all ballots from one box. \\(A\\) wins if some box contains \\(n\\) ballots after \\(B\\)'s turn. For each \\(n\\), find the minimum \\(m\\) for \\(A\\) to guarantee a win.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

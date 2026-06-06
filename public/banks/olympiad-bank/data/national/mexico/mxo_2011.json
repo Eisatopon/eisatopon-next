@@ -11,10 +11,9 @@
     "day": 1,
     "problem_id": "P1",
     "topic": [
-      "Geometry",
       "Combinatorics"
     ],
-    "statement": "25 lightbulbs are distributed in the following way: the first 24 are placed on a circumference, placing a bulb at each vertex of a regular 24-gon, and the remaining bulb is placed on the center of said circumference. At any time, the following operations may be applied: - Take two vertices on the circumference with an odd amount of vertices between them, and change the state of the bulbs on those vertices and the center bulb. - Take three vertices on the circumference that form an equilateral triangle, change the state of the bulbs on those vertices and the center bulb. Prove from any starting configuration of on and off lightbulbs, it is always possible to reach a configuration where all the bulbs are on.",
+    "statement": "25 light bulbs are distributed: 24 at the vertices of a regular 24-gon on a circle, and 1 at the center. Operations: (i) pick two vertices with an odd number of vertices between them and toggle those two and the center; (ii) pick three vertices forming an equilateral triangle and toggle those three and the center. Prove that from any initial configuration, all bulbs can be turned on.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -35,7 +34,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Let ABC be an acute triangle and Γ its circumcircle. Let l be the line tangent to Γ at A. Let D and E be the intersections of the circumference with center B and radius AB with lines l and AC, respectively. Prove the orthocenter of ABC lies on line DE.",
+    "statement": "Let \\(ABC\\) be an acute triangle with circumcircle \\(\\Gamma\\). Let \\(\\ell\\) be the tangent to \\(\\Gamma\\) at \\(A\\). Let \\(D\\) and \\(E\\) be the intersections of the circle with center \\(B\\) and radius \\(AB\\) with lines \\(\\ell\\) and \\(AC\\) respectively. Prove the orthocenter of \\(\\triangle ABC\\) lies on line \\(DE\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -54,10 +53,9 @@
     "day": 1,
     "problem_id": "P3",
     "topic": [
-      "Number Theory",
       "Algebra"
     ],
-    "statement": "Let n be a positive integer. Find all real solutions (a1 , a2 , . . . , an ) to the system: a21 + a1 − 1 = a2 a22 + a2 − 1 = a3 .. . a2n + an − 1 = a1 Day 2",
+    "statement": "Let \\(n\\) be a positive integer. Find all real solutions \\((a_1, a_2, \\ldots, a_n)\\) to the cyclic system: \\(a_1^2 + a_1 - 1 = a_2,\\ a_2^2 + a_2 - 1 = a_3,\\ \\ldots,\\ a_n^2 + a_n - 1 = a_1\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -78,7 +76,7 @@
     "topic": [
       "Number Theory"
     ],
-    "statement": "Find the smallest positive integer that uses exactly two different digits when written in decimal notation and is divisible",
+    "statement": "Find the smallest positive integer that uses exactly two different digits in decimal and is divisible by all integers from 1 to 9.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -97,12 +95,9 @@
     "day": 2,
     "problem_id": "P5",
     "topic": [
-      "Geometry",
-      "Number Theory",
-      "Algebra",
       "Combinatorics"
     ],
-    "statement": "A (2n − 1) × (2n + 1) board is to be divided into rectangles with sides parallel to the sides of the board and integer side lengths such that the area of each rectangle is a power of 2. Find the minimum number of rectangles that the board may be divided into.",
+    "statement": "A \\((2n-1) \\times (2n+1)\\) board is divided into rectangles with integer side lengths and sides parallel to the board sides, such that each rectangle's area is a power of 2. Find the minimum number of rectangles.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -123,7 +118,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "2011 Mexico National Olympiad Let C1 and C2 be two circumferences intersecting at points A and B. Let C be a point on line AB such that B lies between A and C. Let P and Q be points on C1 and C2 respectively such that CP and CQ are tangent to C1 and C2 respectively, P is not inside C2 and Q is not inside C1 . Line P Q cuts C1 at R and C2 at S, both points different from P , Q and B. Suppose CR cuts C1 again at X and CS cuts C2 again at Y . Let Z be a point on line XY . Prove SZ is parallel to QX if and only if P Z is parallel to RX.",
+    "statement": "Let \\(C_1\\) and \\(C_2\\) intersect at \\(A\\) and \\(B\\). \\(C\\) is on line \\(AB\\) with \\(B\\) between \\(A\\) and \\(C\\). \\(P\\) on \\(C_1\\) and \\(Q\\) on \\(C_2\\) are such that \\(CP\\) is tangent to \\(C_1\\) and \\(CQ\\) to \\(C_2\\). Line \\(PQ\\) meets \\(C_1\\) at \\(R\\) and \\(C_2\\) at \\(S\\). \\(CR\\) meets \\(C_1\\) again at \\(X\\) and \\(CS\\) meets \\(C_2\\) again at \\(Y\\). Let \\(Z\\) be on line \\(XY\\). Prove \\(SZ \\parallel QX\\) if and only if \\(PZ \\parallel RX\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

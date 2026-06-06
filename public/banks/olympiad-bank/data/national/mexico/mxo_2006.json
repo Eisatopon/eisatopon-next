@@ -11,10 +11,9 @@
     "day": 1,
     "problem_id": "P1",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Let ab be a two digit number. A positive integer n is a relative of ab if: - The units digit of n is b. - The remaining digits of n are nonzero and add up to a. Find all two digit numbers which divide all of their relatives.",
+    "statement": "Let \\(\\overline{ab}\\) be a two-digit number. A positive integer \\(n\\) is a relative of \\(\\overline{ab}\\) if: the units digit of \\(n\\) is \\(b\\), and the remaining (nonzero) digits of \\(n\\) sum to \\(a\\). Find all two-digit numbers that divide all of their relatives.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -35,7 +34,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Let ABC be a right triangle with a right angle at A, such that AB < AC. Let M be the midpoint of BC and D the intersection of AC with the perpendicular on BC passing through M . Let E be the intersection of the parallel to AC that passes through M , with the perpendicular on BD passing through B. Show that the triangles AEM and M CA are similar if and only if ∠ABC = 60o .",
+    "statement": "Let \\(ABC\\) be a right triangle with right angle at \\(A\\) and \\(AB < AC\\). \\(M\\) is the midpoint of \\(BC\\) and \\(D\\) is the intersection of \\(AC\\) with the perpendicular to \\(BC\\) through \\(M\\). \\(E\\) is the intersection of the parallel to \\(AC\\) through \\(M\\) with the perpendicular to \\(BD\\) through \\(B\\). Show that \\(\\triangle AEM \\sim \\triangle MCA\\) if and only if \\(\\angle ABC = 60^\\circ\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -54,10 +53,9 @@
     "day": 1,
     "problem_id": "P3",
     "topic": [
-      "Number Theory",
       "Combinatorics"
     ],
-    "statement": "Let n be an integer greater than 1. In how many ways can we fill all the numbers 1, 2, ..., 2n in the boxes of a grid of 2 × n, one in each box, so that any two consecutive numbers are they in squares that share one side of the grid? – Day 2",
+    "statement": "Let \\(n > 1\\) be an integer. In how many ways can the numbers \\(1, 2, \\ldots, 2n\\) be placed in a \\(2 \\times n\\) grid, one per cell, so that any two consecutive numbers are in cells sharing a side?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -76,11 +74,11 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Number Theory"
+      "Combinatorics"
     ],
-    "statement": "For which positive integers n can be covered a ladder like that of the figure (but with n steps instead of 4) with n squares of integer sides, not necessarily the same size, without these squares overlapping and without standing out from the edge of the figure ?",
-    "has_figure": false,
-    "figure_description": null,
+    "statement": "For which positive integers \\(n\\) can an \\(n\\)-step staircase figure be covered by \\(n\\) squares of integer side lengths, not necessarily equal, without overlapping and without extending beyond the staircase?",
+    "has_figure": true,
+    "figure_description": "Staircase figure with n steps",
     "official_solution_available": false,
     "language": "en",
     "source": "AoPS"
@@ -99,7 +97,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "Let ABC be an acute triangle , with altitudes AD, BE and CF . Circle of diameter AD intersects the sides AB, AC in M, N respevtively. Let P, Q be the intersection points of AD with EF and M N respectively. Show that Q is the midpoint of P D.",
+    "statement": "Let \\(ABC\\) be an acute triangle with altitudes \\(AD, BE, CF\\). The circle with diameter \\(AD\\) intersects \\(AB\\) and \\(AC\\) at \\(M\\) and \\(N\\) respectively. Let \\(P, Q\\) be the intersections of \\(AD\\) with \\(EF\\) and \\(MN\\) respectively. Show that \\(Q\\) is the midpoint of \\(PD\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -118,10 +116,9 @@
     "day": 2,
     "problem_id": "P6",
     "topic": [
-      "Number Theory",
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Let n be the sum of the digits in a natural number A. The number A it’s said to be ”surtido” if every number 1,2,3,4....,n can be expressed as a sum of digits in A. a)Prove that, if 1,2,3,4,5,6,7,8 are sums of digits in A, then A is ”Surtido” b)If 1,2,3,4,5,6,7 are sums of digits in A, does it follow that A is ”Surtido”?",
+    "statement": "Let \\(n\\) be the sum of the digits of a natural number \\(A\\). Call \\(A\\) 'surtido' if every integer from 1 to \\(n\\) can be expressed as a sum of (distinct) digits of \\(A\\). (a) Prove that if \\(1, 2, 3, 4, 5, 6, 7, 8\\) are sums of digits of \\(A\\), then \\(A\\) is surtido. (b) If \\(1, 2, 3, 4, 5, 6, 7\\) are sums of digits of \\(A\\), must \\(A\\) be surtido?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,

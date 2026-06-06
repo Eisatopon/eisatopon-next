@@ -13,7 +13,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "The tetrahedron OP QR has the ∠P OQ = ∠P OR = ∠QOR = 90o . X, Y, Z are the midpoints of P Q, QR and RP. Show that the four faces of the tetrahedron OXY Z have equal area.",
+    "statement": "The tetrahedron \\(OPQR\\) has \\(\\angle POQ = \\angle POR = \\angle QOR = 90^\\circ\\). \\(X, Y, Z\\) are the midpoints of \\(PQ, QR, RP\\) respectively. Show that the four faces of tetrahedron \\(OXYZ\\) have equal area.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -32,9 +32,10 @@
     "day": 1,
     "problem_id": "P2",
     "topic": [
-      "Number Theory"
+      "Number Theory",
+      "Combinatorics"
     ],
-    "statement": "Given a prime number p, how many 4-tuples (a, b, c, d) of positive integers with 0 ≤ a, b, c, d ≤ p − 1 satisfy ad = bc mod p?",
+    "statement": "Given a prime number \\(p\\), how many 4-tuples \\((a, b, c, d)\\) of integers with \\(0 \\leq a, b, c, d \\leq p-1\\) satisfy \\(ad \\equiv bc \\pmod{p}\\)?",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -53,9 +54,9 @@
     "day": 1,
     "problem_id": "P3",
     "topic": [
-      "Geometry"
+      "Combinatorics"
     ],
-    "statement": "Given 7 points inside or on a regular hexagon, show that three of them form a triangle with area ≤ 1/6 the area of the hexagon. – Day 2",
+    "statement": "Given 7 points inside or on a regular hexagon, show that three of them form a triangle with area at most \\(\\frac{1}{6}\\) the area of the hexagon.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -74,9 +75,9 @@
     "day": 2,
     "problem_id": "P4",
     "topic": [
-      "Algebra"
+      "Number Theory"
     ],
-    "statement": "Show that 1 + 1111 + 111111 + 11111111 + ... + 11111111111111111111 is divisible",
+    "statement": "Show that \\(1 + \\underbrace{11\\cdots1}_{4} + \\underbrace{11\\cdots1}_{6} + \\underbrace{11\\cdots1}_{8} + \\cdots + \\underbrace{11\\cdots1}_{20}\\) is divisible by 100.",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -97,7 +98,7 @@
     "topic": [
       "Algebra"
     ],
-    "statement": "x, y, z are positive reals with sum 3. Show that p √ √ √ 6 < 2x + 3 + 2y + 3 + 2z + 3 ≤ 3 5",
+    "statement": "Let \\(x, y, z\\) be positive reals with \\(x + y + z = 3\\). Show that \\(\\sqrt{2x+3} + \\sqrt{2y+3} + \\sqrt{2z+3} > 6\\) and \\(\\sqrt{2x+3} + \\sqrt{2y+3} + \\sqrt{2z+3} \\leq 3\\sqrt{5}\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
@@ -118,7 +119,7 @@
     "topic": [
       "Geometry"
     ],
-    "statement": "ABCD is a rectangle. I is the midpoint of CD. BI meets AC at M . Show that the line DM passes through the midpoint of BC. E is a point outside the rectangle such that AE = BE and ∠AEB = 90o . If BE = BC = x, show that EM bisects ∠AM B. Find the area of AEBM in terms of x.",
+    "statement": "\\(ABCD\\) is a rectangle. \\(I\\) is the midpoint of \\(CD\\). \\(BI\\) meets \\(AC\\) at \\(M\\). Show that \\(DM\\) passes through the midpoint of \\(BC\\). Let \\(E\\) be a point outside the rectangle such that \\(AE = BE\\), \\(\\angle AEB = 90^\\circ\\), and \\(BE = BC = x\\). Show that \\(EM\\) bisects \\(\\angle AMB\\) and find the area of \\(AEBM\\) in terms of \\(x\\).",
     "has_figure": false,
     "figure_description": null,
     "official_solution_available": false,
