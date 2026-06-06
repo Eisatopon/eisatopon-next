@@ -1,0 +1,128 @@
+[
+  {
+    "id": "MXO-2008-P1",
+    "year": 2008,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(1 = d_1 < d_2 < d_3 < \\cdots < d_k = n\\) be the divisors of \\(n\\). Find all values of \\(n\\) such that \\(n = d_2^2 + d_3^3\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2008-P2",
+    "year": 2008,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Consider a circle \\(\\Gamma\\), a point \\(A\\) on its exterior, and the points of tangency \\(B\\) and \\(C\\) from \\(A\\) to \\(\\Gamma\\). Let \\(P\\) be a point on the segment \\(AB\\), distinct from \\(A\\) and \\(B\\), and let \\(Q\\) be the point on \\(AC\\) such that \\(PQ\\) is tangent to \\(\\Gamma\\). Points \\(R\\) and \\(S\\) are on lines \\(AB\\) and \\(AC\\), respectively, such that \\(PQ \\parallel RS\\) and \\(RS\\) is tangent to \\(\\Gamma\\) as well. Prove that \\([APQ] \\cdot [ARS]\\) does not depend on the placement of point \\(P\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2008-P3",
+    "year": 2008,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Consider a chess board, with the numbers 1 through 64 placed in the squares in column-major order. Assume we have an infinite supply of knights. We place knights in the chess board squares such that no two knights attack one another and compute the sum of the numbers of the cells on which the knights are placed. What is the maximum sum that we can attain?",
+    "has_figure": true,
+    "figure_description": "8x8 chessboard with numbers 1-64 in column-major order",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2008-P4",
+    "year": 2008,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A king decides to reward one of his knights by making a game. He sits \\(n\\) knights at a round table and has them call out \\(1, 2, 3, 1, 2, 3, \\ldots\\) around the circle clockwise. The people who say 2 or 3 immediately lose, and this continues until the last knight is left, the winner. Numbering the knights initially as \\(1, 2, \\ldots, n\\), find all values of \\(n\\) such that knight 2008 is the winner.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2008-P5",
+    "year": 2008,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "We place 8 distinct integers in the vertices of a cube and then write the greatest common divisor of each pair of adjacent vertices on the edge connecting them. Let \\(E\\) be the sum of the numbers on the edges and \\(V\\) the sum of the numbers on the vertices. (a) Prove that \\(\\frac{2}{3}E \\leq V\\). (b) Can \\(E = V\\)?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2008-P6",
+    "year": 2008,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "The internal angle bisectors of \\(A\\), \\(B\\), and \\(C\\) in \\(\\triangle ABC\\) concur at \\(I\\) and intersect the circumcircle of \\(\\triangle ABC\\) at \\(L\\), \\(M\\), and \\(N\\), respectively. The circle with diameter \\(IL\\) intersects \\(BC\\) at \\(D\\) and \\(E\\); the circle with diameter \\(IM\\) intersects \\(CA\\) at \\(F\\) and \\(G\\); the circle with diameter \\(IN\\) intersects \\(AB\\) at \\(H\\) and \\(J\\). Show that \\(D\\), \\(E\\), \\(F\\), \\(G\\), \\(H\\), and \\(J\\) are concyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

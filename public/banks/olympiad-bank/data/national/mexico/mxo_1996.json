@@ -1,0 +1,135 @@
+[
+  {
+    "id": "MXO-1996-P1",
+    "year": 1996,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Let P and Q be the points on the diagonal BD of a quadrilateral ABCD such that BP = P Q = QD. Let AP and BC meet at E, and let AQ meet DC at F . (a) Prove that if ABCD is a parallelogram, then E and F are the midpoints of the corresponding sides. (b) Prove the converse of (a).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1996-P2",
+    "year": 1996,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "There are 64 booths around a circular table and on each one there is a chip. The chips and the corresponding booths are numbered 1 to 64 in this order. At the center of the table there are 1996 light bulbs which are all turned off. Every minute the chips move simultaneously in a circular way (following the numbering sense) as follows: chip 1 moves one booth, chip 2 moves two booths, etc., so that more than one chip can be in the same booth. At any minute, for each chip sharing a booth with chip 1 a bulb is lit. Where is chip 1 on the ﬁrst minute in which all bulbs are lit?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1996-P3",
+    "year": 1996,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry",
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "Prove that it is not possible to cover a 6 × 6 square board with eighteen 2 × 1 rectangles, in such a way that each of the lines going along the interior gridlines cuts at least one of the rectangles. Show also that it is possible to cover a 6 × 5 rectangle with ﬁfteen 2 × 1 rectangles so that the above condition is fulﬁlled. – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1996-P4",
+    "year": 1996,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "For which integers n ≥ 2 can the numbers 1 to 16 be written each in one square of a squared 4 × 4 paper such that the 8 sums of the numbers in rows and columns are all different and divisible",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1996-P5",
+    "year": 1996,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry",
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "The numbers 1 to n2 are written in an n×n squared paper in the usual ordering. Any sequence of right and downwards steps from a square to an adjacent one ( and ending at square n2 is called a path. Denote path C goes. (a) For a ﬁxed n, let M and m be the largest and smallest L(C) possible. Prove that M − m is a perfect cube. (b) Prove that for no n can one ﬁnd a path C with L(C) = 1996.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1996-P6",
+    "year": 1996,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "In a triangle ABC with AB < BC < AC, points A0 , B 0 , C 0 are such that AA0 ⊥ BC and AA0 = BC, BB 0 ⊥ CA and BB 0 = CA, and CC 0 ⊥ AB and CC 0 = AB, as shown on the picture. Suppose that ∠AC 0 B is a right angle. Prove that the points A0 , B 0 , C 0 are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

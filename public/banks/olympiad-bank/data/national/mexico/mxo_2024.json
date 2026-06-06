@@ -1,0 +1,134 @@
+[
+  {
+    "id": "MXO-2024-P1",
+    "year": 2024,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "The ﬁgure shows all 6 colorings with for different colors of a 1 × 1 square divided in four 12 × 12 cells (two colorings are considered equal if one is the result of rotating the other). Each of the 1 × 1 colorings will be used as a piece for a puzzle. The pieces can be rotated but not reﬂected. Two pieces ﬁt if when sharing a side, the touching 21 × 12 cells are the same color respectively (see examples). ¿Is it possible to assemble a 3 × 2 puzzle using each of the 6 pieces exactly once and such that every pair of adjacent pieces ﬁt? https://imagizer.imageshack.com/img922/6019/ZUKcED.jpg",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2024-P2",
+    "year": 2024,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Determine all pairs (a, b) of integers that satisfy both: 1. 5 ≤ b < a 2. There exists a natural number n such that the numbers ab and a − b are consecutive divisors of n, in that order. Note: Two positive integers x, y are consecutive divisors of m, in that order, if there is no divisor d of m such that x < d < y.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2024-P3",
+    "year": 2024,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Let ABCDEF a convex hexagon, and let A1 , B1 , C1 , D1 , E1 y F1 be the midpoints of AB, BC, CD, DE, EF and F A, respectively. Construct points A2 , B2 , C2 , D2 , E2 and F2 in the interior of A1 B1 C1 D1 E1 F1 such that both 1. The sides of the dodecagon A2 A1 B2 B1 C2 C1 D2 D1 E2 E1 F2 F1 are all equal and 2. ∠A1 B2 B1 + ∠C1 D2 D1 + ∠E1 F2 F1 = ∠B1 C2 C1 + ∠D1 E2 E1 + ∠F1 A2 A1 = 360◦ , where all these angles are less than 180◦ , Prove that A2 B2 C2 D2 E2 F2 is cyclic. Note: Dodecagon A2 A1 B2 B1 C2 C1 D2 D1 E2 E1 F2 F1 is shaped like a 6-pointed star, where the points are A1 , B1 , C1 , D1 , E1 y F1 . – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2024-P4",
+    "year": 2024,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Let ABC an acute triangle with orthocenter H. Let M be a point on segment BC. The line through M and perpendicular to BC intersects lines BH and CH in points P and Q respectively. Prove that the orthocenter of triangle HP Q lies on the line AM .",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2024-P5",
+    "year": 2024,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "Let A and B inﬁnite sets of positive real numbers such that: 1. For any pair of elements u ≥ v in A, it follows that u + v is an element of B.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2024-P6",
+    "year": 2024,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory",
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "Ana and Beto play on a blackboard where all integers from 1 to 2024 (inclusive) are written. On each turn, Ana chooses three numbers a, b, c written on the board and then Beto erases them and writes one of the following numbers: a + b − c, a − b + c, or − a + b + c. The game ends when only two numbers are left on the board and Ana cannot play. If the sum of the ﬁnal numbers is a multiple of 3, Beto wins. Otherwise, Ana wins. ¿Who has a winning strategy?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

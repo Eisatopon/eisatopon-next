@@ -1,0 +1,133 @@
+[
+  {
+    "id": "MXO-1991-P1",
+    "year": 1991,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Evaluate the sum of all positive irreducible fractions less than 1 and having the denominator 1991.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1991-P2",
+    "year": 1991,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "A company of n soldiers is such that (i) n is a palindrome number (read equally in both directions); (ii) if the soldiers arrange in rows of 3, 4 or 5 soldiers, then the last row contains 2, 3 and 5 soldiers, respectively. Find the smallest n satisfying these conditions and prove that there are infinitely many such numbers n.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1991-P3",
+    "year": 1991,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Four balls of radius 1 are placed in space so that each of them touches the other three. What is the radius of the smallest sphere containing all of them? – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1991-P4",
+    "year": 1991,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "The diagonals AC and BD of a convex quarilateral ABCD are orthogonal. Let M, N, R, S be the midpoints of the sides AB, BC, CD and DA respectively, and let W, X, Y, Z be the projections of the points M, N, R and S on the lines CD, DA, AB and BC, respectively. Prove that the points M, N, R, S, W, X, Y and Z lie on a circle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1991-P5",
+    "year": 1991,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "The sum of squares of two consecutive integers can be a square, as in 32 + 42 = 52 . Prove that the sum of squares of m consecutive integers cannot be a square for m = 3 or 6 and find an example of 11 consecutive integers the sum of whose squares is a square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1991-P6",
+    "year": 1991,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Given an n-gon (n ≥ 4), consider a set T of triangles formed the following property: Every two triangles in T have either two common vertices, or none. Prove that T contains at most n triangles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

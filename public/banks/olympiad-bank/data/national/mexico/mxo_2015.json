@@ -1,0 +1,134 @@
+[
+  {
+    "id": "MXO-2015-P1",
+    "year": 2015,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Let ABC be an acuted-angle triangle and let H be it’s orthocenter. Let P Q be a segment through H such that P lies on AB and Q lies on AC and such that ∠P HB = ∠CHQ. Finally, in the circumcircle of 4ABC, consider M such that M is the mid point of the arc BC that doesn’t contain A. Prove that M P = M Q Proposed",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2015-P2",
+    "year": 2015,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry",
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Let n be a positive integer and let k be an integer between 1 and n inclusive. There is a white board of n × n. We do the following process. We draw k rectangles with integer sides lenghts and sides parallel to the ones of the n × n board, and such that each rectangle covers the top-right corner of the n × n board. Then, the k rectangles are painted of black. This process leaves a white figure in the board. How many different white figures are possible to do with k rectangles that can’t be done with less than k rectangles? Proposed",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2015-P3",
+    "year": 2015,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Let N = {1, 2, 3, ...} be the set of positive integers. Let f : N → N be a function that gives a positive integer value, to every positive integer. Suppose that f satisfies the following conditions: f (1) = 1 f (a + b + ab) = a + b + f (ab) Find the value of f (2015) Proposed – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2015-P4",
+    "year": 2015,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Let n be a positive integer. Mary writes the n3 triples of not necessarily distinct integers, each between 1 and n inclusive on a board. Afterwards, she finds the greatest (possibly more than one), and erases the rest. For example, in the triple (1, 3, 4) she erases the numbers 1 and 3, and in the triple (1, 2, 2) she erases only the number 1, Show after finishing this process, the amount of remaining numbers on the board cannot be a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2015-P5",
+    "year": 2015,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let I be the incenter of an acute-angled triangle ABC. Line AI cuts the circumcircle of BIC again at E. Let D be the foot of the altitude from A to BC, and let J be the reflection of I across BC. Show D, J and E are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2015-P6",
+    "year": 2015,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Let n be a positive integer and let d1 , d2 , . . . , dk be its positive divisors. Consider the number f (n) = (−1)d1 d1 + (−1)d2 d2 + · · · + (−1)dk dk Assume f (n) is a power of 2. Show if m is an integer greater than 1, then m2 does not divide n.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

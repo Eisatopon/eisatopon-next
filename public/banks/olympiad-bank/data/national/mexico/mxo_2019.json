@@ -1,0 +1,136 @@
+[
+  {
+    "id": "MXO-2019-P1",
+    "year": 2019,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "An integer number m ≥ 1 is mexica if it’s of the form nd(n) , where n is a positive integer and d(n) is the number of positive integers which divide n. Find all mexica numbers less than 2019. Note. The divisors of n include 1 and n; for example, d(12) = 6, since 1, 2, 3, 4, 6, 12 are all the positive divisors of 12. Proposed",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2019-P2",
+    "year": 2019,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let H be the orthocenter of acute-angled triangle ABC and M be the midpoint of AH. Line BH cuts AC at D. Consider point E such that BC is the perpendicular bisector of DE. Segments CM and AE intersect at F . Show that BF is perpendicular to CM . Proposed",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2019-P3",
+    "year": 2019,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry",
+      "Number Theory",
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "Let n ≥ 2 be an integer. Consider 2n points around a circle. Each vertex has been tagged with one integer from 1 to n, inclusive, and each one of these integers has been used exactly two times. Isabel divides the points into n pairs, and draws the segments joining them, with the condition that the segments do not intersect. Then, she assigns to each segment the greatest integer between its endpoints. a) Show that, no matter how the points have been tagged, Isabel can always choose the pairs in such a way that she uses exactly dn/2e numbers to tag the segments. b) Can the points be tagged in such a way that, no matter how Isabel divides the points into pairs, she always uses exactly dn/2e numbers to tag the segments? Note. For each real number x, dxe denotes the least integer greater than or equal to x. For example, d3.6e = 4 and d2e = 2. Proposed – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2019-P4",
+    "year": 2019,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "A list of positive integers is called good if the maximum element of the list appears exactly once. A sublist is a list formed list 10, 34, 34, 22, 30, 22 the sublist 22, 30, 22 is good and 10, 34, 34, 22 is not. A list is very good if all its sublists are good. Find the minimum value of k such that there exists a very good list of length 2019 with k different values on it.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2019-P5",
+    "year": 2019,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry",
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "2019 Mexico National Olympiad Let a > b be relatively prime positive integers. A grashopper stands at point 0 in a number line. Each minute, the grashopper jumps according to the following rules: - If the current minute is a multiple of a and not a multiple of b, it jumps a units forward. - If the current minute is a multiple of b and not a multiple of a, it jumps b units backward. - If the current minute is both a multiple of b and a multiple of a, it jumps a − b units forward. - If the current minute is neither a multiple of a nor a multiple of b, it doesn’t move. Find all positions on the number line that the grasshopper will eventually reach.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2019-P6",
+    "year": 2019,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Let ABC be a triangle such that ∠BAC = 45◦ . Let H, O be the orthocenter and circumcenter of ABC, respectively. Let ω be the circumcircle of ABC and P the point on ω such that the circumcircle of P BH is tangent to BC. Let X and Y be the circumcenters of P HB and P HC respectively. Let O1 , O2 be the circumcenters of P XO and P Y O respectively. Prove that O1 and O2 lie on AB and AC, respectively.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "id": "MXO-1989-P1",
+    "year": 1989,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In a triangle ABC the area is 18, the length AB is 5, and the medians from A and B are orthogonal. Find the lengths of the sides BC, AC.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1989-P2",
+    "year": 1989,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find two positive integers a, b such that a|b2 , b2 |a3 , a3 |b4 , b4 |a5 , but a5 does not divide b6",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1989-P3",
+    "year": 1989,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Prove that there is no 1989-digit natural number at least three of whose digits are equal to 5 and such that the product of its digits equals their sum. – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1989-P4",
+    "year": 1989,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the smallest possible natural number n = am ...a2 a1 a0 (in decimal system) such that the number r = a1 a0 am ...2 0 equals 2n.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1989-P5",
+    "year": 1989,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Let C1 and C2 be two tangent unit circles inside a circle C of radius 2. Circle C3 inside C is tangent to the circles C, C1 , C2 , and circle C4 inside C is tangent to C, C1 , C3 . Prove that the centers of C, C1 , C3 and C4 are vertices of a rectangle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1989-P6",
+    "year": 1989,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry",
+      "Combinatorics"
+    ],
+    "statement": "Determine the number of paths from A to B on the picture that go along gridlines only, do not pass through any point twice, and never go upwards? https://cdn.artofproblemsolving.com/attachments/0/2/87868e24a48a2e130fb5039daeb85af42f4b9 png",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

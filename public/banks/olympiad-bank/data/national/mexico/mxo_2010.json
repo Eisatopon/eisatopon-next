@@ -1,0 +1,171 @@
+[
+  {
+    "id": "MXO-2010-P1",
+    "year": 2010,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all triplets of natural numbers (a, b, c) that satisfy the equation abc = a + b + c + 1.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2010-P2",
+    "year": 2010,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In each cell of an n×n board is a lightbulb. Initially, all of the lights are off. Each move consists of changing the state of all of the lights in a row or of all of the lights in a column (off lights are turned on and on lights are turned off). Show that if after a certain number of moves, at least one light is on, then at this moment at least n lights are on.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2010-P3",
+    "year": 2010,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let C1 and C2 be externally tangent at a point A. A line tangent to C1 at B intersects C2 at C and _ D; then the segment AB is extended to intersect C2 at a point E. Let F be the midpoint of CD that does not contain E, and let H be the intersection of BF with C2 . Show that CD, AF , and EH are concurrent. Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2010-P1",
+    "year": 2010,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Let n be a positive integer. In an n × 4 table, each row is equal to",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2010-P1",
+    "year": 2010,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "0 A change is taking three consecutive boxes in the same row with different digits in them and changing the digits in these boxes as follows: 0 → 1, 1 → 2, 2 → 0. For example, a row 2 0 1 0 can be changed to the row 0 2 1 2 1 because 0, 1, and 0 are not distinct.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2010-P1",
+    "year": 2010,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "2 0 but not to Changes can be applied as often as wanted, even to items already changed. Show that for n < 12, it is not possible to perform a finite number of changes so that the sum of the elements in each column is equal.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2010-P2",
+    "year": 2010,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let ABC be an acute triangle with AB 6= AC, M be the median of BC, and H be the orthocenter of 4ABC. The circumcircle of B, H, and C intersects the median AM at N . Show that ∠AN H = 90◦ .",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2010-P3",
+    "year": 2010,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let p, q, and r be distinct positive prime numbers. Show that if pqr | (pq)r + (qr)p + (rp)q − 1, then (pqr)3 | 3((pq)r + (qr)p + (rp)q − 1).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

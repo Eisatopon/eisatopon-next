@@ -1,0 +1,133 @@
+[
+  {
+    "id": "MXO-1998-P1",
+    "year": 1998,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "A number is called lucky if computing the sum of the squares of its digits and repeating this operation sufficiently many times leads to number 1. For example, 1900 is lucky, as 1900 → 82 → 68 → 100 → 1. Find infinitely many pairs of consecutive numbers each of which is lucky.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1998-P2",
+    "year": 1998,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Rays l and m forming an angle of a are drawn from the same point. Let P be a fixed point on l. For each circle C tangent to l at P and intersecting m at Q and R, let T be the intersection point of the bisector of angle QP R with C. Describe the locus of T and justify your answer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1998-P3",
+    "year": 1998,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry",
+      "Combinatorics"
+    ],
+    "statement": "Every side and diagonal of a regular octagon is color with red or black. Show that there is at least seven triangles whose vertices are vertices of the octagon and its three sides are of the same color. – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1998-P4",
+    "year": 1998,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Find all integers that can be written in the form a11 + a22 + ... + a99 where a1 , a2 , ..., a9 are nonzero digits, not necessarily different.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1998-P5",
+    "year": 1998,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "The tangents at points B and C on a given circle meet at point A. Let Q be a point on segment AC and let BQ meet the circle again at P . The line through Q parallel to AB intersects BC at J. Prove that P J is parallel to AC if and only if BC 2 = AC · QC.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1998-P6",
+    "year": 1998,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A plane in space is equidistant from a set of points if its distances from the points in the set are equal. What is the largest possible number of equidistant planes from five points, no four of which are coplanar?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

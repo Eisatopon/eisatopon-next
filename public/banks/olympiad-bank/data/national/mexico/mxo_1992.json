@@ -1,0 +1,128 @@
+[
+  {
+    "id": "MXO-1992-P1",
+    "year": 1992,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "The tetrahedron OP QR has the ∠P OQ = ∠P OR = ∠QOR = 90o . X, Y, Z are the midpoints of P Q, QR and RP. Show that the four faces of the tetrahedron OXY Z have equal area.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1992-P2",
+    "year": 1992,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Given a prime number p, how many 4-tuples (a, b, c, d) of positive integers with 0 ≤ a, b, c, d ≤ p − 1 satisfy ad = bc mod p?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1992-P3",
+    "year": 1992,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given 7 points inside or on a regular hexagon, show that three of them form a triangle with area ≤ 1/6 the area of the hexagon. – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1992-P4",
+    "year": 1992,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Show that 1 + 1111 + 111111 + 11111111 + ... + 11111111111111111111 is divisible",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1992-P5",
+    "year": 1992,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "x, y, z are positive reals with sum 3. Show that p √ √ √ 6 < 2x + 3 + 2y + 3 + 2z + 3 ≤ 3 5",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1992-P6",
+    "year": 1992,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "ABCD is a rectangle. I is the midpoint of CD. BI meets AC at M . Show that the line DM passes through the midpoint of BC. E is a point outside the rectangle such that AE = BE and ∠AEB = 90o . If BE = BC = x, show that EM bisects ∠AM B. Find the area of AEBM in terms of x.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "MXO-1997-P1",
+    "year": 1997,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine all prime numbers p for which 8p4 − 3003 is a positive prime number.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1997-P2",
+    "year": 1997,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "In a triangle ABC, P and P 0 are points on side BC, Q on side CA, and R on side AB, such that CQ AR BP CP 0 RB = P C = QA = P 0 B . Let G be the centroid of triangle ABC and K be the intersection point of AP 0 and RQ. Prove that points P, G, K are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1997-P3",
+    "year": 1997,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "The numbers 1 through 16 are to be written in the cells of a 4 × 4 board. (a) Prove that this can be done in such a way that any two numbers in cells that share a side differ (b) Prove that this cannot be done in such a way that any two numbers in cells that share a side differ – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1997-P4",
+    "year": 1997,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "What is the minimum number of planes determined coplanar, and among which no three are collinear?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1997-P5",
+    "year": 1997,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let P, Q, R be points on the sides BC, CA, AB respectively of a triangle ABC. Suppose that BQ and CR meet at A0 , AP and CR meet at B 0 , and AP and BQ meet at C 0 , such that AB 0 = B 0 C 0 , BC 0 = C 0 A0 , and CA0 = A0 B 0 . Compute the ratio of the area of 4P QR to the area of 4ABC.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1997-P6",
+    "year": 1997,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Prove that number 1 has infinitely many representations of the form 1= 1 1 1 1 + + + ... + 5 a1 a2 an , wheren and ai are positive integers with 5 < a1 < a2 < ... < an .",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

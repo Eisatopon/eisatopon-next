@@ -1,0 +1,131 @@
+[
+  {
+    "id": "MXO-2005-P1",
+    "year": 2005,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let O be the center of the circumcircle of an acute triangle ABC, let P be any point inside the segment BC. Suppose the circumcircle of triangle BP O intersects the segment AB at point R and the circumcircle of triangle COP intersects CA at point Q. (i) Consider the triangle P QR, show that it is similar to triangle ABC and that O is its orthocenter. (ii) Show that the circumcircles of triangles BP O, COP , P QR have the same radius.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2005-P2",
+    "year": 2005,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Given several matrices of the same size. Given a positive integer N , let’s say that a matrix is N balanced if the entries of the matrix are integers and the difference between any two adjacent entries of the matrix is less than or equal to N . (i) Show that every 2N -balanced matrix can be written as a sum of two N -balanced matrices. (ii) Show that every 3N -balanced matrix can be written as a sum of three N -balanced matrices.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2005-P3",
+    "year": 2005,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Already the complete problem: Determine all pairs (a, b) of integers different from 0 for which it is possible to find a positive integer x and an integer y such that x is relatively prime to b and in the following list there is an infinity of integers: n a+xy a+xy 2 a+xy 3 → , b3 , . . ., a+xy b , bn , . . . b2 One idea? :arrow: View all the problems from XIX Mexican Mathematical Olympiad (http://www.mathlinks. ro/Forum/viewtopic.php?t=61319) – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2005-P4",
+    "year": 2005,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A list of numbers a1 , a2 , . . . , am contains an arithmetic trio ai , aj , ak if i < j < k and 2aj = ai + ak . Let n be a positive integer. Show that the numbers 1, 2, 3, . . . , n can be reordered in a list that does not contain arithmetic trios.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2005-P5",
+    "year": 2005,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Let N be an integer greater than 1. A deck has N 3 cards, each card has one of N colors, has one of N figures and has one of N numbers (there are no two identical cards). A collection of",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2005-P6",
+    "year": 2005,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let ABC be a triangle and AD be the angle bisector of < BAC, with D on BC. Let E be a point on segment BC such that BD = EC. Through E draw l a parallel line to AD and let P be a point in l inside the triangle. Let G be the point where BP intersects AC and F be the point where CP intersects AB. Show BF = CG.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "MXO-2020-P1",
+    "year": 2020,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "A set of ﬁve different positive integers is called virtual if the greatest common divisor of any three of its elements is greater than 1, but the greatest common divisor of any four of its elements is equal to 1. Prove that, in any virtual set, the product of its elements has at least 2020 distinct positive divisors. Proposed",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2020-P2",
+    "year": 2020,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Let ABC be a triangle with incenter I. The line BI meets AC at D. Let P be a point on CI such that DI = DP (P ̸= I), E the second intersection point of segment BC with the circumcircle of ABD and Q the second intersection point of line EP with the circumcircle of AEC. Prove that ∠P DQ = 90◦ . Proposed",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2020-P3",
+    "year": 2020,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let n ≥ 3 be an integer. Two players, Ana and Beto, play the following game. Ana tags the vertices of a regular n- gon with the numbers from 1 to n, in any order she wants. Every vertex must be tagged with a different number. Then, we place a turkey in each of the n vertices. These turkeys are trained for the following. If Beto whistles, each turkey moves to the adjacent vertex with greater tag. If Beto claps, each turkey moves to the adjacent vertex with lower tag. Beto wins if, after some number of whistles and claps, he gets to move all the turkeys to the same vertex. Ana wins if she can tag the vertices so that Beto can’t do this. For each n ≥ 3, determine which player has a winning strategy. Proposed – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2020-P4",
+    "year": 2020,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let n ≥ 3 be an integer. In a game there are n boxes in a circular array. At the beginning, each box contains an object which can be rock, paper or scissors, in such a way that there are no two adjacent boxes with the same object, and each object appears in at least one box. Same as in the game, rock beats scissors, scissors beat paper, and paper beats rock. The game consists on moving objects from one box to another according to the following rule: Two adjacent boxes and one object from each one are chosen in such a way that these are different, and we move the loser object to the box containing the winner object. For example, if we picked rock from box A and scissors from box B, we move scossors to box A.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2020-P5",
+    "year": 2020,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "A four-element set {a, b, c, d} of positive integers is called good if there are two of them such that their product is a mutiple of the greatest common divisor of the remaining two. For example, the set {2, 4, 6, 8} is good since the greatest common divisor of 2 and 6 is 2, and it divides 4×8 = 32. Find the greatest possible value of n, such that any four-element set with elements less than or equal to n is good. Proposed",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2020-P6",
+    "year": 2020,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Let n ≥ 2 be a positive integer. Let x1 , x2 , . . . , xn be non-zero real numbers satisfying the equation \u0012 \u0013\u0012 \u0013 \u0012 \u0013 \u0012 \u0013\u0012 \u0013 \u0012 \u0013 1 1 1 1 1 1 2 2 2 x1 + x2 + . . . xn + = x1 + 2 x2 + 2 . . . xn + 2 . x2 x3 x1 x2 x3 x1 Find all possible values of x1 , x2 , . . . , xn . Proposed",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

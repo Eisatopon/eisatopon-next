@@ -1,0 +1,132 @@
+[
+  {
+    "id": "MXO-2000-P1",
+    "year": 2000,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Circles A, B, C, D are given on the plane such that circles A and B are externally tangent at P, B and C at Q, C and D at R, and D and A at S. Circles A and C do not meet, and so do not B and D. (a) Prove that the points P, Q, R, S lie on a circle. (b) Suppose that A and C have radius 2, B and D have radius 3, and the distance between the centers of A and C is 6. Compute the area of the quadrilateral P QRS.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2000-P2",
+    "year": 2000,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "A triangle of numbers is constructed as follows. The first row consists of the numbers from 1 to 2000 in increasing order, and under any two consecutive numbers their sum is written. (See the example corresponding to 5 instead of 2000 below.) What is the number in the lowermost row? 12345 3579 8 12 16 20 28",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2000-P4",
+    "year": 2000,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "3 Given a set A of positive integers, the set A0 is composed from the elements of A and all positive integers that can be obtained in the following way: Write down some elements of A one after another without repeating, write a sign + or − before each of them, and evaluate the obtained expression. The result is included in A0 . For example, if A = {2, 8, 13, 20}, numbers 8 and 14 = 20 − 2 + 8 are elements of A0 . Set A00 is constructed from A0 in the same manner. Find the smallest possible number of elements of A, if A00 contains all the integers from 1 to 40. – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2000-P4",
+    "year": 2000,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Let a and b be positive integers not divisible follows: the first term is 5, and every consequent term is obtained maximum possible number of primes that can occur before encoutering the first composite term?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2000-P5",
+    "year": 2000,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A board nn is coloured black and white like a chessboard. The following steps are permitted:",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2000-P6",
+    "year": 2000,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Let ABC be a triangle with ∠B > 90o such that there is a point H on side AC with AH = BH and BH perpendicular to BC. Let D and E be the midpoints of AB and BC respectively. A line through H parallel to AB cuts DE at F . Prove that ∠BCF = ∠ACD.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

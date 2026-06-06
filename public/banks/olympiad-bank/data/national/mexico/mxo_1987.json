@@ -1,0 +1,174 @@
+[
+  {
+    "id": "MXO-1987-P1",
+    "year": 1987,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Prove that if the sum of two irreducible fractions is an integer then the two fractions have the same denominator.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1987-P2",
+    "year": 1987,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "How many positive divisors does number 20! have?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1987-P3",
+    "year": 1987,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Consider two lines ` and `0 and a fixed point P equidistant from these lines. What is the locus of projections M of P on AB, where A is on `, B on `0 , and angle ∠AP B is right?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1987-P4",
+    "year": 1987,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Calculate the product of all positive integers less than 100 and having exactly three positive divisors. Show that this product is a square. – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1987-P5",
+    "year": 1987,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "In a right triangle ABC, M is a point on the hypotenuse BC and P and Q the projections of M on AB and AC respectively. Prove that for no such point M do the triangles BP M, M QC and the rectangle AQM P have the same area.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1987-P6",
+    "year": 1987,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Prove that for every positive integer n the number (n3 − n)(58n+4 + 34n+2 ) is a multiple of 3804.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1987-P7",
+    "year": 1987,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show that the fraction nn2+n−1 is irreducible for every positive integer n. +2n",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1987-P8",
+    "year": 1987,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "(a) Three lines l, m, n in space pass through point S. A plane perpendicular to m intersects l, m, n at A, B, C respectively. Suppose that ∠ASB = ∠BSC = 45o and ∠ABC = 90o . Compute ∠ASC. (b) Furthermore, if a plane perpendicular to l intersects l, m, n at P, Q, R respectively and SP = 1, find the sides of triangle P QR.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

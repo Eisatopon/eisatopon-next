@@ -1,0 +1,133 @@
+[
+  {
+    "id": "MXO-2011-P1",
+    "year": 2011,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry",
+      "Combinatorics"
+    ],
+    "statement": "25 lightbulbs are distributed in the following way: the first 24 are placed on a circumference, placing a bulb at each vertex of a regular 24-gon, and the remaining bulb is placed on the center of said circumference. At any time, the following operations may be applied: - Take two vertices on the circumference with an odd amount of vertices between them, and change the state of the bulbs on those vertices and the center bulb. - Take three vertices on the circumference that form an equilateral triangle, change the state of the bulbs on those vertices and the center bulb. Prove from any starting configuration of on and off lightbulbs, it is always possible to reach a configuration where all the bulbs are on.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2011-P2",
+    "year": 2011,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let ABC be an acute triangle and Γ its circumcircle. Let l be the line tangent to Γ at A. Let D and E be the intersections of the circumference with center B and radius AB with lines l and AC, respectively. Prove the orthocenter of ABC lies on line DE.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2011-P3",
+    "year": 2011,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Let n be a positive integer. Find all real solutions (a1 , a2 , . . . , an ) to the system: a21 + a1 − 1 = a2 a22 + a2 − 1 = a3 .. . a2n + an − 1 = a1 Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2011-P4",
+    "year": 2011,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the smallest positive integer that uses exactly two different digits when written in decimal notation and is divisible",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2011-P5",
+    "year": 2011,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry",
+      "Number Theory",
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "A (2n − 1) × (2n + 1) board is to be divided into rectangles with sides parallel to the sides of the board and integer side lengths such that the area of each rectangle is a power of 2. Find the minimum number of rectangles that the board may be divided into.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2011-P6",
+    "year": 2011,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "2011 Mexico National Olympiad Let C1 and C2 be two circumferences intersecting at points A and B. Let C be a point on line AB such that B lies between A and C. Let P and Q be points on C1 and C2 respectively such that CP and CQ are tangent to C1 and C2 respectively, P is not inside C2 and Q is not inside C1 . Line P Q cuts C1 at R and C2 at S, both points different from P , Q and B. Suppose CR cuts C1 again at X and CS cuts C2 again at Y . Let Z be a point on line XY . Prove SZ is parallel to QX if and only if P Z is parallel to RX.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

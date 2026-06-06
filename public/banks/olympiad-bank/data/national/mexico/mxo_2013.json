@@ -1,0 +1,132 @@
+[
+  {
+    "id": "MXO-2013-P1",
+    "year": 2013,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "All the prime numbers are written in order, p1 = 2, p2 = 3, p3 = 5, ... Find all pairs of positive integers a and b with a − b ≥ 2, such that pa − pb divides 2(a − b).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2013-P2",
+    "year": 2013,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let ABCD be a parallelogram with the angle at A obtuse. Let P be a point on segment BD. The circle with center P passing through A cuts line AD at A and Y and cuts line AB at A and X. Line AP intersects BC at Q and CD at R. Prove ∠XP Y = ∠XQY + ∠XRY .",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2013-P3",
+    "year": 2013,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "What is the largest amount of elements that can be taken from the set {1, 2, ..., 2012, 2013}, such that within them there are no distinct three, say a, b,and c, such that a is a divisor or multiple of b − c?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2013-P4",
+    "year": 2013,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A n × n × n cube is constructed using 1 × 1 × 1 cubes, some of them black and others white, such that in each n × 1 × 1, 1 × n × 1, and 1 × 1 × n subprism there are exactly two black cubes, and they are separated Show it is possible to replace half of the black cubes with white cubes such that each n×1×1, 1 × n × 1 and 1 × 1 × n subprism contains exactly one black cube.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2013-P5",
+    "year": 2013,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "A pair of integers is special if it is of the form (n, n − 1) or (n − 1, n) for some positive integer n. Let n and m be positive integers such that pair (n, m) is not special. Show (n, m) can be expressed as a sum of two or more different special pairs if and only if n and m satisfy the inequality n + m ≥ (n − m)2 . Note: The sum of two pairs is defined as (a, b) + (c, d) = (a + c, b + d).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2013-P6",
+    "year": 2013,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let A1 A2 ...A8 be a convex octagon such that all of its sides are equal and its opposite sides are parallel. For each i = 1, ..., 8, define Bi as the intersection between segments Ai Ai+4 and Ai−1 Ai+1 , where Aj+8 = Aj and Bj+8 = Bj for all j. Show some number i, amongst 1, 2, 3, and 4 satisfies Ai Ai+4 3 ≤ Bi Bi+4",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

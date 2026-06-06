@@ -1,0 +1,134 @@
+[
+  {
+    "id": "MXO-2021-P1",
+    "year": 2021,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "The real positive numbers a1 , a2 , a3 are three consecutive terms of an arithmetic progression, and similarly, b1 , b2 , b3 are distinct real positive numbers and consecutive terms of an arithmetic progression. Is it possible to use three segments of lengths a1 , a2 , a3 as bases, and other three segments of lengths b1 , b2 , b3 as altitudes, to construct three rectangles of equal area ?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2021-P2",
+    "year": 2021,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Let ABC be a triangle with ∠ACB > 90◦ , and let D be a point on BC such that AD is perpendicular to BC. Consider the circumference Γ with with diameter BC. A line ℓ passes through D and is tangent to Γ at P , cuts AC at M (such that M is in between A and C), and cuts the side AB at N . Prove that M is the midpoint of DP if and only if N is the midpoint of AB.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2021-P3",
+    "year": 2021,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Let m, n ≥ 2 be two integers. In an m × n grid, an ant starts in the lower left square and wants to walk to the upper right square. Each step the ant takes must be to an adjacent square, according to the following possibilities: ↑, →, and ↗. However, an evil wizard has dropped lava from above and destroyed some of the squares, such that: • If a square is destroyed, then all the squares above it are also destroyed. • The number of destroyed squares is greater than or equal to 0. • There are enough undestroyed squares left for the ant to reach its goal. Let P be the number of even-length paths the ant can follow. Let I be the number of odd-length paths the ant can follow. Find the possible values of P − I. Note: The length of a path is the number of steps the ant takes. For example, a possible path of length 8 is shown in the 6 × 7 ﬁgure below, where the destroyed squares are shaded and the goal is indicated https://cdn.artofproblemsolving.com/attachments/5/3/46a180dd844f63f1f264721a2d570c258203d png – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2021-P4",
+    "year": 2021,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Let ABC be an acutangle scalene triangle with ∠BAC = 60◦ and orthocenter H. Let ωb be the circumference passing through H and tangent to AB at B, and ωc the circumference passing through H and tangent to AC at C. - Prove that ωb and ωc only have H as common point. - Prove that the line passing through H and the circumcenter O of triangle ABC is a common tangent to ωb and ωc . Note: The orthocenter of a triangle is the intersection point of the three altitudes, whereas the",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2021-P5",
+    "year": 2021,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "If n = a1 a2 · · · ak−1 ak , be s(n) such that . If k is even, s(n) = a1 a2 + a3 a4 · · · + ak−1 ak . If k is odd, s(n) = a1 + a2 a3 · · · + ak−1 ak For example s(123) = 1 + 23 = 24 and s(2021) = 20 + 21 = 41 Be n is digital if s(n) is a divisor of n. Prove that among any 198 consecutive positive integers, all of them less than 2000021 there is one of them that is digital.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2021-P6",
+    "year": 2021,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Determine all non empty sets C1 , C2 , C3 , · · · such that each one of them has a ﬁnite number of elements, all their elements are positive integers, and they satisfy the following property: For any positive integers n and m, the number of elements in the set Cn plus the number of elements in the set Cm equals the sum of the elements in the set Cm+n . Note: We denote |Cn | the number of elements in the set Cn , and Sk as the sum of the elements in the set Cn so the problem’s condition is that for every n and m: |Cn |+|Cm |= Sn+m is satisﬁed.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

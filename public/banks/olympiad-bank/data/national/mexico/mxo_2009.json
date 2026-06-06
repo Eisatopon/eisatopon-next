@@ -1,0 +1,131 @@
+[
+  {
+    "id": "MXO-2009-P1",
+    "year": 2009,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In 4ABC, let D be the foot of the altitude from A to BC. A circle centered at D with radius AD intersects lines AB and AC at P and Q, respectively. Show that 4AQP ∼ 4ABC.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2009-P2",
+    "year": 2009,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "In boxes labeled 0, 1, 2, . . . , we place integers according to the following rules: • If p is a prime number, we place it in box 1. • If a is placed in box ma and b is placed in box mb , then ab is placed in the box labeled amb +bma . Find all positive integers n that are placed in the box labeled n.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2009-P3",
+    "year": 2009,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let a, b, and c be positive numbers satisfying abc = 1. Show that a3 b3 c3 1 1 1 + + ≥ 1 and 3 + 3 + 3 ≤1 3 3 3 a +2 b +2 c +2 a +2 b +2 c +2 Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2009-P1",
+    "year": 2009,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "Let n > 1 be an odd integer, and let a1 , a2 , . . . , an be distinct real numbers. Let M be the maximum of these numbers and m the minimum. Show that it is possible to choose the signs of the expression s = ±a1 ± a2 ± · · · ± an so that m<s<M",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2009-P2",
+    "year": 2009,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Consider a triangle ABC and a point M on side BC. Let P be the intersection of the perpendiculars from M to AB and from B to BC, and let Q be the intersection of the perpendiculars from M to AC and from C to BC. Show that P Q is perpendicular to AM if and only if M is the midpoint of BC.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2009-P3",
+    "year": 2009,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "At a party with n people, it is known that among any 4 people, there are either 3 people who all know one another or 3 people none of which knows another. Show that the n people can be separated into two rooms, so that everyone in one room knows one another and no two people in the other room know each other.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

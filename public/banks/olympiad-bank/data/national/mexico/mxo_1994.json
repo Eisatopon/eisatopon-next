@@ -1,0 +1,129 @@
+[
+  {
+    "id": "MXO-1994-P1",
+    "year": 1994,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "The sequence 1, 2, 4, 5, 7, 9, 10, 12, 14, 16, 17, ... is formed as follows. First we take one odd number, then two even numbers, then three odd numbers, then four even numbers, and so on. Find the number in the sequence which is closest to 1994.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1994-P2",
+    "year": 1994,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "The 12 numbers on a clock face are rearranged. Show that we can still find three adjacent numbers whose sum is 21 or more.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1994-P3",
+    "year": 1994,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "ABCD is a parallelogram. Take E on the line AB so that BE = BC and B lies between A and E. Let the line through C perpendicular to BD and the line through E perpendicular to AB meet at F . Show that ∠DAF = ∠BAF . – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1994-P4",
+    "year": 1994,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A capricious mathematician writes a book with pages numbered from 2 to 400. The pages are to be read in the following order. Take the last unread page (400), then read (in the usual order) all pages which are not relatively prime to it and which have not been read before. Repeat until all pages are read. So, the order would be 2, 4, 5, ..., 400, 3, 7, 9, ..., 399, .... What is the last page to be read?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1994-P5",
+    "year": 1994,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "ABCD is a convex quadrilateral. Take the 12 points which are the feet of the altitudes in the triangles ABC, BCD, CDA, DAB. Show that at least one of these points must lie on the sides of ABCD.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1994-P6",
+    "year": 1994,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Show that we cannot tile a 10x10 board with 25 pieces of type A, or with 25 pieces of type B, or with 25 pieces of type C.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

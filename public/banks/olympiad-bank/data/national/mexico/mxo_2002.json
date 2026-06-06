@@ -1,0 +1,130 @@
+[
+  {
+    "id": "MXO-2002-P1",
+    "year": 2002,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "The numbers 1 to 1024 are written one per square on a 32 × 32 board, so that the ﬁrst row is 1, 2, ..., 32, the second row is 33, 34, ..., 64 and so on. Then the board is divided into four 16 × 16 boards and the position of these boards is moved round clockwise, so that AB goes to DA DC CB then each of the 16 × 16 boards is divided into four equal 8 × 8 parts and each of these is moved around in the same way (within the 16 × 16 board). Then each of the 8 × 8 boards is divided into four 4 × 4 parts and these are moved around, then each 4 × 4 board is divided into 2 × 2 parts which are moved around, and ﬁnally the squares of each 2 × 2 part are moved around. What numbers end up on the main diagonal (from the top left to bottom right)?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2002-P2",
+    "year": 2002,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "ABCD is a parallelogram. K is the circumcircle of ABD. The lines BC and CD meet K again at E and F . Show that the circumcenter of CEF lies on K.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2002-P3",
+    "year": 2002,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let n be a positive integer. Does n2 has more positive divisors of the form 4k + 1 or of the form 4k − 1? – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2002-P4",
+    "year": 2002,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A domino has two numbers (which may be equal) between 0 and 6, one at each end. The domino may be turned around. There is one domino of each type, so 28 in all. We want to form a chain in the usual way, so that adjacent dominos have the same number at the adjacent ends. Dominos can be added to the chain at either end. We want to form the chain so that after each domino has been added the total of all the numbers is odd. For example, we could place ﬁrst the domino (3, 4), total 3 + 4 = 7. Then (1, 3), total 1 + 3 + 3 + 4 = 11, then (4, 4), total 11 + 4 + 4 = 19. What is the largest number of dominos that can be placed in this way? How many maximum-length chains are there?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2002-P5",
+    "year": 2002,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "A trio is a set of three distinct integers such that two of the numbers are divisors or multiples of the third. Which trio contained in {1, 2, ..., 2002} has the largest possible sum? Find all trios with the maximum sum.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2002-P6",
+    "year": 2002,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Let ABCD be a quadrilateral with ∠DAB = ∠ABC = 90◦ . Denote side AB, and assume that ∠CM D = 90◦ . Let K be the foot of the perpendicular from the point M to the line CD. The line AK meets BD at P , and the line BK meets AC at Q. Show that KQ ∠AKB = 90◦ and KP P A + QB = 1.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

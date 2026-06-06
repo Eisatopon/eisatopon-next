@@ -1,0 +1,129 @@
+[
+  {
+    "id": "MXO-2001-P1",
+    "year": 2001,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Find all 7-digit numbers which are multiples of 21 and which have each digit 3 or 7.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2001-P2",
+    "year": 2001,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Given some colored balls (at least three different colors) and at least three boxes. The balls are put into the boxes so that no box is empty and we cannot find three balls of different colors which are in three different boxes. Show that there is a box such that all the balls in all the other boxes have the same color.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2001-P3",
+    "year": 2001,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "ABCD is a cyclic quadrilateral. M is the midpoint of CD. The diagonals meet at P . The circle through P which touches CD at M meets AC again at R and BD again at Q. The point S on BD is such that BS = DQ. The line through S parallel to AB meets AC at T . Show that AT = RC. – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2001-P4",
+    "year": 2001,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For positive integers n, m define f (n, m) as follows. Write a list of 2001 numbers ai , where a1 = m, and ak+1 is the residue of a2k mod n (for k = 1, 2, ..., 2000). Then put f (n, m) = a1 − a2 + a3 − a4 + a5 − ... + a2001 . For which n ≥ 5 can we find m such that 2 ≤ m ≤ n/2 and f (m, n) > 0?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2001-P5",
+    "year": 2001,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "ABC is a triangle with AB < AC and ∠A = 2∠C. D is the point on AC such that CD = AB. Let L be the line through B parallel to AC. Let L meet the external bisector of ∠A at M and the line through C parallel to AB at N . Show that M D = N D.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2001-P6",
+    "year": 2001,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A collector of rare coins has coins of denominations 1, 2, ..., n (several coins for each denomination). He wishes to put the coins into 5 boxes so that: (1) in each box there is at most one coin of each denomination; (2) each box has the same number of coins and the same denomination total; (3) any two boxes contain all the denominations; (4) no denomination is in all 5 boxes. For which n is this possible?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

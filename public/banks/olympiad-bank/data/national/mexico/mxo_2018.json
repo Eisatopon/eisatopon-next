@@ -1,0 +1,134 @@
+[
+  {
+    "id": "MXO-2018-P1",
+    "year": 2018,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let A and B be two points on a line ℓ, M the midpoint of AB, and X a point on segment AB other than M . Let Ω be a semicircle with diameter AB. Consider a point P on Ω and let Γ be the circle through P and X that is tangent to AB. Let Q be the second intersection point of Ω and Γ. The internal angle bisector of ∠P XQ intersects Γ at a point R. Let Y be a point on ℓ such that RY is perpendicular to ℓ. Show that M X > XY",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2018-P2",
+    "year": 2018,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry",
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "For each positive integer m, we deﬁne Lm as the ﬁgure that is obtained and m × 1 rectangles in such a way that they coincide at the 1 × 1 square at their ends, as shown in the ﬁgure. ... L1 L2 L3 L4 Using some ﬁgures Lm1 , Lm2 , . . . , Lmk , we cover an n × n board completely, in such a way that the edges of the ﬁgure coincide with lines in the board. Among all possible coverings of the board, ﬁnd the minimal possible value of m1 + m2 + · · · + mk . Note: In covering the board, the ﬁgures may be rotated or reﬂected, and they may overlap or not be completely contained within the board.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2018-P3",
+    "year": 2018,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory",
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "A sequence a2 , a3 , . . . , an of positive integers is said to be campechana, if for each i such that 2 ≤ i ≤ n it holds that exactly ai terms of the sequence are relatively prime to i. We say that the size of such a sequence is n − 1. Let m = p1 p2 . . . pk , where p1 , p2 , . . . , pk are pairwise distinct primes and k ≥ 2. Show that there exist at least two different campechana sequences of size m. – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2018-P4",
+    "year": 2018,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Let n ≥ 2 be an integer. For each k-tuple of positive integers a1 , a2 , . . . , ak such that a1 + a2 + · · · + ak = n, consider the sums Si = 1 + 2 + . . . + ai for 1 ≤ i ≤ k. Determine, in terms of n, the maximum possible value of the product S1 S2 · · · Sk . Proposed",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2018-P5",
+    "year": 2018,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let n ≥ 5 an integer and consider a regular n-gon. Initially, Nacho is situated in one of the vertices of the n-gon, in which he puts a ﬂag. He will start moving clockwise. First, he moves one position and puts another ﬂag, then, two positions and puts another ﬂag, etcetera, until he ﬁnally moves n − 1 positions and puts a ﬂag, in such a way that he puts n ﬂags in total. ¿For which values of n, Nacho will have put a ﬂag in each of the n vertices?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2018-P6",
+    "year": 2018,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "Let ABC be an acute-angled triangle with circumference Ω. Let the angle bisectors of ∠B and ∠C intersect Ω again at M and N . Let I be the intersection point of these angle bisectors. Let M ′ and N ′ be the respective reﬂections of M and N in AC and AB. Prove that the center of the circle passing through I, M ′ , N ′ lies on the altitude of triangle ABC from A. Proposed",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

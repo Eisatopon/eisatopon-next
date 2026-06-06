@@ -1,0 +1,133 @@
+[
+  {
+    "id": "MXO-1999-P1",
+    "year": 1999,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "On a table there are 1999 counters, red on one side and black on the other side, arranged arbitrarily. Two people alternately make moves, where each move is of one of the following two types: (1) Remove several counters which all have the same color up; (2) Reverse several counters which all have the same color up. The player who takes the last counter wins. Decide which of the two players (the one playing first or the other one) has a wining strategy.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1999-P2",
+    "year": 1999,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Prove that there are no 1999 primes in an arithmetic progression that are all less than 12345.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1999-P3",
+    "year": 1999,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "A point P is given inside a triangle ABC. Let D, E, F be the midpoints of AP, BP, CP , and let L, M, N be the intersection points of BF and CE, AF and CD, AE and BD, respectively. (a) Prove that the area of hexagon DN ELF M is equal to one third of the area of triangle ABC. (b) Prove that DL, EM , and F N are concurrent. – Day 2",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1999-P4",
+    "year": 1999,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "An 8 × 8 board is divided into unit squares. Ten of these squares have their √ centers marked. Prove that either there exist two marked points on the distance at most 2, or there is a point on the distance 1/2 from the edge of the board.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1999-P5",
+    "year": 1999,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry",
+      "Algebra"
+    ],
+    "statement": "In a quadrilateral ABCD with AB//CD, the external bisectors of the angles at B and C meet at P , while the external bisectors of the angles at A and D meet at Q. Prove that the length of P Q equals the semiperimeter of ABCD.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1999-P6",
+    "year": 1999,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry",
+      "Combinatorics"
+    ],
+    "statement": "A polygon has each side integral and each pair of adjacent sides perpendicular (it is not necessarily convex). Show that if it can be covered one of its sides has even length.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

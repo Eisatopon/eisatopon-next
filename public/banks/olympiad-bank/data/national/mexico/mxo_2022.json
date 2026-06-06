@@ -1,0 +1,137 @@
+[
+  {
+    "id": "MXO-2022-P1",
+    "year": 2022,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A number x is ”Tlahuica” if there exist prime numbers p1 , p2 , . . . , pk such that 1 1 1 x= + + ··· + . p1 p2 pk Find the largest Tlahuica number x such that 0 < x < 1 and there exists a positive integer m ≤ 2022 such that mx is an integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2022-P2",
+    "year": 2022,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry",
+      "Number Theory",
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "Let n be a positive integer. David has six n × n chessboards which he arranges in an n × n × n cube. Two cells are ”aligned” if they can be connected such that all consecutive cells in the path share a side, and the sides that the cell ci shares with its neighbors are on opposite sides of the square for i = 2, 3, . . . m − 1. Two towers attack each other if the cells they occupy are aligned. What is the maximum amount of towers he can place on the board such that no two towers attack each other?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2022-P3",
+    "year": 2022,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory",
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "Let n > 1 be an integer and d1 < d2 < · · · < dm the list of its positive divisors, including 1 and n. The m instruments of a mathematical orchestra will play a musical piece for m seconds, where the instrument i will play a note of tone di during si seconds (not necessarily consecutive), where di and si are positive integers. This piece has ”sonority” S = s1 + s2 + . . . sn . A pair of tones a and b are harmonic if ab or ab is an integer. If every instrument plays for at least one second and every pair of notes that sound at the same time are harmonic, show that the maximum sonority achievable is a composite number.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2022-P4",
+    "year": 2022,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let n be a positive integer. In an n × n garden, a fountain is to be built with 1 × 1 platforms covering the entire garden. Ana places all the platforms at a different height. Afterwards, Beto places water sources in some of the platforms. The water in each platform can ﬂow to other platforms sharing a side only if they have a lower height. Beto wins if he ﬁlls all platforms with water. Find the least number of water sources that Beto needs to win no matter how Ana places the platforms.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2022-P5",
+    "year": 2022,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Algebra",
+      "Combinatorics"
+    ],
+    "statement": "Let n > 1 be a positive integer and d1 < d2 < · · · < dm be its m positive divisors, including 1 and n. Lalo writes the following 2m numbers on a board: d1 , d2 . . . , dm , d1 + d2 , d2 + d3 , . . . , dm−1 + dm , N where N is a positive integer. Afterwards, Lalo erases any number that is repeated (for example, if a number appears twice, he erases one of them). Finally, Lalo realizes that the numbers left on the board are exactly all the divisors of N . Find all possible values that n can take.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2022-P6",
+    "year": 2022,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry",
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "2022 Mexico National Olympiad Find all integers n ≥ 3 such that there exists a convex n-gon A1 A2 . . . An which satisﬁes the following conditions: - All interior angles of the polygon are equal - Not all sides of the polygon are equal - There exists a triangle T and a point O inside the polygon such that the n triangles OA1 A2 , OA2 A3 , . . . , OA are all similar to T , not necessarily in the same vertex order.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]
