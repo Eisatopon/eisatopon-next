@@ -1,0 +1,170 @@
+[
+  {
+    "id": "IDO-2012-P1",
+    "year": 2012,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show that for any positive integers \\(a\\) and \\(b\\), the number \\(n = \\text{lcm}(a,b) + \\gcd(a,b) - a - b\\) is a non-negative even integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2012-P2",
+    "year": 2012,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(n \\geq 3\\) be an integer and \\(a_2, a_3, \\ldots, a_n\\) positive reals with \\(a_2 a_3 \\cdots a_n = 1\\). Prove that \\((1+a_2)^2(1+a_3)^3 \\cdots (1+a_n)^n > n^n\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2012-P3",
+    "year": 2012,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given an acute triangle \\(ABC\\) with \\(AB > AC\\) and circumcenter \\(O\\). Lines \\(BO\\) and \\(CO\\) meet the bisector of \\(\\angle BAC\\) at \\(P\\) and \\(Q\\). Lines \\(BQ\\) and \\(CP\\) meet at \\(R\\). Show that \\(AR \\perp BC\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2012-P4",
+    "year": 2012,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Given 2012 distinct points \\(A_1, \\ldots, A_{2012}\\) on the plane. For any permutation \\(B_1, \\ldots, B_{2012}\\), define the shadow of \\(P\\): rotate \\(P\\) by \\(180^\\circ\\) around \\(B_1\\) to get \\(P_1\\), around \\(B_2\\) to get \\(P_2\\), etc. Let \\(N\\) be the number of different shadows of \\(P\\) over all permutations. Find the maximum value of \\(N\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2012-P5",
+    "year": 2012,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Given positive integers \\(m, n\\). Two \\(m \\times n\\) binary matrices \\(P\\) and \\(Q\\) satisfy: (i) each row of \\(P\\) is non-increasing; (ii) each column of \\(Q\\) is non-increasing; (iii) row sums of \\(P\\) equal those of \\(Q\\); (iv) column sums of \\(P\\) equal those of \\(Q\\). Show that \\(P = Q\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2012-P6",
+    "year": 2012,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Show that there is no function \\(f : \\mathbb{R}^+ \\to \\mathbb{R}^+\\) satisfying \\(f(x+y) = f(x) + f(y) + \\dfrac{1}{2012}\\) for all positive reals \\(x, y\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2012-P7",
+    "year": 2012,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show that \\(\\sqrt{x} + \\sqrt{y} = \\sqrt{n}\\) has a solution in positive integers \\((x, y)\\) if and only if \\(n\\) is divisible by some perfect square greater than 1.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2012-P8",
+    "year": 2012,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given triangle \\(ABC\\) with the bisector of \\(\\angle BAC\\) meeting \\(BC\\) at \\(D\\) and the circumcircle at \\(E\\). \\(M, N\\) are midpoints of \\(BD, CE\\). The circumcircle of \\(\\triangle ABD\\) meets \\(AN\\) at \\(Q\\). A circle through \\(A\\) tangent to \\(BC\\) at \\(D\\) meets line \\(AM\\) at \\(P\\) and side \\(AC\\) at \\(R\\). Show that \\(B, P, Q, R\\) are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

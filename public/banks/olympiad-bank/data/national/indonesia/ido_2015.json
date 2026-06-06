@@ -1,0 +1,170 @@
+[
+  {
+    "id": "IDO-2015-P1",
+    "year": 2015,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Albert, Bernard, and Cheryl each start with 5 red, 7 green, and 13 blue marbles. Each turn: choose 2 marbles of different colors and replace them with 2 of the third color. After finitely many steps: Albert has only red, Bernard only blue, Cheryl only green. Who is lying?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2015-P2",
+    "year": 2015,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all \\(n \\in \\mathbb{N}\\) satisfying \\(\\displaystyle\\sum_{k=1}^{n} \\frac{1}{[n,k]} = 1 + \\sum_{k=1}^{n} \\frac{2}{(n,k)} + 2n\\sum_{k=1}^{n}\\frac{4}{(n,k)}\\), where \\([a,b]\\) denotes lcm and \\((a,b)\\) gcd.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2015-P3",
+    "year": 2015,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given acute triangle \\(ABC\\). Circle \\(\\Gamma_B\\) passes through \\(A, B\\) and is tangent to \\(AC\\) at \\(A\\), with center \\(O_B\\). Define \\(\\Gamma_C, O_C\\) analogously. The altitudes from \\(B\\) and \\(C\\) meet the circumcircle at \\(X\\) and \\(Y\\) respectively. Prove that \\(A\\), the midpoint of \\(XY\\), and the midpoint of \\(O_B O_C\\) are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2015-P4",
+    "year": 2015,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(f, g : \\mathbb{R}^+ \\to \\mathbb{R}^+\\) satisfy \\(f(g(x)y + f(x)) = (y + 2015)f(x)\\) for all \\(x, y \\in \\mathbb{R}^+\\). (a) Prove \\(f(x) = 2015g(x)\\) for all \\(x\\). (b) Give an example of \\((f, g)\\) satisfying this with \\(f(x), g(x) \\geq 1\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2015-P5",
+    "year": 2015,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Given positive integers \\(a, b, c, d\\) with \\(a \\mid c^d\\) and \\(b \\mid d^c\\). Prove that \\(ab \\mid (cd)^{\\max(a,b)}\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2015-P6",
+    "year": 2015,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABC\\) be an acute triangle with circumcenter \\(O\\). Line \\(AO\\) meets the circumcircle again at \\(D\\). \\(P\\) is on \\(BC\\). The line through \\(P\\) perpendicular to \\(AP\\) meets lines \\(DB\\) and \\(DC\\) at \\(E\\) and \\(F\\). The line through \\(D\\) perpendicular to \\(BC\\) meets \\(EF\\) at \\(Q\\). Prove \\(EQ = FQ\\) if and only if \\(BP = CP\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2015-P7",
+    "year": 2015,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(a, b, c > 0\\). Prove that \\(\\sqrt{\\dfrac{a}{b+c} + \\dfrac{b}{c+a}} + \\sqrt{\\dfrac{b}{c+a} + \\dfrac{c}{a+b}} + \\sqrt{\\dfrac{c}{a+b} + \\dfrac{a}{b+c}} \\geq 3\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2015-P8",
+    "year": 2015,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Three buildings at vertices of an equilateral triangle each have 2015 floors with one window each (floor 1 is uninhabited). Windows are colored red, green, or blue. Each resident on floor \\(k\\) can see the windows on floors \\(k\\) and \\(k-1\\) of the other two buildings (4 windows total). Color all windows so each resident sees at least one window of each color. How many ways?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

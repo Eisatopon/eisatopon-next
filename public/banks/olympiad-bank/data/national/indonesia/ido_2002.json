@@ -1,0 +1,150 @@
+[
+  {
+    "id": "IDO-2002-P1",
+    "year": 2002,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that \\(n^4 - n^2\\) is divisible by 12 for all integers \\(n > 1\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2002-P2",
+    "year": 2002,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Five dice are rolled. Which result has a larger probability of occurring: a product of 180 or a product of 144?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2002-P3",
+    "year": 2002,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all solutions (real and complex) for \\(x, y, z\\) given that \\(x + y + z = 6\\), \\(x^2 + y^2 + z^2 = 12\\), \\(x^3 + y^3 + z^3 = 24\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2002-P4",
+    "year": 2002,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given triangle \\(ABC\\) where \\(AC > BC\\), \\(D\\) is on the circumcircle of \\(ABC\\) such that \\(D\\) is the midpoint of arc \\(AB\\) containing \\(C\\). \\(E\\) is on \\(AC\\) with \\(DE \\perp AC\\). Prove that \\(AE = EC + CB\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2002-P5",
+    "year": 2002,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Nine of the numbers \\(4, 5, 6, 7, 8, 12, 13, 16, 18, 19\\) are to be placed in an empty \\(3 \\times 2\\) table (with numbers \\(10, 9, 3\\) and \\(11, 17, 20\\) already placed) such that each row and column has the same sum. Determine all possible arrangements.",
+    "has_figure": true,
+    "figure_description": "3x2 table with some numbers pre-filled",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2002-P6",
+    "year": 2002,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all primes \\(p\\) such that \\(4p^2 + 1\\) and \\(6p^2 + 1\\) are both prime.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2002-P7",
+    "year": 2002,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABCD\\) be a rhombus with \\(\\angle DAB = 60^\\circ\\), and \\(P\\) the intersection of diagonals \\(AC\\) and \\(BD\\). Let \\(Q, R, S\\) be three points on the boundary of \\(ABCD\\) such that \\(PQRS\\) is a rhombus. Prove that exactly one of \\(Q, R, S\\) lies on a vertex of \\(ABCD\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "IDO-2018-P1",
+    "year": 2018,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(a\\) be a positive integer such that \\(\\gcd(a^n + 1, 2^n + 1) = 1\\) for all integers \\(n\\). (a) Prove \\(\\gcd(a-2, 2^n+1) = 1\\) for all integers \\(n\\). (b) Find all possible values of \\(a\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2018-P2",
+    "year": 2018,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(\\Gamma_1, \\Gamma_2\\) be circles tangent at \\(A\\), with \\(\\Gamma_2\\) inside \\(\\Gamma_1\\). \\(B\\) is on \\(\\Gamma_2\\) and \\(AB\\) extended meets \\(\\Gamma_1\\) at \\(C\\). \\(D\\) is on \\(\\Gamma_1\\) and \\(P\\) is on line \\(CD\\). \\(BP\\) meets \\(\\Gamma_2\\) at \\(Q\\). Prove that \\(A, D, P, Q\\) lie on a circle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2018-P3",
+    "year": 2018,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Alzim and Badril play on a hexagonal lattice with 37 points (4 per side), all uncolored. Alzim colors 1 point red per turn; Badril colors 2 points blue. The game ends when an equilateral triangle with all-red vertices exists, or all points are colored. Alzim wins in the former case. Does Alzim have a winning strategy?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2018-P4",
+    "year": 2018,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Andi and a computer play a game. The computer shows \\(x^2 + mx + n\\) (no real roots). Andi can change \\(x^2 + ax + b\\) to \\(x^2 + (a+b)x + b\\) or \\(x^2 + ax + (a+b)\\), but only if the result has real roots. The computer swaps the coefficient of \\(x\\) and the constant. Andi loses if he cannot move. Find all \\((m, n)\\) such that Andi always loses.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2018-P5",
+    "year": 2018,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all triples of reals \\((x, y, z)\\) satisfying: \\(\\frac{1}{3}\\min\\{x,y\\} + \\frac{2}{3}\\max\\{x,y\\} = 2017\\), \\(\\frac{1}{3}\\min\\{y,z\\} + \\frac{2}{3}\\max\\{y,z\\} = 2018\\), \\(\\frac{1}{3}\\min\\{z,x\\} + \\frac{2}{3}\\max\\{z,x\\} = 2019\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2018-P6",
+    "year": 2018,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all prime numbers \\(p\\) such that \\(2^n p^2 + 1\\) is a perfect square for some positive integer \\(n\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2018-P7",
+    "year": 2018,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "There are 3 empty buckets and \\(n \\geq 3\\) marbles. Ani distributes all marbles (each bucket gets at least 1). Then Budi and Ani alternate (Budi first), each taking 1, 2, or 3 marbles from a bucket. The player who takes the last marble wins. Find all \\(n\\) for which Ani has a winning strategy.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2018-P8",
+    "year": 2018,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(I, O\\) be the incenter and circumcenter of \\(\\triangle ABC\\). The \\(A\\)-excircle \\(\\omega_A\\) is tangent to \\(BC\\) at \\(N\\) and to the extensions of \\(AB, AC\\) at \\(K, M\\). If the midpoint of \\(KM\\) lies on the circumcircle of \\(\\triangle ABC\\), prove that \\(O, I, N\\) are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

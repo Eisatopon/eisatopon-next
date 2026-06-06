@@ -1,0 +1,170 @@
+[
+  {
+    "id": "IDO-2011-P1",
+    "year": 2011,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For \\(n\\) in base 10, let \\(f(n)\\) be the sum of all numbers obtained by removing some digits of \\(n\\). If \\(p\\) is a 2011-digit integer, prove that \\(f(p) - p\\) is divisible by 9.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2011-P2",
+    "year": 2011,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For each positive integer \\(n\\), let \\(s_n\\) be the number of permutations \\((a_1, a_2, \\ldots, a_n)\\) of \\((1, 2, \\ldots, n)\\) such that \\(\\dfrac{a_1}{1} + \\dfrac{a_2}{2} + \\cdots + \\dfrac{a_n}{n}\\) is a positive integer. Prove that \\(s_{2n} \\geq n\\) for all positive integers \\(n\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2011-P3",
+    "year": 2011,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given an acute triangle \\(ABC\\), let \\(\\ell_a\\) pass through \\(A\\) perpendicular to \\(AB\\), \\(\\ell_b\\) pass through \\(B\\) perpendicular to \\(BC\\), and \\(\\ell_c\\) pass through \\(C\\) perpendicular to \\(CA\\). Let \\(D = \\ell_b \\cap \\ell_c\\), \\(E = \\ell_c \\cap \\ell_a\\), \\(F = \\ell_a \\cap \\ell_b\\). Prove that \\([DEF] \\geq 3[ABC]\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2011-P4",
+    "year": 2011,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "An island has 10 cities. A tour route starts from a city, visits exactly 8 of the other 9 cities once each, and returns to start. For each city, there exists a tour route that skips it. Find the minimum number of roads.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2011-P5",
+    "year": 2011,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A unit cube is labeled with numbers as shown. Place \\(2^n\\) such cubes to form a \\(1 \\times 2 \\times n\\) cuboid on a floor. Let \\(S\\) be the sum of all visible numbers (not facing the floor). Find the minimum \\(n\\) such that there exists a placement with \\(S > 2011\\).",
+    "has_figure": true,
+    "figure_description": "Net of a cube with numbers 1,2,6,16,32,8",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2011-P6",
+    "year": 2011,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(a_0, a_1, \\ldots, a_{2010}\\) be integers with \\(a_0 = 1\\) and \\(2011 \\mid a_{k-1}a_k - k\\) for all \\(k = 1, 2, \\ldots, 2010\\). Prove that \\(2011 \\mid a_{2010} + 1\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2011-P7",
+    "year": 2011,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(a, b, c \\in \\mathbb{R}^+\\) with \\(abc = 1\\) and \\(a^{2011} + b^{2011} + c^{2011} < \\dfrac{1}{a^{2011}} + \\dfrac{1}{b^{2011}} + \\dfrac{1}{c^{2011}}\\). Prove that \\(a + b + c < \\dfrac{1}{a} + \\dfrac{1}{b} + \\dfrac{1}{c}\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2011-P8",
+    "year": 2011,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given triangle \\(ABC\\) with incircle tangent to \\(BC, CA, AB\\) at \\(D, E, F\\) respectively. Points \\(K, L\\) on \\(CA, AB\\) (with \\(K \\neq A \\neq L\\)) satisfy \\(\\angle EDK = \\angle ADE\\) and \\(\\angle FDL = \\angle ADF\\). Prove that the circumcircle of \\(\\triangle AKL\\) is tangent to the incircle of \\(\\triangle ABC\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

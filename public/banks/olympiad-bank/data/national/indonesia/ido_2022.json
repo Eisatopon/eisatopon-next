@@ -1,0 +1,172 @@
+[
+  {
+    "id": "IDO-2022-P1",
+    "year": 2022,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Determine all functions \\(f : \\mathbb{R} \\to \\mathbb{R}\\) such that \\(f(f(f(x)) + f(y)) = f(y) - f(x)\\) for all \\(x, y \\in \\mathbb{R}\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2022-P2",
+    "year": 2022,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "statement": "Let \\(P(x)\\) be a polynomial with integer coefficients with \\(P(1) = 10\\) and \\(P(-1) = 22\\). (a) Give an example of \\(P(x)\\) such that \\(P(x) = 0\\) has an integer root. (b) Suppose \\(P(0) = 4\\). Prove \\(P(x) = 0\\) has no integer root.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2022-P3",
+    "year": 2022,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABCD\\) be a rectangle. Points \\(E, F\\) on diagonal \\(AC\\) with \\(F\\) between \\(A\\) and \\(E\\). The circumcircle of \\(\\triangle BEF\\) meets \\(AB, BC\\) at \\(G, H\\). The circumcircle of \\(\\triangle DEF\\) meets \\(AD, CD\\) at \\(I, J\\). Prove that \\(GJ\\), \\(IH\\), and \\(AC\\) are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2022-P4",
+    "year": 2022,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics",
+      "Geometry"
+    ],
+    "statement": "Given a regular 26-gon. Prove that for any 9 of its vertices, there exist 3 forming an isosceles triangle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2022-P5",
+    "year": 2022,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(N \\geq 2\\) and \\(a_1, a_2, \\ldots, a_{N+1}\\) be natural numbers such that for every \\(1 \\leq i \\leq j \\leq N+1\\), \\(a_i a_{i+1} \\cdots a_j \\not\\equiv 1 \\pmod{N}\\). Prove there exists \\(k \\leq N+1\\) with \\(\\gcd(a_k, N) \\neq 1\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2022-P6",
+    "year": 2022,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In triangle \\(ABC\\), \\(D\\) on \\(AB\\) and \\(E\\) on \\(AC\\) with \\(DE \\parallel BC\\). Point \\(P\\) inside \\(BDEC\\) satisfies \\(\\angle BPD = \\angle CPE = 90^\\circ\\). Prove that line \\(AP\\) passes through the circumcenter of both \\(\\triangle EPD\\) and \\(\\triangle BPC\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2022-P7",
+    "year": 2022,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A binary sequence can be modified by: pick a contiguous block with unequal numbers of 0s and 1s, and reverse it. Two sequences are related if one can be transformed into the other. Find the largest \\(n\\) such that there exist \\(n\\) pairwise unrelated sequences of 2022 digits.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2022-P8",
+    "year": 2022,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find the smallest positive real \\(K\\) such that \\(K + \\sqrt{\\dfrac{a^2+b^2+c^2}{3}} \\geq (K+1)\\sqrt{\\dfrac{a+b+c}{3}}\\) holds for all real \\(0 \\leq a, b, c \\leq 1\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

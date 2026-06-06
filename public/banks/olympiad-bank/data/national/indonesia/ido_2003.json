@@ -1,0 +1,150 @@
+[
+  {
+    "id": "IDO-2003-P1",
+    "year": 2003,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that \\(a^9 - a\\) is divisible by 6 for all integers \\(a\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2003-P2",
+    "year": 2003,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABCD\\) be a quadrilateral and \\(P, Q, R, S\\) the midpoints of \\(AB, BC, CD, DA\\) respectively. Let \\(O\\) be the intersection of \\(PR\\) and \\(QS\\). Prove that \\(PO = OR\\) and \\(QO = OS\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2003-P3",
+    "year": 2003,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all real numbers \\(x\\) such that \\(\\lfloor x^2 \\rfloor + \\lfloor x \\rfloor^2 = 2003\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2003-P4",
+    "year": 2003,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Given a \\(19 \\times 19\\) matrix where each entry is \\(1\\) or \\(-1\\). Let \\(b_i\\) be the product of all entries in the \\(i\\)-th row and \\(k_i\\) the product of all entries in the \\(i\\)-th column. Prove that for any such matrix, \\(b_1 + k_1 + b_2 + k_2 + \\cdots + b_{19} + k_{19} \\neq 0\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2003-P5",
+    "year": 2003,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For any real numbers \\(a, b, c\\), prove that \\(5a^2 + 5b^2 + 5c^2 \\geq 4ab + 4ac + 4bc\\) and determine when equality holds.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2003-P6",
+    "year": 2003,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A regular hexagonal hall has side length 6 meters. The floor is tiled with equilateral triangular tiles of side 50 cm. Each tile is divided into three congruent triangles by its altitudes to the orthocenter. Each small triangle is colored so that each tile has different colors and no two tiles have identical colorings. What is the minimum number of colors required?",
+    "has_figure": true,
+    "figure_description": "Equilateral triangle divided into 3 by altitudes",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2003-P7",
+    "year": 2003,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P7",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(k, m, n\\) be positive integers with \\(k > n > 1\\) and \\(\\gcd(k, n) = 1\\). If \\((k - n) \\mid (k^m - n^{m-1})\\), prove that \\(k \\leq 2n - 1\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "IDO-2004-P1",
+    "year": 2004,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine the number of positive odd and even divisors of \\(5^6 - 1\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2004-P2",
+    "year": 2004,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A tank fills with cold water in 14 minutes, drains through a hole in 21 minutes. With both cold and hot water taps open and the hole open, the tank fills in 12.6 minutes. How many minutes does it take to fill the tank with hot water alone?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2004-P3",
+    "year": 2004,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In how many ways can we replace each \\(*\\) with \\(+\\) or \\(-\\) such that \\(1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10 = 29\\)?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2004-P4",
+    "year": 2004,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "There exist 4 circles \\(a, b, c, d\\) such that \\(a\\) is tangent to both \\(b\\) and \\(d\\), \\(b\\) is tangent to both \\(a\\) and \\(c\\), \\(c\\) is tangent to both \\(b\\) and \\(d\\), and \\(d\\) is tangent to both \\(a\\) and \\(c\\). Show that all four tangent points lie on a circle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2004-P5",
+    "year": 2004,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Given \\(a + 4b + 9c + 16d + 25e + 36f + 49g = 1\\), \\(4a + 9b + 16c + 25d + 36e + 49f + 64g = 12\\), \\(9a + 16b + 25c + 36d + 49e + 64f + 81g = 123\\). Determine the value of \\(16a + 25b + 36c + 49d + 64e + 81f + 100g\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2004-P6",
+    "year": 2004,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "The quadratic equation \\(x^2 + ax + b + 1 = 0\\) has two positive integer roots, where \\(a, b\\) are integers. Show that \\(a^2 + b^2\\) is not prime.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2004-P7",
+    "year": 2004,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given right triangle \\(ABC\\) with right angle at \\(C\\), show that the diameter of the incircle equals \\(a + b - c\\), where \\(a = BC\\), \\(b = CA\\), \\(c = AB\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2004-P8",
+    "year": 2004,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A floor has area \\(3\\) m\\(^2\\). It is covered by 5 rugs, each of area \\(1\\) m\\(^2\\). Prove that some two rugs overlap with area at least \\(0.2\\) m\\(^2\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

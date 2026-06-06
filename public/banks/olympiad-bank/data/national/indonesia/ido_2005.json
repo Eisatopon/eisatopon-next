@@ -1,0 +1,171 @@
+[
+  {
+    "id": "IDO-2005-P1",
+    "year": 2005,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let \\(n\\) be a positive integer. Determine the number of non-congruent triangles with integer side lengths whose longest side has length \\(n\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2005-P2",
+    "year": 2005,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For a positive integer \\(n\\), let \\(p(n)\\) be the product of its digits. Find all positive integers \\(n\\) such that \\(11p(n) = n^2 - 2005\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2005-P3",
+    "year": 2005,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "statement": "Let \\(k\\) and \\(m\\) be positive integers such that \\(\\frac{1}{2}\\left(\\sqrt{\\sqrt{k + 4\\sqrt{m}} - \\sqrt{k}}\\right)\\) is an integer. (a) Prove that \\(\\sqrt{k}\\) is rational. (b) Prove that \\(\\sqrt{k}\\) is a positive integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2005-P4",
+    "year": 2005,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(M\\) be a point in triangle \\(ABC\\) with \\(\\angle AMC = 90^\\circ\\), \\(\\angle AMB = 150^\\circ\\), \\(\\angle BMC = 120^\\circ\\). The circumcenters of triangles \\(AMC\\), \\(AMB\\), \\(BMC\\) are \\(P, Q, R\\) respectively. Prove that \\([PQR] > [ABC]\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2005-P5",
+    "year": 2005,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For any real \\(x\\), let \\(\\lfloor x \\rfloor\\) denote the greatest integer not exceeding \\(x\\). Prove that there is exactly one integer \\(m\\) satisfying \\(m - \\left\\lfloor \\dfrac{m}{2005} \\right\\rfloor = 2005\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2005-P6",
+    "year": 2005,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all triples \\((x, y, z)\\) of integers satisfying \\(x(y+z) = y^2 + z^2 - 2\\), \\(y(z+x) = z^2 + x^2 - 2\\), \\(z(x+y) = x^2 + y^2 - 2\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2005-P7",
+    "year": 2005,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABCD\\) be a convex quadrilateral. Squares \\(AB_1A_2B\\), \\(BC_1B_2C\\), \\(CD_1C_2D\\), \\(DA_1D_2A\\) are constructed outside \\(ABCD\\). Let \\(K = AA_2 \\cap BB_1\\), \\(L = BB_2 \\cap CC_1\\), \\(M = CC_2 \\cap DD_1\\), \\(N = DD_2 \\cap AA_1\\). Prove that \\(KM \\perp LN\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2005-P8",
+    "year": 2005,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In a mathematics competition with 90 contestants, each contestant knows at least 60 others. Contestant Amin claims at least four contestants have the same number of acquaintances. Prove or disprove his statement.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

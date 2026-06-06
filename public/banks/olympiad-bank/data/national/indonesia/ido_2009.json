@@ -1,0 +1,170 @@
+[
+  {
+    "id": "IDO-2009-P1",
+    "year": 2009,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers \\(n \\in \\{1, 2, 3, \\ldots, 2009\\}\\) such that \\(4n^6 + n^3 + 5\\) is divisible by 7.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2009-P2",
+    "year": 2009,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(\\lfloor x \\rfloor\\) be the floor function. Given a sequence of positive integers \\(a_1 > 1, a_2, a_3, \\ldots\\) such that \\(\\left\\lfloor \\dfrac{a_1+1}{a_2} \\right\\rfloor = \\left\\lfloor \\dfrac{a_2+1}{a_3} \\right\\rfloor = \\cdots\\). Prove that \\(\\left\\lfloor \\dfrac{a_n+1}{a_{n+1}} \\right\\rfloor \\leq 1\\) for every positive integer \\(n\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2009-P3",
+    "year": 2009,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "For every triangle \\(ABC\\), let \\(D, E, F\\) be on segments \\(BC, CA, AB\\) respectively. Let \\(P\\) be the intersection of \\(AD\\) and \\(EF\\). Prove that \\(\\dfrac{AB}{AF} \\cdot DC + \\dfrac{AC}{AE} \\cdot DB = \\dfrac{AD}{AP} \\cdot BC\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2009-P4",
+    "year": 2009,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "On an island there are 7 towns and a railway system where each town has at least 3 railway connections. Prove that there exists a cycle visiting exactly 4 different towns (i.e., a route \\(A \\to B \\to C \\to D \\to A\\)).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2009-P5",
+    "year": 2009,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A drawer has at most 2009 balls, some white and some blue. If two balls are drawn simultaneously, the probability they are both the same color is \\(\\frac{1}{2}\\). Determine the maximum number of white balls.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2009-P6",
+    "year": 2009,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find the minimum value of \\(f(x) = x^{2008} - 2x^{2007} + 3x^{2006} - 4x^{2005} + \\cdots - 2006x^3 + 2007x^2 - 2008x + 2009\\) for real \\(x\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2009-P7",
+    "year": 2009,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A pair of integers \\((m, n)\\) is good if \\(m \\mid n^2 + n\\) and \\(n \\mid m^2 + m\\). Given coprime positive integers \\(a, b > 1\\), prove there exists a good pair \\((m, n)\\) with \\(a \\mid m\\) and \\(b \\mid n\\), but \\(a \\nmid n\\) and \\(b \\nmid m\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2009-P8",
+    "year": 2009,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given an acute triangle \\(ABC\\) with incircle touching \\(BC, CA, AB\\) at \\(D, E, F\\) respectively. The angle bisector of \\(\\angle A\\) meets \\(DE\\) and \\(DF\\) at \\(K\\) and \\(L\\). Let \\(AA_1\\) be the altitude from \\(A\\) and \\(M\\) the midpoint of \\(BC\\). (a) Prove \\(BK\\) and \\(CL\\) are perpendicular to the bisector of \\(\\angle BAC\\). (b) Show \\(A_1KML\\) is a cyclic quadrilateral.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

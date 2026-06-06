@@ -1,0 +1,170 @@
+[
+  {
+    "id": "IDO-2010-P1",
+    "year": 2010,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(a, b, c\\) be distinct positive integers. Show that the sequence \\(a+b+c,\\ ab+bc+ca,\\ 3abc\\) is neither an arithmetic nor a geometric progression.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2010-P2",
+    "year": 2010,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given an acute triangle \\(ABC\\) with \\(AC > BC\\) and circumcenter \\(O\\). The altitude from \\(C\\) meets \\(AB\\) at \\(D\\) and the circumcircle at \\(E\\). A line through \\(O\\) parallel to \\(AB\\) meets \\(AC\\) at \\(F\\). Show that line \\(CO\\), the line through \\(F\\) perpendicular to \\(AC\\), and the line through \\(E\\) parallel to \\(DO\\) are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2010-P3",
+    "year": 2010,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A math competition has 120 participants from several contingents. Each participant gives 1 souvenir to every other participant from the same contingent, and 1 souvenir to any one person from each other contingent. There are 3840 souvenirs exchanged. Find the maximum number of contingents.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2010-P4",
+    "year": 2010,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Given positive integers \\(m, n\\) with \\((mn) \\mid (m^{2010} + n^{2010} + n)\\). Show there exists a positive integer \\(k\\) such that \\(n = k^{2010}\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2010-P5",
+    "year": 2010,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "\\(m\\) boys and \\(n\\) girls (\\(m > n\\)) sit around a round table. The game: the teacher points to a boy to start; he puts a coin on the table; moving clockwise, each boy adds a coin and each girl takes a coin; if no coin remains the game ends. If the teacher wants the game to last at least a full round, how many boys can be chosen?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2010-P6",
+    "year": 2010,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all positive integers \\(n > 1\\) such that \\(\\tau(n) + \\phi(n) = n + 1\\), where \\(\\tau(n)\\) is the number of positive divisors and \\(\\phi(n)\\) is Euler's totient function.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2010-P7",
+    "year": 2010,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Given positive reals \\(a, b\\). Let \\(F(x) = x^2 + ax + b\\) and \\(G(x) = x^2 + bx + a\\). If all roots of \\(F(G(x))\\) and \\(G(F(x))\\) are real, show that \\(a > 6\\) and \\(b > 6\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2010-P8",
+    "year": 2010,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given an acute triangle \\(ABC\\) with circumcenter \\(O\\) and orthocenter \\(H\\). Let \\(K\\) be a point inside \\(ABC\\) (not \\(O\\) or \\(H\\)). Points \\(L, M\\) outside \\(\\triangle ABC\\) are such that \\(AKCL\\) and \\(AKBM\\) are parallelograms. Let \\(N = BL \\cap CM\\) and \\(J\\) the midpoint of \\(HK\\). Show that \\(KONJ\\) is a parallelogram.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]
