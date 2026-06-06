@@ -141,7 +141,7 @@ footer a:hover{opacity:1}
 <main>
 <div class="hero">
   <div class="hero-eye">EisatoponAI · Mathematical Archive</div>
-  <h1>Math Olympiad <span>Bank</span></h1>
+  <h1><a href="." style="text-decoration:none;color:inherit">Math Olympiad <span>Bank</span></a></h1>
   <p>A growing archive of mathematical olympiads from around the world.</p>
 </div>
 <p class="tagline">Over 7,000 problems from national and regional competitions across continents and generations.</p>
@@ -515,10 +515,9 @@ function selectOlympiad(key) {
           const arr = await r.json();
           if (!Array.isArray(arr) || arr.length === 0) return;
           const key = arr[0].olympiad;
-          const existed = !!DATA[key];
           if (!DATA[key]) DATA[key] = [];
           DATA[key].push(...arr);
-          if (!existed) for (const p of arr) loaded.push(p);
+          for (const p of arr) loaded.push(p);
         } catch(e) {}
       }));
     }
