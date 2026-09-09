@@ -92,3 +92,5 @@ jobs:
           source_sha="$(git -C platform-source rev-parse --short HEAD)"
           git commit -m "Publish mathematics platform $source_sha"
           git push
+
+# Publish source: 704adae
