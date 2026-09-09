@@ -53,11 +53,37 @@ jobs:
           rsync -a --delete platform-source/frontend/build/ public/platforma/
           printf '%s\n' "$(git -C platform-source rev-parse HEAD)" > public/platforma/.source-commit
 
+      - name: Create SPA fallback pages
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+          import sys
+
+          sys.path.insert(0, "platform-source/backend")
+          from seed_content import all_docs
+
+          target = Path("public/platforma")
+          index = target / "index.html"
+          grades, lessons = all_docs()
+          routes = ["achievements", "admin"]
+          routes.extend(f"grade/{grade['id']}" for grade in grades)
+          routes.extend(f"lesson/{lesson['id']}" for lesson in lessons)
+
+          for route in routes:
+              destination = target / route
+              destination.mkdir(parents=True, exist_ok=True)
+              shutil.copy2(index, destination / "index.html")
+
+          print(f"Created {len(routes)} direct-link fallback pages.")
+          PY
+
       - name: Commit and push
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898682+github-actions[bot]@users.noreply.github.com"
           git add -A public/platforma
           if git diff --cached --quiet; then
             echo "The live platform is already up to date."
