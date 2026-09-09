@@ -2,6 +2,9 @@ name: Publish mathematics platform
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/publish-mathematics-platform.yml"
 
 permissions:
   contents: write
