@@ -83,7 +83,7 @@ jobs:
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898682+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A public/platforma
           if git diff --cached --quiet; then
             echo "The live platform is already up to date."
