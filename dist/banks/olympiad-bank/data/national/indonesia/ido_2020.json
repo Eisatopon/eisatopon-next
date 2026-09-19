@@ -1,0 +1,171 @@
+[
+  {
+    "id": "IDO-2020-P1",
+    "year": 2020,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given acute triangle \\(ABC\\). Circle \\(c_1\\) passes through \\(A, D\\) (where \\(D\\) is on \\(BC\\)) with center on \\(AC\\). Circle \\(c_2\\) passes through \\(A, D\\) with center on \\(AB\\). Let \\(P \\neq A\\) be \\(c_1 \\cap AB\\) and \\(Q \\neq A\\) be \\(c_2 \\cap AC\\). Prove that \\(AD\\) bisects \\(\\angle PDQ\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2020-P2",
+    "year": 2020,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(P(x) = ax^2 + bx + c\\) with \\(a, b, c\\) real. If \\(P(a) = bc\\), \\(P(b) = ac\\), \\(P(c) = ab\\), prove that \\((a-b)(b-c)(c-a)(a+b+c) = 0\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2020-P3",
+    "year": 2020,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine all functions \\(f : \\mathbb{N} \\to \\mathbb{N}\\) such that \\(n^2 + f(n)f(m)\\) is a multiple of \\(f(n) + m\\) for all natural numbers \\(m, n\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2020-P4",
+    "year": 2020,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A \\(2n \\times 2n\\) chessboard is colored with \\(n\\) colors such that every cell has one color. Prove there exist 2 cells in the same row or column such that swapping their colors creates a rectangle whose four corners all have the same color.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2020-P5",
+    "year": 2020,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "A set \\(A\\) contains exactly \\(n\\) integers, each greater than 1, with all prime factors less than 10. Find the smallest \\(n\\) such that \\(A\\) must contain distinct \\(a, b\\) with \\(ab\\) a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2020-P6",
+    "year": 2020,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given cyclic quadrilateral \\(ABCD\\). \\(X\\) on \\(BC\\) such that \\(AX \\perp\\) (angle bisector of \\(\\angle CBD\\)). \\(Y\\) on \\(AD\\) such that \\(BY \\perp\\) (angle bisector of \\(\\angle CAD\\)). Prove \\(XY \\parallel CD\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2020-P7",
+    "year": 2020,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Determine all real-coefficient polynomials \\(P(x)\\) such that \\(P(\\lfloor x \\rfloor) = \\lfloor P(x) \\rfloor\\) for every real \\(x\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2020-P8",
+    "year": 2020,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the smallest natural number \\(n > 2\\), or show none exists, such that there are natural numbers \\(a_1, a_2, \\ldots, a_n\\) with \\(\\gcd(a_1, \\ldots, a_n) = \\displaystyle\\sum_{k=1}^{n-1}\\left(\\frac{1}{\\gcd(a_k,a_{k+1})} + \\frac{1}{\\gcd(a_k,a_{k+2})} + \\cdots + \\frac{1}{\\gcd(a_k,a_n)}\\right)\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "id": "MXO-2020-P1",
+    "year": 2020,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "A set of five different positive integers is virtual if the gcd of any three elements exceeds 1, but the gcd of any four equals 1. Prove that in any virtual set, the product of all five elements has at least 2020 distinct positive divisors.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2020-P2",
+    "year": 2020,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(\\triangle ABC\\) have incenter \\(I\\). Line \\(BI\\) meets \\(AC\\) at \\(D\\). \\(P\\) is on \\(CI\\) with \\(DI = DP\\) (\\(P \\neq I\\)). \\(E\\) is the second intersection of segment \\(BC\\) with the circumcircle of \\(\\triangle ABD\\), and \\(Q\\) is the second intersection of line \\(EP\\) with the circumcircle of \\(\\triangle AEC\\). Prove \\(\\angle PDQ = 90^\\circ\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2020-P3",
+    "year": 2020,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Two players Ana and Beto play on a regular \\(n\\)-gon (\\(n \\geq 3\\)) with a turkey at each vertex. Ana labels the vertices 1 to \\(n\\) in any order. If Beto whistles, each turkey moves to the adjacent vertex with the greater label; if he claps, to the adjacent vertex with the smaller label. Beto wins if all turkeys ever reach the same vertex. For each \\(n \\geq 3\\), which player has a winning strategy?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2020-P4",
+    "year": 2020,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In a circular array of \\(n\\) boxes (\\(n \\geq 3\\)), each contains rock, paper, or scissors, with no two adjacent boxes the same and each type appearing at least once. A move: choose two adjacent boxes with different objects and move the loser to the winner's box. Prove that by applying moves enough times, all objects can be moved to the same box.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2020-P5",
+    "year": 2020,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A four-element set \\(\\{a, b, c, d\\}\\) of positive integers is good if two of them have a product divisible by the gcd of the other two. Find the greatest \\(n\\) such that any four-element set with elements at most \\(n\\) is good.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2020-P6",
+    "year": 2020,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(n \\geq 2\\) and let \\(x_1, x_2, \\ldots, x_n\\) be nonzero reals satisfying \\(\\left(x_1 + \\tfrac{1}{x_2}\\right)\\left(x_2 + \\tfrac{1}{x_3}\\right)\\cdots\\left(x_n + \\tfrac{1}{x_1}\\right) = \\left(x_1^2 + \\tfrac{1}{x_2^2}\\right)\\left(x_2^2 + \\tfrac{1}{x_3^2}\\right)\\cdots\\left(x_n^2 + \\tfrac{1}{x_1^2}\\right)\\). Find all possible values of \\(x_1, x_2, \\ldots, x_n\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

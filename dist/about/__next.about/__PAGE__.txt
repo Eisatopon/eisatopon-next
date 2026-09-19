@@ -1,5 +1,53 @@
 1:"$Sreact.fragment"
-2:I[484,[],"OutletBoundary"]
-3:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"style":{"maxWidth":"900px","margin":"0 auto","padding":"120px 24px","color":"#f5f1e8"},"children":[["$","h1",null,{"style":{"fontSize":"4rem","marginBottom":"2rem","fontFamily":"var(--font-playfair)"},"children":"About EisatoponAI"}],["$","div",null,{"style":{"fontSize":"1.15rem","lineHeight":1.9,"color":"#d6d0c4"},"children":[["$","p",null,{"children":"EisatoponAI is a premium mathematical editorial and problem-solving platform dedicated to the beauty of deep thinking."}],["$","p",null,{"children":"Founded from the long-running Eisatopon mathematical archive, the project combines rigorous mathematics, storytelling, olympiad culture, recreational problems, logic, geometry, number theory, combinatorics, paradoxes, and modern AI-assisted educational tools into a single intellectual space."}],["$","p",null,{"children":"Our goal is simple:"}],["$","p",null,{"children":"To make mathematics feel alive."}],["$","p",null,{"children":"Not as a collection of formulas, but as a language of structure, creativity, elegance, and discovery."}],["$","h2",null,{"style":{"marginTop":"4rem","marginBottom":"1rem","fontSize":"2rem","fontFamily":"var(--font-playfair)"},"children":"What We Publish"}],["$","p",null,{"children":"At EisatoponAI, we explore mathematics through multiple lenses:"}],["$","ul",null,{"style":{"paddingLeft":"1.5rem","marginTop":"1rem","lineHeight":2},"children":[["$","li",null,{"children":"Olympiad problems and advanced problem solving"}],["$","li",null,{"children":"Number theory, geometry, algebra, and combinatorics"}],["$","li",null,{"children":"Recreational mathematics and paradoxes"}],["$","li",null,{"children":"Historical mathematical stories"}],["$","li",null,{"children":"Mathematical philosophy and patterns of thought"}],["$","li",null,{"children":"AI and mathematics"}],["$","li",null,{"children":"Visual explanations and interactive learning"}]]}],["$","h2",null,{"style":{"marginTop":"4rem","marginBottom":"1rem","fontSize":"2rem","fontFamily":"var(--font-playfair)"},"children":"Our Mission"}],["$","p",null,{"children":"To turn mathematics into a daily intellectual adventure."}],["$","p",null,{"children":"To build a space where rigorous thinking meets curiosity, imagination, and modern digital storytelling."}],["$","p",null,{"children":"And to remind people that mathematics is not cold."}],["$","p",null,{"children":"It is one of humanity’s most creative achievements."}]]}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"lUwtERn8Zbwf-jsL8qm-N"}
-4:null
+3:I[8500,["8500","static/chunks/8500-3953cc33eeceb44e.js","7220","static/chunks/app/about/page-5d8d8cf3cd418fcc.js"],""]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+2:T4fa,
+        @keyframes pulse {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0.6; }
+        }
+        .ai-span {
+          color: #c9a227;
+          display: inline-block;
+          animation: pulse 2s ease-in-out infinite;
+        }
+        .about-title:hover .ai-span {
+          animation: none;
+          color: #e8c04a;
+        }
+        .about-title {
+          font-size: clamp(1.5rem, 5vw, 4rem);
+          margin-bottom: 2rem;
+          font-family: var(--font-playfair);
+          color: #f5f1e8;
+          cursor: pointer;
+          line-height: 1.15; white-space: nowrap;
+        }
+        .about-body {
+          font-size: clamp(1rem, 2.5vw, 1.15rem);
+          line-height: 1.9;
+          color: #d6d0c4;
+        }
+        .about-body p {
+          margin-bottom: 1.25rem;
+        }
+        .about-h2 {
+          margin-top: clamp(2.5rem, 6vw, 4rem);
+          margin-bottom: 1rem;
+          font-size: clamp(1.5rem, 5vw, 2rem);
+          font-family: var(--font-playfair);
+          color: #f5f1e8;
+        }
+        .about-list {
+          padding-left: 1.5rem;
+          margin-top: 1rem;
+          line-height: 2;
+        }
+        @media (max-width: 480px) {
+          .about-list {
+            padding-left: 1rem;
+          }
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"style":{"maxWidth":"900px","margin":"0 auto","padding":"clamp(80px, 10vw, 120px) clamp(20px, 5vw, 48px)","color":"#f5f1e8"},"children":[["$","style",null,{"children":"$2"}],["$","$L3",null,{"href":"/","style":{"textDecoration":"none"},"children":["$","h1",null,{"className":"about-title","children":["About Eisatopon",["$","span",null,{"className":"ai-span","children":"AI"}]]}]}],["$","div",null,{"className":"about-body","children":[["$","p",null,{"children":"EisatoponAI is a premium mathematical editorial and problem-solving platform dedicated to the beauty of deep thinking."}],["$","p",null,{"children":"Founded from the long-running Eisatopon mathematical archive, the project combines rigorous mathematics, storytelling, olympiad culture, recreational problems, logic, geometry, number theory, combinatorics, paradoxes, and modern AI-assisted educational tools into a single intellectual space."}],["$","p",null,{"children":"Our goal is simple:"}],["$","p",null,{"children":"To make mathematics feel alive."}],["$","p",null,{"children":"Not as a collection of formulas, but as a language of structure, creativity, elegance, and discovery."}],["$","h2",null,{"className":"about-h2","children":"What We Publish"}],["$","p",null,{"children":"At EisatoponAI, we explore mathematics through multiple lenses:"}],["$","ul",null,{"className":"about-list","children":[["$","li",null,{"children":"Olympiad problems and advanced problem solving"}],["$","li",null,{"children":"Number theory, geometry, algebra, and combinatorics"}],["$","li",null,{"children":"Recreational mathematics and paradoxes"}],["$","li",null,{"children":"Historical mathematical stories"}],["$","li",null,{"children":"Mathematical philosophy and patterns of thought"}],["$","li",null,{"children":"AI and mathematics"}],["$","li",null,{"children":"Visual explanations and interactive learning"}]]}],["$","h2",null,{"className":"about-h2","children":"Our Mission"}],["$","p",null,{"children":"To turn mathematics into a daily intellectual adventure."}],["$","p",null,{"children":"To build a space where rigorous thinking meets curiosity, imagination, and modern digital storytelling."}],["$","p",null,{"children":"And to remind people that mathematics is not cold."}],["$","p",null,{"children":"It is one of humanity's most creative achievements."}]]}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"tAWvituMjHThNSS8YYp73"}
+6:null

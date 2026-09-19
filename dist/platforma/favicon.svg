@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">MathTopon</title>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#1F4E7B"/>
+  <path d="M10 22 Q23 20 32 30 V49 Q23 41 10 42 Z M54 22 Q41 20 32 30 V49 Q41 41 54 42 Z" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="32" y="35.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="800" fill="#F0142F" stroke="#FFFFFF" stroke-width="3.5" paint-order="stroke">e</text>
+</svg>

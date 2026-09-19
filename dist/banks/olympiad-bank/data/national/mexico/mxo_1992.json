@@ -1,0 +1,129 @@
+[
+  {
+    "id": "MXO-1992-P1",
+    "year": 1992,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "The tetrahedron \\(OPQR\\) has \\(\\angle POQ = \\angle POR = \\angle QOR = 90^\\circ\\). \\(X, Y, Z\\) are the midpoints of \\(PQ, QR, RP\\) respectively. Show that the four faces of tetrahedron \\(OXYZ\\) have equal area.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1992-P2",
+    "year": 1992,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Given a prime number \\(p\\), how many 4-tuples \\((a, b, c, d)\\) of integers with \\(0 \\leq a, b, c, d \\leq p-1\\) satisfy \\(ad \\equiv bc \\pmod{p}\\)?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1992-P3",
+    "year": 1992,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Given 7 points inside or on a regular hexagon, show that three of them form a triangle with area at most \\(\\frac{1}{6}\\) the area of the hexagon.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1992-P4",
+    "year": 1992,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show that \\(1 + \\underbrace{11\\cdots1}_{4} + \\underbrace{11\\cdots1}_{6} + \\underbrace{11\\cdots1}_{8} + \\cdots + \\underbrace{11\\cdots1}_{20}\\) is divisible by 100.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1992-P5",
+    "year": 1992,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(x, y, z\\) be positive reals with \\(x + y + z = 3\\). Show that \\(\\sqrt{2x+3} + \\sqrt{2y+3} + \\sqrt{2z+3} > 6\\) and \\(\\sqrt{2x+3} + \\sqrt{2y+3} + \\sqrt{2z+3} \\leq 3\\sqrt{5}\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1992-P6",
+    "year": 1992,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "\\(ABCD\\) is a rectangle. \\(I\\) is the midpoint of \\(CD\\). \\(BI\\) meets \\(AC\\) at \\(M\\). Show that \\(DM\\) passes through the midpoint of \\(BC\\). Let \\(E\\) be a point outside the rectangle such that \\(AE = BE\\), \\(\\angle AEB = 90^\\circ\\), and \\(BE = BC = x\\). Show that \\(EM\\) bisects \\(\\angle AMB\\) and find the area of \\(AEBM\\) in terms of \\(x\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

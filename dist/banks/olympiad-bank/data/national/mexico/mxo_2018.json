@@ -1,0 +1,128 @@
+[
+  {
+    "id": "MXO-2018-P1",
+    "year": 2018,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(A, B\\) be on line \\(\\ell\\), \\(M\\) the midpoint of \\(AB\\), \\(X\\) another point on \\(AB\\). \\(\\Omega\\) is a semicircle with diameter \\(AB\\). \\(P\\) is on \\(\\Omega\\) and \\(\\Gamma\\) is the circle through \\(P, X\\) tangent to \\(\\ell\\). \\(Q\\) is the second intersection of \\(\\Omega\\) and \\(\\Gamma\\). The internal bisector of \\(\\angle PXQ\\) meets \\(\\Gamma\\) at \\(R\\). \\(Y\\) is on \\(\\ell\\) with \\(RY \\perp \\ell\\). Show \\(MX > XY\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2018-P2",
+    "year": 2018,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For each positive integer \\(m\\), define \\(L_m\\) as the L-shaped figure formed by overlapping a \\(1 \\times m\\) and an \\(m \\times 1\\) rectangle at one corner. These figures cover an \\(n \\times n\\) board completely (edges matching gridlines, pieces may overlap or extend). Find the minimum possible value of \\(m_1 + m_2 + \\cdots + m_k\\) over all such coverings.",
+    "has_figure": true,
+    "figure_description": "L-shaped figure L_m for m=1,2,3,4",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2018-P3",
+    "year": 2018,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A sequence \\(a_2, a_3, \\ldots, a_n\\) of positive integers is campechana if for each \\(i\\) with \\(2 \\leq i \\leq n\\), exactly \\(a_i\\) terms are relatively prime to \\(i\\). Let \\(m = p_1 p_2 \\cdots p_k\\) where \\(p_1, \\ldots, p_k\\) are distinct primes and \\(k \\geq 2\\). Show there exist at least two different campechana sequences of size \\(m\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2018-P4",
+    "year": 2018,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For each \\(k\\)-tuple of positive integers \\((a_1, \\ldots, a_k)\\) with \\(a_1 + \\cdots + a_k = n\\), define \\(S_i = 1 + 2 + \\cdots + a_i\\). Determine, in terms of \\(n\\), the maximum possible value of the product \\(S_1 S_2 \\cdots S_k\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2018-P5",
+    "year": 2018,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(n \\geq 5\\) be an integer. Nacho starts at a vertex of a regular \\(n\\)-gon and places a flag there. Moving clockwise, he successively moves 1, 2, 3, ..., \\(n-1\\) positions, placing a flag at each stop (total \\(n\\) flags). For which values of \\(n\\) does Nacho place a flag at each of the \\(n\\) vertices?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2018-P6",
+    "year": 2018,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABC\\) be an acute triangle with circumcircle \\(\\Omega\\). The angle bisectors of \\(\\angle B\\) and \\(\\angle C\\) meet \\(\\Omega\\) again at \\(M\\) and \\(N\\), and meet each other at \\(I\\). Let \\(M'\\) and \\(N'\\) be the reflections of \\(M\\) and \\(N\\) in \\(AC\\) and \\(AB\\) respectively. Prove the center of the circle through \\(I, M', N'\\) lies on the altitude from \\(A\\) in triangle \\(ABC\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

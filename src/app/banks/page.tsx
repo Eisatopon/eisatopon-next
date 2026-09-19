@@ -16,7 +16,7 @@ const banks = [
     border: "hover:border-gold/40",
   },
   {
-    href: "/banks/eme",
+    href: "/banks/eme-bank/",
     emoji: "🏛️",
     title: "Hellenic Mathematical Society",
     subtitle: "EME Competitions 1995–2025",

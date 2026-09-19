@@ -1,0 +1,128 @@
+[
+  {
+    "id": "MXO-2010-P1",
+    "year": 2010,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all triplets of natural numbers \\((a, b, c)\\) satisfying \\(abc = a + b + c + 1\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2010-P2",
+    "year": 2010,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "An \\(n \\times n\\) board has a light in each cell, all initially off. Each move toggles all lights in a row or all in a column. Show that if after some moves at least one light is on, then at that moment at least \\(n\\) lights are on.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2010-P3",
+    "year": 2010,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(C_1\\) and \\(C_2\\) be externally tangent at \\(A\\). A line tangent to \\(C_1\\) at \\(B\\) intersects \\(C_2\\) at \\(C\\) and \\(D\\); segment \\(AB\\) extended meets \\(C_2\\) at \\(E\\). Let \\(F\\) be the midpoint of arc \\(CD\\) not containing \\(E\\), and \\(H\\) the intersection of \\(BF\\) with \\(C_2\\). Show that \\(CD\\), \\(AF\\), and \\(EH\\) are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2010-P4",
+    "year": 2010,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In an \\(n \\times 4\\) table each row is \\((2, 0, 1, 0)\\). A change takes three consecutive cells in the same row with distinct digits and maps \\(0 \\to 1, 1 \\to 2, 2 \\to 0\\). Show that for \\(n < 12\\), no finite sequence of changes can make the column sums equal.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2010-P5",
+    "year": 2010,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABC\\) be an acute triangle with \\(AB \\neq AC\\), median \\(AM\\) to \\(BC\\), and orthocenter \\(H\\). The circumcircle of \\(\\triangle BHC\\) intersects median \\(AM\\) at \\(N\\). Show that \\(\\angle ANH = 90^\\circ\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2010-P6",
+    "year": 2010,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(p, q, r\\) be distinct positive primes. Show that if \\(pqr \\mid (pq)^r + (qr)^p + (rp)^q - 1\\), then \\((pqr)^3 \\mid 3\\bigl((pq)^r + (qr)^p + (rp)^q - 1\\bigr)\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

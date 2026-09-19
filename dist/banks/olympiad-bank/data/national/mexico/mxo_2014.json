@@ -1,0 +1,129 @@
+[
+  {
+    "id": "MXO-2014-P1",
+    "year": 2014,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Each integer from 1 to 4027 is colored green or red. Call \\(m\\) and \\(n\\) cuates if \\(m/n\\) or \\(n/m\\) is prime. A step changes the color of two cuates. Show there is a sequence of steps making every integer from 1 to 2014 green.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2014-P2",
+    "year": 2014,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A positive integer \\(a\\) reduces to \\(b\\) if \\(b = a / (\\text{units digit of } a)\\). For example, 2015 reduces to 403. Find all positive integers that eventually reach 1 after some reductions.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2014-P3",
+    "year": 2014,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(\\Gamma_1\\) be a circle, \\(P\\) outside it, tangents from \\(P\\) touching at \\(A\\) and \\(B\\). \\(M\\) is the midpoint of \\(PA\\), \\(\\Gamma_2\\) passes through \\(P, A, B\\). Line \\(BM\\) meets \\(\\Gamma_2\\) at \\(C\\), line \\(CA\\) meets \\(\\Gamma_1\\) at \\(D\\), segment \\(DB\\) meets \\(\\Gamma_2\\) at \\(E\\), and line \\(PE\\) meets \\(\\Gamma_1\\) at \\(F\\) (with \\(E\\) between \\(P\\) and \\(F\\)). Prove \\(AF\\), \\(BP\\), and \\(CE\\) are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2014-P4",
+    "year": 2014,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABCD\\) be a rectangle with diagonals \\(AC\\) and \\(BD\\). \\(E\\) is the intersection of the bisector of \\(\\angle CAD\\) with segment \\(CD\\), \\(F\\) on \\(CD\\) is such that \\(E\\) is the midpoint of \\(DF\\), and \\(G\\) on \\(BC\\) satisfies \\(BG = AC\\) (with \\(C\\) between \\(B\\) and \\(G\\)). Prove the circumcircle of \\(\\triangle DFG\\) is tangent to \\(BG\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2014-P5",
+    "year": 2014,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(a, b, c\\) be positive reals with \\(a + b + c = 3\\). Prove: \\(\\dfrac{a^2}{\\sqrt[3]{b + ca}} + \\dfrac{b^2}{\\sqrt[3]{c + ab}} + \\dfrac{c^2}{\\sqrt[3]{a + bc}} \\geq \\dfrac{3}{2}\\). Determine when equality holds.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2014-P6",
+    "year": 2014,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(d(n)\\) be the number of positive divisors of \\(n\\). Find all values of \\(n\\) such that \\(n + d(n) = d(n)^2\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "IDO-2024-P1",
+    "year": 2024,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all positive real solutions \\((a, b)\\) to: \\(\\sqrt{a} + \\sqrt{b} = 6\\) and \\(\\sqrt{a-5} + \\sqrt{b-5} = 4\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2024-P2",
+    "year": 2024,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A triple \\((a,b,c)\\) with \\(a < b < c\\) is fatal if there exist nonzero integers \\(p, q, r\\) with \\(a^p b^q c^r = 1\\). A positive integer \\(N\\) is fatal if some fatal triple sums to \\(N\\). (a) Prove 16 is not fatal. (b) Prove all integers \\(> 16\\) not divisible by 6 are fatal.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2024-P3",
+    "year": 2024,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Triangle \\(ABC\\) has circumcenter \\(O\\) and orthocenter \\(H\\). Lines \\(AH\\) and \\(BH\\) meet the circumcircle again at \\(D\\) and \\(E\\). Let \\(A'\\) and \\(B'\\) be the circumcenters of \\(\\triangle AHE\\) and \\(\\triangle BHD\\). If \\(A', B', O, H\\) are not collinear, prove \\(OH\\) passes through the midpoint of \\(A'B'\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2024-P4",
+    "year": 2024,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Two players start with 2024 and \\(A\\) on a board. Each turn, the current player replaces \\((P, Q)\\) with either \\((2P-Q, 2Q-P)\\) or \\((5P-4Q, 5Q-4P)\\). The game ends if a player writes a non-positive integer (that player loses). Given Kobar doesn't lose on his first move, find the largest \\(A\\) such that Borah can guarantee a win.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2024-P5",
+    "year": 2024,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Each integer is colored red, blue, or orange (all used). Rules: red + orange = blue, orange + blue = orange, blue + red = red. (a) Prove 0 and 1 have distinct colors. (b) Determine all possible colorings.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2024-P6",
+    "year": 2024,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(A_1 A_2 \\cdots A_n\\) be a convex polygon (\\(n \\geq 3\\), all angles \\(\\leq 180^\\circ\\)). For each \\(i\\), let \\(\\alpha_i\\) be the minimum of \\(\\angle A_i A_j A_{i+1}\\) over all \\(j \\neq i, i+1\\). Prove \\(\\alpha_1 + \\alpha_2 + \\cdots + \\alpha_n \\leq 180^\\circ\\) and determine all equality cases.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2024-P7",
+    "year": 2024,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(P(x) = x^n + a_{n-1}x^{n-1} + \\cdots + a_0\\) be a monic polynomial of degree \\(n \\geq 1\\) with real coefficients. If \\(3(P(x) + P(y)) \\geq P(x+y)\\) for all reals \\(x, y\\), find the minimum possible value of \\(P(2024)\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2024-P8",
+    "year": 2024,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(n \\geq 2\\) and \\(a_1, \\ldots, a_n\\) be distinct integers. For each \\(k\\), let \\(s_k = \\prod_{i \\neq k} |a_k - a_i|\\). Find the largest positive integer \\(M\\) such that \\(M\\) divides \\(\\text{lcm}(s_1, \\ldots, s_n)\\) for any choice of \\(a_1, \\ldots, a_n\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "MXO-2012-P1",
+    "year": 2012,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(C_1\\) have center \\(O\\), \\(P\\) on \\(C_1\\), and \\(\\ell\\) the tangent at \\(P\\). \\(Q\\) is on \\(\\ell\\) with \\(Q \\neq P\\), and \\(C_2\\) passes through \\(O, P, Q\\). Segment \\(OQ\\) meets \\(C_1\\) at \\(S\\), and line \\(PS\\) meets \\(C_2\\) again at \\(R\\). If \\(r_1, r_2\\) are the radii of \\(C_1, C_2\\), prove \\(\\dfrac{PS}{SR} = \\dfrac{r_1}{r_2}\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2012-P2",
+    "year": 2012,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let \\(n \\geq 4\\) be even. An \\(n \\times n\\) grid wraps around (opposite ends of rows and columns are neighbors). Each cell has an integer from 1 to 4. Rules: a cell with 2 has at least two neighbors with 1; a cell with 3 has at least three; a cell with 4 has all four neighbors with 1. What is the maximum possible sum of all cells?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2012-P3",
+    "year": 2012,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that among any 14 consecutive positive integers there exist 6 that are pairwise relatively prime.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2012-P4",
+    "year": 2012,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Apply this process to a positive integer \\(n\\): subtract the sum of its digits and divide by 9. Applying this repeatedly eventually gives 0; the last nonzero result is the 'house' of \\(n\\). How many integers less than 26000 have the same house as 2012?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2012-P5",
+    "year": 2012,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Red and green frogs move on an \\(11 \\times 11\\) grid: red frogs jump to cells at a knight's move landing on specific squares; green frogs similarly. Two frogs can meet if both can reach the same square in some number of jumps. (a) Prove that among any 6 frogs, two can meet. (b) For which \\(k\\) can one place one green and one red frog that can meet at exactly \\(k\\) squares?",
+    "has_figure": true,
+    "figure_description": "Grid with frog movement pattern",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2012-P6",
+    "year": 2012,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Acute triangle \\(ABC\\) has circumcircle \\(C\\), orthocenter \\(H\\), midpoint \\(M\\) of \\(BC\\). Lines \\(AH, BH, CH\\) meet \\(C\\) again at \\(D, E, F\\). Line \\(MH\\) meets \\(C\\) at \\(J\\) with \\(H\\) between \\(J\\) and \\(M\\). \\(K, L\\) are the incenters of \\(\\triangle DEJ\\) and \\(\\triangle DFJ\\). Prove \\(KL \\parallel BC\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ANO-2016-D1-1",
+    "year": 2016,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find an arithmetic progression of 2016 natural numbers such that none of them is a perfect power but their product is a perfect power.\n\nClarification: A perfect power is a number of the form \\(n^k\\) where \\(n, k \\geq 2\\) are natural numbers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260347"
+  },
+  {
+    "id": "ANO-2016-D1-2",
+    "year": 2016,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For an integer \\(m \\geq 3\\), define \\(S(m) = 1 + \\dfrac{1}{3} + \\dfrac{1}{4} + \\cdots + \\dfrac{1}{m}\\) (the term \\(\\tfrac{1}{2}\\) is excluded; all fractions \\(\\tfrac{1}{k}\\) for integers \\(k\\) from 3 to \\(m\\) are included). Let \\(n \\geq 3\\) and \\(k \\geq 3\\). Compare the quantities \\(S(nk)\\) and \\(S(n) + S(k)\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260347"
+  },
+  {
+    "id": "ANO-2016-D1-3",
+    "year": 2016,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Agustín and Lucas take turns marking a cell that has not yet been marked on a \\(101 \\times 101\\) grid. Agustín starts. A cell cannot be marked if it already has two marked cells in its row or in its column. The player who cannot make a move loses. Determine which player has a winning strategy.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260347"
+  },
+  {
+    "id": "ANO-2016-D2-4",
+    "year": 2016,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Find the angles of a convex quadrilateral \\(ABCD\\) such that \\(\\angle ABD = 29^\\circ\\), \\(\\angle ADB = 41^\\circ\\), \\(\\angle ACB = 82^\\circ\\), and \\(\\angle ACD = 58^\\circ\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260347"
+  },
+  {
+    "id": "ANO-2016-D2-5",
+    "year": 2016,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(a\\) and \\(b\\) be rational numbers such that \\(a + b = a^2 + b^2\\). Suppose the common value \\(s = a + b = a^2 + b^2\\) is not an integer, and write it as an irreducible fraction \\(s = \\dfrac{m}{n}\\). Let \\(p\\) be the smallest prime divisor of \\(n\\). Find the minimum value of \\(p\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260347"
+  },
+  {
+    "id": "ANO-2016-D2-6",
+    "year": 2016,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let \\(AB\\) be a segment of length 1. Several particles start simultaneously from \\(A\\) and move at constant speeds towards \\(B\\); as soon as a particle reaches \\(B\\) it turns around and heads to \\(A\\); when it reaches \\(A\\) it turns and moves towards \\(B\\) again, and so on indefinitely. Find all rational numbers \\(r > 1\\) such that there exists an instant \\(t\\) with the following property: for each \\(n \\geq 1\\), if \\(n+1\\) particles with constant speeds \\(1, r, r^2, \\ldots, r^n\\) move as described, at instant \\(t\\) they all lie at the same interior point of segment \\(AB\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260347"
+  }
+]

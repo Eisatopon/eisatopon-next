@@ -1,0 +1,171 @@
+[
+  {
+    "id": "IDO-2013-P1",
+    "year": 2013,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In a \\(4 \\times 6\\) grid, all edges and diagonals are drawn. Determine the number of parallelograms in the grid using only the drawn segments with no right angles.",
+    "has_figure": true,
+    "figure_description": "4x6 grid with all edges and diagonals",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2013-P2",
+    "year": 2013,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABC\\) be an acute triangle with circumcircle \\(\\omega\\). The bisector of \\(\\angle BAC\\) meets \\(\\omega\\) at \\(M\\). \\(P\\) is inside \\(\\triangle ABC\\) on segment \\(AM\\). Lines through \\(P\\) parallel to \\(AB\\) and \\(AC\\) meet \\(BC\\) at \\(E, F\\). Lines \\(ME, MF\\) meet \\(\\omega\\) at \\(K, L\\). Prove \\(AM, BL, CK\\) are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2013-P3",
+    "year": 2013,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Determine all positive real \\(M\\) such that for any positive reals \\(a, b, c\\), at least one of \\(a + \\dfrac{M}{ab}\\), \\(b + \\dfrac{M}{bc}\\), \\(c + \\dfrac{M}{ca}\\) is at least \\(1 + M\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2013-P4",
+    "year": 2013,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(p > 3\\) be prime and \\(S = \\displaystyle\\sum_{2 \\leq i < j < k \\leq p-1} ijk\\). Prove that \\(S + 1\\) is divisible by \\(p\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2013-P5",
+    "year": 2013,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(P\\) be a quadratic with positive leading coefficient and negative discriminant. Prove there exist quadratics \\(P_1, P_2, P_3\\) with positive leading coefficients and zero discriminants (each a perfect square), distinct double roots, such that \\(P(x) = P_1(x) + P_2(x) + P_3(x)\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2013-P6",
+    "year": 2013,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A positive integer \\(n\\) is strong if there exists a positive integer \\(x\\) such that \\(2^n \\mid x^n x + 1\\). (a) Prove 2013 is strong. (b) If \\(m\\) is strong, find the smallest \\(y\\) (in terms of \\(m\\)) such that \\(2^m \\mid y^{my} + 1\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2013-P7",
+    "year": 2013,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABCD\\) be a parallelogram. Construct squares \\(ABC_1D_1\\), \\(BCD_2A_2\\), \\(CDA_3B_3\\), \\(DAB_4C_4\\) on the outer side. Construct a square with \\(B_4D_1\\) as a side (outside \\(AB_4D_1\\)) with center \\(O_A\\), and similarly get \\(O_B, O_C, O_D\\) for \\(C_1A_2\\), \\(D_2B_3\\), \\(A_3C_4\\). Prove \\(AO_A = BO_B = CO_C = DO_D\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2013-P8",
+    "year": 2013,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "A set \\(A\\) of positive integers is balanced if the number of 3-element subsets summing to a multiple of 3 equals the number of 3-element subsets not summing to a multiple of 3. (a) Find a 9-element balanced set. (b) Prove no 2013-element set is balanced.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

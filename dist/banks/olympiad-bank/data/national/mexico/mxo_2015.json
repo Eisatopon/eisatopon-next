@@ -1,0 +1,129 @@
+[
+  {
+    "id": "MXO-2015-P1",
+    "year": 2015,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABC\\) be an acute triangle with orthocenter \\(H\\). Let \\(PQ\\) be a segment through \\(H\\) with \\(P\\) on \\(AB\\) and \\(Q\\) on \\(AC\\), such that \\(\\angle PHB = \\angle CHQ\\). Let \\(M\\) be the midpoint of arc \\(BC\\) not containing \\(A\\) on the circumcircle of \\(\\triangle ABC\\). Prove that \\(MP = MQ\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2015-P2",
+    "year": 2015,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "On an \\(n \\times n\\) board, draw \\(k\\) rectangles with integer side lengths, sides parallel to the board, each covering the top-right corner. Paint each rectangle black. How many different white figures can be produced with \\(k\\) rectangles that cannot be produced with fewer than \\(k\\) rectangles?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2015-P3",
+    "year": 2015,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "Let \\(f : \\mathbb{N} \\to \\mathbb{N}\\) satisfy \\(f(1) = 1\\) and \\(f(a + b + ab) = a + b + f(ab)\\) for all positive integers \\(a, b\\). Find \\(f(2015)\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2015-P4",
+    "year": 2015,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Mary writes all \\(n^3\\) triples of integers between 1 and \\(n\\) (inclusive, not necessarily distinct) on a board. For each triple, she erases all but the greatest element. Show that the total count of remaining numbers cannot be a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2015-P5",
+    "year": 2015,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(I\\) be the incenter of an acute triangle \\(ABC\\). Line \\(AI\\) meets the circumcircle of \\(\\triangle BIC\\) again at \\(E\\). Let \\(D\\) be the foot of the altitude from \\(A\\) to \\(BC\\), and \\(J\\) the reflection of \\(I\\) across \\(BC\\). Show that \\(D\\), \\(J\\), and \\(E\\) are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2015-P6",
+    "year": 2015,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(n\\) be a positive integer with divisors \\(d_1, d_2, \\ldots, d_k\\). Consider \\(f(n) = (-1)^{d_1}d_1 + (-1)^{d_2}d_2 + \\cdots + (-1)^{d_k}d_k\\). Assume \\(f(n)\\) is a power of 2. Show that if \\(m > 1\\), then \\(m^2 \\nmid n\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

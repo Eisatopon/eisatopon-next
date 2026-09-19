@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ANO-2011-D1-1",
+    "year": 2011,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For \\(k = 1, 2, \\ldots, 2011\\) we denote \\(S_k = \\dfrac{1}{k} + \\dfrac{1}{k+1} + \\cdots + \\dfrac{1}{2011}\\). Compute the sum \\(S_1 + S_1^2 + S_2^2 + \\cdots + S_{2011}^2\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, Argentina National Olympiad 2011"
+  },
+  {
+    "id": "ANO-2011-D1-2",
+    "year": 2011,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Three players \\(A\\), \\(B\\), and \\(C\\) take turns removing stones from a pile of \\(N\\) stones, in the order \\(A, B, C, A, B, C, \\ldots\\). The player who takes the last stone loses. Players \\(A\\) and \\(C\\) team up against \\(B\\) and agree on a joint strategy. Player \\(B\\) can take 1, 2, 3, 4, or 5 stones per turn; players \\(A\\) and \\(C\\) can each take 1, 2, or 3 stones per turn. Determine for which values of \\(N\\) players \\(A\\) and \\(C\\) have a winning strategy, and for which values the winning strategy belongs to \\(B\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, Argentina National Olympiad 2011"
+  },
+  {
+    "id": "ANO-2011-D1-3",
+    "year": 2011,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABC\\) be a triangle with \\(\\angle A = 90^\\circ\\), \\(\\angle B = 75^\\circ\\), and \\(AB = 2\\). Points \\(P\\) and \\(Q\\) lie on sides \\(AC\\) and \\(BC\\) respectively such that \\(\\angle APB = \\angle CPQ\\) and \\(\\angle BQA = \\angle CQP\\). Calculate the length of segment \\(QA\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, Argentina National Olympiad 2011"
+  },
+  {
+    "id": "ANO-2011-D2-4",
+    "year": 2011,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For each natural number \\(n\\), let \\(a_n\\) be the greatest perfect square less than or equal to \\(n\\), and \\(b_n\\) the least perfect square greater than \\(n\\). For example, \\(a_9 = 3^2\\), \\(b_9 = 4^2\\) and \\(a_{20} = 4^2\\), \\(b_{20} = 5^2\\). Calculate\n\\[\\frac{1}{a_1 b_1} + \\frac{1}{a_2 b_2} + \\frac{1}{a_3 b_3} + \\cdots + \\frac{1}{a_{600} b_{600}}.\\]",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, Argentina National Olympiad 2011"
+  },
+  {
+    "id": "ANO-2011-D2-5",
+    "year": 2011,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all integers \\(n\\) such that \\(1 < n < 10^6\\) and \\(n^3 - 1\\) is divisible by \\(10^6 n - 1\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, Argentina National Olympiad 2011"
+  },
+  {
+    "id": "ANO-2011-D2-6",
+    "year": 2011,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "We have a square of side 1 and a number \\(\\ell\\) with \\(0 < \\ell < \\sqrt{2}\\). Two players \\(A\\) and \\(B\\) take turns drawing in the square an open segment (without its endpoints) of length \\(\\ell\\); \\(A\\) starts. Each segment drawn after the first cannot have any point in common with previously drawn segments. The player who cannot make a move loses. Determine if either player has a winning strategy.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, Argentina National Olympiad 2011"
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "id": "IDO-2021-P1",
+    "year": 2021,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "On a whiteboard: \\(1\\ 2\\ 3\\ 4\\ 5\\ 6\\ 7\\ 8\\ 9\\). Place a \\(+\\) or \\(-\\) between each pair of consecutive numbers and compute the value. Determine the least odd positive integer that cannot be obtained.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2021-P2",
+    "year": 2021,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABC\\) be an acute triangle. \\(D, E\\) are midpoints of \\(AB, AC\\). \\(L_1\\) is the circumcircle of \\(\\triangle ABC\\) and \\(L_2\\) of \\(\\triangle ADE\\). Line \\(CD\\) meets \\(L_1\\) at \\(M \\neq C\\) and \\(L_2\\) at \\(N \\neq D\\). If \\(DM = DN\\), prove \\(\\triangle ABC\\) is isosceles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2021-P3",
+    "year": 2021,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A natural number is a prime power if it can be written as \\(p^n\\) for prime \\(p\\) and natural \\(n\\). Find the largest \\(n\\) such that there exists a sequence of prime powers \\(a_1, a_2, \\ldots, a_n\\) with \\(a_i = a_{i-1} + a_{i-2}\\) for all \\(3 \\leq i \\leq n\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2021-P4",
+    "year": 2021,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(x, y, z > 0\\) with \\(x + y + z = 3\\). Prove that \\(\\sqrt{2\\sqrt{x} + \\sqrt{y}} + \\sqrt{2\\sqrt{y} + \\sqrt{z}} + \\sqrt{2\\sqrt{z} + \\sqrt{x}} \\leq \\sqrt{8+x-y} + \\sqrt{8+y-z} + \\sqrt{8+z-x}\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2021-P5",
+    "year": 2021,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(P(x) = x^2 + rx + s\\) have two distinct real roots, both less than \\(-1\\) and differing by less than 2. Prove that \\(P(P(x)) > 0\\) for all real \\(x\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2021-P6",
+    "year": 2021,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "There are \\(n\\) natural numbers on a board. Each move: erase \\(a, b\\) and replace with \\(\\gcd(a,b)\\) and \\(\\text{lcm}(a,b) - \\gcd(a,b)\\). Prove that in finitely many moves, all numbers can be made equal.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2021-P7",
+    "year": 2021,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given \\(\\triangle ABC\\) with circumcircle \\(\\ell\\). \\(M\\) inside \\(\\triangle ABC\\) is such that \\(AM\\) is the angle bisector of \\(\\angle BAC\\). Circle with center \\(M\\) and radius \\(MB\\) meets \\(\\ell\\) at \\(D\\) and \\(BC\\) at \\(E\\) (\\(B \\neq D, E\\)). Let \\(P\\) be the midpoint of arc \\(BC\\) not containing \\(A\\). Prove \\(AP\\) bisects \\(\\angle DPE\\) if and only if \\(\\angle B = 90^\\circ\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2021-P8",
+    "year": 2021,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "On a \\(100 \\times 100\\) board, place several \\(1 \\times 3\\) and \\(3 \\times 1\\) boards covering the entire board except one cell, with sides parallel. Let \\(H\\) = number of \\(1 \\times 3\\) boards, \\(V\\) = number of \\(3 \\times 1\\). Determine all possible pairs \\((H, V)\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "id": "MXO-1995-P1",
+    "year": 1995,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics",
+      "Algebra"
+    ],
+    "statement": "\\(N\\) students are seated at desks in an \\(m \\times n\\) array, where \\(m, n \\geq 3\\). Each student shakes hands with all students adjacent horizontally, vertically, or diagonally. If there are 1020 handshakes, what is \\(N\\)?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1995-P2",
+    "year": 1995,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry",
+      "Combinatorics"
+    ],
+    "statement": "Consider 6 points in the plane such that 8 of the \\(\\binom{6}{2} = 15\\) distances between them equal 1. Prove that there are at least 3 points forming an equilateral triangle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1995-P3",
+    "year": 1995,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "\\(A, B, C, D\\) are consecutive vertices of a regular heptagon. \\(AL\\) and \\(AM\\) are tangents to the circle with center \\(C\\) and radius \\(CB\\). \\(N\\) is the intersection of \\(AC\\) and \\(BD\\). Show that \\(L, M, N\\) are collinear.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1995-P4",
+    "year": 1995,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Find 26 elements of \\(\\{1, 2, 3, \\ldots, 40\\}\\) such that the product of any two of them is never a perfect square. Show that one cannot find 27 such elements.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1995-P5",
+    "year": 1995,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "\\(ABCDE\\) is a convex pentagon such that triangles \\(ABC, BCD, CDE, DEA, EAB\\) have equal areas. Show that \\(\\frac{1}{4}[ABCDE] < [ABC] < \\frac{1}{3}[ABCDE]\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1995-P6",
+    "year": 1995,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A 0 or 1 is placed in each square of a \\(4 \\times 4\\) board. One may change all symbols in a row, all in a column, or all in a diagonal (there are 14 diagonals of lengths 1 to 4). For which initial arrangements can one make all squares 0?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

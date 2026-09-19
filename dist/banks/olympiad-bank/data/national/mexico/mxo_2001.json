@@ -1,0 +1,128 @@
+[
+  {
+    "id": "MXO-2001-P1",
+    "year": 2001,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all 7-digit numbers that are multiples of 21 and have each digit equal to 3 or 7.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2001-P2",
+    "year": 2001,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Given colored balls (at least three different colors) and at least three boxes, with no box empty and no three balls of different colors in three different boxes. Show there is a box such that all balls in all other boxes have the same color.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2001-P3",
+    "year": 2001,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "\\(ABCD\\) is a cyclic quadrilateral. \\(M\\) is the midpoint of \\(CD\\) and \\(P\\) is the intersection of the diagonals. A circle through \\(P\\) touching \\(CD\\) at \\(M\\) meets \\(AC\\) again at \\(R\\) and \\(BD\\) again at \\(Q\\). \\(S\\) on \\(BD\\) satisfies \\(BS = DQ\\). The line through \\(S\\) parallel to \\(AB\\) meets \\(AC\\) at \\(T\\). Show \\(AT = RC\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2001-P4",
+    "year": 2001,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For positive integers \\(n, m\\), define \\(f(n, m)\\) using the sequence \\(a_1 = m\\) and \\(a_{k+1} \\equiv a_k^2 \\pmod{n}\\), then \\(f(n,m) = a_1 - a_2 + a_3 - \\cdots + a_{2001}\\). For which \\(n \\geq 5\\) can we find \\(m\\) with \\(2 \\leq m \\leq n/2\\) and \\(f(m, n) > 0\\)?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2001-P5",
+    "year": 2001,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Triangle \\(ABC\\) has \\(AB < AC\\) and \\(\\angle A = 2\\angle C\\). \\(D\\) is on \\(AC\\) with \\(CD = AB\\). Let \\(L\\) be the line through \\(B\\) parallel to \\(AC\\), \\(M\\) its intersection with the external bisector of \\(\\angle A\\), and \\(N\\) its intersection with the line through \\(C\\) parallel to \\(AB\\). Show \\(MD = ND\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2001-P6",
+    "year": 2001,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A collector has coins of denominations \\(1, 2, \\ldots, n\\). He wishes to put them into 5 boxes so that: (1) each box has at most one coin of each denomination; (2) each box has the same number of coins and same total; (3) any two boxes together contain all denominations; (4) no denomination appears in all 5 boxes. For which \\(n\\) is this possible?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

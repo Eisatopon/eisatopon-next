@@ -1,0 +1,129 @@
+[
+  {
+    "id": "MXO-2023-P1",
+    "year": 2023,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all four-digit positive integers such that the sum of the squares of the digits equals twice the sum of the digits.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2023-P2",
+    "year": 2023,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "The numbers 1 to 2000 are placed on the vertices of a regular 2000-gon so that: if \\(1 \\leq A < B < C < D \\leq 2000\\), then segments joining vertices \\(A, B\\) and vertices \\(C, D\\) do not intersect inside the polygon. Prove there exists a perfect square such that the number diametrically opposite to it is not a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2023-P3",
+    "year": 2023,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABCD\\) be a convex quadrilateral. \\(M, N, K\\) are the midpoints of \\(AB, BC, CD\\) respectively. Point \\(P\\) inside \\(ABCD\\) satisfies \\(\\angle BPN = \\angle PAD\\) and \\(\\angle CPN = \\angle PDA\\). Show \\(AB \\cdot CD = 4PM \\cdot PK\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2023-P4",
+    "year": 2023,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "For each number from 1 to \\(n\\) there is a card (black or white). A move: for two cards of different number and different color, replace the card with the smaller number by a copy of the other. Determine in terms of \\(n\\) all possible lengths of sequences of moves from any initial configuration to one where no move is possible.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2023-P5",
+    "year": 2023,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(\\triangle ABC\\) be acute with circumcircle \\(\\Gamma\\) and circumcenter \\(O\\). \\(F\\) is on \\(AC\\) with \\(\\angle COF = \\angle ACB\\) (\\(F\\) and \\(B\\) on opposite sides of \\(CO\\)). Line \\(FO\\) meets \\(BC\\) at \\(G\\). The line parallel to \\(BC\\) through \\(A\\) meets \\(\\Gamma\\) at \\(M\\). Lines \\(CO\\) and \\(MG\\) meet at \\(K\\). Show the circumcircles of \\(\\triangle BGK\\) and \\(\\triangle AOK\\) meet on \\(AB\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2023-P6",
+    "year": 2023,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all functions \\(f : \\mathbb{N} \\to \\mathbb{N}\\) such that for all positive integers \\(m, n\\): \\(f(m+n) \\mid f(m) + f(n)\\) and \\(f(m)f(n) \\mid f(mn)\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

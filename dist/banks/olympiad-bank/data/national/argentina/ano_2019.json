@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ANO-2019-D1-1",
+    "year": 2019,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A set of distinct positive integers is called singular if, for each of its elements, after removing that element, the remaining elements can be partitioned into two disjoint sets with equal sums. Find the smallest positive integer \\(n > 1\\) such that there exists a singular set with \\(n\\) elements.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260339"
+  },
+  {
+    "id": "ANO-2019-D1-2",
+    "year": 2019,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(n \\geq 1\\) be an integer. We have two sequences of \\(n\\) positive real numbers \\(a_1, a_2, \\ldots, a_n\\) and \\(b_1, b_2, \\ldots, b_n\\) such that \\(a_1 + a_2 + \\cdots + a_n = 1\\) and \\(b_1 + b_2 + \\cdots + b_n = 1\\). Find the smallest possible value of the sum\n\\[\\frac{a_1^2}{a_1 + b_1} + \\frac{a_2^2}{a_2 + b_2} + \\cdots + \\frac{a_n^2}{a_n + b_n}.\\]",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260339"
+  },
+  {
+    "id": "ANO-2019-D1-3",
+    "year": 2019,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In triangle \\(ABC\\) it is known that \\(\\angle ACB = 2\\angle ABC\\). Furthermore \\(P\\) is an interior point of triangle \\(ABC\\) such that \\(AP = AC\\) and \\(PB = PC\\). Prove that \\(\\angle BAC = 3\\angle BAP\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260339"
+  },
+  {
+    "id": "ANO-2019-D2-4",
+    "year": 2019,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Given a set \\(M\\) of 2019 real numbers such that for every pair \\(a, b \\in M\\) the expression \\(a^2 + b\\sqrt{2}\\) is rational, show that for every \\(a \\in M\\), the number \\(a\\sqrt{2}\\) is rational.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260339"
+  },
+  {
+    "id": "ANO-2019-D2-5",
+    "year": 2019,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "There exists an arithmetic progression of 7 terms in which all terms are distinct prime numbers. Determine the smallest possible value of the last term of such a progression.\n\nClarification: In an arithmetic progression with common difference \\(d\\), each term equals the previous one plus \\(d\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260339"
+  },
+  {
+    "id": "ANO-2019-D2-6",
+    "year": 2019,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "The natural numbers from 1 to 300 are placed at equal spacing around a circle. An ordering is called alternate if each number is either less than both its neighbors or greater than both its neighbors. A pair of neighboring numbers is called a good pair if, by removing that pair from the circle, the remaining numbers form an alternate ordering. Determine the least possible number of good pairs in an alternate ordering of the numbers 1 to 300.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260339"
+  }
+]

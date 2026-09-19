@@ -1,0 +1,129 @@
+[
+  {
+    "id": "MXO-2024-P1",
+    "year": 2024,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "There are 6 colorings of a \\(1 \\times 1\\) square divided into four \\(\\frac{1}{2} \\times \\frac{1}{2}\\) cells using four different colors (two colorings equal if one is a rotation of the other). Each coloring is a puzzle piece; pieces can be rotated but not reflected. Two adjacent pieces fit if matching half-cells share the same color. Is it possible to assemble a \\(3 \\times 2\\) puzzle using each piece exactly once so all adjacent pieces fit?",
+    "has_figure": true,
+    "figure_description": "6 colorings of a 1x1 square divided into four quarter-cells",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2024-P2",
+    "year": 2024,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine all pairs \\((a, b)\\) of integers satisfying: (1) \\(5 \\leq b < a\\); (2) there exists a natural number \\(n\\) such that \\(ab\\) and \\(a - b\\) are consecutive divisors of \\(n\\) in that order.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2024-P3",
+    "year": 2024,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABCDEF\\) be a convex hexagon with midpoints \\(A_1, B_1, C_1, D_1, E_1, F_1\\) of sides \\(AB, BC, CD, DE, EF, FA\\). Construct \\(A_2, B_2, C_2, D_2, E_2, F_2\\) in the interior of \\(A_1B_1C_1D_1E_1F_1\\) such that: (1) all sides of the 12-gon \\(A_2A_1B_2B_1C_2C_1D_2D_1E_2E_1F_2F_1\\) are equal; (2) \\(\\angle A_1B_2B_1 + \\angle C_1D_2D_1 + \\angle E_1F_2F_1 = \\angle B_1C_2C_1 + \\angle D_1E_2E_1 + \\angle F_1A_2A_1 = 360^\\circ\\). Prove that \\(A_2B_2C_2D_2E_2F_2\\) is cyclic.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2024-P4",
+    "year": 2024,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABC\\) be an acute triangle with orthocenter \\(H\\). Let \\(M\\) be a point on segment \\(BC\\). The line through \\(M\\) perpendicular to \\(BC\\) meets lines \\(BH\\) and \\(CH\\) at \\(P\\) and \\(Q\\) respectively. Prove the orthocenter of \\(\\triangle HPQ\\) lies on line \\(AM\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2024-P5",
+    "year": 2024,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(A\\) and \\(B\\) be infinite sets of positive real numbers such that: (1) for any \\(u \\geq v\\) in \\(A\\), \\(u + v \\in B\\); (2) for any \\(s > t\\) in \\(B\\), \\(s - t \\in A\\). Prove that either \\(A = B\\) or there exists \\(r > 0\\) such that \\(B = \\{2r, 3r, 4r, 5r, \\ldots\\}\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2024-P6",
+    "year": 2024,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "All integers from 1 to 2024 are written on a board. On each turn, Ana chooses three numbers \\(a, b, c\\) on the board; Beto erases them and writes one of \\(a+b-c\\), \\(a-b+c\\), or \\(-a+b+c\\). The game ends when two numbers remain. If their sum is a multiple of 3, Beto wins; otherwise Ana wins. Who has a winning strategy?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

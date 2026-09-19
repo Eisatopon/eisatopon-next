@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ANO-2002-D1-1",
+    "year": 2002,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A computer screen initially shows two 1s. Each time Enter is pressed, the sum of each adjacent pair of numbers is inserted between them. In the first step, one number is inserted giving \\(1\\,-\\,2\\,-\\,1\\); in the second step two numbers are inserted giving \\(1\\,-\\,3\\,-\\,2\\,-\\,3\\,-\\,1\\); in the third step four numbers are inserted giving \\(1\\,-\\,4\\,-\\,3\\,-\\,5\\,-\\,2\\,-\\,5\\,-\\,3\\,-\\,4\\,-\\,1\\); etc. Find the sum of all the numbers that appear on the screen at the end of step number 25.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828532"
+  },
+  {
+    "id": "ANO-2002-D1-2",
+    "year": 2002,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine the smallest positive integer \\(k\\) such that the equation\n\\[2002x + 273y = 200201 + k\\]\nhas integer solutions, and for that value of \\(k\\), find the number of solutions \\((x, y)\\) with both \\(x\\) and \\(y\\) positive integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828532"
+  },
+  {
+    "id": "ANO-2002-D1-3",
+    "year": 2002,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In a circle \\(\\Gamma\\), a chord \\(PQ\\) is considered such that the segment joining the midpoint of the minor arc \\(PQ\\) and the midpoint of segment \\(PQ\\) has length 1. Let \\(\\Gamma_1\\), \\(\\Gamma_2\\), and \\(\\Gamma_3\\) be three circles tangent to chord \\(PQ\\), all lying on the same side as the center of \\(\\Gamma\\) with respect to line \\(PQ\\). Furthermore, \\(\\Gamma_1\\) and \\(\\Gamma_3\\) are internally tangent to \\(\\Gamma\\) and externally tangent to \\(\\Gamma_2\\), and the centers of \\(\\Gamma_1\\) and \\(\\Gamma_3\\) lie on opposite sides of the line through the centers of \\(\\Gamma\\) and \\(\\Gamma_2\\). If the sum of the radii of \\(\\Gamma_1\\), \\(\\Gamma_2\\), and \\(\\Gamma_3\\) equals the radius of \\(\\Gamma\\), calculate the radius of \\(\\Gamma_2\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828532"
+  },
+  {
+    "id": "ANO-2002-D2-4",
+    "year": 2002,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Initially, all integers from 1 to 2002 are written in a line in some order without repetition. In each step, the first and second numbers of the line are deleted and the absolute value of their difference is written at the beginning; the other numbers are unchanged. After 2001 steps, only one number remains. Determine all possible values of this final number, over all possible initial orderings of the 2002 numbers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828532"
+  },
+  {
+    "id": "ANO-2002-D2-5",
+    "year": 2002,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(\\triangle ABC\\) be an isosceles triangle with \\(AC = BC\\). Points \\(D\\), \\(E\\), \\(F\\) lie on \\(BC\\), \\(CA\\), \\(AB\\) respectively, with \\(AF > BF\\), and the quadrilateral \\(CEFD\\) is a parallelogram. The perpendicular to \\(BC\\) through \\(B\\) intersects the perpendicular bisector of \\(AB\\) at \\(G\\). Prove that \\(DE \\perp FG\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828532"
+  },
+  {
+    "id": "ANO-2002-D2-6",
+    "year": 2002,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(P_1, P_2, \\ldots, P_n\\) be infinite arithmetic progressions of positive integers with common differences \\(d_1, d_2, \\ldots, d_n\\) respectively. Prove that if every positive integer appears in at least one of the \\(n\\) progressions, then one of the differences \\(d_i\\) divides the least common multiple of the remaining \\(n-1\\) differences.\n\nNote: \\(P_i = \\{a_i, a_i + d_i, a_i + 2d_i, \\ldots\\}\\) with \\(a_i\\) and \\(d_i\\) positive integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3828532"
+  }
+]

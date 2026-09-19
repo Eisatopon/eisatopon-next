@@ -1,0 +1,128 @@
+[
+  {
+    "id": "MXO-2004-P1",
+    "year": 2004,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all prime numbers \\(p, q, r\\) with \\(p < q < r\\) such that \\(25pq + r = 2004\\) and \\(pqr + 1\\) is a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2004-P2",
+    "year": 2004,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the maximum number of positive integers such that any two of them, \\(a\\) and \\(b\\) with \\(a \\neq b\\), satisfy \\(|a - b| \\geq \\frac{ab}{100}\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2004-P3",
+    "year": 2004,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(Z\\) and \\(Y\\) be the tangency points of the incircle of triangle \\(ABC\\) with sides \\(AB\\) and \\(CA\\) respectively. The line parallel to \\(YZ\\) through the midpoint \\(M\\) of \\(BC\\) meets \\(CA\\) at \\(N\\). Let \\(L\\) on \\(CA\\) satisfy \\(NL = AB\\) with \\(L\\) on the same side of \\(N\\) as \\(A\\). Line \\(ML\\) meets \\(AB\\) at \\(K\\). Prove \\(KA = NC\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2004-P4",
+    "year": 2004,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In a round-robin soccer tournament with no draws, for any three teams \\(A, B, C\\): if \\(A\\) beat \\(B\\) and \\(B\\) beat \\(C\\), then \\(A\\) beat \\(C\\). Each team computed the positive difference between wins and losses. The sum of all these differences was 5000. How many teams played?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2004-P5",
+    "year": 2004,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(\\omega_1\\) and \\(\\omega_2\\) be two circles such that the center \\(O\\) of \\(\\omega_2\\) lies on \\(\\omega_1\\). They intersect at \\(C\\) and \\(D\\). \\(A\\) is on \\(\\omega_1\\) with \\(AC\\) tangent to \\(\\omega_2\\); \\(B\\) is on \\(\\omega_2\\) with \\(BC\\) tangent to \\(\\omega_1\\). Line \\(AB\\) meets \\(\\omega_2\\) again at \\(E\\) and \\(\\omega_1\\) again at \\(F\\). Line \\(CE\\) meets \\(\\omega_1\\) again at \\(G\\); line \\(CF\\) meets line \\(GD\\) at \\(H\\). Prove the intersection of \\(GO\\) and \\(EH\\) is the circumcenter of \\(\\triangle DEF\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2004-P6",
+    "year": 2004,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "What is the maximum number of direction changes in a path traveling on the edges of a \\(2004 \\times 2004\\) rectangular grid, if the path does not cross itself?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

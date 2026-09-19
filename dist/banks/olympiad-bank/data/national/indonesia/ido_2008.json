@@ -1,0 +1,171 @@
+[
+  {
+    "id": "IDO-2008-P1",
+    "year": 2008,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given triangle \\(ABC\\). Points \\(D, E, F\\) outside \\(\\triangle ABC\\) are chosen such that \\(\\triangle ABD\\), \\(\\triangle BCE\\), and \\(\\triangle CAF\\) are equilateral. Prove that the circumcircles of these three triangles are concurrent.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2008-P2",
+    "year": 2008,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Prove that for \\(x, y \\in \\mathbb{R}^+\\), \\(\\dfrac{1}{(1+\\sqrt{x})^2} + \\dfrac{1}{(1+\\sqrt{y})^2} \\geq \\dfrac{2}{x+y+2}\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2008-P3",
+    "year": 2008,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all natural numbers expressible as \\(\\dfrac{a+b}{c} + \\dfrac{b+c}{a} + \\dfrac{c+a}{b}\\) where \\(a, b, c \\in \\mathbb{N}\\) with \\(\\gcd(a,b) = \\gcd(b,c) = \\gcd(c,a) = 1\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2008-P4",
+    "year": 2008,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "Let \\(A = \\{1, 2, \\ldots, 2008\\}\\). (a) Find the number of subsets of \\(A\\) whose product is divisible by 7. (b) Let \\(N(i)\\) be the number of subsets of \\(A\\) whose sum is \\(\\equiv i \\pmod{7}\\). Prove that \\(N(0) - N(1) + N(2) - N(3) + N(4) - N(5) + N(6) = 0\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2008-P5",
+    "year": 2008,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(m, n > 1\\) be integers with \\(n \\mid 4^m - 1\\) and \\(2^m \\mid n - 1\\). Must \\(n = 2^m + 1\\)?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2008-P6",
+    "year": 2008,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In a group of 21 persons, every two persons communicate with a unique radio frequency (some pairs may not communicate). Among every 3 persons, exactly two of them do not communicate. Determine the maximum number of frequencies required.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2008-P7",
+    "year": 2008,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given triangle \\(ABC\\) with side lengths \\(a, b, c\\). The tangent lines to the incircle parallel to the sides form three small triangles, one at each vertex. Prove that the sum of the areas of the incircles of these three small triangles plus the area of the incircle of \\(\\triangle ABC\\) equals \\(\\dfrac{\\pi(a^2+b^2+c^2)(b+c-a)(c+a-b)(a+b-c)}{(a+b+c)^3}\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2008-P8",
+    "year": 2008,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all functions \\(f : \\mathbb{N} \\to \\mathbb{N}\\) satisfying \\(f(mn) + f(m+n) = f(m)f(n) + 1\\) for all natural numbers \\(m, n\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

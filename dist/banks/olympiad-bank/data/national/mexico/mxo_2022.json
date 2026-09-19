@@ -1,0 +1,128 @@
+[
+  {
+    "id": "MXO-2022-P1",
+    "year": 2022,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A number \\(x\\) is Tlahuica if there exist primes \\(p_1, p_2, \\ldots, p_k\\) such that \\(x = \\frac{1}{p_1} + \\frac{1}{p_2} + \\cdots + \\frac{1}{p_k}\\). Find the largest Tlahuica \\(x\\) with \\(0 < x < 1\\) such that there exists a positive integer \\(m \\leq 2022\\) with \\(mx\\) an integer.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2022-P2",
+    "year": 2022,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "\\(n\\) is a positive integer. David arranges six \\(n \\times n\\) chessboards into an \\(n \\times n \\times n\\) cube. Two cells are aligned if they can be connected by a path where each pair of consecutive cells shares a side and those sides are on opposite sides of the cell. Two towers attack each other if their cells are aligned. What is the maximum number of non-attacking towers?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2022-P3",
+    "year": 2022,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(n > 1\\) be an integer with divisors \\(d_1 < d_2 < \\cdots < d_m\\). An orchestra has \\(m\\) instruments; instrument \\(i\\) plays tone \\(d_i\\) for \\(s_i\\) seconds. Sonority \\(S = s_1 + s_2 + \\cdots + s_m\\). Tones \\(a\\) and \\(b\\) are harmonic if \\(a/b\\) or \\(b/a\\) is an integer. If each instrument plays at least one second and every pair of simultaneously sounding tones are harmonic, show the maximum sonority is a composite number.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2022-P4",
+    "year": 2022,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In an \\(n \\times n\\) garden of \\(1 \\times 1\\) platforms, Ana assigns distinct heights to all platforms. Beto places water sources on some platforms; water flows to adjacent platforms only if they are lower. Beto wins if all platforms are filled. Find the minimum number of water sources Beto needs to guarantee a win regardless of Ana's arrangement.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2022-P5",
+    "year": 2022,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(n > 1\\) be a positive integer with divisors \\(d_1 < d_2 < \\cdots < d_m\\). Lalo writes \\(d_1, d_2, \\ldots, d_m, d_1+d_2, d_2+d_3, \\ldots, d_{m-1}+d_m, N\\) (where \\(N\\) is a positive integer), then erases duplicates. The remaining numbers are exactly all divisors of \\(N\\). Find all possible values of \\(n\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2022-P6",
+    "year": 2022,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": null,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Find all integers \\(n \\geq 3\\) such that there exists a convex \\(n\\)-gon \\(A_1 A_2 \\cdots A_n\\) satisfying: all interior angles are equal; not all sides are equal; there exists a triangle \\(T\\) and a point \\(O\\) inside the polygon such that triangles \\(OA_1A_2, OA_2A_3, \\ldots, OA_nA_1\\) are all similar to \\(T\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

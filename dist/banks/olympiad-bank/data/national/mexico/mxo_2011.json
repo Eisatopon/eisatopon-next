@@ -1,0 +1,128 @@
+[
+  {
+    "id": "MXO-2011-P1",
+    "year": 2011,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "25 light bulbs are distributed: 24 at the vertices of a regular 24-gon on a circle, and 1 at the center. Operations: (i) pick two vertices with an odd number of vertices between them and toggle those two and the center; (ii) pick three vertices forming an equilateral triangle and toggle those three and the center. Prove that from any initial configuration, all bulbs can be turned on.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2011-P2",
+    "year": 2011,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABC\\) be an acute triangle with circumcircle \\(\\Gamma\\). Let \\(\\ell\\) be the tangent to \\(\\Gamma\\) at \\(A\\). Let \\(D\\) and \\(E\\) be the intersections of the circle with center \\(B\\) and radius \\(AB\\) with lines \\(\\ell\\) and \\(AC\\) respectively. Prove the orthocenter of \\(\\triangle ABC\\) lies on line \\(DE\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2011-P3",
+    "year": 2011,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(n\\) be a positive integer. Find all real solutions \\((a_1, a_2, \\ldots, a_n)\\) to the cyclic system: \\(a_1^2 + a_1 - 1 = a_2,\\ a_2^2 + a_2 - 1 = a_3,\\ \\ldots,\\ a_n^2 + a_n - 1 = a_1\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2011-P4",
+    "year": 2011,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the smallest positive integer that uses exactly two different digits in decimal and is divisible by all integers from 1 to 9.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2011-P5",
+    "year": 2011,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A \\((2n-1) \\times (2n+1)\\) board is divided into rectangles with integer side lengths and sides parallel to the board sides, such that each rectangle's area is a power of 2. Find the minimum number of rectangles.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2011-P6",
+    "year": 2011,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(C_1\\) and \\(C_2\\) intersect at \\(A\\) and \\(B\\). \\(C\\) is on line \\(AB\\) with \\(B\\) between \\(A\\) and \\(C\\). \\(P\\) on \\(C_1\\) and \\(Q\\) on \\(C_2\\) are such that \\(CP\\) is tangent to \\(C_1\\) and \\(CQ\\) to \\(C_2\\). Line \\(PQ\\) meets \\(C_1\\) at \\(R\\) and \\(C_2\\) at \\(S\\). \\(CR\\) meets \\(C_1\\) again at \\(X\\) and \\(CS\\) meets \\(C_2\\) again at \\(Y\\). Let \\(Z\\) be on line \\(XY\\). Prove \\(SZ \\parallel QX\\) if and only if \\(PZ \\parallel RX\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "id": "MXO-1996-P1",
+    "year": 1996,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(P\\) and \\(Q\\) be points on diagonal \\(BD\\) of quadrilateral \\(ABCD\\) with \\(BP = PQ = QD\\). Let \\(AP\\) and \\(BC\\) meet at \\(E\\), and let \\(AQ\\) and \\(DC\\) meet at \\(F\\). (a) Prove that if \\(ABCD\\) is a parallelogram, then \\(E\\) and \\(F\\) are midpoints of the corresponding sides. (b) Prove the converse of (a).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1996-P2",
+    "year": 1996,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "There are 64 booths around a circular table numbered 1 to 64, each with a chip. At the center are 1996 light bulbs, all off. Every minute, chip \\(k\\) moves \\(k\\) booths clockwise simultaneously. For each chip sharing a booth with chip 1, a bulb is lit. Where is chip 1 on the first minute when all bulbs are lit?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1996-P3",
+    "year": 1996,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Prove that a \\(6 \\times 6\\) board cannot be covered with eighteen \\(2 \\times 1\\) rectangles such that each interior gridline cuts at least one rectangle. Show that a \\(6 \\times 5\\) board can be covered with fifteen \\(2 \\times 1\\) rectangles satisfying this condition.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1996-P4",
+    "year": 1996,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For which integers \\(n \\geq 2\\) can the numbers 1 to 16 be placed in a \\(4 \\times 4\\) grid such that the 8 row and column sums are all different and all divisible by \\(n\\)?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1996-P5",
+    "year": 1996,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics",
+      "Algebra"
+    ],
+    "statement": "The numbers 1 to \\(n^2\\) are written in an \\(n \\times n\\) grid in the usual order. A path consists of right and downward steps from square 1 to square \\(n^2\\). Let \\(L(C)\\) be the sum along path \\(C\\). (a) For fixed \\(n\\), if \\(M\\) and \\(m\\) are the largest and smallest \\(L(C)\\), prove \\(M - m\\) is a perfect cube. (b) Prove that for no \\(n\\) can one find a path \\(C\\) with \\(L(C) = 1996\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1996-P6",
+    "year": 1996,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In triangle \\(ABC\\) with \\(AB < BC < AC\\), points \\(A', B', C'\\) satisfy \\(AA' \\perp BC\\) with \\(AA' = BC\\), \\(BB' \\perp CA\\) with \\(BB' = CA\\), \\(CC' \\perp AB\\) with \\(CC' = AB\\). If \\(\\angle AC'B = 90^\\circ\\), prove that \\(A', B', C'\\) are collinear.",
+    "has_figure": true,
+    "figure_description": "Triangle with constructed external points",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

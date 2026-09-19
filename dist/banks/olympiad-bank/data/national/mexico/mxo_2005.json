@@ -1,0 +1,128 @@
+[
+  {
+    "id": "MXO-2005-P1",
+    "year": 2005,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(O\\) be the circumcenter of acute triangle \\(ABC\\) and \\(P\\) any point on segment \\(BC\\). The circumcircle of \\(\\triangle BPO\\) meets \\(AB\\) at \\(R\\) and the circumcircle of \\(\\triangle COP\\) meets \\(CA\\) at \\(Q\\). (i) Show \\(\\triangle PQR \\sim \\triangle ABC\\) and \\(O\\) is the orthocenter of \\(\\triangle PQR\\). (ii) Show the circumcircles of \\(\\triangle BPO\\), \\(\\triangle COP\\), \\(\\triangle PQR\\) have the same radius.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2005-P2",
+    "year": 2005,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A matrix is \\(N\\)-balanced if its entries are integers and any two adjacent entries differ by at most \\(N\\). (i) Show every \\(2N\\)-balanced matrix can be written as a sum of two \\(N\\)-balanced matrices. (ii) Show every \\(3N\\)-balanced matrix can be written as a sum of three \\(N\\)-balanced matrices.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2005-P3",
+    "year": 2005,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine all pairs \\((a, b)\\) of nonzero integers for which one can find a positive integer \\(x\\) relatively prime to \\(b\\) and an integer \\(y\\) such that the sequence \\(\\dfrac{a + xy^n}{b^n}\\) contains infinitely many integers.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2005-P4",
+    "year": 2005,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A list of numbers \\(a_1, a_2, \\ldots, a_m\\) contains an arithmetic trio \\(a_i, a_j, a_k\\) if \\(i < j < k\\) and \\(2a_j = a_i + a_k\\). Show that the numbers \\(1, 2, \\ldots, n\\) can be reordered in a list containing no arithmetic trio.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2005-P5",
+    "year": 2005,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A deck has \\(N^3\\) cards, each with one of \\(N\\) colors, one of \\(N\\) figures, and one of \\(N\\) numbers (all distinct). A collection is complete if it has all colors, all figures, or all numbers. How many non-complete collections exist such that adding any other card makes it complete?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2005-P6",
+    "year": 2005,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABC\\) be a triangle and \\(AD\\) the bisector of \\(\\angle BAC\\) with \\(D\\) on \\(BC\\). \\(E\\) on \\(BC\\) satisfies \\(BD = EC\\). Through \\(E\\) draw \\(\\ell\\) parallel to \\(AD\\) and let \\(P\\) be inside the triangle on \\(\\ell\\). Let \\(G = BP \\cap AC\\) and \\(F = CP \\cap AB\\). Show \\(BF = CG\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

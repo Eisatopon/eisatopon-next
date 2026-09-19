@@ -1,0 +1,170 @@
+[
+  {
+    "id": "IDO-2017-P1",
+    "year": 2017,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "\\(ABCD\\) is a parallelogram. A line \\(g\\) passes through \\(A\\). Prove that the distance from \\(C\\) to \\(g\\) is either the sum or the difference of the distances from \\(B\\) to \\(g\\) and from \\(D\\) to \\(g\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2017-P2",
+    "year": 2017,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Five people gather. An ordered triple \\((A, B, C)\\) is a trio if \\(A\\) and \\(B\\) shake hands and \\(B\\) and \\(C\\) shake hands, or \\(A\\) and \\(B\\) don't and \\(B\\) and \\(C\\) don't (treating \\((A,B,C)\\) and \\((C,B,A)\\) as the same). Find the minimum number of trios.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2017-P3",
+    "year": 2017,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A positive integer \\(d\\) is special if every integer can be represented as \\(a^2 + b^2 - dc^2\\) for some integers \\(a, b, c\\). Find the smallest positive integer that is not special. Prove 2017 is special.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2017-P4",
+    "year": 2017,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Determine all pairs of distinct real numbers \\((x, y)\\) such that \\(x^{100} - y^{100} = 2^{99}(x-y)\\) and \\(x^{200} - y^{200} = 2^{199}(x-y)\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2017-P5",
+    "year": 2017,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "A polynomial \\(P\\) has integer coefficients and at least 9 different integer roots. Let \\(n\\) be an integer with \\(|P(n)| < 2017\\). Prove that \\(P(n) = 0\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2017-P6",
+    "year": 2017,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the number of positive integers \\(n \\leq 2017\\) such that \\(n \\mid 20^n + 17^k\\) for some positive integer \\(k\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2017-P7",
+    "year": 2017,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABCD\\) be a parallelogram. \\(E\\) on \\(BC\\) and \\(F\\) on \\(CD\\) are such that \\([ABE] = [BCF]\\). Let \\(M = BD \\cap AE\\) and \\(N = BD \\cap AF\\). Prove there exists a triangle with side lengths \\(BM, MN, ND\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2017-P8",
+    "year": 2017,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A \\(2017 \\times 2017\\) field of unit squares. Luffy places \\(k\\) gold detectors on squares. Sanji buries gold in all squares of a \\(1500 \\times 1500\\) subfield. A detector beeps if there is gold beneath it. Find the minimum \\(k\\) so Luffy can always determine the \\(1500 \\times 1500\\) area.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "MXO-1987-P1",
+    "year": 1987,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that if the sum of two irreducible fractions is an integer, then the two fractions have the same denominator.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1987-P2",
+    "year": 1987,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "How many positive divisors does \\(20!\\) have?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1987-P3",
+    "year": 1987,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Consider two lines \\(\\ell\\) and \\(\\ell'\\) and a fixed point \\(P\\) equidistant from these lines. What is the locus of projections \\(M\\) of \\(P\\) on \\(AB\\), where \\(A\\) is on \\(\\ell\\), \\(B\\) on \\(\\ell'\\), and \\(\\angle APB = 90^\\circ\\)?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1987-P4",
+    "year": 1987,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Calculate the product of all positive integers less than 100 that have exactly three positive divisors. Show that this product is a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1987-P5",
+    "year": 1987,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In a right triangle \\(ABC\\), \\(M\\) is a point on the hypotenuse \\(BC\\) and \\(P\\), \\(Q\\) are the projections of \\(M\\) on \\(AB\\) and \\(AC\\) respectively. Prove that for no such point \\(M\\) do the triangles \\(BPM\\), \\(MQC\\) and the rectangle \\(AQMP\\) have the same area.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1987-P6",
+    "year": 1987,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Prove that for every positive integer \\(n\\), the number \\((n^3 - n)(5^{8n+4} + 3^{4n+2})\\) is a multiple of \\(3804\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1987-P7",
+    "year": 1987,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Show that the fraction \\(\\dfrac{n^2 + n - 1}{n^2 + 2n}\\) is irreducible for every positive integer \\(n\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-1987-P8",
+    "year": 1987,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "(a) Three lines \\(l, m, n\\) in space pass through point \\(S\\). A plane perpendicular to \\(m\\) intersects \\(l, m, n\\) at \\(A, B, C\\) respectively. Suppose that \\(\\angle ASB = \\angle BSC = 45^\\circ\\) and \\(\\angle ABC = 90^\\circ\\). Compute \\(\\angle ASC\\). (b) Furthermore, if a plane perpendicular to \\(l\\) intersects \\(l, m, n\\) at \\(P, Q, R\\) respectively and \\(SP = 1\\), find the sides of triangle \\(PQR\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

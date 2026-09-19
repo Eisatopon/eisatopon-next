@@ -1,0 +1,172 @@
+[
+  {
+    "id": "IDO-2019-P1",
+    "year": 2019,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Given positive integers \\(n\\) and \\(r\\) with \\(1 + 2 + \\cdots + (n-1) = (n+1) + (n+2) + \\cdots + (n+r)\\). Prove that \\(n\\) is composite.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2019-P2",
+    "year": 2019,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "There are 19 red boxes and 200 blue boxes, none empty. Each red box has at most 200 balls; each blue box at most 19. The total in red boxes is less than the total in blue boxes. Prove there exist subsets of red and blue boxes with equal total.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2019-P3",
+    "year": 2019,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Rectangle \\(ABCD\\) with \\(AD > AB\\). \\(E\\) on \\(AD\\) with \\(BE \\perp AC\\). \\(M = AC \\cap BE\\). The circumcircle of \\(\\triangle ABE\\) meets \\(AC\\) and \\(BC\\) at \\(N\\) and \\(F\\). The circumcircle of \\(\\triangle DNE\\) meets \\(CD\\) at \\(G\\). \\(FG\\) meets \\(AB\\) at \\(P\\). Prove \\(PM = PN\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2019-P4",
+    "year": 2019,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "The first \\(N^2\\) positive integers are given. Eliminate any one number of the same parity as \\(N\\). Prove the remaining \\(N^2 - 1\\) numbers can be arranged in a triangle equivalence (\\(a+b = c\\), \\(d+e+f = g+h\\), etc.).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2019-P5",
+    "year": 2019,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Given reals \\(a, b\\) such that for infinitely many positive integers \\(m, n\\): \\(\\lfloor an + b \\rfloor \\geq \\lfloor a + bn \\rfloor\\) and \\(\\lfloor a + bm \\rfloor \\geq \\lfloor am + b \\rfloor\\). Prove \\(a = b\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2019-P6",
+    "year": 2019,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "A circle has center \\(O\\) and \\(A\\) is not on the circle. \\(B\\) is the reflection of \\(A\\) over \\(O\\). \\(P\\) is on the circle; the line perpendicular to \\(AP\\) through \\(P\\) meets the circle at \\(Q\\). Prove that \\(AP \\times BQ\\) is constant as \\(P\\) varies.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2019-P7",
+    "year": 2019,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine all solutions of \\(x + y^2 = p^m\\) and \\(x^2 + y = p^n\\) for positive integers \\(x, y, m, n\\) and prime \\(p\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2019-P8",
+    "year": 2019,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Let \\(n > 1\\) and \\(a_1, a_2, \\ldots, a_{2n} \\in \\{-n, -n+1, \\ldots, n\\}\\) with \\(a_1 + a_2 + \\cdots + a_{2n} = n + 1\\). Prove that some subset of \\(a_1, a_2, \\ldots, a_{2n}\\) has sum 0.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "id": "MXO-2000-P1",
+    "year": 2000,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Circles \\(A, B, C, D\\) are given such that \\(A\\) and \\(B\\) are externally tangent at \\(P\\), \\(B\\) and \\(C\\) at \\(Q\\), \\(C\\) and \\(D\\) at \\(R\\), \\(D\\) and \\(A\\) at \\(S\\). (a) Prove that \\(P, Q, R, S\\) lie on a circle. (b) If \\(A\\) and \\(C\\) have radius 2, \\(B\\) and \\(D\\) have radius 3, and the distance between centers of \\(A\\) and \\(C\\) is 6, find the area of quadrilateral \\(PQRS\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2000-P2",
+    "year": 2000,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory",
+      "Algebra"
+    ],
+    "statement": "A triangle of numbers is built as follows: the first row is \\(1, 2, \\ldots, 2000\\) and under any two consecutive numbers their sum is written. What is the number in the bottom row?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2000-P3",
+    "year": 2000,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Given a set \\(A\\) of positive integers, \\(A'\\) is formed by elements of \\(A\\) and all integers obtained by writing elements of \\(A\\) in a row with \\(+\\) or \\(-\\) signs and evaluating. \\(A''\\) is constructed from \\(A'\\) similarly. Find the smallest number of elements in \\(A\\) such that \\(A''\\) contains all integers from 1 to 40.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2000-P4",
+    "year": 2000,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(a\\) and \\(b\\) be positive integers not divisible by 5. A sequence starts with 5, and each term is obtained by multiplying the previous term by \\(a\\) and adding \\(b\\). What is the maximum possible number of primes before the first composite term?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2000-P5",
+    "year": 2000,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "An \\(n \\times n\\) board is colored like a chessboard. A permitted step: choose a rectangle whose side lengths are both odd or both even (but not both 1) and invert all cell colors inside. For which \\(n\\) is it possible to make all cells the same color in finitely many steps?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2000-P6",
+    "year": 2000,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(\\triangle ABC\\) have \\(\\angle B > 90^\\circ\\), with \\(H\\) on \\(AC\\) such that \\(AH = BH\\) and \\(BH \\perp BC\\). Let \\(D, E\\) be midpoints of \\(AB, BC\\), and let \\(F\\) be the intersection of \\(DE\\) with a line through \\(H\\) parallel to \\(AB\\). Prove that \\(\\angle BCF = \\angle ACD\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

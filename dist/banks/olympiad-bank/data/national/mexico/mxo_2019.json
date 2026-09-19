@@ -1,0 +1,128 @@
+[
+  {
+    "id": "MXO-2019-P1",
+    "year": 2019,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "An integer \\(m \\geq 1\\) is mexica if it can be written in the form \\(n^{d(n)}\\), where \\(n\\) is a positive integer and \\(d(n)\\) is the number of positive divisors of \\(n\\). Find all mexica numbers less than 2019.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2019-P2",
+    "year": 2019,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(H\\) be the orthocenter of acute triangle \\(ABC\\) and \\(M\\) the midpoint of \\(AH\\). Line \\(BH\\) meets \\(AC\\) at \\(D\\). Let \\(E\\) be such that \\(BC\\) is the perpendicular bisector of \\(DE\\). Segments \\(CM\\) and \\(AE\\) meet at \\(F\\). Show \\(BF \\perp CM\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2019-P3",
+    "year": 2019,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let \\(n \\geq 2\\). Consider \\(2n\\) points on a circle, each tagged with an integer from 1 to \\(n\\) (each used exactly twice). Isabel divides the points into \\(n\\) non-crossing pairs and assigns to each segment the greater tag of its endpoints. (a) Show Isabel can always choose pairs using exactly \\(\\lceil n/2 \\rceil\\) distinct tags. (b) Can the points be tagged so that no matter how Isabel pairs them, she always uses exactly \\(\\lceil n/2 \\rceil\\) distinct tags?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2019-P4",
+    "year": 2019,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A list of positive integers is good if its maximum appears exactly once. A list is very good if all its sublists are good. Find the minimum \\(k\\) such that a very good list of length 2019 with \\(k\\) different values exists.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2019-P5",
+    "year": 2019,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(a > b\\) be coprime positive integers. A grasshopper stands at 0. Each minute: if the minute is a multiple of \\(a\\) but not \\(b\\), jump \\(a\\) forward; if a multiple of \\(b\\) but not \\(a\\), jump \\(b\\) backward; if a multiple of both, jump \\(a - b\\) forward; otherwise, stay. Find all positions the grasshopper will eventually reach.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2019-P6",
+    "year": 2019,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(\\triangle ABC\\) have \\(\\angle BAC = 45^\\circ\\), orthocenter \\(H\\), circumcenter \\(O\\), and circumcircle \\(\\omega\\). Let \\(P\\) be on \\(\\omega\\) such that the circumcircle of \\(\\triangle PBH\\) is tangent to \\(BC\\). Let \\(X, Y\\) be the circumcenters of \\(\\triangle PHB\\) and \\(\\triangle PHC\\) respectively, and \\(O_1, O_2\\) the circumcenters of \\(\\triangle PXO\\) and \\(\\triangle PYO\\). Prove \\(O_1\\) lies on \\(AB\\) and \\(O_2\\) lies on \\(AC\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "IDO-2023-P1",
+    "year": 2023,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "An acute triangle \\(ABC\\) has \\(BC\\) as its longest side. Points \\(D, E\\) on \\(AC, AB\\) satisfy \\(BA = BD\\) and \\(CA = CE\\). Let \\(A'\\) be the reflection of \\(A\\) over line \\(BC\\). Prove the circumcircles of \\(\\triangle ABC\\) and \\(\\triangle A'DE\\) have the same radius.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2023-P2",
+    "year": 2023,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all functions \\(f : \\mathbb{R} \\to \\mathbb{R}\\) such that \\(f(f(x) + y) = \\lfloor x + f(f(y)) \\rfloor\\) for all real \\(x, y\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2023-P3",
+    "year": 2023,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "A natural number \\(n\\) is on a board. Neneng chooses 'up' or 'down'. Asep picks a positive divisor \\(d\\) of the current number \\(X\\) and replaces \\(X\\) with \\(X + d\\) (if up) or \\(X - d\\) (if down). Asep wins if the number becomes a nonzero perfect square; loses if it becomes 0. Prove that if \\(n \\geq 14\\), Asep can win in at most \\(\\lfloor(n-5)/4\\rfloor\\) steps.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2023-P4",
+    "year": 2023,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine whether there exists a natural number \\(N\\) satisfying: (1) \\(N\\) is divisible by \\(2^{2023}\\) but not \\(2^{2024}\\); (2) \\(N\\) has exactly three different nonzero digits; (3) exactly \\(99.9\\%\\) of its digits are the same.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2023-P5",
+    "year": 2023,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(a, b\\) be positive integers with \\(\\gcd(a,b) + \\text{lcm}(a,b)\\) divisible by \\(a + 1\\). If \\(b \\leq a\\), show that \\(b\\) is a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2023-P6",
+    "year": 2023,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Find the number of permutations \\(a_1, a_2, \\ldots, a_n\\) of \\(1, 2, \\ldots, n\\) such that for every \\(k\\) with \\(1 \\leq k \\leq n\\), there exists \\(r\\) with \\(0 \\leq r \\leq n-k\\) satisfying \\(1 + 2 + \\cdots + k = a_{r+1} + a_{r+2} + \\cdots + a_{r+k}\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2023-P7",
+    "year": 2023,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given \\(\\triangle ABC\\) with \\(\\angle ACB = 90^\\circ\\) and circumcircle \\(\\omega\\). Tangents to \\(\\omega\\) at \\(B\\) and \\(C\\) meet at \\(P\\). \\(M\\) is the midpoint of \\(PB\\). Line \\(CM\\) meets \\(\\omega\\) at \\(N\\) and line \\(PN\\) meets \\(AB\\) at \\(E\\). Point \\(D\\) on \\(CM\\) satisfies \\(ED \\parallel BM\\). Show the circumcircle of \\(\\triangle CDE\\) is tangent to \\(\\omega\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2023-P8",
+    "year": 2023,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Algebra",
+      "Number Theory"
+    ],
+    "statement": "Let \\(a, b, c\\) be distinct positive integers. Define \\(S(a,b,c)\\) as the set of all rational roots of \\(px^2 + qx + r = 0\\) over all permutations \\((p,q,r)\\) of \\((a,b,c)\\). Find the maximum number of elements in \\(S(a,b,c)\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

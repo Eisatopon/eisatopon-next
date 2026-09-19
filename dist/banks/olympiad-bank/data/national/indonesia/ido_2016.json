@@ -1,0 +1,170 @@
+[
+  {
+    "id": "IDO-2016-P1",
+    "year": 2016,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABCD\\) be a cyclic quadrilateral with perpendicular diagonals intersecting at \\(O\\). Let \\(E, F, G, H\\) be the orthogonal projections of \\(O\\) on sides \\(AB, BC, CD, DA\\). (a) Prove \\(\\angle EFG + \\angle GHE = 180^\\circ\\). (b) Prove \\(OE\\) bisects \\(\\angle FEH\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2016-P2",
+    "year": 2016,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Determine all triples of natural numbers \\((a, b, c)\\) with \\(b > 1\\) such that \\(2^c + 2^{2016} = a^b\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2016-P3",
+    "year": 2016,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "There are 5 boxes in a circle. Initially one box has 1 ball, the rest empty. Operations: (i) take 1 ball from a non-empty box and add 1 ball to each neighboring box; (ii) move 1 ball from a non-empty box to an adjacent empty box. Is it possible that each box contains exactly \\(\\dfrac{2016}{175}\\) balls after some steps?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2016-P4",
+    "year": 2016,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Given triangle \\(ABC\\) with angles \\(A, B, C\\) satisfying \\(\\dfrac{\\cos A}{20} + \\dfrac{\\cos B}{21} + \\dfrac{\\cos C}{29} = \\dfrac{29}{420}\\). Prove \\(\\triangle ABC\\) is a right triangle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2016-P5",
+    "year": 2016,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Given positive integers \\(a, b, c, d\\) with \\(a \\mid c^d\\) and \\(b \\mid d^c\\). Prove that \\(ab \\mid (cd)^{\\max(a,b)}\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2016-P6",
+    "year": 2016,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "For a quadrilateral \\(ABCD\\), a square is amazing if all its sides (extended if necessary) pass through distinct vertices of \\(ABCD\\). Prove that if the diagonals of \\(ABCD\\) are not perpendicular, there exist at least 6 amazing squares.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2016-P7",
+    "year": 2016,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(p > 2\\) be prime. For each \\(k = 1, 2, \\ldots, p-1\\), let \\(r_k\\) be the remainder when \\(k^{p^2}\\) is divided by \\(p^2\\). Prove that \\(r_1 + r_2 + \\cdots + r_{p-1} = \\dfrac{p^2(p-1)}{2}\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2016-P8",
+    "year": 2016,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Determine the number of permutations \\(a_1, a_2, \\ldots, a_{2016}\\) of \\(1, 2, \\ldots, 2016\\) such that \\(|a_i - i|\\) is the same for all \\(i\\) and this common value is a multiple of 3.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

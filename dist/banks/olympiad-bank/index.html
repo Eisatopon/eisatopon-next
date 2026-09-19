@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -10,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 <script>
-window.MathJax = { tex: { inlineMath:[['$','$']], displayMath:[['$$','$$']] } };
+window.MathJax = { tex: { inlineMath:[['$','$'],['\\(','\\)']], displayMath:[['$$','$$'],['\\[','\\]']] } };
 </script>
 <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
@@ -42,7 +41,7 @@ main{flex:1;max-width:1200px;width:100%;margin:0 auto;padding:0 20px 60px;positi
   text-align:center;
   padding:clamp(40px,7vw,70px) 20px clamp(30px,5vw,50px);
   border-bottom:1px solid rgba(201,162,39,.2);
-  margin-bottom:28px;position:relative;
+  margin-bottom:14px;position:relative;
 }
 .hero::after{
   content:'';display:block;width:80px;height:2px;
@@ -54,10 +53,6 @@ main{flex:1;max-width:1200px;width:100%;margin:0 auto;padding:0 20px 60px;positi
 .hero h1 span{background:linear-gradient(135deg,#c9a227,#e8c84a);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .hero p{color:var(--text-muted);font-size:1rem;margin-bottom:0}
 .tagline{text-align:center;font-family:'STIX Two Text',serif;font-style:italic;color:var(--gold);opacity:.65;font-size:.95rem;margin:0 auto 28px;max-width:600px}
-.hero-stats{display:flex;justify-content:center;gap:32px;flex-wrap:wrap;margin:22px 0 30px}
-.hero-stats div{text-align:center}
-.hero-stats strong{display:block;color:var(--gold);font-size:1.3rem;font-weight:700}
-.hero-stats span{color:var(--text-muted);font-size:.82rem}
 /* Legend */
 .legend{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:24px}
 .legend-item{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--text-muted)}
@@ -139,32 +134,29 @@ footer a:hover{opacity:1}
   .problem-text{color:#000}
   .problem-card{box-shadow:none;border:1px solid #ddd;background:#fff}
 }
+@keyframes spin{to{transform:rotate(360deg)}}
 </style>
 </head>
 <body>
 <main>
 <div class="hero">
   <div class="hero-eye">EisatoponAI · Mathematical Archive</div>
-  <h1>Math Olympiad <span>Bank</span></h1>
-  <p>The World's Mathematical Olympiad Archive</p>
+  <h1><a href="." style="text-decoration:none;color:inherit">Math Olympiad <span>Bank</span></a></h1>
+  <p>A growing archive of mathematical olympiads from around the world.</p>
 </div>
-<p class="tagline">An evolving collection of national, regional and team-selection problems from around the world.</p>
-<div class="hero-stats">
-  <div><strong id="statProblems">—</strong><span>Problems</span></div>
-  <div><strong id="statOlympiads">—</strong><span>Olympiads</span></div>
-  <div><strong id="statCountries">—</strong><span>Countries</span></div>
-  <div><strong>1962–2026</strong><span>Coverage</span></div>
+<p class="tagline">Over 7,000 problems from national and regional competitions across continents and generations.</p>
+<div id="heroStats" style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin:16px 0 20px"><div style="color:var(--text-muted);font-size:14px;display:flex;align-items:center;gap:10px;padding:20px 0"><span style="display:inline-block;width:18px;height:18px;border:2px solid rgba(201,162,39,.3);border-top-color:var(--gold);border-radius:50%;animation:spin 0.8s linear infinite"></span>Loading archive...</div></div>
+<div style="text-align:center;margin:8px 0 20px">
+  <div style="font-size:11px;color:var(--text-muted);text-transform:uppercase;letter-spacing:2px;margin-bottom:10px">Featured Olympiads</div>
+  <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap" id="featuredChips"></div>
 </div>
 <div class="legend">
   <div class="legend-item"><div class="legend-dot" style="background:var(--col-national)"></div>National</div>
-  <div class="legend-item"><div class="legend-dot" style="background:var(--col-tst)"></div>TST</div>
   <div class="legend-item"><div class="legend-dot" style="background:var(--col-regional)"></div>Regional</div>
 </div>
 <section class="controls">
   <label>Scope:<select id="fScope">
-    <option value="all">All types</option>
     <option value="national">National</option>
-    <option value="tst">TST</option>
     <option value="regional">Regional</option>
   </select></label>
   <label>Olympiad:<select id="fOlympiad"><option value="all">All</option></select></label>
@@ -176,12 +168,9 @@ footer a:hover{opacity:1}
     <option value="Number Theory">Number Theory</option>
     <option value="Combinatorics">Combinatorics</option>
   </select></label>
-  <label>Search:
-    <input type="text" id="fSearch" placeholder="Problem ID, keyword, theorem..." style="padding:10px 12px;border:1px solid var(--border);border-radius:9px;font-size:15px;background:rgba(255,255,255,.06);color:var(--text);font-family:inherit;width:100%;">
-  </label>
-  <button class="btn-search" id="searchBtn">Explore Problems →</button>
+  <button class="btn-search" id="searchBtn">Browse Archive →</button>
 </section>
-<div class="info" id="info">Select filters and press Explore.</div>
+<div class="info" id="info">Select filters and press Browse Archive.</div>
 <div class="problems" id="results"></div>
 </main>
 
@@ -207,7 +196,7 @@ footer a:hover{opacity:1}
 </div>
 
 <footer>
-  <a href="https://eisatopon.gr" target="_blank">EisatoponAI</a> · Math Olympiad Bank · National · TST · Regional
+  <a href="https://eisatopon.gr" target="_blank">EisatoponAI</a> · Math Olympiad Bank · National · Regional
 </footer>
 
 
@@ -216,29 +205,32 @@ const DATA = {"BNO":[{"id":"BRAZIL_1979_D1_P1","year":1979,"olympiad":"BNO","oly
 ;
 
 const CFG = {
-  BNO:              {name:'Brazil National MO',  short:'BNO',      flag:'🇧🇷',scope:'national',start:1979},
-  CMO:              {name:'Canadian MO',              short:'CMO',      flag:'🇨🇦',scope:'national',start:1969},
-  USAMO:            {name:'USA Mathematical Olympiad',     short:'USAMO',    flag:'🇺🇸',scope:'national',start:1974},
-  INMO:             {name:'India National MO',               short:'INMO',     flag:'🇮🇳',scope:'national',start:1986},
-  ITAMO:            {name:'Italian Mathematical Olympiad',  short:'ITAMO',    flag:'🇮🇹',scope:'national',start:1985},
-  PMO:              {name:'Polish Mathematical Olympiad',   short:'PMO',      flag:'🇵🇱',scope:'national',start:1950},
-  VMO:              {name:'Vietnam MO',           short:'VMO',      flag:'🇻🇳',scope:'national',start:1962},
-  BNO_TST:          {name:'Brazil TST',           short:'BNO-TST',  flag:'🇧🇷',scope:'tst',     start:1997},
-  CHINA_TST:        {name:'China TST',            short:'CHN-TST',  flag:'🇨🇳',scope:'tst',     start:1986},
-  APMO:             {name:'Asian Pacific MO',     short:'APMO',     flag:'🌏', scope:'regional',start:1989},
-  BALKAN_MO:        {name:'Balkan MO',            short:'BMO',      flag:'🌐', scope:'regional',start:1984},
-  BENELUX:          {name:'Benelux MO',           short:'BENELUX',  flag:'🌐', scope:'regional',start:2009},
-  CONO_SUR:         {name:'Cono Sur MO',          short:'Cono Sur', flag:'🌎', scope:'regional',start:1989},
-  EGMO:             {name:"European Girls' MO",   short:'EGMO',     flag:'🌐', scope:'regional',start:2012},
-  JUNIOR_BALKAN_MO: {name:'Junior Balkan MO',     short:'JBMO',     flag:'🌐', scope:'regional',start:1997},
-  LUSOPHONE:        {name:'Lusophone MO',          short:'LUSOPHONE',flag:'🌐', scope:'regional',start:2021},
-  PAMO:             {name:'Pan-African MO',        short:'PAMO',     flag:'🌍', scope:'regional',start:2000},
-  RIOPLATENSE:      {name:'Rioplatense MO',        short:'RIO',      flag:'🌎', scope:'regional',start:1990},
-  ZHAUTYKOV:        {name:'Intl Zhautykov MO',     short:'IZhO',     flag:'🌐', scope:'regional',start:2005},
-  FRANCOPHONE:      {name:'Francophone MO',        short:'OFM',      flag:'🌐', scope:'regional',start:2020},
-  CAPS:             {name:'Czech-Austrian-Polish-Slovak MO', short:'CAPS', flag:'🌐', scope:'regional',start:1995},
-  CAUCASUS:         {name:'Caucasus MO',               short:'Caucasus',flag:'🌐', scope:'regional',start:2015},
-  CENTROAMERICAN:   {name:'CentroAmerican & Caribbean MO', short:'OMCC', flag:'🌎', scope:'regional',start:1999},
+  ANO:              {name:'Argentina National Olympiad', short:'Argentina MO',   flag:'🇦🇷',scope:'national',start:1994},
+  MXO:              {name:'Mexico National Olympiad',   short:'Mexico MO',     flag:'🇲🇽',scope:'national',start:1987},
+  IDO: {name:'Indonesia National Science Olympiad', short:'Indonesia MO', flag:'🇮🇩', scope:'national', start:2002},
+  BNO:              {name:'Brazil National MO',  short:'Brazil MO',      flag:'🇧🇷',scope:'national',start:1979},
+  CMO:              {name:'Canadian MO',              short:'Canada MO',      flag:'🇨🇦',scope:'national',start:1969},
+  USAMO:            {name:'USA Mathematical Olympiad',     short:'USA MO',    flag:'🇺🇸',scope:'national',start:1974},
+  INMO:             {name:'India National MO',               short:'India MO',     flag:'🇮🇳',scope:'national',start:1986},
+  ITAMO:            {name:'Italian Mathematical Olympiad',  short:'Italy MO',    flag:'🇮🇹',scope:'national',start:1985},
+  VMO:              {name:'Vietnam MO',           short:'Vietnam MO',      flag:'🇻🇳',scope:'national',start:1962},
+  GrMO:             {name:'Greece National MO',   short:'Greece MO',     flag:'🇬🇷',scope:'national',start:1985},
+  RoMO:             {name:'Romania National MO',   short:'Romania MO',     flag:'🇷🇴',scope:'national',start:1995},
+  LitMO:            {name:'Lithuania National MO', short:'Lithuania MO',   flag:'🇱🇹',scope:'national',start:2003},
+  PMO:              {name:'Polish Mathematical Olympiad',short:'Polish MO', flag:'🇵🇱',scope:'national',start:1950},
+  APMO:             {name:'Asian Pacific MO',     short:'Asian Pacific MO',     flag:'🌏', scope:'regional',start:1989},
+  BALKAN_MO:        {name:'Balkan MO',            short:'Balkan MO',      flag:'🌐', scope:'regional',start:1984},
+  BENELUX:          {name:'Benelux MO',           short:'Benelux MO',  flag:'🌐', scope:'regional',start:2009},
+  CONO_SUR:         {name:'Cono Sur MO',          short:'Cono Sur MO', flag:'🌎', scope:'regional',start:1989},
+  EGMO:             {name:"European Girls' MO",   short:'European Girls MO',     flag:'🌐', scope:'regional',start:2012},
+  JUNIOR_BALKAN_MO: {name:'Junior Balkan MO',     short:'Junior Balkan MO',     flag:'🌐', scope:'regional',start:1997},
+  PAMO:             {name:'Pan-African MO',        short:'Pan-African MO',     flag:'🌍', scope:'regional',start:2000},
+  RIOPLATENSE:      {name:'Rioplatense MO',        short:'Rioplatense MO',      flag:'🌎', scope:'regional',start:1990},
+  ZHAUTYKOV:        {name:'Intl Zhautykov MO',     short:'Zhautykov MO',     flag:'🌐', scope:'regional',start:2005},
+  FRANCOPHONE:      {name:'Francophone MO',        short:'Francophone MO',      flag:'🌐', scope:'regional',start:2020},
+  CAPS:             {name:'Czech-Austrian-Polish-Slovak MO', short:'Austrian-Polish MO', flag:'🇦🇹',scope:'regional',start:1995},
+  CAUCASUS:         {name:'Caucasus MO',               short:'Caucasus MO',flag:'🌐', scope:'regional',start:2015},
+  CENTROAMERICAN:   {name:'CentroAmerican & Caribbean MO', short:'CentroAmerican MO', flag:'🌎', scope:'regional',start:1999},
 };
 
 
@@ -247,24 +239,12 @@ let currentList = [], page = 1, loaded = [], selected = new Set();
 const results = document.getElementById('results');
 const info = document.getElementById('info');
 const fScope = document.getElementById('fScope');
-const fSearch = document.getElementById('fSearch');
 
-// Flatten DATA into loaded array
+// Flatten DATA into loaded array (regional inline)
 for (const key of Object.keys(DATA)) {
   const arr = DATA[key];
   if (Array.isArray(arr)) for (const p of arr) loaded.push(p);
 }
-// Update hero stats
-(function() {
-  const olympiads = new Set(loaded.map(p => p.olympiad));
-  const countries = new Set(loaded.filter(p => p.country).map(p => p.country));
-  const sp = document.getElementById('statProblems');
-  const so = document.getElementById('statOlympiads');
-  const sc = document.getElementById('statCountries');
-  if (sp) sp.textContent = loaded.length.toLocaleString();
-  if (so) so.textContent = olympiads.size;
-  if (sc) sc.textContent = countries.size;
-})();
 
 function buildOlympiadDrop(scope) {
   const sel = document.getElementById('fOlympiad');
@@ -274,18 +254,12 @@ function buildOlympiadDrop(scope) {
   for (const p of loaded) {
     const sc = scopeClass(p);
     if (scope !== 'all' && sc !== scope) continue;
-    const c = CFG[p.olympiad] || {
-  flag: '',
-  fullName: p.olympiad_full_name || p.olympiad
-};
-
-if (seen.has(p.olympiad)) continue;
-
-seen.add(p.olympiad);
-
-const opt = document.createElement('option');
-opt.value = p.olympiad;
-opt.textContent = `${c.flag || ''} ${c.fullName || p.olympiad}`;
+    const c = CFG[p.olympiad];
+    if (!c || seen.has(p.olympiad)) continue;
+    seen.add(p.olympiad);
+    const opt = document.createElement('option');
+    opt.value = p.olympiad;
+    opt.textContent = `${c.flag||''} ${c.short||p.olympiad}`;
     sel.appendChild(opt);
   }
   if ([...sel.options].some(o => o.value === cur)) sel.value = cur;
@@ -314,7 +288,6 @@ function doSearch() {
   const olympiad = document.getElementById('fOlympiad').value;
   const year = document.getElementById('fYear').value;
   const topic = document.getElementById('fTopic').value;
-  const searchText = fSearch ? fSearch.value.toLowerCase() : '';
   const filtered = loaded.filter(p => {
     const sc = scopeClass(p);
     if (scope !== 'all' && sc !== scope) return false;
@@ -323,12 +296,6 @@ function doSearch() {
     if (topic !== 'all') {
       const topics = Array.isArray(p.topic) ? p.topic : [p.topic];
       if (!topics.includes(topic)) return false;
-    }
-    if (searchText) {
-      const stmt = (p.statement || '').toLowerCase();
-      const pid = (p.id || '').toLowerCase();
-      const olym = (p.olympiad || '').toLowerCase();
-      if (!stmt.includes(searchText) && !pid.includes(searchText) && !olym.includes(searchText)) return false;
     }
     return true;
   });
@@ -485,62 +452,84 @@ fScope.addEventListener('change',()=>{ buildOlympiadDrop(fScope.value); buildYea
 document.getElementById('fOlympiad').addEventListener('change',()=>buildYearDrop(document.getElementById('fOlympiad').value));
 document.getElementById('searchBtn').addEventListener('click', doSearch);
 
-/// Init
-buildOlympiadDrop('all');
+// Init
+buildOlympiadDrop('national');
+function updateStats(){
+  const total = loaded.length;
+  const years = loaded.map(p=>p.year).filter(Boolean);
+  const minY = years.length ? Math.min(...years) : '';
+  const maxY = years.length ? Math.max(...years) : '';
+  const ol = new Set(loaded.map(p=>p.olympiad)).size;
+  const countries = new Set(loaded.filter(p=>p.country).map(p=>p.country)).size;
+  const el = document.getElementById('heroStats');
+  const card = (num, lbl) => `<div style='text-align:center;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:12px 24px;min-width:100px'>`
+    + `<div style='font-size:28px;font-weight:700;color:var(--gold);letter-spacing:-0.5px'>${num}</div>`
+    + `<div style='font-size:11px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;margin-top:2px'>${lbl}</div>`
+    + `</div>`;
+  if(el) el.innerHTML =
+    card(total.toLocaleString(), 'Problems') +
+    card(ol, 'Olympiads') +
+    (countries > 0 ? card(countries + '+', 'Countries') : '') +
+    card(minY + '–' + maxY, 'Coverage');
+}
+// === Featured Olympiads chips ===
+const FEATURED = [
+  {key:'USAMO',   flag:'🇺🇸', label:'USAMO'},
+  {key:'CMO',     flag:'🇨🇦', label:'CMO'},
+  {key:'GrMO',    flag:'🇬🇷', label:'GrMO'},
+  {key:'VMO',     flag:'🇻🇳', label:'VMO'},
+  {key:'BNO',     flag:'🇧🇷', label:'OBM'},
+  {key:'ANO',     flag:'🇦🇷', label:'ANO'},
+  {key:'PMO',     flag:'🇵🇱', label:'PMO'},
+  {key:'CNO',     flag:'🇨🇳', label:'CMO China'},
+];
+function buildFeaturedChips() {
+  const el = document.getElementById('featuredChips');
+  if (!el) return;
+  el.innerHTML = FEATURED.map(f => {
+    const count = loaded.filter(p => p.olympiad === f.key).length;
+    if (!count) return '';
+    return `<button onclick="selectOlympiad('${f.key}')" style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:5px 12px;font-size:12px;color:var(--text);cursor:pointer;font-family:inherit;transition:all .2s" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='rgba(255,255,255,.1)';this.style.color='var(--text)'">${f.flag} ${f.label}</button>`;
+  }).join('');
+}
+function selectOlympiad(key) {
+  const cfg = CFG[key];
+  if (!cfg) return;
+  const scope = cfg.scope || 'national';
+  document.getElementById('fScope').value = scope;
+  buildOlympiadDrop(scope);
+  document.getElementById('fOlympiad').value = key;
+  buildYearDrop(key);
+  document.querySelector('.btn-search').click();
+}
 
 // === National data lazy loader ===
 (async function loadNational() {
   try {
     const res = await fetch('data/national/index.json');
     const paths = await res.json();
-
     const batches = [];
-
-    for (let i = 0; i < paths.length; i += 20)
-      batches.push(paths.slice(i, i + 20));
-
+    for (let i = 0; i < paths.length; i += 20) batches.push(paths.slice(i, i+20));
     for (const batch of batches) {
-
       await Promise.all(batch.map(async path => {
-
         try {
-
-          const r = await fetch(
-            'data/national/' +
-            path.split('/').map(encodeURIComponent).join('/')
-          );
-
+          const r = await fetch('data/national/' + path.split('/').map(encodeURIComponent).join('/'));
           const arr = await r.json();
-
           if (!Array.isArray(arr) || arr.length === 0) return;
-
           const key = arr[0].olympiad;
-
           if (!DATA[key]) DATA[key] = [];
-
           DATA[key].push(...arr);
-
-        } catch (e) {}
-
+          for (const p of arr) loaded.push(p);
+        } catch(e) {}
       }));
-
     }
-
     buildOlympiadDrop(fScope.value);
     buildYearDrop(document.getElementById('fOlympiad').value);
-
-    console.log('Loaded olympiads:', Object.keys(DATA));
-
-  } catch (e) {
-
-    console.warn('National load failed', e);
-
-  }
-
+    updateStats();
+    buildFeaturedChips();
+  } catch(e) { console.warn('National load failed', e); }
 })();
-
 buildYearDrop('all');
-
 </script>
 </body>
 </html>

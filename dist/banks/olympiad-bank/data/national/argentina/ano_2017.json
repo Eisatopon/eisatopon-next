@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ANO-2017-D1-1",
+    "year": 2017,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Nico picks 13 pairwise distinct 3-digit positive integers. Iván then selects some of these 13 numbers, and using each selected number at most once and only the operations \\(+\\), \\(-\\), \\(\\times\\), \\(\\div\\), must produce an expression whose value is greater than 3 and less than 4. If he succeeds, Iván wins; otherwise, Nico wins. Which of the two has a winning strategy?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, Argentina National Olympiad 2017"
+  },
+  {
+    "id": "ANO-2017-D1-2",
+    "year": 2017,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "In a row there are 51 written positive integers whose sum is 100. An integer is representable if it can be expressed as the sum of several consecutive numbers in the row of 51 integers. Show that for every \\(k\\) with \\(1 \\leq k \\leq 100\\), at least one of the numbers \\(k\\) and \\(100 - k\\) is representable.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, Argentina National Olympiad 2017"
+  },
+  {
+    "id": "ANO-2017-D1-3",
+    "year": 2017,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABC\\) be a triangle of perimeter 100, and \\(I\\) the intersection of its angle bisectors (incenter). Let \\(M\\) be the midpoint of side \\(BC\\). The line through \\(I\\) parallel to \\(AB\\) cuts the median \\(AM\\) at point \\(P\\) so that \\(\\dfrac{AP}{PM} = \\dfrac{7}{3}\\). Find the length of side \\(AB\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, Argentina National Olympiad 2017"
+  },
+  {
+    "id": "ANO-2017-D2-4",
+    "year": 2017,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For a positive integer \\(n\\), let \\(D_2(n)\\) be the number of divisors of \\(n\\) that are perfect squares, and \\(D_3(n)\\) the number of divisors of \\(n\\) that are perfect cubes. Prove that there exists an \\(n\\) such that \\(D_2(n) = 999\\,D_3(n)\\).\n\nNote: The perfect squares are \\(1^2, 2^2, 3^2, 4^2, \\ldots\\); the perfect cubes are \\(1^3, 2^3, 3^3, 4^3, \\ldots\\)",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, Argentina National Olympiad 2017"
+  },
+  {
+    "id": "ANO-2017-D2-5",
+    "year": 2017,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A list of positive integers is called admissible if all its numbers are at most 100 and their sum is greater than 1810. Find the smallest positive integer \\(d\\) such that from every admissible list one can cross out some numbers so that the sum of the remaining (uncrossed) numbers is greater than or equal to \\(1810 - d\\) and at most \\(1810 + d\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, Argentina National Olympiad 2017"
+  },
+  {
+    "id": "ANO-2017-D2-6",
+    "year": 2017,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Draw all the diagonals of a convex polygon with 10 sides. They divide the interior angles of the polygon into 80 parts. It is known that at least 59 of those parts are equal. Determine the largest number of distinct values among the 80 angle parts, and how many times each of those values occurs.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, Argentina National Olympiad 2017"
+  }
+]

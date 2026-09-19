@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Τράπεζα Θεμάτων ΕΜΕ – Θαλής, Ευκλείδης, Αρχιμήδης</title>
+<meta name="description" content="Θέματα των διαγωνισμών Θαλής, Ευκλείδης και Αρχιμήδης της Ελληνικής Μαθηματικής Εταιρείας (1995–2026). Διάλεξε θέματα και φτιάξε το δικό σου διαγώνισμα.">
+<meta name="theme-color" content="#0f2a5c">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23d62828'/%3E%3Ctext x='32' y='45' font-size='40' font-family='Georgia,serif' font-weight='700' text-anchor='middle' fill='white'%3Ee%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&family=Literata:opsz,wght@7..72,400..800&display=swap" rel="stylesheet">
+
+<!-- MathJax -->
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [['\\(', '\\)'], ['$', '$']],
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],
+            processEscapes: true
+        }
+    };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+<style>
+/* ==========================================================
+   Tokens
+   ========================================================== */
+:root {
+    color-scheme: light;
+
+    --navy: #0f2a5c;
+    --navy-hover: #1c3f85;
+    --paper: #f2f5fa;
+    --surface: #ffffff;
+    --text: #1a2338;
+    --muted: #566178;
+    --line: #d3dae9;
+    --line-strong: #a9b5cf;
+    --focus: #1f5fd6;
+
+    /* Μετάλλια: κάθε φάση έχει το δικό της */
+    --bronze: #a8642b;  --bronze-ink: #7a4416;  --bronze-tint: #f8eee3;  --bronze-lite: #e3a86f;
+    --silver: #7d8ba3;  --silver-ink: #435066;  --silver-tint: #ebeff5;  --silver-lite: #cad2e0;
+    --gold:   #d9a520;  --gold-ink:   #6f5008;  --gold-tint:   #fbf2d6;  --gold-lite:   #f2ca5c;
+
+    --serif: 'Literata', Georgia, 'Times New Roman', serif;
+    --sans: 'Fira Sans', system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+.ph-thalis     { --m: var(--bronze); --m-ink: var(--bronze-ink); --m-tint: var(--bronze-tint); --m-lite: var(--bronze-lite); }
+.ph-euclid     { --m: var(--silver); --m-ink: var(--silver-ink); --m-tint: var(--silver-tint); --m-lite: var(--silver-lite); }
+.ph-archimedes { --m: var(--gold);   --m-ink: var(--gold-ink);   --m-tint: var(--gold-tint);   --m-lite: var(--gold-lite); }
+
+/* ==========================================================
+   Base
+   ========================================================== */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+button { font: inherit; color: inherit; }
+h1, h2, h3, h4, p, ol { margin: 0; }
+ol { padding: 0; list-style: none; }
+
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+.sr-only {
+    position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.skip {
+    position: absolute; left: 12px; top: -60px; z-index: 100;
+    background: var(--surface); color: var(--navy); padding: 10px 16px; border-radius: 4px;
+    font-weight: 600; text-decoration: none;
+}
+.skip:focus { top: 12px; }
+
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
+
+svg.i { width: 1em; height: 1em; flex: none; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+/* ==========================================================
+   Hero: τίτλος + βάθρο φάσεων (το βάθρο είναι και φίλτρο)
+   ========================================================== */
+.hero { background: var(--navy); color: #fff; overflow: hidden; }
+
+.brandbar { padding-top: 18px; padding-bottom: 18px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; font-weight: 600; letter-spacing: .01em; }
+.logo {
+    width: 30px; height: 30px; border-radius: 50%;
+    background: #d62828; color: #fff;
+    display: inline-grid; place-items: center;
+    font: 700 1.3rem/1 var(--serif); padding-bottom: 3px;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    gap: 48px;
+    align-items: end;
+}
+.hero-text { padding: 36px 0 56px; }
+.hero h1 {
+    font-family: var(--serif);
+    font-weight: 800;
+    font-size: clamp(2.3rem, 5.2vw, 3.7rem);
+    line-height: 1.06;
+    letter-spacing: -.012em;
+}
+.hero-text p {
+    margin-top: 20px;
+    max-width: 46ch;
+    font-size: 1.08rem;
+    color: #d5def0;
+}
+
+.podium {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    align-items: end;
+    justify-self: end;
+    width: 100%;
+    max-width: 540px;
+}
+.step {
+    --h: 112px;
+    appearance: none;
+    border: 0;
+    border-top: 6px solid var(--m-lite);
+    background: rgba(255, 255, 255, .09);
+    color: #fff;
+    text-align: left;
+    height: var(--h);
+    padding: 12px 14px;
+    display: flex; flex-direction: column; justify-content: flex-end; gap: 2px;
+    cursor: pointer;
+    transition: background-color .15s, color .15s;
+    animation: rise .55s cubic-bezier(.2, .7, .2, 1) both;
+}
+.step:nth-child(1) { --h: 112px; }
+.step:nth-child(2) { --h: 148px; animation-delay: .08s; }
+.step:nth-child(3) { --h: 184px; animation-delay: .16s; }
+.step:hover { background: rgba(255, 255, 255, .17); }
+.step[aria-pressed="true"] { background: var(--m-lite); color: var(--navy); }
+.step .ord { font: 800 2.1rem/1 var(--serif); }
+.step .nm { font-weight: 600; font-size: .95rem; line-height: 1.25; }
+.step .ph { font-size: .82rem; opacity: .85; }
+
+@keyframes rise { from { transform: translateY(46px); opacity: 0; } }
+
+/* ==========================================================
+   Layout: αποτελέσματα + πάγιο πλαίσιο «Η επιλογή μου»
+   ========================================================== */
+.layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 340px;
+    gap: 40px;
+    padding-top: 36px;
+    padding-bottom: 80px;
+    align-items: start;
+}
+
+/* ---------- Φίλτρα ---------- */
+.filters {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 24px;
+    display: grid;
+    gap: 26px;
+}
+.f-title { font: 600 .98rem/1.3 var(--sans); color: var(--navy); margin-bottom: 10px; }
+.f-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px; }
+
+.year-matrix { display: grid; gap: 10px; }
+.decade { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 12px; align-items: center; }
+.decade-label { font-size: .85rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.decade-chips { display: grid; grid-template-columns: repeat(auto-fill, minmax(92px, 1fr)); gap: 6px; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+    position: relative;
+    appearance: none;
+    min-height: 38px;
+    padding: 0 12px;
+    background: var(--surface);
+    border: 1px solid var(--line-strong);
+    border-radius: 4px;
+    color: var(--text);
+    font-size: .92rem;
+    font-variant-numeric: tabular-nums;
+    cursor: pointer;
+    transition: border-color .12s, background-color .12s, color .12s;
+}
+.chip:hover { border-color: var(--navy); }
+.chip[aria-pressed="true"] { background: var(--navy); border-color: var(--navy); color: #fff; }
+.chip.has-gap::after {
+    content: ""; position: absolute; top: 5px; right: 5px;
+    width: 6px; height: 6px; border-radius: 50%;
+    border: 1.5px solid var(--gold-ink);
+}
+.chip.has-gap[aria-pressed="true"]::after { border-color: #fff; }
+
+.gap-note { margin-top: 12px; font-size: .85rem; color: var(--muted); display: flex; gap: 8px; align-items: flex-start; }
+.gap-mark { flex: none; width: 8px; height: 8px; margin-top: .5em; border-radius: 50%; border: 1.5px solid var(--gold-ink); }
+
+/* ---------- Αποτελέσματα ---------- */
+.results { margin-top: 32px; }
+.res-head {
+    display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 20px;
+    padding-bottom: 12px; border-bottom: 3px solid var(--navy);
+}
+.res-title { font: 800 1.9rem/1.1 var(--serif); color: var(--navy); font-variant-numeric: lining-nums tabular-nums; }
+.res-count { color: var(--muted); font-size: .95rem; margin-left: 12px; font-family: var(--sans); font-weight: 400; }
+.res-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.notice {
+    margin-top: 18px; padding: 12px 16px;
+    display: flex; gap: 10px; align-items: flex-start;
+    background: var(--gold-tint); border-left: 4px solid var(--gold);
+    color: #4d3a05; font-size: .93rem;
+}
+.notice svg.i { margin-top: .25em; }
+
+.group {
+    margin-top: 24px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 6px solid var(--m);
+    border-radius: 2px;
+}
+.group-head {
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px;
+    padding: 12px 22px;
+    background: var(--m-tint);
+    border-bottom: 1px solid var(--line);
+}
+.group-head h3 { font: 700 1.12rem/1.3 var(--serif); color: var(--m-ink); display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.g-grade { padding-left: 14px; border-left: 2px solid var(--m); }
+
+.problem { padding: 20px 24px 24px; }
+.problem + .problem { border-top: 1px solid var(--line); }
+.p-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 10px; }
+.p-num { font: 700 1.08rem/1.3 var(--serif); color: var(--navy); }
+
+.statement { font: 400 1.08rem/1.8 var(--serif); max-width: 72ch; overflow-wrap: anywhere; }
+.statement .para + .para { margin-top: .6em; }
+.statement img { max-width: min(100%, 480px); height: auto; background: #fff; }
+mjx-container { margin: .25em 0 !important; }
+mjx-container[display="true"] { margin: .7em 0 !important; }
+mjx-container[display="true"] { overflow-x: auto; overflow-y: hidden; max-width: 100%; }
+
+.state {
+    margin-top: 24px; padding: 48px 24px; text-align: center;
+    background: var(--surface); border: 1px dashed var(--line-strong); border-radius: 4px;
+    color: var(--muted); display: grid; gap: 14px; justify-items: center;
+}
+.state h3 { font: 700 1.15rem/1.3 var(--serif); color: var(--navy); }
+.state.error { border-color: #c2483d; }
+.spinner {
+    width: 26px; height: 26px; border-radius: 50%;
+    border: 3px solid var(--line); border-top-color: var(--navy);
+    animation: spin .8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ---------- Κουμπιά ---------- */
+.btn {
+    appearance: none;
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    min-height: 40px; padding: 0 16px;
+    border: 1px solid var(--navy);
+    border-radius: 4px;
+    background: var(--surface); color: var(--navy);
+    font-weight: 600; font-size: .92rem;
+    cursor: pointer;
+    transition: background-color .12s, color .12s, border-color .12s;
+}
+.btn:hover { background: var(--navy); color: #fff; }
+.btn-primary { background: var(--navy); color: #fff; }
+.btn-primary:hover { background: var(--navy-hover); border-color: var(--navy-hover); }
+.btn-quiet { border-color: transparent; background: transparent; color: var(--muted); }
+.btn-quiet:hover { background: transparent; color: #a4312a; text-decoration: underline; }
+.btn-sm { min-height: 34px; padding: 0 12px; font-size: .88rem; }
+.btn:disabled { opacity: .45; cursor: not-allowed; pointer-events: none; }
+
+.add .on { display: none; }
+.add[aria-pressed="true"] { background: var(--navy); color: #fff; }
+.add[aria-pressed="true"] .on { display: inline-flex; align-items: center; gap: 8px; }
+.add[aria-pressed="true"] .off { display: none; }
+.add .off { display: inline-flex; align-items: center; gap: 8px; }
+
+/* ---------- Πλαίσιο «Η επιλογή μου» ---------- */
+.exam {
+    position: sticky; top: 20px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-top: 4px solid var(--navy);
+    border-radius: 4px;
+}
+.exam-head { font: inherit; }
+.exam-toggle {
+    appearance: none; width: 100%; background: none; border: 0; cursor: default; pointer-events: none;
+    display: flex; align-items: center; gap: 10px; padding: 16px 18px 12px; text-align: left;
+    font: 800 1.2rem/1.2 var(--serif); color: var(--navy);
+}
+.exam-toggle .count {
+    min-width: 28px; height: 28px; padding: 0 8px; border-radius: 14px;
+    background: var(--navy); color: #fff; font: 600 .85rem/28px var(--sans); text-align: center;
+}
+.exam-toggle .chev { display: none; margin-left: auto; }
+.exam-body { padding: 0 18px 18px; display: grid; gap: 14px; }
+@media (min-width: 1024px) { #examList { max-height: calc(100vh - 400px); min-height: 72px; overflow: auto; } }
+
+.ex-empty { color: var(--muted); font-size: .92rem; padding: 4px 0 2px; }
+.ex-list { display: grid; gap: 6px; }
+.ex-item {
+    display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; gap: 8px; align-items: center;
+    padding: 8px 8px 8px 10px;
+    border: 1px solid var(--line); border-left: 4px solid var(--m); border-radius: 2px;
+    background: var(--surface);
+}
+.ex-n { font: 700 .95rem var(--serif); color: var(--muted); }
+.ex-t { min-width: 0; line-height: 1.3; }
+.ex-t strong { display: block; font-size: .93rem; }
+.ex-t span { display: block; font-size: .8rem; color: var(--muted); }
+.ex-ctl { display: flex; gap: 2px; }
+.icon-btn {
+    appearance: none; width: 30px; height: 30px; display: grid; place-items: center;
+    background: transparent; border: 1px solid transparent; border-radius: 4px; color: var(--muted); cursor: pointer;
+}
+.icon-btn:hover { border-color: var(--line-strong); color: var(--navy); }
+.icon-btn.rm:hover { color: #a4312a; border-color: #e0b1ac; }
+.icon-btn:disabled { opacity: .3; pointer-events: none; }
+
+.field { display: grid; gap: 4px; font-size: .85rem; color: var(--muted); }
+.field input[type="text"] {
+    width: 100%; height: 38px; padding: 0 10px;
+    border: 1px solid var(--line-strong); border-radius: 4px;
+    font: inherit; font-size: .93rem; color: var(--text); background: var(--surface);
+}
+.check { display: flex; gap: 8px; align-items: center; font-size: .88rem; color: var(--text); cursor: pointer; }
+.check input { width: 17px; height: 17px; accent-color: var(--navy); }
+.ex-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.ex-actions .btn-quiet { grid-column: 1 / -1; }
+
+/* ---------- Παράθυρο κοινοποίησης ---------- */
+dialog {
+    border: 1px solid var(--line); border-top: 4px solid var(--navy); border-radius: 4px;
+    padding: 24px; width: min(420px, calc(100vw - 32px)); color: var(--text); background: var(--surface);
+}
+dialog::backdrop { background: rgba(15, 42, 92, .55); }
+dialog h2 { font: 800 1.3rem/1.2 var(--serif); color: var(--navy); margin-bottom: 6px; }
+dialog p { color: var(--muted); font-size: .92rem; }
+.qr-box { display: grid; place-items: center; padding: 18px 0; min-height: 240px; }
+.qr-box img, .qr-box canvas { max-width: 100%; height: auto; }
+.share-url { width: 100%; height: 38px; padding: 0 10px; border: 1px solid var(--line-strong); border-radius: 4px; font-size: .82rem; color: var(--muted); }
+.dlg-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 14px; flex-wrap: wrap; }
+.copy-status { font-size: .85rem; color: var(--gold-ink); min-height: 1.4em; margin-top: 6px; }
+
+/* ---------- Υποσέλιδο ---------- */
+.footer { background: var(--navy); color: #c7d3ec; font-size: .9rem; }
+.footer .wrap { padding-top: 22px; padding-bottom: 22px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
+.footer a { color: #fff; }
+
+/* ---------- Φύλλο εκτύπωσης (εκτός οθόνης στην οθόνη) ---------- */
+#printSheet { position: absolute; left: -10000px; top: 0; width: 720px; font-family: var(--serif); color: #000; background: #fff; }
+.ps-head { border-bottom: 2px solid #000; padding-bottom: 8px; margin-bottom: 22px; display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+.ps-head h1 { font: 700 18pt/1.2 var(--serif); }
+.ps-head p { font: 10pt var(--sans); color: #444; }
+.ps-item { display: grid; grid-template-columns: 2.2rem minmax(0, 1fr); gap: 4px; margin-bottom: 22px; break-inside: avoid; }
+.ps-num { font: 700 12pt/1.7 var(--serif); }
+.ps-src { font: 9pt var(--sans); color: #555; margin-bottom: 4px; }
+.ps-body .statement { font-size: 12pt; line-height: 1.7; max-width: none; }
+
+/* ==========================================================
+   Κινητά και tablet
+   ========================================================== */
+@media (max-width: 1023px) {
+    .layout { grid-template-columns: minmax(0, 1fr); padding-bottom: 110px; }
+
+    .exam {
+        position: fixed; left: 0; right: 0; bottom: 0; top: auto; z-index: 40;
+        border-radius: 0; border-left: 0; border-right: 0;
+        box-shadow: 0 -10px 28px rgba(15, 42, 92, .18);
+    }
+    .exam-toggle { cursor: pointer; pointer-events: auto; padding: 14px 18px; }
+    .exam-toggle .chev { display: block; transition: transform .2s; }
+    .exam.open .exam-toggle .chev { transform: rotate(180deg); }
+    .exam-body { display: none; max-height: 62vh; }
+    .exam.open .exam-body { display: grid; }
+}
+
+@media (max-width: 820px) {
+    .hero-grid { grid-template-columns: minmax(0, 1fr); gap: 0; }
+    .hero-text { padding: 20px 0 36px; }
+    .podium { justify-self: stretch; max-width: none; }
+    .step:nth-child(1) { --h: 88px; }
+    .step:nth-child(2) { --h: 112px; }
+    .step:nth-child(3) { --h: 136px; }
+    .step { padding: 10px 10px; }
+    .step .ord { font-size: 1.6rem; }
+    .step .nm { font-size: .88rem; }
+    .step .ph { font-size: .75rem; }
+}
+
+@media (max-width: 640px) {
+    .wrap { padding-left: 16px; padding-right: 16px; }
+    .filters { padding: 18px 16px; }
+    .f-row { grid-template-columns: minmax(0, 1fr); }
+    .decade { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+    .decade-chips { grid-template-columns: repeat(auto-fill, minmax(88px, 1fr)); }
+    .problem { padding: 16px 16px 20px; }
+    .group-head { padding: 10px 16px; }
+    .statement { font-size: 1.03rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .step { animation: none; }
+    .spinner { animation: none; border-top-color: var(--line); }
+    * { transition: none !important; }
+}
+
+/* ==========================================================
+   Εκτύπωση: μόνο τα επιλεγμένα θέματα
+   ========================================================== */
+@page { margin: 18mm 16mm; }
+@media print {
+    body { background: #fff; }
+    .skip, .hero, .layout, .footer, dialog, noscript { display: none !important; }
+    #printSheet { position: static; left: auto; width: auto; }
+    .ps-body .statement img { max-width: 70%; }
+}
+</style>
+</head>
+
+<body>
+<a class="skip" href="#results">Μετάβαση στα θέματα</a>
+
+<header class="hero">
+    <div class="wrap brandbar">
+        <a class="brand" href="https://eisatopon.gr" aria-label="eisatopon.gr">
+            <span class="logo" aria-hidden="true">e</span>
+            <span>eisatopon.gr</span>
+        </a>
+    </div>
+
+    <div class="wrap hero-grid">
+        <div class="hero-text">
+            <h1>Τράπεζα Θεμάτων ΕΜΕ</h1>
+            <p>Τα θέματα των διαγωνισμών Θαλής, Ευκλείδης και Αρχιμήδης της Ελληνικής Μαθηματικής Εταιρείας, από το 1995 έως σήμερα. Διάλεξε φάση, έτος και τάξη, πρόσθεσε τα θέματα που θέλεις και εκτύπωσε το δικό σου διαγώνισμα.</p>
+        </div>
+
+        <div class="podium" id="podium" role="group" aria-label="Φάση διαγωνισμού"></div>
+    </div>
+</header>
+
+<main class="wrap layout" id="main">
+    <div class="col-main">
+
+        <section class="filters" aria-label="Φίλτρα θεμάτων">
+            <div>
+                <h2 class="f-title" id="yearTitle">Σχολικό έτος</h2>
+                <div class="year-matrix" id="yearMatrix" role="group" aria-labelledby="yearTitle"></div>
+                <p class="gap-note">
+                    <span class="gap-mark" aria-hidden="true"></span>
+                    <span>Λόγω της πανδημίας COVID-19 δεν διεξήχθησαν: οι διαγωνισμοί <strong>Ευκλείδης</strong> και <strong>Αρχιμήδης</strong> το 2020–2021, και ο <strong>Ευκλείδης</strong> τα σχολικά έτη 2021–2022 και 2022–2023.</span>
+                </p>
+            </div>
+
+            <div class="f-row">
+                <div>
+                    <h2 class="f-title" id="gradeTitle">Τάξη ή κατηγορία</h2>
+                    <div class="chips" id="gradeChips" role="group" aria-labelledby="gradeTitle"></div>
+                </div>
+                <div>
+                    <h2 class="f-title" id="numTitle">Αριθμός θέματος</h2>
+                    <div class="chips" id="numChips" role="group" aria-labelledby="numTitle"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="results" id="results" aria-labelledby="resTitle" tabindex="-1">
+            <div id="resultsBox"></div>
+        </section>
+    </div>
+
+    <aside class="exam" id="exam" aria-label="Η επιλογή μου">
+        <h2 class="exam-head">
+            <button type="button" class="exam-toggle" id="examToggle" aria-expanded="false" aria-controls="examBody">
+                <span>Η επιλογή μου</span>
+                <span class="count" id="examCount">0</span>
+                <svg class="i chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>
+            </button>
+        </h2>
+        <div class="exam-body" id="examBody">
+            <div id="examList"></div>
+
+            <label class="field">Τίτλος εκτύπωσης
+                <input type="text" id="examTitle" placeholder="Θέματα διαγωνισμών ΕΜΕ" autocomplete="off">
+            </label>
+            <label class="check"><input type="checkbox" id="showSource" checked> Εμφάνιση πηγής στην εκτύπωση</label>
+
+            <div class="ex-actions">
+                <button type="button" class="btn btn-primary" id="printBtn">
+                    <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4a1 1 0 0 1-1-1v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1h-2M7 14h10v7H7z"/></svg>
+                    Εκτύπωση
+                </button>
+                <button type="button" class="btn" id="shareBtn">
+                    <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h3v3h-3zM20 14v3M14 20h3M20 20h1"/></svg>
+                    Κοινοποίηση
+                </button>
+                <button type="button" class="btn btn-quiet" id="clearBtn">Καθαρισμός επιλογής</button>
+            </div>
+        </div>
+    </aside>
+</main>
+
+<footer class="footer">
+    <div class="wrap">
+        <span>eisatopon.gr © 2025–<span id="yr">2026</span> – Διαγωνισμοί Ελληνικής Μαθηματικής Εταιρείας</span>
+        <a href="https://github.com/Eisatopon/eisatopon-bank">Δεδομένα στο GitHub</a>
+    </div>
+</footer>
+
+<dialog id="shareDialog" aria-labelledby="shareTitle">
+    <h2 id="shareTitle">Κοινοποίηση της επιλογής</h2>
+    <p>Σκάναρε τον κωδικό ή στείλε τον σύνδεσμο. Ανοίγει την ίδια επιλογή θεμάτων.</p>
+    <div class="qr-box" id="qrBox"></div>
+    <input class="share-url" id="shareUrl" type="text" readonly aria-label="Σύνδεσμος κοινοποίησης">
+    <div class="copy-status" id="copyStatus" role="status"></div>
+    <div class="dlg-actions">
+        <button type="button" class="btn" id="copyBtn">Αντιγραφή συνδέσμου</button>
+        <button type="button" class="btn btn-primary" id="closeShare">Κλείσιμο</button>
+    </div>
+</dialog>
+
+<div id="printSheet" aria-hidden="true"></div>
+<div class="sr-only" id="srStatus" role="status"></div>
+
+<noscript><p style="padding:24px">Η σελίδα χρειάζεται JavaScript για να φορτώσει τα θέματα.</p></noscript>
+
+<script>
+(() => {
+'use strict';
+
+/* ==========================================================
+   Δεδομένα και σταθερές
+   ========================================================== */
+const BASE = 'https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/';
+const LATEST_START = 2025;   // Αύξησέ το όταν προστεθεί νέο σχολικό έτος (π.χ. 2026 → 2026-2027)
+const OLDEST_START = 1995;
+const STORAGE_KEY = 'eisatopon-bank:exam:v1';
+
+const dataUrl = y => `${BASE}math_competitions_${y.replace('-', '_')}_latex.json`;
+
+const YEARS = [];
+for (let y = LATEST_START; y >= OLDEST_START; y--) YEARS.push(`${y}-${y + 1}`);
+
+const PHASES = [
+    { key: 'Θαλής',     cls: 'ph-thalis',     ord: 'Α΄', sub: 'Α΄ φάση' },
+    { key: 'Ευκλείδης', cls: 'ph-euclid',     ord: 'Β΄', sub: 'Β΄ φάση' },
+    { key: 'Αρχιμήδης', cls: 'ph-archimedes', ord: 'Γ΄', sub: 'Γ΄ φάση' }
+];
+
+const GRADE_LABELS = {
+    'Β_Γυμνασίου': 'Β΄ Γυμνασίου',
+    'Γ_Γυμνασίου': 'Γ΄ Γυμνασίου',
+    'Α_Λυκείου':   'Α΄ Λυκείου',
+    'Β_Λυκείου':   'Β΄ Λυκείου',
+    'Γ_Λυκείου':   'Γ΄ Λυκείου',
+    'μικροί':      'Μικροί',
+    'μεγάλοι':     'Μεγάλοι'
+};
+const SCHOOL_GRADES = ['Β_Γυμνασίου', 'Γ_Γυμνασίου', 'Α_Λυκείου', 'Β_Λυκείου', 'Γ_Λυκείου'];
+const ARCH_GRADES = ['μικροί', 'μεγάλοι'];
+const GRADE_ORDER = [...SCHOOL_GRADES, ...ARCH_GRADES];
+
+// Διαγωνισμοί που δεν διεξήχθησαν (COVID-19)
+const COVID = {
+    '2020-2021': ['Ευκλείδης', 'Αρχιμήδης'],
+    '2021-2022': ['Ευκλείδης'],
+    '2022-2023': ['Ευκλείδης']
+};
+
+const ICON = {
+    plus:  '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>',
+    check: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
+    up:    '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>',
+    down:  '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>',
+    x:     '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+    info:  '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>'
+};
+
+/* ==========================================================
+   Κατάσταση
+   ========================================================== */
+const state = { year: YEARS[0], phase: '', grade: '', num: '' };
+const cache = new Map();      // έτος -> λίστα θεμάτων
+const inflight = new Map();   // έτος -> Promise
+const byUid = new Map();      // uid -> θέμα (όλα τα φορτωμένα)
+let selected = [];            // uid με τη σειρά του διαγωνίσματος
+let shownUids = [];           // uid των θεμάτων που εμφανίζονται τώρα
+let renderToken = 0;
+
+/* ==========================================================
+   Βοηθητικά
+   ========================================================== */
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const fmtYear = y => y.replace('-', '–');
+const phaseOf = key => PHASES.find(p => p.key === key) || { cls: '', ord: '', sub: '' };
+const gradeLabel = g => GRADE_LABELS[g] || g.replace(/_/g, ' ');
+const say = msg => { $('#srStatus').textContent = ''; setTimeout(() => { $('#srStatus').textContent = msg; }, 30); };
+
+function typeset(el) {
+    return new Promise(resolve => {
+        let tries = 0;
+        const go = () => {
+            if (window.MathJax && typeof MathJax.typesetPromise === 'function') {
+                const next = MathJax.startup.promise
+                    .then(() => MathJax.typesetPromise([el]))
+                    .catch(err => console.error('MathJax:', err));
+                MathJax.startup.promise = next;
+                next.then(resolve);
+            } else if (tries++ < 100) {
+                setTimeout(go, 150);
+            } else {
+                resolve();
+            }
+        };
+        go();
+    });
+}
+
+function statementHtml(html, lazy) {
+    const out = html.split(/\n{2,}/).map(s => s.trim()).filter(Boolean)
+        .map(s => `<div class="para">${s}</div>`).join('');
+    return lazy ? out.replace(/<img /g, '<img loading="lazy" decoding="async" ') : out;
+}
+
+function listNames(names) {
+    return names.length > 1 ? names.slice(0, -1).join(', ') + ' και ' + names[names.length - 1] : names[0];
+}
+
+/* ==========================================================
+   Φόρτωση δεδομένων
+   ========================================================== */
+function loadYear(year) {
+    if (cache.has(year)) return Promise.resolve(cache.get(year));
+    if (inflight.has(year)) return inflight.get(year);
+
+    const p = fetch(dataUrl(year))
+        .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(data => {
+            const list = [];
+            const raw = data['προβλήματα'] || {};
+            Object.entries(raw).forEach(([phase, perPhase]) => {
+                Object.entries(perPhase || {}).forEach(([grade, items]) => {
+                    (items || []).forEach(p => {
+                        const id = String(p.id ?? list.length + 1);
+                        const prob = {
+                            uid: `${year}.${id}`, year, phase, grade,
+                            num: String(p['αριθμός'] ?? ''),
+                            html: String(p.statement ?? '')
+                        };
+                        list.push(prob);
+                        byUid.set(prob.uid, prob);
+                    });
+                });
+            });
+            cache.set(year, list);
+            inflight.delete(year);
+            return list;
+        })
+        .catch(err => { inflight.delete(year); throw err; });
+
+    inflight.set(year, p);
+    return p;
+}
+
+/* ==========================================================
+   Φίλτρα
+   ========================================================== */
+function buildPodium() {
+    $('#podium').innerHTML = PHASES.map(p => `
+        <button type="button" class="step ${p.cls}" data-phase="${p.key}" aria-pressed="false">
+            <span class="ord" aria-hidden="true">${p.ord}</span>
+            <span class="nm">${p.key}</span>
+            <span class="ph">${p.sub}</span>
+        </button>`).join('');
+}
+
+function buildYearMatrix() {
+    const decades = [[2020, 2029], [2010, 2019], [2000, 2009], [1995, 1999]];
+    $('#yearMatrix').innerHTML = decades.map(([a, b]) => {
+        const chips = YEARS.filter(y => { const s = +y.slice(0, 4); return s >= a && s <= b; })
+            .map(y => {
+                const gap = COVID[y];
+                return `<button type="button" class="chip${gap ? ' has-gap' : ''}" data-year="${y}" aria-pressed="false"` +
+                    (gap ? ` aria-label="${fmtYear(y)}, δεν διεξήχθησαν όλοι οι διαγωνισμοί" title="Δεν διεξήχθησαν όλοι οι διαγωνισμοί (COVID-19)"` : '') +
+                    `>${fmtYear(y)}</button>`;
+            }).join('');
+        return chips ? `<div class="decade"><span class="decade-label">${a}–${b}</span><div class="decade-chips">${chips}</div></div>` : '';
+    }).join('');
+}
+
+function gradeChoices() {
+    if (state.phase === 'Αρχιμήδης') return ARCH_GRADES;
+    if (state.phase) return SCHOOL_GRADES;
+    return GRADE_ORDER;
+}
+
+function syncFilters() {
+    $$('#yearMatrix [data-year]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.year === state.year)));
+    $$('#podium [data-phase]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.phase === state.phase)));
+
+    if (state.grade && !gradeChoices().includes(state.grade)) state.grade = '';
+    const gradeBtns = [['', 'Όλες']].concat(gradeChoices().map(g => [g, gradeLabel(g)]));
+    $('#gradeChips').innerHTML = gradeBtns.map(([v, l]) =>
+        `<button type="button" class="chip" data-grade="${v}" aria-pressed="${state.grade === v}">${l}</button>`).join('');
+
+    const nums = [['', 'Όλα'], ['1', '1'], ['2', '2'], ['3', '3'], ['4', '4']];
+    $('#numChips').innerHTML = nums.map(([v, l]) =>
+        `<button type="button" class="chip" data-num="${v}" aria-pressed="${state.num === v}">${l}</button>`).join('');
+}
+
+function matches(p) {
+    return (!state.phase || p.phase === state.phase) &&
+           (!state.grade || p.grade === state.grade) &&
+           (!state.num || p.num === state.num);
+}
+
+function compare(a, b) {
+    const pa = PHASES.findIndex(x => x.key === a.phase), pb = PHASES.findIndex(x => x.key === b.phase);
+    if (pa !== pb) return pa - pb;
+    const ga = GRADE_ORDER.indexOf(a.grade), gb = GRADE_ORDER.indexOf(b.grade);
+    if (ga !== gb) return ga - gb;
+    return (parseInt(a.num, 10) || 0) - (parseInt(b.num, 10) || 0);
+}
+
+/* ==========================================================
+   Αποτελέσματα
+   ========================================================== */
+const box = () => $('#resultsBox');
+
+function headHtml(count) {
+    const filtersOn = state.phase || state.grade || state.num;
+    return `
+        <div class="res-head">
+            <h2 class="res-title" id="resTitle">${fmtYear(state.year)} <span class="res-count">${count === null ? '' : (count === 1 ? '1 θέμα' : count + ' θέματα')}</span></h2>
+            <div class="res-actions">
+                ${filtersOn ? '<button type="button" class="btn btn-sm btn-quiet" data-clear-filters>Καθαρισμός φίλτρων</button>' : ''}
+                ${count ? `<button type="button" class="btn btn-sm" data-add-all>${ICON.plus} Προσθήκη όλων</button>` : ''}
+            </div>
+        </div>`;
+}
+
+function showLoading() {
+    box().innerHTML = headHtml(null) +
+        '<div class="state" role="status"><span class="spinner" aria-hidden="true"></span><p>Φόρτωση θεμάτων…</p></div>';
+}
+
+function showError(year) {
+    box().innerHTML = headHtml(null) + `
+        <div class="state error" role="alert">
+            <h3>Δεν φορτώθηκαν τα θέματα του ${fmtYear(year)}</h3>
+            <p>Έλεγξε τη σύνδεσή σου στο διαδίκτυο και δοκίμασε ξανά.</p>
+            <button type="button" class="btn btn-primary" data-retry>Δοκίμασε ξανά</button>
+        </div>`;
+}
+
+function gapNotice() {
+    const gaps = COVID[state.year] || [];
+    const rel = state.phase ? gaps.filter(g => g === state.phase) : gaps;
+    if (!rel.length) return '';
+    const verb = rel.length > 1 ? 'δεν διεξήχθησαν οι διαγωνισμοί' : 'δεν διεξήχθη ο διαγωνισμός';
+    return `<div class="notice">${ICON.info}<p>Λόγω της πανδημίας COVID-19 ${verb} <strong>${listNames(rel)}</strong> το σχολικό έτος ${fmtYear(state.year)}.</p></div>`;
+}
+
+function renderResults(list) {
+    const items = list.filter(matches).sort(compare);
+    shownUids = items.map(p => p.uid);
+    const notice = gapNotice();
+
+    if (!items.length) {
+        const covidOnly = notice && state.phase;
+        box().innerHTML = headHtml(0) + notice + (covidOnly ? '' : `
+            <div class="state">
+                <h3>Δεν υπάρχουν θέματα για αυτόν τον συνδυασμό</h3>
+                <p>Δοκίμασε άλλη φάση, τάξη ή αριθμό θέματος, ή διάλεξε άλλο σχολικό έτος.</p>
+                <button type="button" class="btn" data-clear-filters>Καθαρισμός φίλτρων</button>
+            </div>`);
+        say('Δεν βρέθηκαν θέματα.');
+        return;
+    }
+
+    const groups = new Map();
+    items.forEach(p => {
+        const k = p.phase + '|' + p.grade;
+        if (!groups.has(k)) groups.set(k, []);
+        groups.get(k).push(p);
+    });
+
+    let html = headHtml(items.length) + notice;
+    groups.forEach(arr => {
+        const first = arr[0];
+        html += `
+        <section class="group ${phaseOf(first.phase).cls}">
+            <header class="group-head">
+                <h3><span class="g-phase">${first.phase}</span><span class="g-grade">${gradeLabel(first.grade)}</span></h3>
+            </header>
+            ${arr.map(p => `
+            <article class="problem">
+                <div class="p-head">
+                    <h4 class="p-num">Θέμα ${p.num}</h4>
+                    <button type="button" class="btn btn-sm add" data-toggle-uid="${p.uid}" aria-pressed="false">
+                        <span class="off">${ICON.plus} Προσθήκη</span>
+                        <span class="on">${ICON.check} Στην επιλογή</span>
+                    </button>
+                </div>
+                <div class="statement">${statementHtml(p.html, true)}</div>
+            </article>`).join('')}
+        </section>`;
+    });
+
+    box().innerHTML = html;
+    syncAddButtons();
+    typeset(box());
+    say(items.length === 1 ? 'Βρέθηκε 1 θέμα.' : `Βρέθηκαν ${items.length} θέματα.`);
+}
+
+async function refresh() {
+    syncFilters();
+    if (!state.year) return;
+    const token = ++renderToken;
+    const year = state.year;
+    if (!cache.has(year)) showLoading();
+    try {
+        const list = await loadYear(year);
+        if (token !== renderToken) return;
+        renderResults(list);
+    } catch (err) {
+        if (token !== renderToken) return;
+        console.error(err);
+        showError(year);
+    }
+}
+
+/* ==========================================================
+   Η επιλογή μου
+   ========================================================== */
+function getSelected() { return selected.map(u => byUid.get(u)).filter(Boolean); }
+
+function persist() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(selected)); } catch (e) { /* ιδιωτική περιήγηση */ } }
+function readSaved() {
+    try {
+        const v = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+        return Array.isArray(v) ? v.filter(x => typeof x === 'string') : [];
+    } catch (e) { return []; }
+}
+
+function syncAddButtons() {
+    $$('[data-toggle-uid]').forEach(b => b.setAttribute('aria-pressed', String(selected.includes(b.dataset.toggleUid))));
+}
+
+function renderExam() {
+    const items = getSelected();
+    $('#examCount').textContent = items.length;
+
+    $('#examList').innerHTML = items.length
+        ? `<ol class="ex-list">${items.map((p, i) => `
+            <li class="ex-item ${phaseOf(p.phase).cls}">
+                <span class="ex-n">${i + 1}</span>
+                <div class="ex-t"><strong>Θέμα ${p.num}</strong><span>${p.phase}, ${gradeLabel(p.grade)}, ${fmtYear(p.year)}</span></div>
+                <div class="ex-ctl">
+                    <button type="button" class="icon-btn" data-up="${p.uid}" aria-label="Μετακίνηση προς τα πάνω: θέμα ${i + 1}" ${i === 0 ? 'disabled' : ''}>${ICON.up}</button>
+                    <button type="button" class="icon-btn" data-down="${p.uid}" aria-label="Μετακίνηση προς τα κάτω: θέμα ${i + 1}" ${i === items.length - 1 ? 'disabled' : ''}>${ICON.down}</button>
+                    <button type="button" class="icon-btn rm" data-remove="${p.uid}" aria-label="Αφαίρεση: θέμα ${i + 1}">${ICON.x}</button>
+                </div>
+            </li>`).join('')}</ol>`
+        : '<p class="ex-empty">Δεν έχεις προσθέσει θέματα. Πάτα «Προσθήκη» δίπλα σε όποιο θέμα θέλεις να μπει στο διαγώνισμα.</p>';
+
+    ['#printBtn', '#shareBtn', '#clearBtn'].forEach(s => { $(s).disabled = !items.length; });
+    syncAddButtons();
+    renderPrintSheet();
+}
+
+function changeSelection(fn, message) {
+    fn();
+    persist();
+    renderExam();
+    if (message) say(message);
+}
+
+function toggleUid(uid) {
+    const p = byUid.get(uid);
+    const label = p ? `Θέμα ${p.num}, ${p.phase}, ${gradeLabel(p.grade)}` : 'Θέμα';
+    if (selected.includes(uid)) {
+        changeSelection(() => { selected = selected.filter(u => u !== uid); }, `${label}: αφαιρέθηκε από την επιλογή.`);
+    } else {
+        changeSelection(() => { selected.push(uid); }, `${label}: προστέθηκε στην επιλογή.`);
+    }
+}
+
+function move(uid, delta) {
+    const i = selected.indexOf(uid), j = i + delta;
+    if (i < 0 || j < 0 || j >= selected.length) return;
+    changeSelection(() => { [selected[i], selected[j]] = [selected[j], selected[i]]; });
+    const btn = $(`[data-${delta < 0 ? 'up' : 'down'}="${uid}"]`);
+    if (btn && !btn.disabled) btn.focus();
+}
+
+/* ---------- Εκτύπωση ---------- */
+function renderPrintSheet() {
+    const items = getSelected();
+    const showSrc = $('#showSource').checked;
+    const title = $('#examTitle').value.trim() || 'Θέματα διαγωνισμών ΕΜΕ';
+    $('#printSheet').innerHTML = items.length
+        ? `<header class="ps-head"><h1></h1><p>eisatopon.gr</p></header>` + items.map((p, i) => `
+            <section class="ps-item">
+                <div class="ps-num">${i + 1}.</div>
+                <div class="ps-body">
+                    ${showSrc ? `<p class="ps-src">${p.phase} ${fmtYear(p.year)}, ${gradeLabel(p.grade)}, Θέμα ${p.num}</p>` : ''}
+                    <div class="statement">${statementHtml(p.html, false)}</div>
+                </div>
+            </section>`).join('')
+        : '';
+    const h1 = $('#printSheet h1');
+    if (h1) h1.textContent = title;
+    return typeset($('#printSheet'));
+}
+
+async function doPrint() {
+    if (!selected.length) return;
+    await renderPrintSheet();
+    window.print();
+}
+
+/* ---------- Κοινοποίηση ---------- */
+function shareUrl() {
+    return location.href.split(/[?#]/)[0] + '?exam=' + selected.join(',');
+}
+
+function openShare() {
+    if (!selected.length) return;
+    const url = shareUrl();
+    const qr = $('#qrBox');
+    qr.innerHTML = '';
+    try {
+        new QRCode(qr, { text: url, width: 220, height: 220, colorDark: '#0f2a5c', colorLight: '#ffffff', correctLevel: QRCode.CorrectLevel.M });
+    } catch (e) {
+        qr.innerHTML = '<p>Η επιλογή έχει πολλά θέματα και δεν χωράει σε κωδικό QR. Χρησιμοποίησε τον σύνδεσμο παρακάτω.</p>';
+    }
+    $('#shareUrl').value = url;
+    $('#copyStatus').textContent = '';
+    const dlg = $('#shareDialog');
+    if (typeof dlg.showModal === 'function') dlg.showModal(); else dlg.setAttribute('open', '');
+}
+
+async function copyLink() {
+    const input = $('#shareUrl');
+    try {
+        await navigator.clipboard.writeText(input.value);
+    } catch (e) {
+        input.select();
+        document.execCommand('copy');
+    }
+    $('#copyStatus').textContent = 'Ο σύνδεσμος αντιγράφηκε.';
+}
+
+/* ---------- Εισερχόμενη επιλογή από σύνδεσμο ---------- */
+function parseIncoming() {
+    const params = new URLSearchParams(location.search);
+    const out = [];
+    const exam = params.get('exam');
+    if (exam) {
+        exam.split(',').forEach(t => {
+            const [y, id] = t.split('.');
+            if (YEARS.includes(y) && id) out.push(`${y}.${id}`);
+        });
+    }
+    // Παλιά μορφή συνδέσμων: ?problems=1,2,3&year=2019-2020
+    const legacyYear = params.get('year'), legacy = params.get('problems');
+    if (legacy && YEARS.includes(legacyYear)) {
+        legacy.split(',').forEach(id => { if (id.trim()) out.push(`${legacyYear}.${id.trim()}`); });
+    }
+    return out;
+}
+
+async function hydrate(uids) {
+    const years = [...new Set(uids.map(u => u.split('.')[0]))];
+    const results = await Promise.allSettled(years.map(loadYear));
+    const failed = new Set(years.filter((y, i) => results[i].status === 'rejected'));
+    // Κρατάμε και τα θέματα ετών που δεν φορτώθηκαν (π.χ. χωρίς σύνδεση), ώστε να μην χαθούν από την αποθήκευση
+    return uids.filter(u => byUid.has(u) || failed.has(u.split('.')[0]));
+}
+
+/* ==========================================================
+   Συμβάντα
+   ========================================================== */
+document.addEventListener('click', e => {
+    const t = e.target.closest('button');
+    if (!t) return;
+
+    if (t.dataset.year) { state.year = t.dataset.year; refresh(); return; }
+    if (t.dataset.phase !== undefined && t.closest('#podium')) {
+        state.phase = state.phase === t.dataset.phase ? '' : t.dataset.phase;
+        refresh(); return;
+    }
+    if (t.dataset.grade !== undefined) { state.grade = t.dataset.grade; refresh(); return; }
+    if (t.dataset.num !== undefined) { state.num = t.dataset.num; refresh(); return; }
+    if (t.hasAttribute('data-clear-filters')) { state.phase = ''; state.grade = ''; state.num = ''; refresh(); return; }
+    if (t.hasAttribute('data-retry')) { refresh(); return; }
+
+    if (t.dataset.toggleUid) { toggleUid(t.dataset.toggleUid); return; }
+    if (t.hasAttribute('data-add-all')) {
+        const missing = shownUids.filter(u => !selected.includes(u));
+        if (missing.length) changeSelection(() => { selected.push(...missing); }, `Προστέθηκαν ${missing.length} θέματα στην επιλογή.`);
+        return;
+    }
+    if (t.dataset.up) { move(t.dataset.up, -1); return; }
+    if (t.dataset.down) { move(t.dataset.down, 1); return; }
+    if (t.dataset.remove) {
+        const uid = t.dataset.remove;
+        changeSelection(() => { selected = selected.filter(u => u !== uid); }, 'Το θέμα αφαιρέθηκε από την επιλογή.');
+        return;
+    }
+});
+
+$('#printBtn').addEventListener('click', doPrint);
+$('#shareBtn').addEventListener('click', openShare);
+$('#copyBtn').addEventListener('click', copyLink);
+$('#closeShare').addEventListener('click', () => $('#shareDialog').close());
+$('#clearBtn').addEventListener('click', () => {
+    if (!selected.length) return;
+    if (!confirm('Να αφαιρεθούν όλα τα θέματα από την επιλογή;')) return;
+    changeSelection(() => { selected = []; }, 'Η επιλογή καθαρίστηκε.');
+});
+$('#showSource').addEventListener('change', renderPrintSheet);
+$('#examTitle').addEventListener('input', () => {
+    const h1 = $('#printSheet h1');
+    if (h1) h1.textContent = $('#examTitle').value.trim() || 'Θέματα διαγωνισμών ΕΜΕ';
+});
+
+// Πάνελ επιλογής ως κάτω φύλλο στα κινητά
+const examEl = $('#exam'), toggleEl = $('#examToggle');
+const wide = window.matchMedia('(min-width: 1024px)');
+function syncToggle() { toggleEl.setAttribute('aria-expanded', wide.matches ? 'true' : String(examEl.classList.contains('open'))); }
+toggleEl.addEventListener('click', () => { examEl.classList.toggle('open'); syncToggle(); });
+wide.addEventListener('change', syncToggle);
+
+/* ==========================================================
+   Εκκίνηση
+   ========================================================== */
+async function init() {
+    $('#yr').textContent = new Date().getFullYear();
+    buildPodium();
+    buildYearMatrix();
+
+    const incoming = parseIncoming();
+    const saved = readSaved();
+    const merged = [...saved];
+    incoming.forEach(u => { if (!merged.includes(u)) merged.push(u); });
+
+    if (incoming.length) state.year = incoming[0].split('.')[0];
+
+    syncToggle();
+    renderExam();
+    const firstRender = refresh();
+
+    selected = merged;
+    const keep = new Set(await hydrate(merged));
+    selected = selected.filter(u => keep.has(u));
+    persist();
+    renderExam();
+
+    if (incoming.length) {
+        history.replaceState(null, '', location.href.split('?')[0]);
+        examEl.classList.add('open');
+        syncToggle();
+        say(`Φορτώθηκαν ${incoming.length} κοινοποιημένα θέματα στην επιλογή.`);
+    }
+    await firstRender;
+}
+
+init();
+})();
+</script>
+</body>
+</html>

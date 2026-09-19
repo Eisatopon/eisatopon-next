@@ -1,0 +1,16 @@
+{
+  "name": "MathTopon — Ο τόπος των Μαθηματικών",
+  "short_name": "MathTopon",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#1F4E7B",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "start_url": "."
+}

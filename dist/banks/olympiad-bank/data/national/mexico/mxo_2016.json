@@ -1,0 +1,129 @@
+[
+  {
+    "id": "MXO-2016-P1",
+    "year": 2016,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(C_1\\) and \\(C_2\\) be two circumferences externally tangent at \\(S\\) such that the radius of \\(C_2\\) is triple the radius of \\(C_1\\). Let a line be tangent to \\(C_1\\) at \\(P \\neq S\\) and to \\(C_2\\) at \\(Q \\neq S\\). Let \\(T\\) be a point on \\(C_2\\) such that \\(QT\\) is a diameter of \\(C_2\\). Let the angle bisector of \\(\\angle SQT\\) meet \\(ST\\) at \\(R\\). Prove that \\(QR = RT\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2016-P2",
+    "year": 2016,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "A pair of positive integers \\(m, n\\) is called guerrera if there exist positive integers \\(a, b, c, d\\) such that \\(m = ab\\), \\(n = cd\\) and \\(a + b = c + d\\). We paint positive integers in the following order: we start painting 3 and 5. If a positive integer \\(x\\) is not painted and a positive \\(y\\) is painted such that the pair \\(x, y\\) is guerrera, we paint \\(x\\). Find all positive integers \\(x\\) that can be painted.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2016-P3",
+    "year": 2016,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find the minimum real \\(x\\) that satisfies \\(\\lfloor x \\rfloor < \\lfloor x^2 \\rfloor < \\lfloor x^3 \\rfloor < \\cdots < \\lfloor x^n \\rfloor < \\lfloor x^{n+1} \\rfloor < \\cdots\\)",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2016-P4",
+    "year": 2016,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "We say a non-negative integer \\(n\\) \"contains\" another non-negative integer \\(m\\) if the digits of the decimal expansion of \\(m\\) appear consecutively in the decimal expansion of \\(n\\). Find the largest integer \\(n\\) that does not contain a multiple of 7.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2016-P5",
+    "year": 2016,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "The numbers from 1 to \\(n^2\\) are written in order in an \\(n \\times n\\) grid. An allowed move consists of choosing two adjacent squares (sharing a side) and adding or subtracting the same integer to both numbers in those squares. Find all values of \\(n\\) for which it is possible to make every square display 0, and for those cases find the minimum number of moves necessary.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2016-P6",
+    "year": 2016,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABCD\\) be a quadrilateral inscribed in a circle, \\(\\ell_1\\) the line parallel to \\(BC\\) through \\(A\\), and \\(\\ell_2\\) the line parallel to \\(AD\\) through \\(B\\). Line \\(DC\\) intersects \\(\\ell_1\\) and \\(\\ell_2\\) at \\(E\\) and \\(F\\), respectively. The perpendicular to \\(\\ell_1\\) through \\(A\\) intersects \\(BC\\) at \\(P\\), and the perpendicular to \\(\\ell_2\\) through \\(B\\) cuts \\(AD\\) at \\(Q\\). Let \\(\\Gamma_1\\) and \\(\\Gamma_2\\) be the circumscribed circles of triangles \\(ADE\\) and \\(BFC\\), respectively. Prove that \\(\\Gamma_1\\) and \\(\\Gamma_2\\) are tangent to each other if and only if \\(DP \\perp CQ\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

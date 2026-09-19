@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ANO-2015-D1-1",
+    "year": 2015,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Express the sum of 99 terms\n\\[\\frac{1 \\cdot 4}{2 \\cdot 5} + \\frac{2 \\cdot 7}{5 \\cdot 8} + \\cdots + \\frac{k(3k+1)}{(3k-1)(3k+2)} + \\cdots + \\frac{99 \\cdot 298}{296 \\cdot 299}\\]\nas an irreducible fraction.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260348"
+  },
+  {
+    "id": "ANO-2015-D1-2",
+    "year": 2015,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all pairs of natural numbers \\(a, b\\) with \\(a \\neq b\\) such that \\(a + b\\) and \\(ab + 1\\) are both powers of 2.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260348"
+  },
+  {
+    "id": "ANO-2015-D1-3",
+    "year": 2015,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Consider the points \\(O = (0,0)\\), \\(A = (-2,0)\\), and \\(B = (0,2)\\) in the coordinate plane. Let \\(E\\) and \\(F\\) be the midpoints of \\(OA\\) and \\(OB\\) respectively. Triangle \\(OEF\\) is rotated clockwise about \\(O\\) to a position \\(OE'F'\\). For each rotated position, let \\(P = (x, y)\\) be the intersection of lines \\(AE'\\) and \\(BF'\\). Find the maximum possible value of the \\(y\\)-coordinate of \\(P\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260348"
+  },
+  {
+    "id": "ANO-2015-D2-4",
+    "year": 2015,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A segment \\(S\\) of length 50 is covered by several unit segments (length 1), all contained in \\(S\\). If any single unit segment is removed, \\(S\\) is no longer completely covered. Find the maximum number of unit segments with this property.\n\nClarification: Segments include their endpoints.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260348"
+  },
+  {
+    "id": "ANO-2015-D2-5",
+    "year": 2015,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find all prime numbers \\(p\\) such that \\(p^3 - 4p + 9\\) is a perfect square.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260348"
+  },
+  {
+    "id": "ANO-2015-D2-6",
+    "year": 2015,
+    "olympiad": "ANO",
+    "olympiad_full_name": "Argentina National Olympiad",
+    "scope": "national",
+    "region": null,
+    "country": "Argentina",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let \\(S = \\{1, 2, \\ldots, 1001\\}\\). Lisandro thinks of a number \\(N \\in S\\), and Carla must determine it by the following procedure: she gives Lisandro a list of subsets of \\(S\\); Lisandro tells Carla how many subsets in her list contain \\(N\\). Carla may then present a second list, and if she wishes, a third, but no more than three lists in total. What is the smallest total number of subsets (across all lists) that guarantees Carla can always find \\(N\\)?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS Community, artofproblemsolving.com/community/c3260348"
+  }
+]

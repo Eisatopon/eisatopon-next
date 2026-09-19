@@ -1,0 +1,170 @@
+[
+  {
+    "id": "IDO-2007-P1",
+    "year": 2007,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABC\\) be a triangle with \\(\\angle ABC = \\angle ACB = 70^\\circ\\). \\(D\\) is on \\(BC\\) such that \\(AD\\) is the altitude, \\(E\\) is on \\(AB\\) with \\(\\angle ACE = 10^\\circ\\), and \\(F\\) is the intersection of \\(AD\\) and \\(CE\\). Prove that \\(CF = BC\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2007-P2",
+    "year": 2007,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For every positive integer \\(n\\), let \\(b(n)\\) be the number of positive divisors and \\(p(n)\\) the sum of all positive divisors. Let \\(k > 1\\) be a positive integer. (a) Prove there are infinitely many \\(n\\) with \\(b(n) = k^2 - k + 1\\). (b) Prove there are finitely many \\(n\\) with \\(p(n) = k^2 - k + 1\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2007-P3",
+    "year": 2007,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(a, b, c > 0\\) with \\(5(a^2 + b^2 + c^2) < 6(ab + bc + ca)\\). Prove that \\(a + b > c\\), \\(b + c > a\\), and \\(c + a > b\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2007-P4",
+    "year": 2007,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A 10-digit arrangement of \\(0,1,2,3,4,5,6,7,8,9\\) is beautiful if: (i) reading left to right, \\(0,1,2,3,4\\) form an increasing subsequence and \\(5,6,7,8,9\\) form a decreasing subsequence; (ii) 0 is not the leftmost digit. Determine the number of beautiful arrangements.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2007-P5",
+    "year": 2007,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Let \\(r, s\\) be positive integers and \\(P\\) a chessboard with \\(r\\) rows and \\(s\\) columns. Let \\(M\\) be the maximum number of non-attacking rooks on \\(P\\). (a) Determine \\(M\\). (b) In how many ways can \\(M\\) rooks be placed?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2007-P6",
+    "year": 2007,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all triples \\((x, y, z)\\) of real numbers satisfying \\(x = y^3 + y - 8\\), \\(y = z^3 + z - 8\\), \\(z = x^3 + x - 8\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2007-P7",
+    "year": 2007,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Points \\(A, B, C, D\\) lie on circle \\(S\\) with \\(AB\\) a diameter but \\(CD\\) not. \\(C\\) and \\(D\\) are on different sides of \\(AB\\). Tangents to \\(S\\) at \\(C\\) and \\(D\\) meet at \\(P\\). \\(Q = AC \\cap BD\\), \\(R = AD \\cap BC\\). (a) Prove \\(P, Q, R\\) are collinear. (b) Prove \\(QR \\perp AB\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2007-P8",
+    "year": 2007,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(m, n\\) be positive integers. If there are infinitely many integers \\(k\\) such that \\(k^2 + 2kn + m^2\\) is a perfect square, prove that \\(m = n\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

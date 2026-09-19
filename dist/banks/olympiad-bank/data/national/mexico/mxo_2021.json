@@ -1,0 +1,129 @@
+[
+  {
+    "id": "MXO-2021-P1",
+    "year": 2021,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Positive reals \\(a_1, a_2, a_3\\) are three consecutive terms of an arithmetic progression; distinct positive reals \\(b_1, b_2, b_3\\) are also three consecutive terms of an arithmetic progression. Is it possible to use segments of lengths \\(a_1, a_2, a_3\\) as bases and segments of lengths \\(b_1, b_2, b_3\\) as altitudes to construct three rectangles of equal area?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2021-P2",
+    "year": 2021,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(\\triangle ABC\\) have \\(\\angle ACB > 90^\\circ\\), with \\(D\\) on \\(BC\\) such that \\(AD \\perp BC\\). Let \\(\\Gamma\\) be the circle with diameter \\(BC\\). A line \\(\\ell\\) through \\(D\\) is tangent to \\(\\Gamma\\) at \\(P\\), meets \\(AC\\) at \\(M\\) (between \\(A\\) and \\(C\\)), and meets \\(AB\\) at \\(N\\). Prove that \\(M\\) is the midpoint of \\(DP\\) if and only if \\(N\\) is the midpoint of \\(AB\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2021-P3",
+    "year": 2021,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "In an \\(m \\times n\\) grid (\\(m, n \\geq 2\\)), an ant goes from lower-left to upper-right using steps \\(\\uparrow\\), \\(\\rightarrow\\), \\(\\nearrow\\). Some squares are destroyed (if a square is destroyed, all squares above it are destroyed), but the ant can still reach its goal. Let \\(P\\) = number of even-length paths, \\(I\\) = number of odd-length paths. Find all possible values of \\(P - I\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2021-P4",
+    "year": 2021,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(\\triangle ABC\\) be acute and scalene with \\(\\angle BAC = 60^\\circ\\) and orthocenter \\(H\\). Let \\(\\omega_b\\) be the circle through \\(H\\) tangent to \\(AB\\) at \\(B\\), and \\(\\omega_c\\) the circle through \\(H\\) tangent to \\(AC\\) at \\(C\\). Prove: (a) \\(\\omega_b\\) and \\(\\omega_c\\) share only the point \\(H\\). (b) The line through \\(H\\) and the circumcenter \\(O\\) is a common tangent to \\(\\omega_b\\) and \\(\\omega_c\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2021-P5",
+    "year": 2021,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "If \\(n = a_1 a_2 \\cdots a_k\\), define \\(s(n)\\) as follows: if \\(k\\) is even, \\(s(n) = a_1 a_2 + a_3 a_4 + \\cdots + a_{k-1}a_k\\); if \\(k\\) is odd, \\(s(n) = a_1 + a_2 a_3 + \\cdots + a_{k-1}a_k\\) (where \\(a_i a_j\\) denotes the two-digit number). Call \\(n\\) digital if \\(s(n)\\) divides \\(n\\). Prove that among any 198 consecutive positive integers all less than 2000021, at least one is digital.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2021-P6",
+    "year": 2021,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Number Theory",
+      "Combinatorics"
+    ],
+    "statement": "Determine all families of nonempty finite sets \\(C_1, C_2, C_3, \\ldots\\) of positive integers such that for all positive integers \\(n, m\\): \\(|C_n| + |C_m| = \\sum_{x \\in C_{m+n}} x\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

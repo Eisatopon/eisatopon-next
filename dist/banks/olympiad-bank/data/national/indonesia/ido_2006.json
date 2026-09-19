@@ -1,0 +1,170 @@
+[
+  {
+    "id": "IDO-2006-P1",
+    "year": 2006,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all pairs \\((x, y)\\) of real numbers satisfying \\(x^3 - y^3 = 4(x - y)\\) and \\(x^3 + y^3 = 2(x + y)\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2006-P2",
+    "year": 2006,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(a, b, c\\) be positive integers. If \\(30 \\mid a + b + c\\), prove that \\(30 \\mid a^5 + b^5 + c^5\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2006-P3",
+    "year": 2006,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(S\\) be the set of all triangles \\(ABC\\) such that \\(\\tan A\\), \\(\\tan B\\), \\(\\tan C\\) are positive integers. Prove that all triangles in \\(S\\) are similar.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2006-P4",
+    "year": 2006,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A black pawn is on square 1 and a white pawn on the last square of a \\(1 \\times n\\) board. Players alternate moves; each move is 1 or 2 squares left or right without passing the opponent. The player who cannot move loses. Which player has a winning strategy?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2006-P5",
+    "year": 2006,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "In triangle \\(ABC\\), \\(M\\) is the midpoint of \\(BC\\) and \\(G\\) is the centroid. A line \\(\\ell\\) through \\(G\\) meets line \\(AB\\) at \\(P\\) and line \\(AC\\) at \\(Q\\) (\\(P \\neq B\\), \\(Q \\neq C\\)). Show that \\(\\dfrac{[BGM]}{[PAG]} + \\dfrac{[CMG]}{[QGA]} = \\dfrac{3}{2}\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2006-P6",
+    "year": 2006,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Every phone number in an area has 8 digits and starts with 8. What is the probability that a randomly assigned number has at most 5 different digits?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2006-P7",
+    "year": 2006,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(a, b, c\\) be real numbers such that \\(ab\\), \\(bc\\), \\(ca\\) are rational. Prove that there exist integers \\(x, y, z\\), not all zero, such that \\(ax + by + cz = 0\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2006-P8",
+    "year": 2006,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Find the largest 85-digit integer whose sum of digits equals the product of its digits.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

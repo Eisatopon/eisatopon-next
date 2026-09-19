@@ -1,0 +1,128 @@
+[
+  {
+    "id": "MXO-2002-P1",
+    "year": 2002,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "The numbers 1 to 1024 are written on a \\(32 \\times 32\\) board in row-major order. The board is divided into four \\(16 \\times 16\\) parts and rotated clockwise, then each \\(16 \\times 16\\) is divided into \\(8 \\times 8\\) parts and rotated, continuing down to \\(2 \\times 2\\) parts. What numbers end up on the main diagonal?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2002-P2",
+    "year": 2002,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "\\(ABCD\\) is a parallelogram and \\(K\\) is the circumcircle of \\(\\triangle ABD\\). Lines \\(BC\\) and \\(CD\\) meet \\(K\\) again at \\(E\\) and \\(F\\) respectively. Show that the circumcenter of \\(\\triangle CEF\\) lies on \\(K\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2002-P3",
+    "year": 2002,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Let \\(n\\) be a positive integer. Does \\(n^2\\) have more positive divisors of the form \\(4k+1\\) or of the form \\(4k-1\\)?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2002-P4",
+    "year": 2002,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "A domino has two numbers (which may be equal) from 0 to 6, one at each end, and may be turned around. There is one domino of each type (28 in all). We form a chain in the usual way, wanting the total of all numbers to be odd after each domino is placed. What is the maximum number of dominoes that can be placed this way? How many maximum-length chains are there?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2002-P5",
+    "year": 2002,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A trio is a set of three distinct integers such that two of them are divisors or multiples of the third. Which trio contained in \\(\\{1, 2, \\ldots, 2002\\}\\) has the largest possible sum? Find all trios with maximum sum.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2002-P6",
+    "year": 2002,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABCD\\) be a quadrilateral with \\(\\angle DAB = \\angle ABC = 90^\\circ\\). Let \\(M\\) be the midpoint of \\(AB\\) and assume \\(\\angle CMD = 90^\\circ\\). Let \\(K\\) be the foot of the perpendicular from \\(M\\) to \\(CD\\). Line \\(AK\\) meets \\(BD\\) at \\(P\\), and line \\(BK\\) meets \\(AC\\) at \\(Q\\). Show that \\(\\angle AKB = 90^\\circ\\) and \\(\\dfrac{KP}{PA} + \\dfrac{KQ}{QB} = 1\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

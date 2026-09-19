@@ -1,0 +1,128 @@
+[
+  {
+    "id": "MXO-2025-P1",
+    "year": 2025,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABCD\\) be a parallelogram. The circle with diameter \\(BD\\) meets lines \\(AD\\) and \\(DC\\) at \\(E\\) and \\(F\\) (with \\(E, F \\neq D\\)). Line \\(EF\\) meets sides \\(BA\\) and \\(BC\\) at \\(P\\) and \\(Q\\). Show the center of the circle through \\(B, P, Q\\) lies on line \\(BD\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2025-P2",
+    "year": 2025,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Let \\(n \\geq 4\\) be an integer. Find all sequences \\((x_1, x_2, \\ldots, x_n)\\) of real numbers satisfying simultaneously: \\(x_1^3 + x_2 = x_2 x_3 + 1,\\ x_2^3 + x_3 = x_3 x_4 + 1,\\ \\ldots,\\ x_n^3 + x_1 = x_1 x_2 + 1\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2025-P3",
+    "year": 2025,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Consider a \\(2 \\times n\\) grid with each square labeled by a distinct number from 1 to \\(2n\\). A path is ascending if labels are in increasing order; a path is complete if it starts at the square labeled 1 and ends at the square labeled \\(2n\\). For each labeling, compute the number of complete ascending paths. Determine the maximum of these numbers in terms of \\(n\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2025-P4",
+    "year": 2025,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P4",
+    "topic": [
+      "Combinatorics"
+    ],
+    "statement": "Lalo has a magical net of 20 vertices and some edges. He places ants one by one on vertices; each ant walks on edges (which disappear as traversed), and Lalo removes each ant after it reaches some vertex. He has \\(n\\) ants, each traversing at least one edge, no two traversing the same number of edges, and together covering all edges. What is the maximum number of edges one ant could traverse?",
+    "has_figure": true,
+    "figure_description": "Magical net figure with 20 vertices",
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2025-P5",
+    "year": 2025,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "For which positive integers \\(n \\geq 3\\) do there exist \\(n\\) not necessarily distinct primes \\(p_1, p_2, \\ldots, p_n\\) such that \\(p_1 p_2 + 1,\\ p_2 p_3 + 1,\\ \\ldots,\\ p_{n-1}p_n + 1,\\ p_n p_1 + 1\\) are all perfect powers?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "MXO-2025-P6",
+    "year": 2025,
+    "olympiad": "MXO",
+    "olympiad_full_name": "Mexico National Olympiad",
+    "scope": "national",
+    "region": "North America",
+    "country": "Mexico",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(\\triangle ABC\\) have excenter \\(I\\) opposite \\(A\\). The perpendicular to \\(AI\\) through \\(I\\) meets lines \\(AB\\) and \\(AC\\) at \\(E\\) and \\(F\\). Circle \\(\\omega_B\\) is tangent to \\(EF\\) and to \\(AB\\) at \\(B\\), outside \\(\\triangle AEF\\). Circle \\(\\omega_C\\) is tangent to \\(EF\\) and to \\(AC\\) at \\(C\\), outside \\(\\triangle AEF\\). Line \\(IB\\) meets \\(\\omega_B\\) again at \\(X\\); line \\(IC\\) meets \\(\\omega_C\\) again at \\(Y\\). Let \\(\\omega_A\\) be the excircle of \\(\\triangle AEF\\) opposite \\(A\\). Show the reflection of \\(\\omega_A\\) over \\(EF\\) is tangent to \\(XY\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "id": "IDO-2014-P1",
+    "year": 2014,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P1",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "Is it possible to fill a \\(3 \\times 3\\) grid with each of \\(1, 2, \\ldots, 9\\) exactly once such that the sum of any two adjacent numbers (sharing a side) is prime?",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2014-P2",
+    "year": 2014,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P2",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "For positive integers \\(m, n\\), the system \\(x + y^2 = m\\) and \\(x^2 + y = n\\) has exactly one integral solution \\((x, y)\\). Determine all possible values of \\(m - n\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2014-P3",
+    "year": 2014,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P3",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABCD\\) be a trapezoid with \\(AB < CD\\). \\(E = AC \\cap BD\\), \\(F = AD \\cap BC\\). Construct parallelograms \\(AEDK\\) and \\(BECL\\). Prove that \\(EF\\) passes through the midpoint of \\(KL\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2014-P4",
+    "year": 2014,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 1,
+    "problem_id": "P4",
+    "topic": [
+      "Algebra"
+    ],
+    "statement": "Find all polynomials with integer coefficients \\(P(x)\\) such that if \\(a, b, c\\) are sides of a right triangle, then \\(P(a), P(b), P(c)\\) are also sides of a right triangle.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2014-P5",
+    "year": 2014,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P5",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A sequence of positive integers \\(a_1, a_2, \\ldots\\) satisfies \\(a_k + a_l = a_m + a_n\\) whenever \\(kl = mn\\). Prove that if \\(p \\mid q\\) then \\(a_p \\leq a_q\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2014-P6",
+    "year": 2014,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P6",
+    "topic": [
+      "Geometry"
+    ],
+    "statement": "Let \\(ABC\\) be a triangle with \\(D\\) on \\(BC\\) such that \\(AD\\) bisects \\(\\angle BAC\\). \\(M\\) on \\(AB\\) satisfies \\(\\angle MDA = \\angle ABC\\) and \\(N\\) on \\(AC\\) satisfies \\(\\angle NDA = \\angle ACB\\). If \\(AD \\cap MN = P\\), prove that \\(AD^3 = AB \\cdot AC \\cdot AP\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2014-P7",
+    "year": 2014,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P7",
+    "topic": [
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "statement": "Let \\(k, m, n\\) be positive integers with \\(k \\leq n\\). Prove that \\(\\displaystyle\\sum_{r=0}^{m} \\dfrac{\\binom{m}{r}\\binom{n}{k}}{(r+k)\\binom{m+n}{r+k}} = 1\\).",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  },
+  {
+    "id": "IDO-2014-P8",
+    "year": 2014,
+    "olympiad": "IDO",
+    "olympiad_full_name": "Indonesia National Science Olympiad",
+    "scope": "national",
+    "region": "Asia",
+    "country": "Indonesia",
+    "gender_restricted": false,
+    "day": 2,
+    "problem_id": "P8",
+    "topic": [
+      "Number Theory"
+    ],
+    "statement": "A positive integer is beautiful if it equals \\(\\dfrac{x^2+y^2}{x+y}\\) for distinct positive integers \\(x, y\\). Otherwise it is ugly. (a) Prove 2014 is a product of a beautiful and an ugly number. (b) Prove the product of two ugly numbers is ugly.",
+    "has_figure": false,
+    "figure_description": null,
+    "official_solution_available": false,
+    "language": "en",
+    "source": "AoPS"
+  }
+]
