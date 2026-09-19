@@ -2,4 +2,4 @@
 2:I[8500,["8500","static/chunks/8500-3953cc33eeceb44e.js","6294","static/chunks/app/lab/strategy-map/layout-5d8d8cf3cd418fcc.js"],""]
 3:I[7121,[],""]
 4:I[4581,[],""]
-0:{"rsc":["$","$1","c",{"children":[null,[["$","$L2",null,{"href":"/","style":{"position":"fixed","top":"16px","left":"16px","zIndex":1000,"color":"#c9a227","fontSize":"13px","fontWeight":600,"textDecoration":"none","display":"flex","alignItems":"center","gap":"6px","opacity":0.75},"children":"← EisatoponAI"}],["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"dVM9L2t0NwkAqnHLt6RIt"}
+0:{"rsc":["$","$1","c",{"children":[null,[["$","$L2",null,{"href":"/","style":{"position":"fixed","top":"16px","left":"16px","zIndex":1000,"color":"#c9a227","fontSize":"13px","fontWeight":600,"textDecoration":"none","display":"flex","alignItems":"center","gap":"6px","opacity":0.75},"children":"← EisatoponAI"}],["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"5fpm35nesMesKDxq76ByF"}

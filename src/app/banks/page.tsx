@@ -27,7 +27,7 @@ const banks = [
     border: "hover:border-cat-green/40",
   },
   {
-    href: "/banks/imo",
+    href: "/banks/imo-bank/",
     emoji: "🌍",
     title: "International Mathematical Olympiad",
     subtitle: "IMO 1959–2025",

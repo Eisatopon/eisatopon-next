@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IMO Problem Bank – International Mathematical Olympiad 1959–2025</title>
+<meta name="description" content="Every problem from the International Mathematical Olympiad, 1959–2025. Browse by year, filter by topic, search the statements and build a printable problem set.">
+<meta name="theme-color" content="#0d4a52">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23d62828'/%3E%3Ctext x='32' y='45' font-size='40' font-family='Georgia,serif' font-weight='700' text-anchor='middle' fill='white'%3Ee%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400..800&display=swap" rel="stylesheet">
+
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [['\\(', '\\)']],
+            displayMath: [['\\[', '\\]']],
+            processEscapes: true
+        }
+    };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+<style>
+/* ==========================================================
+   Tokens
+   ========================================================== */
+:root {
+    color-scheme: light;
+
+    --petrol: #0d4a52;
+    --petrol-deep: #093a41;
+    --petrol-hover: #146069;
+    --paper: #f1f5f4;
+    --surface: #ffffff;
+    --text: #16262b;
+    --muted: #4f6269;
+    --line: #d0dddc;
+    --line-strong: #9fb6b4;
+    --accent: #e2482d;
+    --focus: #1f5fd6;
+
+    /* Οικογένειες θεμάτων: το χρώμα δείχνει το είδος του προβλήματος */
+    --g: #2469b3;  --g-ink: #17497d;  --g-tint: #e6effa;
+    --n: #7b45b8;  --n-ink: #57308a;  --n-tint: #f0e9f8;
+    --c: #b8620f;  --c-ink: #7d420a;  --c-tint: #fbeedd;
+    --a: #23764a;  --a-ink: #185232;  --a-tint: #e2f2e9;
+
+    --serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    --sans: 'Instrument Sans', system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+.f-G { --f: var(--g); --f-ink: var(--g-ink); --f-tint: var(--g-tint); }
+.f-N { --f: var(--n); --f-ink: var(--n-ink); --f-tint: var(--n-tint); }
+.f-C { --f: var(--c); --f-ink: var(--c-ink); --f-tint: var(--c-tint); }
+.f-A { --f: var(--a); --f-ink: var(--a-ink); --f-tint: var(--a-tint); }
+
+/* ==========================================================
+   Base
+   ========================================================== */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body { margin: 0; background: var(--paper); color: var(--text); font-family: var(--sans); font-size: 1rem; line-height: 1.6; }
+button, input { font: inherit; color: inherit; }
+h1, h2, h3, h4, p, ol, ul { margin: 0; }
+ol, ul { padding: 0; list-style: none; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.skip { position: absolute; left: 12px; top: -60px; z-index: 100; background: var(--surface); color: var(--petrol); padding: 10px 16px; border-radius: 4px; font-weight: 600; text-decoration: none; }
+.skip:focus { top: 12px; }
+
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
+svg.i { width: 1em; height: 1em; flex: none; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+/* ==========================================================
+   Hero: το έτος ως τίτλος + ρίγα χρόνου
+   ========================================================== */
+.hero { background: var(--petrol); color: #fff; overflow: hidden; }
+
+.brandbar { padding-top: 18px; padding-bottom: 6px; display: flex; align-items: center; gap: 10px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; }
+.logo { width: 30px; height: 30px; border-radius: 50%; background: #d62828; color: #fff; display: inline-grid; place-items: center; font: 700 1.3rem/1 var(--serif); padding-bottom: 3px; }
+.brandbar h1 { font: 600 1.05rem/1.2 var(--sans); letter-spacing: .01em; }
+
+.hero-body {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    gap: 40px;
+    align-items: end;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.ordinal { font-size: 1.02rem; color: #b9d6d5; min-height: 1.6em; }
+.year-big {
+    font-family: var(--serif);
+    font-weight: 800;
+    font-variation-settings: 'opsz' 60;
+    font-size: clamp(4.8rem, 13vw, 8.6rem);
+    line-height: .88;
+    letter-spacing: -.025em;
+    font-variant-numeric: lining-nums;
+    margin: 6px 0 12px -.03em;
+}
+.host { font: 500 1.35rem/1.3 var(--serif); }
+.host small { display: block; margin-top: 4px; font: 400 .92rem/1.4 var(--sans); color: #b9d6d5; }
+.lede { margin-top: 18px; max-width: 46ch; color: #d3e5e4; font-size: 1rem; }
+
+.hero-side { display: grid; gap: 18px; justify-items: start; padding-bottom: 6px; }
+.strip-label { font-size: .92rem; color: #b9d6d5; margin-bottom: 8px; }
+.strip { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip-p {
+    display: inline-grid; place-items: center; width: 46px; height: 46px; border-radius: 4px;
+    background: var(--f); color: #fff; font: 700 .95rem/1 var(--sans); text-decoration: none;
+    outline: 2px solid rgba(255, 255, 255, .28); outline-offset: -2px;
+    transition: transform .12s;
+}
+.chip-p:hover { transform: translateY(-3px); }
+.stepper { display: flex; gap: 8px; }
+.step-btn {
+    appearance: none; display: inline-flex; align-items: center; gap: 8px; min-height: 42px; padding: 0 16px;
+    background: transparent; color: #fff; border: 1px solid rgba(255, 255, 255, .55); border-radius: 4px;
+    font-weight: 600; font-size: .92rem; cursor: pointer;
+    transition: background-color .12s, color .12s;
+}
+.step-btn:hover:not(:disabled) { background: #fff; color: var(--petrol); }
+.step-btn:disabled { opacity: .35; cursor: not-allowed; }
+
+/* ---------- Ρίγα χρόνου ---------- */
+.ribbon-wrap { overflow-x: auto; overflow-y: hidden; scrollbar-width: thin; scrollbar-color: rgba(255,255,255,.35) transparent; padding-bottom: 4px; }
+.ribbon { display: flex; align-items: flex-end; min-width: 900px; height: 96px; padding-bottom: 26px; position: relative; }
+.tick {
+    appearance: none; position: relative; flex: 1 1 0; min-width: 12px; height: 100%;
+    background: none; border: 0; padding: 0; cursor: pointer;
+    display: flex; align-items: flex-end; justify-content: center;
+}
+.tick .bar {
+    display: block; width: 2px; height: 16px; background: rgba(255, 255, 255, .42);
+    transform-origin: bottom; animation: sweep .5s cubic-bezier(.2, .7, .2, 1) both; animation-delay: calc(var(--i) * 8ms);
+    transition: height .14s, background-color .14s, width .14s;
+}
+.tick.five .bar { height: 28px; background: rgba(255, 255, 255, .75); }
+.tick:hover .bar { background: #fff; height: 40px; }
+.tick[aria-checked="true"] .bar { width: 5px; height: 52px; background: var(--accent); }
+.tick .lbl {
+    position: absolute; bottom: -24px; left: 50%; transform: translateX(-50%);
+    font-size: .74rem; line-height: 1; color: #b9d6d5; font-variant-numeric: tabular-nums; white-space: nowrap; display: none;
+}
+.tick.five .lbl, .tick.edge .lbl, .tick[aria-checked="true"] .lbl { display: block; }
+.tick[aria-checked="true"] .lbl { color: #fff; font-weight: 600; }
+.tick.gap { cursor: not-allowed; }
+.tick.gap .bar { background: none; border-left: 2px dashed rgba(255, 255, 255, .45); width: 0; height: 22px; }
+.tick.gap:hover .bar { height: 22px; }
+
+@keyframes sweep { from { transform: scaleY(0); opacity: 0; } }
+
+/* ==========================================================
+   Layout
+   ========================================================== */
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 40px; padding-top: 34px; padding-bottom: 80px; align-items: start; }
+
+/* ---------- Φίλτρα ---------- */
+.filters { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 22px; display: grid; gap: 22px; }
+.f-title { font: 600 .95rem/1.3 var(--sans); color: var(--petrol); margin-bottom: 8px; }
+.searchbox { position: relative; }
+.searchbox svg.i { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 1.05rem; }
+.searchbox input {
+    width: 100%; height: 46px; padding: 0 14px 0 40px; background: var(--surface);
+    border: 1px solid var(--line-strong); border-radius: 4px; font-size: 1rem; color: var(--text);
+}
+.searchbox input::placeholder { color: #6b7d83; }
+.f-top { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 18px; align-items: end; }
+.f-row { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 24px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+    appearance: none; display: inline-flex; align-items: center; gap: 8px; min-height: 38px; padding: 0 13px;
+    background: var(--surface); border: 1px solid var(--line-strong); border-radius: 4px;
+    color: var(--text); font-size: .92rem; cursor: pointer; transition: border-color .12s, background-color .12s, color .12s;
+}
+.chip:hover { border-color: var(--petrol); }
+.chip[aria-pressed="true"] { background: var(--petrol); border-color: var(--petrol); color: #fff; }
+.chip .dot { width: 10px; height: 10px; border-radius: 2px; background: var(--f); }
+.chip .n { font-size: .8rem; opacity: .7; font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] .dot { outline: 1.5px solid #fff; }
+
+.seg { display: inline-flex; border: 1px solid var(--line-strong); border-radius: 4px; overflow: hidden; }
+.seg button { appearance: none; border: 0; background: var(--surface); min-height: 38px; padding: 0 16px; font-size: .92rem; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line-strong); }
+.seg button[aria-pressed="true"] { background: var(--petrol); color: #fff; }
+.seg button:not([aria-pressed="true"]):hover { background: var(--paper); }
+
+/* ---------- Αποτελέσματα ---------- */
+.results { margin-top: 30px; scroll-margin-top: 12px; }
+.res-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 20px; padding-bottom: 12px; border-bottom: 3px solid var(--petrol); }
+.res-title { font: 800 1.8rem/1.1 var(--serif); color: var(--petrol); }
+.res-count { margin-left: 12px; font: 400 .95rem var(--sans); color: var(--muted); }
+.res-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.link-out { color: var(--petrol); font-weight: 600; font-size: .92rem; text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+.link-out:hover { color: var(--accent); }
+
+.yr-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; margin-top: 34px; padding-bottom: 8px; border-bottom: 1px solid var(--line-strong); }
+.yr-head .yr { font: 800 1.6rem/1 var(--serif); color: var(--petrol); font-variant-numeric: lining-nums; }
+.yr-head .where { color: var(--muted); font-size: .92rem; }
+.yr-head .link-out { margin-left: auto; }
+
+.problem { margin-top: 18px; background: var(--surface); border: 1px solid var(--line); border-left: 6px solid var(--f); border-radius: 2px; padding: 18px 24px 22px; scroll-margin-top: 16px; }
+.p-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 14px; margin-bottom: 10px; }
+.p-id { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; }
+.p-num { font: 700 1.15rem/1.3 var(--serif); color: var(--petrol); }
+.p-tag { font-size: .88rem; font-weight: 600; color: var(--f-ink); background: var(--f-tint); padding: 2px 9px; border-radius: 3px; }
+.p-meta { font-size: .85rem; color: var(--muted); }
+.p-sol { font-size: .85rem; color: var(--a-ink); display: inline-flex; align-items: center; gap: 5px; }
+
+.statement { font: 400 1.1rem/1.8 var(--serif); max-width: 72ch; overflow-wrap: anywhere; }
+.statement .para + .para { margin-top: .6em; }
+.statement .items { display: grid; gap: .4em; margin: .5em 0; }
+.statement .items li { display: grid; grid-template-columns: auto 1fr; gap: .7em; }
+.statement .items li:not(:has(.lab))::before { content: "\2022"; }
+.statement .items .lab { font-weight: 600; }
+mjx-container { margin: .2em 0 !important; }
+mjx-container[display="true"] { margin: .7em 0 !important; overflow-x: auto; overflow-y: hidden; max-width: 100%; }
+
+.more { display: flex; justify-content: center; margin-top: 28px; }
+.state { margin-top: 24px; padding: 44px 24px; text-align: center; background: var(--surface); border: 1px dashed var(--line-strong); border-radius: 4px; color: var(--muted); display: grid; gap: 14px; justify-items: center; }
+.state h3 { font: 700 1.15rem/1.3 var(--serif); color: var(--petrol); }
+.state.error { border-color: #c2483d; }
+.state .actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.spinner { width: 26px; height: 26px; border-radius: 50%; border: 3px solid var(--line); border-top-color: var(--petrol); animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.note { margin-top: 16px; padding: 12px 16px; background: #fff4d6; border-left: 4px solid #d9a520; color: #4d3a05; font-size: .93rem; }
+
+/* ---------- Κουμπιά ---------- */
+.btn {
+    appearance: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 0 16px;
+    border: 1px solid var(--petrol); border-radius: 4px; background: var(--surface); color: var(--petrol);
+    font-weight: 600; font-size: .92rem; cursor: pointer; transition: background-color .12s, color .12s, border-color .12s;
+}
+.btn:hover { background: var(--petrol); color: #fff; }
+.btn-primary { background: var(--petrol); color: #fff; }
+.btn-primary:hover { background: var(--petrol-hover); border-color: var(--petrol-hover); }
+.btn-quiet { border-color: transparent; background: transparent; color: var(--muted); }
+.btn-quiet:hover { background: transparent; color: #a4312a; text-decoration: underline; }
+.btn-sm { min-height: 34px; padding: 0 12px; font-size: .88rem; }
+.btn:disabled { opacity: .45; cursor: not-allowed; pointer-events: none; }
+
+.add .on { display: none; }
+.add .off, .add[aria-pressed="true"] .on { display: inline-flex; align-items: center; gap: 8px; }
+.add[aria-pressed="true"] { background: var(--petrol); color: #fff; }
+.add[aria-pressed="true"] .off { display: none; }
+
+/* ---------- Πλαίσιο «My problem set» ---------- */
+.exam { position: sticky; top: 20px; background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--petrol); border-radius: 4px; }
+.exam-toggle { appearance: none; width: 100%; background: none; border: 0; cursor: default; pointer-events: none; display: flex; align-items: center; gap: 10px; padding: 16px 18px 12px; text-align: left; font: 800 1.2rem/1.2 var(--serif); color: var(--petrol); }
+.exam-toggle .count { min-width: 28px; height: 28px; padding: 0 8px; border-radius: 14px; background: var(--petrol); color: #fff; font: 600 .85rem/28px var(--sans); text-align: center; }
+.exam-toggle .chev { display: none; margin-left: auto; }
+.exam-body { padding: 0 18px 18px; display: grid; gap: 14px; }
+@media (min-width: 1024px) { #examList { max-height: calc(100vh - 400px); min-height: 72px; overflow: auto; } }
+
+.ex-empty { color: var(--muted); font-size: .92rem; }
+.ex-list { display: grid; gap: 6px; }
+.ex-item { display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 8px 8px 8px 10px; border: 1px solid var(--line); border-left: 4px solid var(--f); border-radius: 2px; }
+.ex-n { font: 700 .95rem var(--serif); color: var(--muted); }
+.ex-t { min-width: 0; line-height: 1.3; }
+.ex-t strong { display: block; font-size: .93rem; }
+.ex-t span { display: block; font-size: .8rem; color: var(--muted); }
+.ex-ctl { display: flex; gap: 2px; }
+.icon-btn { appearance: none; width: 30px; height: 30px; display: grid; place-items: center; background: transparent; border: 1px solid transparent; border-radius: 4px; color: var(--muted); cursor: pointer; }
+.icon-btn:hover { border-color: var(--line-strong); color: var(--petrol); }
+.icon-btn.rm:hover { color: #a4312a; border-color: #e0b1ac; }
+.icon-btn:disabled { opacity: .3; pointer-events: none; }
+.field { display: grid; gap: 4px; font-size: .85rem; color: var(--muted); }
+.field input[type="text"] { width: 100%; height: 38px; padding: 0 10px; border: 1px solid var(--line-strong); border-radius: 4px; font-size: .93rem; color: var(--text); background: var(--surface); }
+.check { display: flex; gap: 8px; align-items: center; font-size: .88rem; cursor: pointer; }
+.check input { width: 17px; height: 17px; accent-color: var(--petrol); }
+.ex-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.ex-actions .btn-quiet { grid-column: 1 / -1; }
+
+/* ---------- Παράθυρο κοινοποίησης ---------- */
+dialog { border: 1px solid var(--line); border-top: 4px solid var(--petrol); border-radius: 4px; padding: 24px; width: min(420px, calc(100vw - 32px)); color: var(--text); background: var(--surface); }
+dialog::backdrop { background: rgba(9, 58, 65, .6); }
+dialog h2 { font: 800 1.3rem/1.2 var(--serif); color: var(--petrol); margin-bottom: 6px; }
+dialog p { color: var(--muted); font-size: .92rem; }
+.qr-box { display: grid; place-items: center; padding: 18px 0; min-height: 240px; }
+.qr-box img, .qr-box canvas { max-width: 100%; height: auto; }
+.share-url { width: 100%; height: 38px; padding: 0 10px; border: 1px solid var(--line-strong); border-radius: 4px; font-size: .82rem; color: var(--muted); }
+.dlg-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 14px; flex-wrap: wrap; }
+.copy-status { font-size: .85rem; color: var(--a-ink); min-height: 1.4em; margin-top: 6px; }
+
+/* ---------- Υποσέλιδο ---------- */
+.footer { background: var(--petrol-deep); color: #b9d6d5; font-size: .9rem; }
+.footer .wrap { padding-top: 22px; padding-bottom: 22px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
+.footer a { color: #fff; }
+
+/* ---------- Φύλλο εκτύπωσης ---------- */
+#printSheet { position: absolute; left: -10000px; top: 0; width: 720px; font-family: var(--serif); color: #000; background: #fff; }
+.ps-head { border-bottom: 2px solid #000; padding-bottom: 8px; margin-bottom: 22px; display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+.ps-head h1 { font: 700 18pt/1.2 var(--serif); }
+.ps-head p { font: 10pt var(--sans); color: #444; }
+.ps-item { display: grid; grid-template-columns: 2.2rem minmax(0, 1fr); gap: 4px; margin-bottom: 22px; break-inside: avoid; }
+.ps-num { font: 700 12pt/1.7 var(--serif); }
+.ps-src { font: 9pt var(--sans); color: #555; margin-bottom: 4px; }
+.ps-body .statement { font-size: 12pt; line-height: 1.7; max-width: none; }
+
+/* ==========================================================
+   Κινητά και tablet
+   ========================================================== */
+@media (max-width: 1023px) {
+    .layout { grid-template-columns: minmax(0, 1fr); padding-bottom: 110px; }
+    .exam { position: fixed; left: 0; right: 0; bottom: 0; top: auto; z-index: 40; border-radius: 0; border-left: 0; border-right: 0; box-shadow: 0 -10px 28px rgba(9, 58, 65, .2); }
+    .exam-toggle { cursor: pointer; pointer-events: auto; padding: 14px 18px; }
+    .exam-toggle .chev { display: block; transition: transform .2s; }
+    .exam.open .exam-toggle .chev { transform: rotate(180deg); }
+    .exam-body { display: none; max-height: 62vh; overflow: auto; }
+    .exam.open .exam-body { display: grid; }
+}
+@media (max-width: 820px) {
+    .hero-body { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+    .hero-side { justify-items: start; }
+    .f-row { grid-template-columns: minmax(0, 1fr); }
+    .f-top { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 640px) {
+    .wrap { padding-left: 16px; padding-right: 16px; }
+    .filters { padding: 18px 16px; }
+    .problem { padding: 16px 16px 20px; }
+    .statement { font-size: 1.05rem; }
+    .host { font-size: 1.15rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .tick .bar { animation: none; }
+    .spinner { animation: none; border-top-color: var(--line); }
+    html { scroll-behavior: auto; }
+    * { transition: none !important; }
+}
+
+/* ==========================================================
+   Εκτύπωση
+   ========================================================== */
+@page { margin: 18mm 16mm; }
+@media print {
+    body { background: #fff; }
+    .skip, .hero, .layout, .footer, dialog, noscript { display: none !important; }
+    #printSheet { position: static; left: auto; width: auto; }
+}
+</style>
+</head>
+
+<body>
+<a class="skip" href="#results">Skip to the problems</a>
+
+<header class="hero">
+    <div class="wrap brandbar">
+        <a class="brand" href="https://eisatopon.gr" target="_top" aria-label="eisatopon.gr"><span class="logo" aria-hidden="true">e</span></a>
+        <h1>IMO Problem Bank</h1>
+    </div>
+
+    <div class="wrap hero-body">
+        <div>
+            <p class="ordinal" id="heroOrdinal"></p>
+            <p class="year-big" id="heroYear" aria-live="polite"></p>
+            <p class="host" id="heroHost"></p>
+            <p class="lede" id="lede"></p>
+        </div>
+
+        <div class="hero-side">
+            <div>
+                <p class="strip-label" id="stripLabel">Problems of this year</p>
+                <div class="strip" id="strip" aria-labelledby="stripLabel"></div>
+            </div>
+            <div class="stepper">
+                <button type="button" class="step-btn" id="prevYear">
+                    <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>Previous year
+                </button>
+                <button type="button" class="step-btn" id="nextYear">
+                    Next year<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap ribbon-wrap-outer">
+        <div class="ribbon-wrap">
+            <div class="ribbon" id="ribbon" role="radiogroup" aria-label="Choose an IMO year"></div>
+        </div>
+    </div>
+</header>
+
+<main class="wrap layout" id="main">
+    <div class="col-main">
+
+        <section class="filters" aria-label="Search and filters">
+            <div class="f-top">
+                <div class="f-search">
+                    <label class="f-title" for="q">Search the problems</label>
+                    <div class="searchbox">
+                        <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+                        <input type="search" id="q" placeholder="Try “inequality”, “circle” or “P3”" autocomplete="off">
+                    </div>
+                </div>
+                <div>
+                    <h2 class="f-title" id="scopeTitle">Where to look</h2>
+                    <div class="seg" id="scope" role="group" aria-labelledby="scopeTitle"></div>
+                </div>
+            </div>
+
+            <div class="f-row">
+                <div>
+                    <h2 class="f-title" id="famTitle">Topic</h2>
+                    <div class="chips" id="famChips" role="group" aria-labelledby="famTitle"></div>
+                </div>
+                <div>
+                    <h2 class="f-title" id="numTitle">Problem number</h2>
+                    <div class="chips" id="numChips" role="group" aria-labelledby="numTitle"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="results" id="results" aria-labelledby="resTitle" tabindex="-1">
+            <div id="resultsBox"></div>
+        </section>
+    </div>
+
+    <aside class="exam" id="exam" aria-label="My problem set">
+        <h2>
+            <button type="button" class="exam-toggle" id="examToggle" aria-expanded="false" aria-controls="examBody">
+                <span>My problem set</span>
+                <span class="count" id="examCount">0</span>
+                <svg class="i chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>
+            </button>
+        </h2>
+        <div class="exam-body" id="examBody">
+            <div id="examList"></div>
+
+            <label class="field">Title for the printout
+                <input type="text" id="examTitle" placeholder="IMO problem set" autocomplete="off">
+            </label>
+            <label class="check"><input type="checkbox" id="showSource" checked> Show the source of each problem</label>
+
+            <div class="ex-actions">
+                <button type="button" class="btn btn-primary" id="printBtn">
+                    <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4a1 1 0 0 1-1-1v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1h-2M7 14h10v7H7z"/></svg>
+                    Print
+                </button>
+                <button type="button" class="btn" id="shareBtn">
+                    <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h3v3h-3zM20 14v3M14 20h3M20 20h1"/></svg>
+                    Share
+                </button>
+                <button type="button" class="btn btn-quiet" id="clearBtn">Clear the set</button>
+            </div>
+        </div>
+    </aside>
+</main>
+
+<footer class="footer">
+    <div class="wrap">
+        <span>eisatopon.gr © 2025–<span id="yr">2026</span> – IMO Problem Bank</span>
+        <a href="https://github.com/Eisatopon/IMO-BANK" target="_blank" rel="noopener">Data on GitHub</a>
+    </div>
+</footer>
+
+<dialog id="shareDialog" aria-labelledby="shareTitle">
+    <h2 id="shareTitle">Share this problem set</h2>
+    <p>Scan the code or send the link. It opens the same set of problems.</p>
+    <div class="qr-box" id="qrBox"></div>
+    <input class="share-url" id="shareUrl" type="text" readonly aria-label="Share link">
+    <div class="copy-status" id="copyStatus" role="status"></div>
+    <div class="dlg-actions">
+        <button type="button" class="btn" id="copyBtn">Copy link</button>
+        <button type="button" class="btn btn-primary" id="closeShare">Close</button>
+    </div>
+</dialog>
+
+<div id="printSheet" aria-hidden="true"></div>
+<div class="sr-only" id="srStatus" role="status"></div>
+
+<noscript><p style="padding:24px">This page needs JavaScript to load the problems.</p></noscript>
+
+<script>
+(() => {
+'use strict';
+
+/* ==========================================================
+   Δεδομένα και σταθερές
+   ========================================================== */
+const BASE = 'https://raw.githubusercontent.com/Eisatopon/IMO-BANK/main/data/';
+const FIRST = 1959;
+const LAST = 2025;              // Αύξησέ το όταν προστεθεί νέα χρονιά
+const NOT_HELD = [1980];
+const PAGE = 40;
+const STORAGE_KEY = 'eisatopon-imo:set:v1';
+
+const dataUrl = y => `${BASE}imo_${y}.json`;
+const YEARS = [];
+for (let y = FIRST; y <= LAST; y++) if (!NOT_HELD.includes(y)) YEARS.push(y);
+
+// Διοργανωτές: πόλη | χώρα
+const HOSTS = {
+    1959: 'Brașov|Romania', 1960: 'Sinaia|Romania', 1961: 'Veszprém|Hungary', 1962: 'Bratislava|Czechoslovakia',
+    1963: 'Warsaw|Poland', 1964: 'Moscow|Soviet Union', 1965: 'Berlin|East Germany', 1966: 'Sofia|Bulgaria',
+    1967: 'Cetinje|Yugoslavia', 1968: 'Moscow|Soviet Union', 1969: 'Bucharest|Romania', 1970: 'Keszthely|Hungary',
+    1971: 'Žilina|Czechoslovakia', 1972: 'Toruń|Poland', 1973: 'Moscow|Soviet Union', 1974: 'Erfurt|East Germany',
+    1975: 'Burgas|Bulgaria', 1976: 'Lienz|Austria', 1977: 'Belgrade|Yugoslavia', 1978: 'Bucharest|Romania',
+    1979: 'London|United Kingdom', 1981: 'Washington, D.C.|United States', 1982: 'Budapest|Hungary', 1983: 'Paris|France',
+    1984: 'Prague|Czechoslovakia', 1985: 'Joutsa|Finland', 1986: 'Warsaw|Poland', 1987: 'Havana|Cuba',
+    1988: 'Canberra|Australia', 1989: 'Braunschweig|West Germany', 1990: 'Beijing|China', 1991: 'Sigtuna|Sweden',
+    1992: 'Moscow|Russia', 1993: 'Istanbul|Turkey', 1994: 'Hong Kong|Hong Kong', 1995: 'Toronto|Canada',
+    1996: 'Mumbai|India', 1997: 'Mar del Plata|Argentina', 1998: 'Taipei|Taiwan', 1999: 'Bucharest|Romania',
+    2000: 'Taejon|South Korea', 2001: 'Washington, D.C.|United States', 2002: 'Glasgow|United Kingdom', 2003: 'Tokyo|Japan',
+    2004: 'Athens|Greece', 2005: 'Mérida|Mexico', 2006: 'Ljubljana|Slovenia', 2007: 'Hanoi|Vietnam',
+    2008: 'Madrid|Spain', 2009: 'Bremen|Germany', 2010: 'Astana|Kazakhstan', 2011: 'Amsterdam|Netherlands',
+    2012: 'Mar del Plata|Argentina', 2013: 'Santa Marta|Colombia', 2014: 'Cape Town|South Africa', 2015: 'Chiang Mai|Thailand',
+    2016: 'Hong Kong|Hong Kong', 2017: 'Rio de Janeiro|Brazil', 2018: 'Cluj-Napoca|Romania', 2019: 'Bath|United Kingdom',
+    2020: 'St. Petersburg|Russia (held online)', 2021: 'St. Petersburg|Russia (held online)', 2022: 'Oslo|Norway',
+    2023: 'Chiba|Japan', 2024: 'Bath|United Kingdom', 2025: 'Sunshine Coast|Australia'
+};
+
+const FAMILIES = {
+    G: { name: 'Geometry',       cls: 'f-G' },
+    N: { name: 'Number theory',  cls: 'f-N' },
+    C: { name: 'Combinatorics',  cls: 'f-C' },
+    A: { name: 'Algebra',        cls: 'f-A' }
+};
+const FAMILY_HINT = 'Algebra includes inequalities, functional equations, polynomials, sequences and analysis.';
+
+function familyOf(topic) {
+    const t = String(topic || '').toLowerCase();
+    if (/^combinatorial geometry/.test(t)) return 'C';
+    if (/geometr|locus|vector/.test(t)) return 'G';
+    if (/number/.test(t)) return 'N';
+    if (/combinator|logic|game|word problem/.test(t)) return 'C';
+    return 'A';
+}
+
+const ICON = {
+    plus:  '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>',
+    check: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
+    up:    '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>',
+    down:  '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>',
+    x:     '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>'
+};
+
+/* ==========================================================
+   Κατάσταση
+   ========================================================== */
+const state = { year: LAST, scope: 'year', family: 'all', num: 'all', q: '' };
+const cache = new Map();      // έτος -> θέματα
+const inflight = new Map();
+const failed = new Map();     // έτος -> μήνυμα σφάλματος
+const byUid = new Map();
+let selected = [];
+let shownUids = [];
+let limit = PAGE;
+let renderToken = 0;
+
+/* ==========================================================
+   Βοηθητικά
+   ========================================================== */
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const say = msg => { $('#srStatus').textContent = ''; setTimeout(() => { $('#srStatus').textContent = msg; }, 30); };
+
+function ordinal(n) {
+    const v = n % 100;
+    if (v >= 11 && v <= 13) return n + 'th';
+    return n + ({ 1: 'st', 2: 'nd', 3: 'rd' }[n % 10] || 'th');
+}
+const imoNumber = y => (y <= 1979 ? y - 1958 : y - 1959);
+function hostOf(y) {
+    const h = (HOSTS[y] || '').split('|');
+    return { city: h[0] || '', country: h[1] || '' };
+}
+const hostText = y => { const h = hostOf(y); return h.city ? `${h.city}, ${h.country}` : ''; };
+
+function typeset(el) {
+    return new Promise(resolve => {
+        let tries = 0;
+        const go = () => {
+            if (window.MathJax && typeof MathJax.typesetPromise === 'function') {
+                const next = MathJax.startup.promise
+                    .then(() => MathJax.typesetPromise([el]))
+                    .catch(err => console.error('MathJax:', err));
+                MathJax.startup.promise = next;
+                next.then(resolve);
+            } else if (tries++ < 100) {
+                setTimeout(go, 150);
+            } else {
+                resolve();
+            }
+        };
+        go();
+    });
+}
+
+// Κείμενο θέματος: ασφαλές HTML, λίστες LaTeX σε HTML, οι τύποι μένουν για το MathJax
+function statementHtml(text) {
+    let s = String(text);
+    s = s.replace(/\\begin\{align\*\}([\s\S]*?)\\end\{align\*\}/g, (m, b) => `\\[\\begin{aligned}${b}\\end{aligned}\\]`);
+    s = s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    s = s.replace(/\\textit\{([^{}]*)\}/g, '<em>$1</em>');
+    s = s.replace(/\\begin\{(enumerate|itemize)\}([\s\S]*?)\\end\{\1\}/g, (m, t, body) => {
+        const items = body.split(/\\item/).slice(1).map(it => {
+            const lm = it.match(/^\s*\[([^\]]*)\]\s*/);
+            const label = lm ? lm[1] : '';
+            const rest = it.replace(/^\s*\[[^\]]*\]\s*/, '').trim();
+            return `<li>${label ? `<span class="lab">${label}</span>` : ''}<span>${rest}</span></li>`;
+        });
+        return `<ul class="items">${items.join('')}</ul>`;
+    });
+    return s.split(/\n{2,}/).map(x => x.trim()).filter(Boolean).map(x => `<div class="para">${x}</div>`).join('');
+}
+
+/* ==========================================================
+   Φόρτωση δεδομένων
+   ========================================================== */
+function loadYear(year) {
+    if (cache.has(year)) return Promise.resolve(cache.get(year));
+    if (inflight.has(year)) return inflight.get(year);
+
+    const p = fetch(dataUrl(year))
+        .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
+        .then(txt => {
+            let data;
+            try { data = JSON.parse(txt); }
+            catch (e) { throw new Error('The data file imo_' + year + '.json is not valid JSON'); }
+            if (!Array.isArray(data)) throw new Error('Unexpected data format');
+            const list = data.map((p, i) => {
+                const id = String(p.problem_id || 'P' + (i + 1));
+                const prob = {
+                    uid: `${year}.${id}`, year, id,
+                    num: parseInt(id.replace(/\D/g, ''), 10) || i + 1,
+                    day: p.day, topic: String(p.topic || ''),
+                    family: familyOf(p.topic),
+                    text: String(p.statement || ''),
+                    solution: p.official_solution_available === true,
+                    link: p.shortlist_link || ''
+                };
+                byUid.set(prob.uid, prob);
+                return prob;
+            }).sort((a, b) => a.num - b.num);
+            cache.set(year, list);
+            failed.delete(year);
+            inflight.delete(year);
+            return list;
+        })
+        .catch(err => { inflight.delete(year); failed.set(year, err.message); throw err; });
+
+    inflight.set(year, p);
+    return p;
+}
+
+let allPromise = null;
+let loadedCount = 0;
+const progressListeners = [];
+function loadAll(onProgress) {
+    if (onProgress) progressListeners.push(onProgress);
+    if (allPromise) return allPromise;
+    const queue = YEARS.filter(y => !cache.has(y));
+    loadedCount = YEARS.length - queue.length;
+    const worker = async () => {
+        while (queue.length) {
+            const y = queue.shift();
+            try { await loadYear(y); } catch (e) { /* το σφάλμα καταγράφεται στο failed */ }
+            loadedCount++;
+            progressListeners.forEach(fn => fn(loadedCount));
+        }
+    };
+    allPromise = Promise.all(Array.from({ length: 6 }, worker)).then(() => YEARS.filter(y => cache.has(y)).length);
+    return allPromise;
+}
+
+/* ==========================================================
+   Hero: έτος, διοργανωτής, ρίγα χρόνου
+   ========================================================== */
+function buildRibbon() {
+    $('#lede').textContent = `Every problem from the International Mathematical Olympiad, ${FIRST}–${LAST}. Pick a year on the ruler, filter by topic, search the statements, and collect problems into a printable set.`;
+    const all = [];
+    for (let y = FIRST; y <= LAST; y++) all.push(y);
+    $('#ribbon').innerHTML = all.map((y, i) => {
+        const gap = NOT_HELD.includes(y);
+        const cls = ['tick', y % 5 === 0 ? 'five' : '', (y === LAST && y % 5 !== 0) ? 'edge' : '', gap ? 'gap' : ''].filter(Boolean).join(' ');
+        const label = gap ? `${y}: no IMO was held` : `${y}, ${hostText(y)}`;
+        return `<button type="button" class="${cls}" role="radio" aria-checked="false" tabindex="-1" data-year="${y}" style="--i:${i}"
+                    aria-label="${esc(label)}" title="${esc(label)}" ${gap ? 'aria-disabled="true"' : ''}>
+                    <span class="bar"></span><span class="lbl">${y}</span></button>`;
+    }).join('');
+}
+
+function syncHero() {
+    const y = state.year;
+    $('#heroYear').textContent = y;
+    $('#heroOrdinal').textContent = `${ordinal(imoNumber(y))} International Mathematical Olympiad`;
+    const h = hostOf(y);
+    $('#heroHost').innerHTML = h.city ? `${esc(h.city)}<small>${esc(h.country)}</small>` : '';
+
+    $$('#ribbon .tick').forEach(t => {
+        const on = +t.dataset.year === y;
+        t.setAttribute('aria-checked', String(on));
+        t.tabIndex = on ? 0 : -1;
+    });
+    const idx = YEARS.indexOf(y);
+    $('#prevYear').disabled = idx <= 0;
+    $('#nextYear').disabled = idx >= YEARS.length - 1;
+    syncStrip();
+}
+
+function syncStrip() {
+    const list = cache.get(state.year);
+    const strip = $('#strip');
+    if (!list) { strip.innerHTML = ''; return; }
+    strip.innerHTML = list.map(p => `
+        <a class="chip-p ${FAMILIES[p.family].cls}" href="#p-${p.uid}" data-jump="${p.uid}"
+           aria-label="Problem ${p.num}, ${esc(p.topic)}" title="${esc(p.topic)}">${p.id}</a>`).join('');
+}
+
+function centerTick() {
+    const t = $('#ribbon .tick[aria-checked="true"]');
+    if (t && t.scrollIntoView) t.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'auto' });
+}
+
+function goYear(y, opts = {}) {
+    if (!YEARS.includes(y)) return;
+    state.year = y;
+    state.scope = 'year';
+    limit = PAGE;
+    syncHero();
+    centerTick();
+    if (opts.focus) { const t = $('#ribbon .tick[aria-checked="true"]'); if (t) t.focus(); }
+    refresh();
+}
+
+/* ==========================================================
+   Φίλτρα
+   ========================================================== */
+function scopeProblems() {
+    if (state.scope === 'year') return cache.get(state.year) || [];
+    return YEARS.slice().reverse().flatMap(y => cache.get(y) || []);
+}
+
+function matchesQuery(p) {
+    if (!state.q) return true;
+    const hay = `${p.text} ${p.topic} ${p.id} P${p.num} ${p.year} ${p.uid}`.toLowerCase();
+    // Απλή ρίζα λέξης, ώστε το «inequality» να βρίσκει και τα «inequalities»
+    const stem = t => (t.length > 5 ? t.replace(/(ies|es|y|s)$/, '') : t);
+    return state.q.toLowerCase().split(/\s+/).filter(Boolean).every(t => hay.includes(stem(t)));
+}
+function matchesNum(p) { return state.num === 'all' || String(p.num) === state.num; }
+function matchesFamily(p) { return state.family === 'all' || p.family === state.family; }
+
+function syncFilters() {
+    const list = scopeProblems();
+    const base = list.filter(p => matchesQuery(p) && matchesNum(p));
+    const counts = { G: 0, N: 0, C: 0, A: 0 };
+    base.forEach(p => counts[p.family]++);
+
+    const fam = [['all', 'All topics', base.length, '']].concat(Object.entries(FAMILIES).map(([k, f]) => [k, f.name, counts[k], f.cls]));
+    $('#famChips').innerHTML = fam.map(([k, name, n, cls]) => `
+        <button type="button" class="chip ${cls}" data-family="${k}" aria-pressed="${state.family === k}" ${k === 'A' ? `title="${esc(FAMILY_HINT)}"` : ''}>
+            ${k === 'all' ? '' : '<span class="dot"></span>'}${name}<span class="n">${list.length ? n : ''}</span>
+        </button>`).join('');
+
+    const maxNum = Math.max(6, ...list.map(p => p.num));
+    const nums = [['all', 'All']];
+    for (let i = 1; i <= maxNum; i++) nums.push([String(i), 'P' + i]);
+    $('#numChips').innerHTML = nums.map(([v, l]) =>
+        `<button type="button" class="chip" data-num="${v}" aria-pressed="${state.num === v}">${l}</button>`).join('');
+
+    $('#scope').innerHTML = `
+        <button type="button" data-scope="year" aria-pressed="${state.scope === 'year'}">IMO ${state.year}</button>
+        <button type="button" data-scope="all" aria-pressed="${state.scope === 'all'}">All years</button>`;
+}
+
+/* ==========================================================
+   Αποτελέσματα
+   ========================================================== */
+const box = () => $('#resultsBox');
+const filtersOn = () => state.family !== 'all' || state.num !== 'all' || state.q.trim() !== '';
+
+function shortlistFor(year) {
+    const list = cache.get(year) || [];
+    const link = (list.find(p => p.link) || {}).link;
+    if (!link) return '';
+    const label = list.some(p => p.solution) ? 'Shortlist and solutions' : 'Shortlist';
+    return `<a class="link-out" href="${esc(link)}" target="_blank" rel="noopener">${label} on eisatopon.gr</a>`;
+}
+
+function headHtml(title, count, extra) {
+    return `
+    <div class="res-head">
+        <h2 class="res-title" id="resTitle">${title}<span class="res-count">${count === null ? '' : (count === 1 ? '1 problem' : count + ' problems')}</span></h2>
+        <div class="res-actions">
+            ${extra || ''}
+            ${filtersOn() ? '<button type="button" class="btn btn-sm btn-quiet" data-clear-filters>Clear filters</button>' : ''}
+            ${count && count <= 60 ? `<button type="button" class="btn btn-sm" data-add-all>${ICON.plus} Add all (${count})</button>` : ''}
+        </div>
+    </div>`;
+}
+
+function problemHtml(p) {
+    const f = FAMILIES[p.family];
+    return `
+    <article class="problem ${f.cls}" id="p-${p.uid}">
+        <div class="p-head">
+            <div class="p-id">
+                <h4 class="p-num">Problem ${p.num}</h4>
+                <span class="p-tag">${esc(p.topic)}</span>
+                <span class="p-meta">IMO ${p.year}${p.day ? `, Day ${p.day}` : ''}</span>
+                ${p.solution ? `<span class="p-sol">${ICON.check} Solution available</span>` : ''}
+            </div>
+            <button type="button" class="btn btn-sm add" data-toggle-uid="${p.uid}" aria-pressed="false">
+                <span class="off">${ICON.plus} Add</span>
+                <span class="on">${ICON.check} In my set</span>
+            </button>
+        </div>
+        <div class="statement">${statementHtml(p.text)}</div>
+    </article>`;
+}
+
+function showLoading(title, text) {
+    box().innerHTML = headHtml(title, null) +
+        `<div class="state" role="status"><span class="spinner" aria-hidden="true"></span><p id="loadText">${text}</p></div>`;
+}
+
+function showYearError(year) {
+    const msg = failed.get(year) || 'The file could not be loaded';
+    box().innerHTML = headHtml(String(year), null) + `
+        <div class="state error" role="alert">
+            <h3>The problems of ${year} did not load</h3>
+            ${/valid JSON/.test(msg)
+                ? `<p>${esc(msg)}, so this year cannot be shown until the file is repaired. All other years work normally.</p>`
+                : `<p>${esc(msg)}. Check your connection and try again.</p>
+            <button type="button" class="btn btn-primary" data-retry>Try again</button>`}
+        </div>`;
+}
+
+function renderResults() {
+    syncFilters();
+    const list = scopeProblems();
+    const items = list.filter(p => matchesQuery(p) && matchesFamily(p) && matchesNum(p));
+    shownUids = items.map(p => p.uid);
+
+    const isYear = state.scope === 'year';
+    const title = isYear ? String(state.year) : 'All years';
+    const extra = isYear ? shortlistFor(state.year) : '';
+
+    if (!items.length) {
+        const canWiden = isYear && filtersOn();
+        box().innerHTML = headHtml(title, 0, extra) + `
+            <div class="state">
+                <h3>No problems match</h3>
+                <p>${filtersOn() ? 'Try fewer words or another topic.' : 'This year has no problems in the archive yet.'}</p>
+                <div class="actions">
+                    ${filtersOn() ? '<button type="button" class="btn" data-clear-filters>Clear filters</button>' : ''}
+                    ${canWiden ? '<button type="button" class="btn btn-primary" data-scope="all">Search all years</button>' : ''}
+                </div>
+            </div>`;
+        say('No problems match.');
+        return;
+    }
+
+    const shown = isYear ? items : items.slice(0, limit);
+    let html = headHtml(title, items.length, extra);
+
+    if (!isYear && failed.size) {
+        html += `<p class="note">${failed.size === 1 ? 'One year' : failed.size + ' years'} could not be loaded (${[...failed.keys()].sort().join(', ')}), so the results may be incomplete.</p>`;
+    }
+
+    if (isYear) {
+        html += shown.map(problemHtml).join('');
+    } else {
+        let cur = null;
+        shown.forEach(p => {
+            if (p.year !== cur) {
+                cur = p.year;
+                html += `<div class="yr-head"><h3 class="yr">${p.year}</h3><span class="where">${esc(hostText(p.year))}</span>${shortlistFor(p.year)}</div>`;
+            }
+            html += problemHtml(p);
+        });
+        if (items.length > shown.length) {
+            html += `<div class="more"><button type="button" class="btn" data-more>Show ${Math.min(PAGE, items.length - shown.length)} more <span class="sr-only">problems</span></button></div>`;
+        }
+    }
+
+    box().innerHTML = html;
+    syncAddButtons();
+    typeset(box());
+    say(items.length === 1 ? '1 problem found.' : `${items.length} problems found.`);
+}
+
+async function refresh() {
+    const token = ++renderToken;
+
+    if (state.scope === 'year') {
+        const year = state.year;
+        if (!cache.has(year)) showLoading(String(year), 'Loading problems…');
+        try {
+            await loadYear(year);
+            if (token !== renderToken) return;
+            syncStrip();
+            renderResults();
+        } catch (e) {
+            if (token !== renderToken) return;
+            console.error(e);
+            syncFilters();
+            showYearError(year);
+        }
+        return;
+    }
+
+    // Όλα τα έτη
+    if (failed.size + cache.size < YEARS.length) {
+        showLoading('All years', `Loading the archive… ${loadedCount} of ${YEARS.length} years`);
+        syncFilters();
+    }
+    await loadAll(n => {
+        const t = $('#loadText');
+        if (t) t.textContent = `Loading the archive… ${n} of ${YEARS.length} years`;
+    });
+    if (token !== renderToken) return;
+    renderResults();
+}
+
+/* ==========================================================
+   Το σύνολό μου
+   ========================================================== */
+function getSelected() { return selected.map(u => byUid.get(u)).filter(Boolean); }
+function persist() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(selected)); } catch (e) { /* ιδιωτική περιήγηση */ } }
+function readSaved() {
+    try { const v = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); return Array.isArray(v) ? v.filter(x => typeof x === 'string') : []; }
+    catch (e) { return []; }
+}
+function syncAddButtons() {
+    $$('[data-toggle-uid]').forEach(b => b.setAttribute('aria-pressed', String(selected.includes(b.dataset.toggleUid))));
+}
+
+function renderExam() {
+    const items = getSelected();
+    $('#examCount').textContent = items.length;
+    $('#examList').innerHTML = items.length
+        ? `<ol class="ex-list">${items.map((p, i) => `
+            <li class="ex-item ${FAMILIES[p.family].cls}">
+                <span class="ex-n">${i + 1}</span>
+                <div class="ex-t"><strong>IMO ${p.year}, Problem ${p.num}</strong><span>${esc(p.topic)}</span></div>
+                <div class="ex-ctl">
+                    <button type="button" class="icon-btn" data-up="${p.uid}" aria-label="Move up: item ${i + 1}" ${i === 0 ? 'disabled' : ''}>${ICON.up}</button>
+                    <button type="button" class="icon-btn" data-down="${p.uid}" aria-label="Move down: item ${i + 1}" ${i === items.length - 1 ? 'disabled' : ''}>${ICON.down}</button>
+                    <button type="button" class="icon-btn rm" data-remove="${p.uid}" aria-label="Remove item ${i + 1}">${ICON.x}</button>
+                </div>
+            </li>`).join('')}</ol>`
+        : '<p class="ex-empty">Your set is empty. Press “Add” next to any problem to collect it here.</p>';
+    ['#printBtn', '#shareBtn', '#clearBtn'].forEach(s => { $(s).disabled = !items.length; });
+    syncAddButtons();
+    renderPrintSheet();
+}
+
+function changeSelection(fn, message) { fn(); persist(); renderExam(); if (message) say(message); }
+
+function toggleUid(uid) {
+    const p = byUid.get(uid);
+    const label = p ? `IMO ${p.year} problem ${p.num}` : 'Problem';
+    if (selected.includes(uid)) changeSelection(() => { selected = selected.filter(u => u !== uid); }, `${label} removed from your set.`);
+    else changeSelection(() => { selected.push(uid); }, `${label} added to your set.`);
+}
+
+function move(uid, delta) {
+    const i = selected.indexOf(uid), j = i + delta;
+    if (i < 0 || j < 0 || j >= selected.length) return;
+    changeSelection(() => { [selected[i], selected[j]] = [selected[j], selected[i]]; });
+    const btn = $(`[data-${delta < 0 ? 'up' : 'down'}="${uid}"]`);
+    if (btn && !btn.disabled) btn.focus();
+}
+
+/* ---------- Εκτύπωση ---------- */
+function renderPrintSheet() {
+    const items = getSelected();
+    const showSrc = $('#showSource').checked;
+    const title = $('#examTitle').value.trim() || 'IMO problem set';
+    $('#printSheet').innerHTML = items.length
+        ? `<header class="ps-head"><h1></h1><p>eisatopon.gr</p></header>` + items.map((p, i) => `
+            <section class="ps-item">
+                <div class="ps-num">${i + 1}.</div>
+                <div class="ps-body">
+                    ${showSrc ? `<p class="ps-src">IMO ${p.year}, Problem ${p.num}${p.day ? ` (Day ${p.day})` : ''}, ${esc(p.topic)}</p>` : ''}
+                    <div class="statement">${statementHtml(p.text)}</div>
+                </div>
+            </section>`).join('')
+        : '';
+    const h1 = $('#printSheet h1');
+    if (h1) h1.textContent = title;
+    return typeset($('#printSheet'));
+}
+async function doPrint() { if (!selected.length) return; await renderPrintSheet(); window.print(); }
+
+/* ---------- Κοινοποίηση ---------- */
+const shareUrl = () => location.href.split(/[?#]/)[0] + '?set=' + selected.join(',');
+function openShare() {
+    if (!selected.length) return;
+    const url = shareUrl();
+    const qr = $('#qrBox');
+    qr.innerHTML = '';
+    try {
+        new QRCode(qr, { text: url, width: 220, height: 220, colorDark: '#0d4a52', colorLight: '#ffffff', correctLevel: QRCode.CorrectLevel.M });
+    } catch (e) {
+        qr.innerHTML = '<p>This set is too large for a QR code. Use the link below.</p>';
+    }
+    $('#shareUrl').value = url;
+    $('#copyStatus').textContent = '';
+    const dlg = $('#shareDialog');
+    if (typeof dlg.showModal === 'function') dlg.showModal(); else dlg.setAttribute('open', '');
+}
+async function copyLink() {
+    const input = $('#shareUrl');
+    try { await navigator.clipboard.writeText(input.value); }
+    catch (e) { input.select(); document.execCommand('copy'); }
+    $('#copyStatus').textContent = 'Link copied.';
+}
+
+function parseIncoming() {
+    const set = new URLSearchParams(location.search).get('set');
+    const out = [];
+    if (set) set.split(',').forEach(t => {
+        const [y, id] = t.split('.');
+        if (YEARS.includes(+y) && /^P\d+$/.test(id || '')) out.push(`${+y}.${id}`);
+    });
+    return out;
+}
+async function hydrate(uids) {
+    const years = [...new Set(uids.map(u => +u.split('.')[0]))];
+    const results = await Promise.allSettled(years.map(loadYear));
+    const bad = new Set(years.filter((y, i) => results[i].status === 'rejected'));
+    return uids.filter(u => byUid.has(u) || bad.has(+u.split('.')[0]));
+}
+
+/* ==========================================================
+   Συμβάντα
+   ========================================================== */
+document.addEventListener('click', e => {
+    const jump = e.target.closest('[data-jump]');
+    if (jump) {
+        e.preventDefault();
+        const id = 'p-' + jump.dataset.jump;
+        let el = document.getElementById(id);
+        if (!el) { state.family = 'all'; state.num = 'all'; state.q = ''; $('#q').value = ''; state.scope = 'year'; renderResults(); el = document.getElementById(id); }
+        if (el) { el.scrollIntoView({ block: 'start' }); el.querySelector('.p-num').setAttribute('tabindex', '-1'); el.querySelector('.p-num').focus({ preventScroll: true }); }
+        return;
+    }
+
+    const t = e.target.closest('button');
+    if (!t) return;
+
+    if (t.classList.contains('tick')) { if (!t.hasAttribute('aria-disabled')) goYear(+t.dataset.year); return; }
+    if (t.dataset.family !== undefined) { state.family = t.dataset.family; limit = PAGE; renderResults(); return; }
+    if (t.dataset.num !== undefined) { state.num = t.dataset.num; limit = PAGE; renderResults(); return; }
+    if (t.dataset.scope) {
+        state.scope = t.dataset.scope; limit = PAGE;
+        refresh();
+        return;
+    }
+    if (t.hasAttribute('data-clear-filters')) { state.family = 'all'; state.num = 'all'; state.q = ''; $('#q').value = ''; limit = PAGE; renderResults(); return; }
+    if (t.hasAttribute('data-retry')) { failed.delete(state.year); allPromise = null; refresh(); return; }
+    if (t.hasAttribute('data-more')) { limit += PAGE; renderResults(); return; }
+
+    if (t.dataset.toggleUid) { toggleUid(t.dataset.toggleUid); return; }
+    if (t.hasAttribute('data-add-all')) {
+        const missing = shownUids.filter(u => !selected.includes(u));
+        if (missing.length) changeSelection(() => { selected.push(...missing); }, `${missing.length} problems added to your set.`);
+        return;
+    }
+    if (t.dataset.up) { move(t.dataset.up, -1); return; }
+    if (t.dataset.down) { move(t.dataset.down, 1); return; }
+    if (t.dataset.remove) { const uid = t.dataset.remove; changeSelection(() => { selected = selected.filter(u => u !== uid); }, 'Problem removed from your set.'); return; }
+});
+
+$('#ribbon').addEventListener('keydown', e => {
+    const keys = { ArrowLeft: -1, ArrowDown: -1, ArrowRight: 1, ArrowUp: 1 };
+    let target = null;
+    const idx = YEARS.indexOf(state.year);
+    if (e.key in keys) target = YEARS[idx + keys[e.key]];
+    else if (e.key === 'Home') target = YEARS[0];
+    else if (e.key === 'End') target = YEARS[YEARS.length - 1];
+    if (target) { e.preventDefault(); goYear(target, { focus: true }); }
+});
+$('#prevYear').addEventListener('click', () => goYear(YEARS[YEARS.indexOf(state.year) - 1]));
+$('#nextYear').addEventListener('click', () => goYear(YEARS[YEARS.indexOf(state.year) + 1]));
+
+let qTimer = null;
+$('#q').addEventListener('input', e => {
+    clearTimeout(qTimer);
+    qTimer = setTimeout(() => {
+        state.q = e.target.value.trim(); limit = PAGE;
+        if (state.scope === 'year' && !cache.has(state.year)) return;
+        renderResults();
+    }, 200);
+});
+
+$('#printBtn').addEventListener('click', doPrint);
+$('#shareBtn').addEventListener('click', openShare);
+$('#copyBtn').addEventListener('click', copyLink);
+$('#closeShare').addEventListener('click', () => $('#shareDialog').close());
+$('#clearBtn').addEventListener('click', () => {
+    if (!selected.length) return;
+    if (!confirm('Remove every problem from your set?')) return;
+    changeSelection(() => { selected = []; }, 'Your set was cleared.');
+});
+$('#showSource').addEventListener('change', renderPrintSheet);
+$('#examTitle').addEventListener('input', () => {
+    const h1 = $('#printSheet h1');
+    if (h1) h1.textContent = $('#examTitle').value.trim() || 'IMO problem set';
+});
+
+const examEl = $('#exam'), toggleEl = $('#examToggle');
+const wide = window.matchMedia('(min-width: 1024px)');
+function syncToggle() { toggleEl.setAttribute('aria-expanded', wide.matches ? 'true' : String(examEl.classList.contains('open'))); }
+toggleEl.addEventListener('click', () => { examEl.classList.toggle('open'); syncToggle(); });
+wide.addEventListener('change', syncToggle);
+
+/* ==========================================================
+   Εκκίνηση
+   ========================================================== */
+async function init() {
+    $('#yr').textContent = new Date().getFullYear();
+    buildRibbon();
+
+    const incoming = parseIncoming();
+    const merged = [...readSaved()];
+    incoming.forEach(u => { if (!merged.includes(u)) merged.push(u); });
+    if (incoming.length) state.year = +incoming[0].split('.')[0];
+
+    syncToggle();
+    syncHero();
+    centerTick();
+    renderExam();
+    const first = refresh();
+
+    selected = merged;
+    const keep = new Set(await hydrate(merged));
+    selected = selected.filter(u => keep.has(u));
+    persist();
+    renderExam();
+    syncStrip();
+
+    if (incoming.length) {
+        history.replaceState(null, '', location.href.split('?')[0]);
+        examEl.classList.add('open');
+        syncToggle();
+        say(`${incoming.length} shared problems were added to your set.`);
+    }
+    await first;
+
+    // Φόρτωση της υπόλοιπης βάσης στο παρασκήνιο, ώστε η αναζήτηση σε όλα τα έτη να είναι άμεση
+    setTimeout(() => { if (state.scope === 'year') loadAll(); }, 1500);
+}
+
+init();
+})();
+</script>
+</body>
+</html>
