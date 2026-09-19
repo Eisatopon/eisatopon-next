@@ -9,8 +9,8 @@ export default function EMERedirect() {
 
   return (
     <main style={{ padding: "48px 24px", textAlign: "center" }}>
-      <p>Η Τράπεζα Θεμάτων ΕΜΕ έχει νέα διεύθυνση:</p>
-      <p><a href="/banks/eme-bank/">www.eisatopon.gr/banks/eme-bank/</a></p>
+      <p>Η Τράπεζα Θεμάτων ΕΜΕ έχει νέα διεύθυνση.</p>
+      <p><a href="/banks/eme-bank/">Άνοιγμα της νέας σελίδας</a></p>
     </main>
   );
 }
