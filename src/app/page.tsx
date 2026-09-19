@@ -51,7 +51,7 @@ interface Topic {
 }
 
 const problemBanks: ProblemBank[] = [
-  { href: "/banks/panelladikes", emoji: "🎓", label: "Hellenic Exams",                desc: "Mathematics Topics",           color: "text-cat-blue"  },
+  { href: "/banks/panelladikes-bank/", emoji: "🎓", label: "Hellenic Exams",                desc: "Mathematics Topics",           color: "text-cat-blue"  },
   { href: "/banks/eme-bank/",          emoji: "🏛️", label: "Hellenic Math Society Contests", desc: "Thales · Euclid · Archimedes", color: "text-cat-red"   },
   { href: "/banks/imo-bank/",          emoji: "🌍", label: "International Math Olympiad",    desc: "1959 – 2025",                  color: "text-cat-green" },
 ];

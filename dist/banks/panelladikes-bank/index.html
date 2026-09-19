@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Τράπεζα Πανελλαδικών Εξετάσεων – Μαθηματικά 1983–2025</title>
+<meta name="description" content="Τα θέματα Μαθηματικών των Πανελλαδικών Εξετάσεων από το 1983 έως σήμερα: ΓΕΛ, ΕΠΑΛ, Επαναληπτικές, Ομογενείς. Διάλεξε θέματα και φτιάξε το δικό σου διαγώνισμα.">
+<meta name="theme-color" content="#3c1c55">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23d62828'/%3E%3Ctext x='32' y='45' font-size='40' font-family='Georgia,serif' font-weight='700' text-anchor='middle' fill='white'%3Ee%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600&family=Vollkorn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']],
+            processEscapes: true
+        }
+    };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+<style>
+/* ==========================================================
+   Tokens
+   ========================================================== */
+:root {
+    color-scheme: light;
+
+    --plum: #3c1c55;
+    --plum-deep: #2c1240;
+    --plum-hover: #56307a;
+    --lilac: #d7c6ee;
+    --paper: #f5f3f8;
+    --surface: #ffffff;
+    --text: #221b2c;
+    --muted: #5b526d;
+    --line: #dcd6e6;
+    --line-strong: #b0a5c4;
+    --accent: #f2ac2f;
+    --focus: #1f5fd6;
+
+    /* Κάθε Θέμα έχει το δικό του χρώμα */
+    --a: #1f5fbf;  --a-ink: #163f82;  --a-tint: #e6eefb;
+    --b: #22794a;  --b-ink: #17522f;  --b-tint: #e2f2e8;
+    --c: #b8590f;  --c-ink: #7c3c09;  --c-tint: #fbeadb;
+    --d: #a3245f;  --d-ink: #701840;  --d-tint: #f8e4ee;
+
+    --serif: 'Vollkorn', Georgia, 'Times New Roman', serif;
+    --sans: 'Commissioner', system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+.f-A { --f: var(--a); --f-ink: var(--a-ink); --f-tint: var(--a-tint); }
+.f-B { --f: var(--b); --f-ink: var(--b-ink); --f-tint: var(--b-tint); }
+.f-C { --f: var(--c); --f-ink: var(--c-ink); --f-tint: var(--c-tint); }
+.f-D { --f: var(--d); --f-ink: var(--d-ink); --f-tint: var(--d-tint); }
+.f-X { --f: #6b6480; --f-ink: #453f57; --f-tint: #ecebf1; }
+
+/* ==========================================================
+   Base
+   ========================================================== */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body { margin: 0; background: var(--paper); color: var(--text); font-family: var(--sans); font-size: 1rem; line-height: 1.6; font-variant-numeric: lining-nums; }
+button, input { font: inherit; color: inherit; }
+h1, h2, h3, h4, p, ol, ul { margin: 0; }
+ol, ul { padding: 0; list-style: none; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.skip { position: absolute; left: 12px; top: -60px; z-index: 100; background: var(--surface); color: var(--plum); padding: 10px 16px; border-radius: 4px; font-weight: 600; text-decoration: none; }
+.skip:focus { top: 12px; }
+
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
+svg.i { width: 1em; height: 1em; flex: none; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+/* ==========================================================
+   Hero: τίτλος + πίνακας εξετάσεων
+   ========================================================== */
+.hero { background: var(--plum); color: #fff; overflow: hidden; }
+.brandbar { padding-top: 18px; padding-bottom: 4px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; font-weight: 600; }
+.logo { width: 30px; height: 30px; border-radius: 50%; background: #d62828; color: #fff; display: inline-grid; place-items: center; font: 700 1.3rem/1 var(--serif); padding-bottom: 3px; }
+
+.hero-body { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 40px; align-items: end; padding-top: 20px; padding-bottom: 8px; }
+.hero h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(2rem, 3.7vw, 3.1rem); line-height: 1.08; letter-spacing: -.01em; }
+.hero h1 span { display: block; font-weight: 500; font-size: .5em; letter-spacing: 0; color: var(--lilac); margin-top: 10px; }
+.lede { color: #e2d7f1; font-size: 1.02rem; max-width: 52ch; padding-bottom: 4px; }
+
+/* ---------- Πίνακας εξετάσεων ---------- */
+.mx-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 20px; margin-top: 22px; }
+.mx-help { font-size: .9rem; color: var(--lilac); }
+.mx-status { font-size: .85rem; color: var(--lilac); font-variant-numeric: tabular-nums; }
+.mx-wrap { overflow-x: auto; overflow-y: hidden; padding: 24px 0 18px; scrollbar-width: thin; scrollbar-color: rgba(255,255,255,.35) transparent; }
+.mx {
+    --cols: 43;
+    --lw: 178px;
+    --cw: 18px;
+    display: grid;
+    gap: 4px;
+    min-width: calc(var(--lw) + var(--cols) * (var(--cw) + 3px));
+}
+.mx-row { display: flex; align-items: center; gap: 3px; }
+.mx-row > .yh, .mx-row > .cell { flex: 1 1 0; min-width: var(--cw); }
+.mx-row > .rl, .mx-row > .corner { flex: 0 0 var(--lw); width: var(--lw); }
+.corner { position: sticky; left: 0; z-index: 2; background: var(--plum); height: 24px; }
+.yh {
+    appearance: none; position: relative; background: none; border: 0; padding: 0; height: 24px;
+    color: var(--lilac); font: 500 .74rem/1 var(--sans); font-variant-numeric: tabular-nums; cursor: pointer; border-radius: 3px;
+}
+.yh:hover { color: #fff; background: rgba(255, 255, 255, .12); }
+.yh .dec { position: absolute; left: 0; bottom: 100%; margin-bottom: 4px; font: 600 .74rem/1 var(--sans); color: #fff; white-space: nowrap; pointer-events: none; }
+.yh.sel { color: var(--plum-deep); background: var(--accent); font-weight: 700; }
+.rl {
+    appearance: none; position: sticky; left: 0; z-index: 2; text-align: left; background: var(--plum); border: 0; padding: 4px 10px 4px 0;
+    color: #efe6fa; font: 500 .84rem/1.2 var(--sans); cursor: pointer; height: 26px; white-space: nowrap; border-radius: 0 3px 3px 0;
+}
+.rl:hover { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+.rl.sel { color: var(--accent); font-weight: 600; }
+.cell { appearance: none; position: relative; height: 26px; border: 0; padding: 0; border-radius: 3px; background: transparent; }
+.cell::after { content: ""; position: absolute; inset: 0; margin: auto; width: 4px; height: 4px; border-radius: 50%; background: rgba(255, 255, 255, .13); }
+.cell.on { background: rgba(255, 255, 255, .27); cursor: pointer; }
+.cell.on::after { display: none; }
+.cell.on:hover { background: rgba(255, 255, 255, .6); }
+.cell.on.pop { animation: pop .45s cubic-bezier(.2, .7, .2, 1) both; }
+.cell.on.line { background: rgba(255, 255, 255, .46); }
+.cell.pick { background: var(--accent); }
+.cell.pend::after { background: rgba(255, 255, 255, .06); }
+.cell.err::after { background: #ff8a80; width: 6px; height: 6px; }
+@keyframes pop { from { transform: scale(.4); opacity: 0; } }
+
+/* ==========================================================
+   Layout
+   ========================================================== */
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 40px; padding-top: 32px; padding-bottom: 80px; align-items: start; }
+
+.filters { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 20px 22px; display: grid; gap: 18px; }
+.f-title { font: 600 .95rem/1.3 var(--sans); color: var(--plum); margin-bottom: 8px; display: block; }
+.searchbox { position: relative; }
+.searchbox svg.i { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 1.05rem; }
+.searchbox input { width: 100%; height: 46px; padding: 0 14px 0 40px; background: var(--surface); border: 1px solid var(--line-strong); border-radius: 4px; font-size: 1rem; color: var(--text); }
+.searchbox input::placeholder { color: #7a7290; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { appearance: none; display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 14px; background: var(--surface); border: 1px solid var(--line-strong); border-radius: 4px; color: var(--text); font-size: .95rem; cursor: pointer; transition: border-color .12s, background-color .12s, color .12s; }
+.chip:hover { border-color: var(--plum); }
+.chip[aria-pressed="true"] { background: var(--plum); border-color: var(--plum); color: #fff; }
+.chip .lt { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 3px; background: var(--f); color: #fff; font: 800 .95rem/1 var(--serif); }
+.chip[aria-pressed="true"] .lt { outline: 1.5px solid #fff; }
+.chip .n { font-size: .8rem; opacity: .7; font-variant-numeric: tabular-nums; }
+
+/* ---------- Αποτελέσματα ---------- */
+.results { margin-top: 28px; scroll-margin-top: 12px; }
+.res-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 20px; padding-bottom: 12px; border-bottom: 3px solid var(--plum); }
+.res-title { font: 800 1.8rem/1.15 var(--serif); color: var(--plum); font-variant-numeric: lining-nums; }
+.res-title .sub { display: block; font: 500 1.02rem/1.4 var(--sans); color: var(--muted); margin-top: 2px; }
+.res-count { margin-left: 12px; font: 400 .95rem var(--sans); color: var(--muted); }
+.res-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.exam-src { margin-top: 12px; font-size: .88rem; color: var(--muted); max-width: 90ch; }
+
+.yr-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; margin-top: 34px; padding-bottom: 8px; border-bottom: 1px solid var(--line-strong); }
+.yr-head h3 { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; }
+.yr-head .yr { font: 800 1.55rem/1 var(--serif); color: var(--plum); font-variant-numeric: lining-nums; }
+.yr-head .kd { font: 600 1.05rem/1.2 var(--sans); color: var(--muted); }
+.yr-head .src { flex-basis: 100%; font-size: .85rem; color: var(--muted); }
+
+.problem { margin-top: 18px; background: var(--surface); border: 1px solid var(--line); border-left: 6px solid var(--f); border-radius: 2px; padding: 18px 24px 22px; scroll-margin-top: 16px; }
+.p-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 14px; margin-bottom: 12px; }
+.p-id { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.p-let { display: inline-grid; place-items: center; width: 44px; height: 44px; border-radius: 4px; background: var(--f); color: #fff; font: 800 1.55rem/1 var(--serif); }
+.p-num { font: 700 1.2rem/1.2 var(--serif); color: var(--plum); }
+.p-tag { font-size: .85rem; font-weight: 600; color: var(--f-ink); background: var(--f-tint); padding: 2px 9px; border-radius: 3px; }
+.p-tag.plain { color: var(--muted); background: #ece8f2; font-weight: 500; }
+
+.statement { font: 400 1.1rem/1.75 var(--serif); max-width: 74ch; overflow-wrap: anywhere; }
+.statement .ln { margin: .12em 0; }
+.statement .ln.q1 { margin-top: .75em; }
+.statement .ln.q2 { padding-left: 1.5em; }
+.statement .lab { font-weight: 700; color: var(--f-ink); }
+.statement .sp { height: .5em; }
+.statement .pts { font: 500 .82em var(--sans); color: var(--muted); white-space: nowrap; }
+mjx-container { margin: .2em 0 !important; }
+mjx-container[display="true"] { margin: .6em 0 !important; overflow-x: auto; overflow-y: hidden; max-width: 100%; }
+
+.more { display: flex; justify-content: center; margin-top: 28px; }
+.state { margin-top: 24px; padding: 44px 24px; text-align: center; background: var(--surface); border: 1px dashed var(--line-strong); border-radius: 4px; color: var(--muted); display: grid; gap: 14px; justify-items: center; }
+.state h3 { font: 700 1.15rem/1.3 var(--serif); color: var(--plum); }
+.state.error { border-color: #c2483d; }
+.state .actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.spinner { width: 26px; height: 26px; border-radius: 50%; border: 3px solid var(--line); border-top-color: var(--plum); animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.note { margin-top: 16px; padding: 12px 16px; background: #fff4d6; border-left: 4px solid #d9a520; color: #4d3a05; font-size: .93rem; }
+
+/* ---------- Κουμπιά ---------- */
+.btn { appearance: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 0 16px; border: 1px solid var(--plum); border-radius: 4px; background: var(--surface); color: var(--plum); font-weight: 600; font-size: .92rem; cursor: pointer; transition: background-color .12s, color .12s, border-color .12s; }
+.btn:hover { background: var(--plum); color: #fff; }
+.btn-primary { background: var(--plum); color: #fff; }
+.btn-primary:hover { background: var(--plum-hover); border-color: var(--plum-hover); }
+.btn-quiet { border-color: transparent; background: transparent; color: var(--muted); }
+.btn-quiet:hover { background: transparent; color: #a4312a; text-decoration: underline; }
+.btn-sm { min-height: 34px; padding: 0 12px; font-size: .88rem; }
+.btn:disabled { opacity: .45; cursor: not-allowed; pointer-events: none; }
+.add .on { display: none; }
+.add .off, .add[aria-pressed="true"] .on { display: inline-flex; align-items: center; gap: 8px; }
+.add[aria-pressed="true"] { background: var(--plum); color: #fff; }
+.add[aria-pressed="true"] .off { display: none; }
+
+/* ---------- Πλαίσιο «Το διαγώνισμά μου» ---------- */
+.exam { position: sticky; top: 20px; background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--plum); border-radius: 4px; }
+.exam-toggle { appearance: none; width: 100%; background: none; border: 0; cursor: default; pointer-events: none; display: flex; align-items: center; gap: 10px; padding: 16px 18px 12px; text-align: left; font: 800 1.2rem/1.2 var(--serif); color: var(--plum); }
+.exam-toggle .count { min-width: 28px; height: 28px; padding: 0 8px; border-radius: 14px; background: var(--plum); color: #fff; font: 600 .85rem/28px var(--sans); text-align: center; }
+.exam-toggle .chev { display: none; margin-left: auto; }
+.exam-body { padding: 0 18px 18px; display: grid; gap: 14px; }
+@media (min-width: 1024px) { #examList { max-height: calc(100vh - 400px); min-height: 72px; overflow: auto; } }
+.ex-empty { color: var(--muted); font-size: .92rem; }
+.ex-list { display: grid; gap: 6px; }
+.ex-item { display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 8px 8px 8px 10px; border: 1px solid var(--line); border-left: 4px solid var(--f); border-radius: 2px; }
+.ex-n { font: 700 .95rem var(--serif); color: var(--muted); }
+.ex-t { min-width: 0; line-height: 1.3; }
+.ex-t strong { display: block; font-size: .93rem; }
+.ex-t span { display: block; font-size: .8rem; color: var(--muted); }
+.ex-ctl { display: flex; gap: 2px; }
+.icon-btn { appearance: none; width: 30px; height: 30px; display: grid; place-items: center; background: transparent; border: 1px solid transparent; border-radius: 4px; color: var(--muted); cursor: pointer; }
+.icon-btn:hover { border-color: var(--line-strong); color: var(--plum); }
+.icon-btn.rm:hover { color: #a4312a; border-color: #e0b1ac; }
+.icon-btn:disabled { opacity: .3; pointer-events: none; }
+.field { display: grid; gap: 4px; font-size: .85rem; color: var(--muted); }
+.field input[type="text"] { width: 100%; height: 38px; padding: 0 10px; border: 1px solid var(--line-strong); border-radius: 4px; font-size: .93rem; color: var(--text); background: var(--surface); }
+.check { display: flex; gap: 8px; align-items: center; font-size: .88rem; cursor: pointer; }
+.check input { width: 17px; height: 17px; accent-color: var(--plum); }
+.ex-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.ex-actions .btn-quiet { grid-column: 1 / -1; }
+
+/* ---------- Παράθυρο κοινοποίησης ---------- */
+dialog { border: 1px solid var(--line); border-top: 4px solid var(--plum); border-radius: 4px; padding: 24px; width: min(420px, calc(100vw - 32px)); color: var(--text); background: var(--surface); }
+dialog::backdrop { background: rgba(44, 18, 64, .6); }
+dialog h2 { font: 800 1.3rem/1.2 var(--serif); color: var(--plum); margin-bottom: 6px; }
+dialog p { color: var(--muted); font-size: .92rem; }
+.qr-box { display: grid; place-items: center; padding: 18px 0; min-height: 240px; }
+.qr-box img, .qr-box canvas { max-width: 100%; height: auto; }
+.share-url { width: 100%; height: 38px; padding: 0 10px; border: 1px solid var(--line-strong); border-radius: 4px; font-size: .82rem; color: var(--muted); }
+.dlg-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 14px; flex-wrap: wrap; }
+.copy-status { font-size: .85rem; color: var(--b-ink); min-height: 1.4em; margin-top: 6px; }
+
+/* ---------- Υποσέλιδο ---------- */
+.footer { background: var(--plum-deep); color: #cdbfe0; font-size: .9rem; }
+.footer .wrap { padding-top: 22px; padding-bottom: 22px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
+.footer a { color: #fff; }
+
+/* ---------- Φύλλο εκτύπωσης ---------- */
+#printSheet { position: absolute; left: -10000px; top: 0; width: 720px; font-family: var(--serif); color: #000; background: #fff; }
+.ps-head { border-bottom: 2px solid #000; padding-bottom: 8px; margin-bottom: 22px; display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+.ps-head h1 { font: 700 18pt/1.2 var(--serif); }
+.ps-head p { font: 10pt var(--sans); color: #444; }
+.ps-item { display: grid; grid-template-columns: 2.2rem minmax(0, 1fr); gap: 4px; margin-bottom: 22px; }
+.ps-num { font: 700 12pt/1.7 var(--serif); }
+.ps-src { font: 9pt var(--sans); color: #555; margin-bottom: 4px; }
+.ps-body .statement { font-size: 12pt; line-height: 1.65; max-width: none; }
+.ps-body .statement .lab { color: #000; }
+
+/* ==========================================================
+   Κινητά και tablet
+   ========================================================== */
+@media (max-width: 1023px) {
+    .layout { grid-template-columns: minmax(0, 1fr); padding-bottom: 110px; }
+    .exam { position: fixed; left: 0; right: 0; bottom: 0; top: auto; z-index: 40; border-radius: 0; border-left: 0; border-right: 0; box-shadow: 0 -10px 28px rgba(44, 18, 64, .22); }
+    .exam-toggle { cursor: pointer; pointer-events: auto; padding: 14px 18px; }
+    .exam-toggle .chev { display: block; transition: transform .2s; }
+    .exam.open .exam-toggle .chev { transform: rotate(180deg); }
+    .exam-body { display: none; max-height: 62vh; overflow: auto; }
+    .exam.open .exam-body { display: grid; }
+}
+@media (max-width: 820px) {
+    .hero-body { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+}
+@media (max-width: 640px) {
+    .wrap { padding-left: 16px; padding-right: 16px; }
+    .filters { padding: 18px 16px; }
+    .problem { padding: 16px 16px 20px; }
+    .statement { font-size: 1.05rem; }
+    .mx { --lw: 132px; --cw: 26px; }
+    .rl { font-size: .8rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .cell.on.pop { animation: none; }
+    .spinner { animation: none; border-top-color: var(--line); }
+    html { scroll-behavior: auto; }
+    * { transition: none !important; }
+}
+
+/* ==========================================================
+   Εκτύπωση
+   ========================================================== */
+@page { margin: 18mm 16mm; }
+@media print {
+    body { background: #fff; }
+    .skip, .hero, .layout, .footer, dialog, noscript { display: none !important; }
+    #printSheet { position: static; left: auto; width: auto; }
+    .ps-item { break-inside: auto; }
+}
+</style>
+</head>
+
+<body>
+<a class="skip" href="#results">Μετάβαση στα θέματα</a>
+
+<header class="hero">
+    <div class="wrap brandbar">
+        <a class="brand" href="https://eisatopon.gr" target="_top" aria-label="eisatopon.gr"><span class="logo" aria-hidden="true">e</span><span>eisatopon.gr</span></a>
+    </div>
+
+    <div class="wrap hero-body">
+        <h1>Τράπεζα Πανελλαδικών Εξετάσεων<span id="heroSub"></span></h1>
+        <p class="lede" id="lede"></p>
+    </div>
+
+    <div class="wrap">
+        <div class="mx-head">
+            <p class="mx-help" id="mxHelp">Πάτα ένα κελί για να ανοίξεις μια εξέταση. Πάτα ένα έτος ή ένα είδος εξέτασης για να δεις όλα τα θέματά του.</p>
+            <p class="mx-status" id="mxStatus" role="status"></p>
+        </div>
+        <div class="mx-wrap">
+            <div class="mx" id="mx" role="group" aria-label="Πίνακας εξετάσεων ανά έτος και είδος"></div>
+        </div>
+    </div>
+</header>
+
+<main class="wrap layout" id="main">
+    <div class="col-main">
+
+        <section class="filters" aria-label="Αναζήτηση και φίλτρα">
+            <div>
+                <label class="f-title" for="q">Αναζήτηση στα θέματα</label>
+                <div class="searchbox">
+                    <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+                    <input type="search" id="q" placeholder="π.χ. ολοκλήρωμα, όριο, μιγαδικοί" autocomplete="off">
+                </div>
+            </div>
+            <div>
+                <h2 class="f-title" id="letTitle">Θέμα</h2>
+                <div class="chips" id="letChips" role="group" aria-labelledby="letTitle"></div>
+            </div>
+        </section>
+
+        <section class="results" id="results" aria-labelledby="resTitle" tabindex="-1">
+            <div id="resultsBox"></div>
+        </section>
+    </div>
+
+    <aside class="exam" id="exam" aria-label="Το διαγώνισμά μου">
+        <h2>
+            <button type="button" class="exam-toggle" id="examToggle" aria-expanded="false" aria-controls="examBody">
+                <span>Το διαγώνισμά μου</span>
+                <span class="count" id="examCount">0</span>
+                <svg class="i chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>
+            </button>
+        </h2>
+        <div class="exam-body" id="examBody">
+            <div id="examList"></div>
+
+            <label class="field">Τίτλος εκτύπωσης
+                <input type="text" id="examTitle" placeholder="Θέματα Πανελλαδικών Εξετάσεων" autocomplete="off">
+            </label>
+            <label class="check"><input type="checkbox" id="showSource" checked> Εμφάνιση πηγής σε κάθε θέμα</label>
+
+            <div class="ex-actions">
+                <button type="button" class="btn btn-primary" id="printBtn">
+                    <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4a1 1 0 0 1-1-1v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1h-2M7 14h10v7H7z"/></svg>
+                    Εκτύπωση
+                </button>
+                <button type="button" class="btn" id="shareBtn">
+                    <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h3v3h-3zM20 14v3M14 20h3M20 20h1"/></svg>
+                    Κοινοποίηση
+                </button>
+                <button type="button" class="btn btn-quiet" id="clearBtn">Καθαρισμός διαγωνίσματος</button>
+            </div>
+        </div>
+    </aside>
+</main>
+
+<footer class="footer">
+    <div class="wrap">
+        <span>eisatopon.gr © 2025–<span id="yr">2026</span> – Τράπεζα Θεμάτων Πανελλαδικών</span>
+        <a href="https://github.com/Eisatopon/TRAPEZA-THEMATON" target="_blank" rel="noopener">Δεδομένα στο GitHub</a>
+    </div>
+</footer>
+
+<dialog id="shareDialog" aria-labelledby="shareTitle">
+    <h2 id="shareTitle">Κοινοποίηση του διαγωνίσματος</h2>
+    <p>Σκάναρε τον κωδικό ή στείλε τον σύνδεσμο. Ανοίγει την ίδια επιλογή θεμάτων.</p>
+    <div class="qr-box" id="qrBox"></div>
+    <input class="share-url" id="shareUrl" type="text" readonly aria-label="Σύνδεσμος κοινοποίησης">
+    <div class="copy-status" id="copyStatus" role="status"></div>
+    <div class="dlg-actions">
+        <button type="button" class="btn" id="copyBtn">Αντιγραφή συνδέσμου</button>
+        <button type="button" class="btn btn-primary" id="closeShare">Κλείσιμο</button>
+    </div>
+</dialog>
+
+<div id="printSheet" aria-hidden="true"></div>
+<div class="sr-only" id="srStatus" role="status"></div>
+
+<noscript><p style="padding:24px">Η σελίδα χρειάζεται JavaScript για να φορτώσει τα θέματα.</p></noscript>
+
+<script>
+(() => {
+'use strict';
+
+/* ==========================================================
+   Δεδομένα και σταθερές
+   ========================================================== */
+const BASE = 'https://raw.githubusercontent.com/Eisatopon/TRAPEZA-THEMATON/main/data/';
+const FIRST = 1983;
+const LAST = 2025;               // Αύξησέ το όταν προστεθεί νέα χρονιά
+const PAGE = 20;
+const STORAGE_KEY = 'eisatopon-panellinies:set:v1';
+
+const YEARS = [];
+for (let y = FIRST; y <= LAST; y++) YEARS.push(y);
+const YEARS_DESC = YEARS.slice().reverse();
+
+// Είδη εξετάσεων (σειρά γραμμών του πίνακα)
+const KINDS = [
+    { key: 'gel_main',            label: 'ΓΕΛ Ημερήσια' },
+    { key: 'gel_repeat',          label: 'ΓΕΛ Επαναληπτικές' },
+    { key: 'epal_main',           label: 'ΕΠΑΛ Ημερήσια' },
+    { key: 'epal_repeat',         label: 'ΕΠΑΛ Επαναληπτικές' },
+    { key: 'omogeneis',           label: 'Ομογενείς' },
+    { key: 'gel_esperino_repeat', label: 'ΓΕΛ Εσπερινά Επαναληπτικές', short: 'ΓΕΛ Εσπερινά' },
+    { key: 'gel_desmi_a',         label: 'Δέσμη Α΄ (1η)' },
+    { key: 'gel_desmi_d',         label: 'Δέσμη Δ΄ (4η)' }
+];
+const LETTERS = ['A', 'B', 'C', 'D'];
+const GREEK = { A: 'Α', B: 'Β', C: 'Γ', D: 'Δ' };
+const FROM_GREEK = { 'Α': 'A', 'Β': 'B', 'Γ': 'C', 'Δ': 'D' };
+
+const ICON = {
+    plus:  '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>',
+    check: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
+    up:    '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>',
+    down:  '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>',
+    x:     '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>'
+};
+
+/* ==========================================================
+   Κατάσταση
+   ========================================================== */
+const state = { year: LAST, kind: 'gel_main', letter: 'all', q: '' };
+const cache = new Map();      // έτος -> εγγραφές
+const inflight = new Map();
+const failed = new Map();
+const byUid = new Map();
+let selected = [];
+let shownUids = [];
+let limit = PAGE;
+let renderToken = 0;
+let loadedCount = 0;
+
+/* ==========================================================
+   Βοηθητικά
+   ========================================================== */
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const say = msg => { $('#srStatus').textContent = ''; setTimeout(() => { $('#srStatus').textContent = msg; }, 30); };
+const norm = s => String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ς/g, 'σ');
+
+const kindLabel = k => (KINDS.find(x => x.key === k) || { label: k }).label;
+const kindIndex = k => { const i = KINDS.findIndex(x => x.key === k); return i < 0 ? 99 : i; };
+const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+const countText = n => plural(n, 'θέμα', 'θέματα');
+const letterOf = p => GREEK[p.letter] || p.letter;
+
+function typeset(el) {
+    return new Promise(resolve => {
+        let tries = 0;
+        const go = () => {
+            if (window.MathJax && typeof MathJax.typesetPromise === 'function') {
+                const next = MathJax.startup.promise
+                    .then(() => MathJax.typesetPromise([el]))
+                    .catch(err => console.error('MathJax:', err));
+                MathJax.startup.promise = next;
+                next.then(resolve);
+            } else if (tries++ < 100) {
+                setTimeout(go, 150);
+            } else {
+                resolve();
+            }
+        };
+        go();
+    });
+}
+
+/* ---------- Επεξεργασία κειμένου θέματος ---------- */
+// Κάποιες εγγραφές έχουν το \n ως δύο χαρακτήρες. Οι εντολές LaTeX (\nu, \neq κ.λπ.) δεν πειράζονται.
+const LATEX_N = '(?:u|eq|e|ot|otin|eg|abla|i|mid|parallel|subset|subseteq|supset|rightarrow|Rightarrow|leftarrow|Leftrightarrow|leftrightarrow|leq|geq|less|gtr|cong|sim|approx|ewline|ewcommand|ormalsize|atural|VDash|vDash|vdash|exists|prec|succ|ge|le|mapsto)';
+const LITERAL_NL = new RegExp('\\\\n(?!' + LATEX_N + '(?![a-zA-Z]))', 'g');
+const THEME_LINE = /^(ΘΕΜΑ|Θέμα|ΖΗΤΗΜΑ|Ζήτημα|Ζητημα|THEMA|ZHTHMA|Thema)/;
+const HEAD_LINE = /ΕΞΕΤΑΣ|ΠΑΝΕΛΛΑΔ|ΑΠΟΛΥΤΗΡ|ΕΠΑΝΑΛΗΠΤ|ΕΙΣΑΓΩΓ|ΔΕΣΜΗ/i;
+
+function splitContent(raw) {
+    let c = String(raw || '').replace(/\r\n?/g, '\n');
+    if (!c.includes('\n')) c = c.replace(LITERAL_NL, '\n');
+    let system = '';
+    const m = c.match(/^\s*\*\*\[(ΠΑΛΑΙΟ|ΝΕΟ) ΣΥΣΤΗΜΑ\]\*\*[ \t]*\n?/);
+    if (m) { system = m[1] === 'ΠΑΛΑΙΟ' ? 'old' : 'new'; c = c.slice(m[0].length); }
+
+    const lines = c.split('\n');
+    const idx = lines.slice(0, 6).findIndex(l => THEME_LINE.test(l.trim()) && l.trim().length < 60);
+    let head = '', body;
+    if (idx > 0) { head = lines.slice(0, idx).map(l => l.trim()).filter(Boolean).join(', '); body = lines.slice(idx + 1); }
+    else if (idx === 0) { body = lines.slice(1); }
+    else if (HEAD_LINE.test(lines[0]) && lines[0].length < 320) { head = lines[0].trim(); body = lines.slice(1); }
+    else { body = lines; }
+    return { head, body: autoMath(body.join('\n').trim()), system };
+}
+
+// Λίγες παλιές εγγραφές (1995–97, 2001–02) έχουν τύπους χωρίς $: τους περικλείουμε ώστε να τους δείξει το MathJax
+function autoMath(text) {
+    if (text.includes('$')) return text;
+    const keep = [];
+    let s = text.replace(/\\begin\{([a-z*]+)\}[\s\S]*?\\end\{\1\}/g, m => { keep.push('$$' + m + '$$'); return `\u0001${keep.length - 1}\u0001`; });
+    s = s.replace(/\S*(?:\^\{|_\{|\\[a-zA-Z]{2,})\S*/g, run => {
+        let head = '', tail = '';
+        let m = run.match(/[.,;:!?]+$/);
+        if (m) { tail = m[0]; run = run.slice(0, -tail.length); }
+        const bal = r => (r.match(/\(/g) || []).length - (r.match(/\)/g) || []).length;
+        while (bal(run) < 0 && run.endsWith(')')) { tail = ')' + tail; run = run.slice(0, -1); }
+        while (bal(run) > 0 && run.startsWith('(')) { head += '('; run = run.slice(1); }
+        return run ? `${head}$${run}$${tail}` : head + tail;
+    });
+    return s.replace(/\u0001(\d+)\u0001/g, (x, i) => keep[+i]);
+}
+
+const Q1 = /^([ΑΒΓΔABCDΕ]\s?\d{1,2}[.)]?|[ΑΒΓΔ]\.)(\s+)/;
+const Q2 = /^(\(?[α-ω]{1,2}\)|\(?[ivx]+\)|\([α-ω]\))(\s+)/;
+
+function bodyHtml(body) {
+    const M = [];
+    let s = String(body).replace(/\$\$[\s\S]*?\$\$|\$[^$\n]*\$/g, m => { M.push(m); return `\u0000${M.length - 1}\u0000`; });
+    const out = [];
+    let lastBlank = false;
+    s.split('\n').forEach(line => {
+        const t = line.trim();
+        if (!t) { if (!lastBlank && out.length) out.push('<div class="sp"></div>'); lastBlank = true; return; }
+        lastBlank = false;
+        let cls = 'ln', html = esc(t);
+        let mm = t.match(Q1);
+        if (mm) { cls += ' q1'; html = `<span class="lab">${esc(mm[1])}</span>${mm[2]}` + esc(t.slice(mm[0].length)); }
+        else if ((mm = t.match(Q2))) { cls += ' q2'; html = `<span class="lab">${esc(mm[1])}</span>${mm[2]}` + esc(t.slice(mm[0].length)); }
+        html = html.replace(/(Μονάδες|Μον\.|μονάδες|μονάδα|μονάδες)\s*(\d+)/g, '<span class="pts">$1 $2</span>');
+        html = html.replace(/\u0000(\d+)\u0000/g, (x, i) => esc(M[+i]));
+        out.push(`<div class="${cls}">${html}</div>`);
+    });
+    return out.join('');
+}
+
+/* ==========================================================
+   Φόρτωση δεδομένων
+   ========================================================== */
+function normKind(exam) {
+    const e = String(exam || '');
+    return e === 'omogeneis_main' ? 'omogeneis' : e;
+}
+
+function loadYear(year) {
+    if (cache.has(year)) return Promise.resolve(cache.get(year));
+    if (inflight.has(year)) return inflight.get(year);
+
+    const p = fetch(`${BASE}${year}.json`)
+        .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
+        .then(txt => {
+            let data;
+            try { data = JSON.parse(txt); }
+            catch (e) { throw new Error(`Το αρχείο ${year}.json δεν είναι έγκυρο JSON`); }
+            if (!Array.isArray(data)) throw new Error('Μη αναμενόμενη μορφή δεδομένων');
+            const list = data.map((q, i) => {
+                const id = q.id ?? i + 1;
+                const parts = splitContent(q.content);
+                let letter = String(q.topic_letter || q.topic || 'A').trim().toUpperCase().charAt(0);
+                letter = FROM_GREEK[letter] || letter;
+                const kind = normKind(q.exam);
+                const subject = String(q.subject || '').replace(/^Math$/i, 'Μαθηματικά');
+                const p = {
+                    uid: `${year}.${id}`, year, id, kind, letter,
+                    subject, system: q.system || parts.system, bundle: q.bundle_name || '',
+                    head: parts.head, body: parts.body
+                };
+                p.hay = norm([p.head, p.body, kindLabel(kind), year, 'θεμα ' + (GREEK[letter] || letter), p.bundle, subject].join(' '));
+                byUid.set(p.uid, p);
+                return p;
+            });
+            list.forEach(p => { if (!KINDS.some(k => k.key === p.kind)) { KINDS.push({ key: p.kind, label: p.kind }); buildMatrix(); } });
+            cache.set(year, list);
+            failed.delete(year);
+            inflight.delete(year);
+            onYearSettled(year);
+            return list;
+        })
+        .catch(err => { inflight.delete(year); failed.set(year, err.message); onYearSettled(year); throw err; });
+
+    inflight.set(year, p);
+    return p;
+}
+
+/* ==========================================================
+   Πίνακας εξετάσεων
+   ========================================================== */
+let gridBtns = [];    // gridBtns[r][c]
+
+function buildMatrix() {
+    const mx = $('#mx');
+    mx.style.setProperty('--cols', YEARS.length);
+    let html = '<div class="mx-row"><span class="corner"></span>';
+    YEARS.forEach(y => {
+        const dec = (y % 10 === 0 || y === FIRST) ? `<span class="dec" aria-hidden="true">${y}</span>` : '';
+        html += `<button type="button" class="yh" data-yh="${y}" tabindex="-1" aria-label="Έτος ${y}, όλες οι εξετάσεις">${dec}${String(y).slice(2)}</button>`;
+    });
+    html += '</div>';
+    KINDS.forEach(k => {
+        html += `<div class="mx-row"><button type="button" class="rl" data-rl="${k.key}" tabindex="-1" aria-label="${esc(k.label)}, όλα τα έτη" title="${esc(k.label)}">${esc(k.short || k.label)}</button>`;
+        YEARS.forEach(y => {
+            html += `<button type="button" class="cell pend" data-year="${y}" data-kind="${k.key}" tabindex="-1" disabled aria-label="${y}, ${esc(k.label)}"></button>`;
+        });
+        html += '</div>';
+    });
+    mx.innerHTML = html;
+    // πίνακας κουμπιών για την πλοήγηση με βέλη
+    gridBtns = [...mx.children].map(row => [...row.children]);
+    YEARS.forEach(paintYear);
+    syncMatrix();
+}
+
+function paintYear(y) {
+    const list = cache.get(y);
+    const bad = failed.has(y);
+    const yh = $(`.yh[data-yh="${y}"]`);
+    if (yh) { yh.disabled = bad; if (bad) yh.title = 'Το αρχείο του έτους δεν φόρτωσε'; }
+    $$(`.cell[data-year="${y}"]`).forEach(c => {
+        const k = c.dataset.kind;
+        const n = list ? list.filter(p => p.kind === k).length : 0;
+        const was = c.classList.contains('on');
+        c.classList.toggle('pend', !list && !bad);
+        c.classList.toggle('err', bad);
+        c.classList.toggle('on', n > 0);
+        c.disabled = n === 0;
+        if (n > 0) {
+            c.title = `${y}, ${kindLabel(k)}: ${countText(n)}`;
+            c.setAttribute('aria-label', c.title);
+            if (!was) c.classList.add('pop');
+        }
+    });
+}
+
+function syncMatrix() {
+    $$('#mx .yh').forEach(b => b.classList.toggle('sel', state.kind === null && +b.dataset.yh === state.year));
+    $$('#mx .rl').forEach(b => b.classList.toggle('sel', state.year === null && b.dataset.rl === state.kind));
+    $$('#mx .cell').forEach(c => {
+        const y = +c.dataset.year, k = c.dataset.kind;
+        const pick = state.year === y && state.kind === k;
+        const line = !pick && ((state.year === y && state.kind === null) || (state.kind === k && state.year === null));
+        c.classList.toggle('pick', pick);
+        c.classList.toggle('line', line);
+        c.setAttribute('aria-pressed', String(pick));
+    });
+    // ένα μόνο κουμπί μπαίνει στη σειρά του Tab
+    const cur = $('#mx .cell.pick') || $('#mx .cell.on') || $('#mx .yh:not(:disabled)');
+    $$('#mx button').forEach(b => { b.tabIndex = -1; });
+    if (cur) cur.tabIndex = 0;
+
+    const done = YEARS.filter(y => cache.has(y)).length + failed.size;
+    $('#mxStatus').textContent = done < YEARS.length ? `Φόρτωση ${done} από ${YEARS.length} ετών` : '';
+}
+
+function gridPos(el) {
+    for (let r = 0; r < gridBtns.length; r++) { const c = gridBtns[r].indexOf(el); if (c >= 0) return [r, c]; }
+    return null;
+}
+$('#mx').addEventListener('keydown', e => {
+    const pos = gridPos(document.activeElement);
+    const moves = { ArrowLeft: [0, -1], ArrowRight: [0, 1], ArrowUp: [-1, 0], ArrowDown: [1, 0] };
+    if (!pos || !(e.key in moves || e.key === 'Home' || e.key === 'End')) return;
+    e.preventDefault();
+    let [r, c] = pos;
+    const R = gridBtns.length, C = gridBtns[0].length;
+    const ok = (rr, cc) => rr >= 0 && rr < R && cc >= 0 && cc < C && gridBtns[rr][cc] && gridBtns[rr][cc].tagName === 'BUTTON' && !gridBtns[rr][cc].disabled;
+    let target = null;
+    if (e.key === 'Home') { for (let cc = 0; cc < C && !target; cc++) if (ok(r, cc)) target = gridBtns[r][cc]; }
+    else if (e.key === 'End') { for (let cc = C - 1; cc >= 0 && !target; cc--) if (ok(r, cc)) target = gridBtns[r][cc]; }
+    else {
+        const [dr, dc] = moves[e.key];
+        let rr = r + dr, cc = c + dc;
+        while (rr >= 0 && rr < R && cc >= 0 && cc < C) { if (ok(rr, cc)) { target = gridBtns[rr][cc]; break; } rr += dr; cc += dc; }
+    }
+    if (target) { $$('#mx button').forEach(b => { b.tabIndex = -1; }); target.tabIndex = 0; target.focus(); }
+});
+
+/* ==========================================================
+   Φίλτρα
+   ========================================================== */
+function scoped() {
+    const years = state.year ? [state.year] : YEARS_DESC;
+    return years.flatMap(y => cache.get(y) || []).filter(p => !state.kind || p.kind === state.kind);
+}
+function matchesQuery(p) {
+    if (!state.q) return true;
+    return norm(state.q).split(/\s+/).filter(Boolean).every(t => p.hay.includes(t));
+}
+const matchesLetter = p => state.letter === 'all' || p.letter === state.letter;
+const filtersOn = () => state.letter !== 'all' || state.q.trim() !== '';
+
+function compare(a, b) {
+    if (a.year !== b.year) return b.year - a.year;
+    const ka = kindIndex(a.kind), kb = kindIndex(b.kind);
+    if (ka !== kb) return ka - kb;
+    const sa = a.system === 'old' ? 1 : 0, sb = b.system === 'old' ? 1 : 0;
+    if (sa !== sb) return sa - sb;
+    if (a.bundle !== b.bundle) return String(a.bundle).localeCompare(String(b.bundle), 'el');
+    const la = LETTERS.indexOf(a.letter), lb = LETTERS.indexOf(b.letter);
+    if (la !== lb) return la - lb;
+    return a.id - b.id;
+}
+
+function syncFilters() {
+    const base = scoped().filter(matchesQuery);
+    const counts = { A: 0, B: 0, C: 0, D: 0 };
+    base.forEach(p => { if (counts[p.letter] !== undefined) counts[p.letter]++; });
+    const ready = base.length > 0;
+    const chips = [`<button type="button" class="chip" data-letter="all" aria-pressed="${state.letter === 'all'}">Όλα<span class="n">${ready ? base.length : ''}</span></button>`]
+        .concat(LETTERS.map(l => `<button type="button" class="chip f-${l}" data-letter="${l}" aria-pressed="${state.letter === l}"><span class="lt" aria-hidden="true">${GREEK[l]}</span>Θέμα ${GREEK[l]}<span class="n">${ready ? counts[l] : ''}</span></button>`));
+    $('#letChips').innerHTML = chips.join('');
+}
+
+/* ==========================================================
+   Αποτελέσματα
+   ========================================================== */
+const box = () => $('#resultsBox');
+
+function scopeTitle() {
+    if (state.year && state.kind) return [String(state.year), kindLabel(state.kind)];
+    if (state.year) return [String(state.year), 'Όλες οι εξετάσεις του έτους'];
+    if (state.kind) return [kindLabel(state.kind), 'Όλα τα έτη'];
+    return ['Όλα τα θέματα', 'Όλα τα έτη και όλα τα είδη εξετάσεων'];
+}
+
+function headHtml(count) {
+    const [t, sub] = scopeTitle();
+    const wide = state.year !== null || state.kind !== null;
+    return `
+    <div class="res-head">
+        <h2 class="res-title" id="resTitle">${esc(t)}<span class="res-count">${count === null ? '' : countText(count)}</span><span class="sub">${esc(sub)}</span></h2>
+        <div class="res-actions">
+            ${filtersOn() ? '<button type="button" class="btn btn-sm btn-quiet" data-clear-filters>Καθαρισμός φίλτρων</button>' : ''}
+            ${wide ? '<button type="button" class="btn btn-sm" data-all-years>Όλα τα έτη και οι εξετάσεις</button>' : ''}
+            ${count && count <= 60 ? `<button type="button" class="btn btn-sm" data-add-all>${ICON.plus} Προσθήκη όλων (${count})</button>` : ''}
+        </div>
+    </div>`;
+}
+
+function problemHtml(p) {
+    const subj = /Προσανατολισμού|Άλγεβρα/.test(p.subject) ? p.subject : '';
+    return `
+    <article class="problem f-${p.letter}" id="p-${p.uid}">
+        <div class="p-head">
+            <div class="p-id">
+                <span class="p-let" aria-hidden="true">${letterOf(p)}</span>
+                <h4 class="p-num">Θέμα ${letterOf(p)}</h4>
+                ${p.bundle ? `<span class="p-tag plain">${esc(p.bundle)}</span>` : ''}
+                ${p.system === 'old' ? '<span class="p-tag plain">Παλαιό σύστημα</span>' : ''}
+                ${p.system === 'new' ? '<span class="p-tag plain">Νέο σύστημα</span>' : ''}
+                ${subj ? `<span class="p-tag plain">${esc(subj)}</span>` : ''}
+            </div>
+            <button type="button" class="btn btn-sm add" data-toggle-uid="${p.uid}" aria-pressed="false">
+                <span class="off">${ICON.plus} Προσθήκη</span>
+                <span class="on">${ICON.check} Στο διαγώνισμά μου</span>
+            </button>
+        </div>
+        <div class="statement">${bodyHtml(p.body)}</div>
+    </article>`;
+}
+
+function showLoading(text) {
+    box().innerHTML = headHtml(null) + `<div class="state" role="status"><span class="spinner" aria-hidden="true"></span><p id="loadText">${text}</p></div>`;
+}
+function neededYears() { return state.year ? [state.year] : YEARS; }
+function pendingYears() { return neededYears().filter(y => !cache.has(y) && !failed.has(y)); }
+function progressText() {
+    const need = neededYears();
+    const done = need.filter(y => cache.has(y) || failed.has(y)).length;
+    return need.length > 1 ? `Φόρτωση θεμάτων… ${done} από ${need.length} έτη` : 'Φόρτωση θεμάτων…';
+}
+
+function showYearError(year) {
+    const msg = failed.get(year) || 'Το αρχείο δεν φόρτωσε';
+    box().innerHTML = headHtml(null) + `
+        <div class="state error" role="alert">
+            <h3>Τα θέματα του ${year} δεν φορτώθηκαν</h3>
+            ${/έγκυρο JSON/.test(msg)
+                ? `<p>${esc(msg)}, οπότε το έτος δεν μπορεί να εμφανιστεί μέχρι να διορθωθεί το αρχείο. Τα υπόλοιπα έτη δουλεύουν κανονικά.</p>`
+                : `<p>${esc(msg)}. Έλεγξε τη σύνδεσή σου στο διαδίκτυο και δοκίμασε ξανά.</p><button type="button" class="btn btn-primary" data-retry>Δοκίμασε ξανά</button>`}
+        </div>`;
+}
+
+function renderResults() {
+    syncFilters();
+    const items = scoped().filter(p => matchesQuery(p) && matchesLetter(p)).sort(compare);
+    shownUids = items.map(p => p.uid);
+
+    if (!items.length) {
+        box().innerHTML = headHtml(0) + `
+            <div class="state">
+                <h3>Δεν βρέθηκαν θέματα</h3>
+                <p>${filtersOn() ? 'Δοκίμασε λιγότερες λέξεις ή άλλο Θέμα.' : 'Δεν υπάρχουν θέματα σε αυτή την επιλογή.'}</p>
+                <div class="actions">
+                    ${filtersOn() ? '<button type="button" class="btn" data-clear-filters>Καθαρισμός φίλτρων</button>' : ''}
+                    ${(state.year || state.kind) ? '<button type="button" class="btn btn-primary" data-all-years>Αναζήτηση σε όλα τα έτη</button>' : ''}
+                </div>
+            </div>`;
+        say('Δεν βρέθηκαν θέματα.');
+        return;
+    }
+
+    const shown = items.slice(0, limit);
+    const groups = new Map();
+    shown.forEach(p => { const k = p.year + '|' + p.kind; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(p); });
+    const single = groups.size === 1 && state.year && state.kind;
+
+    let html = headHtml(items.length);
+    if (failed.size && !state.year) {
+        html += `<p class="note">${failed.size === 1 ? 'Ένα έτος δεν φόρτωσε' : failed.size + ' έτη δεν φόρτωσαν'} (${[...failed.keys()].sort().join(', ')}), οπότε τα αποτελέσματα μπορεί να είναι ελλιπή.</p>`;
+    }
+
+    groups.forEach(arr => {
+        const first = arr[0];
+        const head = (arr.find(p => p.head) || {}).head || '';
+        if (single) {
+            if (head) html += `<p class="exam-src">${esc(head)}</p>`;
+        } else {
+            html += `<div class="yr-head"><h3><span class="yr">${first.year}</span><span class="kd">${esc(kindLabel(first.kind))}</span></h3>${head ? `<span class="src">${esc(head)}</span>` : ''}</div>`;
+        }
+        html += arr.map(problemHtml).join('');
+    });
+
+    if (items.length > shown.length) {
+        html += `<div class="more"><button type="button" class="btn" data-more>Περισσότερα θέματα (${items.length - shown.length} ακόμη)</button></div>`;
+    }
+
+    box().innerHTML = html;
+    syncAddButtons();
+    typeset(box());
+    say(`${countText(items.length)}.`);
+}
+
+async function refresh() {
+    const token = ++renderToken;
+    syncMatrix();
+    syncFilters();
+    if (state.year && failed.has(state.year) && !cache.has(state.year)) { showYearError(state.year); return; }
+    const need = pendingYears();
+    if (need.length) {
+        showLoading(progressText());
+        await Promise.allSettled(need.map(loadYear));
+        if (token !== renderToken) return;
+        if (state.year && failed.has(state.year) && !cache.has(state.year)) { showYearError(state.year); return; }
+    }
+    renderResults();
+}
+
+function onYearSettled(y) {
+    paintYear(y);
+    syncMatrix();
+    const t = $('#loadText');
+    if (t) t.textContent = progressText();
+}
+
+/* ==========================================================
+   Το διαγώνισμά μου
+   ========================================================== */
+const getSelected = () => selected.map(u => byUid.get(u)).filter(Boolean);
+function persist() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(selected)); } catch (e) { /* ιδιωτική περιήγηση */ } }
+function readSaved() {
+    try { const v = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); return Array.isArray(v) ? v.filter(x => typeof x === 'string') : []; }
+    catch (e) { return []; }
+}
+function syncAddButtons() {
+    $$('[data-toggle-uid]').forEach(b => b.setAttribute('aria-pressed', String(selected.includes(b.dataset.toggleUid))));
+}
+
+function renderExam() {
+    const items = getSelected();
+    $('#examCount').textContent = items.length;
+    $('#examList').innerHTML = items.length
+        ? `<ol class="ex-list">${items.map((p, i) => `
+            <li class="ex-item f-${p.letter}">
+                <span class="ex-n">${i + 1}</span>
+                <div class="ex-t"><strong>Θέμα ${letterOf(p)}</strong><span>${p.year}, ${esc(kindLabel(p.kind))}</span></div>
+                <div class="ex-ctl">
+                    <button type="button" class="icon-btn" data-up="${p.uid}" aria-label="Μετακίνηση πάνω: θέμα ${i + 1}" ${i === 0 ? 'disabled' : ''}>${ICON.up}</button>
+                    <button type="button" class="icon-btn" data-down="${p.uid}" aria-label="Μετακίνηση κάτω: θέμα ${i + 1}" ${i === items.length - 1 ? 'disabled' : ''}>${ICON.down}</button>
+                    <button type="button" class="icon-btn rm" data-remove="${p.uid}" aria-label="Αφαίρεση: θέμα ${i + 1}">${ICON.x}</button>
+                </div>
+            </li>`).join('')}</ol>`
+        : '<p class="ex-empty">Δεν έχεις προσθέσει θέματα. Πάτα «Προσθήκη» δίπλα σε όποιο θέμα θέλεις να μπει στο διαγώνισμα.</p>';
+    ['#printBtn', '#shareBtn', '#clearBtn'].forEach(s => { $(s).disabled = !items.length; });
+    syncAddButtons();
+    renderPrintSheet();
+}
+
+function changeSelection(fn, message) { fn(); persist(); renderExam(); if (message) say(message); }
+function toggleUid(uid) {
+    const p = byUid.get(uid);
+    const label = p ? `Θέμα ${letterOf(p)}, ${p.year}, ${kindLabel(p.kind)}` : 'Θέμα';
+    if (selected.includes(uid)) changeSelection(() => { selected = selected.filter(u => u !== uid); }, `${label}: αφαιρέθηκε από το διαγώνισμα.`);
+    else changeSelection(() => { selected.push(uid); }, `${label}: προστέθηκε στο διαγώνισμα.`);
+}
+function move(uid, delta) {
+    const i = selected.indexOf(uid), j = i + delta;
+    if (i < 0 || j < 0 || j >= selected.length) return;
+    changeSelection(() => { [selected[i], selected[j]] = [selected[j], selected[i]]; });
+    const btn = $(`[data-${delta < 0 ? 'up' : 'down'}="${uid}"]`);
+    if (btn && !btn.disabled) btn.focus();
+}
+
+/* ---------- Εκτύπωση ---------- */
+function renderPrintSheet() {
+    const items = getSelected();
+    const showSrc = $('#showSource').checked;
+    const title = $('#examTitle').value.trim() || 'Θέματα Πανελλαδικών Εξετάσεων';
+    $('#printSheet').innerHTML = items.length
+        ? `<header class="ps-head"><h1></h1><p>eisatopon.gr</p></header>` + items.map((p, i) => `
+            <section class="ps-item">
+                <div class="ps-num">${i + 1}.</div>
+                <div class="ps-body f-${p.letter}">
+                    ${showSrc ? `<p class="ps-src">Πανελλαδικές ${p.year}, ${esc(kindLabel(p.kind))}, Θέμα ${letterOf(p)}${p.system === 'old' ? ' (παλαιό σύστημα)' : ''}</p>` : ''}
+                    <div class="statement">${bodyHtml(p.body)}</div>
+                </div>
+            </section>`).join('')
+        : '';
+    const h1 = $('#printSheet h1');
+    if (h1) h1.textContent = title;
+    return typeset($('#printSheet'));
+}
+async function doPrint() { if (!selected.length) return; await renderPrintSheet(); window.print(); }
+
+/* ---------- Κοινοποίηση ---------- */
+const shareUrl = () => location.href.split(/[?#]/)[0] + '?set=' + selected.join(',');
+function openShare() {
+    if (!selected.length) return;
+    const url = shareUrl();
+    const qr = $('#qrBox');
+    qr.innerHTML = '';
+    try {
+        new QRCode(qr, { text: url, width: 220, height: 220, colorDark: '#3c1c55', colorLight: '#ffffff', correctLevel: QRCode.CorrectLevel.M });
+    } catch (e) {
+        qr.innerHTML = '<p>Το διαγώνισμα έχει πολλά θέματα και δεν χωράει σε κωδικό QR. Χρησιμοποίησε τον σύνδεσμο παρακάτω.</p>';
+    }
+    $('#shareUrl').value = url;
+    $('#copyStatus').textContent = '';
+    const dlg = $('#shareDialog');
+    if (typeof dlg.showModal === 'function') dlg.showModal(); else dlg.setAttribute('open', '');
+}
+async function copyLink() {
+    const input = $('#shareUrl');
+    try { await navigator.clipboard.writeText(input.value); }
+    catch (e) { input.select(); document.execCommand('copy'); }
+    $('#copyStatus').textContent = 'Ο σύνδεσμος αντιγράφηκε.';
+}
+
+function parseIncoming() {
+    const params = new URLSearchParams(location.search);
+    const out = [];
+    const set = params.get('set');
+    if (set) set.split(',').forEach(t => {
+        const [y, id] = t.split('.');
+        if (YEARS.includes(+y) && /^\d+$/.test(id || '')) out.push(`${+y}.${+id}`);
+    });
+    // Παλιά μορφή συνδέσμων: ?questions=1,2,3&year=2019
+    const legacy = params.get('questions'), ly = +params.get('year');
+    if (legacy && YEARS.includes(ly)) legacy.split(',').forEach(id => { if (/^\d+$/.test(id.trim())) out.push(`${ly}.${+id}`); });
+    return out;
+}
+async function hydrate(uids) {
+    const years = [...new Set(uids.map(u => +u.split('.')[0]))];
+    const results = await Promise.allSettled(years.map(loadYear));
+    const bad = new Set(years.filter((y, i) => results[i].status === 'rejected'));
+    return uids.filter(u => byUid.has(u) || bad.has(+u.split('.')[0]));
+}
+
+/* ==========================================================
+   Συμβάντα
+   ========================================================== */
+function setScope(year, kind) {
+    state.year = year; state.kind = kind; limit = PAGE;
+    refresh();
+}
+
+document.addEventListener('click', e => {
+    const t = e.target.closest('button');
+    if (!t) return;
+
+    if (t.classList.contains('cell')) { if (!t.disabled) setScope(+t.dataset.year, t.dataset.kind); return; }
+    if (t.dataset.yh) {
+        const y = +t.dataset.yh;
+        if (state.year === y && state.kind === null) setScope(null, null); else setScope(y, null);
+        return;
+    }
+    if (t.dataset.rl) {
+        if (state.year === null && state.kind === t.dataset.rl) setScope(null, null); else setScope(null, t.dataset.rl);
+        return;
+    }
+    if (t.dataset.letter !== undefined) { state.letter = t.dataset.letter; limit = PAGE; renderResults(); return; }
+    if (t.hasAttribute('data-clear-filters')) { state.letter = 'all'; state.q = ''; $('#q').value = ''; limit = PAGE; renderResults(); return; }
+    if (t.hasAttribute('data-all-years')) { setScope(null, null); return; }
+    if (t.hasAttribute('data-retry')) { failed.clear(); refresh(); return; }
+    if (t.hasAttribute('data-more')) { limit += PAGE; renderResults(); return; }
+
+    if (t.dataset.toggleUid) { toggleUid(t.dataset.toggleUid); return; }
+    if (t.hasAttribute('data-add-all')) {
+        const missing = shownUids.filter(u => !selected.includes(u));
+        if (missing.length) changeSelection(() => { selected.push(...missing); }, `Προστέθηκαν ${countText(missing.length)} στο διαγώνισμα.`);
+        return;
+    }
+    if (t.dataset.up) { move(t.dataset.up, -1); return; }
+    if (t.dataset.down) { move(t.dataset.down, 1); return; }
+    if (t.dataset.remove) { const uid = t.dataset.remove; changeSelection(() => { selected = selected.filter(u => u !== uid); }, 'Το θέμα αφαιρέθηκε από το διαγώνισμα.'); return; }
+});
+
+let qTimer = null;
+$('#q').addEventListener('input', e => {
+    clearTimeout(qTimer);
+    qTimer = setTimeout(() => {
+        state.q = e.target.value.trim(); limit = PAGE;
+        if (pendingYears().length) { refresh(); return; }
+        renderResults();
+    }, 200);
+});
+
+$('#printBtn').addEventListener('click', doPrint);
+$('#shareBtn').addEventListener('click', openShare);
+$('#copyBtn').addEventListener('click', copyLink);
+$('#closeShare').addEventListener('click', () => $('#shareDialog').close());
+$('#clearBtn').addEventListener('click', () => {
+    if (!selected.length) return;
+    if (!confirm('Να αφαιρεθούν όλα τα θέματα από το διαγώνισμα;')) return;
+    changeSelection(() => { selected = []; }, 'Το διαγώνισμα καθαρίστηκε.');
+});
+$('#showSource').addEventListener('change', renderPrintSheet);
+$('#examTitle').addEventListener('input', () => {
+    const h1 = $('#printSheet h1');
+    if (h1) h1.textContent = $('#examTitle').value.trim() || 'Θέματα Πανελλαδικών Εξετάσεων';
+});
+
+const examEl = $('#exam'), toggleEl = $('#examToggle');
+const wide = window.matchMedia('(min-width: 1024px)');
+function syncToggle() { toggleEl.setAttribute('aria-expanded', wide.matches ? 'true' : String(examEl.classList.contains('open'))); }
+toggleEl.addEventListener('click', () => { examEl.classList.toggle('open'); syncToggle(); });
+wide.addEventListener('change', syncToggle);
+
+/* ==========================================================
+   Εκκίνηση
+   ========================================================== */
+function centerPick() {
+    const el = $('#mx .cell.pick') || $('#mx .yh.sel');
+    const wrap = $('.mx-wrap');
+    if (!el || !wrap) return;
+    const a = el.getBoundingClientRect(), b = wrap.getBoundingClientRect();
+    wrap.scrollLeft += (a.left + a.width / 2) - (b.left + b.width / 2);
+}
+
+async function init() {
+    $('#yr').textContent = new Date().getFullYear();
+    $('#heroSub').textContent = `Μαθηματικά, ${FIRST}–${LAST}`;
+    $('#lede').textContent = 'Τα θέματα Μαθηματικών των Πανελλαδικών Εξετάσεων: ΓΕΛ, ΕΠΑΛ, Επαναληπτικές, Εσπερινά, Ομογενείς και οι παλιές Δέσμες. Διάλεξε εξέταση στον πίνακα, πρόσθεσε θέματα και φτιάξε το δικό σου διαγώνισμα.';
+
+    const incoming = parseIncoming();
+    const merged = [...readSaved()];
+    incoming.forEach(u => { if (!merged.includes(u)) merged.push(u); });
+    if (incoming.length) { state.year = +incoming[0].split('.')[0]; state.kind = null; }
+
+    buildMatrix();
+    centerPick();
+    syncToggle();
+    renderExam();
+
+    await refresh();
+
+    // Υπόλοιπη βάση στο παρασκήνιο: κάθε έτος που φορτώνει ανάβει τα κελιά του
+    const rest = YEARS_DESC.filter(y => !cache.has(y) && !inflight.has(y));
+    let idx = 0;
+    const worker = async () => {
+        while (idx < rest.length) {
+            const y = rest[idx++];
+            try { await loadYear(y); } catch (e) { /* καταγράφεται στο failed */ }
+        }
+    };
+    const restDone = Promise.all(Array.from({ length: 5 }, worker));
+
+    selected = merged;
+    const keep = new Set(await hydrate(merged));
+    selected = selected.filter(u => keep.has(u));
+    persist();
+    renderExam();
+
+    if (incoming.length) {
+        history.replaceState(null, '', location.href.split('?')[0]);
+        examEl.classList.add('open');
+        syncToggle();
+        say(`Φορτώθηκαν ${countText(incoming.length)} από κοινοποιημένο διαγώνισμα.`);
+    }
+    await restDone;
+    syncMatrix();
+}
+
+init();
+})();
+</script>
+</body>
+</html>

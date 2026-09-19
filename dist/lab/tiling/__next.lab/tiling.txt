@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[8500,["8500","static/chunks/8500-3953cc33eeceb44e.js","2207","static/chunks/app/lab/tiling/layout-5d8d8cf3cd418fcc.js"],""]
+2:I[8500,["500","static/chunks/500-c99b8dfd3de17c86.js","207","static/chunks/app/lab/tiling/layout-ffbf23e0d45fdd94.js"],""]
 3:I[7121,[],""]
 4:I[4581,[],""]
-0:{"rsc":["$","$1","c",{"children":[null,["$","div",null,{"style":{"background":"#050810","minHeight":"100vh"},"children":[["$","$L2",null,{"href":"/lab","style":{"position":"fixed","top":"16px","left":"16px","zIndex":1000,"color":"#25c491","fontSize":"13px","fontWeight":600,"textDecoration":"none","display":"flex","alignItems":"center","gap":"6px","opacity":0.75},"children":"← Lab"}],["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"5fpm35nesMesKDxq76ByF"}
+0:{"rsc":["$","$1","c",{"children":[null,["$","div",null,{"style":{"background":"#050810","minHeight":"100vh"},"children":[["$","$L2",null,{"href":"/lab","style":{"position":"fixed","top":"16px","left":"16px","zIndex":1000,"color":"#25c491","fontSize":"13px","fontWeight":600,"textDecoration":"none","display":"flex","alignItems":"center","gap":"6px","opacity":0.75},"children":"← Lab"}],["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"qbiS9eBz0N8WwpqylSDZ3"}

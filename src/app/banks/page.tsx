@@ -5,7 +5,7 @@ import MainNavbar from "@/components/MainNavbar";
 
 const banks = [
   {
-    href: "/banks/panelladikes",
+    href: "/banks/panelladikes-bank/",
     emoji: "📚",
     title: "Greek University Entrance Exams",
     subtitle: "Mathematics 1983–2025",
