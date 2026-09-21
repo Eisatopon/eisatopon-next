@@ -2,4 +2,4 @@
 2:I[8500,["500","static/chunks/500-c99b8dfd3de17c86.js","381","static/chunks/app/lab/rubik-cube/layout-ffbf23e0d45fdd94.js"],""]
 3:I[7121,[],""]
 4:I[4581,[],""]
-0:{"rsc":["$","$1","c",{"children":[null,[["$","$L2",null,{"href":"/","style":{"position":"fixed","top":"16px","left":"16px","zIndex":1000,"color":"#c9a227","fontSize":"13px","fontWeight":600,"textDecoration":"none","display":"flex","alignItems":"center","gap":"6px","opacity":0.75},"children":"← EisatoponAI"}],["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"_mUHmQeRgJJW9D5z9arpH"}
+0:{"rsc":["$","$1","c",{"children":[null,[["$","$L2",null,{"href":"/","style":{"position":"fixed","top":"16px","left":"16px","zIndex":1000,"color":"#c9a227","fontSize":"13px","fontWeight":600,"textDecoration":"none","display":"flex","alignItems":"center","gap":"6px","opacity":0.75},"children":"← EisatoponAI"}],["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"C5urZvQfYM11X7dKGuIhF"}
