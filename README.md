@@ -39,4 +39,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 The platform source is maintained in `Eisatopon/Platforma-Mathimatikon`. The publishing workflow builds it into `public/platforma/` and records its source revision in `public/platforma/.source-commit`.
 
-The validated `g9-b1-2` lesson (segment ratios, interior division and unit conversion, source `0365fa613c86008ec040d1abb361e6426c864e19`) is included in publication commit `6f90c8a1f76906ac32967c729a47d034e0abc0b7`. Verify the production deployment after the generated files have been committed; the workflow's earlier triggering commit does not yet contain those files.
+The validated `g9-b1-3` lesson (Thales theorem, exact draggable construction, equivalent proportions and converse, source `e209fef19932269b1f525b99d18a00da1b4fbec1`) is included in publication commit `d5c7b5d8e22f4cd82643d43ab6efda046490e37d`. Verify the production deployment after the generated files have been committed; the workflow's earlier triggering commit does not yet contain those files.
