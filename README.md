@@ -34,3 +34,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Mathematics platform publication
+
+The platform source is maintained in `Eisatopon/Platforma-Mathimatikon`. The publishing workflow builds it into `public/platforma/` and records its source revision in `public/platforma/.source-commit`.
+
+The validated `g9-a5-2` lesson (sample spaces and events, source `638379e31baaf9cc7dc7c35ee07047c677fd6b4a`) is included in publication commit `7a3c27954f04faac11a05f406d002aa648decba7`. Verify the production deployment after the generated files have been committed; the workflow's earlier triggering commit does not yet contain those files.
