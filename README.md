@@ -39,4 +39,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 The platform source is maintained in `Eisatopon/Platforma-Mathimatikon`. The publishing workflow builds it into `public/platforma/` and records its source revision in `public/platforma/.source-commit`.
 
-The validated `g9-a5-3` lesson (classical probability and experimental frequency, source `aca93dbfed0bff619a4845e3fbf76eab0e474602`) is included in publication commit `4e03236ed39fff194b21321dec3e039b5123fe17`. Verify the production deployment after the generated files have been committed; the workflow's earlier triggering commit does not yet contain those files.
+The validated `g9-b1-1` lesson (triangle congruence, exact constructions and proofs, source `4858df466c83410c3ca17c9f8111129be19f7047`) is included in publication commit `e4f27fd3e58c12cd9bcafc72a24f88dd04d876b7`. Verify the production deployment after the generated files have been committed; the workflow's earlier triggering commit does not yet contain those files.
